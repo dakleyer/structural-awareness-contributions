@@ -251,3 +251,103 @@ This extends the existing interval-repair unit; it is not another defect ID or a
 ````
 
 **Acceptance:** select D26-C01 as a two-file unit: the original predicate pair plus this test addition. Revalidate both source blobs, preserve every other span and run the full suite; retain the original published report and compare the candidate separately. Software regression is not Stage C deployment or human validation. I-01 stays open until actual source adoption/readback is verified.
+
+
+<a id="review-28-october-2026"></a>
+## Current-source reconciliation and promotion queue — 28 October 2026
+
+Codex, AI-assisted delta review requested by Iván. This entry updates the disposition of the existing proposals; their original arguments and literal pairs remain visible. Source repairs, implementation in a source branch and incorporation into main are distinct states.
+
+### What changed in the existing candidates
+
+| Existing unit | Current receiving evidence | Current disposition |
+|---|---|---|
+| D26-C01 / I-01, M27-01/02 | PR64 at `19072ab` adds strict empty bounds and a joint-evidence screen; 66 tests pass in this re-execution, frozen synthetic report equal | PR64 is the one current source-repair candidate. The old predicate-only plan is historical/partial, not a competing implementation wave. No main incorporation yet. |
+| D26-C04/C05, D26-F08 | PR60 at `3a846c6`, 02 §4.1 and 03 P3/stages04–05, uses current A together with eligible Q and preserves the Q-only lemma | IMPLEMENTED IN SOURCE BRANCH; review/merge pending. Do not apply the old pairs a second time. |
+| D26-C06/C07, D26-F09 | PR60's 05 companion paragraph and 06 M-UC21 row now preserve native UC21 R0/R1/R2 and actual DDS failure/passing-predecessor gates | IMPLEMENTED IN SOURCE BRANCH; review/merge pending. Receiving DDS VNext records the same state. |
+| D26-F02 | Main pins the P5 matrix runner; native run 40546671257 actually completes Python3.9/3.12/3.13, including fixture validation and regression execution | The current setup/execution blocker is RESOLVED. The earlier failed, unexecuted run remains historical evidence, not a current missing execution. |
+| TAX26-01–09 | All nine old units remain unique; none of the proposed units is present in current main | Still source-selection candidates. TAX26-07's enclosing method index changed to S2 work-orderv0.2.2 outside its unit; the old/proposed unit still fits the source as read. |
+
+### D28-F01 — make the floating-point boundary concrete
+
+The exact-arithmetic pairwise feasibility lemma is valid. Its binary64 implementation can nevertheless accept inconsistent encoded data at a rounded boundary. With L=0.1, dx=0.1 and dy=L*dx, the stored dy is 0.010000000000000002. Treating the stored numbers as exact real inputs gives `Fraction(dy) > Fraction(L)*Fraction(dx)`, with positive excess about 8.326672684688674e-19. Two exact-position witnesses `(0,0)` and `(dx,dy)` cannot belong to one L-Lipschitz function. PR64 nevertheless returns `CONSISTENT` and `LOCALLY_SUPPORTED_TRUE` at query x=0, threshold 0, bounds [0,0]. This reproduces the numerical limitation anticipated in the PR58 review comment; it is not a counterexample to the abstract exact lemma.
+
+Run this self-contained check against the pinned PR64 module; it does not write results:
+```python
+from fractions import Fraction
+from metacognition import Frame, Point, DecisionQuestion, qualify
+L = dx = 0.1
+dy = L * dx
+assert Fraction(dy) > Fraction(L) * Fraction(dx)
+f = Frame("x", "v1", 5, 5, 0, 2, L, True)
+points = (Point("p1", "s1", "x", "v1", 4, 0, 0, 0, 0),
+          Point("p2", "s2", "x", "v1", 4, dx, dx, dy, dy))
+print(qualify(f, DecisionQuestion(0, 0), points)["local_answer_status"])
+# Current PR64: LOCALLY_SUPPORTED_TRUE
+```
+
+**Priority:** First technical review; expected impact High, risk Medium, effort Medium pending policy selection. The benefit is a precise boundary on a claimed certificate. Numeric comparison policy affects both joint feasibility and query bounds; do not patch only this product or restore a blanket epsilon that reopens the tiny-empty-interval defect. Choose and validate a coherent exact-arithmetic, outward-rounded-interval or explicitly margin-qualified contract before calling the implementation an exact certificate. No complete runtime patch is declared ready here. All 66 existing tests and the frozen report retain their actual positive results.
+
+### D28-C01 — strengthen one existing positive-control assertion
+
+Source: PR64 `19072ab`, `studies/scoped-closure-metacognition-v0.1/test_metacognition.py`, `LocalSufficiency.test_uncertain_source_positions_robustly_compatible`. The current negative assertion would accept other incorrect statuses. Assert the expected TRUE result directly. Expected impact Medium / risk Low / effort Low; First test-maintenance selection. A private assertion-only candidate passes all 66 tests; original source copies and the frozen report are intact. This improves test discrimination; it does not fix D28-F01. Dependency: apply against the selected PR64 source edition only. Iván's named wave remains the implementation decision.
+
+**Texto antes — viejo**
+
+````python
+    def test_uncertain_source_positions_robustly_compatible(self):
+        points=(sample(y_min=0,y_max=2),
+                sample(claim_id="p2",origin_id="s2",x_min=0,x_max=2,y_min=1,y_max=1))
+        result=qualify(frame(),q(x=1,threshold=0),points)
+        self.assertNotEqual(result["local_answer_status"],"JOINT_CONSISTENCY_NOT_ESTABLISHED")
+````
+
+**Texto después — propuesto**
+
+````python
+    def test_uncertain_source_positions_robustly_compatible(self):
+        points=(sample(y_min=0,y_max=2),
+                sample(claim_id="p2",origin_id="s2",x_min=0,x_max=2,y_min=1,y_max=1))
+        result=qualify(frame(),q(x=1,threshold=0),points)
+        self.assertEqual(result["local_answer_status"],"LOCALLY_SUPPORTED_TRUE")
+````
+
+### D28-C02 — keep the audit's own short DDS description consistent
+
+Source: PR58 `5046bbf`, round 11 G-01/F-01 point3, final sentence. That short sentence again compresses UC21 and DDS into R1/R2/R3, while PR60 now correctly separates them. Its preceding paired-process comparison remains useful and is preserved. Expected impact High / risk Low / effort Low; First documentary selection. Change only this sentence; no result, protocol gate or source label is relabelled elsewhere. Current round 12 receives this clarification; replacing the short original unit is still a named text selection.
+
+**Texto antes — viejo**
+
+````text
+Separar escenario R1 actual, R2 configurado de forma óptima y R3 contrafáctico condicionado por cambio de régimen cuando se aplique UC21/DDS, sin cambiar unilateralmente los recursos.
+````
+
+**Texto después — propuesto**
+
+````text
+Mantener los identificadores nativos UC21 R0/R1/R2 separados del recorrido prospectivo DDS R1/R2/R3. En DDS, R1 es la configuración inicial competente; R2 se admite tras un fallo R1 real registrado; R3 parte de un predecesor que realmente pasa y está congelado antes del cambio material independiente. Comparar las políticas adaptativas con información, permisos y coste completo registrados, sin cambiar unilateralmente los recursos.
+````
+
+### IP-31 — localize the accepted H5 scope at the historical headline
+
+Reuse the existing IP-31 identity from round 9, not a second alternative. Source: PR58 `5046bbf`, the historical F-02 heading. Keep the heading and all following evidence; add the following current-reading note immediately after it. Expected impact High / risk Low / effort Low; First documentary selection. Claude accepted this scope as the text's AI-assisted author; that agreement is not Iván's implementation GO. The benefit is preventing a fixture-specific economic observation from being quoted as an impossibility claim about the mathematical programme. The addition below is the complete affected heading context plus note, leaving the rest unchanged.
+
+**Texto antes — viejo**
+
+````text
+### F-02 · Alta · `ABIERTO` — La única vía hacia un diferencial agéntico es H5, que no está probada y además no compara arquitecturas
+````
+
+**Texto después — propuesto**
+
+````text
+### F-02 · Alta · `ABIERTO` — La única vía hacia un diferencial agéntico es H5, que no está probada y además no compara arquitecturas
+
+**Lectura vigente de F-02.** La observación sobre h y AG-H5 se refiere a la vía económica representada por ese instrumento y a su parametrización común. No agota los resultados de expresividad, suficiencia informativa ni construcción de reglas del programa matemático. La hipótesis de menor coste de reconfiguración requiere evidencia propia; formular h por brazo hace explícita una hipótesis, pero no la demuestra.
+````
+
+### Other interpretation cards and remaining scientific work
+
+All 36 round 9 before-units remain unique in their respective current sources; two are retained-reference cards, not changes. No proposed replacement is already present. Five source-file blobs have advanced (IP-27/29/30/31/32), while these old units still match. Read them in their updated A+Q and rounds 10/11 context before selection. The JSON registry's33 generic owner-route instructions and absence of per-card impact/risk/effort fields are preparation work still to complete; the guide's first-wave suggestion is useful but does not make all 31replacement candidates execution-ready. IP-30/32 agreement and round 11's related clarification are retained: select any further wording only where it still improves that specific reading, avoiding repeated caveats.
+
+The source-native studies, adverse conventional outcomes and positive conditional mathematics are preserved. G-01/F-01 still need a full-process acquisition/adaptation comparison for claims about that dimension. H-03's depth/access intervention, PR62's new positioning/constraint-relaxation/learning-loop hypotheses, M27's dynamic developments and incomplete historical-source adjudications remain actual research/review tasks, not tests already performed by this delta check. The current math-audit companion still defaults its result/cache into its audit folder; use explicit private output/cache paths during any rerun until that I/O proposal is separately prepared. No new experiment or campaign is launched here.

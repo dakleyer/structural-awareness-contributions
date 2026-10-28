@@ -19198,3 +19198,10 @@ The direct Panodyssey publication also adds a presentation reading layer while p
 D26-F09 contrasts PR60 study05/matrix with this profile's namespace paragraph and DDS-MR-01eligibility. UC21 keeps native R0/R1/R2; prospective DDS uses R1 competent initial, R2 repair after actual R1 failure, R3 material stress of a passing frozen predecessor. Known failure disclosure for repair and a blinded later scored realization are separate opportunities; no predecessor PASS may be invented.
 
 Exact C06/C07 pairs live in the [single 01I owner review](./baseline/01I_VNext.md#exact-source-candidates-for-the-pr60-cut). This receiving source is unchanged. Prior C02/C03 bookmark proposals remain separate; no historical run is relabelled or executed.
+
+
+## Receiving PR60 and current DDS comparison wording — 28 October 2026
+
+Cross-review with [01I's current reconciliation](./baseline/01I_VNext.md#review-28-october-2026): PR60at3a846c6 has incorporated D26-C06/C07 in its source 05 paragraph and06 M-UC21 row. Native UC21 R0/R1/R2 is separate from prospective DDS R1/R2/R3; actual failed R1, genuine repair and an actually passing frozen predecessor are explicit gates. Record these as implemented in the source branch, pending review/merge; do not run the older proposed substitutions again.
+
+Main's S2 work orderv0.2.2now distinguishes published known-case agreement from an admissible prospective, full-cost comparison and links the already approved S10successor without duplicating all gate assessments. A14's original symbolic branch outputs are preserved. R11's short audit sentence still compresses UC21/DDS; the complete one-sentence correction is D28-C02 in 01I. The audit receives its intended scope without changing source-native routes or retrospectively relabelling campaigns. Actual native run/admission evidence, prospective effects, costs and independent depth/access tests remain required where their claims depend on them.
