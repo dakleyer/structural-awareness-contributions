@@ -92,6 +92,50 @@ class LocalSufficiency(unittest.TestCase):
         new=qualify(frame(),q(),(sample(),p2))["conditional_answer_bounds"]
         self.assertTrue(new[0]>=old[0] and new[1]<=old[1])
         self.assertEqual(new,[9,9])
+    def test_sub_ulp_joint_conflict_cannot_certify_truth(self):
+        # In binary64, 1 + 2**-54 rounds to 1; the actual finite claims
+        # require a Lipschitz slope strictly greater than 1.
+        eps=2.0**-54
+        points=(sample(y_min=1,y_max=1),
+                sample(claim_id="p2",origin_id="s2",x_min=1,x_max=1,
+                       y_min=-eps,y_max=-eps))
+        result=qualify(frame(lipschitz=1),q(x=0,threshold=1),points)
+        self.assertEqual(result["local_answer_status"],
+                         "EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT")
+        self.assertIsNone(result["conditional_answer_bounds"])
+
+    def test_sub_ulp_threshold_crossing_remains_undetermined(self):
+        # 1 - 2**-54 is strictly below the threshold 1, even if
+        # nearest-float arithmetic rounds the computed lower bound to 1.
+        eps=2.0**-54
+        result=qualify(frame(lipschitz=eps),q(x=1,threshold=1),
+                       (sample(y_min=1,y_max=1),))
+        self.assertEqual(result["local_answer_status"],
+                         "UNDETERMINED_FROM_AVAILABLE_EVIDENCE")
+        lower,upper=result["conditional_answer_bounds"]
+        self.assertLess(lower,1)
+        self.assertGreater(upper,1)
+
+    def test_decimal_rounding_cannot_create_threshold_certificate(self):
+        # Exact arithmetic preserves the supplied finite 0.1 and 0.9.
+        # The exact represented lower 1 - 0.1 is below represented 0.9.
+        result=qualify(frame(lipschitz=0.1),q(x=1,threshold=0.9),
+                       (sample(y_min=1,y_max=1),))
+        self.assertEqual(result["local_answer_status"],
+                         "UNDETERMINED_FROM_AVAILABLE_EVIDENCE")
+
+    def test_unrepresentable_calculated_bound_abstains(self):
+        # Each input is finite but L * distance exceeds binary64 range.
+        result=qualify(frame(lipschitz=1e308,domain_max=1e308),
+                       q(x=1e308,threshold=0), (sample(y_min=1,y_max=1),))
+        self.assertEqual(result["local_answer_status"],
+                         "NUMERICAL_BOUNDS_NOT_REPRESENTABLE")
+        self.assertIsNone(result["conditional_answer_bounds"])
+        review=advisory(result["local_answer_status"],owner_authorized=True,
+                        actor_consent="GRANTED",solidarity_elected=False,
+                        nonwaivable_rights_preserved=True)
+        self.assertFalse(review["automatic_action"])
+
     def test_tiny_empty_intersection_cannot_certify_truth(self):
         points=(sample(y_min=1e-13,y_max=1e-13),
                 sample(claim_id="p2",origin_id="s2",y_min=0,y_max=0))
