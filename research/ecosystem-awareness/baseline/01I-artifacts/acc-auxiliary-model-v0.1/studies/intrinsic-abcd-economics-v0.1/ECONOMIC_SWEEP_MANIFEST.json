@@ -55,6 +55,12 @@
           "b_transmission": "1"
         }
       }
+    ],
+    "capacity_patterns": [
+      {
+        "id": "selected-spare",
+        "mode": "selected"
+      }
     ]
   },
   "agentic": {
