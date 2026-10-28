@@ -1,4 +1,4 @@
-# DDS-S2-EA-01 — Independent S2 mobility / Ecosystem Awareness requirements review (v0.2.1)
+# DDS-S2-EA-01 — Independent S2 mobility / Ecosystem Awareness requirements review (v0.2.2)
 
 **Status:** WORK ORDER PREPARED FOR INDEPENDENT ASSIGNMENT-READINESS CHECK — reviewer **UNASSIGNED**, no independent findings yet; submission/publication requires agreement.  
 **Home:** Ecosystem Awareness → DDS → review-packets/DDS-S2-EA-01. This is the **third bounded review task**, distinct from [DDS-MR-01 (method audit)](../DDS-MR-01/README.md), the Thales capability pre-review and any actual product execution.  
@@ -13,7 +13,7 @@
 |---|---|---|
 | Establish the case | Original S2, frozen S/T requirements and 00F | Six sourced Q0–Q5 adequacy rows |
 | Examine conditional traversals | DDS method and existing 00L record | Three on-paper R1/R2/R3 rows; no invented execution |
-| Challenge the conclusion | N1/N2, corrected A14 paired trace and A23 ceiling | Negative controls, recorded peer tie, one bounded counterexample |
+| Challenge the conclusion | N1/N2, corrected A14 paired trace and A23 ceiling | Negative controls, known-case branch agreement, one bounded counterexample |
 | Hand in one record | Follow the agreed §6 private or consented public route | One completed template and source pins |
 
 Complete **one documentary adequacy audit**, approximately **4–6 hours** (planning estimate, subject to reviewer acceptance):
@@ -21,7 +21,7 @@ Complete **one documentary adequacy audit**, approximately **4–6 hours** (plan
 1. Read the **required pinned sources** in §1, especially the source-native S2 case, frozen S1–S14/T1–T4 requirements, 00F Q0–Q5 and its existing 00L replay.
 2. Complete **six gate rows Q0–Q5** in the [review template](./REVIEW_RECORD_TEMPLATE.md): for each gate, identify the requirement text, expected decision, credible counterexample, and whether the words actually oblige that behaviour.
 3. Complete **three DDS-position rows R1/R2/R3**: adequacy **on paper**, entry/preparation assumptions, costs and information boundary. Do **not** grant a test PASS merely because requirements sound sufficient.
-4. Evaluate the two mandatory adverse probes **N1/N2**, including the **strong conventional-peer tie already recorded in 00L**. Give **at least one** precise counterexample or explicitly explain why none was found in this narrow review.
+4. Evaluate the two mandatory adverse probes **N1/N2**, including the **known-case symbolic agreement already recorded for the strong peer in 00L**. Give **at least one** precise counterexample or explicitly explain why none was found in this narrow review.
 5. Submit **one findings document** using the agreed restricted or consented public route in §6. Do not edit frozen cases, S#/T#/H# requirements, 00F variants, executable fixtures or DDS methodology in this task.
 
 **Effort agreement:** the provisional 4–6 hours includes required reading, source checking and response tables. Confirm language support and methodological fit before accepting the estimate; agree a narrower scope or revised effort if needed. Page guidance applies to the findings narrative, not a cap that omits required tables.
@@ -45,6 +45,14 @@ All required technical documents below are pinned to **Contributions commit `b05
 | I — optional cost detail | [00D comparator / §4.2](https://github.com/dakleyer/structural-awareness-contributions/blob/b056bd621262edc3a026fd21780c866afb22b1d5/research/ecosystem-awareness/baseline/00D_CANONICAL_ARCHITECTURE_BENCHMARK_AND_REFERENCE_SCENARIO_EVIDENCE_v0.2.md) · [DDS Stage A §§10a,17](https://github.com/dakleyer/structural-awareness-contributions/blob/b056bd621262edc3a026fd21780c866afb22b1d5/research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1.md) | Matched comparator, full-cost horizon, source namespace and minimum prospective run record. |
 
 For technology context only: [FIWARE / NGSI-LD profile](https://github.com/dakleyer/structural-awareness-contributions/blob/b056bd621262edc3a026fd21780c866afb22b1d5/research/ecosystem-awareness/baseline/00F_A01_FIWARE_NGSI_LD_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md) and [AWS IoT/TwinMaker profile](https://github.com/dakleyer/structural-awareness-contributions/blob/b056bd621262edc3a026fd21780c866afb22b1d5/research/ecosystem-awareness/baseline/00F_A02_AWS_IOT_TWINMAKER_CORE_IMPLEMENTATION_PROFILE_v0.2_DRAFT.md). They are **design assessments**, not evidence either product failed or passed.
+
+### Already approved S10 context — avoid duplicate review work
+
+The [owner-approved working successor of 12 October 2026](https://github.com/dakleyer/structural-awareness-contributions/blob/b056bd621262edc3a026fd21780c866afb22b1d5/research/ecosystem-awareness/baseline/00_REQUIREMENTS_WORKING_SUCCESSOR_2026-10-12.md) is available at the same technical source cut. It preserves the frozen predecessor as a separate edition and adds an approval/provenance note plus this S10 sentence:
+
+> Where execution relies on a requalification, preserve a demonstrable binding between the requalified decision basis and the basis consumed by execution; a material intervening change reopens the affected qualification before the action relies on it.
+
+For an issue already addressed by this documented delta, preserve the finding about the frozen text and add one brief cross-reference saying whether the explicit successor wording addresses it. Do not repeat all six gate assessments, produce a second report or assume extra effort. Any broader successor review needs a separate scope/effort agreement; the original frozen source and earlier results are not silently replaced or regraded.
 
 ### English navigation aid for original Spanish-language 00L evidence
 
@@ -92,7 +100,9 @@ For each gate, start from **00F §6** and canonical requirements §§2–6, **qu
 | **R2, repaired** | **If a real R1 failure exists**, are the same S/T rules precise enough to guide a strong, feasible repair, including source semantics, composition, scoped fallback and requalification? | The peer may learn its known R1 failure, search multiple configurations and tune to it. Record diagnosis, failed attempts, human engineering, tools, integration, verification, operations and amortization. `NOT_MEASURED ≠ 0`; a technical PASS is separate from full Cost–Risk–Effectiveness. No eligible demonstrated fail = `NOT_ADMITTED` as an actual run. |
 | **R3, change not revealed** | **If an eligible predecessor actually PASSES and is frozen**, are the obligations strong enough to requalify when a subsequent material event arrives **without prior knowledge of the exact scored variant**? | Family/allowed ranges and general controls may be known; exact realization, seed and oracle held by independent custodian. Public **00F V8** can be discussed as an old example but **cannot** be scored as secret R3. Before selector commitment, freeze, exposure log and observed effects: `NOT_ADMITTED / NOT_EXECUTED`. |
 
-There is no requirement to make a specific peer lose. A strong peer that detects and responds with equal/better cost and effect **removes any claimed EA differential**, even if the requirements themselves are coherent. If cost/effect data are missing, mark the comparative result `NO_CONCLUSION`. Do not presume zero cost, perfect preparation, universal visibility or a city-wide supercontroller.
+**Apply the [DDS prospective-comparison rule](../../DDS_CANONICAL_METHOD_INDEX_v0.1.md#ex-ante-comparison-discipline-for-differential-findings-23-october-2026), not an unqualified tie rule.** A result on an already specified case, or after disclosure and a tailored repair, establishes known-case solvability only; it does not show equal ability to recognize and requalify a later unknown material change. R2 may legitimately learn the observed R1 failure, but diagnosis, unsuccessful attempts, expertise, integration and sustained readiness are charged.
+
+The relevant longitudinal comparison freezes both arms' generic adaptive policies before the independently selected future change. Neither arm receives the selected answer or an uncharged failure-specific repair. A competent peer matching or beating EA in an admissible blind prospective comparison at equal/lower all-in burden is a negative differential finding **for those tested conditions**. The published A14 pair establishes neither that prospective parity nor a record of asymmetric foreknowledge. If preparation, exposure, costs or effects are missing, mark the corresponding comparative conclusion `NO_CONCLUSION`.
 
 ## 5. Two falsifiers and the existing adverse result
 
@@ -100,7 +110,7 @@ There is no requirement to make a specific peer lose. A strong peer that detects
 
 **N2 — fake blinded differential.** A reviewer recycles the **published V8** as “unanticipated blind R3”, lets one participant tune specifically to V8 for free, and concludes that EA defeated the alternative. Identify the **foreknowledge/custody violation**, missing legitimate R2/R3 adaptation cost and missing real matched effect. Give the correct `INVALID_BLIND_CLAIM / NOT_ADMITTED` disposition.
 
-**Mandatory evidence check (00L):** Read the corrected A14 JSONL for **00F**. `fire_slot=10`: reference and strong peer both `REQUALIFY`; `fire_slot=11`: both `EXECUTE_ALL`. The intentionally weak peer makes the wrong negative-branch decision. The shared strong peer **ties** the reference on this limited symbolic pair. It is **not V8 drift**, independent technology validation or proof EA wins. State this **adverse/tie** result, including its scope, even if you otherwise find good specification coverage.
+**Mandatory evidence check (00L):** Read the corrected A14 JSONL for **00F**. `fire_slot=10`: reference and strong peer both `REQUALIFY`; `fire_slot=11`: both `EXECUTE_ALL`. The intentionally weak peer makes the wrong negative-branch decision. The shared strong peer matches the reference on this **published, already specified symbolic pair**. It is **not V8 drift**, independent technology validation or proof EA wins. Preserve the branch outputs with the known-case inference limit in §4: this is not a blind prospective tie, an all-in readiness comparison or evidence of unrecorded asymmetric foreknowledge.
 
 **A23 countermodel boundary:** inspect whether any S2 “all S/T requirements satisfied, therefore all P1–P6 hold” claim would exceed [A23](https://github.com/dakleyer/structural-awareness-contributions/blob/b056bd621262edc3a026fd21780c866afb22b1d5/research/ecosystem-awareness/baseline/00K_A23_CANONICAL_REQUIREMENT_CONFORMANCE_SUFFICIENCY_P1_P6_v0.1.md). **P3/P5/P6 semantic implication is open**. You need not solve A23; flag unjustified extrapolation and any specific S2 dependency on it.
 
@@ -115,6 +125,6 @@ There is no requirement to make a specific peer lose. A strong peer that detects
 5. **Owner disposition:** Iván decides `ACCEPT / REVISE / DEFER / REJECT` per finding. Accepted method or requirement changes need separate controlled PRs; preserve the frozen inputs and inbound links.
 6. **FG-TIDA boundary:** An approved synthesis may later inform UC21/Theme 13. Neither intake route, a PR nor a merge constitutes submission, endorsement, certification or automatic author credit.
 
-**Complete when:** 6 cited gate decisions + 3 eligible/conditional DDS-position assessments + 2 probe decisions + exact A14 tie finding + A23 limitation + one falsifiable counterexample or reasoned absence + conflicts/independence/exposure record + one concrete recommendation. If a necessary premise cannot be verified, `UNDETERMINED` is an acceptable conclusion. No requirement is rewritten and no numerical performance claim is made.
+**Complete when:** 6 cited gate decisions + 3 eligible/conditional DDS-position assessments + 2 probe decisions + exact A14 branch-agreement finding with known-case/prospective inference separated + A23 limitation + one falsifiable counterexample or reasoned absence + conflicts/independence/exposure record + one concrete recommendation. If a necessary premise cannot be verified, `UNDETERMINED` is an acceptable conclusion. No requirement is rewritten and no numerical performance claim is made.
 
 **Allowed overall opinions:** `REQUIREMENTS_ADEQUATE_IN_REVIEW_SCOPE` / `REVISE_SPECIFICATION_BEFORE_TEST` / `UNDETERMINED_MISSING_EVIDENCE`. They concern **documentary adequacy only**; no independent results exist until a reviewer submits work.
