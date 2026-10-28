@@ -52,8 +52,10 @@
 <text x="757.0" y="289" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">4</text>
 <text class="ink2" x="816" y="289" font-size="11">20</text>
 <text class="ink" x="280" y="325" font-size="12" text-anchor="end">M28 · Relectura (28 oct)</text>
-<rect class="s0" x="290" y="308" width="76" height="26" rx="4"><title>M28: 3 abierto</title></rect>
-<text x="328.0" y="325" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">3</text>
+<rect class="s0" x="290" y="308" width="50" height="26" rx="4"><title>M28: 2 abierto</title></rect>
+<text x="315.0" y="325" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">2</text>
+<rect class="s1" x="342" y="308" width="24" height="26" rx="4"><title>M28: 1 respondido</title></rect>
+<text x="354.0" y="325" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">1</text>
 <rect class="s2" x="368" y="308" width="24" height="26" rx="4"><title>M28: 1 cerrado o verificado</title></rect>
 <text x="380.0" y="325" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">1</text>
 <rect class="s3" x="394" y="308" width="50" height="26" rx="4"><title>M28: 2 propuesta de mejora</title></rect>

@@ -2,7 +2,7 @@
 
 **Para quién:** cualquier persona que quiera entender qué dice la [auditoría](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md) sin ser especialista en matemáticas ni en programación.
 **Tiempo de lectura:** 10 minutos para las secciones 1 a 5. El resto es para consultar.
-**Fecha del estado que se describe:** 28 de octubre de 2026, después de la ronda 14.
+**Fecha del estado que se describe:** 28 de octubre de 2026, después de la ronda 15.
 **Autoría:** guía preparada por Claude (asistente de IA) a petición de Iván Abril Palma. Resume lo que dice la auditoría; no añade juicios científicos nuevos ni sustituye una revisión humana independiente.
 
 ## Índice
@@ -31,16 +31,16 @@
   - Las matemáticas finitas que se han comprobado son correctas bajo sus supuestos.
   - Varias comparaciones y «experimentos» dan el resultado que ya estaba escrito en sus datos o en su código. Sirven como comprobaciones, pero no prueban una ventaja.
   - Hubo un fallo real de cálculo (I-01), que ya está corregido en la rama principal y reconfirmado.
-- **Dónde estamos.** La auditoría tiene 63 registros sobre el contenido y 8 sobre la forma del propio expediente: 71 en total. De ellos, 37 siguen abiertos, 13 tienen respuesta pendiente de incorporarse o de confirmar, 6 están cerrados o verificados y 15 son propuestas de mejora, aclaraciones o puntos retirados.
+- **Dónde estamos.** La auditoría tiene 63 registros sobre el contenido y 8 sobre la forma del propio expediente: 71 en total. De ellos, 36 siguen abiertos, 14 tienen respuesta pendiente de incorporarse o de confirmar, 6 están cerrados o verificados y 15 son propuestas de mejora, aclaraciones o puntos retirados.
 - **Qué no es.** No es una revisión científica humana independiente. Todas las rondas las han escrito asistentes de IA (Claude y Codex), en parte a partir de observaciones de Iván.
 
 ## 2. Quién ha escrito qué
 
-![Línea de tiempo de las 14 rondas de auditoría y su autor](figures/ROUNDS_timeline.svg)
+![Línea de tiempo de las 15 rondas de auditoría y su autor](figures/ROUNDS_timeline.svg)
 
 | Rondas | Autor | Qué aportan |
 |---|---|---|
-| 1–6, 13–14 | Claude, asistente de IA | Hallazgos sobre la nota al revisor, el código de #57 y #54, la campaña de 60 casos y el modelo social; figuras, referencias, reconfirmación de I-01, revisión formal y esta guía |
+| 1–6, 13–15 | Claude, asistente de IA | Hallazgos sobre la nota al revisor, el código de #57 y #54, la campaña de 60 casos y el modelo social; figuras, referencias, reconfirmación de I-01 y M28-02, revisión formal y esta guía |
 | 7–9 y 12 | Codex, asistente de IA, a petición de Iván | Conexión con otros PR, revisión del corpus matemático, guía de lectura de comparaciones, relectura del 28 de octubre |
 | 10–11 | Codex, recogiendo decisiones y correcciones de alcance de Iván | Precisan hasta dónde llegan H-01, H-03, F-01, G-01 y F-06, y reciben el arreglo de #64 |
 
@@ -60,10 +60,10 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 | H · Modelo social | 5 | 0 | 1 | 0 | 0 | 6 |
 | I · Defecto de qualify | 0 | 0 | 1 | 0 | 0 | 1 |
 | M27 · Corpus matemático | 11 | 2 | 2 | 1 | 4 | 20 |
-| M28 · Relectura | 3 | 0 | 1 | 2 | 1 | 7 |
+| M28 · Relectura | 2 | 1 | 1 | 2 | 1 | 7 |
 | M27-O y M28-O · Líneas de desarrollo | 0 | 0 | 0 | 7 | 0 | 7 |
 | J · Forma del expediente | 1 | 6 | 1 | 0 | 0 | 8 |
-| **Total** | **37** | **13** | **6** | **10** | **5** | **71** |
+| **Total** | **36** | **14** | **6** | **10** | **5** | **71** |
 
 **Qué significa cada estado:**
 
@@ -174,13 +174,13 @@ flowchart LR
   subgraph cerca["Cerca de cerrarse: falta incorporar a main"]
     F01["F-01 y F-03<br/>mismo código"] -->|"cuando #57 entre en main"| C1["Cerrar"]
     F06["F-06<br/>casos, no experimentos"] -->|"cuando #54 entre en main"| C2["Cerrar"]
-    M273["M27-03 y M27-04"] -->|"cuando #60 entre en main"| C3["Cerrar"]
+    M273["M27-03, M27-04 y M28-02"] -->|"cuando #60 entre en main"| C3["Cerrar"]
   end
   subgraph abierto["Abiertos con trabajo pendiente"]
     G01["G-01<br/>respuestas en los datos"] -->|"comparador que decida sólo con lo que observa"| W1["Diseño nuevo"]
     H02["H-02<br/>brecha supuesta"] -->|"mecanismo medible por enlace"| W2["Modelo nuevo"]
     H03["H-03<br/>censura"] -->|"prueba de profundidad y acceso (ronda 10)"| W3["Prueba nueva"]
-    M2802["M28-02 y M28-03<br/>guardas de #60"] -->|"comprobar dominio y valores no finitos"| W4["Arreglo pequeño"]
+    M2803["M28-03<br/>cota de #60"] -->|"rechazar NaN e infinito"| W4["Arreglo pequeño"]
   end
 ```
 
@@ -193,11 +193,11 @@ La familia N, sobre la nota al revisor externo, está entera abierta. Se cierra 
 | **Revisor científico externo** | Secciones 1, 3 y 7 de esta guía | [Ronda 1](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-01) (qué falta en la nota), [ronda 12](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-12) (estado vigente) y la [guía de comparaciones](INTERPRETATION_AND_COMPARISON_REPAIR_2026-10-27.md) |
 | **Autor o mantenedor** | Sección 8 | Los hallazgos 🔵 de la sección 11 y las [propuestas ejecutables del anexo](ANNEX.md#3-propuestas-ejecutables-por-hallazgo) |
 | **Lector curioso** | Secciones 1, 5 y 6 | El [mapa de hallazgos del anexo](ANNEX.md#1-mapa-de-hallazgos) |
-| **Quien vaya a corregir código** | La [ronda 13](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-13) como modelo de verificación | M28-02, M28-03 y M27-07 en la sección 11 |
+| **Quien vaya a corregir código** | Las rondas [13](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-13) y [15](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-15) como modelo de verificación | M28-03 y M27-07 en la sección 11 |
 
 ## 10. Mapa del expediente: dónde está cada ronda
 
-En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y después de la 7 a la 13. La razón es que las primeras se añadían arriba y las siguientes abajo. Esta tabla las ordena. Los enlaces usan anclas estables que no cambian aunque cambie el estado de un hallazgo.
+En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y después, de la 7 en adelante. La razón es que las primeras se añadían arriba y las siguientes abajo. Esta tabla las ordena. Los enlaces usan anclas estables que no cambian aunque cambie el estado de un hallazgo.
 
 | Ronda | Fecha | Autor | Tema | Ir a |
 |---:|---|---|---|---|
@@ -215,6 +215,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 12 | 28 oct | Codex | Relectura y cola de trabajo (M28) | [ronda 12](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-12) · [anexo §10](ANNEX.md#10-corpus-refresh-and-open-audit-work--28-october-2026) |
 | 13 | 28 oct | Claude | I-01 reconfirmado y cerrado | [ronda 13](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-13) |
 | 14 | 28 oct | Claude | Revisión formal del expediente y esta guía | [ronda 14](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-14) |
+| 15 | 28 oct | Claude | M28-02 reconfirmado en la rama de #60 | [ronda 15](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-15) |
 
 ## 11. Los 71 registros, uno por uno
 
@@ -313,12 +314,12 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 
 </details>
 
-<details><summary><b>M28 · Relectura (28 oct)</b> — 7 registros, 3 abiertos</summary>
+<details><summary><b>M28 · Relectura (28 oct)</b> — 7 registros, 2 abiertos</summary>
 
 | ID | Estado | Gravedad | En pocas palabras | Ronda que fijó el estado |
 |---|---|---|---|---|
 | [M28-01](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-01) | 🟢 Cerrado | Alta | El redondeo de coma flotante podía certificar «verdadero»; corregido y reconfirmado. | 13 |
-| [M28-02](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-02) | 🔵 Abierto | Media | #60: la guarda no comprueba que el punto pertenezca al dominio. | 12 |
+| [M28-02](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-02) | 🟠 Respondido | Media | #60: la guarda no comprobaba que el punto pertenezca al dominio. Corregido en la rama de #60 y reconfirmado; falta incorporarlo a main. | 15 |
 | [M28-03](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-03) | 🔵 Abierto | Media | #60: se aceptan NaN o infinito como cota de utilidad. | 12 |
 | [M28-04](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-04) | 🟡 Propuesta | Media | #60: decidir si la caducidad se mide en la fecha del evento o en la de uso. | 12 |
 | [M28-05](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-05) | 🔵 Abierto | — | Nombres de pruebas que sugieren una comparación que no existe. | 12 |

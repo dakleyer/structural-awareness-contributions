@@ -12,8 +12,8 @@
     "INFORMATIVO"
   ],
   "totals": {
-    "ABIERTO": 37,
-    "RESPONDIDO": 13,
+    "ABIERTO": 36,
+    "RESPONDIDO": 14,
     "CERRADO": 4,
     "VERIFICADO": 2,
     "PROPUESTA": 10,
@@ -72,8 +72,8 @@
         4
       ],
       "M28": [
-        3,
-        0,
+        2,
+        1,
         1,
         2,
         1
@@ -546,9 +546,9 @@
       "id": "M28-02",
       "family": "M28",
       "severity": "Media",
-      "state": "ABIERTO",
-      "set_in_round": 12,
-      "summary": "#60: la guarda no comprueba que el punto pertenezca al dominio."
+      "state": "RESPONDIDO",
+      "set_in_round": 15,
+      "summary": "#60: la guarda no comprobaba que el punto pertenezca al dominio. Corregido en la rama de #60 y reconfirmado; falta incorporarlo a main."
     },
     {
       "id": "M28-03",

@@ -42,6 +42,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 12 | 2026-10-28 | [Relectura y cola vigente](#ronda-12--relectura-del-corpus-y-estado-real-de-la-auditoría-28-octubre-2026); [anexo10](incremental-audit-2026-10-26/ANNEX.md#10-corpus-refresh-and-open-audit-work--28-october-2026) | M28-01…07; oportunidadesO1/O2; revalidación IP01–36 y propuestas IP37–42 |
 | 13 | 2026-10-28 | [Reconfirmación de I-01 en `main`](#ronda-13--reconfirmación-de-i-01--m27-01--m28-01-en-main-28-10-2026) tras fusionar PR #64 | I-01 `CERRADO`; M27-01/M28-01 reconfirmados |
 | 14 | 2026-10-28 | [Revisión formal del expediente y guía de lectura](#ronda-14) | J-01 a J-08; [guía](incremental-audit-2026-10-26/GUIA_DE_LECTURA.md), registro de estados y 74 anclas estables |
+| 15 | 2026-10-28 | [Reconfirmación de M28-02 en la rama de #60](#ronda-15) | M28-02 `RESPONDIDO` (implementado en rama, pendiente de `main`) |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -714,4 +715,23 @@ Reproducción: [`reconfirm_I01_2026-10-28.py`](incremental-audit-2026-10-26/reco
 | <a id="j-08"></a>**J-08** | Informativo · `VERIFICADO` | Enlaces internos y versiones fijadas. | 0 anclas locales rotas en la auditoría, el anexo, la guía de comparaciones y la guía de lectura; los 15 enlaces a archivos en commits fijados resuelven a archivos existentes. |
 
 **Límites:** revisión de forma, no de contenido científico. Los estados del registro resumen las decisiones ya escritas en las rondas 1–13; esta ronda sólo añade los estados de J-01 a J-08. No cambia ningún texto de hallazgo, código, resultado ni otro PR.
+
+
+<a id="ronda-15"></a>
+
+## Ronda 15 — reconfirmación de M28-02 en la rama de PR #60 (28-10-2026)
+
+**Auditor:** Claude, asistencia de IA. No es validación humana independiente.
+
+**Objeto:** commit [`cb72bb65`](https://github.com/dakleyer/structural-awareness-contributions/commit/cb72bb65ab148de1c7396d9cb8f9c1b7af6edc25) de PR #60, `test_theme18_online_context.py`. La comprobación de pertenencia al dominio entero `0..9` va ahora antes del atajo de la guarda y también en la evaluación completa.
+
+**Comprobado:**
+
+| Comprobación | Resultado |
+|---|---|
+| Suite del fichero | 15/15, incluidas tres regresiones nuevas |
+| x = 12 con prueba validada y `proof_scope = DOMAIN` | Lanza «outside qualified domain»; ya no devuelve `REJECT` con el atajo |
+| Barrido adversarial: 27 entradas (−3…14, `True`, `False`, `2.0`, `9.0`, `1e9`, `-0.0`, `NaN`, `'2'`, `None`) × prueba válida o no × tres alcances de prueba (0..9, 0..5, 0..12) = 162 combinaciones | 0 violaciones: ninguna entrada fuera del dominio produce veredicto; todas las de dentro coinciden con la evaluación completa; el atajo sólo se usa con prueba válida de alcance exacto `0..9` |
+
+**Disposición:** M28-02 pasa a `RESPONDIDO`: implementado en la rama de #60 y reconfirmado, pendiente de incorporarse a `main`. Se cerrará cuando #60 entre en `main` con este cambio. La corrección aplica el principio de que un certificado vale para su alcance y no más allá; no dice nada sobre la eficacia de un monitor desplegado. M28-03 y M28-04 mantienen su estado. Guía y registro de estados actualizados.
 

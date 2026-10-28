@@ -96,7 +96,7 @@ LEDGER = [
     ("M27-O4", "M27-O", "—", "PROPUESTA", 8, "Línea de desarrollo: colas, plazos y contabilidad sin doble conteo."),
     ("M27-O5", "M27-O", "—", "PROPUESTA", 8, "Línea de desarrollo: ventanas con error, coste y plazo."),
     ("M28-01", "M28", "Alta", "CERRADO", 13, "El redondeo de coma flotante podía certificar «verdadero»; corregido y reconfirmado."),
-    ("M28-02", "M28", "Media", "ABIERTO", 12, "#60: la guarda no comprueba que el punto pertenezca al dominio."),
+    ("M28-02", "M28", "Media", "RESPONDIDO", 15, "#60: la guarda no comprobaba que el punto pertenezca al dominio. Corregido en la rama de #60 y reconfirmado; falta incorporarlo a main."),
     ("M28-03", "M28", "Media", "ABIERTO", 12, "#60: se aceptan NaN o infinito como cota de utilidad."),
     ("M28-04", "M28", "Media", "PROPUESTA", 12, "#60: decidir si la caducidad se mide en la fecha del evento o en la de uso."),
     ("M28-05", "M28", "—", "ABIERTO", 12, "Nombres de pruebas que sugieren una comparación que no existe."),
@@ -250,7 +250,7 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"),
 ]
 
 
@@ -259,10 +259,10 @@ def fig_rounds() -> str:
     step = (w - left - right) / (len(ROUNDS) - 1)
     h = 300
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
-         f'aria-label="Línea de tiempo de las 14 rondas de auditoría y su autor">{STYLE}',
+         f'aria-label="Línea de tiempo de las 15 rondas de auditoría y su autor">{STYLE}',
          f'<rect class="bg" width="{w}" height="{h}" rx="8"/>',
          '<text class="ink" x="16" y="28" font-size="16" font-weight="600">Las rondas de la auditoría, en orden (26–28 oct 2026)</text>',
-         '<text class="ink2" x="16" y="50" font-size="12">En el archivo, las rondas 1–6 aparecen en orden inverso (6, 4, 3, 2, 1) y las 7–14 en orden directo. Aquí van en orden real.</text>',
+         '<text class="ink2" x="16" y="50" font-size="12">En el archivo, las rondas 1–6 aparecen en orden inverso (6, 4, 3, 2, 1) y desde la 7 en orden directo. Aquí van en orden real.</text>',
          f'<line class="grid" x1="{left}" x2="{w - right}" y1="{y0}" y2="{y0}" stroke-width="2"/>']
     for i, (r, a, label) in enumerate(ROUNDS):
         x = left + i * step
