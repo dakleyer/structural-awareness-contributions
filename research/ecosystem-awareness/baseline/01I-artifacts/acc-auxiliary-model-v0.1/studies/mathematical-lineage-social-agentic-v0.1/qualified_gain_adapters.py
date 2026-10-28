@@ -1,5 +1,7 @@
-"""Thin adapters: social feasible capacity, agentic arm results, Theme-18 geometry.
+"""Downstream numeric adapters: social capacity, agentic results, Theme18 geometry.
 
+Structural adequacy is independently assessed in structural_adequacy.py;
+these metrics do not implement SA pre-gradient, EA, RA or the Agentic Gradient Law.
 No adapter guesses absent private capacities or promotes feasibility to execution.
 The agentic adapter consumes the public shape returned by PR57 run_case and
 can be used without importing that as-yet independent research branch.
