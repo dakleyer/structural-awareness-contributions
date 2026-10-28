@@ -45,7 +45,7 @@ The default manifest spans:
 - 2 access regimes: source available, target source inaccessible.
 - 4 declared prices: original, cheap conventional peer, peer charged per path, high B acquisition.
 
-That is **168 distinct question/cost combinations** (5 source-native arms each). It retains cases where B wins, a conventional comparator wins, conservative A wins, no qualification exists, or the receiver rejects costly B. It does **not** add jointly valid \(B_q\) certificates: [K-02 source guard #65](https://github.com/dakleyer/structural-awareness-contributions/pull/65) still applies, and joint resource scheduling stays with the separate DG3 source-owned producer/reservation work in audit #58.
+That is **168 distinct question/cost combinations** (5 source-native arms each) in the delivered manifest. External manifests can also set `capacity_patterns` to `selected`, `all`, `none`, `alternating` or an explicit list of source leaf indices, and set `planner_budget` per price regime. These controls feed the **original** world factory and public receiver; they do not change either algorithm. It retains cases where B wins, a conventional comparator wins, conservative A wins, no qualification exists, or the receiver rejects costly B. It does **not** add jointly valid \(B_q\) certificates: [K-02 source guard #65](https://github.com/dakleyer/structural-awareness-contributions/pull/65) still applies, and joint resource scheduling stays with the separate DG3 source-owned producer/reservation work in audit #58.
 
 ## 4. Agentic source #57 — its full 30-case campaign
 
