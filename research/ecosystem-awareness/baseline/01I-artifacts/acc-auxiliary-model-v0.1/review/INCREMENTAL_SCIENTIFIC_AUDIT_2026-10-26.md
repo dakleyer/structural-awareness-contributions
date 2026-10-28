@@ -1,5 +1,7 @@
 # Auditoría científica incremental — ACC, Conscientia y reducción agéntica
 
+> **Lectura vigente — 28 octubre 2026:** la [ronda12](#ronda-12--relectura-del-corpus-y-estado-real-de-la-auditoría-28-octubre-2026) actualiza mejoras, observaciones y pendientes. PR60 recibió D3-A y nombres UC21/DDS; PR64 repara los ejemplos originales pero conserva un problema numérico nuevo; P5/Python3.9 ya tiene sucesor correcto en main. Los encabezados históricos se leen con las delimitaciones9–11: no expresan una valoración general del programa matemático. Las propuestas IP siguen pendientes de incorporación.
+
 **Estado:** abierta, incremental. Cada ronda añade hallazgos; ninguno se borra. Un hallazgo sólo cambia de estado (`ABIERTO` → `RESPONDIDO` → `CERRADO` / `RECHAZADO`) con una nota que diga quién lo decidió y por qué.
 **Revisor:** Claude (Anthropic), asistido por IA, a petición del propietario. **No es la revisión científica humana independiente** que solicita la nota de revisión externa; es una auditoría previa para preparar esa revisión.
 **Método:** lectura del código y de los documentos en los commits fijados abajo; desde la ronda 5, cálculos independientes en `audit_companion.py`. En la ronda 2 no se pudo ejecutar el código (el entorno del revisor bloqueó la ejecución de código externo); las cifras se derivaron analíticamente del código y coinciden con las declaradas en los PRs.
@@ -33,6 +35,9 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 7 | 2026-10-27 | Reconciliación de Codex con PR #59, TAX26 y la promoción a VNext propietarias ([sección al final](#corpus-reconciliation-and-promotion-review-27-october-2026); [anexo §7](incremental-audit-2026-10-26/ANNEX.md#7-corpus-reconciliation-and-promotion-readiness-27-october-2026)) | Sin hallazgos nuevos; revisa los bocetos de corrección |
 | 8 | 2026-10-27 | Corpus matemático, revisión de Codex ([sección al final](#ronda-8); [anexo §8](incremental-audit-2026-10-26/ANNEX.md#8-mathematical-review-and-development-opportunities)) | M27-01 a M27-19 y oportunidades M27-O1 a M27-O5; M27-20 (alcance del argumento de Cantor en «The Given Universe» §6) registrado en un [comentario del PR](https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-6446350643) |
 | 9 | 2026-10-27 | Claridad de comparaciones y reparación transversal de lectura ([ronda 9](#ronda-9), [guía y fichas](incremental-audit-2026-10-26/INTERPRETATION_AND_COMPARISON_REPAIR_2026-10-27.md)) | Desarrolla M27-09: 36 unidades propuestas en 24 fuentes/ediciones; no aplica cambios canónicos |
+| 10 | 2026-10-27 | [Alcance H01/H03 y respuesta del autor](#ronda-10--alcance-de-h-01-y-h-03-y-prevención-de-extrapolaciones-27-10-2026); candidato63 | Preserva críticas locales; diferencia ausencia en test y ausencia en corpus |
+| 11 | 2026-10-27 | [Recepción64/comparadores/casos54](#ronda-11--resolución-técnica-de-i-01-delimitación-de-comparadores-y-clasificación-de-casos-27-10-2026) | Respuesta a I01/M27-01/02, G01/F01 y F06; sin cierre por publicación |
+| 12 | 2026-10-28 | [Relectura y cola vigente](#ronda-12--relectura-del-corpus-y-estado-real-de-la-auditoría-28-octubre-2026); [anexo10](incremental-audit-2026-10-26/ANNEX.md#10-corpus-refresh-and-open-audit-work--28-october-2026) | M28-01…07; oportunidadesO1/O2; revalidación IP01–36 y propuestas IP37–42 |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -464,3 +469,115 @@ Antes de etiquetar una «ausencia conceptual» se deben contrastar **(a)** la fu
 ### Gate de promoción de esta ronda
 
 Los PR #64 y #54 permanecen separados del PR #58 (registro crítico). Mantener PR #59 como seguimiento de auditoría documental y de D26-C01; al promover #64, verificar que cualquier VNext que represente D26-C01 apunte al arreglo conjunto vigente y no deje un parche competidor. No hay merge ni promoción a Canonical o main en esta ronda.
+
+
+## Ronda 12 — relectura del corpus y estado real de la auditoría (28 octubre 2026)
+
+**Auditoría realizada por Codex, asistencia de IA, por nueva instrucción de Iván.** Esta es una actualización de argumento, evidencia, legibilidad y pendientes sobre cambios identificados; no se atribuye revisión humana independiente ni cuatro pasadas completas de todo el corpus. Las rondas anteriores conservan su texto, atribución y fecha.
+
+### Lo que ha mejorado y debe reconocerse
+
+El corpus distingue ahora mejor tres trabajos que antes podían mezclarse: conservar una distinción pertinente, encontrar/recalificar una oportunidad y hacer efectivo un cambio autorizado. El nuevo puente de PR62 explica SA → EA → EP sin trasladar a EP la propiedad de DDS/UC21; su anexo desarrolla selección de restricciones, reutilización localizada, costes completos y un ciclo de aprendizaje. La parte matemática es una contribución concreta: inclusión de conjuntos factibles, determinación relativa a condiciones revisadas y separación de trabajo frente a un procedimiento exhaustivo declarado, con sus hipótesis. Su valor no desaparece porque sea programable mediante software ordinario.
+
+PR60 ha recibido la corrección de las consultas suplementarias: mantiene el teorema Q-only y añade el problema condicionado por la observación A ya disponible. También distingue los identificadores UC21/DDS. PR57 ha añadido controles de reproducción del procedimiento Q y precio normalizado sobre las30 fichas y las160 celdas, conservando resultados originales y el beneficio físico condicionado. PR64 incorpora una reparación efectiva del código candidato para los dos ejemplos originales de intervalos y añade factibilidad conjunta. PR63 hace visible que ACC ya trata coordinación, saturación y dimensiones operativas; la pregunta de acceso a fuentes a N niveles sigue siendo un ensayo distinto. PR54 aclara el carácter sintético de sus casos.
+
+Estas mejoras sí han ocurrido en las ramas indicadas. Sólo las precisiones S2 de PR61 y el ajuste del entorno P5 están incorporados en main en el corte de esta ronda. No se atribuye a esta recepción el merge de PR54/60/62/63/64.
+
+### Corte y alcance que permiten comprobarlo
+
+Main: **b7147330506b37567a7821be6f4cb2237da06bda**, comparado con el corte de ronda9 **43203858893325b9cbc1c3e3b75f72a7d35e6f1d**: seis commits y cinco archivos modificados. PR58 antes de esta ronda: **5046bbf4ac6dcbd6b7c2393929986868bb5d254d**, con las rondas10/11 y sus comentarios ya leídos. La lista de rondas se actualiza sin suprimir entradas.
+
+| Rama revisada | Head fijado | Cambio respecto del corte anterior / base propia |
+|---|---|---|
+| PR54 | e225216950fb424c64acd8e7f274f5e3c7ad59c3 | Dos documentos, cinco líneas añadidas/tres retiradas; código y resultados intactos |
+| PR57 | a98940490e8a84051ad314f2392c15338dbf1de9 | Cuatro archivos, 64 adiciones/una supresión; dos tests nuevos y precisión de lectura; código y JSON originales intactos |
+| PR59 | 051ff62059b8652b9e0d46fa0bbb9251896ec750 | Sin avance; debe recibir los estados posteriores de los candidatos originales |
+| PR60 | 3a846c6bb0fed6c25bf6deaa7af084a69ea242b5 | Doce archivos; correcciones 02/03/05/06, nueva recepción11/12 y tests; 550 adiciones/ocho supresiones |
+| PR62 | f3f5e2078ba75443ea6e17ea2af9800f8d8ccec3 | Dos notas nuevas: puente y anexo de reutilización/adaptación |
+| PR63 | 2193705ef13adec08068f49f355a632e4c35f450 | Tres documentos vivos; 17 líneas añadidas sobre H-01/H-03 |
+| PR64 | 0229bf9439be8459680dce4f7fe0376a9cd31306 | Fuente, tests y README; 106 adiciones/dos supresiones |
+
+Inventario diferencial: **32 archivos/ediciones** entre main y esas seis ramas cambiadas. Se hizo lectura focal de las unidades matemáticas y ejecutables afectadas, del registro completo de rondas y de los 15 comentarios de PR58; PR58 no tiene hilos de revisión inline en este corte. Se recibió el avance concurrente de57/64 antes de publicar: en64 se añadieron un control de falso FALSE y un positivo conjunto; metacognition.py no cambió y conserva los contraejemplos M28-01. En57 los tests normalizan precio y verifican reproducción del procedimiento compartido; no son dos procesos de adquisición independientes. El índice de [cortes y cambios](incremental-audit-2026-10-26/CORPUS_REFRESH_SCOPE_2026-10-28.json) conserva los paths exactos. Los PR5/18/56/59 mantienen sus heads anteriores. Esto no convierte sus fuentes en una nueva auditoría integral.
+
+### Verificación nueva y lo que realmente dice
+
+- **PR64: 68/68 tests; PR60: 30/30; PR54: 65/65; PR57: 87/87.** Ejecutados sobre las fuentes fijadas. El informe sintético de PR64 coincide por contenido con su JSON de referencia. Son pruebas de regresión finitas, no 250 experimentos ni medidas de eficacia.
+- El acompañante de esta ronda reproduce **23/23 comprobaciones**, con tres blobs verificados, tanto desde las copias exactas como descargando los fuentes fijados. Incluye los fallos nuevos, controles favorables y dos cálculos independientes; encontrar el fallo hace pasar la comprobación diagnóstica, no corrige la fuente.
+- **Pendiente técnico P5/Python3.9 actualizado:** el trabajo real en main [terminó correctamente](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/40546671257/job/122339003753) después de fijar Ubuntu24.04. Los trabajos 3.12/3.13 y la campaña379 también terminaron correctamente en ese mismo run. La incidencia del entorno está resuelta en el sucesor; el fallo histórico de PR22 sigue conservado. Esto no cierra la revisión sustantiva de 00M.
+- Los checks de integridad de [PR64](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/40557800724/job/122378430135) y [PR60](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/40557663048/job/122377936718) pasan. Los contraejemplos siguientes muestran por qué ese PASS no basta para cerrar la corrección matemática.
+
+### Nuevos hallazgos y mejoras, con alcance concreto
+
+| ID | Estado / prioridad | Qué ocurre y por qué importa | Próxima unidad concreta |
+|---|---|---|---|
+| **M28-01** | ABIERTO · alta · precisión numérica del candidato64 | Con ε=2^-54, x0=0,y0=1; x1=1,y1=-ε y L=1, la desigualdad exacta se viola en ε; la resta flotante redondea 1+ε a1. La guarda devuelve CONSISTENT y qualify certifica TRUE en x=0. Además, con un único dato f(0)=1 y L=ε, el límite inferior en x=1 es exactamente 1-ε<1, pero el código lo redondea a1 y certifica TRUE para umbral1. | Dos regresiones explícitas. Usar aritmética exacta sobre los números representados, o intervalos con redondeo dirigido y abstención cuando no hay certificado; cubrir tanto factibilidad como decisión, no sólo la nueva guarda. No cerrar I-01 por68 tests. El lema Lipschitz exacto permanece válido. |
+| **M28-02** | ABIERTO · media · dominio de la guarda60 | DOMAIN=0..9; full_verdict(12) rechaza por estar fuera del dominio. guarded_verdict(12, proof_scope=DOMAIN, guard_validated=True) devuelve REJECT y omite la evaluación: confunde «certificado para D» con «este x pertenece a D». | Comprobar pertenencia antes de usar la guarda y añadir controles fuera del dominio. Corregir el pequeño fixture, sin atribuir el fallo a un monitor RA real que no está implementado. |
+| **M28-03** | ABIERTO · media · cota de utilidad60 | assess_candidate acepta NaN e infinito como source_value_lower_bound y produce una propuesta de acción externa porque la comparación <= no los descarta. El fixture mantiene execution=NEVER: no hay una actuación no autorizada ejecutada. | Validar tipo y finitud de la cota antes de comparar, preservar UTILITY_NOT_ESTABLISHED para una cota no válida, y probar NaN/±∞/booleanos. No convertir un campo inválido en certificado positivo. |
+| **M28-04** | PROPUESTA · media · tiempo de uso60 | requalify sólo compara caducidad con la fecha antigua del evento y no recibe la fecha de decisión. El caso positivo a t=1 con caducidad3 no comprueba una reevaluación en t=10. | Declarar si se prueba validez histórica o validez al uso. Para esta última, pasar tiempo de decisión y comprobar vigencia allí, con límite inclusivo/exclusivo explícito. No se afirma un fallo desplegado; es una obligación temporal que el fixture todavía no representa. |
+| **M28-05** | ABIERTO editorial · prevención de extrapolaciones | Dos tests nuevos llaman dos veces a la misma función y los nombran como comparación con un peer fuerte. PR62 §13.3 y PR60 §11 vuelven a abreviar reproducción/capacidad de implementar como conclusión de igualdad. El método, la adquisición y los costes no quedan comparados por esos nombres. | Seis fichas nuevas IP37–42 en el anexo: describir reproducción determinista con procedimiento suministrado y afirmar primero el resultado positivo pertinente. Mantener las pruebas y controles adversos reales. |
+| **M28-06** | RECIBIDO en esta ronda · estado y navegación | La cabecera conservaba pendientes anteriores a las respuestas10/11; el registro de rondas acababa en9 y seguía pendiente el entorno3.9 ya resuelto. PR59 conserva candidatos previos a los cambios de60/64. | Panel vigente, filas10/11/12 y esta matriz. En PR59, recibir C04–07 como aplicados en la rama60, con revisión/promoción aún pendientes; hacer que C01 remita al candidato conjunto64 y su nuevo problema numérico, sin dos parches competidores. |
+| **M28-07** | PROPUESTA · baja · higiene del acompañante8 | El comentario del27Oct señala que math_audit_companion sin --output reescribe su JSON versionado y crea caché dentro del paquete. El código conserva ese comportamiento. No se ha ejecutado aquí sobre su referencia sin destino. | Salida por defecto a stdout, destino explícito creado sin sobrescribir y caché temporal. El acompañante nuevo de esta ronda ya sigue esa pauta; el antiguo necesita su propia corrección acotada. |
+| **M28-O1** | DESARROLLO PROPUESTO · positivo | CA-1 reconoce un ahorro cuando ya se supone C_SEL<C_EXH; CA-4 sí deriva una separación asintótica frente a la rejilla exhaustiva bajo hipótesis cuantitativas. Conviene convertir el rendimiento del selector en obligación medible. | Lema de coste esperado con selección y retorno exhaustivo: E[C]≤h+D-p(D-s), ahorro si h<p(D-s), con p cualificado, costes comunes y misma tarea. Demostración y controles en el anexo; no se atribuye un p real ni una mejora general. |
+| **M28-O2** | DESARROLLO PROPUESTO · continuidad temporal | El ciclo de aprendizaje/contexto de62 da un receptor concreto a M27-O1/O2/O5. Cambiar ventana o reglas cambia también la representación cuya suficiencia se evalúa. | Modelo híbrido con versión de contexto, flujo, saltos de contrato y reloj de caducidad; demostrar suficiencia/error entre saltos y revalidar al cambiar de versión. No declarar estabilidad/convergencia a partir de una interfaz Update. |
+
+[Detalles, contraejemplos y propuestas literales](incremental-audit-2026-10-26/ANNEX.md#10-corpus-refresh-and-open-audit-work--28-october-2026) · [Acompañante](incremental-audit-2026-10-26/refresh_audit_companion_2026-10-28.py) · [Resultado](incremental-audit-2026-10-26/CORPUS_REFRESH_CHECKS_2026-10-28.json).
+
+### Estado actualizado de mis observaciones anteriores
+
+| Observación | Disposición vigente al28Oct | Qué falta exactamente |
+|---|---|---|
+| M27-01/02; I-01; D26-C01 | Los dos casos originales están reparados en el candidato64; el parche de sólo tolerancia de59 ya no es suficiente como candidato completo | M28-01, regresiones/certificación numérica y revisión del candidato64; después decisión de incorporación y recepción en01I |
+| M27-03; D26-C04/05 | **Aplicado en la rama60:** D3-A condicionado por A en02 y consumidor03. Contraejemplo de cuatro estados comprobado de nuevo | Revisión de integración y promoción propia; no volver a ofrecer el antiguo par como si siguiera sin aplicar allí |
+| M27-04; D26-C06/07 | **Aplicado en la rama60:** separación de nombres UC21/DDS en05/06 | Recepción de estado en59; revisar fuente y consumidores al incorporar, sin volver a mezclar los nombres en resúmenes |
+| M27-05 | Clarificación de procedencia ya registrada | Contraste completo del original/edición R12 cuando se pretenda reutilizar su física; no inventar un error MIME actual |
+| M27-06 | Alegación de navegación retirada | Mantener la rectificación; registro progresivo no equivale a infracción automática |
+| M27-07 | Sigue abierto; el avance57 sólo modifica docs y tests | Contrato de first_capture_observer_id y prueba de ausencia; los nuevos tests57 y la rama60 no modifican aquel código |
+| M27-08 | Sigue abierto; fuente económica sin cambio en este corte | Elegir y rotular convención de segunda diferencia y revisar consumidores, preservando fórmulas históricas |
+| M27-09; IP01–36 | Propuesta transversal publicada, no incorporada a las fuentes. Autor de F01/F02/anexo acepta IP30–32 en comentario | 36 unidades ANTES siguen presentes; 29 mantienen blob exacto, siete cambian de blob pero conservan el pasaje. Las dos fichas de referencia ya eran correctas. Seleccionar/recibir las34 operaciones reales; extender con IP37–42 |
+| M27-10 | R19 sigue abierto en el alcance histórico auditado | Modelo de realimentación justificado, invariancia y estabilidad; no nueva lectura íntegra de ese original en esta ronda |
+| M27-11/12/13 | Semantic Window: alcance estadístico, historia suficiente e histéresis siguen abiertos | Clase de estimadores/pérdida, recurrencia de régimen, indicador realmente acotado y reinicios. La ParteII cualificada no se invalida por la fuente histórica |
+| M27-14 | D28 sigue abierto en su inferencia de dominancia | Separar seguridad frente a inacción y comparación entre acciones; conservar el contrato de seguridad |
+| M27-15/16 | D34/R09/D08: retorno de región y sobrecarga transitoria siguen abiertos | Hipótesis temporal para no retorno; carga reflejada y plazos, sin confundir episodio con divergencia |
+| M27-17 | Aclaración ya presente, no defecto activo | Mantener versión y no reabrir una abreviatura histórica como fallo actual |
+| M27-18/19 | D37: dinámica de atractores y dominio/precio siguen abiertos/propuestos | Campo o mapa de evolución y estabilidad; dominio, unidades y selección de raíz |
+| M27-20 | Recibido en el comentario de ronda8; no corregido en el original | Distinguir mapas/cuántificadores de Cantor, representación y computabilidad. Las notas actuales no dependen del salto universal |
+| M27-O1/O2/O5 | Desarrollo preparado en el anexo8; receptor nuevo en el ciclo62 | Línea conjunta de suficiencia temporal, error y cambios de ventana; M28-O2 concreta siguiente entregable |
+| M27-O3 | Renovación poblacional, línea distinta | Precisar dinámica de entradas/cohortes y observabilidad; no inferir mejora poblacional de la individual |
+| M27-O4 | Capacidad y cola, línea distinta | Modelo de llegadas/servicio/plazo y contabilidad sin doble conteo |
+
+La revalidación de IP01–36 es **literal y contextual acotada**, no una prueba de que ya no habrá errores de lectura. [Resultado por ficha](incremental-audit-2026-10-26/IP_REVALIDATION_2026-10-28.json). Los comentarios de aceptación y las rondas10/11 mejoran la interpretación, pero no autorizan a declarar aplicados todos los reemplazos. Esta actualización tampoco vuelve a resumir el corpus mediante una igualdad global entre arquitecturas.
+
+### Pendientes completos del registro compartido
+
+| Familia / IDs | Estado que corresponde conservar | Entregable o decisión que permite avanzar |
+|---|---|---|
+| **N01–N09**, nota inicial de solicitud externa | Abiertos respecto de aquella nota; no se ha recuperado una nueva edición de la nota privada en esta ronda | Reconciliar inventario, alcance50, autoría/procedencia, matriz de afirmaciones, siglas y encargo/plazo/honorarios/conflictos. No inferir cierre porque un documento posterior contenga uno de esos elementos |
+| **F01 / G01** | Respondidos en6/11; controles locales de ejecución y entradas estipuladas | Proceso prospectivo completo si se pretende estudiar adquisición/adaptación. Mantener resultado matemático y uso convencional pleno dentro de ACC |
+| **F02** | Abierto y **encabezado históricamente sobre-generalizado**, como acepta su autor en IP31 | Disposición contextual visible: la frase sobre H5 sólo describe el fixture57. Aplicar la corrección aceptada en su unidad propia cuando se seleccione; no trasladarla al programa matemático |
+| **F03** | Respondido; el barrido histórico sigue exacto y la rama57 añade el control equivalente-Q/precio en sus160 celdas | Recibir el nuevo test como control complementario del procedimiento, preservando el JSON original; el grid sigue sin estimar prevalencias |
+| **F04 / F05** | Crítica local AG01 y modelo lineal/conmensurable siguen abiertas | Comparar escenarios con mismas restricciones y horizonte; justificar agregación. El overlay posterior no reescribe el óptimo13,5 del original |
+| **F06** | Precisado en documentos de la rama54, recibido en11 | Revisar/promover esa edición y sincronizar su presentación; 46 fixtures/88 barridos no son estudios empíricos |
+| **F07** | Abierto | Retirar o activar justificadamente la rama muerta de nonmonotone con comparación de resultados |
+| **G02 / G03 / G04** | Abiertos | Comparador observacional sin verdad del referee; microejemplos realmente calculados cuando se alegue cálculo; factorial con mecanismos/fallos no impuestos por la regla generadora |
+| **G05 / G06** | G05 respondido; solapamiento y denominadores de fuente sin cierre | Declarar ocho celdas reutilizadas y reconciliar17/19 cribados con identidad/versión; reutilización no equivale a replicación independiente |
+| **H01 / H03** | Abiertos sólo para el ejemplo ejecutable; precisión de alcance en10 y candidato63 | H01: si se mantiene «racional», juego/incentivos adecuados o rótulo de bloqueo factible. H03: ensayo nuevo de profundidad/acceso; no volver a pedir coordinación como ausente del ACC integrado |
+| **H02 / H04 / H05** | Abiertos en sus afirmaciones/modelos concretos | Derivar o medir brecha por enlace; separar brecha operacional y experiencia vivida; justificar utilidad no monótona. Ningún cambio de etiqueta sustituye evidencia |
+| **H06** | Verificado dentro de hipótesis finitas | Conservar la cota positiva; no reabrirla porque otras afirmaciones carezcan de datos |
+| **I01** | Candidato64 revisado y tests originales reparados; sigue abierto por M28-01 | Solidez numérica antes del cierre; después recepción y promoción explícita |
+| **TAX26-01…09**, reparación de cita SA-U2, D26-C02/03 | Propuestas preparadas; no aplicadas en este corte | Selección concreta; TAX26-02/04 siguen primera ola documental pequeña. Mantener un propietario por fuente |
+| **D26-C04…07** | Cambios recibidos en rama60 | Actualizar estado del registro59 antes de una aplicación repetida |
+| **Cobertura #44–46** | Auditoría sustantiva general pendiente; el parche de qualify no la completa | #44: balance y frontera de costes; #45: resto de funciones/contratos; #46: mecanismos/controles causales y lectores |
+| **Cobertura núcleo #28/#40/#51, #21/#22, diferidos #5/#18** | Pendiente dentro de la auditoría compartida, aunque varios PRs ya estén fusionados | Leer unidad lógica/edición, argumentos y consumidores; «pendiente de auditar» no significa «pendiente de merge». La incidencia3.9 sí tiene sucesor ejecutado correcto |
+| **PR57 extensión / PR60 integración** | La lectura anterior y las pruebas nuevas cubren partes distintas | Completar linaje/originales, profundidad/acceso y ensayo real Theme18 con RA, fuentes, recepción y límites de autorización |
+| **PR62** | Puente y resultados condicionales de investigación, sin promoción | Cualificar selector y coste; algoritmo Update efectivo/ensayo futuro; matriz de madurez M1–M8 con evidencias. Licencia/alcance futuro y ruta de incorporación son decisiones separadas del examen matemático |
+| **Control documental / evidencia externa** | Registro lógico y salvaguardas nativas siguen su programa separado | No convertir PASS de integridad en cierre de clasificación, derechos sobre fuentes, revisión científica externa o validación de las hipótesis |
+
+### Orden de trabajo recomendado
+
+1. **Solidez de certificados:** M28-01 en64 y dominio/cota/tiempo en60. Son cambios pequeños de alcance y verificables; las propuestas exactas están en el anexo.
+2. **Recibir lo ya cambiado:** C04–07 en rama60, precisión54/63, éxito3.9 y aceptación IP30–32. Evita que otro revisor repita diagnósticos ya contestados o aplique un parche antiguo.
+3. **Prevenir el error de interpretación en la fuente:** seleccionar fichas IP y sincronizar tests, tablas, resúmenes y lectura de los nuevos anexos. La regla viaja con la afirmación; no añadir una reserva global automática a cada resultado.
+4. **Fortalecer matemática operativa:** coste esperado del selector, suficiencia temporal del ciclo62 y validación de indicadores/caducidad; conservar renovación poblacional y cola como líneas distintas.
+5. **Completar la auditoría de fondo pendiente:** leer las familias de la tabla anterior por unidad lógica y registrar las cuatro pasadas efectivamente realizadas, sin simular independencia ni cerrar por volumen de tests.
+
+Esta ronda publica revisión y propuestas en el **mismo PR58**. No incorpora código en64/60, no aplica las fichas a las fuentes científicas, no fusiona ramas ni modifica main. Las nuevas regresiones se presentan como criterios de reparación; no como una implementación que ya haya pasado sus pruebas.

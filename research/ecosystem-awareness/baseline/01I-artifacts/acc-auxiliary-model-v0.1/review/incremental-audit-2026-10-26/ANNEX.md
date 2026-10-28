@@ -514,3 +514,471 @@ El contenido válido de F-01 permanece: el brazo con Q equivalente comparte la l
 Esta propuesta sustituye como candidata editorial desarrollada la formulación breve de §8.1, que se conserva como historia. No crea una segunda VNext ni aplica las sustituciones a las fuentes. La pauta vigente de esta ronda y sus fichas son el receptor para continuar la discusión.
 
 [Datos de fichas](INTERPRETATION_REPAIR_CANDIDATES_2026-10-27.json) · [Cobertura](INTERPRETATION_COVERAGE_2026-10-27.json) · [Índice completo](INTERPRETATION_COVERAGE_INDEX_2026-10-27.csv.gz) · [Verificador](verify_interpretation_repair_2026-10-27.py) · [Resultado interno](INTERPRETATION_REPAIR_VERIFICATION_2026-10-27.json).
+
+
+## 10. Corpus refresh and open audit work — 28 October 2026
+
+**Auditoría realizada por Codex, asistente de IA.** Relectura por mandato de Iván, con recepción en el PR compartido58. La [ronda12 del registro](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-12--relectura-del-corpus-y-estado-real-de-la-auditoría-28-octubre-2026) contiene la matriz vigente de todos los pendientes. Esta sección desarrolla los nuevos argumentos y las unidades exactas de propuesta. No se modifican las fuentes de60/62/64 ni los34 cambios pendientes de la guía anterior.
+
+### 10.1 Factibilidad Lipschitz: el resultado exacto es útil; el código debe certificarlo
+
+Para coordenadas exactas x_i e intervalos [l_i,u_i], existe una selección de valores Lipschitz-compatible si y sólo si l_i-u_j ≤ L|x_i-x_j| para todos i,j. La suficiencia puede verse sin apelar a un solver: f_-(x)=max_i(l_i-L|x-x_i|) es L-Lipschitz; en cada x_j cumple f_-(x_j)≥l_j y las condiciones por pares aseguran f_-(x_j)≤u_j. La extensión construida muestra el contenido positivo del candidato64. Para coordenadas inciertas, su d_min certifica la condición para cada asignación permitida y d_max puede descartar todas; la franja no certificada conserva abstención. No se afirma una misma función universal para todas las posibles posiciones a la vez.
+
+La aritmética flotante no realiza automáticamente esa demostración exacta. ε=2^-54 es exactamente representable. Con (0,1),(1,-ε),L=1, la diferencia exacta es1+ε>1; una resta redondeada da1 y permite TRUE. Un segundo caso, sólo f(0)=1,L=ε, tiene en x=1 la envolvente exacta [1-ε,1+ε], que cruza el umbral1; el programa la colapsa a [1,1]. No se ha usado una interpretación decimal incierta para fabricar el fallo: son números binarios exactos del propio contrato.
+
+**Remedio completo propuesto:** (a) representar exactamente los números declarados —o incluir su incertidumbre como intervalos—; (b) calcular diferencias, distancias, productos y envolventes con racionales exactos o redondeo dirigido exterior; (c) comparar el umbral con los límites certificados, nunca con un redondeo que estrecha el intervalo; (d) si se muestran límites float, convertirlos exteriormente y no reutilizar una cifra de presentación como prueba; (e) no emitir SUPPORTED cuando la incertidumbre numérica cruza el umbral. Corregir únicamente _joint_evidence_status deja abierto el segundo caso. Los tests siguientes son criterios que el arreglo debe satisfacer y FALLAN ahora; no se publica aquí un parche de implementación no verificado.
+
+### 10.2 Un certificado de guarda sólo se usa dentro de su dominio
+
+Para el fixture60, la implicación probada es «x∈D y guard(x) ⇒ REJECT». El chequeo de proof_scope==DOMAIN acredita D, pero no verifica x∈D. El contraejemplo x=12 muestra que el atajo amplía silenciosamente el dominio frente a full_verdict. La reparación propuesta añade la pertenencia antes de la guarda; controles x=-2,10,12 deben conservar el rechazo por dominio y todos los x∈D conservar el veredicto. No se está evaluando un detector RA desplegado.
+
+### 10.3 Cotas de utilidad y tiempo de uso
+
+Una cota NaN no constituye una desigualdad probada: en Python, NaN<=0.75 es falso. Por eso la rama de rechazo no se activa. Infinito tampoco es la cota finita de la geometría declarada. Proponer una acción externa a partir de ese campo no ejecuta la acción, pero destruye el significado de «ganancia certificada». La ficha propone conservar UTILITY_NOT_ESTABLISHED cuando tipo o finitud fallan. Import y comprobación son una selección inseparable.
+
+El helper temporal tiene una limitación distinta: sólo conoce la captura. La comprobación de vigencia al uso requiere el reloj de la decisión. La ficha ofrece esa semántica como candidata y exige actualizar todos sus llamadores y casos límite; si el propietario sólo pretendía validez histórica a captura, debe decirlo y no citar el test como validación de vigencia actual. No se inventa un tiempo real de recepción o una infracción en producción.
+
+### 10.4 Asertividad y alcance en el material nuevo
+
+IP37–42 prolongan la guía existente sin borrar resultados: el ahorro frente a la rejilla exhaustiva y el valor de la guarda siguen siendo afirmaciones matemáticas positivas bajo sus hipótesis. Repetir una misma función demuestra reproducción, aunque se le cambie el nombre al resultado. Compartir información tampoco selecciona por sí solo una política. El comparador independiente competente sigue siendo necesario cuando la afirmación evaluada trata del proceso completo; su resultado se incorpora con el alcance de aquella prueba, sin convertirlo en una conclusión general del programa.
+
+### 10.5 Oportunidad de fortalecer el coste del selector (M28-O1)
+
+CA-1 es un certificado condicional por instancia: si hay testigo útil y el coste total es menor, se logra la misma tarea binaria con menos trabajo. CA-4 añade el resultado asintótico bajo kq=o(nN) y overhead=o(nN). Ambos conservan su alcance positivo. La tarea científica que sigue es dar una condición medible de calidad/coste del selector, no suponer que la desigualdad siempre se cumple.
+
+**Lema propuesto de selección con retorno.** En una familia finita, el procedimiento de rejilla completa cuesta D=nN probes unitarias. Un selector y su validación tienen overhead h; se revisa un conjunto de como máximo s<D pares. Con probabilidad p el conjunto contiene un testigo que se verifica correctamente. Si no, se retorna a la rejilla restante reutilizando todas las evaluaciones ya pagadas. Se mantienen tarea, autorización, calidad y costes comunes del certificado final. Entonces
+
+\[
+\mathbb E[C]\le h+p\,s+(1-p)D=h+D-p(D-s).
+\]
+
+**Demostración:** éxito cuesta como máximo h+s; sin éxito, selección más exploración de los restantes cuesta como máximo h+D. Promediar ambos casos da la cota. Ahorro suficiente frente a aquella rejilla: h<p(D-s). Si sólo se sabe p≥p_0, usar h<p_0(D-s). Los costes no unitarios y costes de autorización diferentes requieren su propio balance; no esconderlos en probes.
+
+Ejemplo meramente construido: D=100,s=10,h=5,p=1/2 da cota60. Con p=0 cuesta105; con h=50 la cota105 tampoco mejora100. Un selector con presupuesto máximo conserva límite por instancia, y registrar los fracasos permite estimar p en pruebas posteriores sin omitir denominadores. Este p mide testigos útiles hallados por una política fijada en una distribución de tareas; no es la frecuencia de UNKNOWN ni una probabilidad inferida del exterior.
+
+El lema compara exactamente con la rejilla completa que la fuente define. No es una cota inferior de toda búsqueda ni sustituye la comparación con políticas selectivas independientes. Su aportación práctica es dar un criterio falsable para el coste/calidad de Φ antes de afirmar ahorro total. No se presenta como resultado empírico ni se atribuye novedad al cálculo elemental de esperanza.
+
+### 10.6 Receptor temporal del ciclo de contexto/aprendizaje (M28-O2)
+
+M27-O1/O2/O5 adquieren un receptor claro en62 §14. Para un modelo continuo z'=F_v(z), observación y=h_v(t,z) y versión v fija entre cambios, el criterio de proyectabilidad pasa a exigir que ∂_t h_v+Dh_v F_v sea constante en cada fibra de h_v(t,·), dentro del dominio cualificado. Una desigualdad de error, margen de decisión y horizonte acota adecuación aproximada sin afirmar suficiencia exacta. Al cambiar v o redirigir la Semantic Window, la obligación se reinicia sobre la nueva pregunta/representación; conservar la historia necesaria y mapear explícitamente los certificados válidos.
+
+Una primera maqueta matemática puede usar flujo entre cambios y un mapa de reset autorizado (z,v)→(z^+,v^+), con fecha de emisión/caducidad, error y presupuesto. Se debe demostrar qué dato cruza el reset, qué margen se pierde y si la histéresis acota la velocidad del indicador realmente usado. Una interfaz Update sin regla ejecutada no prueba aprendizaje, estabilidad ni convergencia. Este es un siguiente entregable propuesto, no otra demostración ya incorporada al corpus.
+
+### 10.7 Unidades exactas antes/después — incorporación pendiente
+
+Las fichas siguientes son propuestas en los receptores existentes, con preimagen completa, blob y línea comprobados. Toda selección requiere la revisión del propietario de esa fuente. Las operaciones sobre funciones distintas del mismo archivo se han contrastado conjuntamente para evitar solapamientos. No son una segunda VNext ni se ejecutan al publicar la auditoría.
+
+#### M28-01-REG
+
+**Propuesta; no aplicada.** [Fuente y unidad](https://github.com/dakleyer/structural-awareness-contributions/blob/0229bf9439be8459680dce4f7fe0376a9cd31306/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/scoped-closure-metacognition-v0.1/test_metacognition.py#L122). Blob bdbac801a9cda734e53b549f0fe162556dcaf516. Receptor: PR64; fuente numérica y tests, recepción01I/PR59.
+
+Dos regresiones semánticas: contradicción conjunta y certificado sobre límite inferior redondeado. Ambas FALLAN en el candidato actual, como exige el diagnóstico; no se anuncian como reparación ejecutada.
+
+**ANTES — unidad literal completa**
+
+~~~text
+    def test_local_overlap_does_not_hide_global_source_conflict(self):
+        points=(sample(y_min=0,y_max=0),
+                sample(claim_id="p2",origin_id="s2",y_min=2,y_max=2))
+        # Both projections at x=1 contain 1. No single f can obey both
+        # values at x=0, even though their query-local intervals intersect.
+        result=qualify(frame(),q(x=1,threshold=1),points)
+        self.assertEqual(result["local_answer_status"],"EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT")
+        self.assertIsNone(result["conditional_answer_bounds"])
+
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+    def test_local_overlap_does_not_hide_global_source_conflict(self):
+        points=(sample(y_min=0,y_max=0),
+                sample(claim_id="p2",origin_id="s2",y_min=2,y_max=2))
+        # Both projections at x=1 contain 1. No single f can obey both
+        # values at x=0, even though their query-local intervals intersect.
+        result=qualify(frame(),q(x=1,threshold=1),points)
+        self.assertEqual(result["local_answer_status"],"EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT")
+        self.assertIsNone(result["conditional_answer_bounds"])
+
+
+    def test_binary_rounding_does_not_hide_joint_contradiction(self):
+        eps = 2.0 ** -54
+        p1 = sample(claim_id="a", origin_id="a", x_min=0.0, x_max=0.0,
+                    y_min=1.0, y_max=1.0)
+        p2 = sample(claim_id="b", origin_id="b", x_min=1.0, x_max=1.0,
+                    y_min=-eps, y_max=-eps)
+        result = qualify(frame(lipschitz=1.0), q(x=0.0, threshold=1.0),
+                         (p1, p2))
+        self.assertEqual(result["local_answer_status"],
+                         "EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT")
+
+    def test_rounded_lower_bound_is_not_a_positive_certificate(self):
+        eps = 2.0 ** -54
+        p1 = sample(x_min=0.0, x_max=0.0, y_min=1.0, y_max=1.0)
+        result = qualify(frame(lipschitz=eps), q(x=1.0, threshold=1.0), (p1,))
+        self.assertEqual(result["local_answer_status"],
+                         "UNDETERMINED_FROM_AVAILABLE_EVIDENCE")
+~~~
+
+#### M28-02-FIX
+
+**Propuesta; no aplicada.** [Fuente y unidad](https://github.com/dakleyer/structural-awareness-contributions/blob/3a846c6bb0fed6c25bf6deaa7af084a69ea242b5/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/test_theme18_online_context.py#L53). Blob e8518ca15964b91ac925adf727ddae70d192a138. Receptor: PR60; fixture propietario, recepción01I/PR59.
+
+La guarda sólo puede omitir la evaluación en el dominio probado. Se conserva el contrato de rechazo fuera del dominio y todas las salidas internas.
+
+**ANTES — unidad literal completa**
+
+~~~text
+def guarded_verdict(x, *, guard_validated, proof_scope):
+    """Never skip substantive decision without matching qualified proof."""
+    if not guard_validated or proof_scope != DOMAIN:
+        return full_verdict(x), False
+    if guard(x):
+        return "REJECT", True
+    return full_verdict(x), False
+
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+def guarded_verdict(x, *, guard_validated, proof_scope):
+    """Never skip substantive decision without matching qualified proof."""
+    if x not in DOMAIN:
+        raise ValueError("outside qualified domain")
+    if not guard_validated or proof_scope != DOMAIN:
+        return full_verdict(x), False
+    if guard(x):
+        return "REJECT", True
+    return full_verdict(x), False
+
+~~~
+
+#### M28-03-IMPORT
+
+**Propuesta; no aplicada.** [Fuente y unidad](https://github.com/dakleyer/structural-awareness-contributions/blob/3a846c6bb0fed6c25bf6deaa7af084a69ea242b5/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/test_theme18_candidate_admission.py#L10). Blob 57794f4c2605443170b1f8b9f523ee53a1d6f9c5. Receptor: PR60; misma fuente del fixture.
+
+Necesario para la comprobación explícita de finitud de la siguiente unidad; seleccionar ambas juntas.
+
+**ANTES — unidad literal completa**
+
+~~~text
+import itertools
+import unittest
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+import itertools
+import math
+import unittest
+~~~
+
+#### M28-03-FIX
+
+**Propuesta; no aplicada.** [Fuente y unidad](https://github.com/dakleyer/structural-awareness-contributions/blob/3a846c6bb0fed6c25bf6deaa7af084a69ea242b5/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/test_theme18_candidate_admission.py#L67). Blob 57794f4c2605443170b1f8b9f523ee53a1d6f9c5. Receptor: PR60; seleccionar con M28-03-IMPORT.
+
+Sin cota finita y numérica no se ha establecido la ganancia de utilidad. La salida sigue siendo propuesta, nunca actuación. Comprobar NaN,±infinito,booleanos,None y controles0,84/0,75.
+
+**ANTES — unidad literal completa**
+
+~~~text
+    elif not source_to_value_link_qualified or source_value_lower_bound is None:
+        result["candidate_status"] = "UTILITY_NOT_ESTABLISHED"
+    elif source_value_lower_bound <= CURRENT_GEOMETRY_VALUE:
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+    elif (not source_to_value_link_qualified
+          or isinstance(source_value_lower_bound, bool)
+          or not isinstance(source_value_lower_bound, (int, float))
+          or not math.isfinite(source_value_lower_bound)):
+        result["candidate_status"] = "UTILITY_NOT_ESTABLISHED"
+    elif source_value_lower_bound <= CURRENT_GEOMETRY_VALUE:
+~~~
+
+#### M28-04-TIME
+
+**Propuesta; no aplicada.** [Fuente y unidad](https://github.com/dakleyer/structural-awareness-contributions/blob/3a846c6bb0fed6c25bf6deaa7af084a69ea242b5/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/test_theme18_online_context.py#L21). Blob e8518ca15964b91ac925adf727ddae70d192a138. Receptor: PR60; decidir primero si la propiedad del fixture es histórica o al uso.
+
+Propuesta para vigencia al uso. Actualizar todos los callers para pasar tiempo de decisión; ejemplo t2 válido/t4 inválido con captura1,caducidad3. La igualdad en3 conserva el convenio actual y debe declararse inclusiva. No supone que exista un servicio real con este fallo.
+
+**ANTES — unidad literal completa**
+
+~~~text
+def requalify(retained, certificate):
+    """Only a qualified scope-compatible *rule* may reinterpret a retained event."""
+    if retained is None:
+        return "NO_REPLAY_SOURCE"
+    if certificate is None:
+        return "UNRESOLVED"
+    if (not certificate.get("verified", False)
+        or certificate.get("source_scope") != retained["scope"]
+        or certificate.get("expires_before") < retained["time"]):
+        return "CERTIFICATE_UNSUPPORTED"
+    if certificate.get("target_event") != retained["event"]:
+        return "NOT_APPLICABLE_TO_EVENT"
+    return "ADMISSIBLE_FOR_NEW_REVIEW"
+
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+def requalify(retained, certificate, *, decision_time):
+    """Only a qualified scope-compatible *rule* may reinterpret a retained event."""
+    if retained is None:
+        return "NO_REPLAY_SOURCE"
+    if decision_time < retained["time"]:
+        return "CERTIFICATE_UNSUPPORTED"
+    if certificate is None:
+        return "UNRESOLVED"
+    if (not certificate.get("verified", False)
+        or certificate.get("source_scope") != retained["scope"]
+        or certificate.get("expires_before") < decision_time):
+        return "CERTIFICATE_UNSUPPORTED"
+    if certificate.get("target_event") != retained["event"]:
+        return "NOT_APPLICABLE_TO_EVENT"
+    return "ADMISSIBLE_FOR_NEW_REVIEW"
+
+~~~
+
+#### IP-37
+
+**Propuesta; no aplicada.** [Fuente y unidad](https://github.com/dakleyer/structural-awareness-contributions/blob/f3f5e2078ba75443ea6e17ea2af9800f8d8ccec3/research/structural-awareness/SA_POSITIONED_RESIDUAL_REUSE_AND_LOCAL_ADAPTATION_v0.1.md#L506). Blob 977880fbd4b3a73667aacafdfb60459a075a4268. Receptor: Propietario de la nota62; no fuente canónica nueva.
+
+Capacidad de implementar no significa igualdad de toda política o del proceso de descubrimiento. Afirmar primero el resultado de trabajo que sí se ha formulado.
+
+**ANTES — unidad literal completa**
+
+~~~text
+A classical algorithm granted the *same* map, costs and adaptation rules can implement SEL and tie it.
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+An ordinary implementation can realize SEL: this is a constructive implementation property. Reusing the supplied SEL procedure on the same inputs reproduces its selected probes; equality of complete work additionally requires the same acquisition, selection, validation and lifecycle accounting. The positive result here is the conditional work reduction from informative paid-for selection against the declared exhaustive procedure; independent discovery and adaptation require their own process comparison.
+~~~
+
+#### IP-38
+
+**Propuesta; no aplicada.** [Fuente y unidad](https://github.com/dakleyer/structural-awareness-contributions/blob/3a846c6bb0fed6c25bf6deaa7af084a69ea242b5/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/11_THEME18_20261027_CORPUS_RECONCILIATION_AND_ADMISSION_CONTRACT_v0.1.md#L30). Blob b451e9d654760765af88104b943fefecd0ca285e. Receptor: PR60, recepción temática11; sincronizar lector12 y fixtures.
+
+No reducir el ahorro probado a una conclusión global sobre una clase de arquitectura. Mantener la equivalencia del procedimiento suministrado y el coste de adquisición separado.
+
+**ANTES — unidad literal completa**
+
+~~~text
+the same proved guard used by a conventional evaluator **ties**, not loses by architecture.
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+reusing that same proved guard and evaluator reproduces the scoped verdict and check count. The demonstrated contribution is the saving against repeated full checking under the stated inequality; a comparison of guard discovery, validation, integration and renewal requires its own complete cost account.
+~~~
+
+#### IP-39
+
+**Propuesta; no aplicada.** [Fuente y unidad](https://github.com/dakleyer/structural-awareness-contributions/blob/3a846c6bb0fed6c25bf6deaa7af084a69ea242b5/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/test_theme18_online_context.py#L144). Blob e8518ca15964b91ac925adf727ddae70d192a138. Receptor: PR60; mismo fixture de M28-02/M28-04.
+
+El test llama dos veces al mismo cálculo. Su nombre debe describir ese control, no atribuir una competencia o proceso comparativo que no ejecuta. Conserva números y aserción.
+
+**ANTES — unidad literal completa**
+
+~~~text
+    def test_competent_same_guard_conventional_peer_ties(self):
+        our = ledger(10, 5)
+        peer = ledger(10, 5)
+        self.assertEqual(our, peer)
+
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+    def test_reusing_supplied_guard_reproduces_cost_ledger(self):
+        # Reproduction control for this supplied ledger; no independent peer
+        # acquisition, guard discovery or adaptation is executed here.
+        first = ledger(10, 5)
+        repeated = ledger(10, 5)
+        self.assertEqual(first, repeated)
+~~~
+
+#### IP-40
+
+**Propuesta; no aplicada.** [Fuente y unidad](https://github.com/dakleyer/structural-awareness-contributions/blob/3a846c6bb0fed6c25bf6deaa7af084a69ea242b5/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/test_theme18_candidate_admission.py#L169). Blob 57794f4c2605443170b1f8b9f523ee53a1d6f9c5. Receptor: PR60; mismo fixture de M28-03.
+
+El nombre peer fuerte no corresponde a una segunda implementación ni a adquisición independiente. Afirmar lo que se comprueba conserva el control sin inflar ni borrar la aportación.
+
+**ANTES — unidad literal completa**
+
+~~~text
+    def test_strong_peer_with_same_evidence_ties(self):
+        args = dict(received_after_exchange=True,
+                    source_to_value_link_qualified=True,
+                    source_value_lower_bound=.84, action_authorized=True,
+                    decision_budget_ok=True)
+        # Correct tie for identical algorithm and evidence; does not prove
+        # one architecture superior (or test adaptation cost).
+        self.assertEqual(assess_candidate(reports(), **args),
+                         assess_candidate(reports(), **args))
+
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+    def test_supplied_candidate_procedure_reproduces_fixture(self):
+        args = dict(received_after_exchange=True,
+                    source_to_value_link_qualified=True,
+                    source_value_lower_bound=.84, action_authorized=True,
+                    decision_budget_ok=True)
+        # Repeating the supplied function checks deterministic reproduction.
+        # No independent acquisition, selection or adaptation is run here.
+        self.assertEqual(assess_candidate(reports(), **args),
+                         assess_candidate(reports(), **args))
+
+~~~
+
+#### IP-41
+
+**Propuesta; no aplicada.** [Fuente y unidad](https://github.com/dakleyer/structural-awareness-contributions/blob/f3f5e2078ba75443ea6e17ea2af9800f8d8ccec3/research/structural-awareness/SA_POSITIONED_RESIDUAL_REUSE_AND_LOCAL_ADAPTATION_v0.1.md#L508). Blob 977880fbd4b3a73667aacafdfb60459a075a4268. Receptor: Propietario de la nota62, §13.3.
+
+La aritmética condicional sí aporta un resultado; «nothing» borra ese alcance positivo. Separar con precisión conteo de probes, coste completo y evidencia operativa.
+
+**ANTES — unidad literal completa**
+
+~~~text
+The comparison establishes nothing until the selection actually captures a useful witness, the input evidence was not leaked, and full costs/quality are matched.
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+The counts exhibit the proposed probe reduction, conditional on a justified selector and a useful captured witness. Establishing total-work or operational improvement further requires leakage-free selection, complete acquisition and lifecycle costs, matched quality and an actual successful certificate.
+~~~
+
+#### IP-42
+
+**Propuesta; no aplicada.** [Fuente y unidad](https://github.com/dakleyer/structural-awareness-contributions/blob/f3f5e2078ba75443ea6e17ea2af9800f8d8ccec3/research/structural-awareness/SA_EA_EP_DDS_FOUNDATIONAL_BRIDGE_v0.1.md#L246). Blob e01385a28ae26522c9120bd9e8bdc583dc36929b. Receptor: Puente62 §7; sincronizar anexo13 sin cambiar SA-O4.
+
+Separar la ventaja de discriminación informativa del ahorro de cómputo/procedimiento sobre la misma información. La condición abreviada no debe bloquear la interpretación positiva de SA-O4 o CA-4.
+
+**ANTES — unidad literal completa**
+
+~~~text
+A gain attributed to meta-information is only established where the comparator demonstrably does **not** already use equivalent information, and where the additional mechanism/measurement cost is included.
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+An information-discrimination claim must identify a task-relevant distinction absent from the comparator observation. A work-allocation or inference-cost claim may instead compare different procedures on the same available information, including SA-O4 proof reuse and the linked residual-reuse annex §13 selective search; identify that procedural change and measure full acquisition, selection, verification and lifecycle costs. Keep the claimed dimension explicit, and compare actual competent implementations under the same decision contract.
+~~~
+
+#### M28-07-IMPORT
+
+**Propuesta; no aplicada.** [Fuente y unidad](https://github.com/dakleyer/structural-awareness-contributions/blob/5046bbf4ac6dcbd6b7c2393929986868bb5d254d/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/math_audit_companion_2026-10-27.py#L7). Blob 1e9695cca3fa2fbcb2c850bf0d6598a366589f6d. Receptor: Acompañante8 del propio PR58; propuesta de higiene, no cambio matemático.
+
+Dependencia estándar para caché temporal; seleccionar las cuatro unidades M28-07 juntas.
+
+**ANTES — unidad literal completa**
+
+~~~text
+import argparse, hashlib, importlib.util, itertools, json, math, sys, urllib.request
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+import argparse, hashlib, importlib.util, itertools, json, math, sys, urllib.request
+import tempfile
+~~~
+
+#### M28-07-ARGS
+
+**Propuesta; no aplicada.** [Fuente y unidad](https://github.com/dakleyer/structural-awareness-contributions/blob/5046bbf4ac6dcbd6b7c2393929986868bb5d254d/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/math_audit_companion_2026-10-27.py#L26). Blob 1e9695cca3fa2fbcb2c850bf0d6598a366589f6d. Receptor: Seleccionar con IMPORT/OUTPUT/ENTRY de M28-07.
+
+El resultado versionado deja de ser destino implícito; la caché por defecto proviene del contexto temporal del punto de entrada. --source-archive sigue leyendo las mismas fuentes fijadas.
+
+**ANTES — unidad literal completa**
+
+~~~text
+def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--source-archive",type=Path)
+    parser.add_argument("--output",type=Path,default=HERE/"MATH_AUDIT_RESULTS_2026-10-27.json")
+    args=parser.parse_args()
+    root=args.source_archive or HERE/".pinned-math-audit-sources"
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+def main(cache_root):
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--source-archive",type=Path)
+    parser.add_argument("--output",type=Path)
+    args=parser.parse_args()
+    root=args.source_archive or cache_root
+~~~
+
+#### M28-07-OUTPUT
+
+**Propuesta; no aplicada.** [Fuente y unidad](https://github.com/dakleyer/structural-awareness-contributions/blob/5046bbf4ac6dcbd6b7c2393929986868bb5d254d/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/math_audit_companion_2026-10-27.py#L140). Blob 1e9695cca3fa2fbcb2c850bf0d6598a366589f6d. Receptor: Seleccionar con IMPORT/ARGS/ENTRY de M28-07.
+
+Salida a stdout o creación exclusiva explícita. Si el destino existe, falla sin truncarlo. Se conserva el contenido de las32 comprobaciones.
+
+**ANTES — unidad literal completa**
+
+~~~text
+    args.output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    print(json.dumps({"passed":result["passed"],"total":result["total"],"verified_source_blobs":len(verified)},ensure_ascii=False))
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+    payload=json.dumps(result,ensure_ascii=False,indent=2)+"\n"
+    if args.output:
+        with args.output.open("x",encoding="utf-8",newline="\n") as stream:
+            stream.write(payload)
+        print(json.dumps({"passed":result["passed"],"total":result["total"],"verified_source_blobs":len(verified)},ensure_ascii=False))
+    else:
+        print(payload,end="")
+~~~
+
+#### M28-07-ENTRY
+
+**Propuesta; no aplicada.** [Fuente y unidad](https://github.com/dakleyer/structural-awareness-contributions/blob/5046bbf4ac6dcbd6b7c2393929986868bb5d254d/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/math_audit_companion_2026-10-27.py#L142). Blob 1e9695cca3fa2fbcb2c850bf0d6598a366589f6d. Receptor: Seleccionar con las otras tres unidades M28-07.
+
+El contexto elimina caché temporal al salir, incluso ante error. No crea una caché dentro del directorio publicado.
+
+**ANTES — unidad literal completa**
+
+~~~text
+if __name__=="__main__":main()
+~~~
+
+**DESPUÉS — propuesta completa**
+
+~~~text
+if __name__=="__main__":
+    with tempfile.TemporaryDirectory(prefix="imsv-math-audit28-") as audit_tmp:
+        main(Path(audit_tmp))
+~~~
+
+### 10.8 Higiene del acompañante de ronda8 y criterio de cierre
+
+El archivo antiguo conserva un destino por defecto y write_text sobre el JSON de referencia. La propuesta concreta es hacer --output opcional sin destino por defecto; si no se proporciona, escribir el JSON completo a stdout; si se proporciona, abrir ese destino con modo exclusivo x; usar TemporaryDirectory para descargas/caché y comprobar sus hashes. Verificar que una ejecución sin argumentos no altera ningún blob/ruta versionada y que un destino existente falla sin truncarlo. Mantener iguales las32 comprobaciones matemáticas y sus resultados. Este comportamiento ya se implementa en el acompañante23 de esta ronda, pero no se atribuye retroactivamente al antiguo.
+
+### 10.9 Custodia, alcance de evidencia y continuación
+
+Los pares se verifican literal e inversamente contra los heads indicados. Las nuevas regresiones numéricas son deliberadamente FALLIDAS en la fuente: describen la condición de aceptación del futuro arreglo. Las otras propuestas pequeñas tienen comprobaciones privadas de dominio, datos inválidos, vigencia y reproducción; no se modifican los snapshots. El acompañante23 permite reproducir los fallos actuales con tres blobs fijados, guarda caché temporal, salida por defecto a stdout y --output exclusivo. El resultado de red se compara con el local por contenido, no como dos experimentos.
+
+La matriz de la ronda12 es la cola vigente. La primera acción es reparar certificados y recibir los estados ya avanzados; después escoger las fichas editoriales y continuar las líneas matemáticas y auditorías de fondo pendientes. Las34 operaciones IP anteriores y las nuevas unidades requieren su propia incorporación. Las restricciones de fuente congelada/histórica, consumidores y autoridad se conservan; no hay merge, cambio de main, nuevo protocolo de runtime, revisión humana independiente o envío FG-TIDA en esta ronda.
