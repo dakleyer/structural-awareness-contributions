@@ -7,6 +7,7 @@ interval claims are sound only conditional on source/regularity assumptions.
 from __future__ import annotations
 
 from dataclasses import dataclass
+from fractions import Fraction
 import json
 import math
 from typing import Optional
@@ -20,6 +21,26 @@ def number(v: float, name: str) -> float:
     if isinstance(v, bool) or not isinstance(v, (int, float)) or not math.isfinite(v):
         raise ContractError(f"{name}: finite numeric value required")
     return float(v)
+
+
+def _outward_float(value: Fraction, *, lower: bool) -> Optional[float]:
+    """Represent a rational bound without inward rounding in JSON output.
+
+    Certificates are decided on exact rational values of the caller-supplied
+    finite numbers, not on these approximate presentation floats.
+    """
+    try:
+        approximate = float(value)
+    except OverflowError:
+        return None
+    if not math.isfinite(approximate):
+        return None
+    represented = Fraction(approximate)
+    if lower and represented > value:
+        approximate = math.nextafter(approximate, -math.inf)
+    elif not lower and represented < value:
+        approximate = math.nextafter(approximate, math.inf)
+    return approximate if math.isfinite(approximate) else None
 
 
 @dataclass(frozen=True)
@@ -114,7 +135,7 @@ class DecisionQuestion:
             raise ContractError("only explicit at_least predicate supported")
 
 
-def _joint_evidence_status(points: list[Point], lipschitz: float) -> str:
+def _joint_evidence_status(points: list[Point], lipschitz: Fraction) -> str:
     """Screen joint feasibility before treating the local envelope as evidence.
 
     For exact coordinates, all pairwise interval inequalities are necessary
@@ -122,14 +143,21 @@ def _joint_evidence_status(points: list[Point], lipschitz: float) -> str:
     For uncertain coordinates, minimum separation certifies compatibility for
     every allowed coordinate assignment; maximum separation can prove that no
     assignment works. Other cases remain explicitly unestablished.
+
+    Exact rationals of finite supplied numbers prevent floating subtraction
+    from erasing a genuine sub-ULP source contradiction.
     """
     robust = True
     for i, a in enumerate(points):
+        ax0, ax1 = Fraction(a.x_min), Fraction(a.x_max)
+        ay0, ay1 = Fraction(a.y_min), Fraction(a.y_max)
         for b in points[i + 1:]:
-            dmin = max(0.0, a.x_min - b.x_max, b.x_min - a.x_max)
-            dmax = max(abs(a.x_min - b.x_max), abs(a.x_max - b.x_min))
-            gap_ab = a.y_min - b.y_max
-            gap_ba = b.y_min - a.y_max
+            bx0, bx1 = Fraction(b.x_min), Fraction(b.x_max)
+            by0, by1 = Fraction(b.y_min), Fraction(b.y_max)
+            dmin = max(Fraction(0), ax0 - bx1, bx0 - ax1)
+            dmax = max(abs(ax0 - bx1), abs(ax1 - bx0))
+            gap_ab = ay0 - by1
+            gap_ba = by0 - ay1
             if gap_ab > lipschitz * dmax or gap_ba > lipschitz * dmax:
                 return "INCONSISTENT"
             if gap_ab > lipschitz * dmin or gap_ba > lipschitz * dmin:
@@ -191,26 +219,36 @@ def qualify(frame: Frame, query: DecisionQuestion, points: tuple[Point, ...],
     # For uncertain x_i and uncertain y_i, use the *maximum* possible
     # distance to x_i to give conservative bounds valid for every allowed
     # coordinate. No distribution over unknown coordinates is assumed.
-    L = frame.lipschitz
+    # M28-01: exact arithmetic prevents sub-ULP contradictions and threshold
+    # crossings from being rounded into a positive/negative certificate.
+    L = Fraction(frame.lipschitz)
+    query_x = Fraction(query.x)
     lows, highs = [], []
     for p in found:
-        d = max(abs(query.x-p.x_min), abs(query.x-p.x_max))
-        lows.append(p.y_min-L*d)
-        highs.append(p.y_max+L*d)
-    lo, hi = max(lows), min(highs)
+        d = max(abs(query_x - Fraction(p.x_min)),
+                abs(query_x - Fraction(p.x_max)))
+        lows.append(Fraction(p.y_min) - L*d)
+        highs.append(Fraction(p.y_max) + L*d)
+    lo_exact, hi_exact = max(lows), min(highs)
     # Even a tiny empty intersection is not a valid positive certificate.
-    if lo > hi:
-        return _report("EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT", lo, hi, retained, rejected_ids, origin_ids, tuple(relevant_d))
+    if lo_exact > hi_exact:
+        return _report("EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT", None, None, retained, rejected_ids, origin_ids, tuple(relevant_d))
     joint_status = _joint_evidence_status(found, L)
     if joint_status == "INCONSISTENT":
         return _report("EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT", None, None, retained, rejected_ids, origin_ids, tuple(relevant_d))
+    # Published float bounds may be wider but may never be rounded inwards.
+    lo = _outward_float(lo_exact, lower=True)
+    hi = _outward_float(hi_exact, lower=False)
+    if lo is None or hi is None:
+        return _report("NUMERICAL_BOUNDS_NOT_REPRESENTABLE", None, None, retained, rejected_ids, origin_ids, tuple(relevant_d))
     if relevant_d:
         return _report("MATERIAL_D_NOT_EVALUABLE", lo, hi, retained, rejected_ids, origin_ids, tuple(relevant_d))
     if joint_status == "NOT_ESTABLISHED":
         return _report("JOINT_CONSISTENCY_NOT_ESTABLISHED", lo, hi, retained, rejected_ids, origin_ids, ())
-    if lo >= query.threshold:
+    threshold_exact = Fraction(query.threshold)
+    if lo_exact >= threshold_exact:
         status="LOCALLY_SUPPORTED_TRUE"
-    elif hi < query.threshold:
+    elif hi_exact < threshold_exact:
         status="LOCALLY_SUPPORTED_FALSE"
     else:
         status="UNDETERMINED_FROM_AVAILABLE_EVIDENCE"
@@ -241,7 +279,7 @@ def advisory(status: str, *, owner_authorized: bool, actor_consent: str,
         raise ContractError("invalid meta-advisory parameters")
     valid_status = {"SOURCE_CONFLICT", "OUTSIDE_DECLARED_DOMAIN", "NO_JUSTIFIED_REGULARITY",
                     "NO_RELEVANT_EVIDENCE", "EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT",
-                    "JOINT_CONSISTENCY_NOT_ESTABLISHED", "MATERIAL_D_NOT_EVALUABLE", "LOCALLY_SUPPORTED_TRUE",
+                    "NUMERICAL_BOUNDS_NOT_REPRESENTABLE", "JOINT_CONSISTENCY_NOT_ESTABLISHED", "MATERIAL_D_NOT_EVALUABLE", "LOCALLY_SUPPORTED_TRUE",
                     "LOCALLY_SUPPORTED_FALSE", "UNDETERMINED_FROM_AVAILABLE_EVIDENCE"}
     if status not in valid_status:
         raise ContractError("unknown evidence status")
