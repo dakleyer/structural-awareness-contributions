@@ -97,7 +97,7 @@ LEDGER = [
     ("M27-O5", "M27-O", "—", "PROPUESTA", 8, "Línea de desarrollo: ventanas con error, coste y plazo."),
     ("M28-01", "M28", "Alta", "CERRADO", 13, "El redondeo de coma flotante podía certificar «verdadero»; corregido y reconfirmado."),
     ("M28-02", "M28", "Media", "RESPONDIDO", 15, "#60: la guarda no comprobaba que el punto pertenezca al dominio. Corregido en la rama de #60 y reconfirmado; falta incorporarlo a main."),
-    ("M28-03", "M28", "Media", "ABIERTO", 12, "#60: se aceptan NaN o infinito como cota de utilidad."),
+    ("M28-03", "M28", "Media", "RESPONDIDO", 23, "#60: se aceptaban NaN o infinito como cota de utilidad. Corregido en la rama de #60 y reconfirmado con 32 valores; falta incorporarlo a main."),
     ("M28-04", "M28", "Media", "PROPUESTA", 12, "#60: decidir si la caducidad se mide en la fecha del evento o en la de uso."),
     ("M28-05", "M28", "—", "ABIERTO", 12, "Nombres de pruebas que sugieren una comparación que no existe."),
     ("M28-06", "M28", "—", "INFORMATIVO", 12, "Panel y navegación de la auditoría actualizados."),
@@ -120,6 +120,9 @@ LEDGER = [
     ("K-06", "K", "Informativo", "VERIFICADO", 17, "#46: equivalentes ciertos, ejemplos y umbral de varianza recalculados: correctos."),
     ("K-07", "K", "Media", "ABIERTO", 17, "#46: compara una media de lotería (14) con un bienestar neto estipulado (17) sin escala común declarada."),
     ("K-08", "K", "—", "PROPUESTA", 17, "#46 ya tiene la elección racional bajo riesgo que pedía H-01: se puede reutilizar para el juego de coordinación."),
+    ("L-01", "L", "Baja", "ABIERTO", 23, "#60: una cota de utilidad finita mayor que 1 todavía certifica ganancia, aunque la puntuación está acotada en [0, 1]."),
+    ("L-02", "L", "Media", "ABIERTO", 23, "#60: la caducidad de requalify admite NaN y falla con TypeError si falta el campo."),
+    ("L-03", "L", "Informativo", "VERIFICADO", 23, "#60: los testigos F1/D1 (10 frente a 8; 11,5 frente a 8,875 con el mismo A) se reproducen desde el código de origen."),
 ]
 
 FAMILIES = (
@@ -134,6 +137,7 @@ FAMILIES = (
     ("M28-O", "Líneas de desarrollo (28 oct)"),
     ("J", "Forma del expediente (ronda 14)"),
     ("K", "Modelo social #44–#46 (ronda 17)"),
+    ("L", "PR #60, recepción (ronda 23)"),
 )
 
 # Same defect under several names (aliases across audits)
@@ -268,7 +272,7 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"),
 ]
 
 

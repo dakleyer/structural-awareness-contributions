@@ -1,7 +1,7 @@
 {
   "schema": "ACC-AUDIT-STATUS-LEDGER-v0.1",
   "as_of": "2026-10-28",
-  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-22",
+  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-23",
   "state_vocabulary": [
     "ABIERTO",
     "RESPONDIDO",
@@ -12,10 +12,10 @@
     "INFORMATIVO"
   ],
   "totals": {
-    "ABIERTO": 40,
-    "RESPONDIDO": 14,
+    "ABIERTO": 41,
+    "RESPONDIDO": 15,
     "CERRADO": 4,
-    "VERIFICADO": 5,
+    "VERIFICADO": 6,
     "PROPUESTA": 11,
     "RETIRADO": 2,
     "INFORMATIVO": 3
@@ -72,8 +72,8 @@
         4
       ],
       "M28": [
-        2,
         1,
+        2,
         1,
         2,
         1
@@ -104,6 +104,13 @@
         0,
         3,
         1,
+        0
+      ],
+      "L": [
+        2,
+        0,
+        1,
+        0,
         0
       ]
     }
@@ -561,9 +568,9 @@
       "id": "M28-03",
       "family": "M28",
       "severity": "Media",
-      "state": "ABIERTO",
-      "set_in_round": 12,
-      "summary": "#60: se aceptan NaN o infinito como cota de utilidad."
+      "state": "RESPONDIDO",
+      "set_in_round": 23,
+      "summary": "#60: se aceptaban NaN o infinito como cota de utilidad. Corregido en la rama de #60 y reconfirmado con 32 valores; falta incorporarlo a main."
     },
     {
       "id": "M28-04",
@@ -740,6 +747,30 @@
       "state": "PROPUESTA",
       "set_in_round": 17,
       "summary": "#46 ya tiene la elección racional bajo riesgo que pedía H-01: se puede reutilizar para el juego de coordinación."
+    },
+    {
+      "id": "L-01",
+      "family": "L",
+      "severity": "Baja",
+      "state": "ABIERTO",
+      "set_in_round": 23,
+      "summary": "#60: una cota de utilidad finita mayor que 1 todavía certifica ganancia, aunque la puntuación está acotada en [0, 1]."
+    },
+    {
+      "id": "L-02",
+      "family": "L",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 23,
+      "summary": "#60: la caducidad de requalify admite NaN y falla con TypeError si falta el campo."
+    },
+    {
+      "id": "L-03",
+      "family": "L",
+      "severity": "Informativo",
+      "state": "VERIFICADO",
+      "set_in_round": 23,
+      "summary": "#60: los testigos F1/D1 (10 frente a 8; 11,5 frente a 8,875 con el mismo A) se reproducen desde el código de origen."
     }
   ],
   "aliases": [
@@ -792,27 +823,27 @@
     }
   ],
   "checks": {
-    "ledger_ids": 79,
+    "ledger_ids": 82,
     "duplicate_ids": 0,
     "ledger_ids_absent_from_audit": [],
     "audit_ids_absent_from_ledger": [],
     "ledger_ids_without_stable_anchor": [],
     "guide_totals_row": {
       "guide": [
-        40,
-        14,
-        9,
+        41,
+        15,
+        10,
         11,
         5,
-        79
+        82
       ],
       "ledger": [
-        40,
-        14,
-        9,
+        41,
+        15,
+        10,
         11,
         5,
-        79
+        82
       ],
       "ok": true
     },

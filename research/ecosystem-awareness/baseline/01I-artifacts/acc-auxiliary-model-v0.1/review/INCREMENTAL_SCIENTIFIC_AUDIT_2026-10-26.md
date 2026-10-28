@@ -52,6 +52,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 20 | 2026-10-28 | [Kit de edición premium: 01 README del modelo auxiliar](#ronda-20) | 9 propuestas de visuales, edición, diseño y conexión |
 | 21 | 2026-10-28 | [Kit de edición premium: 02 `MODEL.md`](#ronda-21) | 12 propuestas; cifra de pruebas del toy desfasada en `MODEL.md` |
 | 22 | 2026-10-28 | [Scripts de verificación al expediente](#ronda-22) | Sin hallazgos nuevos; 7 scripts reproducibles y cifras reconfirmadas |
+| 23 | 2026-10-28 | [Recepción de la nota de Codex sobre PR #60: M28-03, M28-04 y F1/D1](#ronda-23) | M28-03 reparado en la rama; L-01 y L-02 nuevos; testigos F1/D1 verificados (L-03) |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -971,3 +972,42 @@ Las oportunidades no son hallazgos y no se cuentan en el registro de estados. No
 **Reejecución:** todo se volvió a ejecutar el 28-10-2026 contra `main` `51fc686`, PR #60 en `8cd78d58` y PR #64 en `059e0af1`, y todas las cifras publicadas se reproducen. M28-02 se había verificado sobre `cb72bb65`; la rama de PR #60 avanzó después y el barrido sigue dando 0 violaciones. El comprobador de anclas no encuentra ningún enlace roto en la auditoría, la guía, el anexo ni el kit premium. También se comprobó que todas las rutas y anclas citadas dentro de los bloques listos para pegar de las entregas 01 y 02 existen en `main`.
 
 No se modifica ningún documento fuente ni ningún estudio.
+
+
+<a id="ronda-23"></a>
+
+## Ronda 23 — recepción de la nota sobre PR #60: M28-03, M28-04 y diagnóstico F1/D1 (28-10-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** [comentario de recepción en PR #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-6467794183), escrito por Codex, asistencia de IA, desde la cuenta del propietario. No es una declaración del propietario ni una revisión humana.
+
+**Qué afirma la nota:**
+
+1. M28-03 está reparado: la cota de utilidad rechaza NaN, ±∞, booleanos y valores no numéricos mediante intervalos exactos tipados.
+2. M28-02 sigue reparado.
+3. Comparar signos es aritmética estándar posterior al mecanismo, no el núcleo de Structural Awareness.
+4. Un diagnóstico finito F1/D1 nuevo muestra residuos con el mismo A: en el modelo social, capacidad conjunta 10 frente a 8; en AG01/AG02 de PR57, 11,5 frente a 8,875 tras una transferencia fija.
+5. 45 pruebas enfocadas y la CI pasan.
+6. M28-04 sigue abierto.
+
+**Comprobado de forma independiente** sobre la rama de PR #60 en `8cd78d58`, con los scripts de [`verification/`](incremental-audit-2026-10-26/verification/README.md):
+
+| Afirmación | Resultado |
+|---|---|
+| M28-03 reparado | **Sí.** Barrido de 32 valores con todas las demás puertas abiertas. Los 16 no finitos o no numéricos (NaN, ±∞ en `float` y `Decimal`, `sNaN`, booleanos, texto, bytes, `None`, listas, tuplas, diccionarios y complejos) dan `UTILITY_NOT_ESTABLISHED`. En el umbral, 0,75 no certifica ganancia y el siguiente flotante sí: la comparación es estricta y exacta |
+| M28-02 sigue reparado | **Sí.** 162 combinaciones, 0 violaciones |
+| Testigo social | **Sí.** Los dos mundos de `nested_model` entregan el mismo A (8, 8); la capacidad conjunta es 10 frente a 8 |
+| Testigo agéntico | **Sí.** En PR57 `a9894049`, `declared_public(AG01) == declared_public(AG02)`, y `physical_response(transfer=2)` da 11,5 frente a 8,875. El A escrito a mano en la prueba de PR #60 coincide con el de PR57 |
+| 45 pruebas | **Sí.** 15 de adecuación estructural, 15 de ganancia cualificada y 15 de admisión de candidatos. El directorio tiene 66 pruebas en total y todas pasan |
+| M28-04 abierto | **Sí**, con evidencia adicional (L-02 y el extremo de la caducidad, abajo) |
+
+**Hallazgos nuevos:**
+
+| ID | Estado | Hallazgo | Propuesta |
+|---|---|---|---|
+| <a id="l-01"></a>**L-01** | Baja · `ABIERTO` | **Residuo de M28-03: cotas finitas fuera de rango.** La puntuación geométrica G = 1 − Σ(1 − vᵢ)²/4 está acotada en [0, 1] sobre el dominio que declara `geometry_score_bounds`. Aun así, una cota inferior de 1,5, 10²¹ o 1e308 llega a `SCOPED_PROPOSAL_FOR_EXTERNAL_ACTION_CHECK`. Es la misma clase que M28-03, un campo imposible convertido en certificado positivo, pero con valores finitos. El fixture mantiene `execution = NEVER` y exige además autorización y presupuesto, así que no hay actuación indebida. | Declarar el codominio de la métrica en el `ValueInterval` del candidato y devolver `UTILITY_NOT_ESTABLISHED` (o un estado de evidencia inconsistente) cuando la cota lo excede. Añadir 1,5 y 1e308 a las pruebas. |
+| <a id="l-02"></a>**L-02** | Media · `ABIERTO` | **La caducidad de `requalify` admite NaN y falla con campos ausentes.** Con `expires_before = NaN`, la comparación `NaN < 1` es falsa y el certificado pasa a `ADMISSIBLE_FOR_NEW_REVIEW`. Con `expires_before` ausente, `None` o texto, la función lanza `TypeError` en lugar de devolver `CERTIFICATE_UNSUPPORTED`. Es el patrón de M28-03 en el campo temporal. | Validar tipo y finitud de `expires_before` antes de comparar, devolver `CERTIFICATE_UNSUPPORTED` si no es válido, y probar NaN, `None`, ausencia y texto. Conviene resolverlo junto con M28-04. |
+| <a id="l-03"></a>**L-03** | Informativo · `VERIFICADO` | **Testigos F1/D1 correctos.** `assess_finite_adequacy` implementa la condición de fibra: casos con el mismo A deben compartir respuesta (F1) y sucesor por operación declarada (D1). Es la separación por fibras de 00M §4, ya verificada en #44 (K-04). Los dos testigos de residuo se reproducen desde el código de origen y no desde los números escritos en la prueba. La lectura arquitectónica de la nota es coherente con esto: la comparación de signos de `compare_gain` es un paso posterior, y el diagnóstico estructural no la necesita. | — |
+
+**Evidencia adicional para M28-04.** `requalify(retained, certificate)` no recibe ningún tiempo de decisión, así que solo puede comparar con el tiempo del evento retenido (t = 1). Además, con `expires_before = 1` y t = 1 el certificado se admite. Si «expires_before» significa «válido estrictamente antes de», en t = 1 ya estaría caducado. Es exactamente la convención de extremo que la nota pide declarar. M28-04 sigue en `PROPUESTA`.
+
+**Estados:** M28-03 pasa a `RESPONDIDO`: está reparado y reconfirmado en la rama de PR #60, pero aún no está en `main`. Se añaden L-01 y L-02 (abiertos) y L-03 (verificado). No se cierra ningún registro, porque el código sigue en un PR abierto.
