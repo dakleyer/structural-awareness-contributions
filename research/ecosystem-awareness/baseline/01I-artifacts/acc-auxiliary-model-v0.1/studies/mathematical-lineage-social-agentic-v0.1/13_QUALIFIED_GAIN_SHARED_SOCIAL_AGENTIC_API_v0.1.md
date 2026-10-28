@@ -110,6 +110,12 @@ On this entire box, each partial derivative (1-vi)/2 is nonnegative. Therefore t
 
 The previous Theme18 candidate-admission test used direct <= on the claimed source_value_lower_bound. It could mistakenly treat NaN, +infinity or True as a strict improvement. Now the same typed interval core checks the value, preserving the positive 0.84 path, the no-established-improvement 0.50 path and the distinct authorization/budget gates.
 
+## Evidence-certificate gate for A+Q (28 October)
+
+Before a social or agentic adapter makes Q available to the F1/D1 adequacy checker, the receiving side must qualify the **retained event**, the **source rule**, the **present decision use**, and the **latest revocation state** separately. The event's historical occurrence `t1` and certificate issuance `t2` are not evidence of current usefulness at `t10` after use validity ends at `t3`. Our original online-context miniature had checked only `t1 < t3`; this is now replaced with [the dual-time signed admission contract](./14_DUAL_TIME_SIGNED_CERTIFICATE_CONTRACT_v0.1.md) and [the reusable Python evaluator](./qualified_certificates.py).
+
+A valid historical requalification preserves a retrospective fact; only `VALID_FOR_CURRENT_REVIEW` makes that observation available to the receiving A+Q projection *now*. Signed certificates bind exact event-record and certificate-content hashes, and require independent policies for source qualification, capture, preserved payload, retention, receiver authentication, use rights, trusted clock, and non-replayed revocation. They do **not** automatically mark a metric `SUPPORTED` or grant an action. The [social/agentic certificate tests](./test_theme18_certificates.py) exercise both finite F1/D1 models with valid Q, expired Q and incomplete/denied Q. Numeric gain remains a separate task after independently verified value evidence.
+
 ## Third-party integration
 
 Both modules use only Python's standard library and accept values from external domains without importing ACC models. A third-party adapter decides the metric and validates the evidence, then constructs intervals:
