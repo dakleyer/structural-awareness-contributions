@@ -50,6 +50,27 @@ def _nonnegative_int(value: Any, label: str) -> int:
     return value
 
 
+def _bits_for_pattern(n: int, target: int, entry: Mapping[str, Any]) -> tuple[int, ...]:
+    """Only build source-native Leaf capacities; do not change source functions."""
+    mode = entry["mode"]
+    if mode == "selected":
+        return tuple(int(i == target) for i in range(n))
+    if mode == "all":
+        return (1,) * n
+    if mode == "none":
+        return (0,) * n
+    if mode == "alternating":
+        return tuple(i % 2 for i in range(n))
+    if mode == "indices":
+        indices = entry["indices"]
+        if (not isinstance(indices, list) or
+                any(type(i) is not int or i < 0 or i >= n for i in indices) or
+                len(indices) != len(set(indices))):
+            raise ValueError("invalid source capacity indices")
+        return tuple(int(i in indices) for i in range(n))
+    raise ValueError("unknown source capacity pattern")
+
+
 def execute(manifest: Mapping[str, Any], root: Path, *,
             model: str = "both", details: bool = False) -> dict[str, Any]:
     """Run user-specified grids against original policies; never alter their code."""
@@ -71,13 +92,14 @@ def execute(manifest: Mapping[str, Any], root: Path, *,
         roots = src["roots"]
         accesses = src["accesses"]
         prices = src["prices"]
+        patterns = src.get("capacity_patterns", [{"id": "selected-only", "mode": "selected"}])
         if not all(type(n) is int and 2 <= n <= 256 for n in sizes):
             raise ValueError("social sizes must be integer leaf counts 2..256")
-        for n, root_cfg, access, price_cfg in product(sizes, roots, accesses, prices):
+        for n, root_cfg, access, price_cfg, pattern in product(sizes, roots, accesses, prices, patterns):
             if access not in ("full", "target-inaccessible"):
                 raise ValueError("unknown accessibility regime")
             idx = n // 4
-            bits = tuple(1 if k == idx else 0 for k in range(n))
+            bits = _bits_for_pattern(n, idx, pattern)
             slack = root_cfg["slack"]
             cap_root = None if slack is None else 8*n + _nonnegative_int(slack, "root slack")
             world = producer.balanced_tree(
@@ -93,10 +115,13 @@ def execute(manifest: Mapping[str, Any], root: Path, *,
                     raise ValueError("negative directed path price")
                 changes["target_observation"] = str(price)
             costs = intrinsic_cost_override(producer, changes)
-            case_id = f"n{n}/{root_cfg['id']}/{access}/{price_cfg['id']}"
+            case_id = f"n{n}/{pattern['id']}/{root_cfg['id']}/{access}/{price_cfg['id']}"
+            budget = quantity(price_cfg.get("planner_budget", "1000"))
+            if budget < 0:
+                raise ValueError("negative source receiver budget")
             result = compare_case(intrinsic_observations(
                 producer, world, "source-" + str(idx), costs,
-                scenario_id=case_id, planner_budget=1000,
+                scenario_id=case_id, planner_budget=float(budget),
             ))
             results.append(result)
     crossing = None
