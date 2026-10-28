@@ -566,3 +566,142 @@ No pure diagonalization, non-closure principle or low A frequency proves conditi
 **Related primary mathematical work (for separation, not novelty attribution):** Boyd–Vandenberghe *Convex Optimization*, duality and sensitivity (https://web.stanford.edu/~boyd/cvxbook/); Niyogi, *Sequential Optimal Recovery: A Paradigm for Active Learning* (MIT, 1995; https://dspace.mit.edu/entities/publication/0f285c7a-aac0-42d5-a6a4-c3f03733bc4e); AGM theory contraction (Alchourrón–Gärdenfors–Makinson, 1985; author bibliography: https://sites.google.com/site/davidcmakinson/home). These show that efficient selective computation, uncertainty sampling and rule contraction have established precedents. This annex's **specific candidate contribution** is their scoped combination with SA boundary semantics and the already owned EA/EP/MSCA/ACC choreography, under the above falsifiable conditions.
 
 **Owner-boundary conclusion.** The defensible claim is **conditional superiority in total computational *work* for a specified decision and comparator, via paid-for structural selection of a small constraint/residual subset and locally certified requalification**, not superiority over universal Turing computability, all conventional active methods, the whole unenumerated exterior, or the global optimum. Section 13 adds research proof obligations and measurements only; it changes no canonical owner, source algorithm, gradient formula, runtime permission, licence or PR promotion state.
+
+## 14. Working integration (28 October 2026) — context-engineered learning loop, semantic window, Regime Awareness and modular value
+
+**Research status and owner route.** This is an architectural interpretation of the **already defined** Semantic Window, F1–F9, EHD, Regime Awareness, source-owned agentic gradient, MSCA and Agentic Citizenship Contract, applied to the selective-search hypothesis of §§12–13. It does not overwrite frozen EA/RA/MSCA interfaces or assert that the whole integrated learning system has passed an executed experiment. Existing mathematical results, source-level constructed examples and executed field evidence must remain separately attributable.
+
+### 14.1 Context engineering is part of the search state, not a new universe of solutions
+
+A task-bound agent already operates under a **versioned context**: its declared objective \(d\), interpreted environment, role/ACC, authority, evidence, scope, rules, time horizon and resource limits. The *working observation/admission window* is a selectable part of that context. Let a **local research-level context state** be
+
+\[
+\Theta_{i,t}=
+(d_i,\ S_i,\ \kappa_i,\ G_t,\ W_i(d,t),\ \Pi_{{\rm EA},i},
+\ \Delta_{\rm RA},\ R_{i,t},\ H_{{\rm RA},t},\ \pi_{i,t}).
+\tag{CL-1}
+\]
+
+Here \(W_i(d,t)\) is EA's **Semantic Window** (what evidence, dependencies, actors/domains or acquisition pathways are admitted to *active interpretation* for this objective); \(H_{{\rm RA},t}\) denotes the **context/history qualified by Regime Awareness**, which may be a task-specific sufficient suffix \(H_t(m)\) with contextual boundary \(T_t^*\). **These are not interchangeable windows.** \(R_{i,t}\) denotes current local interpretation/admission rules, *not* a guaranteed complete universe; \(\pi_{i,t}\) is an optional, separately authorized bounded rule-selection/learning policy.
+
+**Context engineering** can change what evidence is placed before the decision process, which source is attended to, which question/frame is used, how uncertainty is exposed, and which existing guards are invoked. It is therefore a practical way to **change the process's active view of restrictions**. But attention-window redirection, hard-constraint relaxation and ACC/authority amendment are **three different operations**: changing \(W_i\) alone does not rescind a genuine safety, legal or contractual condition.
+
+The [Semantic Window article](../ecosystem-awareness/baseline/ARTICLE_03_SEMANTIC_WINDOW_AND_GOOD_ENOUGH_EARLY_WARNING.md) and [EA participant-local 01H §4](../ecosystem-awareness/baseline/01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md) already allow **expand / refresh / redirect / narrow** \(W(d,t)\) under objective, cost, horizon and evidence constraints. Redirecting the window can expose the **gate/interface whose relevance was previously outside the decision frame**, without constructing an exhaustive exterior ontology. This is where context engineering links operationally to selective metasyntactic search, not a claim that context changes create new physical objects.
+
+### 14.2 Regime Awareness supplies context validity; EHD preserves differentiated uncertainty across agents
+
+The [EA–RA source interface 01C](../ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) owns the relation between context sufficiency, detection, regime delta, F2 window management and F7/F9 requalification. RA can report that earlier representation, history, threshold, invariant or mapping is no longer sufficiently qualified for the current regime; **RA does not choose a new mission** and a neutral RA output cannot erase another relevant ecosystem dependency. EA uses that qualified information to reconsider \(W_i\), gate selection and the current Objective Envelope/role assessment.
+
+The [EHD source handoff and signalling model (01H/01J)](../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md) can transfer **qualified observations, UNKNOWN, source lineage, context/contract version, validity and residual uncertainty** to other participants. In this workflow EHD is a **bounded information-transfer mechanism**, not a new detector, permission grant, collective truth oracle or mandatory broadcast. It can improve the receiver's decision *if* the sender's distinction is relevant and independently qualified; a forwarded assertion does not become fresh independent evidence on return. Agents may have different \(W_i\), ACC, objectives and indeterminate residues.
+
+The source-owned F9 **feedback/revalidation and pathway-learning** discipline checks delivered effects against the assumptions and evidence routes that justified a previous position. A regime shift can invalidate an apparently successful gate relaxation, requiring targeted requalification or a return to an authorized prior position.
+
+### 14.3 Full algorithm as an adaptive, resource-bounded **search-and-learning loop**
+
+The practical mechanism is more than a one-shot constraint drop. One cycle is:
+
+1. **Qualify the context.** EA F1/F2 position objective, Semantic Window, evidence boundary, hard constraints, acquisition cost and response horizon; RA assesses whether the previously supporting representation and history remain valid, or explicitly returns unresolved contextual sufficiency.
+2. **Map dependencies.** The existing process and ecosystem cartography expose finite known constraints across \(n\) dimensions, cross-agent interfaces, source ownership, unused B reserve and qualified unresolved boundaries. No complete histogram of unseen \(A'\) is required.
+3. **Metastructural search.** \(\Phi_{\rm relax}\) selects a small set of *candidate gates or admission questions* whose review is objective-material, plus their reachable source interfaces. Selection takes place **without knowing a winning external element**.
+4. **Acquire or retain only relevant information.** Semantic Window redirect/refresh and optional EHD requests focus source-qualified evidence. The selected inferior exploitation sensor/process supplies its own witnessed partial, failed, timeout or UNKNOWN outcomes; the receiver preserves producer-vs-receiver qualification and legitimate provenance.
+5. **Local experimental probes.** For a small qualified \(Q_k\), assess the unchanged hard constraints and the proposed relaxed \(R\setminus\{r_k\}\). Preserve \(?\to T\), \(?\to ?\), hard NO, and unobserved-before-admission separately, each with question/version. A relaxation of a gate is not itself a proof of a newly existing candidate.
+6. **Quantified opportunity, not invented certainty.** Use the *existing* [objective-conditioned Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) on candidate transitions: expected risk/shortfall decrease or an explicitly supported bound/partial order, including observation, governance, safety and response costs. A local witness can justify a local adaptation but not a population-wide “known optimal” claim.
+7. **Govern and reposition.** MSCA Type/posture/drift, Objective Envelope, ACC/lineage and authority gate the proposed position. Qualified RepositionIntent → legitimate response/consent or bounded HOLD/ESCALATE → valid re-contract/role binding → authorized change. Distinguish a communicated *candidate* position from an effective repositioning.
+8. **Measure effects and learn.** Receive qualified execution/effect evidence; compare outcome against the earlier prediction, adverse coupling, cost, source independence and actual authorization. EA F9 and RA trigger **versioned** correction of the selected gate, Semantic Window, source preference, evidence model and/or decision policy; report no-change and failed trials. Other agents may react independently through sourced EHD and their own positioning.
+9. **Repeat while justified.** Re-enter the cycle under changed context or new objectives, with a bounded search budget and stop/hold conditions. Continuous learning does not imply unbounded queries, automatic success, deterministic convergence or a global optimizer.
+
+A possible *research-level* update of an already resident rule/selection interpreter, consistent with the existing [SA-O5 runtime plasticity](./SA_OPERATIONAL_RESIDUAL_AND_ONLINE_CONTEXT_PLASTICITY_v0.1.md), is
+
+\[
+\pi_{i,t+1}=
+\operatorname{Update}\!\left(
+\pi_{i,t},
+\ {\rm validated\ outcomes},
+\ {\rm source\ provenance},
+\ {\rm actual\ costs},
+\ {\rm RA\ context\ change},
+\ {\rm ACC/authority\ responses}
+\right).
+\tag{CL-2}
+\]
+
+This is a **generic update interface**, not a new adopted algorithm or an assumed parameter-fitting implementation. To call the running system **automatic/online learning** in an operationally testable sense, it must actually (a) retain experience, (b) change future selection or context policy using that experience, and (c) expose measurable prospective performance under held-out conditions. Without such update and feedback, the same machinery is a *computable metasyntactic reasoning/adaptation procedure* but not yet an empirically demonstrated learning system. It need not train a neural network or a conventional statistical predictor to meet the broader adaptive-learning description.
+
+### 14.4 The opportunity gradient is concrete and measurable, with the correct owner
+
+The source-owned [Agentic Gradient Law](../../architectural-contributions/ecosystem-positioning/01_OBJECTIVE_CONDITIONED_AGENTIC_GRADIENT_LAW.md) already compares the candidate transition's **objective-conditioned risk** before/after the projected qualified regime change. For a supported scalar normalized objective, a positive \(G_i(\tau_k)\) means expected risk/shortfall reduction (equivalently an expected increase of fulfilment); “frustration” and “distance to a better position” require **that profile's declared risk mapping**. A vector/Pareto objective may yield only an ordering or incomparable candidate, not a global scalar score.
+
+The computation is **participant-local and conditioned by joint ecosystem architecture/RA projection**, not a centrally calculated **global gradient of all agents**. The candidate may be globally relevant via dependencies, and measured local effects may later qualify a larger objective claim; neither fact authorizes a worldwide aggregation.
+
+**Operational measurements, by candidate and version:**
+
+| Quantity | Definition / evidence | Interpretation boundary |
+| --- | --- | --- |
+| Gate-hit rate | Verified useful limiting gates / gates selected by \(\Phi\) | Measured *after* hidden tests; avoid answer leakage |
+| Requalification conversion | Certified old-UNKNOWN → new-TRUE decisions / selected eligible requalification attempts | Same objective, retained hard constraints, explicit old/new ACC/question version |
+| Objective effect | Independently observed change in declared fulfilment, risk/shortfall or safe capacity | Not inferred from a changed label alone |
+| Search/observation cost | \(\Phi\), mapping, watched inputs, EHD, retained data, probes, verification, human approval, ACC/role update | Full-cycle cost, including no-success runs |
+| Validity/learning | Calibration of predicted versus observed gradient, interval coverage, route selection and future hit rate by regime | Test against later cases, not only fitted examples |
+| Governance / spillover | Approvals/denials, authority violations, contract continuity, other-agent hard effects and revalidation latency | No participant-local gain compensates an inviolable constraint |
+| Net adaptive value | Verified gain per full cost / delay under matched quality, safety and objective | No generic global optimum or universal speedup |
+
+A high gradient predicted from a small selected set is a **qualified opportunity estimate**. If a full-population expectation is unsupported, retain a local certificate, an interval or UNRESOLVED. *Measurable* does not mean *always positive* or *already empirically measured*.
+
+### 14.5 Component-wise contributions: gradual opportunities, independent reuse and coupled synergy
+
+The mechanism is **modular**; it is not an indivisible all-or-nothing discovery trick. Existing source-owning components can have separate decision-relevant functions under appropriate conditions:
+
+| Component (owner preserved) | Independently useful operation | Counterfactual benefit to test |
+| --- | --- | --- |
+| SA metasyntactic structural position | Locate a material rule/interface without claiming knowledge of exterior members | Fewer irrelevant gates reviewed at matched gate-hit rate |
+| EA F2 Semantic Window / context engineering | Expand, narrow, refresh or redirect evidence attention | Lower acquisition burden / improved relevance and response margin |
+| RA context validity | Detect/support regime departure and expired assumptions | Fewer stale-frame decisions or mistimed interventions |
+| EHD/source lineage and selective signalling | Preserve and transfer qualified uncertainty across distinct participants | Fewer false closures, source-dependence errors and repeated acquisition efforts |
+| Retained local residuals + gate relaxation | Requalify selected UNKNOWN under new conditions with no global exterior enumeration | More justified determinations per probe, including no-change controls |
+| Objective-conditioned agentic gradient | Rank or partially order candidate transitions by expected risk reduction | Better risk/fulfilment per resource and earlier justified HOLD when unknown |
+| ACC/MSCA contract and repositioning | Authorize and version the transition, preserve inviolable constraints and observed effects | More legitimate completed adaptations, fewer unauthorized changes |
+| EA F9 outcome/pathway learning | Retain validity, success/failure and acquisition-cost evidence for the next decision | Better held-out future targeting and reduced repeat error |
+
+This is a **decomposable value proposition, not an axiom that each added module always improves utility**. Every part has overhead and may be unnecessary, inapplicable or harmful under a particular workload. The scientific test is a matched **ablation/factorial comparison**:
+
+\[
+\Delta_\ell
+=
+J(\mathrm{baseline}+M_\ell)-J(\mathrm{baseline}),
+\qquad
+\Delta_{\rm joint}
+=
+J(\mathrm{full\ stack})-J(\mathrm{baseline}),
+\tag{CL-3}
+\]
+
+where \(J\) is a *declared, comparable net decision-quality/cost measure*, **not** the source-owned Gradient Law \(G_i\), and \(M_\ell\) is one enabled mechanism. Pairwise interactions can be positive, zero or negative; test them explicitly rather than summing stand-alone gains. Report no-difference results. Reusability across other decision processes is a candidate deployment property with separate scope and evidence, not automatic transfer of a successful test.
+
+### 14.6 Proof and evidence ledger — avoid both overclaiming and understating existing work
+
+**Mathematical and architecture-level results already present in this corpus:**
+
+- Relative semantic/non-closure and ordinary-machine limits in SA Part I/II; conditional SA-O2 difference preservation and SA-O5 effective rule-state revision with a resident interpreter; the exact §5 trivalent identities and conditional UNKNOWN lower bound.
+- §§12–13: the elementary feasible-set inclusion/relative-decision \(?\to T\) under *changed* necessary conditions; the conditional cost separation CA-1/CA-4 under explicitly limited selectors and matched work accounting; the full MSCA/ACC permission-and-repositioning path is **already defined in its owning sources**.
+- EA F2/F9, [01H](../ecosystem-awareness/baseline/01H_PARTICIPANT_LOCAL_ECOSYSTEM_POSITIONING_AND_DECISION_SCOPED_EPISTEMIC_OPPORTUNITY_v0.1.md) and [01C](../ecosystem-awareness/baseline/01C_EA_REGIME_AWARENESS_INTERFACE_ANNEX_v0.2.md) specify research/interface behaviours and falsification surfaces for Semantic Window redirection, decision-scoped epistemic opportunity, source-aware feedback and contextual sufficiency. [Canonical MSCA Operation](../../standards/minimum-sufficient-control/04_CANONICAL_MSCA_OPERATION_AND_REPOSITIONING.md) supplies the authoritative gradient/ACC/authority sequence, not a proof that the entire research loop performs better.
+
+**Evidence maturity:** worked telework/sensor constructions and mathematical countermodels are explanatory fixtures; heterogeneous historical production of some *constituent capabilities* does not certify integrated EP/SA learning or a global gradient; draft/preregistered evaluation packages cannot be counted as executed tests. The corpus contains multiple bounded mathematical and architectural checks and experimental routes, but **the end-to-end computational-work and online-learning claims remain unvalidated until independently measured on frozen matched test runs**. Cite each claimed result to its actual source/gate/commit before promotion.
+
+### 14.7 Three epistemic regimes and the diagonalization analogy — one precise boundary
+
+The method may operate under the three previously distinguished **task-qualified** conditions: (E) a *sourced* existence/exclusion witness; (I) an *actually observed* residual indetermination; or (P) only a *possible* indeterminate remainder. Openness and structural positioning do not independently supply an E or I witness; the measured search benefit requires reachable evidence, a justifiable gate selection and successful bounded validation.
+
+**Diagonalization is a metamathematical demonstration that a fixed representation/enumeration need not exhaust a larger specified class; it is not, by itself, an executable procedure that grants noncomputable answers.** In a sufficiently open/metamorphic ecosystem, an *additional external source* may supply a previously unavailable witness or effective option. Relative to a **closed, information-limited** inferior process this can create a practical expressive/search/value advantage under clearly stated existence, reachability, validity and cost assumptions. It is **not a claim that the combined system computes non-Turing functions**; such a claim would require a separately specified and demonstrated stronger oracle/physical resource, not merely “something outside exists.” No new machinery or miraculous architecture is asserted by this analogy.
+
+### 14.8 Research acceptance sequence and new tests
+
+To move from this working architecture to a tested learning/search claim, preserve the following order and owner boundaries:
+
+1. **Freeze** a decision family, architecture, versioned \(W_i\), RA regime, hard/negotiable gates, objective, source evidence, participant roles, ACC/authority and hidden outcomes **before** meta selection.
+2. **Run separate mechanisms** and the composed loop against a strong conventional context-engineering/active-search controller, including no EHD, no RA qualification, no \(\Phi\), no retained residual, no relaxation, and no F9 update ablations.
+3. **Test both learning and search:** first-run certification/cost *versus* future held-out adaptation after outcome/contract feedback; show that \(\pi_{t+1}\) actually differs for legitimate reasons and improves an independently defined metric when claimed.
+4. **Preserve blind spots and negative controls:** all-hard-NO, no observed residual, lost-before-admission evidence, false regime departure, invalid EHD provenance, outdated Semantic Window, blocked ACC, correlated agents, stale source, adversarial signalling and expensive selection overhead.
+5. **Measure full governance:** the gradient is communicated as a proposal with uncertainty; no effective role change until legitimate approval; record MODIFY/REJECT/ESCALATE/HOLD, successor ACC/lineage, time to authorization, and independent effects after adaptation.
+6. **Report each result by status:** proven algebra, executable prototype, executed matched test, field operating lineage, independent replication or still-open hypothesis; neither a valuable standalone module nor one successful local fixture promotes the complete algorithm to validated production.
+
+**Integrated working thesis:** metastructural constraint positioning + objective-scoped Semantic Window/context engineering + regime-qualified evidence + EHD exchange + selective residual requalification + the existing source-owned opportunity gradient + legitimate MSCA/ACC repositioning + observed-effect policy update form a **bounded, computable adaptive search-and-learning architecture**. Its incremental parts are reusable research candidates; its total benefit is a **falsifiable, measured net advantage under specified environments**, not a theorem of universal superiority.
