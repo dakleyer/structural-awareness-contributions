@@ -269,6 +269,50 @@ class ReproduciblePairedGeneratorTests(unittest.TestCase):
             self.assertEqual(group["FH_C_real_world_causal_hypothesis_status"],
                              "NOT_IDENTIFIED_FROM_SYNTHETIC_GENERATOR")
 
+    def test_no_source_abstention_is_not_labelled_a_superior_strategy(self):
+        # A "zero wrong proposal" rate caused by zero proposals is NOT
+        # evidence of a stronger procedure. The original single metric
+        # would create exactly this false-positive advantage.
+        report=run_manifest(MANIFEST)
+        rows={row["regime"]:row for row in report["paired_regimes"]}
+        source_absent=rows["SOURCE_ABSENT_DIRECTED_AVAILABLE"]
+        b=source_absent["policies"]["SOURCE_BOUNDARY_ONLY"]
+        facts=source_absent["policies"]["DOMAIN_FACTS_ONLY"]
+        self.assertEqual(b["unjustified_candidate_proposals"],0)
+        self.assertEqual(b["justified_candidate_proposals"],0)
+        self.assertGreater(b["missed_feasible_candidates"],
+                           facts["missed_feasible_candidates"])
+        self.assertEqual(source_absent["source_vs_facts_two_axis_order"],
+                         "INCOMPARABLE_ERROR_VS_MISSED_OPPORTUNITY_TRADEOFF")
+        self.assertIn("SOURCE_BOUNDARY_ONLY",
+                      source_absent["nonfungible_three_axis_pareto_front"])
+        self.assertIn("DOMAIN_FACTS_ONLY",
+                      source_absent["nonfungible_three_axis_pareto_front"])
+
+    def test_both_scientific_directions_and_a_real_tradeoff_survive_three_axes(self):
+        report=run_manifest(MANIFEST)
+        rows={row["regime"]:row for row in report["paired_regimes"]}
+        self.assertEqual(
+            rows["QUALIFIED_SOURCE_RELIABLE_SENSOR_NOISY"]
+            ["source_vs_facts_two_axis_order"],
+            "BOUNDARY_DOMINATES_ON_ERRORS_AND_MISSED_CANDIDATES")
+        self.assertEqual(
+            rows["SOURCE_FACTUALLY_WEAK_DIRECT_FACTS_PRECISE"]
+            ["source_vs_facts_two_axis_order"],
+            "DOMAIN_FACTS_DOMINATES_ON_ERRORS_AND_MISSED_CANDIDATES")
+        self.assertEqual(
+            rows["SOURCE_ABSENT_DIRECTED_AVAILABLE"]
+            ["source_vs_facts_two_axis_order"],
+            "INCOMPARABLE_ERROR_VS_MISSED_OPPORTUNITY_TRADEOFF")
+        for row in report["paired_regimes"]:
+            self.assertEqual(
+                row["pareto_axes_minimized"],
+                ["unjustified_candidate_proposals","missed_feasible_candidates",
+                 "information_cost_units"])
+            self.assertTrue(row["nonfungible_three_axis_pareto_front"])
+            self.assertTrue(set(row["nonfungible_three_axis_pareto_front"])
+                            <=set(ARMS))
+
     def test_resizing_world_count_does_not_change_a_theory_or_a_source(self):
         small=deepcopy(MANIFEST)
         small["worlds_per_regime"]=16
