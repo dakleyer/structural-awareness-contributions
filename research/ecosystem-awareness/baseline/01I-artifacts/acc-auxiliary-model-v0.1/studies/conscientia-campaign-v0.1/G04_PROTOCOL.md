@@ -74,3 +74,31 @@ Las pruebas abarcan: los ocho resultados legados inalterados, certificado correc
 ## 6. Continuidad con #66–#69
 
 Este PR debe revisarse **sobre #68**, que depende de #66 y de los motores originales #44/#57. El estudio K-03 de #67 y la batería de secuencias #69 son independientes y no se han fusionado. El nuevo motor no altera sus fuentes ni retoca el reporte histórico para hacerlo concordar artificialmente. Los ejemplos fuente y sus restricciones siguen siendo criterios de aceptación antes de cualquier promoción al corpus canónico.
+
+
+## 7. Resultados del control de sensibilidad, con pérdidas de oportunidad
+
+**Nota de adjudicación:** no es correcto llamar «mejor» al brazo que produce menos propuestas erróneas cuando simplemente se abstiene. Por ello el resultado se informa como **orden parcial** sobre tres coordenadas que NO se reducen a un escalar:
+
+1. Menor número de propuestas materialmente injustificadas.
+2. Menor número de oportunidades físicamente admisibles no propuestas.
+3. Menor coste del instrumento declarado, conservado en sus unidades independientes.
+
+La comparación estricta de los dos primeros ejes puede dar dominancia, empate o **incomparabilidad**. El frente no dominado sobre los tres ejes también se publica sin pesos arbitrarios. Los seis regímenes se configuran como variaciones de calidad de fuentes y mediciones, no de objetivos, y se corren sobre los mismos 192 mundos por régimen.
+
+**Resultados de referencia del generador sintético fijado** (reproducidos en la [CI 40877556500](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/40877556500), antes de añadir el metainforme de Pareto; los mundos y acciones no han cambiado):
+
+| Régimen | Solo límites B: incorrectas / perdidas | Solo hechos: incorrectas / perdidas | Lectura |
+|---|---:|---:|---|
+| Fuente cualificada fiable, sensor ruidoso | 1 / 28 | 4 / 45 | La cualificación domina **estos dos ejes**, solo en este régimen |
+| Fuente débil, inspección precisa | 22 / 43 | 1 / 10 | Los hechos dominan |
+| Incertidumbre mixta | 21 / 36 | 12 / 34 | Los hechos dominan |
+| Fuente cualificada pero materialmente equivocada | 25 / 46 | 2 / 7 | La inspección puede refutar la falsa confianza |
+| Sin fuente Q y con medición directa | 0 / 57 | 2 / 18 | **Incomparables:** cero errores por abstenerse no es victoria |
+| Ambas señales de calidad elevada | 2 / 26 | 1 / 12 | Los hechos dominan en estas realizaciones |
+
+Son **cuentas sobre un grid escogido**, no estimaciones estadísticas, y los regímenes difieren deliberadamente en precisión y disponibilidad. El control NAIVE_SOURCE_ONLY_CONTROL no es un comparador convencional competente; la referencia convencional dirigida tiene su propio precio/cobertura/errores y se incluye completa en el JSON.
+
+Con una misma pregunta y una misma fuente, cambiar la calidad del registro o de la inspección altera qué método evita más errores. Ésa es una prueba computacional útil de **dependencia de condiciones**, no una identificación de la causa histórica FH-C. Para contrastar la prioridad causal en sistemas reales harían falta diseños independientes, comparabilidad de los dos tratamientos informacionales, costes medidos, evidencia de legitimidad y resultados observados.
+
+**Regla de revisión:** cualquier uso de G-04 que solo cite «el brazo con menos propuestas incorrectas» y oculte oportunidades perdidas o costes vuelve a introducir el mismo sesgo que estamos corrigiendo.
