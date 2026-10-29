@@ -1,0 +1,94 @@
+{
+  "schema": "ACC-ECONOMIC-ENVELOPE-MATRIX-v0.1",
+  "reading": "Each row is a separate source-owned one-question decision. Joint B commitments are NOT summed.",
+  "social": {
+    "sizes": [
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "roots": [
+      {
+        "id": "free",
+        "slack": null
+      },
+      {
+        "id": "one-unit-headroom",
+        "slack": 1
+      },
+      {
+        "id": "saturated",
+        "slack": 0
+      }
+    ],
+    "accesses": [
+      "full",
+      "target-inaccessible"
+    ],
+    "prices": [
+      {
+        "id": "original",
+        "costs": {}
+      },
+      {
+        "id": "cheap-conventional-directed",
+        "costs": {
+          "target_observation": "0.1"
+        }
+      },
+      {
+        "id": "peer-charged-per-path",
+        "costs": {},
+        "peer_path_cost": {
+          "fixed": "0.75",
+          "per_node": "0.25"
+        }
+      },
+      {
+        "id": "expensive-B-issuance",
+        "costs": {
+          "b_issuance_per_path_node": "0.5",
+          "b_transmission": "1"
+        }
+      }
+    ],
+    "capacity_patterns": [
+      {
+        "id": "selected-spare",
+        "mode": "selected"
+      }
+    ]
+  },
+  "agentic": {
+    "case_ids": "ALL",
+    "prices": [
+      {
+        "id": "source-original",
+        "changes": {}
+      },
+      {
+        "id": "directed-cheap",
+        "changes": {
+          "directed.cost": "0.1"
+        }
+      },
+      {
+        "id": "Q-maintenance-expensive",
+        "requires_q": true,
+        "changes": {
+          "Q.cost": "4"
+        }
+      },
+      {
+        "id": "equal-Q-peer-cost",
+        "requires_q": true,
+        "equal_equivalent_q_cost": true,
+        "changes": {}
+      }
+    ]
+  }
+}
