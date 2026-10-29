@@ -143,7 +143,7 @@ jobs:
 
           git fetch --depth=1 origin refs/heads/research/acc-original-examples-generative-experiments-20261029
           REV68="$(git rev-parse FETCH_HEAD)"
-          test "$REV68" = "025243207be808e38120e9e1ee49351fda0b8cd8"
+          test "$REV68" = "583590dbadf48ea1015e33111b374631509015ae"
           OWNER="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1"
           for file in dimension_experiment.py native_experiment_adapters.py run_original_experiments.py ORIGINAL_EXPERIMENTS.json NATIVE_EXPERIMENTS.json; do
             git show "$REV68:$OWNER/$file" > "$OWNER/$file"
