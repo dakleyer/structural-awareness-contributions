@@ -116,6 +116,31 @@ jobs:
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/agentic_crosswalk.py --source-dir /tmp/acc_pr57_pinned_source --output /tmp/acc_original_narrative_agentic_crosswalk.json
           python -B -c "import json; d=json.load(open('/tmp/acc_original_narrative_agentic_crosswalk.json')); assert d['counts']=={'author_examples':14,'structural_analogues':8,'non_equivalent':6,'unique_native_agentic_cases_executed':5}; assert d['boundary'].startswith('STRUCTURAL_ANALOGIES_ONLY')"
 
+      - name: Check joint compatibility of PR57, PR66 L-04, PR67 K-03 and PR69 without merging
+        run: |
+          git fetch --depth=1 origin refs/heads/research/acc-reusable-crossmodel-economic-envelope-20261028
+          REV66="$(git rev-parse FETCH_HEAD)"
+          test "$REV66" = "7c9043e0d035786297d4c04972e2fd5d2fa1138e"
+          git fetch --depth=1 origin refs/heads/research/acc-source-native-private-response-k03-20261028
+          REV67="$(git rev-parse FETCH_HEAD)"
+          test "$REV67" = "078bf7fcdcc33811cbfa437b60e3f57d634dfd57"
+          SOCIAL="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1"
+          AGENT="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1"
+          mkdir -p "$AGENT"
+          for file in economic_envelope.py economic_envelope_adapters.py economic_envelope_runner.py ECONOMIC_SWEEP_MANIFEST.json test_economic_envelope.py; do
+            git show "$REV66:$SOCIAL/$file" > "$SOCIAL/$file"
+          done
+          for file in agentic_reduction.py CASES.json; do
+            git show "$REV66:$AGENT/$file" > "$AGENT/$file"
+          done
+          for file in intrinsic_abcd.py test_native_selected_response.py; do
+            git show "$REV67:$SOCIAL/$file" > "$SOCIAL/$file"
+          done
+          python -B -m unittest discover -s "$SOCIAL" -p 'test_*.py' -v
+          python -B "$SOCIAL/economic_envelope_runner.py" --corpus-root . --model both > /tmp/acc_joint_crossmodel_compatibility.json
+          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1 -p 'test_*.py' -v
+          python -B -c "import json; d=json.load(open('/tmp/acc_joint_crossmodel_compatibility.json')); assert d['summary']['groups']['ACC_SOCIAL_INTRINSIC_44']['cases']==168; assert d['summary']['groups']['ACC_AGENTIC_REDUCTION_57']['cases']==118; assert d['summary']['groups']['ACC_SOCIAL_INTRINSIC_44']['strict_wins'].get('B_QUALIFIED',0)>0; assert d['ranking_contract'].startswith('POLICIES_COMPETE')"
+
       - name: Publish original ACC narrative acceptance traces (synthetic only)
         uses: actions/upload-artifact@v4
         with:
@@ -125,4 +150,5 @@ jobs:
             /tmp/acc_original_narrative_source_concordance.json
             /tmp/acc_original_narrative_operation_results.json
             /tmp/acc_original_narrative_agentic_crosswalk.json
+            /tmp/acc_joint_crossmodel_compatibility.json
           if-no-files-found: error
