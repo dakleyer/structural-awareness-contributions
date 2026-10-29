@@ -126,7 +126,6 @@ class PhysicalAndEpistemicBoundaries(unittest.TestCase):
                                  b["arms"][arm]["public_plan"])
         self.assertNotEqual(a["private_referee_only"]["eligible"],
                             b["private_referee_only"]["eligible"])
-                self.assertIs(other_actual_world["route_safe"],False)
 
     def test_material_change_is_computed_by_the_original_pr68_operator(self):
         good=native_referee(WORLD_PASS)
