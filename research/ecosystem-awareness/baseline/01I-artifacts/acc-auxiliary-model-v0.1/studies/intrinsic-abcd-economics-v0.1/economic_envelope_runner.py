@@ -82,7 +82,9 @@ def execute(manifest: Mapping[str, Any], root: Path, *,
     src_social = root / REL_STUDIES / "intrinsic-abcd-economics-v0.1/intrinsic_abcd.py"
     src_agentic = root / REL_STUDIES / "agentic-ecosystem-reduction-v0.1/agentic_reduction.py"
     src_cases = src_agentic.parent / "CASES.json"
-    results = []
+    results = []  # legacy, including the source receiver as a diagnostic arm
+    policy_results = []  # only independent candidate policies compete
+    receiver_diagnostics = []
     pinned = {}
     if model in ("social", "both"):
         producer = _load("_acc_economic_source_social", src_social)
@@ -119,11 +121,23 @@ def execute(manifest: Mapping[str, Any], root: Path, *,
             budget = quantity(price_cfg.get("planner_budget", "1000"))
             if budget < 0:
                 raise ValueError("negative source receiver budget")
-            result = compare_case(intrinsic_observations(
+            observations = intrinsic_observations(
                 producer, world, "source-" + str(idx), costs,
                 scenario_id=case_id, planner_budget=float(budget),
-            ))
+            )
+            if observations[-1].arm != "SOURCE_PUBLIC_RECEIVER":
+                raise ValueError("source receiver must remain separate from policy competitors")
+            result = compare_case(observations)
+            policy_only = compare_case(observations[:-1])
             results.append(result)
+            policy_results.append(policy_only)
+            receiver = observations[-1]
+            receiver_diagnostics.append({
+                "case_id": case_id, "source_decision_rule": receiver.source_status,
+                "receiver_net": None if receiver.net is None else str(receiver.net),
+                "best_policy_net": str(max(a.net for a in policy_only.arms if a.net is not None)),
+                "source": receiver.source_ref,
+            })
     crossing = None
     if model in ("social", "both"):
         default = producer.Costs()
@@ -166,9 +180,11 @@ def execute(manifest: Mapping[str, Any], root: Path, *,
                 changes["directed.equivalent_Q_cost"] = case["Q"]["cost"]
             priced_case = agentic_cost_override(case, changes)
             case_id = case["id"] + "/" + price_cfg["id"]
-            results.append(compare_case(agentic_observations(
+            agentic_case = compare_case(agentic_observations(
                 agentic, priced_case, scenario_id=case_id,
-            )))
+            ))
+            results.append(agentic_case)
+            policy_results.append(agentic_case)
         pinned[str(src_agentic.relative_to(root))] = _digest(src_agentic)
         pinned[str(src_cases.relative_to(root))] = _digest(src_cases)
     # Never pool utility across different objectives or cases.
@@ -176,7 +192,10 @@ def execute(manifest: Mapping[str, Any], root: Path, *,
         "schema": SCHEMA,
         "source_sha256": pinned,
         "social_break_even": crossing,
-        "summary": summary(results),
+        "summary": summary(policy_results),
+        "summary_including_receiver_legacy": summary(results),
+        "source_public_receiver_diagnostics": receiver_diagnostics,
+        "ranking_contract": "POLICIES_COMPETE; SOURCE_RECEIVER_IS_A_DECISION_LAYER_NOT_A_COMPETITOR",
         "evaluation": "POST_HOC_SYNTHETIC_REFEREE",
         "decision_contract": "SOURCE_NATIVE_POLICY_ONLY",
         "cross_question_composition": "NOT_PERFORMED",
