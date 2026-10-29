@@ -223,5 +223,17 @@ class ReusableEngineAdversarialTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'duplicate case'):
             run_manifest(broken)
 
+
+class SourceNativeCompatibilityTests(unittest.TestCase):
+    def test_source_owned_microcases_and_bounded_traps_are_replayed(self):
+        from source_replay import run
+        report=run()
+        self.assertEqual(report['source_match_count'],8)
+        self.assertEqual(report['new_fixture_only_count'],6)
+        self.assertEqual(len(report['cases']),14)
+        self.assertIn('JOINT_JUMP_IS_NEW_POSITIVE_CONTROL',report['cases']['EX-APPLE-01'])
+        self.assertIn('SOURCE_NATIVE_FEASIBILITY',report['cases']['EX-LINEAR-01'])
+        self.assertIn('NOT_ESTABLISHED',report['cases']['EX-ORANGE-01'])
+
 if __name__ == '__main__':
     unittest.main()
