@@ -71,7 +71,7 @@ jobs:
 
       - name: Check Conscientia cross-document bounded campaign (synthetic only)
         run: |
-          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1 -p test_campaign.py -v
+          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1 -p 'test_*.py' -v
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/verify_campaign.py /tmp/conscientia_full_execution.json
 
       - name: Publish reproducible Conscientia synthetic results
