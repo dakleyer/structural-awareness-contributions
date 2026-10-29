@@ -141,6 +141,17 @@ jobs:
           python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1 -p 'test_*.py' -v
           python -B -c "import json; d=json.load(open('/tmp/acc_joint_crossmodel_compatibility.json')); assert d['summary']['groups']['ACC_SOCIAL_INTRINSIC_44']['cases']==168; assert d['summary']['groups']['ACC_AGENTIC_REDUCTION_57']['cases']==118; assert d['summary']['groups']['ACC_SOCIAL_INTRINSIC_44']['strict_wins'].get('B_QUALIFIED',0)>0; assert d['ranking_contract'].startswith('POLICIES_COMPETE')"
 
+          git fetch --depth=1 origin refs/heads/research/acc-original-examples-generative-experiments-20261029
+          REV68="$(git rev-parse FETCH_HEAD)"
+          test "$REV68" = "025243207be808e38120e9e1ee49351fda0b8cd8"
+          OWNER="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1"
+          for file in dimension_experiment.py native_experiment_adapters.py run_original_experiments.py ORIGINAL_EXPERIMENTS.json NATIVE_EXPERIMENTS.json; do
+            git show "$REV68:$OWNER/$file" > "$OWNER/$file"
+          done
+          python -B "$OWNER/run_original_experiments.py" --model both --compact > /tmp/acc_owner68_full_source_execution.json
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/owner68_concordance.py --source-dir "$OWNER" --output /tmp/acc_owner68_independent_concordance.json
+          python -B -c "import json; o=json.load(open('/tmp/acc_owner68_full_source_execution.json')); c=json.load(open('/tmp/acc_owner68_independent_concordance.json')); assert o['case_count']==73 and c['source_owner_case_count']==40 and c['operation_sequence_case_count']==14; assert len(c['shared_source_property_checks'])>=10; assert c['no_automatic_EA_THEORY_CHANGE']"
+
       - name: Publish original ACC narrative acceptance traces (synthetic only)
         uses: actions/upload-artifact@v4
         with:
@@ -151,4 +162,6 @@ jobs:
             /tmp/acc_original_narrative_operation_results.json
             /tmp/acc_original_narrative_agentic_crosswalk.json
             /tmp/acc_joint_crossmodel_compatibility.json
+            /tmp/acc_owner68_full_source_execution.json
+            /tmp/acc_owner68_independent_concordance.json
           if-no-files-found: error
