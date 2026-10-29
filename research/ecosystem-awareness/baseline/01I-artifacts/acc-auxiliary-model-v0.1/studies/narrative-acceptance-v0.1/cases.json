@@ -1,0 +1,1483 @@
+{
+  "schema": "ACC-NARRATIVE-EXPERIMENTS-v0.1",
+  "source_cutoff": "2026-10-29",
+  "fixture_status": "AUTHOR_HYPOTHETICAL_TOY",
+  "cases": [
+    {
+      "case_id": "EX-BAN-02",
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/CASES.md#recorrido-de-variantes-y-condiciones-que-pueden-bloquear",
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "dimensions": {
+        "E_transport": {
+          "unit": "transport effort (toy units)",
+          "direction": "min"
+        },
+        "R_food": {
+          "unit": "beneficiary portions",
+          "direction": "max"
+        }
+      },
+      "states": {
+        "held": {
+          "metrics": {
+            "E_transport": 0,
+            "R_food": 0
+          },
+          "facts": {
+            "produced": 1,
+            "held": 1,
+            "received": 0
+          },
+          "payoffs": {}
+        },
+        "sent": {
+          "metrics": {
+            "E_transport": 3,
+            "R_food": 1
+          },
+          "facts": {
+            "produced": 1,
+            "held": 0,
+            "received": 1
+          },
+          "payoffs": {}
+        }
+      },
+      "initial": "held",
+      "transitions": [
+        {
+          "id": "deliver_with_transport",
+          "from": "held",
+          "to": "sent",
+          "mode": "unilateral",
+          "guards": [
+            {
+              "id": "recipient_and_owner_consent",
+              "status": "PASS",
+              "category": "consent",
+              "source_of_status": "DECLARED_SOURCE_INSPIRED_TOY_ASSUMPTION"
+            }
+          ],
+          "consumes": {
+            "logistic_slot": 1
+          }
+        }
+      ],
+      "stages": [
+        {
+          "id": "K_declared",
+          "axes": [
+            "E_transport",
+            "R_food"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "from": "held",
+          "to": "sent"
+        }
+      ],
+      "state_invariants": [],
+      "resource_budgets": {
+        "logistic_slot": 1
+      },
+      "interpretation": "Africa is author clarification, not a field shipment; R improves, E worsens; transport units are invented."
+    },
+    {
+      "case_id": "EX-BAN-01",
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/model/01_NOTAS_COMPLETAS.md#s1-p0271",
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "dimensions": {
+        "E_distance": {
+          "unit": "illustrative km",
+          "direction": "min"
+        },
+        "R_food": {
+          "unit": "beneficiary portions",
+          "direction": "max"
+        },
+        "C_effort": {
+          "unit": "coordination effort units",
+          "direction": "min"
+        }
+      },
+      "states": {
+        "imported_discard": {
+          "metrics": {
+            "E_distance": 14000,
+            "R_food": 0,
+            "C_effort": 0
+          },
+          "facts": {
+            "produced": 1,
+            "waste": 1,
+            "local_consumed": 0
+          },
+          "payoffs": {}
+        },
+        "local_use": {
+          "metrics": {
+            "E_distance": 0,
+            "R_food": 1,
+            "C_effort": 2
+          },
+          "facts": {
+            "produced": 1,
+            "waste": 0,
+            "local_consumed": 1
+          },
+          "payoffs": {}
+        }
+      },
+      "initial": "imported_discard",
+      "transitions": [
+        {
+          "id": "organize_local_route",
+          "from": "imported_discard",
+          "to": "local_use",
+          "mode": "unilateral",
+          "guards": [
+            {
+              "id": "coordination_is_effective",
+              "status": "UNKNOWN",
+              "category": "coordination",
+              "source_of_status": "NOT_ESTABLISHED_IN_SOURCE"
+            },
+            {
+              "id": "title_and_contract_approvals",
+              "status": "UNKNOWN",
+              "category": "authority",
+              "source_of_status": "NOT_ESTABLISHED_IN_SOURCE"
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "id": "K2_E_R",
+          "axes": [
+            "E_distance",
+            "R_food"
+          ]
+        },
+        {
+          "id": "K3_E_R_C",
+          "axes": [
+            "E_distance",
+            "R_food",
+            "C_effort"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "from": "imported_discard",
+          "to": "local_use"
+        }
+      ],
+      "state_invariants": [],
+      "resource_budgets": {},
+      "interpretation": "14,000 km is hypothetical, not measured. K2 dominance can coexist with K3 tradeoff and no authorized transition."
+    },
+    {
+      "case_id": "EX-BAN-03",
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/model/01_NOTAS_COMPLETAS.md#s1-p0214",
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "dimensions": {
+        "E_waste": {
+          "unit": "food portions wasted",
+          "direction": "min"
+        },
+        "R_help": {
+          "unit": "aid portions",
+          "direction": "max"
+        },
+        "C_extra": {
+          "unit": "marginal logistics units",
+          "direction": "min"
+        },
+        "V_donor": {
+          "unit": "donor credit share (toy fraction)",
+          "direction": "max"
+        }
+      },
+      "states": {
+        "discard": {
+          "metrics": {
+            "E_waste": 1,
+            "R_help": 0,
+            "C_extra": 0,
+            "V_donor": 1
+          },
+          "facts": {},
+          "payoffs": {
+            "donor": 0,
+            "recipient": 0
+          }
+        },
+        "donate_without_recognition": {
+          "metrics": {
+            "E_waste": 0,
+            "R_help": 1,
+            "C_extra": 0,
+            "V_donor": "1/10"
+          },
+          "facts": {},
+          "payoffs": {
+            "donor": 1,
+            "recipient": 1
+          }
+        },
+        "donate_with_recognition": {
+          "metrics": {
+            "E_waste": 0,
+            "R_help": 1,
+            "C_extra": 0,
+            "V_donor": 1
+          },
+          "facts": {},
+          "payoffs": {
+            "donor": 1,
+            "recipient": 1
+          }
+        }
+      },
+      "initial": "discard",
+      "transitions": [
+        {
+          "id": "proposed_donation_declined",
+          "from": "discard",
+          "to": "donate_without_recognition",
+          "mode": "unilateral",
+          "guards": [
+            {
+              "id": "donor_declines_credit_sharing",
+              "status": "FAIL",
+              "category": "consent",
+              "source_of_status": "HYPOTHETICAL_DONOR_PREFERENCE_NOT_REAL_ENTITY_BEHAVIOUR"
+            }
+          ]
+        },
+        {
+          "id": "alternate_credit_accepted",
+          "from": "discard",
+          "to": "donate_with_recognition",
+          "mode": "unilateral",
+          "guards": [
+            {
+              "id": "donor_explicit_acceptance",
+              "status": "PASS",
+              "category": "consent",
+              "source_of_status": "INVENTED_POSITIVE_CONTROL_WITH_HYPOTHETICAL_ACCEPTANCE"
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "id": "K2_E_R",
+          "axes": [
+            "E_waste",
+            "R_help"
+          ]
+        },
+        {
+          "id": "K3_plus_C",
+          "axes": [
+            "E_waste",
+            "R_help",
+            "C_extra"
+          ]
+        },
+        {
+          "id": "K4_plus_V",
+          "axes": [
+            "E_waste",
+            "R_help",
+            "C_extra",
+            "V_donor"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "from": "discard",
+          "to": "donate_without_recognition"
+        },
+        {
+          "from": "discard",
+          "to": "donate_with_recognition"
+        }
+      ],
+      "state_invariants": [],
+      "resource_budgets": {},
+      "interpretation": "Hypothetical donor preference, never attributed to actual Caritas conduct; separate absolute gains, consent and relative recognition."
+    },
+    {
+      "case_id": "EX-BAN-04",
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/model/01_NOTAS_COMPLETAS.md#s1-p0639",
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "dimensions": {
+        "E_waste": {
+          "unit": "portions wasted",
+          "direction": "min"
+        },
+        "R_child": {
+          "unit": "child portions",
+          "direction": "max"
+        }
+      },
+      "states": {
+        "S0": {
+          "metrics": {
+            "E_waste": 0,
+            "R_child": 0
+          },
+          "facts": {
+            "produced": 0,
+            "holder": 0,
+            "child": 0,
+            "waste": 0
+          },
+          "payoffs": {},
+          "welfare": {
+            "B": 0,
+            "F": 0,
+            "W": 0
+          }
+        },
+        "S1": {
+          "metrics": {
+            "E_waste": 1,
+            "R_child": 0
+          },
+          "facts": {
+            "produced": 2,
+            "holder": 1,
+            "child": 0,
+            "waste": 1
+          },
+          "payoffs": {},
+          "welfare": {
+            "B": 5,
+            "F": 7,
+            "W": -2
+          }
+        },
+        "S2": {
+          "metrics": {
+            "E_waste": 0,
+            "R_child": 1
+          },
+          "facts": {
+            "produced": 2,
+            "holder": 1,
+            "child": 1,
+            "waste": 0
+          },
+          "payoffs": {},
+          "welfare": {
+            "B": null,
+            "F": null,
+            "W": null
+          }
+        }
+      },
+      "initial": "S0",
+      "transitions": [
+        {
+          "id": "grow_two",
+          "from": "S0",
+          "to": "S1",
+          "mode": "unilateral",
+          "guards": []
+        },
+        {
+          "id": "redistribute_one",
+          "from": "S1",
+          "to": "S2",
+          "mode": "unilateral",
+          "guards": [
+            {
+              "id": "safe_authorized_delivery",
+              "status": "UNKNOWN",
+              "category": "safety",
+              "source_of_status": "SOURCE_STATES_FEASIBLE_ONLY_IF_ROUTE_SAFE_AND_LEGITIMATE"
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "id": "K_declared",
+          "axes": [
+            "E_waste",
+            "R_child"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "from": "S0",
+          "to": "S1"
+        },
+        {
+          "from": "S1",
+          "to": "S2"
+        }
+      ],
+      "state_invariants": [
+        {
+          "id": "fruit_conservation",
+          "kind": "sum_equals",
+          "fields": [
+            "holder",
+            "child",
+            "waste"
+          ],
+          "target_field": "produced"
+        },
+        {
+          "id": "toy_welfare_B_minus_F",
+          "kind": "welfare_identity",
+          "enforcement": "REPORT_ONLY"
+        }
+      ],
+      "resource_budgets": {},
+      "interpretation": "Exact original S0/S1/S2 and B1=5 F1=7 W1=-2; F is stipulated toy, NEVER measured suffering."
+    },
+    {
+      "case_id": "EX-ROBIN-01",
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/model/01_NOTAS_COMPLETAS.md#s1-p0277",
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "dimensions": {
+        "E_waste": {
+          "unit": "coco+fish items wasted",
+          "direction": "min"
+        },
+        "R_both": {
+          "unit": "positive-participant count (toy)",
+          "direction": "max"
+        },
+        "V_viernes": {
+          "unit": "Viernes fraction of new gains",
+          "direction": "max"
+        }
+      },
+      "states": {
+        "lost": {
+          "metrics": {
+            "E_waste": 2000,
+            "R_both": 0,
+            "V_viernes": "1/2"
+          },
+          "facts": {
+            "coco_total": 1000,
+            "coco_lost": 1000,
+            "v_coco": 0,
+            "r_coco": 0,
+            "fish_total": 1000,
+            "fish_lost": 1000,
+            "v_fish": 0,
+            "r_fish": 0
+          },
+          "payoffs": {
+            "Viernes": 0,
+            "Robinson": 0
+          }
+        },
+        "unequal": {
+          "metrics": {
+            "E_waste": 0,
+            "R_both": 2,
+            "V_viernes": "1/1000"
+          },
+          "facts": {
+            "coco_total": 1000,
+            "coco_lost": 0,
+            "v_coco": 1,
+            "r_coco": 999,
+            "fish_total": 1000,
+            "fish_lost": 0,
+            "v_fish": 1,
+            "r_fish": 999
+          },
+          "payoffs": {
+            "Viernes": 1,
+            "Robinson": 999
+          }
+        }
+      },
+      "initial": "lost",
+      "transitions": [
+        {
+          "id": "proposal_with_relative_rejection",
+          "from": "lost",
+          "to": "unequal",
+          "mode": "unilateral",
+          "guards": [
+            {
+              "id": "Viernes_declines_relative_outcome",
+              "status": "FAIL",
+              "category": "consent",
+              "source_of_status": "AUTHOR_HYPOTHETICAL_PREFERENCE"
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "id": "K2_E_R",
+          "axes": [
+            "E_waste",
+            "R_both"
+          ]
+        },
+        {
+          "id": "K4_including_V",
+          "axes": [
+            "E_waste",
+            "R_both",
+            "V_viernes"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "from": "lost",
+          "to": "unequal"
+        }
+      ],
+      "state_invariants": [
+        {
+          "kind": "sum_equals",
+          "fields": [
+            "coco_lost",
+            "v_coco",
+            "r_coco"
+          ],
+          "target_field": "coco_total"
+        },
+        {
+          "kind": "sum_equals",
+          "fields": [
+            "fish_lost",
+            "v_fish",
+            "r_fish"
+          ],
+          "target_field": "fish_total"
+        }
+      ],
+      "resource_budgets": {},
+      "interpretation": "Actual source quantity 1 coco+fish vs 999 each; actor payoffs are merely positive toy proxies, not measured preferences."
+    },
+    {
+      "case_id": "EX-MIN-01",
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/model/01_NOTAS_COMPLETAS.md#s1-p0104",
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "dimensions": {
+        "E_apps": {
+          "unit": "illustrative application count",
+          "direction": "min"
+        },
+        "R_affected": {
+          "unit": "net actor well-being (unmeasured)",
+          "direction": "max"
+        }
+      },
+      "states": {
+        "fragmented": {
+          "metrics": {
+            "E_apps": 700,
+            "R_affected": null
+          },
+          "facts": {
+            "service_flag": 1
+          },
+          "payoffs": {}
+        },
+        "unified": {
+          "metrics": {
+            "E_apps": 2,
+            "R_affected": null
+          },
+          "facts": {
+            "service_flag": 1
+          },
+          "payoffs": {}
+        }
+      },
+      "initial": "fragmented",
+      "transitions": [
+        {
+          "id": "consolidate",
+          "from": "fragmented",
+          "to": "unified",
+          "mode": "unilateral",
+          "guards": [
+            {
+              "id": "service_guarantees_are_identical",
+              "status": "UNKNOWN",
+              "category": "continuity",
+              "source_of_status": "SOURCE_CONDITIONAL_NOT_VERIFIED"
+            },
+            {
+              "id": "institutional_authorization",
+              "status": "UNKNOWN",
+              "category": "authority",
+              "source_of_status": "SOURCE_CONDITIONAL_NOT_VERIFIED"
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "id": "E_only",
+          "axes": [
+            "E_apps"
+          ]
+        },
+        {
+          "id": "E_plus_R",
+          "axes": [
+            "E_apps",
+            "R_affected"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "from": "fragmented",
+          "to": "unified"
+        }
+      ],
+      "state_invariants": [],
+      "resource_budgets": {},
+      "interpretation": "700→2 is an image not field-measured. Nominal service flag is illustrative and does not prove full rights/quality equivalence."
+    },
+    {
+      "case_id": "EX-APPLE-01",
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/EXAMPLE_LEDGER.md",
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "dimensions": {
+        "U_actor": {
+          "unit": "declared utility units",
+          "direction": "max"
+        }
+      },
+      "states": {
+        "q0": {
+          "metrics": {
+            "U_actor": 0
+          },
+          "facts": {
+            "apples": 0
+          },
+          "payoffs": {
+            "buyer": 0
+          }
+        },
+        "q1": {
+          "metrics": {
+            "U_actor": 4
+          },
+          "facts": {
+            "apples": 1
+          },
+          "payoffs": {
+            "buyer": 4
+          }
+        },
+        "q2": {
+          "metrics": {
+            "U_actor": 7
+          },
+          "facts": {
+            "apples": 2
+          },
+          "payoffs": {
+            "buyer": 7
+          }
+        },
+        "q3": {
+          "metrics": {
+            "U_actor": 8
+          },
+          "facts": {
+            "apples": 3
+          },
+          "payoffs": {
+            "buyer": 8
+          }
+        },
+        "q4": {
+          "metrics": {
+            "U_actor": 7
+          },
+          "facts": {
+            "apples": 4
+          },
+          "payoffs": {
+            "buyer": 7
+          }
+        },
+        "q5": {
+          "metrics": {
+            "U_actor": 5
+          },
+          "facts": {
+            "apples": 5
+          },
+          "payoffs": {
+            "buyer": 5
+          }
+        },
+        "q6": {
+          "metrics": {
+            "U_actor": 5
+          },
+          "facts": {
+            "apples": 6
+          },
+          "payoffs": {
+            "buyer": 5
+          }
+        },
+        "q7": {
+          "metrics": {
+            "U_actor": 9
+          },
+          "facts": {
+            "apples": 7
+          },
+          "payoffs": {
+            "buyer": 9
+          }
+        },
+        "q8": {
+          "metrics": {
+            "U_actor": 10
+          },
+          "facts": {
+            "apples": 8
+          },
+          "payoffs": {
+            "buyer": 10
+          }
+        }
+      },
+      "initial": "q3",
+      "transitions": [
+        {
+          "id": "buy_1",
+          "from": "q0",
+          "to": "q1",
+          "mode": "unilateral",
+          "guards": [],
+          "actor_nondecrease": true
+        },
+        {
+          "id": "buy_2",
+          "from": "q1",
+          "to": "q2",
+          "mode": "unilateral",
+          "guards": [],
+          "actor_nondecrease": true
+        },
+        {
+          "id": "buy_3",
+          "from": "q2",
+          "to": "q3",
+          "mode": "unilateral",
+          "guards": [],
+          "actor_nondecrease": true
+        },
+        {
+          "id": "buy_4",
+          "from": "q3",
+          "to": "q4",
+          "mode": "unilateral",
+          "guards": [],
+          "actor_nondecrease": true
+        },
+        {
+          "id": "buy_5",
+          "from": "q4",
+          "to": "q5",
+          "mode": "unilateral",
+          "guards": [],
+          "actor_nondecrease": true
+        },
+        {
+          "id": "buy_6",
+          "from": "q5",
+          "to": "q6",
+          "mode": "unilateral",
+          "guards": [],
+          "actor_nondecrease": true
+        },
+        {
+          "id": "buy_7",
+          "from": "q6",
+          "to": "q7",
+          "mode": "unilateral",
+          "guards": [],
+          "actor_nondecrease": true
+        },
+        {
+          "id": "buy_8",
+          "from": "q7",
+          "to": "q8",
+          "mode": "unilateral",
+          "guards": [],
+          "actor_nondecrease": true
+        },
+        {
+          "id": "joint_bridge_valley",
+          "from": "q3",
+          "to": "q8",
+          "mode": "joint",
+          "guards": [
+            {
+              "id": "financing_and_selling_route",
+              "status": "PASS",
+              "category": "coordination",
+              "source_of_status": "INVENTED_VALID_JOINT_TRANSITION_POSITIVE_CONTROL"
+            }
+          ],
+          "actor_nondecrease": true
+        }
+      ],
+      "stages": [
+        {
+          "id": "K_declared",
+          "axes": [
+            "U_actor"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "from": "q3",
+          "to": "q4"
+        },
+        {
+          "from": "q3",
+          "to": "q8"
+        }
+      ],
+      "state_invariants": [],
+      "resource_budgets": {},
+      "interpretation": "Original nonmonotone utility table; unilateral nondecrease blocks 3→4, finite joint jump to 8 succeeds only under positive-control financing assumption."
+    },
+    {
+      "case_id": "EX-LINEAR-01",
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md",
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "dimensions": {
+        "U1": {
+          "unit": "actor1 toy utility",
+          "direction": "max"
+        },
+        "U2": {
+          "unit": "actor2 toy utility",
+          "direction": "max"
+        }
+      },
+      "states": {
+        "00": {
+          "metrics": {
+            "U1": 4,
+            "U2": 4
+          },
+          "facts": {
+            "x1": 0,
+            "x2": 0
+          },
+          "payoffs": {
+            "actor1": 4,
+            "actor2": 4
+          }
+        },
+        "01": {
+          "metrics": {
+            "U1": 4,
+            "U2": 5
+          },
+          "facts": {
+            "x1": 0,
+            "x2": 1
+          },
+          "payoffs": {
+            "actor1": 4,
+            "actor2": 5
+          }
+        },
+        "10": {
+          "metrics": {
+            "U1": 5,
+            "U2": 4
+          },
+          "facts": {
+            "x1": 1,
+            "x2": 0
+          },
+          "payoffs": {
+            "actor1": 5,
+            "actor2": 4
+          }
+        },
+        "11": {
+          "metrics": {
+            "U1": 5,
+            "U2": 5
+          },
+          "facts": {
+            "x1": 1,
+            "x2": 1
+          },
+          "payoffs": {
+            "actor1": 5,
+            "actor2": 5
+          }
+        }
+      },
+      "initial": "00",
+      "transitions": [
+        {
+          "id": "first_alone",
+          "from": "00",
+          "to": "10",
+          "mode": "unilateral",
+          "guards": []
+        },
+        {
+          "id": "second_alone",
+          "from": "00",
+          "to": "01",
+          "mode": "unilateral",
+          "guards": []
+        },
+        {
+          "id": "atomic_together",
+          "from": "00",
+          "to": "11",
+          "mode": "joint",
+          "guards": []
+        }
+      ],
+      "stages": [
+        {
+          "id": "K_declared",
+          "axes": [
+            "U1",
+            "U2"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "from": "00",
+          "to": "11"
+        }
+      ],
+      "state_invariants": [
+        {
+          "kind": "equal_fields",
+          "fields": [
+            "x1",
+            "x2"
+          ]
+        }
+      ],
+      "resource_budgets": {},
+      "interpretation": "Both final 00,11 physically feasible; no feasible unilateral binary intermediate. Atomic joint is a distinct protocol, not new resources."
+    },
+    {
+      "case_id": "EX-CREDIT-01",
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/EXAMPLE_LEDGER.md",
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "dimensions": {
+        "V_A": {
+          "unit": "credit to A (toy units)",
+          "direction": "max"
+        },
+        "V_B": {
+          "unit": "credit to B (toy units)",
+          "direction": "max"
+        }
+      },
+      "states": {
+        "shares_7_3": {
+          "metrics": {
+            "V_A": 7,
+            "V_B": 3
+          },
+          "facts": {
+            "share_A": 7,
+            "share_B": 3
+          },
+          "payoffs": {}
+        },
+        "shares_7_4": {
+          "metrics": {
+            "V_A": 7,
+            "V_B": 4
+          },
+          "facts": {
+            "share_A": 7,
+            "share_B": 4
+          },
+          "payoffs": {}
+        }
+      },
+      "initial": "shares_7_3",
+      "transitions": [
+        {
+          "id": "raise_B_to_four",
+          "from": "shares_7_3",
+          "to": "shares_7_4",
+          "mode": "unilateral",
+          "guards": []
+        }
+      ],
+      "stages": [
+        {
+          "id": "K_declared",
+          "axes": [
+            "V_A",
+            "V_B"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "from": "shares_7_3",
+          "to": "shares_7_4"
+        }
+      ],
+      "state_invariants": [
+        {
+          "kind": "sum_at_most",
+          "fields": [
+            "share_A",
+            "share_B"
+          ],
+          "limit": 10
+        }
+      ],
+      "resource_budgets": {},
+      "interpretation": "7+4 impossible with budget10; 7+3 compatible. Do not infer that any actor legitimately requires the declared share."
+    },
+    {
+      "case_id": "EX-SOLIDAR-01",
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/MODEL.md#fines-y-capacidades",
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "dimensions": {
+        "E_cost": {
+          "unit": "cost to donor (toy units)",
+          "direction": "min"
+        },
+        "R_received": {
+          "unit": "aid portions",
+          "direction": "max"
+        }
+      },
+      "states": {
+        "retain": {
+          "metrics": {
+            "E_cost": 0,
+            "R_received": 0
+          },
+          "facts": {},
+          "payoffs": {}
+        },
+        "without_choice": {
+          "metrics": {
+            "E_cost": 1,
+            "R_received": 1
+          },
+          "facts": {},
+          "payoffs": {}
+        },
+        "with_choice": {
+          "metrics": {
+            "E_cost": 1,
+            "R_received": 1
+          },
+          "facts": {},
+          "payoffs": {}
+        }
+      },
+      "initial": "retain",
+      "transitions": [
+        {
+          "id": "no_consent",
+          "from": "retain",
+          "to": "without_choice",
+          "mode": "unilateral",
+          "guards": [
+            {
+              "id": "person_choice_not_evidenced",
+              "status": "UNKNOWN",
+              "category": "consent",
+              "source_of_status": "NOT_OBSERVED"
+            }
+          ]
+        },
+        {
+          "id": "freely_chosen",
+          "from": "retain",
+          "to": "with_choice",
+          "mode": "unilateral",
+          "guards": [
+            {
+              "id": "person_affirmatively_consents",
+              "status": "PASS",
+              "category": "consent",
+              "source_of_status": "INVENTED_POSITIVE_CONTROL_NOT_HUMAN_DATA"
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "id": "K_declared",
+          "axes": [
+            "E_cost",
+            "R_received"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "from": "retain",
+          "to": "without_choice"
+        }
+      ],
+      "state_invariants": [],
+      "resource_budgets": {},
+      "interpretation": "Same aid and cost can be offered, but legitimate chosen contribution requires own authorization; no scalar solidarity score."
+    },
+    {
+      "case_id": "EX-ORANGE-01",
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/EXAMPLE_LEDGER.md",
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "dimensions": {
+        "E_recovery": {
+          "unit": "recoverable fruit count (not established)",
+          "direction": "max"
+        },
+        "R_need": {
+          "unit": "utility of alternative (not measured)",
+          "direction": "max"
+        }
+      },
+      "states": {
+        "reported_waste": {
+          "metrics": {
+            "E_recovery": null,
+            "R_need": null
+          },
+          "facts": {
+            "discard_report": 1
+          },
+          "payoffs": {}
+        },
+        "proposed_recovery": {
+          "metrics": {
+            "E_recovery": null,
+            "R_need": null
+          },
+          "facts": {
+            "discard_report": 1
+          },
+          "payoffs": {}
+        }
+      },
+      "initial": "reported_waste",
+      "transitions": [
+        {
+          "id": "investigate_recovery",
+          "from": "reported_waste",
+          "to": "proposed_recovery",
+          "mode": "unilateral",
+          "guards": [
+            {
+              "id": "ownership_and_safety",
+              "status": "UNKNOWN",
+              "category": "authority",
+              "source_of_status": "SOURCE_EXPLICITLY_UNVERIFIED"
+            },
+            {
+              "id": "price_collusion_claim",
+              "status": "UNKNOWN",
+              "category": "evidence",
+              "source_of_status": "SOURCE_EXPLICITLY_NOT_ESTABLISHED"
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "id": "K_declared",
+          "axes": [
+            "E_recovery",
+            "R_need"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "from": "reported_waste",
+          "to": "proposed_recovery"
+        }
+      ],
+      "state_invariants": [],
+      "resource_budgets": {},
+      "interpretation": "An allegation about price manipulation is NOT a fact; unknown quantities and human distress remain unknown, not zero."
+    },
+    {
+      "case_id": "EX-HUMAN-01",
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/EXAMPLE_LEDGER.md",
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "dimensions": {
+        "capacity": {
+          "unit": "realized development opportunities (unmeasured)",
+          "direction": "max"
+        }
+      },
+      "states": {
+        "school_then_job": {
+          "metrics": {
+            "capacity": null
+          },
+          "facts": {},
+          "payoffs": {}
+        },
+        "counterfactual_university": {
+          "metrics": {
+            "capacity": null
+          },
+          "facts": {},
+          "payoffs": {}
+        }
+      },
+      "initial": "school_then_job",
+      "transitions": [
+        {
+          "id": "access_to_university",
+          "from": "school_then_job",
+          "to": "counterfactual_university",
+          "mode": "unilateral",
+          "guards": [
+            {
+              "id": "available_university_place",
+              "status": "UNKNOWN",
+              "category": "evidence",
+              "source_of_status": "SOURCE_NARRATIVE_NOT_OBSERVED"
+            },
+            {
+              "id": "personal_choice",
+              "status": "UNKNOWN",
+              "category": "consent",
+              "source_of_status": "SOURCE_NARRATIVE_NOT_OBSERVED"
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "id": "K_declared",
+          "axes": [
+            "capacity"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "from": "school_then_job",
+          "to": "counterfactual_university"
+        }
+      ],
+      "state_invariants": [],
+      "resource_budgets": {},
+      "interpretation": "Hypothetical French lycée trajectory. No empirical student, distress, dignity or numerical potential is inferred."
+    },
+    {
+      "case_id": "EX-SUPER-01",
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/EXAMPLE_LEDGER.md",
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "dimensions": {
+        "output": {
+          "unit": "delivered interface amount (toy units)",
+          "direction": "max"
+        }
+      },
+      "states": {
+        "limited": {
+          "metrics": {
+            "output": 800
+          },
+          "facts": {
+            "declared_demand": 1000,
+            "delivery": 800
+          },
+          "payoffs": {}
+        },
+        "fully_delivered": {
+          "metrics": {
+            "output": 1000
+          },
+          "facts": {
+            "declared_demand": 1000,
+            "delivery": 1000
+          },
+          "payoffs": {}
+        }
+      },
+      "initial": "limited",
+      "transitions": [
+        {
+          "id": "repair_unknown_bottleneck",
+          "from": "limited",
+          "to": "fully_delivered",
+          "mode": "unilateral",
+          "guards": [
+            {
+              "id": "root_capacity_evaluated",
+              "status": "UNKNOWN",
+              "category": "evidence",
+              "source_of_status": "UNKNOWN_SUBSYSTEM_LIMIT"
+            }
+          ]
+        }
+      ],
+      "stages": [
+        {
+          "id": "K_declared",
+          "axes": [
+            "output"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "from": "limited",
+          "to": "fully_delivered"
+        }
+      ],
+      "state_invariants": [],
+      "resource_budgets": {},
+      "interpretation": "Source X−200 example instantiated with X=1000 as toy. Not a source-verified repair or physical availability claim."
+    },
+    {
+      "case_id": "EX-BUSINESS-01",
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md",
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "dimensions": {
+        "E_joint_gain": {
+          "unit": "net toy surplus in one numerary",
+          "direction": "max"
+        },
+        "R_worst_actor": {
+          "unit": "minimum declared affected actor outcome",
+          "direction": "max"
+        }
+      },
+      "states": {
+        "status_quo": {
+          "metrics": {
+            "E_joint_gain": 0,
+            "R_worst_actor": 0
+          },
+          "facts": {},
+          "payoffs": {
+            "marketing": 0,
+            "operations": 0,
+            "systems": 0
+          }
+        },
+        "raw_offer": {
+          "metrics": {
+            "E_joint_gain": 70,
+            "R_worst_actor": -30
+          },
+          "facts": {},
+          "payoffs": {
+            "marketing": 60,
+            "operations": 40,
+            "systems": -30
+          }
+        },
+        "compensated_after_cost": {
+          "metrics": {
+            "E_joint_gain": 55,
+            "R_worst_actor": 0
+          },
+          "facts": {},
+          "payoffs": {
+            "marketing": 19,
+            "operations": 36,
+            "systems": 0
+          }
+        }
+      },
+      "initial": "status_quo",
+      "transitions": [
+        {
+          "id": "raw_offer_without_compensation",
+          "from": "status_quo",
+          "to": "raw_offer",
+          "mode": "unilateral",
+          "guards": [],
+          "actor_nondecrease": true
+        },
+        {
+          "id": "compensated_but_approval_unverified",
+          "from": "status_quo",
+          "to": "compensated_after_cost",
+          "mode": "joint",
+          "guards": [
+            {
+              "id": "CFO_authorizes",
+              "status": "UNKNOWN",
+              "category": "authority",
+              "source_of_status": "NOT_ESTABLISHED_IN_SOURCE"
+            }
+          ],
+          "actor_nondecrease": true
+        }
+      ],
+      "stages": [
+        {
+          "id": "E_only",
+          "axes": [
+            "E_joint_gain"
+          ]
+        },
+        {
+          "id": "E_plus_R",
+          "axes": [
+            "E_joint_gain",
+            "R_worst_actor"
+          ]
+        }
+      ],
+      "comparisons": [
+        {
+          "from": "status_quo",
+          "to": "raw_offer"
+        },
+        {
+          "from": "status_quo",
+          "to": "compensated_after_cost"
+        }
+      ],
+      "state_invariants": [],
+      "resource_budgets": {},
+      "interpretation": "Source gross 60+40−30=70; transfer35 marketing→systems; hypothetical newly declared real cost split (6,4,5) sums15; no actual CFO consent."
+    }
+  ]
+}
