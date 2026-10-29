@@ -342,8 +342,41 @@ def summarize(regime: str, rows: list[dict[str, Any]]) -> dict:
     relation=("BOUNDARY_FEWER_INVALID_CANDIDATES" if bo<fa else
               "DOMAIN_FACTS_FEWER_INVALID_CANDIDATES" if fa<bo else
               "TIE_INVALID_CANDIDATES")
+    # Invalid proposals ALONE can misleadingly reward doing nothing.
+    # A dominance comparison therefore needs *missed valid candidates*, too.
+    bm=out["SOURCE_BOUNDARY_ONLY"]["missed_feasible_candidates"]
+    fm=out["DOMAIN_FACTS_ONLY"]["missed_feasible_candidates"]
+    if bo<=fa and bm<=fm and (bo<fa or bm<fm):
+        benefit_relation="BOUNDARY_DOMINATES_ON_ERRORS_AND_MISSED_CANDIDATES"
+    elif fa<=bo and fm<=bm and (fa<bo or fm<bm):
+        benefit_relation="DOMAIN_FACTS_DOMINATES_ON_ERRORS_AND_MISSED_CANDIDATES"
+    elif bo==fa and bm==fm:
+        benefit_relation="TIE_ON_ERRORS_AND_MISSED_CANDIDATES"
+    else:
+        benefit_relation="INCOMPARABLE_ERROR_VS_MISSED_OPPORTUNITY_TRADEOFF"
+
+    # A third coordinate (instrument cost, declared units) is also conserved
+    # without converting risk of wrong proposals into money or bananas.
+    dims={arm:(
+        v["unjustified_candidate_proposals"],
+        v["missed_feasible_candidates"],
+        Fraction(v["information_cost_units"]),
+    ) for arm,v in out.items()}
+    efficient=[
+        arm for arm,values in dims.items()
+        if not any(
+            peer!=arm and all(x<=y for x,y in zip(other,values))
+            and any(x<y for x,y in zip(other,values))
+            for peer,other in dims.items()
+        )
+    ]
     return {"regime":regime,"worlds":len(rows),"policies":out,
             "bounded_FH_C_direction":relation,
+            "source_vs_facts_two_axis_order":benefit_relation,
+            "nonfungible_three_axis_pareto_front":sorted(efficient),
+            "pareto_axes_minimized":["unjustified_candidate_proposals",
+                                     "missed_feasible_candidates",
+                                     "information_cost_units"],
             "FH_C_real_world_causal_hypothesis_status":"NOT_IDENTIFIED_FROM_SYNTHETIC_GENERATOR",
             "no_universal_comparator_winner_claim":True}
 
