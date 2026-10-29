@@ -209,5 +209,44 @@ class OriginalNativeModels(unittest.TestCase):
         self.assertEqual(run("native-agentic")["case_count"],30)
 
 
+
+class L07EvidenceOriginAccounting(unittest.TestCase):
+    def test_declared_gates_are_not_reported_as_calculated_results(self):
+        report = run("social")
+        basis = report["social_constraint_evidence_origin"]
+        self.assertEqual(basis["source_owned_social_cases"], 40)
+        self.assertEqual(basis["declared_conditions"], 74)
+        self.assertEqual(basis["calculated_conditions"], 26)
+        self.assertEqual(basis["declared_conditions"]+basis["calculated_conditions"], 100)
+        self.assertEqual(basis["eligible_conditional"], 18)
+        self.assertEqual(basis["non_eligible"], 22)
+        self.assertEqual(sum(basis["primary_noneligible_basis"].values()),22)
+        self.assertEqual(len(basis["details"]),40)
+        self.assertIn("NOT A CAUSAL EXPLANATION",basis["basis_warning"])
+
+    def test_computed_overallocation_vs_declared_attribution_are_separate(self):
+        report = run("social")
+        rows = {row["case_id"]:row for row in
+                report["social_constraint_evidence_origin"]["details"]}
+        self.assertEqual(rows["CREDIT-7-4"]["primary_basis"],
+                         "COMPUTED_PHYSICAL_IMPOSSIBILITY")
+        self.assertEqual(rows["DONATION-ATTRIBUTION-VETO"]["primary_basis"],
+                         "SOURCE_DECLARED_FAILURE")
+        self.assertEqual(rows["BANANA-S2-UNVERIFIED"]["primary_basis"],
+                         "SOURCE_DECLARED_UNKNOWN")
+        self.assertEqual(rows["BANANA-S1"]["primary_basis"],
+                         "ELIGIBLE_CONDITIONAL")
+        self.assertTrue(any(
+            c["origin"]=="SOURCE_DECLARED_GATE"
+            for c in rows["DONATION-ATTRIBUTION-VETO"]["unresolved_or_failed_conditions"]))
+        self.assertTrue(all(not item["admission"]=="FIELD_VALIDATED"
+                            for item in rows.values()))
+
+    def test_evidence_accounting_does_not_consume_private_agentic_truth(self):
+        social = run("social")["social_constraint_evidence_origin"]
+        all_sources = run("both")["social_constraint_evidence_origin"]
+        self.assertEqual(social,all_sources)
+
+
 if __name__ == "__main__":
     unittest.main()
