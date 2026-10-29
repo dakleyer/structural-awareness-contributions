@@ -123,3 +123,12 @@ Para cada caso se muestran por separado:
 Así, el exceso 7+4 sobre capacidad10 es una **imposibilidad física calculada**; el rechazo hipotético de atribución en Cáritas/DANA es un **condicionante declarado**. Ningún motor deduce consentimiento, autoridad o la felicidad humana de cantidades materiales. Los tres tests añadidos verifican desglose, origen y conservación de la misma clasificación cuando también se ejecutan los 30 casos agénticos, sin acceder a la verdad privada de sus planificadores.
 
 Hallazgo origen: [auditoría #58, L-07](https://github.com/dakleyer/structural-awareness-contributions/pull/58). Estado: respuesta técnica propuesta para validación independiente; no se declara cerrado antes de la adjudicación.
+
+
+## 29-10-2026 — Respuesta experimental separada a G-04 (PR sucesor sobre #68)
+
+La auditoría [#58 G-04](https://github.com/dakleyer/structural-awareness-contributions/pull/58) acertó al señalar que el factorial clásico y las dos ablaciones FH-C están **definidos por sus propias señales de entrada**. Los mantenemos como **especificaciones ejecutables**, NO como experimentos causales, y preservamos sus fixtures/resultados históricos.
+
+Se añade la [nota de protocolo](G04_PROTOCOL.md), el [ejecutor de ensayos emparejados](g04_factorial.py), el [manifiesto de seis regímenes](G04_PROTOCOL.json) y [pruebas adversarias](test_g04_factorial.py). La capa nueva genera mundos físicos ocultos, señales Q cualificadas o engañosas y lecturas instrumentales de diferente calidad; aplica cinco decisiones sobre **exactamente los mismos mundos** y verifica después sus efectos mediante el operador `dimension_experiment.material_flow` de este estudio. Incluye el comparador convencional dirigido y registra tanto propuestas injustificadas como oportunidades válidas no propuestas y el coste de información, sin crear permisos ni convertir fuentes autenticadas en verdad. **Ambas direcciones FH-C pueden fallar según datos y calidad real de fuentes/instrumentos**; estos son ensayos sintéticos, no identificación de causalidad ni validación institucional.
+
+Los ejemplos de plátano, Cáritas, ministerios, las 40 variantes del propietario y los 30 casos agénticos originales permanecen intactos. No cambia la semántica ABCD, EA, fuente UC21 o RA, ni se afirma que el factor «más información» domine siempre o que el convencional sea inherentemente débil.
