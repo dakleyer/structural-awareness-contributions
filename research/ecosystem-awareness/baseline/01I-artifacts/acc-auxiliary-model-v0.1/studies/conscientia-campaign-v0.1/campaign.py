@@ -222,20 +222,36 @@ def network_gap() -> list[dict]:
     return rows
 
 
+def _finite_information_engine():
+    """Load the adjacent finite kernel by path, including source-replay imports."""
+    from importlib.util import module_from_spec, spec_from_file_location
+    spec = spec_from_file_location("_acc_conscientia_finite_info", HERE / "finite_information.py")
+    if spec is None or spec.loader is None:
+        raise RuntimeError("finite information source unavailable")
+    engine = module_from_spec(spec)
+    spec.loader.exec_module(engine)
+    return engine
+
+
 def finite_information() -> dict:
-    # The only entropy here is for an EXPLICIT finite, equiprobable model.
-    worlds=[{"a":"READY","b":0,"r":0},{"a":"READY","b":1,"r":1}]
-    def entropy(p):return -sum(x*math.log2(x) for x in p if x)
-    h_before=entropy([0.5,0.5]);h_after=entropy([1.0,0.0])
-    # For uniform P on m, uniform Q on a strict subset n<m:
-    m,n=4,2
-    coverage=math.log2(m/n)
-    return {"finite_worlds":worlds,"h_response_given_A_bits":h_before,
-            "h_response_given_A_and_B_bits":h_after,"conditional_mutual_information_bits":h_before-h_after,
-            "preimage_theoretical_m":m,"preimage_constructible_n":n,
-            "finite_log_coverage_bits":coverage,"KL_P_to_Q_bits":"INFINITE_SUPPORT_MISMATCH",
-            "KL_Q_to_P_bits":coverage,
-            "scope":"FINITE_UNIFORM_TOY_ONLY. No entropy or probability assigned to open C/D."}
+    # Explicit two-world, equal-weight finite witness; the output is CALCULATED.
+    # Nothing assigns a distribution to the open epistemic exterior C or D.
+    engine = _finite_information_engine()
+    worlds = [{"a": "READY", "b": 0, "r": 0},
+              {"a": "READY", "b": 1, "r": 1}]
+    weights = [1, 1]
+    h_before = engine.conditional_entropy(worlds, "r", ("a",), weights)
+    h_after = engine.conditional_entropy(worlds, "r", ("a", "b"), weights)
+    coverage = engine.original_uniform_coverage()
+    return {"finite_worlds": worlds, "h_response_given_A_bits": h_before,
+            "h_response_given_A_and_B_bits": h_after,
+            "conditional_mutual_information_bits": h_before - h_after,
+            "preimage_theoretical_m": coverage["m"],
+            "preimage_constructible_n": coverage["n"],
+            "finite_log_coverage_bits": coverage["log_coverage_bits"],
+            "KL_P_to_Q_bits": coverage["kl_p_to_q"],
+            "KL_Q_to_P_bits": coverage["kl_q_to_p"],
+            "scope": "FINITE_UNIFORM_TOY_ONLY. No entropy or probability assigned to open C/D."}
 
 
 def source_anchored_microexperiments() -> dict:
@@ -288,8 +304,13 @@ def source_anchored_microexperiments() -> dict:
     # A finite XOR example of relational information not present in each one
     # individual bit. No probability distribution is inferred for real C or D.
     q1_states = [(0, 0), (0, 1), (1, 0), (1, 1)]
-    xor_outputs = [a ^ b for a, b in q1_states]
-    assert sorted(xor_outputs) == [0, 0, 1, 1]
+    xor_rows = [{"q1": a, "q2": b, "r": a ^ b} for a, b in q1_states]
+    xor_outputs = [row["r"] for row in xor_rows]
+    info = _finite_information_engine()
+    xor_weights = [1] * len(xor_rows)  # explicit finite uniform assumption
+    xor_i1 = info.mutual_information(xor_rows, "r", ("q1",), xor_weights)
+    xor_i2 = info.mutual_information(xor_rows, "r", ("q2",), xor_weights)
+    xor_joint = info.mutual_information(xor_rows, "r", ("q1", "q2"), xor_weights)
 
     # Orange harvest/price scenario cannot identify price manipulation or
     # feasible redirection without actual safety, title and cost evidence.
@@ -328,10 +349,12 @@ def source_anchored_microexperiments() -> dict:
         "NONFUNGIBLE_PROVENANCE": {"three_messages":len(source_ids),
                                     "distinct_origins":len(set(source_ids)),
                                     "fully_independent_observations":"NOT_ESTABLISHED"},
-        "FINITE_XOR_SYNERGY": {"joint_states":len(q1_states),
-                               "target_outputs":xor_outputs,
-                               "I_R_Q1_bits":0,"I_R_Q2_bits":0,"I_R_Q1Q2_bits":1,
-                               "no_open_D_probability":True},
+        "FINITE_XOR_SYNERGY": {"joint_states": len(q1_states),
+                               "target_outputs": xor_outputs,
+                               "I_R_Q1_bits": xor_i1,
+                               "I_R_Q2_bits": xor_i2,
+                               "I_R_Q1Q2_bits": xor_joint,
+                               "no_open_D_probability": True},
         "ORANGE_RESEARCH_GATE": oranges,
         "EDUCATION_ARCHITECTURE_GATE": education,
         "TWO_MINISTRIES_700_APPLICATIONS": {
