@@ -100,9 +100,10 @@ jobs:
           cp research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/cases.json /tmp/acc_narrative_frozen_cases.json
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/build_fixtures.py
           cmp research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/cases.json /tmp/acc_narrative_frozen_cases.json
-          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1 -p test_engine.py -v
+          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1 -p 'test_*.py' -v
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/engine.py --manifest research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/cases.json --output /tmp/acc_original_narrative_results.json
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/source_replay.py --output /tmp/acc_original_narrative_source_concordance.json
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/mechanistic_replay.py --output /tmp/acc_original_narrative_operation_results.json
           python -B -c "import json; from pathlib import Path; p=Path('research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/REFERENCE_RESULTS.json'); assert json.loads(p.read_text(encoding='utf-8'))==json.loads(Path('/tmp/acc_original_narrative_results.json').read_text(encoding='utf-8'))"
 
       - name: Publish original ACC narrative acceptance traces (synthetic only)
@@ -112,4 +113,5 @@ jobs:
           path: |
             /tmp/acc_original_narrative_results.json
             /tmp/acc_original_narrative_source_concordance.json
+            /tmp/acc_original_narrative_operation_results.json
           if-no-files-found: error
