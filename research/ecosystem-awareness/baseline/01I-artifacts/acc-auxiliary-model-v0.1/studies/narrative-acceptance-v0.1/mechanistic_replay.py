@@ -45,6 +45,14 @@ def evaluate(formula: dict, facts: dict[str, Fraction]) -> Fraction | None:
         value = facts.get(formula["field"])
         return None if value is None else (
             value * number(formula.get("scale", 1)) + number(formula.get("offset", 0)))
+    if op == "linear":
+        terms = formula.get("terms")
+        if not isinstance(terms, list) or not terms:
+            raise ValueError("linear expression requires terms")
+        if any(term.get("field") not in facts for term in terms):
+            return None
+        return sum((facts[term["field"]] * number(term.get("weight", 1))
+                    for term in terms), number(formula.get("offset", 0)))
     if op in ("sum", "ratio"):
         fields = formula["fields"]
         if not isinstance(fields, list) or not fields:
