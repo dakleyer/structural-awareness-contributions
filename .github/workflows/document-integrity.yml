@@ -74,6 +74,19 @@ jobs:
           python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1 -p test_campaign.py -v
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/verify_campaign.py /tmp/conscientia_full_execution.json
 
+      - name: Execute source-anchored original social and agentic examples
+        run: |
+          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1 -p test_dimension_experiment.py -v
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/run_original_experiments.py --model both --compact > /tmp/acc_original_examples.json
+          python -B -c "import json; x=json.load(open('/tmp/acc_original_examples.json')); assert x['case_count']==73; assert sum(v for g in x['admission_by_model'].values() for v in g.values())==73; assert set(x['admission_by_model'])=={'SOCIAL_FINITE','SOCIAL_SOURCE_44','AGENTIC_SOURCE_57'}; assert not x['cross_model_objectives_aggregated']"
+
+      - name: Publish original-example cross-model execution report
+        uses: actions/upload-artifact@v4
+        with:
+          name: acc-original-examples-execution
+          path: /tmp/acc_original_examples.json
+          if-no-files-found: error
+
       - name: Publish reproducible Conscientia synthetic results
         uses: actions/upload-artifact@v4
         with:
