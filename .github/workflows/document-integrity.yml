@@ -150,7 +150,7 @@ jobs:
           done
           python -B "$OWNER/run_original_experiments.py" --model both --compact > /tmp/acc_owner68_full_source_execution.json
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/owner68_concordance.py --source-dir "$OWNER" --output /tmp/acc_owner68_independent_concordance.json
-          python -B -c "import json; o=json.load(open('/tmp/acc_owner68_full_source_execution.json')); c=json.load(open('/tmp/acc_owner68_independent_concordance.json')); assert o['case_count']==73 and c['source_owner_case_count']==40 and c['operation_sequence_case_count']==14; assert len(c['shared_source_property_checks'])>=10; assert c['no_automatic_EA_THEORY_CHANGE']"
+          python -B -c "import json; o=json.load(open('/tmp/acc_owner68_full_source_execution.json')); c=json.load(open('/tmp/acc_owner68_independent_concordance.json')); assert o['case_count']==73 and c['source_owner_case_count']==40 and c['operation_sequence_case_count']==14; assert len(c['shared_source_property_checks'])>=10; assert c['no_automatic_EA_THEORY_CHANGE']; x=o['social_constraint_evidence_origin']; assert (x['source_owned_social_cases'],x['declared_conditions'],x['calculated_conditions'],x['eligible_conditional'],x['non_eligible'])==(40,74,26,18,22)"
 
       - name: Publish original ACC narrative acceptance traces (synthetic only)
         uses: actions/upload-artifact@v4
