@@ -1,0 +1,3229 @@
+{
+  "schema": "ACC-ORIGINAL-EXPERIMENTS-0.1",
+  "source_anchors": [
+    "CASES.md",
+    "MODEL.md",
+    "S1-01_NOTAS_COMPLETAS",
+    "SOURCE_COVERAGE_AND_BACKLOG.md"
+  ],
+  "cases": [
+    {
+      "case_id": "BANANA-S0",
+      "family": "banana_three_states",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0639"
+      ],
+      "question": "Finite question: banana_three_states/BANANA-S0",
+      "horizon": "one declared transition",
+      "operator": "material_flow",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "resource": "banana",
+        "available": 0,
+        "allocations": [],
+        "remainder": "wasted",
+        "declared_valuation": {
+          "holder": {
+            "benefit_per_received": 5,
+            "frustration_per_wasted": 7
+          }
+        }
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "resource or distance units"
+        },
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "attribution",
+          "initial": "IMPLICIT",
+          "unit": "relative credit; no double count with utility"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0639",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "banana_balance",
+          "category": "material",
+          "test": {
+            "path": [
+              "conserved"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "BANANA-S1",
+      "family": "banana_three_states",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0639"
+      ],
+      "question": "Finite question: banana_three_states/BANANA-S1",
+      "horizon": "one declared transition",
+      "operator": "material_flow",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "resource": "banana",
+        "available": 2,
+        "allocations": [
+          {
+            "actor": "holder",
+            "amount": 1
+          }
+        ],
+        "remainder": "wasted",
+        "declared_valuation": {
+          "holder": {
+            "benefit_per_received": 5,
+            "frustration_per_wasted": 7
+          }
+        }
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "resource or distance units"
+        },
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "attribution",
+          "initial": "IMPLICIT",
+          "unit": "relative credit; no double count with utility"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0639",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "banana_balance",
+          "category": "material",
+          "test": {
+            "path": [
+              "conserved"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "distribution",
+          "test": {
+            "path": [
+              "allocated"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "BANANA-S2-UNVERIFIED",
+      "family": "banana_three_states",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0639",
+        "S1-P0272"
+      ],
+      "question": "Finite question: banana_three_states/BANANA-S2-UNVERIFIED",
+      "horizon": "one declared transition",
+      "operator": "material_flow",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "resource": "banana",
+        "available": 2,
+        "allocations": [
+          {
+            "actor": "holder",
+            "amount": 1
+          },
+          {
+            "actor": "child",
+            "amount": 1
+          }
+        ],
+        "remainder": "wasted",
+        "declared_valuation": {
+          "holder": {
+            "benefit_per_received": 5,
+            "frustration_per_wasted": 7
+          }
+        }
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "resource or distance units"
+        },
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "attribution",
+          "initial": "IMPLICIT",
+          "unit": "relative credit; no double count with utility"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0639, S1-P0272",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "banana_balance",
+          "category": "material",
+          "test": {
+            "path": [
+              "conserved"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        },
+        {
+          "id": "route",
+          "category": "coordination",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        },
+        {
+          "id": "food_safety",
+          "category": "safety",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        },
+        {
+          "id": "donor_consent",
+          "category": "consent",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "distribution",
+          "test": {
+            "path": [
+              "allocated"
+            ],
+            "op": "gte",
+            "value": 2
+          }
+        },
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "allocated"
+            ],
+            "op": "gte",
+            "value": 2
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "BANANA-S2-ADMITTED-SYNTHETIC",
+      "family": "banana_three_states",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0639",
+        "S1-P0272"
+      ],
+      "question": "Finite question: banana_three_states/BANANA-S2-ADMITTED-SYNTHETIC",
+      "horizon": "one declared transition",
+      "operator": "material_flow",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "resource": "banana",
+        "available": 2,
+        "allocations": [
+          {
+            "actor": "holder",
+            "amount": 1
+          },
+          {
+            "actor": "child",
+            "amount": 1
+          }
+        ],
+        "remainder": "wasted",
+        "declared_valuation": {
+          "holder": {
+            "benefit_per_received": 5,
+            "frustration_per_wasted": 7
+          }
+        }
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "resource or distance units"
+        },
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "attribution",
+          "initial": "IMPLICIT",
+          "unit": "relative credit; no double count with utility"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0639, S1-P0272",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "banana_balance",
+          "category": "material",
+          "test": {
+            "path": [
+              "conserved"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        },
+        {
+          "id": "route",
+          "category": "coordination",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "food_safety",
+          "category": "safety",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "donor_consent",
+          "category": "consent",
+          "satisfied": true,
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "distribution",
+          "test": {
+            "path": [
+              "allocated"
+            ],
+            "op": "gte",
+            "value": 2
+          }
+        },
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "allocated"
+            ],
+            "op": "gte",
+            "value": 2
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "BANANA-S2-ROUTE-BLOCKED",
+      "family": "banana_three_states",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0639"
+      ],
+      "question": "Finite question: banana_three_states/BANANA-S2-ROUTE-BLOCKED",
+      "horizon": "one declared transition",
+      "operator": "material_flow",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "resource": "banana",
+        "available": 2,
+        "allocations": [
+          {
+            "actor": "holder",
+            "amount": 1
+          },
+          {
+            "actor": "child",
+            "amount": 1
+          }
+        ],
+        "remainder": "wasted",
+        "declared_valuation": {
+          "holder": {
+            "benefit_per_received": 5,
+            "frustration_per_wasted": 7
+          }
+        }
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "resource or distance units"
+        },
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "attribution",
+          "initial": "IMPLICIT",
+          "unit": "relative credit; no double count with utility"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0639",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "banana_balance",
+          "category": "material",
+          "test": {
+            "path": [
+              "conserved"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        },
+        {
+          "id": "route",
+          "category": "coordination",
+          "satisfied": false,
+          "owner": "case participants"
+        },
+        {
+          "id": "food_safety",
+          "category": "safety",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "donor_consent",
+          "category": "consent",
+          "satisfied": true,
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "BANANA-OVERALLOCATION",
+      "family": "banana_three_states",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0639"
+      ],
+      "question": "Finite question: banana_three_states/BANANA-OVERALLOCATION",
+      "horizon": "one declared transition",
+      "operator": "material_flow",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "resource": "banana",
+        "available": 2,
+        "allocations": [
+          {
+            "actor": "holder",
+            "amount": 1
+          },
+          {
+            "actor": "child",
+            "amount": 2
+          }
+        ],
+        "remainder": "wasted",
+        "declared_valuation": {
+          "holder": {
+            "benefit_per_received": 5,
+            "frustration_per_wasted": 7
+          }
+        }
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "resource or distance units"
+        },
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "attribution",
+          "initial": "IMPLICIT",
+          "unit": "relative credit; no double count with utility"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0639",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "banana_balance",
+          "category": "material",
+          "test": {
+            "path": [
+              "conserved"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "BANANA-EXTRA-TRANSPORT",
+      "family": "banana_transport",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0269"
+      ],
+      "question": "If donated far away, what added item-km follows?",
+      "horizon": "one declared transition",
+      "operator": "transport",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "units": 1,
+        "distance_before_km": 0,
+        "distance_after_km": 14000
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "resource or distance units"
+        },
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0269",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "safe_route",
+          "category": "safety",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        },
+        {
+          "id": "recipient_consent",
+          "category": "consent",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "units"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "BANANA-LOCAL-UNVERIFIED",
+      "family": "banana_transport",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0271",
+        "S1-P0272",
+        "S1-P0158"
+      ],
+      "question": "Finite question: banana_transport/BANANA-LOCAL-UNVERIFIED",
+      "horizon": "one declared transition",
+      "operator": "transport",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "units": 1,
+        "distance_before_km": 14000,
+        "distance_after_km": 0
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "resource or distance units"
+        },
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0271, S1-P0272, S1-P0158",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "supplier_title",
+          "category": "rights",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        },
+        {
+          "id": "food_safety",
+          "category": "safety",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        },
+        {
+          "id": "commercial_contracts",
+          "category": "authority",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        },
+        {
+          "id": "local_delivery",
+          "category": "coordination",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "BANANA-LOCAL-ASSUMED",
+      "family": "banana_transport",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0271",
+        "S1-P0272",
+        "S1-P0158"
+      ],
+      "question": "Finite question: banana_transport/BANANA-LOCAL-ASSUMED",
+      "horizon": "one declared transition",
+      "operator": "transport",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "units": 1,
+        "distance_before_km": 14000,
+        "distance_after_km": 0
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "resource or distance units"
+        },
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0271, S1-P0272, S1-P0158",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "supplier_title",
+          "category": "rights",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "food_safety",
+          "category": "safety",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "commercial_contracts",
+          "category": "authority",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "local_delivery",
+          "category": "coordination",
+          "satisfied": true,
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "DONATION-CONSENT-ABSENT",
+      "family": "donation_Caritas_DANA",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0214",
+        "S1-P0215",
+        "S1-P0216"
+      ],
+      "question": "Finite question: donation_Caritas_DANA/DONATION-CONSENT-ABSENT",
+      "horizon": "one declared transition",
+      "operator": "material_flow",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "resource": "banana",
+        "available": 1,
+        "allocations": [
+          {
+            "actor": "beneficiary",
+            "amount": 1
+          }
+        ],
+        "remainder": "wasted",
+        "declared_valuation": {
+          "donor": {
+            "benefit_per_donated": 5,
+            "frustration_per_wasted": 0
+          }
+        }
+      },
+      "dimensions": [
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "attribution",
+          "initial": "IMPLICIT",
+          "unit": "relative credit; no double count with utility"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0214, S1-P0215, S1-P0216",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "balance",
+          "category": "material",
+          "test": {
+            "path": [
+              "conserved"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        },
+        {
+          "id": "safety",
+          "category": "safety",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "collection_route",
+          "category": "coordination",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "donor_consent",
+          "category": "consent",
+          "satisfied": false,
+          "owner": "case participants"
+        },
+        {
+          "id": "attribution_acceptance",
+          "category": "attribution",
+          "satisfied": true,
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "attribution",
+          "test": {
+            "path": [
+              "allocated"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        },
+        {
+          "dimension": "distribution",
+          "test": {
+            "path": [
+              "allocated"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "DONATION-ATTRIBUTION-VETO",
+      "family": "donation_Caritas_DANA",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0214",
+        "S1-P0215",
+        "S1-P0216"
+      ],
+      "question": "Finite question: donation_Caritas_DANA/DONATION-ATTRIBUTION-VETO",
+      "horizon": "one declared transition",
+      "operator": "material_flow",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "resource": "banana",
+        "available": 1,
+        "allocations": [
+          {
+            "actor": "beneficiary",
+            "amount": 1
+          }
+        ],
+        "remainder": "wasted",
+        "declared_valuation": {
+          "donor": {
+            "benefit_per_donated": 5,
+            "frustration_per_wasted": 0
+          }
+        }
+      },
+      "dimensions": [
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "attribution",
+          "initial": "IMPLICIT",
+          "unit": "relative credit; no double count with utility"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0214, S1-P0215, S1-P0216",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "balance",
+          "category": "material",
+          "test": {
+            "path": [
+              "conserved"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        },
+        {
+          "id": "safety",
+          "category": "safety",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "collection_route",
+          "category": "coordination",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "donor_consent",
+          "category": "consent",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "attribution_acceptance",
+          "category": "attribution",
+          "satisfied": false,
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "attribution",
+          "test": {
+            "path": [
+              "allocated"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        },
+        {
+          "dimension": "distribution",
+          "test": {
+            "path": [
+              "allocated"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "DONATION-ACCEPTED-ALTERNATE-CREDIT",
+      "family": "donation_Caritas_DANA",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0214",
+        "S1-P0215",
+        "S1-P0216"
+      ],
+      "question": "Finite question: donation_Caritas_DANA/DONATION-ACCEPTED-ALTERNATE-CREDIT",
+      "horizon": "one declared transition",
+      "operator": "material_flow",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "resource": "banana",
+        "available": 1,
+        "allocations": [
+          {
+            "actor": "beneficiary",
+            "amount": 1
+          }
+        ],
+        "remainder": "wasted",
+        "declared_valuation": {
+          "donor": {
+            "benefit_per_donated": 5,
+            "frustration_per_wasted": 0
+          }
+        }
+      },
+      "dimensions": [
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "attribution",
+          "initial": "IMPLICIT",
+          "unit": "relative credit; no double count with utility"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0214, S1-P0215, S1-P0216",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "balance",
+          "category": "material",
+          "test": {
+            "path": [
+              "conserved"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        },
+        {
+          "id": "safety",
+          "category": "safety",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "collection_route",
+          "category": "coordination",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "donor_consent",
+          "category": "consent",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "attribution_acceptance",
+          "category": "attribution",
+          "satisfied": true,
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "attribution",
+          "test": {
+            "path": [
+              "allocated"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        },
+        {
+          "dimension": "distribution",
+          "test": {
+            "path": [
+              "allocated"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "DONATION-ROUTE-UNCERTAIN",
+      "family": "donation_Caritas_DANA",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0214",
+        "S1-P0215",
+        "S1-P0216"
+      ],
+      "question": "Finite question: donation_Caritas_DANA/DONATION-ROUTE-UNCERTAIN",
+      "horizon": "one declared transition",
+      "operator": "material_flow",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "resource": "banana",
+        "available": 1,
+        "allocations": [
+          {
+            "actor": "beneficiary",
+            "amount": 1
+          }
+        ],
+        "remainder": "wasted",
+        "declared_valuation": {
+          "donor": {
+            "benefit_per_donated": 5,
+            "frustration_per_wasted": 0
+          }
+        }
+      },
+      "dimensions": [
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "attribution",
+          "initial": "IMPLICIT",
+          "unit": "relative credit; no double count with utility"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0214, S1-P0215, S1-P0216",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "balance",
+          "category": "material",
+          "test": {
+            "path": [
+              "conserved"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        },
+        {
+          "id": "safety",
+          "category": "safety",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "collection_route",
+          "category": "coordination",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        },
+        {
+          "id": "donor_consent",
+          "category": "consent",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "attribution_acceptance",
+          "category": "attribution",
+          "satisfied": true,
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "attribution",
+          "test": {
+            "path": [
+              "allocated"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        },
+        {
+          "dimension": "distribution",
+          "test": {
+            "path": [
+              "allocated"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "CREDIT-7-4",
+      "family": "credit_floor",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "CE-NOTES",
+        "HID-D06"
+      ],
+      "question": "Finite question: credit_floor/CREDIT-7-4",
+      "horizon": "one declared transition",
+      "operator": "capacity",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "capacity": 10,
+        "requests": [
+          7,
+          4
+        ]
+      },
+      "dimensions": [
+        {
+          "id": "resource",
+          "initial": "ACTIVE",
+          "unit": "physical units"
+        },
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "attribution",
+          "initial": "IMPLICIT",
+          "unit": "relative credit; no double count with utility"
+        }
+      ],
+      "public": {
+        "reference": "CE-NOTES, HID-D06",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "joint_capacity",
+          "category": "material",
+          "test": {
+            "path": [
+              "shortfall"
+            ],
+            "op": "eq",
+            "value": 0
+          },
+          "owner": "finite physical simulator"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "CREDIT-7-3",
+      "family": "credit_floor",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "CE-NOTES",
+        "HID-D06"
+      ],
+      "question": "Finite question: credit_floor/CREDIT-7-3",
+      "horizon": "one declared transition",
+      "operator": "capacity",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "capacity": 10,
+        "requests": [
+          7,
+          3
+        ]
+      },
+      "dimensions": [
+        {
+          "id": "resource",
+          "initial": "ACTIVE",
+          "unit": "physical units"
+        },
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "attribution",
+          "initial": "IMPLICIT",
+          "unit": "relative credit; no double count with utility"
+        }
+      ],
+      "public": {
+        "reference": "CE-NOTES, HID-D06",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "joint_capacity",
+          "category": "material",
+          "test": {
+            "path": [
+              "shortfall"
+            ],
+            "op": "eq",
+            "value": 0
+          },
+          "owner": "finite physical simulator"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "FRIDAY-RELATIVE-VETO",
+      "family": "Friday_Robinson",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0277"
+      ],
+      "question": "Finite question: Friday_Robinson/FRIDAY-RELATIVE-VETO",
+      "horizon": "one declared transition",
+      "operator": "joint_shares",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "totals": {
+          "coconut": 1000,
+          "fish": 1000
+        },
+        "allocations": {
+          "Friday": {
+            "coconut": 1,
+            "fish": 1
+          },
+          "Robinson": {
+            "coconut": 999,
+            "fish": 999
+          }
+        }
+      },
+      "dimensions": [
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "attribution",
+          "initial": "IMPLICIT",
+          "unit": "relative credit; no double count with utility"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0277",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "relative_share_acceptance",
+          "category": "attribution",
+          "satisfied": false,
+          "owner": "case participants"
+        },
+        {
+          "id": "both_positive",
+          "category": "material",
+          "test": {
+            "path": [
+              "each_actor_positive_absolute_gain"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "attribution",
+          "test": {
+            "path": [
+              "allocated",
+              "Friday",
+              "coconut"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "FRIDAY-RELATIVE-ACCEPTED",
+      "family": "Friday_Robinson",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0277"
+      ],
+      "question": "Finite question: Friday_Robinson/FRIDAY-RELATIVE-ACCEPTED",
+      "horizon": "one declared transition",
+      "operator": "joint_shares",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "totals": {
+          "coconut": 1000,
+          "fish": 1000
+        },
+        "allocations": {
+          "Friday": {
+            "coconut": 1,
+            "fish": 1
+          },
+          "Robinson": {
+            "coconut": 999,
+            "fish": 999
+          }
+        }
+      },
+      "dimensions": [
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "attribution",
+          "initial": "IMPLICIT",
+          "unit": "relative credit; no double count with utility"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0277",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "relative_share_acceptance",
+          "category": "attribution",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "both_positive",
+          "category": "material",
+          "test": {
+            "path": [
+              "each_actor_positive_absolute_gain"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "attribution",
+          "test": {
+            "path": [
+              "allocated",
+              "Friday",
+              "coconut"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "APPLES-BRIDGE-UNKNOWN",
+      "family": "nonmonotone_apples",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "ACC-EXAMPLES"
+      ],
+      "question": "Finite question: nonmonotone_apples/APPLES-BRIDGE-UNKNOWN",
+      "horizon": "one declared transition",
+      "operator": "finite_choice",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "utilities": [
+          0,
+          4,
+          7,
+          8,
+          7,
+          5,
+          5,
+          9,
+          10
+        ],
+        "start": 3
+      },
+      "dimensions": [
+        {
+          "id": "opportunity",
+          "initial": "ACTIVE",
+          "unit": "state-relative admissibility"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        }
+      ],
+      "public": {
+        "reference": "ACC-EXAMPLES",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "legal_bridge",
+          "category": "authority",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "gain_if_transition_accessible"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "APPLES-BRIDGE-PERMITTED",
+      "family": "nonmonotone_apples",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "ACC-EXAMPLES"
+      ],
+      "question": "Finite question: nonmonotone_apples/APPLES-BRIDGE-PERMITTED",
+      "horizon": "one declared transition",
+      "operator": "finite_choice",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "utilities": [
+          0,
+          4,
+          7,
+          8,
+          7,
+          5,
+          5,
+          9,
+          10
+        ],
+        "start": 3
+      },
+      "dimensions": [
+        {
+          "id": "opportunity",
+          "initial": "ACTIVE",
+          "unit": "state-relative admissibility"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        }
+      ],
+      "public": {
+        "reference": "ACC-EXAMPLES",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "legal_bridge",
+          "category": "authority",
+          "satisfied": true,
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "gain_if_transition_accessible"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "APPLES-BRIDGE-DENIED",
+      "family": "nonmonotone_apples",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "ACC-EXAMPLES"
+      ],
+      "question": "Finite question: nonmonotone_apples/APPLES-BRIDGE-DENIED",
+      "horizon": "one declared transition",
+      "operator": "finite_choice",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "utilities": [
+          0,
+          4,
+          7,
+          8,
+          7,
+          5,
+          5,
+          9,
+          10
+        ],
+        "start": 3
+      },
+      "dimensions": [
+        {
+          "id": "opportunity",
+          "initial": "ACTIVE",
+          "unit": "state-relative admissibility"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        }
+      ],
+      "public": {
+        "reference": "ACC-EXAMPLES",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "legal_bridge",
+          "category": "authority",
+          "satisfied": false,
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "gain_if_transition_accessible"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "FINITE-A-B",
+      "family": "finite_information",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "CE-ANTS",
+        "CE-SOCIAL-WORK"
+      ],
+      "question": "Finite question: finite_information/FINITE-A-B",
+      "horizon": "one declared transition",
+      "operator": "finite_information",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "worlds": [
+          {
+            "a": "READY",
+            "b": 0,
+            "r": 0
+          },
+          {
+            "a": "READY",
+            "b": 1,
+            "r": 1
+          }
+        ],
+        "queries": [
+          {
+            "name": "H_R_given_A",
+            "measure": "entropy",
+            "target": "r",
+            "given": [
+              "a"
+            ]
+          },
+          {
+            "name": "H_R_given_AB",
+            "measure": "entropy",
+            "target": "r",
+            "given": [
+              "a",
+              "b"
+            ]
+          },
+          {
+            "name": "I_R_B_given_A",
+            "measure": "information",
+            "target": "r",
+            "given": [
+              "a"
+            ],
+            "source": [
+              "b"
+            ]
+          }
+        ]
+      },
+      "dimensions": [
+        {
+          "id": "information",
+          "initial": "ACTIVE",
+          "unit": "bits in finite table only"
+        },
+        {
+          "id": "opportunity",
+          "initial": "ACTIVE",
+          "unit": "state-relative admissibility"
+        }
+      ],
+      "public": {
+        "reference": "CE-ANTS, CE-SOCIAL-WORK",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [],
+      "activation_events": []
+    },
+    {
+      "case_id": "FINITE-XOR-INDEPENDENT",
+      "family": "finite_information",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "CE-SOCIAL-WORK"
+      ],
+      "question": "Finite question: finite_information/FINITE-XOR-INDEPENDENT",
+      "horizon": "one declared transition",
+      "operator": "finite_information",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "worlds": [
+          {
+            "q1": 0,
+            "q2": 0
+          },
+          {
+            "q1": 0,
+            "q2": 1
+          },
+          {
+            "q1": 1,
+            "q2": 0
+          },
+          {
+            "q1": 1,
+            "q2": 1
+          }
+        ],
+        "derived": {
+          "r": {
+            "operator": "xor",
+            "fields": [
+              "q1",
+              "q2"
+            ]
+          }
+        },
+        "queries": [
+          {
+            "name": "I_R_Q1",
+            "measure": "information",
+            "target": "r",
+            "source": [
+              "q1"
+            ]
+          },
+          {
+            "name": "I_R_Q2",
+            "measure": "information",
+            "target": "r",
+            "source": [
+              "q2"
+            ]
+          },
+          {
+            "name": "I_R_Q1Q2",
+            "measure": "information",
+            "target": "r",
+            "source": [
+              "q1",
+              "q2"
+            ]
+          }
+        ]
+      },
+      "dimensions": [
+        {
+          "id": "information",
+          "initial": "ACTIVE",
+          "unit": "bits in finite table only"
+        },
+        {
+          "id": "opportunity",
+          "initial": "ACTIVE",
+          "unit": "state-relative admissibility"
+        }
+      ],
+      "public": {
+        "reference": "CE-SOCIAL-WORK",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [],
+      "activation_events": []
+    },
+    {
+      "case_id": "FINITE-XOR-DEPENDENT",
+      "family": "finite_information",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "CE-SOCIAL-WORK"
+      ],
+      "question": "Finite question: finite_information/FINITE-XOR-DEPENDENT",
+      "horizon": "one declared transition",
+      "operator": "finite_information",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "worlds": [
+          {
+            "q1": 0,
+            "q2": 0
+          },
+          {
+            "q1": 1,
+            "q2": 1
+          }
+        ],
+        "derived": {
+          "r": {
+            "operator": "xor",
+            "fields": [
+              "q1",
+              "q2"
+            ]
+          }
+        },
+        "queries": [
+          {
+            "name": "I_R_Q1",
+            "measure": "information",
+            "target": "r",
+            "source": [
+              "q1"
+            ]
+          },
+          {
+            "name": "I_R_Q2",
+            "measure": "information",
+            "target": "r",
+            "source": [
+              "q2"
+            ]
+          },
+          {
+            "name": "I_R_Q1Q2",
+            "measure": "information",
+            "target": "r",
+            "source": [
+              "q1",
+              "q2"
+            ]
+          }
+        ]
+      },
+      "dimensions": [
+        {
+          "id": "information",
+          "initial": "ACTIVE",
+          "unit": "bits in finite table only"
+        },
+        {
+          "id": "opportunity",
+          "initial": "ACTIVE",
+          "unit": "state-relative admissibility"
+        }
+      ],
+      "public": {
+        "reference": "CE-SOCIAL-WORK",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [],
+      "activation_events": []
+    },
+    {
+      "case_id": "IQ03-GAP-GROWS",
+      "family": "IQ03_efficiency_gap",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "CE-NOTES",
+        "S1-P0205"
+      ],
+      "question": "Finite question: IQ03_efficiency_gap/IQ03-GAP-GROWS",
+      "horizon": "one declared transition",
+      "operator": "period_efficiency",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "periods": [
+          {
+            "current": {
+              "service": 100,
+              "resource": 100
+            },
+            "alternative": {
+              "service": 100,
+              "resource": 80
+            }
+          },
+          {
+            "current": {
+              "service": 140,
+              "resource": 110
+            },
+            "alternative": {
+              "service": 140,
+              "resource": 65
+            }
+          }
+        ]
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "resource or distance units"
+        },
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        }
+      ],
+      "public": {
+        "reference": "CE-NOTES, S1-P0205",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "t0_same_service",
+          "category": "material",
+          "test": {
+            "path": [
+              "periods",
+              0,
+              "service_equal"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        },
+        {
+          "id": "t1_same_service",
+          "category": "material",
+          "test": {
+            "path": [
+              "periods",
+              1,
+              "service_equal"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "IQ03-SERVICE-NOT-EQUIVALENT",
+      "family": "IQ03_efficiency_gap",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "CE-NOTES"
+      ],
+      "question": "Finite question: IQ03_efficiency_gap/IQ03-SERVICE-NOT-EQUIVALENT",
+      "horizon": "one declared transition",
+      "operator": "period_efficiency",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "periods": [
+          {
+            "current": {
+              "service": 100,
+              "resource": 100
+            },
+            "alternative": {
+              "service": 100,
+              "resource": 80
+            }
+          },
+          {
+            "current": {
+              "service": 140,
+              "resource": 110
+            },
+            "alternative": {
+              "service": 130,
+              "resource": 65
+            }
+          }
+        ]
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "resource or distance units"
+        },
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        }
+      ],
+      "public": {
+        "reference": "CE-NOTES",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "t1_same_service",
+          "category": "evidence",
+          "test": {
+            "path": [
+              "periods",
+              1,
+              "service_equal"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "declared same-service comparability contract"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "IQ03-GAP-NOT-GROWING",
+      "family": "IQ03_efficiency_gap",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "CE-NOTES"
+      ],
+      "question": "Finite question: IQ03_efficiency_gap/IQ03-GAP-NOT-GROWING",
+      "horizon": "one declared transition",
+      "operator": "period_efficiency",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "periods": [
+          {
+            "current": {
+              "service": 100,
+              "resource": 100
+            },
+            "alternative": {
+              "service": 100,
+              "resource": 80
+            }
+          },
+          {
+            "current": {
+              "service": 140,
+              "resource": 110
+            },
+            "alternative": {
+              "service": 140,
+              "resource": 90
+            }
+          }
+        ]
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "resource or distance units"
+        },
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        }
+      ],
+      "public": {
+        "reference": "CE-NOTES",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "t1_same_service",
+          "category": "material",
+          "test": {
+            "path": [
+              "periods",
+              1,
+              "service_equal"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "MINISTRIES-700-TO-2-UNVERIFIED",
+      "family": "ministries_applications",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0104",
+        "S1-P0153"
+      ],
+      "question": "Finite question: ministries_applications/MINISTRIES-700-TO-2-UNVERIFIED",
+      "horizon": "one declared transition",
+      "operator": "period_efficiency",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "periods": [
+          {
+            "current": {
+              "service": 100,
+              "resource": 700
+            },
+            "alternative": {
+              "service": 100,
+              "resource": 2
+            }
+          }
+        ]
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "resource or distance units"
+        },
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0104, S1-P0153",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "same_declared_service",
+          "category": "material",
+          "test": {
+            "path": [
+              "periods",
+              0,
+              "service_equal"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        },
+        {
+          "id": "quality_continuity",
+          "category": "evidence",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        },
+        {
+          "id": "workers_transition",
+          "category": "coordination",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        },
+        {
+          "id": "authority",
+          "category": "authority",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        },
+        {
+          "id": "rights",
+          "category": "rights",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "MINISTRIES-700-TO-2-SYNTHETIC",
+      "family": "ministries_applications",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0104",
+        "S1-P0153"
+      ],
+      "question": "Finite question: ministries_applications/MINISTRIES-700-TO-2-SYNTHETIC",
+      "horizon": "one declared transition",
+      "operator": "period_efficiency",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "periods": [
+          {
+            "current": {
+              "service": 100,
+              "resource": 700
+            },
+            "alternative": {
+              "service": 100,
+              "resource": 2
+            }
+          }
+        ]
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "resource or distance units"
+        },
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0104, S1-P0153",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "same_declared_service",
+          "category": "material",
+          "test": {
+            "path": [
+              "periods",
+              0,
+              "service_equal"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        },
+        {
+          "id": "quality_continuity",
+          "category": "evidence",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "workers_transition",
+          "category": "coordination",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "authority",
+          "category": "authority",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "rights",
+          "category": "rights",
+          "satisfied": true,
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "MINISTRIES-BROKEN-SERVICE",
+      "family": "ministries_applications",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "S1-P0104"
+      ],
+      "question": "Finite question: ministries_applications/MINISTRIES-BROKEN-SERVICE",
+      "horizon": "one declared transition",
+      "operator": "period_efficiency",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "periods": [
+          {
+            "current": {
+              "service": 100,
+              "resource": 700
+            },
+            "alternative": {
+              "service": 90,
+              "resource": 2
+            }
+          }
+        ]
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "resource or distance units"
+        },
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        }
+      ],
+      "public": {
+        "reference": "S1-P0104",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "same_service",
+          "category": "evidence",
+          "test": {
+            "path": [
+              "periods",
+              0,
+              "service_equal"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "declared same-service comparability contract"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "ORANGES-WITHOUT-QUANTITY",
+      "family": "oranges",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "ACC-EXAMPLES"
+      ],
+      "question": "Finite question: oranges/ORANGES-WITHOUT-QUANTITY",
+      "horizon": "one declared transition",
+      "operator": "material_flow",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "resource": "orange",
+        "available": "UNKNOWN",
+        "allocations": [
+          {
+            "actor": "recipient",
+            "amount": 1
+          }
+        ],
+        "remainder": "retained"
+      },
+      "dimensions": [
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        }
+      ],
+      "public": {
+        "reference": "ACC-EXAMPLES",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "food_safety",
+          "category": "safety",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        },
+        {
+          "id": "harvest_rights",
+          "category": "rights",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        },
+        {
+          "id": "route",
+          "category": "coordination",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "ORANGES-SIMULATED-RECOVERY",
+      "family": "oranges",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "ACC-EXAMPLES"
+      ],
+      "question": "Finite question: oranges/ORANGES-SIMULATED-RECOVERY",
+      "horizon": "one declared transition",
+      "operator": "material_flow",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "resource": "orange",
+        "available": 4,
+        "allocations": [
+          {
+            "actor": "recipient",
+            "amount": 2
+          }
+        ],
+        "remainder": "retained"
+      },
+      "dimensions": [
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        }
+      ],
+      "public": {
+        "reference": "ACC-EXAMPLES",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "food_safety",
+          "category": "safety",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "harvest_rights",
+          "category": "rights",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "route",
+          "category": "coordination",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "material_conserved",
+          "category": "material",
+          "test": {
+            "path": [
+              "conserved"
+            ],
+            "op": "eq",
+            "value": true
+          },
+          "owner": "finite physical simulator"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "ORANGES-UNSAFE",
+      "family": "oranges",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "ACC-EXAMPLES"
+      ],
+      "question": "Finite question: oranges/ORANGES-UNSAFE",
+      "horizon": "one declared transition",
+      "operator": "material_flow",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "resource": "orange",
+        "available": 4,
+        "allocations": [
+          {
+            "actor": "recipient",
+            "amount": 2
+          }
+        ],
+        "remainder": "retained"
+      },
+      "dimensions": [
+        {
+          "id": "distribution",
+          "initial": "IMPLICIT",
+          "unit": "participant allocation"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        }
+      ],
+      "public": {
+        "reference": "ACC-EXAMPLES",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "food_safety",
+          "category": "safety",
+          "satisfied": false,
+          "owner": "case participants"
+        },
+        {
+          "id": "harvest_rights",
+          "category": "rights",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "route",
+          "category": "coordination",
+          "satisfied": true,
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "EDUCATION-ALGEBRA-ONLY",
+      "family": "education",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "CE-CAPACITY"
+      ],
+      "question": "Finite question: education/EDUCATION-ALGEBRA-ONLY",
+      "horizon": "one declared transition",
+      "operator": "gate_only",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "candidate_passes_algebra": true,
+        "full_learning_effect": "UNKNOWN"
+      },
+      "dimensions": [
+        {
+          "id": "capability",
+          "initial": "ACTIVE",
+          "unit": "effective practice capacity"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "opportunity",
+          "initial": "ACTIVE",
+          "unit": "state-relative admissibility"
+        }
+      ],
+      "public": {
+        "reference": "CE-CAPACITY",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "child_protection",
+          "category": "safety",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        },
+        {
+          "id": "transfer_of_learning",
+          "category": "evidence",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        },
+        {
+          "id": "accessibility",
+          "category": "rights",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        },
+        {
+          "id": "learning_quality",
+          "category": "evidence",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "EDUCATION-ASSUMED-SEATS",
+      "family": "education",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "CE-CAPACITY"
+      ],
+      "question": "Finite question: education/EDUCATION-ASSUMED-SEATS",
+      "horizon": "one declared transition",
+      "operator": "capacity",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "capacity": 10,
+        "requests": [
+          8
+        ]
+      },
+      "dimensions": [
+        {
+          "id": "capability",
+          "initial": "ACTIVE",
+          "unit": "effective practice capacity"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "opportunity",
+          "initial": "ACTIVE",
+          "unit": "state-relative admissibility"
+        }
+      ],
+      "public": {
+        "reference": "CE-CAPACITY",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "child_protection",
+          "category": "safety",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "transfer_of_learning",
+          "category": "evidence",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "accessibility",
+          "category": "rights",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "learning_quality",
+          "category": "evidence",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "seats_available",
+          "category": "material",
+          "test": {
+            "path": [
+              "shortfall"
+            ],
+            "op": "eq",
+            "value": 0
+          },
+          "owner": "finite physical simulator"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "CRAFT-ARTIFACTS-ONLY",
+      "family": "craft_transmission",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "CE-CORRESPONDENCE"
+      ],
+      "question": "Finite question: craft_transmission/CRAFT-ARTIFACTS-ONLY",
+      "horizon": "one declared transition",
+      "operator": "capability",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "artifacts": 1,
+        "mentors": "UNKNOWN",
+        "apprentices": "UNKNOWN",
+        "practice_possible": "UNKNOWN"
+      },
+      "dimensions": [
+        {
+          "id": "capability",
+          "initial": "ACTIVE",
+          "unit": "effective practice capacity"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        }
+      ],
+      "public": {
+        "reference": "CE-CORRESPONDENCE",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "cultural_permissions",
+          "category": "rights",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "CRAFT-WITH-PRACTICE",
+      "family": "craft_transmission",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "CE-CORRESPONDENCE"
+      ],
+      "question": "Finite question: craft_transmission/CRAFT-WITH-PRACTICE",
+      "horizon": "one declared transition",
+      "operator": "capability",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "artifacts": 1,
+        "mentors": 2,
+        "apprentices": 3,
+        "practice_possible": true
+      },
+      "dimensions": [
+        {
+          "id": "capability",
+          "initial": "ACTIVE",
+          "unit": "effective practice capacity"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        }
+      ],
+      "public": {
+        "reference": "CE-CORRESPONDENCE",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "cultural_permissions",
+          "category": "rights",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "living_transmission",
+          "category": "material",
+          "test": {
+            "path": [
+              "effective_transmission_capacity"
+            ],
+            "op": "gt",
+            "value": 0
+          },
+          "owner": "finite physical simulator"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "CRAFT-NO-TEACHER",
+      "family": "craft_transmission",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "CE-CORRESPONDENCE"
+      ],
+      "question": "Finite question: craft_transmission/CRAFT-NO-TEACHER",
+      "horizon": "one declared transition",
+      "operator": "capability",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "artifacts": 1,
+        "mentors": 0,
+        "apprentices": 3,
+        "practice_possible": true
+      },
+      "dimensions": [
+        {
+          "id": "capability",
+          "initial": "ACTIVE",
+          "unit": "effective practice capacity"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "required operations and rights"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        }
+      ],
+      "public": {
+        "reference": "CE-CORRESPONDENCE",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "cultural_permissions",
+          "category": "rights",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "living_transmission",
+          "category": "material",
+          "test": {
+            "path": [
+              "effective_transmission_capacity"
+            ],
+            "op": "gt",
+            "value": 0
+          },
+          "owner": "finite physical simulator"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "LYCEE-GOAL-UNOBSERVED",
+      "family": "lycee",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "CE-CAPACITY"
+      ],
+      "question": "Finite question: lycee/LYCEE-GOAL-UNOBSERVED",
+      "horizon": "one declared transition",
+      "operator": "gate_only",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "person_goal": "UNKNOWN",
+        "observed_distress": "UNKNOWN"
+      },
+      "dimensions": [
+        {
+          "id": "capability",
+          "initial": "ACTIVE",
+          "unit": "effective practice capacity"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        },
+        {
+          "id": "opportunity",
+          "initial": "ACTIVE",
+          "unit": "state-relative admissibility"
+        }
+      ],
+      "public": {
+        "reference": "CE-CAPACITY",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "person_endorses_goal",
+          "category": "consent",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        },
+        {
+          "id": "resources",
+          "category": "material",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        },
+        {
+          "id": "educational_access",
+          "category": "rights",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "LYCEE-SYNTHETIC-ACCESS",
+      "family": "lycee",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "CE-CAPACITY"
+      ],
+      "question": "Finite question: lycee/LYCEE-SYNTHETIC-ACCESS",
+      "horizon": "one declared transition",
+      "operator": "capacity",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "capacity": 5,
+        "requests": [
+          1
+        ]
+      },
+      "dimensions": [
+        {
+          "id": "capability",
+          "initial": "ACTIVE",
+          "unit": "effective practice capacity"
+        },
+        {
+          "id": "rights",
+          "initial": "ACTIVE",
+          "unit": "nonfungible condition"
+        },
+        {
+          "id": "welfare",
+          "initial": "IMPLICIT",
+          "unit": "declared B-F toy units, not observed distress"
+        },
+        {
+          "id": "opportunity",
+          "initial": "ACTIVE",
+          "unit": "state-relative admissibility"
+        }
+      ],
+      "public": {
+        "reference": "CE-CAPACITY",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "person_endorses_goal",
+          "category": "consent",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "educational_access",
+          "category": "rights",
+          "satisfied": true,
+          "owner": "case participants"
+        },
+        {
+          "id": "study_capacity",
+          "category": "material",
+          "test": {
+            "path": [
+              "shortfall"
+            ],
+            "op": "eq",
+            "value": 0
+          },
+          "owner": "finite physical simulator"
+        }
+      ],
+      "activation_events": []
+    },
+    {
+      "case_id": "REPEATED-SOURCE-NOT-INDEPENDENT",
+      "family": "source_provenance",
+      "model": "SOCIAL_FINITE",
+      "source_refs": [
+        "AG-D01"
+      ],
+      "question": "Finite question: source_provenance/REPEATED-SOURCE-NOT-INDEPENDENT",
+      "horizon": "one declared transition",
+      "operator": "provenance",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "inputs": {
+        "source_ids": [
+          "archive-A",
+          "archive-A",
+          "archive-B"
+        ]
+      },
+      "dimensions": [
+        {
+          "id": "evidence",
+          "initial": "ACTIVE",
+          "unit": "source qualification scope"
+        },
+        {
+          "id": "opportunity",
+          "initial": "ACTIVE",
+          "unit": "state-relative admissibility"
+        }
+      ],
+      "public": {
+        "reference": "AG-D01",
+        "state": "DECLARED_SYNTHETIC"
+      },
+      "constraints": [
+        {
+          "id": "independent_corroboration",
+          "category": "evidence",
+          "satisfied": "UNKNOWN",
+          "owner": "case participants"
+        }
+      ],
+      "activation_events": []
+    }
+  ]
+}
