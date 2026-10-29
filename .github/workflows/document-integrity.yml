@@ -94,3 +94,19 @@ jobs:
           python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1/tests -p test_uc21_dds_bridge.py -v
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1/uc21_dds_bridge.py research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1/examples/uc21_s4_synthetic_defender.json --output /tmp/uc21_dds_synthetic_result.json
           python -B -c "import json; d=json.load(open('/tmp/uc21_dds_synthetic_result.json')); assert d['selected_intervention_prediction']=='SYNTHETIC_DEFENCE_NOT_EMPIRICAL_FALSIFICATION'; assert d['case_results'][2]['admitted_branch_defence']; assert d['uc21_hr_existential_six_case_conclusion']=='NOT_REFUTED_OR_PROVED_BY_NONEXHAUSTIVE_RUNS'; assert d['economic_projection']['mode']=='formulas'"
+
+      - name: Check source-anchored ACC original examples, dimensions, rights and reachability
+        run: |
+          cp research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/cases.json /tmp/acc_narrative_frozen_cases.json
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/build_fixtures.py
+          cmp research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/cases.json /tmp/acc_narrative_frozen_cases.json
+          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1 -p test_engine.py -v
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/engine.py --manifest research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/cases.json --output /tmp/acc_original_narrative_results.json
+          python -B -c "import json; from pathlib import Path; p=Path('research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/REFERENCE_RESULTS.json'); assert json.loads(p.read_text(encoding='utf-8'))==json.loads(Path('/tmp/acc_original_narrative_results.json').read_text(encoding='utf-8'))"
+
+      - name: Publish original ACC narrative acceptance traces (synthetic only)
+        uses: actions/upload-artifact@v4
+        with:
+          name: acc-original-examples-narrative-acceptance
+          path: /tmp/acc_original_narrative_results.json
+          if-no-files-found: error
