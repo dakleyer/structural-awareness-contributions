@@ -76,7 +76,7 @@ Las 61 pruebas abarcan los 49 controles previos y doce casos adicionales. Los re
 
 ### Archivos y ejecución
 
-- [ORIGINAL_EXPERIMENTS.json](ORIGINAL_EXPERIMENTS.json): **40 pruebas sociales finitas**, basadas en el libro de ejemplos y párrafos del corpus, con variaciones materiales y negativas; datos de escenario etiquetados como sintéticos.
+- [ORIGINAL_EXPERIMENTS.json](ORIGINAL_EXPERIMENTS.json): **40 casos ilustrativos sintéticos con operadores finitos**, basadas en el libro de ejemplos y párrafos del corpus, con variaciones materiales y negativas; datos de escenario etiquetados como sintéticos.
 - [dimension_experiment.py](dimension_experiment.py): operadores de flujo conservativo, capacidad, reparto, distancia física, elección no monótona, transmisión de oficio, eficiencia por servicio, procedencia e información discreta calculada desde filas. Interfaz pública de planificación sin entradas privadas, evaluación de restricciones sobre resultados computados, dimensiones explícitas/latentes/abiertas, SHA-256 por caso y registro de operadores externos.
 - [NATIVE_EXPERIMENTS.json](NATIVE_EXPERIMENTS.json): tres mundos del modelo social original PR #44 y las **30** fichas nativas del modelo agéntico PR #57.
 - [native_experiment_adapters.py](native_experiment_adapters.py): dos operadores que **invocan el código fuente sin alterar** de `intrinsic_abcd.py` y `agentic_reduction.py`. La planificación pública y el oráculo privado permanecen en fases distintas. Resultados etiquetados y agrupados por modelo, nunca sumados entre ellos.
@@ -106,3 +106,20 @@ El registro histórico `CASE_REGISTRY.json` (60 casos) y `REFERENCE_SYNTHETIC_RE
 Para un nuevo dominio, aportar un caso con pregunta y horizonte acotados, unidades, fuente, dimensiones iniciales y eventos; registrar un operador que acepte entradas declaradas y devuelva `PhysicalOutcome(status,observations,issues)`. Los controles se aplican al resultado, no a un veredicto preescrito. Para un nuevo modelo nativo, escribir un adaptador análogo que exponga su salida conservando la separación información pública/oráculo privado; no mezclar magnitudes heterogéneas bajo un único ranking.
 
 **Estatus de prueba:** ejecución en un laboratorio finito, con rutas hipotéticas declaradas, controles negativos y procedencia. La admisibilidad condicional de un escenario no se convierte en consentimiento, seguridad o acuerdo histórico verificados.
+
+
+### L-07 — condiciones declaradas frente a restricciones calculadas (29-10-2026)
+
+Una **representación ejecutable** no convierte automáticamente un consentimiento declarado en evidencia empírica. Por ello se modifica la descripción de «40 pruebas sociales» a **40 casos ilustrativos sintéticos**, y se añade al ejecutor `run_original_experiments.py` el registro `social_constraint_evidence_origin`, sin modificar ni los operadores ni las decisiones.
+
+En los 40 casos de este corte hay **100 comprobaciones:** **74 condiciones declaradas** por el escenario (admisión, derechos, consentimiento, autoridad, coordinación, etc.) y **26 condiciones comprobadas mediante resultados físicos calculados**. Bajo las hipótesis del toy, **18 casos son elegibles** y **22 no son elegibles o siguen indeterminados**. Estas cifras son del fixture, no tasas de la realidad.
+
+Para cada caso se muestran por separado:
+
+- `physical_status` y el resultado de `admission`;
+- cada condición bloqueante o desconocida con su **origen: declaración / prueba sobre efecto calculado**;
+- `primary_basis`: una agrupación explicativa determinista para facilitar auditoría, con precedencia documentada (imposibilidad física, fallo calculado, fallo declarado, indeterminación declarada, ausencia de evidencia material). **No es una imputación causal al mundo real**. Si concurren varias barreras, todas continúan en `unresolved_or_failed_conditions`.
+
+Así, el exceso 7+4 sobre capacidad10 es una **imposibilidad física calculada**; el rechazo hipotético de atribución en Cáritas/DANA es un **condicionante declarado**. Ningún motor deduce consentimiento, autoridad o la felicidad humana de cantidades materiales. Los tres tests añadidos verifican desglose, origen y conservación de la misma clasificación cuando también se ejecutan los 30 casos agénticos, sin acceder a la verdad privada de sus planificadores.
+
+Hallazgo origen: [auditoría #58, L-07](https://github.com/dakleyer/structural-awareness-contributions/pull/58). Estado: respuesta técnica propuesta para validación independiente; no se declara cerrado antes de la adjudicación.
