@@ -268,9 +268,15 @@
           },
           "guards": [
             {
-              "id": "hypothetical_donor_refuses",
-              "status": "FAIL",
+              "id": "hypothetical_donor_consent_to_delivery",
+              "status": "PASS",
               "category": "consent",
+              "source_of_status": "CONDITIONAL_SOURCE_TOY_DIRECT_GAIN_NOT_REAL_PERSON"
+            },
+            {
+              "id": "relative_attribution_objection",
+              "status": "FAIL",
+              "category": "recognition",
               "source_of_status": "AUTHOR_PREFERENCE_TOY_NOT_CARITAS_CONDUCT"
             }
           ],
@@ -290,9 +296,15 @@
           },
           "guards": [
             {
-              "id": "hypothetical_donor_accepts",
+              "id": "donor_consents_to_delivery",
               "status": "PASS",
               "category": "consent",
+              "source_of_status": "INVENTED_POSITIVE_CONTROL_NOT_OBSERVED"
+            },
+            {
+              "id": "relative_attribution_accepted",
+              "status": "PASS",
+              "category": "recognition",
               "source_of_status": "INVENTED_POSITIVE_CONTROL_NOT_OBSERVED"
             }
           ],
@@ -559,9 +571,15 @@
           "delta": {},
           "guards": [
             {
-              "id": "viernes_declines_relative_gain",
-              "status": "FAIL",
+              "id": "both_approve_physical_distribution",
+              "status": "PASS",
               "category": "consent",
+              "source_of_status": "CONDITIONAL_TREATMENT_OF_DIRECT_MATERIAL_GAINS"
+            },
+            {
+              "id": "viernes_rejects_relative_gain",
+              "status": "FAIL",
+              "category": "recognition",
               "source_of_status": "AUTHOR_HYPOTHETICAL_PREFERENCE"
             }
           ],
