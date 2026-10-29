@@ -406,5 +406,41 @@ class ManifestAndRunCoverage(unittest.TestCase):
                               if a["arm"] == "SOURCE_PUBLIC_RECEIVER"),
                          "B_INFO_BEYOND_BUDGET")
 
+
+class L04ReceiverRoleRegression(unittest.TestCase):
+    def test_receiver_must_not_compete_against_its_own_selected_policy(self):
+        root = next(p for p in HERE.parents if (p / ".github/workflows/document-integrity.yml").exists())
+        m = json.loads((HERE / "ECONOMIC_SWEEP_MANIFEST.json").read_text("utf-8"))
+        m["social"]["sizes"] = [16, 128, 256]
+        m["social"]["roots"] = [{"id": "free", "slack": None}]
+        m["social"]["accesses"] = ["full"]
+        m["social"]["prices"] = [{"id": "original", "costs": {}}]
+        outcome = execute(m, root, model="social", details=True)
+        model = "ACC_SOCIAL_INTRINSIC_44"
+        only_policies = outcome["summary"]["groups"][model]
+        with_receiver = outcome["summary_including_receiver_legacy"]["groups"][model]
+        self.assertEqual(outcome["ranking_contract"],
+            "POLICIES_COMPETE; SOURCE_RECEIVER_IS_A_DECISION_LAYER_NOT_A_COMPETITOR")
+        self.assertEqual(only_policies["cases"], 3)
+        self.assertEqual(only_policies["strict_wins"]["B_QUALIFIED"], 1)
+        self.assertEqual(only_policies["strict_wins"]["TARGETED_EXPLORATION_OF_A"], 1)
+        self.assertNotIn("SOURCE_PUBLIC_RECEIVER", only_policies["leaders_including_ties"])
+        self.assertEqual(with_receiver["strict_wins"].get("B_QUALIFIED", 0), 0)
+        self.assertEqual(len(outcome["source_public_receiver_diagnostics"]), 3)
+        for row in outcome["source_public_receiver_diagnostics"]:
+            self.assertEqual(row["source"], "intrinsic_abcd.receiver_decision")
+            self.assertIsNotNone(row["source_decision_rule"])
+        for case in outcome["cases"]:
+            self.assertIn("SOURCE_PUBLIC_RECEIVER", {a["arm"] for a in case["arms"]})
+
+    def test_agentic_summary_has_no_duplicated_receiver_layer(self):
+        root = next(p for p in HERE.parents if (p / ".github/workflows/document-integrity.yml").exists())
+        m = json.loads((HERE / "ECONOMIC_SWEEP_MANIFEST.json").read_text("utf-8"))
+        m["agentic"]["case_ids"] = ["AG01-QUALIFIED-NEAR-OPTIMUM"]
+        m["agentic"]["prices"] = [{"id": "source-original", "changes": {}}]
+        out = execute(m, root, model="agentic")
+        self.assertEqual(out["summary"], out["summary_including_receiver_legacy"])
+        self.assertEqual(out["source_public_receiver_diagnostics"], [])
+
 if __name__ == "__main__":
     unittest.main()
