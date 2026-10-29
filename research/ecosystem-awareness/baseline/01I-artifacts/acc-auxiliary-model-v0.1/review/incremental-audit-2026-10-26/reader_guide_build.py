@@ -122,10 +122,10 @@ LEDGER = [
     ("K-08", "K", "—", "PROPUESTA", 17, "#46 ya tiene la elección racional bajo riesgo que pedía H-01: se puede reutilizar para el juego de coordinación."),
     ("L-01", "L", "Baja", "ABIERTO", 23, "#60: una cota de utilidad finita mayor que 1 todavía certifica ganancia, aunque la puntuación está acotada en [0, 1]."),
     ("L-02", "L", "Media", "RESPONDIDO", 24, "#60: la caducidad de requalify admitía NaN y fallaba si faltaba el campo. El nuevo contrato rechaza esos valores; falta incorporarlo a main."),
-    ("L-04", "L", "Baja", "ABIERTO", 24, "#66: el resumen cuenta 0 victorias de B porque el brazo del receptor copia la opción elegida; sin ese brazo, B gana 10 de 42."),
+    ("L-04", "L", "Baja", "RESPONDIDO", 27, "#66: el resumen contaba 0 victorias de B porque el brazo del receptor copiaba la opción elegida. Ahora el receptor es una capa aparte y B gana 10; falta incorporarlo a main."),
     ("L-05", "L", "Informativo", "VERIFICADO", 24, "#66 confirma F-04 en los 30 casos de #57: la inspección dirigida lidera sola 14; el metaprotocolo, ninguno."),
     ("L-06", "L", "Informativo", "VERIFICADO", 24, "El desarrollo DG1–DG4 se reproduce: 15 pruebas y las cifras 240/480/904/56/48."),
-    ("L-07", "L", "Baja", "ABIERTO", 26, "#68: 17 de los 22 veredictos negativos de los 40 casos sociales los fija una puerta declarada; llamarlos «pruebas» sobreafirma."),
+    ("L-07", "L", "Baja", "RESPONDIDO", 27, "#68: 17 de los 22 veredictos negativos los fija una puerta declarada. El texto dice ahora «casos ilustrativos» y el ejecutor publica el reparto; falta incorporarlo a main."),
     ("L-03", "L", "Informativo", "VERIFICADO", 23, "#60: los testigos F1/D1 (10 frente a 8; 11,5 frente a 8,875 con el mismo A) se reproducen desde el código de origen."),
 ]
 
@@ -141,7 +141,7 @@ FAMILIES = (
     ("M28-O", "Líneas de desarrollo (28 oct)"),
     ("J", "Forma del expediente (ronda 14)"),
     ("K", "Modelo social #44–#46 (ronda 17)"),
-    ("L", "Recepciones (rondas 23–26)"),
+    ("L", "Recepciones (rondas 23–27)"),
 )
 
 # Same defect under several names (aliases across audits)
@@ -276,7 +276,7 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"),
 ]
 
 

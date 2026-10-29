@@ -37,7 +37,7 @@
   > - Las pruebas finitas revisadas establecen resultados concretos bajo sus hipótesis: una representación puede conservar una distinción necesaria para decidir; información compatible puede sostener una conclusión local útil; una guarda probada puede ahorrar comprobaciones en su dominio y balance de costes.
   > - Los fixtures también comprueban reproducción y sensibilidad bajo entradas o procedimientos suministrados. Esos resultados conservan su valor; para estudiar adquisición, selección o adaptación se necesita el proceso correspondiente y su evidencia.
   > - El fallo numérico I-01 y sus ampliaciones están corregidos y reconfirmados. La guarda de dominio M28-02 ya se corrigió y reconfirmó en la rama de #60; su incorporación sigue pendiente.
-- **Dónde estamos.** La auditoría tiene 78 registros sobre el contenido y 8 sobre la forma del propio expediente: 86 en total. De ellos, 38 siguen abiertos, 21 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 15 son propuestas de mejora, aclaraciones o puntos retirados.
+- **Dónde estamos.** La auditoría tiene 78 registros sobre el contenido y 8 sobre la forma del propio expediente: 86 en total. De ellos, 36 siguen abiertos, 23 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 15 son propuestas de mejora, aclaraciones o puntos retirados.
 - **Qué no es.** No es una revisión científica humana independiente. Todas las rondas las han escrito asistentes de IA (Claude y Codex), en parte a partir de observaciones de Iván.
 
 ## 2. Quién ha escrito qué
@@ -70,8 +70,8 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 | M27-O y M28-O · Líneas de desarrollo | 0 | 0 | 0 | 7 | 0 | 7 |
 | J · Forma del expediente | 1 | 6 | 1 | 0 | 0 | 8 |
 | K · Modelo social #44–#46 | 1 | 3 | 3 | 1 | 0 | 8 |
-| L · Recepciones (rondas 23–26) | 3 | 1 | 3 | 0 | 0 | 7 |
-| **Total** | **38** | **21** | **12** | **10** | **5** | **86** |
+| L · Recepciones (rondas 23–27) | 1 | 3 | 3 | 0 | 0 | 7 |
+| **Total** | **36** | **23** | **12** | **10** | **5** | **86** |
 
 **Qué significa cada estado:**
 
@@ -272,6 +272,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 24 | 28 oct | Claude | Recepción de M28-04 (#60), K-02 (#65), K-01 (#66) y DG1–DG4: cuatro registros respondidos, L-04 nuevo, L-05 y L-06 verificados | [ronda 24](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-24) |
 | 25 | 28 oct | Claude | Recepción de K-03 (#67): refactorización equivalente, K-03 respondido | [ronda 25](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-25) |
 | 26 | 29 oct | Claude | Recepción de G-03 (#68): cálculos derivados de los mundos, G-03 respondido, L-07 nuevo | [ronda 26](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-26) |
+| 27 | 29 oct | Claude | Recepción de L-04 (#66) y L-07 (#68): ambos reproducidos y respondidos; #69 recibido, pendiente de auditar | [ronda 27](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-27) |
 
 <a id="11-los-79-registros-uno-por-uno"></a>
 <a id="11-los-82-registros-uno-por-uno"></a>
@@ -439,16 +440,16 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 
 </details>
 
-<details><summary><b>L · Recepciones (rondas 23–26)</b> — 7 registros, 3 abiertos</summary>
+<details><summary><b>L · Recepciones (rondas 23–27)</b> — 7 registros, 1 abiertos</summary>
 
 | ID | Estado | Gravedad | En pocas palabras | Ronda que fijó el estado |
 |---|---|---|---|---|
 | [L-01](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-01) | 🔵 Abierto | Baja | #60: una cota de utilidad finita mayor que 1 todavía certifica ganancia, aunque la puntuación está acotada en [0, 1]. | 23 |
 | [L-02](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-02) | 🟠 Respondido | Media | #60: la caducidad de requalify admitía NaN y fallaba si faltaba el campo. El nuevo contrato rechaza esos valores; falta incorporarlo a main. | 24 |
-| [L-04](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-04) | 🔵 Abierto | Baja | #66: el resumen cuenta 0 victorias de B porque el brazo del receptor copia la opción elegida; sin ese brazo, B gana 10 de 42. | 24 |
+| [L-04](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-04) | 🟠 Respondido | Baja | #66: el resumen contaba 0 victorias de B porque el brazo del receptor copiaba la opción elegida. Ahora el receptor es una capa aparte y B gana 10; falta incorporarlo a main. | 27 |
 | [L-05](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-05) | 🟢 Verificado | Informativo | #66 confirma F-04 en los 30 casos de #57: la inspección dirigida lidera sola 14; el metaprotocolo, ninguno. | 24 |
 | [L-06](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-06) | 🟢 Verificado | Informativo | El desarrollo DG1–DG4 se reproduce: 15 pruebas y las cifras 240/480/904/56/48. | 24 |
-| [L-07](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-07) | 🔵 Abierto | Baja | #68: 17 de los 22 veredictos negativos de los 40 casos sociales los fija una puerta declarada; llamarlos «pruebas» sobreafirma. | 26 |
+| [L-07](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-07) | 🟠 Respondido | Baja | #68: 17 de los 22 veredictos negativos los fija una puerta declarada. El texto dice ahora «casos ilustrativos» y el ejecutor publica el reparto; falta incorporarlo a main. | 27 |
 | [L-03](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-03) | 🟢 Verificado | Informativo | #60: los testigos F1/D1 (10 frente a 8; 11,5 frente a 8,875 con el mismo A) se reproducen desde el código de origen. | 23 |
 
 </details>

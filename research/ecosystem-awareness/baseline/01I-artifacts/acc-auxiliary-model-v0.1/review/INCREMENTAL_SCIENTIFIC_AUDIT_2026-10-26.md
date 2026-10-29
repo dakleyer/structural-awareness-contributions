@@ -56,6 +56,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 24 | 2026-10-28 | [Recepción de M28-04 (#60), K-02 (#65), K-01 (#66), DG1–DG4 y oportunidades de EP](#ronda-24) | M28-04, L-02, K-01 y K-02 respondidos; L-04 nuevo; L-05 y L-06 verificados |
 | 25 | 2026-10-28 | [Recepción de K-03 (PR #67)](#ronda-25) | K-03 respondido; refactorización equivalente en 11 600 comparaciones |
 | 26 | 2026-10-29 | [Recepción de G-03 (PR #68)](#ronda-26) | G-03 respondido; L-07 nuevo |
+| 27 | 2026-10-29 | [Recepción de L-04 (#66) y L-07 (#68); #69 recibido](#ronda-27) | L-04 y L-07 respondidos |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1130,3 +1131,18 @@ Se recibe la lista de seis direcciones con literatura externa. Se comprobó que 
 | <a id="l-07"></a>**L-07** | Baja · `ABIERTO` | **La mayoría de los veredictos negativos de los 40 casos sociales los fija una puerta declarada, no un cálculo.** Hay 100 restricciones: 74 llevan el estado escrito en el caso (`satisfied`) y 26 se calculan sobre el resultado físico. De los 22 casos no elegibles, 17 los decide una puerta declarada (6 bloqueados y 11 indeterminados) y 5 un cálculo (2 bloqueados y 3 materialmente imposibles). Es lo honesto: consentimiento, derechos o autoridad no se pueden calcular. Pero llamar a los 40 «pruebas sociales finitas» repite la sobreafirmación que G-03 señalaba en «doce microexperimentos». | En el README, decir «40 casos ilustrativos» e informar del reparto: 18 elegibles bajo las condiciones declaradas, 5 decididos por cálculo y 17 por puerta declarada. Añadir esos recuentos a la salida del ejecutor. |
 
 **Totales:** 86 registros. 38 abiertos, 21 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-27"></a>
+
+## Ronda 27 — recepción de L-04 (#66) y L-07 (#68); PR #69 recibido (29-10-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** [comentario en PR #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-6496690445), escrito por Codex, asistencia de IA, desde la cuenta del propietario, que pide adjudicar L-04 y L-07 mediante reproducción independiente.
+
+**L-04, PR #66 en `7c9043e0`: reproducido.** El resumen principal (`summary`) ya excluye al receptor de la competición (`ranking_contract: POLICIES_COMPETE; SOURCE_RECEIVER_IS_A_DECISION_LAYER_NOT_A_COMPETITOR`). Da 10 victorias estrictas de B, 30 de la inspección dirigida y 28 de A sola, las mismas cifras que obtuvo de forma independiente `k01_envelope_recount.py` (con los precios originales: B 10, dirigida 2, A 7, 23 empates). El recuento antiguo se conserva como `summary_including_receiver_legacy`, y las decisiones del receptor se publican aparte como diagnóstico. El diagnóstico muestra algo útil: con la inspección dirigida barata, el receptor de #44 sigue eligiendo B (neto 8,25) aunque la mejor política da 9,9, porque su regla es fija. Las huellas de los motores de origen no cambian, las 33 pruebas pasan, el cruce sigue en L = 9 y los recuentos agénticos (L-05) son idénticos. **L-04 pasa a `RESPONDIDO`.**
+
+**L-07, PR #68 en `583590db`: reproducido.** El README dice ahora «40 casos ilustrativos sintéticos con operadores finitos», y el ejecutor publica `social_constraint_evidence_origin`: 74 condiciones declaradas, 26 calculadas, 18 elegibles y 22 no elegibles. Los 22 se reparten en 6 fallos declarados, 11 indeterminaciones declaradas, 3 fallos de efecto calculado y 2 imposibilidades físicas calculadas, exactamente el 17/5 que obtuvo de forma independiente `g03_computed_vs_declared.py`. El campo `primary_basis` advierte que es una agrupación para auditar, no una explicación causal. Las 22 pruebas pasan. Detalle editorial: «40 casos ilustrativos… **basadas**» debería ser «basados». **L-07 pasa a `RESPONDIDO`.**
+
+**PR #69 (`4cd76d96`), recibido pero aún no auditado.** Añade un estudio nuevo, `narrative-acceptance-v0.1`, con 14 secuencias de operaciones, la sensibilidad de IQ-03 y un contraste con #68. No modifica `campaign.py`. Sus 51 pruebas pasan y la CI está en verde. Queda pendiente auditarlo a fondo, y no altera ningún estado del registro.
+
+**Totales:** 86 registros. 36 abiertos, 23 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos. Como en rondas anteriores, nada se cierra hasta que los arreglos estén en `main`.
