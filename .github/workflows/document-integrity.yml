@@ -80,6 +80,22 @@ jobs:
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/run_original_experiments.py --model both --compact > /tmp/acc_original_examples.json
           python -B -c "import json; x=json.load(open('/tmp/acc_original_examples.json')); assert x['case_count']==73; assert sum(v for g in x['admission_by_model'].values() for v in g.values())==73; assert set(x['admission_by_model'])=={'SOCIAL_FINITE','SOCIAL_SOURCE_44','AGENTIC_SOURCE_57'}; assert not x['cross_model_objectives_aggregated']"
 
+      - name: Check G-04 source-native physical factorial and paired FH-C countermodels
+        run: |
+          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1 -p test_g04_factorial.py -v
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/g04_factorial.py --manifest research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/G04_PROTOCOL.json --output /tmp/acc_g04_paired_finite_summary.json
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/g04_factorial.py --include-worlds --output /tmp/acc_g04_paired_finite_private_trace.json
+          python -B -c "import json; r=json.load(open('/tmp/acc_g04_paired_finite_summary.json')); a=json.load(open('/tmp/acc_g04_paired_finite_private_trace.json')); assert r['total_matched_worlds']==1152; assert r['n_regimes']==6; assert len(r['factorial']['legacy_2x2x2'])==8; assert all(len(x['world_records_PRIVATE_FOR_POST_HOC_AUDIT'])==192 for x in a['paired_regimes']); assert all('world_records_PRIVATE_FOR_POST_HOC_AUDIT' not in x for x in r['paired_regimes']); assert r['hypothesis_status'].startswith('FH-C_CAUSAL_PRIORITY_NOT_PROVEN'); assert {x['bounded_FH_C_direction'] for x in r['paired_regimes']}=={x['bounded_FH_C_direction'] for x in a['paired_regimes']}"
+
+      - name: Publish G-04 synthetic experimental summary and private referee audit trace
+        uses: actions/upload-artifact@v4
+        with:
+          name: acc-g04-fh-c-paired-synthetic-audit
+          path: |
+            /tmp/acc_g04_paired_finite_summary.json
+            /tmp/acc_g04_paired_finite_private_trace.json
+          if-no-files-found: error
+
       - name: Publish original-example cross-model execution report
         uses: actions/upload-artifact@v4
         with:
