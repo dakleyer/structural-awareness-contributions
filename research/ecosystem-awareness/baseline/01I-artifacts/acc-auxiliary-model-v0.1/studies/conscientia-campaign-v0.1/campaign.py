@@ -15,6 +15,8 @@ import subprocess
 import sys
 import tempfile
 
+from dimension_experiment import run_case, conditional_entropy, conditional_information
+
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]  # caller should use full repo paths from HERE.parent
 STUDIES = HERE.parent
@@ -225,8 +227,10 @@ def network_gap() -> list[dict]:
 def finite_information() -> dict:
     # The only entropy here is for an EXPLICIT finite, equiprobable model.
     worlds=[{"a":"READY","b":0,"r":0},{"a":"READY","b":1,"r":1}]
-    def entropy(p):return -sum(x*math.log2(x) for x in p if x)
-    h_before=entropy([0.5,0.5]);h_after=entropy([1.0,0.0])
+    # These values are derived from the explicitly declared finite worlds.
+    # Changing the worlds changes the result; no hard-coded information bits.
+    h_before=conditional_entropy(worlds,"r",["a"])
+    h_after=conditional_entropy(worlds,"r",["a","b"])
     # For uniform P on m, uniform Q on a strict subset n<m:
     m,n=4,2
     coverage=math.log2(m/n)
@@ -245,17 +249,23 @@ def source_anchored_microexperiments() -> dict:
     never observational findings about people, organisations or markets.
     """
     # IQ-03 (CE-NOTES paragraph under heading): within each period, same service.
-    service_t0, current_r0, valid_alt_r0 = 100, 100, 80
-    service_t1, current_r1, valid_alt_r1 = 140, 110, 65
-    resource_gap_t0 = current_r0 - valid_alt_r0
-    resource_gap_t1 = current_r1 - valid_alt_r1
+    source_experiments=read_json("ORIGINAL_EXPERIMENTS.json")["cases"]
+    source_cases={row["case_id"]:row for row in source_experiments}
+    efficiency=run_case(source_cases["IQ03-GAP-GROWS"])["physical_outcome"]["periods"]
+    service_t0,service_t1=(p["current_service"] for p in efficiency)
+    resource_gap_t0,resource_gap_t1=(p["resource_gap"] for p in efficiency)
 
     # Two bananas, explicitly conditional on feasible route, consent and safety.
-    banana_worlds = {
-        "S0": {"bananas_produced": 0, "consumed_by_holder": 0, "received_by_child": 0, "wasted": 0},
-        "S1": {"bananas_produced": 2, "consumed_by_holder": 1, "received_by_child": 0, "wasted": 1},
-        "S2": {"bananas_produced": 2, "consumed_by_holder": 1, "received_by_child": 1, "wasted": 0},
-    }
+    states={"S0":"BANANA-S0","S1":"BANANA-S1",
+            "S2":"BANANA-S2-ADMITTED-SYNTHETIC"}
+    banana_worlds={}
+    for state,cid in states.items():
+        outcome=run_case(source_cases[cid])["physical_outcome"]
+        banana_worlds[state]={
+            "bananas_produced":outcome["available"],
+            "consumed_by_holder":outcome["received"].get("holder",0),
+            "received_by_child":outcome["received"].get("child",0),
+            "wasted":outcome["wasted"]}
     assert all(d["consumed_by_holder"]+d["received_by_child"]+d["wasted"]==d["bananas_produced"] for d in banana_worlds.values())
 
     # A physical donation and a participant's consent are independent questions.
@@ -288,8 +298,14 @@ def source_anchored_microexperiments() -> dict:
     # A finite XOR example of relational information not present in each one
     # individual bit. No probability distribution is inferred for real C or D.
     q1_states = [(0, 0), (0, 1), (1, 0), (1, 1)]
-    xor_outputs = [a ^ b for a, b in q1_states]
+    xor_worlds=[{"q1":a,"q2":b,"r":a ^ b} for a,b in q1_states]
+    xor_outputs=[row["r"] for row in xor_worlds]
     assert sorted(xor_outputs) == [0, 0, 1, 1]
+    xor_information={
+        "I_R_Q1_bits":conditional_information(xor_worlds,"r",["q1"]),
+        "I_R_Q2_bits":conditional_information(xor_worlds,"r",["q2"]),
+        "I_R_Q1Q2_bits":conditional_information(xor_worlds,"r",["q1","q2"]),
+    }
 
     # Orange harvest/price scenario cannot identify price manipulation or
     # feasible redirection without actual safety, title and cost evidence.
@@ -330,7 +346,7 @@ def source_anchored_microexperiments() -> dict:
                                     "fully_independent_observations":"NOT_ESTABLISHED"},
         "FINITE_XOR_SYNERGY": {"joint_states":len(q1_states),
                                "target_outputs":xor_outputs,
-                               "I_R_Q1_bits":0,"I_R_Q2_bits":0,"I_R_Q1Q2_bits":1,
+                               "I_R_Q1_bits":xor_information["I_R_Q1_bits"],"I_R_Q2_bits":xor_information["I_R_Q2_bits"],"I_R_Q1Q2_bits":xor_information["I_R_Q1Q2_bits"],
                                "no_open_D_probability":True},
         "ORANGE_RESEARCH_GATE": oranges,
         "EDUCATION_ARCHITECTURE_GATE": education,

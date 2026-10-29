@@ -1,0 +1,2730 @@
+{
+  "schema": "ACC-ORIGINAL-EXPERIMENTS-0.1",
+  "source_anchors": [
+    "intrinsic-abcd-economics-v0.1/intrinsic_abcd.py",
+    "agentic-ecosystem-reduction-v0.1/agentic_reduction.py",
+    "agentic-ecosystem-reduction-v0.1/CASES.json"
+  ],
+  "cases": [
+    {
+      "case_id": "SOCIAL44-CURRENT-SLACK-16",
+      "family": "source_native_social_intrinsic",
+      "model": "SOCIAL_SOURCE_44",
+      "source_refs": [
+        "S1-P0205",
+        "ACC-00M",
+        "PR44-INTRINSIC-ABCD"
+      ],
+      "question": "Native source A/B/C/D future marginal at target source-3",
+      "horizon": "one native selected future input",
+      "operator": "source_native_social44",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "target": "source-3",
+        "decision_interface": "public outline, observed current A, qualified B, no referee capacity"
+      },
+      "inputs": {
+        "bits": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "cap_root": null,
+        "target_index": 3,
+        "now": 6,
+        "information_budget": 50
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "native output units"
+        },
+        {
+          "id": "qualification_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped source-native certificate"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "public path access"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "not assigned probability"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "current_A_nonnegative",
+          "category": "material",
+          "owner": "native PR44 material referee",
+          "test": {
+            "path": [
+              "public_current_A"
+            ],
+            "op": "gte",
+            "value": 0
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "qualification_B",
+          "test": {
+            "path": [
+              "source_native_certificate_issued"
+            ],
+            "op": "eq",
+            "value": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "SOCIAL44-SAME-A-ROOT-BOTTLENECK",
+      "family": "source_native_social_intrinsic",
+      "model": "SOCIAL_SOURCE_44",
+      "source_refs": [
+        "S1-P0205",
+        "ACC-00M",
+        "PR44-INTRINSIC-ABCD"
+      ],
+      "question": "Native source A/B/C/D future marginal at target source-3",
+      "horizon": "one native selected future input",
+      "operator": "source_native_social44",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "target": "source-3",
+        "decision_interface": "public outline, observed current A, qualified B, no referee capacity"
+      },
+      "inputs": {
+        "bits": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "cap_root": 128,
+        "target_index": 3,
+        "now": 6,
+        "information_budget": 50
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "native output units"
+        },
+        {
+          "id": "qualification_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped source-native certificate"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "public path access"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "not assigned probability"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "current_A_nonnegative",
+          "category": "material",
+          "owner": "native PR44 material referee",
+          "test": {
+            "path": [
+              "public_current_A"
+            ],
+            "op": "gte",
+            "value": 0
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "qualification_B",
+          "test": {
+            "path": [
+              "source_native_certificate_issued"
+            ],
+            "op": "eq",
+            "value": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "SOCIAL44-NO-HEADROOM",
+      "family": "source_native_social_intrinsic",
+      "model": "SOCIAL_SOURCE_44",
+      "source_refs": [
+        "S1-P0205",
+        "ACC-00M",
+        "PR44-INTRINSIC-ABCD"
+      ],
+      "question": "Native source A/B/C/D future marginal at target source-1",
+      "horizon": "one native selected future input",
+      "operator": "source_native_social44",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "target": "source-1",
+        "decision_interface": "public outline, observed current A, qualified B, no referee capacity"
+      },
+      "inputs": {
+        "bits": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "cap_root": null,
+        "target_index": 1,
+        "now": 6,
+        "information_budget": 50
+      },
+      "dimensions": [
+        {
+          "id": "efficiency",
+          "initial": "ACTIVE",
+          "unit": "native output units"
+        },
+        {
+          "id": "qualification_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped source-native certificate"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "public path access"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "not assigned probability"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "current_A_nonnegative",
+          "category": "material",
+          "owner": "native PR44 material referee",
+          "test": {
+            "path": [
+              "public_current_A"
+            ],
+            "op": "gte",
+            "value": 0
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "qualification_B",
+          "test": {
+            "path": [
+              "source_native_certificate_issued"
+            ],
+            "op": "eq",
+            "value": true
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG01-QUALIFIED-NEAR-OPTIMUM",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG01-QUALIFIED-NEAR-OPTIMUM",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG01-QUALIFIED-NEAR-OPTIMUM",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG01-QUALIFIED-NEAR-OPTIMUM"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG02-LOW-CAPABILITY-SAME-A",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG02-LOW-CAPABILITY-SAME-A",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG02-LOW-CAPABILITY-SAME-A",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG02-LOW-CAPABILITY-SAME-A"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG03-A-ONLY-Q-ABSENT",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG03-A-ONLY-Q-ABSENT",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG03-A-ONLY-Q-ABSENT",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG03-A-ONLY-Q-ABSENT"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG04-Q-REVIEW-NO-EXECUTION",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG04-Q-REVIEW-NO-EXECUTION",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG04-Q-REVIEW-NO-EXECUTION",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG04-Q-REVIEW-NO-EXECUTION"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG05-NO-A-ROLE-CHANGE",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "CE-ANTS",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG05-NO-A-ROLE-CHANGE",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG05-NO-A-ROLE-CHANGE",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG05-NO-A-ROLE-CHANGE"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG06-NO-DONOR-RELEASE-CAPABILITY",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "CE-SOLIDARITY",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG06-NO-DONOR-RELEASE-CAPABILITY",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG06-NO-DONOR-RELEASE-CAPABILITY",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG06-NO-DONOR-RELEASE-CAPABILITY"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG07-DONOR-REFUSES",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG07-DONOR-REFUSES",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG07-DONOR-REFUSES",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG07-DONOR-REFUSES"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG08-META-OWNER-LACKS-AUTHORITY",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG08-META-OWNER-LACKS-AUTHORITY",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG08-META-OWNER-LACKS-AUTHORITY",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG08-META-OWNER-LACKS-AUTHORITY"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG09-MATERIAL-D-UNRESOLVED",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG09-MATERIAL-D-UNRESOLVED",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG09-MATERIAL-D-UNRESOLVED",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG09-MATERIAL-D-UNRESOLVED"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG10-D-OTHER-SCOPE-UNPERTINENT",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG10-D-OTHER-SCOPE-UNPERTINENT",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG10-D-OTHER-SCOPE-UNPERTINENT",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG10-D-OTHER-SCOPE-UNPERTINENT"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG11-BOGUS-B-CERTIFICATE",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG11-BOGUS-B-CERTIFICATE",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG11-BOGUS-B-CERTIFICATE",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG11-BOGUS-B-CERTIFICATE"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG12-EXPIRED-B",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG12-EXPIRED-B",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG12-EXPIRED-B",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG12-EXPIRED-B"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG13-WRONG-SCOPE",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG13-WRONG-SCOPE",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG13-WRONG-SCOPE",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG13-WRONG-SCOPE"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG14-UNCHARACTERIZED-C",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG14-UNCHARACTERIZED-C",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG14-UNCHARACTERIZED-C",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG14-UNCHARACTERIZED-C"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG15-D-NOT-A-MARGINAL",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG15-D-NOT-A-MARGINAL",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG15-D-NOT-A-MARGINAL",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG15-D-NOT-A-MARGINAL"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG16-EXCESSIVE-Q-MAINTENANCE",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG16-EXCESSIVE-Q-MAINTENANCE",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG16-EXCESSIVE-Q-MAINTENANCE",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG16-EXCESSIVE-Q-MAINTENANCE"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG17-RECONFIGURATION-CONSUMES-MOST",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG17-RECONFIGURATION-CONSUMES-MOST",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG17-RECONFIGURATION-CONSUMES-MOST",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG17-RECONFIGURATION-CONSUMES-MOST"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG18-EFFICIENT-DIRECTED-PEER",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-CORRESPONDENCE",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG18-EFFICIENT-DIRECTED-PEER",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG18-EFFICIENT-DIRECTED-PEER",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG18-EFFICIENT-DIRECTED-PEER"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG19-FULL-A-CHEAP",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG19-FULL-A-CHEAP",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG19-FULL-A-CHEAP",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG19-FULL-A-CHEAP"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG20-FULL-A-UNAVAILABLE",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG20-FULL-A-UNAVAILABLE",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG20-FULL-A-UNAVAILABLE",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG20-FULL-A-UNAVAILABLE"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG21-DIRECTED-PEER-UNAVAILABLE",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-CORRESPONDENCE",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG21-DIRECTED-PEER-UNAVAILABLE",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG21-DIRECTED-PEER-UNAVAILABLE",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG21-DIRECTED-PEER-UNAVAILABLE"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG22-CONVENTIONAL-EQUIVALENT-CHEAP",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG22-CONVENTIONAL-EQUIVALENT-CHEAP",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG22-CONVENTIONAL-EQUIVALENT-CHEAP",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG22-CONVENTIONAL-EQUIVALENT-CHEAP"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG23-AGENTIC-LOW-REWRITE-COST",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "CE-CORRESPONDENCE",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG23-AGENTIC-LOW-REWRITE-COST",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG23-AGENTIC-LOW-REWRITE-COST",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG23-AGENTIC-LOW-REWRITE-COST"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG24-LEGACY-HIGH-REWRITE-COST",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "CE-CORRESPONDENCE",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG24-LEGACY-HIGH-REWRITE-COST",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG24-LEGACY-HIGH-REWRITE-COST",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG24-LEGACY-HIGH-REWRITE-COST"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG25-MISSION-HAS-ALREADY-BEEN-MET",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG25-MISSION-HAS-ALREADY-BEEN-MET",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG25-MISSION-HAS-ALREADY-BEEN-MET",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG25-MISSION-HAS-ALREADY-BEEN-MET"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG26-NO-UNRESTRICTED-DONOR",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG26-NO-UNRESTRICTED-DONOR",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG26-NO-UNRESTRICTED-DONOR",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG26-NO-UNRESTRICTED-DONOR"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG27-THIRD-PARTY-REVIEW-LIMIT",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG27-THIRD-PARTY-REVIEW-LIMIT",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG27-THIRD-PARTY-REVIEW-LIMIT",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG27-THIRD-PARTY-REVIEW-LIMIT"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG28-BARRED-PRIVATE-EVIDENCE",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG28-BARRED-PRIVATE-EVIDENCE",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG28-BARRED-PRIVATE-EVIDENCE",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG28-BARRED-PRIVATE-EVIDENCE"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG29-CHEAP-Q-BUT-WRONG-WORLD",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG29-CHEAP-Q-BUT-WRONG-WORLD",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG29-CHEAP-Q-BUT-WRONG-WORLD",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG29-CHEAP-Q-BUT-WRONG-WORLD"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "AGENTIC57-AG30-SHARED-PROTOCOL-BUT-UNCHARACTERIZED-Q",
+      "family": "source_native_agentic_reduction",
+      "model": "AGENTIC_SOURCE_57",
+      "source_refs": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "question": "Original six-arm agentic role/release/protocol decision AG30-SHARED-PROTOCOL-BUT-UNCHARACTERIZED-Q",
+      "horizon": "one native mission budget",
+      "operator": "source_native_agentic57",
+      "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC",
+      "public": {
+        "native_case_id": "AG30-SHARED-PROTOCOL-BUT-UNCHARACTERIZED-Q",
+        "scope": "vendor-ecosystem-v1",
+        "source_fixture": "AGENTIC-REDUCTION-v0.1/CASES.json",
+        "decision_interface": "public declared A and qualified bounded source metadata, private scoring after plan"
+      },
+      "inputs": {
+        "native_case_id": "AG30-SHARED-PROTOCOL-BUT-UNCHARACTERIZED-Q"
+      },
+      "dimensions": [
+        {
+          "id": "mission_output",
+          "initial": "ACTIVE",
+          "unit": "source-native mission output"
+        },
+        {
+          "id": "coordination",
+          "initial": "IMPLICIT",
+          "unit": "resource transfer and protocol"
+        },
+        {
+          "id": "source_B",
+          "initial": "IMPLICIT",
+          "unit": "scoped partial claim"
+        },
+        {
+          "id": "rights",
+          "initial": "IMPLICIT",
+          "unit": "release/authority"
+        },
+        {
+          "id": "open_CD",
+          "initial": "OPEN",
+          "unit": "uncharacterized effects"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "total_resources_conserved_A_ONLY",
+          "category": "material",
+          "owner": "source PR57 private referee",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "A_ONLY",
+              "private_referee_only",
+              "total_resources_same"
+            ],
+            "op": "eq",
+            "value": 10
+          }
+        }
+      ],
+      "activation_events": [
+        {
+          "dimension": "coordination",
+          "test": {
+            "path": [
+              "source_synthetic_arms",
+              "Q_META_PROTOCOL",
+              "public_plan",
+              "transfer"
+            ],
+            "op": "gt",
+            "value": 0
+          }
+        }
+      ]
+    }
+  ]
+}
