@@ -55,6 +55,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 23 | 2026-10-28 | [Recepción de la nota de Codex sobre PR #60: M28-03, M28-04 y F1/D1](#ronda-23) | M28-03 reparado en la rama; L-01 y L-02 nuevos; testigos F1/D1 verificados (L-03) |
 | 24 | 2026-10-28 | [Recepción de M28-04 (#60), K-02 (#65), K-01 (#66), DG1–DG4 y oportunidades de EP](#ronda-24) | M28-04, L-02, K-01 y K-02 respondidos; L-04 nuevo; L-05 y L-06 verificados |
 | 25 | 2026-10-28 | [Recepción de K-03 (PR #67)](#ronda-25) | K-03 respondido; refactorización equivalente en 11 600 comparaciones |
+| 26 | 2026-10-29 | [Recepción de G-03 (PR #68)](#ronda-26) | G-03 respondido; L-07 nuevo |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1103,3 +1104,29 @@ Se recibe la lista de seis direcciones con literatura externa. Se comprobó que 
 **Nota de coordinación, sin registro.** #65, #66 y #67 modifican el mismo directorio de estudio, y #66 y #67 también el mismo paso de `document-integrity.yml`. #67 amplía el patrón de pruebas a `test_*.py`, así que, si se fusionan los dos, `test_economic_envelope.py` se ejecutaría dos veces: una por ese patrón y otra por su propio paso de #66. Esa prueba necesita además el código de #57. Conviene fusionar en orden #57 → #66 y revisar el flujo de trabajo al combinarlos.
 
 **Totales:** 85 registros. 38 abiertos, 20 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-26"></a>
+
+## Ronda 26 — recepción de G-03 en PR #68 (29-10-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** [comentario en PR #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-6488378008), escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #68 (`02524320`) depende de #66.
+
+**Los cuatro subpuntos de G-03, comprobados** (`g03_computed_vs_declared.py`, contra #66):
+
+| Subpunto | ¿Resuelto? | Base |
+|---|---|---|
+| `finite_information` usaba distribuciones escritas a mano | **Sí** | Las entropías salen ahora de la tabla de mundos: H(r\|a) = 1 y H(r\|a, b) = 0. Si se cambia la tabla (r constante), los valores pasan a 0 y 0, así que el cálculo depende de los mundos |
+| XOR (0, 0, 1 bits) era un literal | **Sí** | Se calcula desde las cuatro filas. El control de dependencia (r = q1) da 1, 0 y 1 bits, como corresponde |
+| La brecha de IQ-03 (20 → 45) era resta de constantes | **Parcialmente, y es lo que cabe** | Las cifras pasan a datos de entrada con fuente, y el operador solo calcula la brecha si el servicio es equivalente en cada periodo. La conclusión «el servicio crece y la brecha crece» sigue determinada por los datos elegidos, porque es una ilustración y no un ensayo. Ahora lo protege la comprobación de equivalencia de servicio |
+| Naranjas, educación, ministerios, oficio y liceo eran etiquetas | **Sí en el código; falta en el texto (L-07)** | Pasan a ser casos con operador. Los que carecen de evidencia devuelven `UNDETERMINED` y no se presentan como resultado. Pero el README nuevo los llama «40 pruebas sociales finitas» |
+
+**Integridad.** Los bloques `finite_information` y `source_anchored_microexperiments` del informe son numéricamente idénticos en #66 y #68. La única diferencia es de tipo: los bits pasan de enteros a decimales (0 → 0,0). Los motores de #44 y #57 no se modifican: el diff solo toca el directorio de la campaña y el flujo de CI, y el ejecutor informa `source_native_files_unchanged: true`. 19 de 19 pruebas nuevas en verde y CI en verde. G-04 sigue siendo un registro distinto.
+
+**Estado:** G-03 pasa a `RESPONDIDO` y se cerrará cuando #68 esté en `main`.
+
+| ID | Estado | Hallazgo | Propuesta |
+|---|---|---|---|
+| <a id="l-07"></a>**L-07** | Baja · `ABIERTO` | **La mayoría de los veredictos negativos de los 40 casos sociales los fija una puerta declarada, no un cálculo.** Hay 100 restricciones: 74 llevan el estado escrito en el caso (`satisfied`) y 26 se calculan sobre el resultado físico. De los 22 casos no elegibles, 17 los decide una puerta declarada (6 bloqueados y 11 indeterminados) y 5 un cálculo (2 bloqueados y 3 materialmente imposibles). Es lo honesto: consentimiento, derechos o autoridad no se pueden calcular. Pero llamar a los 40 «pruebas sociales finitas» repite la sobreafirmación que G-03 señalaba en «doce microexperimentos». | En el README, decir «40 casos ilustrativos» e informar del reparto: 18 elegibles bajo las condiciones declaradas, 5 decididos por cálculo y 17 por puerta declarada. Añadir esos recuentos a la salida del ejecutor. |
+
+**Totales:** 86 registros. 38 abiertos, 21 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.

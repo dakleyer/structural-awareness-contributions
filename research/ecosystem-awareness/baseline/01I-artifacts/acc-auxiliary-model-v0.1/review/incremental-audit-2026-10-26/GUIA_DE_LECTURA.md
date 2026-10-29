@@ -17,7 +17,7 @@
 8. [Qué falta para cerrar lo que está cerca](#8-qué-falta-para-cerrar-lo-que-está-cerca)
 9. [Por dónde empezar según quién seas](#9-por-dónde-empezar-según-quién-seas)
 10. [Mapa del expediente: dónde está cada ronda](#10-mapa-del-expediente-dónde-está-cada-ronda)
-11. [Los 85 registros, uno por uno](#11-los-85-registros-uno-por-uno)
+11. [Los 86 registros, uno por uno](#11-los-86-registros-uno-por-uno)
 12. [Glosario en lenguaje llano](#12-glosario-en-lenguaje-llano)
 13. [Cómo se ha hecho esta guía](#13-cómo-se-ha-hecho-esta-guía)
 14. [Oportunidades de mejora](#14-oportunidades-de-mejora)
@@ -37,7 +37,7 @@
   > - Las pruebas finitas revisadas establecen resultados concretos bajo sus hipótesis: una representación puede conservar una distinción necesaria para decidir; información compatible puede sostener una conclusión local útil; una guarda probada puede ahorrar comprobaciones en su dominio y balance de costes.
   > - Los fixtures también comprueban reproducción y sensibilidad bajo entradas o procedimientos suministrados. Esos resultados conservan su valor; para estudiar adquisición, selección o adaptación se necesita el proceso correspondiente y su evidencia.
   > - El fallo numérico I-01 y sus ampliaciones están corregidos y reconfirmados. La guarda de dominio M28-02 ya se corrigió y reconfirmó en la rama de #60; su incorporación sigue pendiente.
-- **Dónde estamos.** La auditoría tiene 77 registros sobre el contenido y 8 sobre la forma del propio expediente: 85 en total. De ellos, 38 siguen abiertos, 20 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 15 son propuestas de mejora, aclaraciones o puntos retirados.
+- **Dónde estamos.** La auditoría tiene 78 registros sobre el contenido y 8 sobre la forma del propio expediente: 86 en total. De ellos, 38 siguen abiertos, 21 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 15 son propuestas de mejora, aclaraciones o puntos retirados.
 - **Qué no es.** No es una revisión científica humana independiente. Todas las rondas las han escrito asistentes de IA (Claude y Codex), en parte a partir de observaciones de Iván.
 
 ## 2. Quién ha escrito qué
@@ -54,7 +54,7 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 
 ## 3. Cómo está todo ahora
 
-![Estado de los 85 registros de la auditoría por familia](figures/STATUS_by_family.svg)
+![Estado de los 86 registros de la auditoría por familia](figures/STATUS_by_family.svg)
 
 **Vista en tabla** (los mismos datos que la figura):
 
@@ -62,7 +62,7 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 |---|---:|---:|---:|---:|---:|---:|
 | N · Nota al revisor externo | 9 | 0 | 0 | 0 | 0 | 9 |
 | F · Código de #57 y #54 | 4 | 3 | 0 | 0 | 0 | 7 |
-| G · Campaña de 60 casos | 4 | 2 | 0 | 0 | 0 | 6 |
+| G · Campaña de 60 casos | 3 | 3 | 0 | 0 | 0 | 6 |
 | H · Modelo social | 5 | 0 | 1 | 0 | 0 | 6 |
 | I · Defecto de qualify | 0 | 0 | 1 | 0 | 0 | 1 |
 | M27 · Corpus matemático | 11 | 2 | 2 | 1 | 4 | 20 |
@@ -70,8 +70,8 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 | M27-O y M28-O · Líneas de desarrollo | 0 | 0 | 0 | 7 | 0 | 7 |
 | J · Forma del expediente | 1 | 6 | 1 | 0 | 0 | 8 |
 | K · Modelo social #44–#46 | 1 | 3 | 3 | 1 | 0 | 8 |
-| L · Recepciones (rondas 23–24) | 2 | 1 | 3 | 0 | 0 | 6 |
-| **Total** | **38** | **20** | **12** | **10** | **5** | **85** |
+| L · Recepciones (rondas 23–26) | 3 | 1 | 3 | 0 | 0 | 7 |
+| **Total** | **38** | **21** | **12** | **10** | **5** | **86** |
 
 **Qué significa cada estado:**
 
@@ -271,11 +271,13 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 23 | 28 oct | Claude | Recepción de la nota sobre PR #60: M28-03 reparado en la rama, L-01 y L-02 nuevos, testigos F1/D1 verificados | [ronda 23](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-23) |
 | 24 | 28 oct | Claude | Recepción de M28-04 (#60), K-02 (#65), K-01 (#66) y DG1–DG4: cuatro registros respondidos, L-04 nuevo, L-05 y L-06 verificados | [ronda 24](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-24) |
 | 25 | 28 oct | Claude | Recepción de K-03 (#67): refactorización equivalente, K-03 respondido | [ronda 25](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-25) |
+| 26 | 29 oct | Claude | Recepción de G-03 (#68): cálculos derivados de los mundos, G-03 respondido, L-07 nuevo | [ronda 26](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-26) |
 
 <a id="11-los-79-registros-uno-por-uno"></a>
 <a id="11-los-82-registros-uno-por-uno"></a>
+<a id="11-los-85-registros-uno-por-uno"></a>
 
-## 11. Los 85 registros, uno por uno
+## 11. Los 86 registros, uno por uno
 
 Haz clic en cada familia para desplegarla. Cada identificador enlaza con su texto completo en la auditoría. Esta sección la genera [`reader_guide_build.py`](reader_guide_build.py) a partir de [`STATUS_LEDGER_2026-10-28.json`](STATUS_LEDGER_2026-10-28.json), para que no se desajuste con el expediente.
 
@@ -311,13 +313,13 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 
 </details>
 
-<details><summary><b>G · Campaña de 60 casos (#48/#49)</b> — 6 registros, 4 abiertos</summary>
+<details><summary><b>G · Campaña de 60 casos (#48/#49)</b> — 6 registros, 3 abiertos</summary>
 
 | ID | Estado | Gravedad | En pocas palabras | Ronda que fijó el estado |
 |---|---|---|---|---|
 | [G-01](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#g-01) | 🟠 Respondido | Alta | En la campaña de 60 casos, el comparador convencional tiene la respuesta correcta escrita en los datos. | 11 |
 | [G-02](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#g-02) | 🔵 Abierto | Media | La «auditoría independiente» de Q es un sí/no escrito en los datos. | 3 |
-| [G-03](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#g-03) | 🔵 Abierto | Media | Varios «microexperimentos» son números escritos a mano, no calculados. | 3 |
+| [G-03](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#g-03) | 🟠 Respondido | Media | Varios «microexperimentos» eran números escritos a mano. #68 los calcula desde los mundos declarados; falta incorporarlo a main. | 26 |
 | [G-04](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#g-04) | 🔵 Abierto | Media | Dos análisis de la campaña repiten la regla que pretenden probar. | 3 |
 | [G-05](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#g-05) | 🟠 Respondido | Baja | #54 repite 8 celdas de red que ya estaban en #49. | 6 |
 | [G-06](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#g-06) | 🔵 Abierto | Baja | Hay tres cifras distintas de documentos «cribados» (17, 19 y 23). | 3 |
@@ -437,7 +439,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 
 </details>
 
-<details><summary><b>L · Recepciones (rondas 23–24)</b> — 6 registros, 2 abiertos</summary>
+<details><summary><b>L · Recepciones (rondas 23–26)</b> — 7 registros, 3 abiertos</summary>
 
 | ID | Estado | Gravedad | En pocas palabras | Ronda que fijó el estado |
 |---|---|---|---|---|
@@ -446,6 +448,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 | [L-04](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-04) | 🔵 Abierto | Baja | #66: el resumen cuenta 0 victorias de B porque el brazo del receptor copia la opción elegida; sin ese brazo, B gana 10 de 42. | 24 |
 | [L-05](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-05) | 🟢 Verificado | Informativo | #66 confirma F-04 en los 30 casos de #57: la inspección dirigida lidera sola 14; el metaprotocolo, ninguno. | 24 |
 | [L-06](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-06) | 🟢 Verificado | Informativo | El desarrollo DG1–DG4 se reproduce: 15 pruebas y las cifras 240/480/904/56/48. | 24 |
+| [L-07](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-07) | 🔵 Abierto | Baja | #68: 17 de los 22 veredictos negativos de los 40 casos sociales los fija una puerta declarada; llamarlos «pruebas» sobreafirma. | 26 |
 | [L-03](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-03) | 🟢 Verificado | Informativo | #60: los testigos F1/D1 (10 frente a 8; 11,5 frente a 8,875 con el mismo A) se reproducen desde el código de origen. | 23 |
 
 </details>
@@ -476,7 +479,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 ## 13. Cómo se ha hecho esta guía
 
 - Los estados vigentes se han tomado de la última ronda que los decidió, citada en la columna «Ronda que fijó el estado». Están en [`STATUS_LEDGER_2026-10-28.json`](STATUS_LEDGER_2026-10-28.json).
-- [`reader_guide_build.py`](reader_guide_build.py) regenera las dos figuras nuevas, la tabla de la sección 11 y el registro de estados. También comprueba que los 85 identificadores existen en la auditoría, que la fila de totales de la sección 3 coincide con el registro, que todos los hallazgos de la auditoría están en el registro y que todos los enlaces internos llevan a su destino.
+- [`reader_guide_build.py`](reader_guide_build.py) regenera las dos figuras nuevas, la tabla de la sección 11 y el registro de estados. También comprueba que los 86 identificadores existen en la auditoría, que la fila de totales de la sección 3 coincide con el registro, que todos los hallazgos de la auditoría están en el registro y que todos los enlaces internos llevan a su destino.
 - Las comparaciones cotidianas de la sección 5 simplifican a propósito. Cuando haya duda, manda el texto completo del hallazgo enlazado.
 - Colores: paleta categórica validada para visión de color atípica y para modo oscuro. Como algunos colores tienen poco contraste con el fondo claro, cada tramo lleva su número escrito y hay una vista en tabla.
 

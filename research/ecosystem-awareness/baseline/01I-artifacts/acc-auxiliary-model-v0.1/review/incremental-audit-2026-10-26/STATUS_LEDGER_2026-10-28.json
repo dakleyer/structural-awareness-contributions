@@ -1,7 +1,7 @@
 {
   "schema": "ACC-AUDIT-STATUS-LEDGER-v0.1",
   "as_of": "2026-10-28",
-  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-25",
+  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-26",
   "state_vocabulary": [
     "ABIERTO",
     "RESPONDIDO",
@@ -13,7 +13,7 @@
   ],
   "totals": {
     "ABIERTO": 38,
-    "RESPONDIDO": 20,
+    "RESPONDIDO": 21,
     "CERRADO": 4,
     "VERIFICADO": 8,
     "PROPUESTA": 10,
@@ -44,8 +44,8 @@
         0
       ],
       "G": [
-        4,
-        2,
+        3,
+        3,
         0,
         0,
         0
@@ -107,7 +107,7 @@
         0
       ],
       "L": [
-        2,
+        3,
         1,
         3,
         0,
@@ -264,9 +264,9 @@
       "id": "G-03",
       "family": "G",
       "severity": "Media",
-      "state": "ABIERTO",
-      "set_in_round": 3,
-      "summary": "Varios «microexperimentos» son números escritos a mano, no calculados."
+      "state": "RESPONDIDO",
+      "set_in_round": 26,
+      "summary": "Varios «microexperimentos» eran números escritos a mano. #68 los calcula desde los mundos declarados; falta incorporarlo a main."
     },
     {
       "id": "G-04",
@@ -789,6 +789,14 @@
       "summary": "El desarrollo DG1–DG4 se reproduce: 15 pruebas y las cifras 240/480/904/56/48."
     },
     {
+      "id": "L-07",
+      "family": "L",
+      "severity": "Baja",
+      "state": "ABIERTO",
+      "set_in_round": 26,
+      "summary": "#68: 17 de los 22 veredictos negativos de los 40 casos sociales los fija una puerta declarada; llamarlos «pruebas» sobreafirma."
+    },
+    {
       "id": "L-03",
       "family": "L",
       "severity": "Informativo",
@@ -847,7 +855,7 @@
     }
   ],
   "checks": {
-    "ledger_ids": 85,
+    "ledger_ids": 86,
     "duplicate_ids": 0,
     "ledger_ids_absent_from_audit": [],
     "audit_ids_absent_from_ledger": [],
@@ -855,19 +863,19 @@
     "guide_totals_row": {
       "guide": [
         38,
-        20,
+        21,
         12,
         10,
         5,
-        85
+        86
       ],
       "ledger": [
         38,
-        20,
+        21,
         12,
         10,
         5,
-        85
+        86
       ],
       "ok": true
     },

@@ -20,6 +20,7 @@ El script de reconfirmación de I-01 ya estaba en el PR: [`../reconfirm_I01_2026
 | [`m28_04_dual_time_probe.py`](m28_04_dual_time_probe.py) | [M28-04](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-04), [L-02](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-02) | [24](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-24) | `studies/mathematical-lineage-social-agentic-v0.1` de PR #60 en `7fc88e2e` o posterior | Testigo t₁/t₂/t₃/t₁₀ correcto; ventana [2, 6) válida solo en 2–5; ticks no enteros rechazados; ninguna reutilización entre casos. Termina con 1 si algo falla |
 | [`k01_envelope_recount.py`](k01_envelope_recount.py) | [K-01](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-01), [L-04](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-04), [L-05](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-05) | [24](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-24) | Raíz de PR #66 | 286 casos; cruce en L = 9; B gana 0 veces con el brazo del receptor y 10 sin él; la inspección dirigida lidera sola 14 de los 30 casos agénticos y el metaprotocolo ninguno |
 | [`k03_equivalence.py`](k03_equivalence.py) | [K-03](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-03) | [25](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-25) | Raíces de `main` y de PR #67 | `sample_report` idéntico; 11 600 comparaciones sin diferencias; ninguna fuga del oráculo privado. Termina con 1 si algo difiere |
+| [`g03_computed_vs_declared.py`](g03_computed_vs_declared.py) | [G-03](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#g-03), [L-07](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-07) | [26](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-26) | Raíces de PR #66 y de PR #68 | Informe numéricamente idéntico; XOR 0/0/1 y control 1/0/1; 74 restricciones declaradas y 26 calculadas; 17 de 22 veredictos negativos por puerta declarada |
 | [`anchor_check.py`](anchor_check.py) | Herramienta | 14, 20, 21 | Cualquier `.md` | Enlaces `archivo.md#ancla` que no encuentran título ni `<a id>`. Termina con 1 si hay alguno roto |
 
 ## Cómo ejecutarlos
@@ -42,6 +43,7 @@ python3 -B $V/f1_d1_witness_recompute.py      $PR60 $PR57
 python3 -B $V/m28_04_dual_time_probe.py       $PR60/$S/mathematical-lineage-social-agentic-v0.1
 python3 -B $V/k01_envelope_recount.py         $PR66
 python3 -B $V/k03_equivalence.py              $MAIN $PR67
+python3 -B $V/g03_computed_vs_declared.py     $PR66 $PR68
 python3 -B $V/anchor_check.py                 $V/../GUIA_DE_LECTURA.md $V/../premium/*.md
 ```
 
@@ -67,6 +69,7 @@ m28_04_dual_time_probe.py       RESULT: PASS (PR #60, 7fc88e2e; ronda 24)
 k01_envelope_recount.py         cases: 286 | crossing path nodes: 9 | social original, sin receptor: B 10, dirigida 2, A 7, empates 23
                                 agentic source-original: CONVENTIONAL_DIRECTED 14, FULL_A 1, empates 15
 k03_equivalence.py              sample_report identical: True | 11600 comparisons, 0 differences | RESULT: PASS (PR #67, 078bf7fc)
+g03_computed_vs_declared.py     identical: True | XOR (0,0,1) copy (1,0,1) | 74 declared / 26 computed | RESULT: PASS (PR #68, 02524320)
 anchor_check.py                 0 anclas rotas en la auditoría, la guía, el anexo y el kit premium
 ```
 
