@@ -81,3 +81,18 @@ python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-mode
 The JSON output includes the matrix hash, original source SHA256s, K-01 crossing, counts of ties and strict winners by model, and optionally the full per-arm ledgers. An external application can supply a different source adapter via `run_cases(scenarios, adapter)`, preserving the same source/evidence/cost contract.
 
 **Review focus:** verify the claim remains situated, source policies run without oracle-assisted choice, all six agentic arms retain their original mission/resource envelope, and the original 00M/00N/ACC/EP boundaries are unchanged.
+
+
+## 7. Audit L-04 — do not rank the source receiver against its own chosen policy (29 Oct 2026)
+
+The source's `SOURCE_PUBLIC_RECEIVER` invokes its own public planner. When it chooses a B-based plan, its outcome may equal `B_QUALIFIED`; treating both as independent competing policies manufactures an extra tie and suppresses genuine strict-policy wins. The public receiver is **a decision layer**, not a fifth independent technology.
+
+`economic_envelope_runner.execute` now publishes **two counts**, explicitly distinguished:
+
+- `summary`: proper comparison over independent policy arms (four native social strategies; the six native agentic strategies remain unchanged). This is the primary ranking.
+- `summary_including_receiver_legacy`: backwards-compatible, **diagnostic only**, retaining the earlier five-arm social tally to make the distortion observable.
+- `source_public_receiver_diagnostics`: the native receiver's rule, realised post-hoc net and best competing policy's post-hoc net. These do **not** grant the public receiver access to private information, and are not a new decision algorithm.
+
+`test_economic_envelope.py::L04ReceiverRoleRegression` checks that n=16 prefers source B, n=256 favours targeted inspection, n=128 ties **among comparable policies**, and that the legacy self-tie remains visible only under its diagnostic label. It also verifies that the agentic results are unchanged. See [independent audit #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58) L-04.
+
+This fixes output accounting, **not** the underlying economics, public policy, source oracle, A/B/C/D, or author-defined objective.
