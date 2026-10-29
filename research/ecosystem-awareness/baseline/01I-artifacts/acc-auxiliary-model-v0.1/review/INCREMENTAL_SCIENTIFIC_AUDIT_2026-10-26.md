@@ -57,6 +57,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 25 | 2026-10-28 | [Recepción de K-03 (PR #67)](#ronda-25) | K-03 respondido; refactorización equivalente en 11 600 comparaciones |
 | 26 | 2026-10-29 | [Recepción de G-03 (PR #68)](#ronda-26) | G-03 respondido; L-07 nuevo |
 | 27 | 2026-10-29 | [Recepción de L-04 (#66) y L-07 (#68); #69 recibido](#ronda-27) | L-04 y L-07 respondidos |
+| 28 | 2026-10-29 | [Recepción de G-04 (PR #70)](#ronda-28) | G-04 respondido; L-08 nuevo |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1146,3 +1147,26 @@ Se recibe la lista de seis direcciones con literatura externa. Se comprobó que 
 **PR #69 (`4cd76d96`), recibido pero aún no auditado.** Añade un estudio nuevo, `narrative-acceptance-v0.1`, con 14 secuencias de operaciones, la sensibilidad de IQ-03 y un contraste con #68. No modifica `campaign.py`. Sus 51 pruebas pasan y la CI está en verde. Queda pendiente auditarlo a fondo, y no altera ningún estado del registro.
 
 **Totales:** 86 registros. 36 abiertos, 23 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos. Como en rondas anteriores, nada se cierra hasta que los arreglos estén en `main`.
+
+
+<a id="ronda-28"></a>
+
+## Ronda 28 — recepción de G-04 en PR #70 (29-10-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** [comentario en PR #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-6497375842), escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #70 (`7170dd9e`) está apilado sobre #68.
+
+**Recorrido comprobado: fuente → configuración → propuesta → árbitro → restricciones → resultado** (lectura de `g04_factorial.py` y `g04_accuracy_map.py`):
+
+- **Mundos.** `create_world` sortea con un hash fijo, antes de evaluar ninguna política, el stock, la necesidad y la ruta reales, y también la calidad de cada señal. Ningún parámetro fija el resultado deseado.
+- **Propuesta.** `plan_public` solo recibe A pública, Q y las dos observaciones. No tiene ningún argumento para la verdad privada, y las cinco políticas se evalúan antes de leerla.
+- **Árbitro.** `native_referee` ejecuta `material_flow` de #68 sobre el mundo privado. Las restricciones de derechos, consentimiento y autoridad se comprueban después de fijar el plan.
+- **Reproducción.** Las cifras publicadas salen exactas sobre 6 × 192 = 1 152 mundos. Con fuente cualificada fiable, el brazo de límites da 1 propuesta errónea y 28 oportunidades perdidas, frente a 4 y 45 de los hechos del dominio. Con fuente débil, 22 y 43 frente a 1 y 10. Sin Q, el brazo de límites hace 0 propuestas y pierde 57 oportunidades, y el régimen se clasifica como incomparable. Pasan las 21 pruebas y la CI está en verde.
+- **Etiquetado.** El README llama ahora a `factorial_joint_information` y `fh_c_competing_ablations` «especificaciones ejecutables», no experimentos causales. El código antiguo no cambia.
+
+**G-04 pasa a `RESPONDIDO`.** Ahora el comparador puede perder: el brazo de límites pierde en 3 de los 6 regímenes. Se cerrará cuando #70 esté en `main`. FH-C sigue sin demostrarse ni refutarse, como el propio PR declara.
+
+| ID | Estado | Hallazgo | Propuesta |
+|---|---|---|---|
+| <a id="l-08"></a>**L-08** | Baja · `ABIERTO` | **El ganador lo deciden las dos precisiones que fija el autor, y el frente de Pareto lo decide el precio declarado.** (a) Un barrido de 7 × 7 sobre `source_correct_if_qualified` y `domain_accuracy`, con 192 mundos por celda y el resto de parámetros del régimen equilibrado, da regiones nítidas: el brazo de límites domina solo si la fuente acierta al menos el 90 % de las veces y la medición directa el 80 % o menos; los hechos dominan si la medición acierta al menos el 70 % y la fuente el 80 % o menos; en el resto, resultado incomparable. El experimento traduce bien precisiones supuestas en resultados, pero no dice nada de cuál es mayor en la realidad. (b) `SOURCE_BOUNDARY_ONLY` está en el frente de Pareto de tres ejes en las 49 celdas, incluso donde comete 22 errores frente a 1. Su coste declarado (1/10 por consulta, frente a 2/5 y 4/5) es el menor de los brazos informados, y el control ingenuo cuesta 0, así que el frente no discrimina. (c) En el régimen sin Q, el comentario atribuye «2 errores y 18 omisiones» a la «inspección», pero esas cifras son de los hechos del dominio. La inspección convencional dirigida da 0 y 11, y domina al brazo de límites (0 y 57). (d) `DOMAIN_FACTS_ONLY` usa la medición directa sin comprobar su procedencia, mientras que `BOTH_SOURCE_AND_DOMAIN` sí la comprueba; la asimetría no se declara. | Publicar el mapa de precisiones como resultado principal: es una conclusión condicional honesta. Informar del frente de Pareto sin el eje de coste, o con costes variados, junto al de tres ejes. Corregir la cifra del comentario y declarar la asimetría de (d), o igualar las dos políticas. |
+
+**Totales:** 87 registros. 36 abiertos, 24 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.

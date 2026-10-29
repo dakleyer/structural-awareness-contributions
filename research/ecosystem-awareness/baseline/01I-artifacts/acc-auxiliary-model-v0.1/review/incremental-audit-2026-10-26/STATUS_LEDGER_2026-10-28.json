@@ -1,7 +1,7 @@
 {
   "schema": "ACC-AUDIT-STATUS-LEDGER-v0.1",
   "as_of": "2026-10-28",
-  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-27",
+  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-28",
   "state_vocabulary": [
     "ABIERTO",
     "RESPONDIDO",
@@ -13,7 +13,7 @@
   ],
   "totals": {
     "ABIERTO": 36,
-    "RESPONDIDO": 23,
+    "RESPONDIDO": 24,
     "CERRADO": 4,
     "VERIFICADO": 8,
     "PROPUESTA": 10,
@@ -44,8 +44,8 @@
         0
       ],
       "G": [
-        3,
-        3,
+        2,
+        4,
         0,
         0,
         0
@@ -107,7 +107,7 @@
         0
       ],
       "L": [
-        1,
+        2,
         3,
         3,
         0,
@@ -272,9 +272,9 @@
       "id": "G-04",
       "family": "G",
       "severity": "Media",
-      "state": "ABIERTO",
-      "set_in_round": 3,
-      "summary": "Dos análisis de la campaña repiten la regla que pretenden probar."
+      "state": "RESPONDIDO",
+      "set_in_round": 28,
+      "summary": "El factorial y las ablaciones FH-C eran tautológicos por construcción. #70 añade ensayos emparejados en los que el comparador puede perder; falta incorporarlo a main."
     },
     {
       "id": "G-05",
@@ -797,6 +797,14 @@
       "summary": "#68: 17 de los 22 veredictos negativos los fija una puerta declarada. El texto dice ahora «casos ilustrativos» y el ejecutor publica el reparto; falta incorporarlo a main."
     },
     {
+      "id": "L-08",
+      "family": "L",
+      "severity": "Baja",
+      "state": "ABIERTO",
+      "set_in_round": 28,
+      "summary": "#70: el ganador lo deciden las dos precisiones que fija el autor, y el frente de Pareto, el precio declarado (el brazo de límites está en él en 49 de 49 celdas)."
+    },
+    {
       "id": "L-03",
       "family": "L",
       "severity": "Informativo",
@@ -855,7 +863,7 @@
     }
   ],
   "checks": {
-    "ledger_ids": 86,
+    "ledger_ids": 87,
     "duplicate_ids": 0,
     "ledger_ids_absent_from_audit": [],
     "audit_ids_absent_from_ledger": [],
@@ -863,19 +871,19 @@
     "guide_totals_row": {
       "guide": [
         36,
-        23,
+        24,
         12,
         10,
         5,
-        86
+        87
       ],
       "ledger": [
         36,
-        23,
+        24,
         12,
         10,
         5,
-        86
+        87
       ],
       "ok": true
     },
