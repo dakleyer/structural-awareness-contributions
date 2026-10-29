@@ -260,9 +260,23 @@ def source_anchored_microexperiments() -> dict:
     These results are arithmetic or bounded tests on DECLARED synthetic data,
     never observational findings about people, organisations or markets.
     """
-    # IQ-03 (CE-NOTES paragraph under heading): within each period, same service.
-    service_t0, current_r0, valid_alt_r0 = 100, 100, 80
-    service_t1, current_r1, valid_alt_r1 = 140, 110, 65
+    # IQ-03: within each period the source assumes comparable service, rights,
+    # and a finite set of feasible technologies. Their costs and the minimum
+    # are COMPUTED from resource/service coefficients and capacity constraints.
+    # Those coefficients are source-toy assumptions, NOT external measurements.
+    from importlib.util import module_from_spec, spec_from_file_location
+    spec = spec_from_file_location("_acc_iq03_finite_planner", HERE / "finite_feasible_gap.py")
+    if spec is None or spec.loader is None:
+        raise RuntimeError("IQ03 bounded planner unavailable")
+    planner = module_from_spec(spec)
+    spec.loader.exec_module(planner)
+    period0, period1 = planner.original_iq03_periods()
+    service_t0 = int(period0["service"])
+    service_t1 = int(period1["service"])
+    current_r0 = int(period0["current_resources"])
+    current_r1 = int(period1["current_resources"])
+    valid_alt_r0 = int(period0["minimum_resources_among_DECLARED_PASS_modes"])
+    valid_alt_r1 = int(period1["minimum_resources_among_DECLARED_PASS_modes"])
     resource_gap_t0 = current_r0 - valid_alt_r0
     resource_gap_t1 = current_r1 - valid_alt_r1
 
