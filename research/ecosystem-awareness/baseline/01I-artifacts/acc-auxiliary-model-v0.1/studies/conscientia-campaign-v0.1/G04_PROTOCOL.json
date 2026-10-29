@@ -1,0 +1,138 @@
+{
+  "schema": "ACC-G04-PAIRED-FINITE-TRIALS-v0.1",
+  "seed": "G04-source-preserving-independent-worlds-20261029",
+  "worlds_per_regime": 192,
+  "published_before_evaluation": true,
+  "parameter_units": "Declared toy Bernoulli inclusion/accuracy rates; NOT human data or external probability of C/D",
+  "source_interpretation": "The probability parameters are independent experimental perturbations of data quality, not claims of actual source/source reliability",
+  "physical_question": "S1-P0211/P0271 finite local banana redistribution while preserving original holder service",
+  "paired_interventions": [
+    "NAIVE_SOURCE_ONLY_CONTROL",
+    "SOURCE_BOUNDARY_ONLY",
+    "DOMAIN_FACTS_ONLY",
+    "BOTH_SOURCE_AND_DOMAIN",
+    "CONVENTIONAL_TARGETED"
+  ],
+  "regimes": [
+    {
+      "id": "QUALIFIED_SOURCE_RELIABLE_SENSOR_NOISY",
+      "parameters": {
+        "source_probability": "9/10",
+        "source_scoped_probability": "4/5",
+        "source_correct_if_qualified": "19/20",
+        "source_correct_if_other": "1/10",
+        "source_signed": "9/10",
+        "source_fresh": "9/10",
+        "domain_available": "9/10",
+        "domain_accuracy": "1/2",
+        "domain_qualified": "4/5",
+        "targeted_available": "4/5",
+        "targeted_accuracy": "19/20",
+        "role_probability": "19/20",
+        "consent_probability": "9/10",
+        "authority_probability": "19/20",
+        "joint_probability": "9/10"
+      }
+    },
+    {
+      "id": "SOURCE_FACTUALLY_WEAK_DIRECT_FACTS_PRECISE",
+      "parameters": {
+        "source_probability": "9/10",
+        "source_scoped_probability": "4/5",
+        "source_correct_if_qualified": "2/5",
+        "source_correct_if_other": "2/5",
+        "source_signed": "9/10",
+        "source_fresh": "9/10",
+        "domain_available": "9/10",
+        "domain_accuracy": "19/20",
+        "domain_qualified": "19/20",
+        "targeted_available": "4/5",
+        "targeted_accuracy": "19/20",
+        "role_probability": "19/20",
+        "consent_probability": "9/10",
+        "authority_probability": "19/20",
+        "joint_probability": "9/10"
+      }
+    },
+    {
+      "id": "BALANCED_UNCERTAIN",
+      "parameters": {
+        "source_probability": "9/10",
+        "source_scoped_probability": "4/5",
+        "source_correct_if_qualified": "7/10",
+        "source_correct_if_other": "1/2",
+        "source_signed": "9/10",
+        "source_fresh": "9/10",
+        "domain_available": "9/10",
+        "domain_accuracy": "7/10",
+        "domain_qualified": "9/10",
+        "targeted_available": "4/5",
+        "targeted_accuracy": "19/20",
+        "role_probability": "19/20",
+        "consent_probability": "9/10",
+        "authority_probability": "19/20",
+        "joint_probability": "9/10"
+      }
+    },
+    {
+      "id": "QUALIFIED_BUT_WRONG_WORLD",
+      "parameters": {
+        "source_probability": "9/10",
+        "source_scoped_probability": "4/5",
+        "source_correct_if_qualified": "1/5",
+        "source_correct_if_other": "1/5",
+        "source_signed": "9/10",
+        "source_fresh": "9/10",
+        "domain_available": "9/10",
+        "domain_accuracy": "19/20",
+        "domain_qualified": "19/20",
+        "targeted_available": "4/5",
+        "targeted_accuracy": "19/20",
+        "role_probability": "19/20",
+        "consent_probability": "9/10",
+        "authority_probability": "19/20",
+        "joint_probability": "9/10"
+      }
+    },
+    {
+      "id": "SOURCE_ABSENT_DIRECTED_AVAILABLE",
+      "parameters": {
+        "source_probability": "0",
+        "source_scoped_probability": "4/5",
+        "source_correct_if_qualified": "9/10",
+        "source_correct_if_other": "1/5",
+        "source_signed": "9/10",
+        "source_fresh": "9/10",
+        "domain_available": "9/10",
+        "domain_accuracy": "19/20",
+        "domain_qualified": "9/10",
+        "targeted_available": "1",
+        "targeted_accuracy": "19/20",
+        "role_probability": "19/20",
+        "consent_probability": "9/10",
+        "authority_probability": "19/20",
+        "joint_probability": "9/10"
+      }
+    },
+    {
+      "id": "BOTH_SIGNALS_HIGH_QUALITY",
+      "parameters": {
+        "source_probability": "9/10",
+        "source_scoped_probability": "4/5",
+        "source_correct_if_qualified": "19/20",
+        "source_correct_if_other": "17/20",
+        "source_signed": "9/10",
+        "source_fresh": "9/10",
+        "domain_available": "9/10",
+        "domain_accuracy": "19/20",
+        "domain_qualified": "19/20",
+        "targeted_available": "4/5",
+        "targeted_accuracy": "19/20",
+        "role_probability": "19/20",
+        "consent_probability": "9/10",
+        "authority_probability": "19/20",
+        "joint_probability": "9/10"
+      }
+    }
+  ]
+}
