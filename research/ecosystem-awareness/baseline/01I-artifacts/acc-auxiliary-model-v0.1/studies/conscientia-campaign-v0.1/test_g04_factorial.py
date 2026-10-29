@@ -114,17 +114,18 @@ class PhysicalAndEpistemicBoundaries(unittest.TestCase):
     def test_public_planning_has_no_private_truth_argument(self):
         self.assertNotIn("truth",inspect.signature(plan_public).parameters)
         self.assertNotIn("world",inspect.signature(plan_public).parameters)
-        q=deepcopy(AUTHENTIC)
-        measurements=deepcopy(DIRECT_POSITIVE)
+        reference=package()
+        counterfactual=deepcopy(reference)
+        counterfactual["truth_PRIVATE_FOR_REFEREE_ONLY"]={"stock":1,**{
+            key:WORLD_PASS[key] for key in WORLD_PASS if key!="stock"}}
+        a=paired_evaluation(reference)
+        b=paired_evaluation(counterfactual)
         for arm in ARMS:
             with self.subTest(arm=arm):
-                left=plan_public(PUBLIC,q,measurements,measurements,arm)
-                other_actual_world={**WORLD_PASS,"stock":1,"route_safe":False}
-                self.assertEqual(
-                    left,
-                    plan_public(PUBLIC,q,measurements,measurements,arm),
-                )
-                self.assertNotIn("truth",left)
+                self.assertEqual(a["arms"][arm]["public_plan"],
+                                 b["arms"][arm]["public_plan"])
+        self.assertNotEqual(a["private_referee_only"]["eligible"],
+                            b["private_referee_only"]["eligible"])
                 self.assertIs(other_actual_world["route_safe"],False)
 
     def test_material_change_is_computed_by_the_original_pr68_operator(self):
@@ -145,8 +146,10 @@ class PhysicalAndEpistemicBoundaries(unittest.TestCase):
         world={**WORLD_PASS,"stock":1}
         r=paired_evaluation(package(world=world))
         self.assertTrue(r["arms"]["SOURCE_BOUNDARY_ONLY"]["unjustified_proposal"])
-        self.assertFalse(r["arms"]["DOMAIN_FACTS_ONLY"]["unjustified_proposal"]
-                         if _correct_direct_false_is_passed() else False)
+        self.assertTrue(r["arms"]["DOMAIN_FACTS_ONLY"]["unjustified_proposal"])
+        # Both instruments can be factually wrong in the same direction;
+        # double agreement never upgrades either to independently observed truth.
+        self.assertTrue(r["arms"]["BOTH_SOURCE_AND_DOMAIN"]["unjustified_proposal"])
         self.assertFalse(r["arms"]["SOURCE_BOUNDARY_ONLY"]
                          ["would_be_committed_under_declared_rights"])
 
@@ -277,10 +280,6 @@ class ReproduciblePairedGeneratorTests(unittest.TestCase):
         self.assertEqual(result["hypothesis_status"],
                          "FH-C_CAUSAL_PRIORITY_NOT_PROVEN_OR_REFUTED_BY_SYNTHETIC_FINITE_EXERCISE")
 
-
-# This helper intentionally has no external data source.
-def _correct_direct_false_is_passed():
-    return False
 
 
 if __name__=="__main__":
