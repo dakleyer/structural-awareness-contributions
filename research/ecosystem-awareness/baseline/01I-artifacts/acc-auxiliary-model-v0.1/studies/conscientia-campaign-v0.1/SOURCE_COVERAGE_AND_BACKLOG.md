@@ -1,5 +1,8 @@
 # Matriz de cobertura documental y cola de experimentos reales
 
+> **Actualización ejecutable 29-10-2026.** Los ejemplos CE-NOTES/ACC-EXAMPLES se instrumentan ahora en 40 casos sociales con variantes físicas, distributivas, de coordinación, atribución y derechos; 3 mundos nativos PR44 y 30 nativos PR57. Ver [ORIGINAL_EXPERIMENTS.json](ORIGINAL_EXPERIMENTS.json), [NATIVE_EXPERIMENTS.json](NATIVE_EXPERIMENTS.json), [dimension_experiment.py](dimension_experiment.py), [run_original_experiments.py](run_original_experiments.py). Esta matriz histórica se mantiene como línea base; el campo «pendiente» para validación externa sigue vigente y ya no significa que no exista *representación sintética ejecutable* del ejemplo.
+
+
 **Corte:** 26-10-2026. `SYNTHETIC_RUN` significa que una representación ilustrativa derivada de la **pregunta** de la fuente fue calculada, NO que el paper/documento haya sido replicado. `REPLAY` repite artefactos Python ya existentes en el repo; `BLOCKED` significa que faltan una definición fuente o datos de observación. Ninguna cita de un documento de trabajo acredita validación social.
 
 | Fuente Google Doc / corpus | Motivo original conservado | Caso(s) registrados / código | Estado y requisito adicional |
