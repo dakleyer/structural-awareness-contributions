@@ -68,3 +68,41 @@ La ejecución publicó el artifact `conscientia-acc-synthetic-results` (ID 12664
 La ampliación [PR #49](https://github.com/dakleyer/structural-awareness-contributions/pull/49) conserva **todo el trabajo ya fusionado** y añade doce verificaciones fuente-ancladas a los ejemplos originales: el plátano en tres estados con conservación de unidades y consentimiento, crédito 7+4/7+3, manzanas y frutería con utilidad no monótona, eficiencia del documento IQ-03, procedencia duplicada, XOR finito, naranjas sin colusión demostrada, educación, ministerios, oficios y alumno de liceo como viñeta. El runner guarda los resultados en `source_anchored_microexperiments`, comparables con el JSON de referencia, **sin convertir ilustraciones en evidencia social observada**.
 
 Las 61 pruebas abarcan los 49 controles previos y doce casos adicionales. Los resultados anteriores y el artefacto CI ya verificado se preservan; los valores económicos/psicológicos de esos nuevos ejemplos siguen siendo sintéticos o NO ESTABLECIDOS. El instrumento D02 Attribution Gap permanece bloqueado por discrepancia de fórmula entre versiones y las métricas humanas necesitan fuente independiente. No existe un segundo protocolo DDS ni un oráculo UC21 reescrito.
+
+
+## 29-10-2026 — Laboratorio ejecutable de ejemplos originales (extensión aditiva)
+
+**Contrato:** la pregunta, el horizonte, el operador físico, la distribución por actor, las dimensiones declaradas —incluidas las implícitas—, los eventos que las activan y las restricciones de factibilidad/consentimiento/autoridad forman un caso. El motor produce la evaluación física, los estados dimensionales, la admisibilidad y la traza de evidencia. Nunca suma utilidades individuales ni convierte A/B/C/D en una probabilidad inventada. La frustración F, el beneficio B y el bienestar hipotético W se conservan separados por participante; HID y sufrimiento vivido no son equivalentes al resultado sintético.
+
+### Archivos y ejecución
+
+- [ORIGINAL_EXPERIMENTS.json](ORIGINAL_EXPERIMENTS.json): **40 pruebas sociales finitas**, basadas en el libro de ejemplos y párrafos del corpus, con variaciones materiales y negativas; datos de escenario etiquetados como sintéticos.
+- [dimension_experiment.py](dimension_experiment.py): operadores de flujo conservativo, capacidad, reparto, distancia física, elección no monótona, transmisión de oficio, eficiencia por servicio, procedencia e información discreta calculada desde filas. Interfaz pública de planificación sin entradas privadas, evaluación de restricciones sobre resultados computados, dimensiones explícitas/latentes/abiertas, SHA-256 por caso y registro de operadores externos.
+- [NATIVE_EXPERIMENTS.json](NATIVE_EXPERIMENTS.json): tres mundos del modelo social original PR #44 y las **30** fichas nativas del modelo agéntico PR #57.
+- [native_experiment_adapters.py](native_experiment_adapters.py): dos operadores que **invocan el código fuente sin alterar** de `intrinsic_abcd.py` y `agentic_reduction.py`. La planificación pública y el oráculo privado permanecen en fases distintas. Resultados etiquetados y agrupados por modelo, nunca sumados entre ellos.
+- [run_original_experiments.py](run_original_experiments.py) y [test_dimension_experiment.py](test_dimension_experiment.py): ejecución determinista y pruebas de aceptación de la semántica original; CI publica `acc-original-examples-execution`.
+
+```bash
+python -B studies/conscientia-campaign-v0.1/run_original_experiments.py --model both --compact
+```
+
+Usar la ruta relativa apropiada si se ejecuta desde otro directorio. `--model social` reproduce 40 variantes documentadas; `--model native-social` ejecuta los tres escenarios PR44; `--model agentic` ejecuta las 30 fuentes PR57; `--model both` ejecuta **73** casos sin composición de objetivos.
+
+| Caso original | Qué se ejecuta de verdad | Control de integridad |
+|---|---|---|
+| Dos plátanos S0/S1/S2 | Producción 0/2/2, conservación, asignación, desperdicio, B1=5, F1=7, W1=-2 | S2 sin ruta/consentimiento queda indeterminado; ruta denegada bloquea; intento de crear un tercer plátano resulta materialmente imposible |
+| Plátano lejano y uso local | Distancia por unidad antes/después | El ahorro físico no se transforma sin evidencia en emisiones o euros; título, seguridad y contratos tienen su propia puerta |
+| Cáritas/DANA | Un donante puede recibir beneficio sintético directo positivo y aun así rechazar un esquema de atribución | Atribución y consentimiento son condiciones distintas de logística; no se imputa comportamiento real a Cáritas |
+| Viernes y Robinson; crédito | 1/999 para dos recursos, veto de reparto relativo; 7+4/7+3 contra capacidad 10 | El veto no borra la ganancia material; demanda 11 no cabe en 10 |
+| Manzanas | Pico local 3, máximo discreto 8, transición no monótona | Que exista un máximo no demuestra que el puente sea autorizable |
+| IQ03 y 700→2 ministerios | Equivalencia de servicio antes de calcular brecha de recursos | Si falla equivalencia, no se certifica eficiencia; derechos, continuidad y trabajadores permanecen verificables |
+| Naranjas, educación, oficio, liceo | Conocimiento parcial, casos de capacidad sintéticos, transmisión mentor-aprendiz | Un objeto conservado no basta para transmitir una destreza; el bienestar humano no se deduce del álgebra |
+| Modelo nativo PR44 y agéntico PR57 | Fuente nativa: A actual, Q/B, capacidades ocultas solo para el referee, seis brazos y condiciones de meta-protocolo | Dos mundos con la misma A pública dan resultados privados distintos; C/D no se cierran |
+
+El registro histórico `CASE_REGISTRY.json` (60 casos) y `REFERENCE_SYNTHETIC_RESULTS.json` no se reescriben. El informe previo `campaign.py` sí deriva ahora los plátanos, IQ03 y los bits de información del motor/filas del propio experimento; debe seguir dando exactamente la misma salida de referencia. No cambian los 00M/00N/01K ni el objeto teórico ni los métodos de los dos modelos nativos.
+
+### Extensibilidad
+
+Para un nuevo dominio, aportar un caso con pregunta y horizonte acotados, unidades, fuente, dimensiones iniciales y eventos; registrar un operador que acepte entradas declaradas y devuelva `PhysicalOutcome(status,observations,issues)`. Los controles se aplican al resultado, no a un veredicto preescrito. Para un nuevo modelo nativo, escribir un adaptador análogo que exponga su salida conservando la separación información pública/oráculo privado; no mezclar magnitudes heterogéneas bajo un único ranking.
+
+**Estatus de prueba:** ejecución en un laboratorio finito, con rutas hipotéticas declaradas, controles negativos y procedencia. La admisibilidad condicional de un escenario no se convierte en consentimiento, seguridad o acuerdo histórico verificados.
