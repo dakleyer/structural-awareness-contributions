@@ -97,6 +97,21 @@ jobs:
             /tmp/acc_g04_paired_finite_private_trace.json
           if-no-files-found: error
 
+      - name: Check L-08 matched evidence provenance, precision and price sensitivity
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1"
+          python -B -m unittest discover -s "$S" -p test_l08_robustness.py -v
+          python -B "$S/l08_robustness.py" --manifest "$S/L08_PROTOCOL.json" --include-audit-samples --output /tmp/acc_l08_matched_accuracy_cost.json
+          python -B -c "import json; d=json.load(open('/tmp/acc_l08_matched_accuracy_cost.json')); assert d['total_paired_cell_evaluations']==18816 and len(d['panels'])==2 and len(d['price_contracts'])==4; assert all(p['count_cells']==49 for p in d['panels']); assert d['external_FH_C_causality']=='NOT_IDENTIFIED'; assert all(c['matched_worlds']==192 for p in d['panels'] for c in p['cells']); assert d['scoped_domain_requires_same_source_metadata_qualification']"
+          python -B -c "import json; d=json.load(open('/tmp/acc_l08_matched_accuracy_cost.json')); print('L08_CONDITIONAL_GRID_SUMMARY='+json.dumps([{'panel':p['id'],'counts':p['counts_by_two_axis_source_vs_scoped_domain'],'endpoints':[{'q':c['assumed_accuracy_of_qualified_source'],'direct':c['assumed_per_domain_observation_accuracy'],'order':c['matched_two_axis_source_vs_scoped_domain'],'B':[c['instrumental_arms']['SOURCE_BOUNDARY_ONLY'][k] for k in ('invalid_proposals','missed_valid_opportunities')],'domain_qualified':[c['instrumental_arms']['QUALIFIED_DOMAIN_FACTS_ONLY'][k] for k in ('invalid_proposals','missed_valid_opportunities')],'directed':[c['instrumental_arms']['CONVENTIONAL_TARGETED'][k] for k in ('invalid_proposals','missed_valid_opportunities')],'2axis_front':c['two_axis_front_no_price'],'3axis_original':c['three_axis_fronts_by_price_contract']['SOURCE_CHEAP_ORIGINAL']['three_axis_pareto_front'],'3axis_cost_reversed':c['three_axis_fronts_by_price_contract']['SOURCE_EXPENSIVE_DIRECT_CHEAP']['three_axis_pareto_front']} for c in p['cells'] if (c['assumed_accuracy_of_qualified_source'],c['assumed_per_domain_observation_accuracy']) in (('1','1/2'),('1/2','1'),('1','1'))]} for p in d['panels']],sort_keys=True))"
+
+      - name: Publish L-08 matched evidence and cost Pareto regimes
+        uses: actions/upload-artifact@v4
+        with:
+          name: acc-l08-paired-accuracy-provenance-price
+          path: /tmp/acc_l08_matched_accuracy_cost.json
+          if-no-files-found: error
+
       - name: Publish original-example cross-model execution report
         uses: actions/upload-artifact@v4
         with:
