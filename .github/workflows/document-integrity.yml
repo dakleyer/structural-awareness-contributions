@@ -112,6 +112,28 @@ jobs:
           path: /tmp/acc_l08_matched_accuracy_cost.json
           if-no-files-found: error
 
+      - name: Check L-08 original PR57 agentic reduction and fourteen foundational operation sequences
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1"
+          python -B -m unittest discover -s "$S" -p test_l08_agentic_adapter.py -v
+          python -B "$S/l08_agentic_adapter.py" --output /tmp/acc_l08_native_agentic_pareto.json
+          python -B -c "import json; r=json.load(open('/tmp/acc_l08_native_agentic_pareto.json')); assert (r['source_native_cases'],r['policy_decisions_replayed'])==(30,180); assert len(r['cases'])==30; assert 'NO_EMPIRICAL_AI_OR_HUMAN_DATA' in r['interpretation']; assert all(len(c['policy_arms'])==6 for c in r['cases'])"
+          git fetch --depth=1 origin refs/heads/research/acc-original-narrative-regressions-20261029
+          test "$(git rev-parse FETCH_HEAD)" = "4cd76d9676ac2902fc008096444c49b263d98d43"
+          mkdir -p /tmp/acc_l08_pinned_original_examples
+          ORIGINAL="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1"
+          for file in engine.py mechanistic_replay.py MECHANISM_CASES.json test_mechanistic_replay.py; do
+            git show "FETCH_HEAD:$ORIGINAL/$file" > "/tmp/acc_l08_pinned_original_examples/$file"
+          done
+          python -B -m unittest discover -s /tmp/acc_l08_pinned_original_examples -p test_mechanistic_replay.py -v
+
+      - name: Publish L-08 native agentic review without aggregating social questions
+        uses: actions/upload-artifact@v4
+        with:
+          name: acc-l08-native-agentic-casewise-pareto
+          path: /tmp/acc_l08_native_agentic_pareto.json
+          if-no-files-found: error
+
       - name: Publish original-example cross-model execution report
         uses: actions/upload-artifact@v4
         with:
