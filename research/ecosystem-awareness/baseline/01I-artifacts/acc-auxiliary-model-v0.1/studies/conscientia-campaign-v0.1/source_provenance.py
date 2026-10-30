@@ -8,6 +8,7 @@ mentions. S1-Pnnnn are internal ACC notes paragraphs, not a 24th Google Doc.
 from __future__ import annotations
 
 from collections import defaultdict
+from hashlib import sha256
 from pathlib import Path
 import json
 import re
@@ -215,13 +216,25 @@ def source_trace(
 
 
 def build_provenance() -> dict[str, Any]:
-    return source_trace(
+    output = source_trace(
         read_json("SOURCE_REGISTER.json"),
         read_json("SOURCE_REVIEW_CLAIMS.json"),
         read_json("CASE_REGISTRY.json"),
         read_json("ORIGINAL_EXPERIMENTS.json"),
         notes_text=NOTE_PATH.read_text(encoding="utf-8"),
     )
+    inputs = {
+        "SOURCE_REGISTER.json": HERE / "SOURCE_REGISTER.json",
+        "SOURCE_REVIEW_CLAIMS.json": HERE / "SOURCE_REVIEW_CLAIMS.json",
+        "CASE_REGISTRY.json": HERE / "CASE_REGISTRY.json",
+        "ORIGINAL_EXPERIMENTS.json": HERE / "ORIGINAL_EXPERIMENTS.json",
+        "model/01_NOTAS_COMPLETAS.md": NOTE_PATH,
+    }
+    output["source_input_sha256"] = {
+        name: sha256(path.read_bytes()).hexdigest()
+        for name,path in sorted(inputs.items())
+    }
+    return output
 
 
 def main() -> int:
