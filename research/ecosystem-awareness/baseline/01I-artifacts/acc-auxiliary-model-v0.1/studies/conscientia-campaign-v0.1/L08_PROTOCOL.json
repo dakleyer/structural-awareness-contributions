@@ -1,0 +1,99 @@
+{
+  "schema": "ACC-L08-CALIBRATED-PAIRED-EVIDENCE-v0.1",
+  "seed": "L08-source-faithful-matched-worlds-20261030",
+  "worlds_per_grid_cell": 192,
+  "population": "SOURCE_ORIGINAL_FINITE_BANANA_TRANSFER_1_HOLDER_1_BENEFICIARY",
+  "horizon": "ONE_DECLARED_DECISION_AT_CLOCK_10",
+  "assumption_notes": {
+    "source": "Finite synthetic source fidelity derived from G-04/G-03; no empirical calibrated source-error rates",
+    "balanced": "SOURCE_BOUNDARY_ONLY checks Q scope/simulated authentication/freshness; fair domain competitor checks exact same metadata requirements",
+    "strong_conventional": "CONVENTIONAL_TARGETED remains separately available with distinct declared accuracy and cost, never a weak straw peer",
+    "comparability": "Accuracy of each of THREE domain observations is not the same as accuracy of an overall source B claim; do not interpret equal numerical rates as equal epistemic quality",
+    "other": "Source R1/R2/R3/DDS and epistemic A/B/C/D are untouched; no conversion between food, error and instrument costs"
+  },
+  "accuracy_grid": [
+    "1/2",
+    "3/5",
+    "7/10",
+    "4/5",
+    "9/10",
+    "19/20",
+    "1"
+  ],
+  "panels": [
+    {
+      "id": "HISTORICAL_ACCESS_AND_QUALIFICATION",
+      "base_parameters": {
+        "source_probability": "9/10",
+        "source_scoped_probability": "4/5",
+        "source_correct_if_qualified": "7/10",
+        "source_correct_if_other": "1/2",
+        "source_signed": "9/10",
+        "source_fresh": "9/10",
+        "domain_available": "9/10",
+        "domain_accuracy": "7/10",
+        "domain_qualified": "9/10",
+        "targeted_available": "4/5",
+        "targeted_accuracy": "19/20",
+        "role_probability": "19/20",
+        "consent_probability": "9/10",
+        "authority_probability": "19/20",
+        "joint_probability": "9/10"
+      }
+    },
+    {
+      "id": "EQUAL_PUBLIC_SOURCE_AND_DOMAIN_AVAILABILITY",
+      "base_parameters": {
+        "source_probability": "1",
+        "source_scoped_probability": "1",
+        "source_correct_if_qualified": "7/10",
+        "source_correct_if_other": "1/2",
+        "source_signed": "1",
+        "source_fresh": "1",
+        "domain_available": "1",
+        "domain_accuracy": "7/10",
+        "domain_qualified": "1",
+        "targeted_available": "1",
+        "targeted_accuracy": "19/20",
+        "role_probability": "19/20",
+        "consent_probability": "9/10",
+        "authority_probability": "19/20",
+        "joint_probability": "9/10"
+      }
+    }
+  ],
+  "price_contracts": [
+    {
+      "id": "SOURCE_CHEAP_ORIGINAL",
+      "unit_prices": {
+        "source_review": "1/10",
+        "domain_measurement": "2/5",
+        "conventional_directed": "4/5"
+      }
+    },
+    {
+      "id": "ALL_INSTRUMENTS_EQUAL",
+      "unit_prices": {
+        "source_review": "2/5",
+        "domain_measurement": "2/5",
+        "conventional_directed": "2/5"
+      }
+    },
+    {
+      "id": "SOURCE_EXPENSIVE_DIRECT_CHEAP",
+      "unit_prices": {
+        "source_review": "1",
+        "domain_measurement": "1/10",
+        "conventional_directed": "1/10"
+      }
+    },
+    {
+      "id": "DOMAIN_EXPENSIVE_SOURCE_CHEAP",
+      "unit_prices": {
+        "source_review": "1/10",
+        "domain_measurement": "1",
+        "conventional_directed": "1"
+      }
+    }
+  ]
+}
