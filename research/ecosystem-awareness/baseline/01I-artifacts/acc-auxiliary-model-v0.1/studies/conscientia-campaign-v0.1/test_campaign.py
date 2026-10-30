@@ -223,9 +223,18 @@ class CausalAndHumanBoundaries(unittest.TestCase):
         self.assertEqual(v["observed_french_student"],"NOT_OBSERVED")
         self.assertEqual(v["experienced_distress"],"NOT_MEASURED")
     def test_report_reproducible_locally(self):
-        a=app.build_campaign(require_existing=False)
-        b=app.read_json('REFERENCE_SYNTHETIC_RESULTS.json')
-        self.assertEqual(a,b)
+        current=app.build_campaign(require_existing=False)
+        frozen=app.read_json('REFERENCE_SYNTHETIC_RESULTS.json')
+        # G-06 fixes a mislabeled *registration count* without rewriting the
+        # historically frozen experiment. Every other source result must be
+        # byte-equivalent as a parsed value, including the original decisions.
+        self.assertNotIn('source_documents_screened',current)
+        p=current.pop('source_provenance')
+        self.assertEqual(p['counts']['registered_total'],
+                         frozen.pop('source_documents_screened'))
+        self.assertEqual(p['counts']['baseline_text_review_reported_cohort_only'],17)
+        self.assertEqual(p['counts']['baseline_metadata_only_reported'],2)
+        self.assertEqual(current,frozen)
 
 
 if __name__=='__main__':unittest.main()
