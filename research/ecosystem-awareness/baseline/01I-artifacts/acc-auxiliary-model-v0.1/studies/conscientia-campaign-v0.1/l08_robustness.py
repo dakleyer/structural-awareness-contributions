@@ -372,6 +372,11 @@ def run(manifest:dict[str,Any], *, include_audit_samples:bool=False)->dict[str,A
         "manifest_sha256":sha256(json.dumps(manifest,sort_keys=True,
                                 separators=(",",":")).encode("utf-8")).hexdigest(),
         "source_owner":"PR70.g04_factorial + PR68.dimension_experiment.material_flow",
+        "source_engine_sha256":{
+            name:sha256((HERE/name).read_bytes()).hexdigest()
+            for name in ("g04_factorial.py","dimension_experiment.py",
+                         "G04_PROTOCOL.json")
+        },
         "source_original_public_policies_unchanged":True,
         "legacy_domain_raw_was_unqualified":True,
         "scoped_domain_requires_same_source_metadata_qualification":True,
