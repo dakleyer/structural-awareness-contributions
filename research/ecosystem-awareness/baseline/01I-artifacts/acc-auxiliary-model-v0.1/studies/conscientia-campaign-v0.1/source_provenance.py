@@ -75,7 +75,7 @@ def _validate_review_source(item: dict, source: dict) -> None:
             raise ValueError("later screening claim outside historical exceptions")
         if later.get("status") != LATER or later.get("reported_at") != "2026-10-29":
             raise ValueError("unqualified subsequent review claim")
-        if not later.get("reference", "").startswith("SOURCE_COVERAGE_AND_BACKLOG.md#"):
+        if later.get("reference") != "SOURCE_COVERAGE_AND_BACKLOG.md":
             raise ValueError("missing trace to later screening claim")
         if "NO_ARCHIVED_DOCUMENT_VERSION" not in later.get("proof_limit", ""):
             raise ValueError("later claim must retain its evidential limitation")
