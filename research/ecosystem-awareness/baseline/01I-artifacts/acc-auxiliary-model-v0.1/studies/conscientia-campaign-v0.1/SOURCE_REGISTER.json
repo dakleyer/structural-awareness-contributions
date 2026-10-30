@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "source_cutoff": "2026-10-26",
-  "note": "These are screened documents; not every file in Google Drive. Source-derived assertions are separated from test assumptions.",
+  "note": "Registry of referenced sources, NOT evidence that all texts were screened. See SOURCE_REVIEW_CLAIMS.json and source_provenance.py for dated review claims and case-level usage. Source-derived assertions remain separate from synthetic assumptions.",
   "sources": [
     {
       "source_id": "CE-NOTES",
