@@ -241,7 +241,7 @@
         "independent_source_level_review_attested": false
       },
       "later_review_claim": {
-        "reference": "SOURCE_COVERAGE_AND_BACKLOG.md#ce-mh-onepager-y-ce-prescience",
+        "reference": "SOURCE_COVERAGE_AND_BACKLOG.md",
         "reported_at": "2026-10-29",
         "status": "CONCEPTUAL_TEXT_SCREENING_REPORTED",
         "proof_limit": "LATER_MATRIX_NOTE_ONLY; NO_ARCHIVED_DOCUMENT_VERSION_OR_LINE_LEVEL_PROOF",
@@ -261,7 +261,7 @@
         "independent_source_level_review_attested": false
       },
       "later_review_claim": {
-        "reference": "SOURCE_COVERAGE_AND_BACKLOG.md#ce-mh-onepager-y-ce-prescience",
+        "reference": "SOURCE_COVERAGE_AND_BACKLOG.md",
         "reported_at": "2026-10-29",
         "status": "CONCEPTUAL_TEXT_SCREENING_REPORTED",
         "proof_limit": "LATER_MATRIX_NOTE_ONLY; NO_ARCHIVED_DOCUMENT_VERSION_OR_LINE_LEVEL_PROOF",
