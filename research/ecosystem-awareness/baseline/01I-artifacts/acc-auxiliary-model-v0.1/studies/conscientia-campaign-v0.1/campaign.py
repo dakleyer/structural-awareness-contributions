@@ -16,6 +16,7 @@ import sys
 import tempfile
 
 from dimension_experiment import run_case, conditional_entropy, conditional_information
+from source_provenance import build_provenance
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]  # caller should use full repo paths from HERE.parent
@@ -454,7 +455,7 @@ def build_campaign(require_existing: bool=True) -> dict:
     validate_cases(sources,cases)
     report={"schema_version":RESULTS_SCHEMA,"date_cutoff":"2026-10-26",
             "evidence_status":"SYNTHETIC_MODELS_ONLY; SOURCE_DOCUMENT_REVIEW; NO_HUMAN_OR_NATIVE_VENDOR_TEST",
-            "source_documents_screened":len(sources["sources"]),
+            "source_provenance":build_provenance(),
             "decision_experiments":run_decisions(cases),
             "factorial_joint_mechanism":factorial_joint_information(),
             "FH_C_competing_ablations":fh_c_competing_ablations(),
@@ -471,12 +472,22 @@ def build_campaign(require_existing: bool=True) -> dict:
 
 def report_summary(report: dict) -> str:
     d=report["decision_experiments"]
+    p=report["source_provenance"]["counts"]
     lines=["# Resultados de campaña sintética — Conscientia Ecosystemica / ACC", "",
            "**Fecha de corte:** 2026-10-26. **Estado:** ejecutado sobre funciones y fixtures sintéticos; no muestra observaciones humanas ni pruebas nativas de tecnología. La selección de escenarios NO es muestra estadística.","",
            "## Matriz de decisiones", "",
            f"{d['case_count']} casos cerrados de laboratorio × {d['arm_count']} estrategias = {d['arm_decisions']} evaluaciones. Doce mecanismos ilustrativos × cinco variantes; la verdad privada sólo puntúa después de que la estrategia decide.","",
            "| Estrategia | Correctas | Equivocadas | Sin resolver | No adjudicables | Coste sintético acumulado | Valor neto sintético en adjudicables |",
            "|---|---:|---:|---:|---:|---:|---:|"]
+    lines[4:4]=[
+        "## Procedencia documental G-06", "",
+        f"**{p['registered_total']} fuentes registradas**: {p['registered_google_docs']} Google Docs y {p['registered_github_references']} referencias del corpus.",
+        f"En el corte inicial, **{p['baseline_text_review_reported_cohort_only']} de {p['registered_google_docs']}** se declararon textualmente revisadas como conjunto; {p['baseline_metadata_only_reported']} solo estaban catalogadas por metadatos. Una nota posterior declara cribado conceptual para {p['later_conceptual_review_reported_without_snapshot']} sin documento/versionado revisado verificable.",
+        f"**{p['independent_source_level_historical_text_reviews_attested']} revisiones históricas acreditadas por instantánea individual** dentro de este registro: ausencia de esa evidencia NO demuestra ausencia de lectura.",
+        f"Uso explícito: {p['registered_sources_used_as_primary_in_frozen_cases']} fuentes primarias en {p['frozen_primary_cases']} casos congelados; {p['registered_sources_explicitly_used_in_either_case_registry']} fuentes identificadas directamente en alguno de los dos registros, con {p['narrative_cases_with_source_refs']} casos narrativos. Los párrafos internos S1-P se verifican aparte.",
+        "La etiqueta del resultado histórico `source_documents_screened=23` significaba **registradas**, no **leídas**; el JSON congelado se conserva para auditoría y no se utiliza como dato nuevo.",
+        "",
+    ]
     for name,t in d["totals"].items():
         lines.append(f"| {name} | {t['correct']} | {t['wrong']} | {t['unresolved']} | {t['unknown']} | {t['instrument_cost_all_cases']:.2f} | {t['net_utility_adjudicable_synthetic']:.2f} |")
     lines += ["", "**Interpretación:** el total económico es un resultado interno de la función de pérdidas definida para este experimento, NO una ganancia real observada ni evaluación independiente del producto EA. El modelo incluye Q falsa, Q caducada, comparador convencional superior y estados sin oráculo legítimo.","",
