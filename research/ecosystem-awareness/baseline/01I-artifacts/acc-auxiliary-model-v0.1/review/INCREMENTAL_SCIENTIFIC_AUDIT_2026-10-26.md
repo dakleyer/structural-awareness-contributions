@@ -58,6 +58,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 26 | 2026-10-29 | [Recepción de G-03 (PR #68)](#ronda-26) | G-03 respondido; L-07 nuevo |
 | 27 | 2026-10-29 | [Recepción de L-04 (#66) y L-07 (#68); #69 recibido](#ronda-27) | L-04 y L-07 respondidos |
 | 28 | 2026-10-29 | [Recepción de G-04 (PR #70)](#ronda-28) | G-04 respondido; L-08 nuevo |
+| 29 | 2026-10-30 | [Recepción de G-06 (PR #71)](#ronda-29) | G-06 respondido; sin hallazgos nuevos |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1170,3 +1171,34 @@ Se recibe la lista de seis direcciones con literatura externa. Se comprobó que 
 | <a id="l-08"></a>**L-08** | Baja · `ABIERTO` | **El ganador lo deciden las dos precisiones que fija el autor, y el frente de Pareto lo decide el precio declarado.** (a) Un barrido de 7 × 7 sobre `source_correct_if_qualified` y `domain_accuracy`, con 192 mundos por celda y el resto de parámetros del régimen equilibrado, da regiones nítidas: el brazo de límites domina solo si la fuente acierta al menos el 90 % de las veces y la medición directa el 80 % o menos; los hechos dominan si la medición acierta al menos el 70 % y la fuente el 80 % o menos; en el resto, resultado incomparable. El experimento traduce bien precisiones supuestas en resultados, pero no dice nada de cuál es mayor en la realidad. (b) `SOURCE_BOUNDARY_ONLY` está en el frente de Pareto de tres ejes en las 49 celdas, incluso donde comete 22 errores frente a 1. Su coste declarado (1/10 por consulta, frente a 2/5 y 4/5) es el menor de los brazos informados, y el control ingenuo cuesta 0, así que el frente no discrimina. (c) En el régimen sin Q, el comentario atribuye «2 errores y 18 omisiones» a la «inspección», pero esas cifras son de los hechos del dominio. La inspección convencional dirigida da 0 y 11, y domina al brazo de límites (0 y 57). (d) `DOMAIN_FACTS_ONLY` usa la medición directa sin comprobar su procedencia, mientras que `BOTH_SOURCE_AND_DOMAIN` sí la comprueba; la asimetría no se declara. | Publicar el mapa de precisiones como resultado principal: es una conclusión condicional honesta. Informar del frente de Pareto sin el eje de coste, o con costes variados, junto al de tres ejes. Corregir la cifra del comentario y declarar la asimetría de (d), o igualar las dos políticas. |
 
 **Totales:** 87 registros. 36 abiertos, 24 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-29"></a>
+
+## Ronda 29 — recepción de G-06 en PR #71 (30-10-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** [comentario en PR #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-6531656865), escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #71 (`9dc00e6d`) está apilado sobre #68.
+
+**Lo que pedía G-06:** distinguir «registrado», «leído» y «usado como fuente de un caso», y reconciliar 17, 19 y 23 en un único lugar.
+
+**Recuento independiente** (`g06_provenance_recount.py`), leyendo directamente los JSON y el archivo de notas, sin usar `source_provenance.py`:
+
+| Concepto | Cifra | Comprobación |
+|---|---:|---|
+| Fuentes registradas | 23 | 19 Google Docs y 4 referencias de GitHub; el registro de afirmaciones de lectura las cubre todas |
+| Lectura declarada en el corte inicial | 17 de 19 | Coincide con el README histórico («De los 19 Docs, se inspeccionó texto de 17»). Es una afirmación colectiva: hay 0 instantáneas individuales que la acrediten, y así se registra |
+| Solo metadatos en el corte inicial | 2 | CE-MH-ONEPAGER y CE-PRESCIENCE; la revisión conceptual posterior consta sin instantánea |
+| Fuentes primarias de los 60 casos congelados | 10 | Recontadas desde `primary_source_id` |
+| Fuentes registradas usadas en total | 13 | Los 40 casos narrativos añaden ACC-EXAMPLES, CE-ANTS y HID-D06 |
+| Anclas internas `S1-P` | 12 | Todas existen en `model/01_NOTAS_COMPLETAS.md`, como comentario y como `<a id>`; no se crea una vigesimocuarta fuente |
+
+**Integridad:**
+
+- El informe deja de publicar `source_documents_screened` y publica `source_provenance`. El 23 histórico se conserva solo en `REFERENCE_SYNTHETIC_RESULTS.json`, que no cambia.
+- La prueba histórica de igualdad se adapta: comprueba que el 23 equivale a `registered_total` y que todo lo demás coincide con el resultado congelado.
+- El diff no toca `CASE_REGISTRY.json`, `REFERENCE_SYNTHETIC_RESULTS.json`, `ORIGINAL_EXPERIMENTS.json` ni `NATIVE_EXPERIMENTS.json`.
+- Pasan las 17 pruebas nuevas y las 61 históricas, `verify_campaign.py` da `passed: true` y la CI está en verde.
+
+**Estado:** G-06 pasa a `RESPONDIDO` y se cerrará cuando #71 esté en `main`. La parte de N-03 sobre la discrepancia 17/19 queda reconciliada en la fuente, pero N-03 sigue abierto: pide que la nota al revisor externo declare esta y las demás limitaciones.
+
+**Totales:** 87 registros. 35 abiertos, 25 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.

@@ -37,7 +37,7 @@
   > - Las pruebas finitas revisadas establecen resultados concretos bajo sus hipótesis: una representación puede conservar una distinción necesaria para decidir; información compatible puede sostener una conclusión local útil; una guarda probada puede ahorrar comprobaciones en su dominio y balance de costes.
   > - Los fixtures también comprueban reproducción y sensibilidad bajo entradas o procedimientos suministrados. Esos resultados conservan su valor; para estudiar adquisición, selección o adaptación se necesita el proceso correspondiente y su evidencia.
   > - El fallo numérico I-01 y sus ampliaciones están corregidos y reconfirmados. La guarda de dominio M28-02 ya se corrigió y reconfirmó en la rama de #60; su incorporación sigue pendiente.
-- **Dónde estamos.** La auditoría tiene 79 registros sobre el contenido y 8 sobre la forma del propio expediente: 87 en total. De ellos, 36 siguen abiertos, 24 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 15 son propuestas de mejora, aclaraciones o puntos retirados.
+- **Dónde estamos.** La auditoría tiene 79 registros sobre el contenido y 8 sobre la forma del propio expediente: 87 en total. De ellos, 35 siguen abiertos, 25 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 15 son propuestas de mejora, aclaraciones o puntos retirados.
 - **Qué no es.** No es una revisión científica humana independiente. Todas las rondas las han escrito asistentes de IA (Claude y Codex), en parte a partir de observaciones de Iván.
 
 ## 2. Quién ha escrito qué
@@ -62,7 +62,7 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 |---|---:|---:|---:|---:|---:|---:|
 | N · Nota al revisor externo | 9 | 0 | 0 | 0 | 0 | 9 |
 | F · Código de #57 y #54 | 4 | 3 | 0 | 0 | 0 | 7 |
-| G · Campaña de 60 casos | 2 | 4 | 0 | 0 | 0 | 6 |
+| G · Campaña de 60 casos | 1 | 5 | 0 | 0 | 0 | 6 |
 | H · Modelo social | 5 | 0 | 1 | 0 | 0 | 6 |
 | I · Defecto de qualify | 0 | 0 | 1 | 0 | 0 | 1 |
 | M27 · Corpus matemático | 11 | 2 | 2 | 1 | 4 | 20 |
@@ -71,7 +71,7 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 | J · Forma del expediente | 1 | 6 | 1 | 0 | 0 | 8 |
 | K · Modelo social #44–#46 | 1 | 3 | 3 | 1 | 0 | 8 |
 | L · Recepciones (rondas 23–28) | 2 | 3 | 3 | 0 | 0 | 8 |
-| **Total** | **36** | **24** | **12** | **10** | **5** | **87** |
+| **Total** | **35** | **25** | **12** | **10** | **5** | **87** |
 
 **Qué significa cada estado:**
 
@@ -274,6 +274,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 26 | 29 oct | Claude | Recepción de G-03 (#68): cálculos derivados de los mundos, G-03 respondido, L-07 nuevo | [ronda 26](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-26) |
 | 27 | 29 oct | Claude | Recepción de L-04 (#66) y L-07 (#68): ambos reproducidos y respondidos; #69 recibido, pendiente de auditar | [ronda 27](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-27) |
 | 28 | 29 oct | Claude | Recepción de G-04 (#70): ensayos emparejados reproducidos, G-04 respondido, L-08 nuevo | [ronda 28](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-28) |
+| 29 | 30 oct | Claude | Recepción de G-06 (#71): procedencia de las fuentes recontada, G-06 respondido | [ronda 29](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-29) |
 
 <a id="11-los-79-registros-uno-por-uno"></a>
 <a id="11-los-82-registros-uno-por-uno"></a>
@@ -316,7 +317,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 
 </details>
 
-<details><summary><b>G · Campaña de 60 casos (#48/#49)</b> — 6 registros, 2 abiertos</summary>
+<details><summary><b>G · Campaña de 60 casos (#48/#49)</b> — 6 registros, 1 abiertos</summary>
 
 | ID | Estado | Gravedad | En pocas palabras | Ronda que fijó el estado |
 |---|---|---|---|---|
@@ -325,7 +326,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 | [G-03](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#g-03) | 🟠 Respondido | Media | Varios «microexperimentos» eran números escritos a mano. #68 los calcula desde los mundos declarados; falta incorporarlo a main. | 26 |
 | [G-04](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#g-04) | 🟠 Respondido | Media | El factorial y las ablaciones FH-C eran tautológicos por construcción. #70 añade ensayos emparejados en los que el comparador puede perder; falta incorporarlo a main. | 28 |
 | [G-05](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#g-05) | 🟠 Respondido | Baja | #54 repite 8 celdas de red que ya estaban en #49. | 6 |
-| [G-06](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#g-06) | 🔵 Abierto | Baja | Hay tres cifras distintas de documentos «cribados» (17, 19 y 23). | 3 |
+| [G-06](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#g-06) | 🟠 Respondido | Baja | El recuento de fuentes «cribadas» (23) contaba registradas. #71 separa registradas, leídas según lo declarado y usadas en casos; falta incorporarlo a main. | 29 |
 
 </details>
 

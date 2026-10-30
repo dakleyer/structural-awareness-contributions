@@ -62,7 +62,7 @@ LEDGER = [
     ("G-03", "G", "Media", "RESPONDIDO", 26, "Varios «microexperimentos» eran números escritos a mano. #68 los calcula desde los mundos declarados; falta incorporarlo a main."),
     ("G-04", "G", "Media", "RESPONDIDO", 28, "El factorial y las ablaciones FH-C eran tautológicos por construcción. #70 añade ensayos emparejados en los que el comparador puede perder; falta incorporarlo a main."),
     ("G-05", "G", "Baja", "RESPONDIDO", 6, "#54 repite 8 celdas de red que ya estaban en #49."),
-    ("G-06", "G", "Baja", "ABIERTO", 3, "Hay tres cifras distintas de documentos «cribados» (17, 19 y 23)."),
+    ("G-06", "G", "Baja", "RESPONDIDO", 29, "El recuento de fuentes «cribadas» (23) contaba registradas. #71 separa registradas, leídas según lo declarado y usadas en casos; falta incorporarlo a main."),
     ("H-01", "H", "Alta", "ABIERTO", 10, "La «trampa» de #42 prohíbe los pasos intermedios; no muestra agentes que elijan quedarse."),
     ("H-02", "H", "Alta", "ABIERTO", 4, "La brecha que crece con n es un supuesto: la misma ecuación en #42, #49 y #54."),
     ("H-03", "H", "Alta", "ABIERTO", 10, "En #43 la información se pierde por cómo se pregunta (censura), no por el anidamiento."),
@@ -277,7 +277,7 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"),
 ]
 
 
