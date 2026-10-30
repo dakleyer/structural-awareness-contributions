@@ -105,11 +105,30 @@ jobs:
           python -B -c "import json; d=json.load(open('/tmp/acc_l08_matched_accuracy_cost.json')); assert d['total_paired_cell_evaluations']==18816 and len(d['panels'])==2 and len(d['price_contracts'])==4; assert all(p['count_cells']==49 for p in d['panels']); assert d['external_FH_C_causality']=='NOT_IDENTIFIED'; assert all(c['matched_worlds']==192 for p in d['panels'] for c in p['cells']); assert d['scoped_domain_requires_same_source_metadata_qualification']"
           python -B -c "import json; d=json.load(open('/tmp/acc_l08_matched_accuracy_cost.json')); print('L08_CONDITIONAL_GRID_SUMMARY='+json.dumps([{'panel':p['id'],'counts':p['counts_by_two_axis_source_vs_scoped_domain'],'endpoints':[{'q':c['assumed_accuracy_of_qualified_source'],'direct':c['assumed_per_domain_observation_accuracy'],'order':c['matched_two_axis_source_vs_scoped_domain'],'B':[c['instrumental_arms']['SOURCE_BOUNDARY_ONLY'][k] for k in ('invalid_proposals','missed_valid_opportunities')],'domain_qualified':[c['instrumental_arms']['QUALIFIED_DOMAIN_FACTS_ONLY'][k] for k in ('invalid_proposals','missed_valid_opportunities')],'directed':[c['instrumental_arms']['CONVENTIONAL_TARGETED'][k] for k in ('invalid_proposals','missed_valid_opportunities')],'2axis_front':c['two_axis_front_no_price'],'3axis_original':c['three_axis_fronts_by_price_contract']['SOURCE_CHEAP_ORIGINAL']['three_axis_pareto_front'],'3axis_cost_reversed':c['three_axis_fronts_by_price_contract']['SOURCE_EXPENSIVE_DIRECT_CHEAP']['three_axis_pareto_front']} for c in p['cells'] if (c['assumed_accuracy_of_qualified_source'],c['assumed_per_domain_observation_accuracy']) in (('1','1/2'),('1/2','1'),('1','1'))]} for p in d['panels']],sort_keys=True))"
 
+      - name: Check L-08 portable conditional matrix and pinned source behavior
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1"
+          python -B -m unittest discover -s "$S" -p test_l08_executive_summary.py -v
+          python -B "$S/l08_executive_summary.py" /tmp/acc_l08_matched_accuracy_cost.json --json /tmp/acc_l08_conditional_summary.json --markdown /tmp/acc_l08_conditional_summary.md
+          python -B -c "import json; d=json.load(open('/tmp/acc_l08_conditional_summary.json')); ps={p['panel']:p for p in d['panels']}; m=ps['EQUAL_PUBLIC_SOURCE_AND_DOMAIN_AVAILABILITY']['two_axis_verdict_counts']; assert (m['BOUNDARY_DOMINATES_ON_ERRORS_AND_MISSED_CANDIDATES'],m['DOMAIN_FACTS_DOMINATES_ON_ERRORS_AND_MISSED_CANDIDATES'],m['INCOMPARABLE_ERROR_VS_MISSED_OPPORTUNITY_TRADEOFF'],m['TIE_ON_ERRORS_AND_MISSED_CANDIDATES'])==(13,9,26,1); assert d['paired_evaluations']==18816; print('L08_CONDITIONAL_GRID_MAP='+json.dumps([{'panel':p['panel'],'matrix':[{'source':x['source_accuracy'],'verdicts':''.join(x['values'])} for x in p['classification_matrix']],'cost_front_membership':p['three_axis_membership_by_price_contract']} for p in d['panels']],sort_keys=True))"
+          git fetch --depth=1 origin refs/heads/research/acc-g04-falsifiable-factorial-20261029
+          test "$(git rev-parse FETCH_HEAD)" = "7170dd9e8929e7bc01a1c85f2d85f7087d9e41eb"
+          for file in g04_factorial.py G04_PROTOCOL.json dimension_experiment.py; do
+            git show "FETCH_HEAD:$S/$file" | cmp - "$S/$file"
+          done
+          AG="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1"
+          for file in agentic_reduction.py CASES.json; do
+            git show "FETCH_HEAD:$AG/$file" | cmp - "$AG/$file"
+          done
+
       - name: Publish L-08 matched evidence and cost Pareto regimes
         uses: actions/upload-artifact@v4
         with:
           name: acc-l08-paired-accuracy-provenance-price
-          path: /tmp/acc_l08_matched_accuracy_cost.json
+          path: |
+            /tmp/acc_l08_matched_accuracy_cost.json
+            /tmp/acc_l08_conditional_summary.json
+            /tmp/acc_l08_conditional_summary.md
           if-no-files-found: error
 
       - name: Check L-08 original PR57 agentic reduction and fourteen foundational operation sequences
