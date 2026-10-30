@@ -1,0 +1,325 @@
+{
+  "schema": "ACC-REGISTERED-SCREENING-CLAIMS-v0.1",
+  "as_of_review": "2026-10-30",
+  "source_registry": "SOURCE_REGISTER.json",
+  "policy": "Registry inclusion, aggregate text-review reports, later conceptual-screening claims, and actual case use are separate states. No historic read is independently attested by an archived text snapshot in this ledger. Never infer use from source title, role or contextual mentions.",
+  "historical_screening_claims": {
+    "baseline": "README.md §1 (26 Oct 2026): 19 Docs, 17 text inspected, 2 historical metadata only",
+    "subsequent": "SOURCE_COVERAGE_AND_BACKLOG.md (updated 29 Oct): the two historical documents were subsequently conceptually screened; no source-level snapshot or reviewer/date attestation provided"
+  },
+  "sources": [
+    {
+      "source_id": "CE-NOTES",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "TEXT_REVIEW_REPORTED_AT_COHORT_LEVEL",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "INFERRED_BY_EXCLUSION_FROM_17_OF_19_AGGREGATE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "CE-SOLIDARITY-V3",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "TEXT_REVIEW_REPORTED_AT_COHORT_LEVEL",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "INFERRED_BY_EXCLUSION_FROM_17_OF_19_AGGREGATE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "CE-DIALOGUE-V4",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "TEXT_REVIEW_REPORTED_AT_COHORT_LEVEL",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "INFERRED_BY_EXCLUSION_FROM_17_OF_19_AGGREGATE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "CE-SCHEME",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "TEXT_REVIEW_REPORTED_AT_COHORT_LEVEL",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "INFERRED_BY_EXCLUSION_FROM_17_OF_19_AGGREGATE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "CE-ANTS",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "TEXT_REVIEW_REPORTED_AT_COHORT_LEVEL",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "INFERRED_BY_EXCLUSION_FROM_17_OF_19_AGGREGATE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "CE-CAPACITY",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "TEXT_REVIEW_REPORTED_AT_COHORT_LEVEL",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "INFERRED_BY_EXCLUSION_FROM_17_OF_19_AGGREGATE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "CE-CORRESPONDENCE",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "TEXT_REVIEW_REPORTED_AT_COHORT_LEVEL",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "INFERRED_BY_EXCLUSION_FROM_17_OF_19_AGGREGATE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "CE-SOCIAL-WORK",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "TEXT_REVIEW_REPORTED_AT_COHORT_LEVEL",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "INFERRED_BY_EXCLUSION_FROM_17_OF_19_AGGREGATE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "AG-D01",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "TEXT_REVIEW_REPORTED_AT_COHORT_LEVEL",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "INFERRED_BY_EXCLUSION_FROM_17_OF_19_AGGREGATE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "AG-D02",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "TEXT_REVIEW_REPORTED_AT_COHORT_LEVEL",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "INFERRED_BY_EXCLUSION_FROM_17_OF_19_AGGREGATE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "HID-D06",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "TEXT_REVIEW_REPORTED_AT_COHORT_LEVEL",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "INFERRED_BY_EXCLUSION_FROM_17_OF_19_AGGREGATE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "IF-D10",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "TEXT_REVIEW_REPORTED_AT_COHORT_LEVEL",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "INFERRED_BY_EXCLUSION_FROM_17_OF_19_AGGREGATE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "CC-D17",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "TEXT_REVIEW_REPORTED_AT_COHORT_LEVEL",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "INFERRED_BY_EXCLUSION_FROM_17_OF_19_AGGREGATE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "HID-D20",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "TEXT_REVIEW_REPORTED_AT_COHORT_LEVEL",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "INFERRED_BY_EXCLUSION_FROM_17_OF_19_AGGREGATE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "ENT-DIST",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "TEXT_REVIEW_REPORTED_AT_COHORT_LEVEL",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "INFERRED_BY_EXCLUSION_FROM_17_OF_19_AGGREGATE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "ENT-AUDIT",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "TEXT_REVIEW_REPORTED_AT_COHORT_LEVEL",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "INFERRED_BY_EXCLUSION_FROM_17_OF_19_AGGREGATE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "CE-MH-NOTE",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "TEXT_REVIEW_REPORTED_AT_COHORT_LEVEL",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "INFERRED_BY_EXCLUSION_FROM_17_OF_19_AGGREGATE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "CE-MH-ONEPAGER",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "METADATA_ONLY_REPORTED_AT_BASELINE",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "NAMED_EXCEPTION_IN_HISTORICAL_README",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": {
+        "reference": "SOURCE_COVERAGE_AND_BACKLOG.md",
+        "reported_at": "2026-10-29",
+        "status": "CONCEPTUAL_TEXT_SCREENING_REPORTED",
+        "proof_limit": "LATER_MATRIX_NOTE_ONLY; NO_ARCHIVED_DOCUMENT_VERSION_OR_LINE_LEVEL_PROOF",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      }
+    },
+    {
+      "source_id": "CE-PRESCIENCE",
+      "reference_kind": "GOOGLE_DOC",
+      "baseline_status": "METADATA_ONLY_REPORTED_AT_BASELINE",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "NAMED_EXCEPTION_IN_HISTORICAL_README",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": {
+        "reference": "SOURCE_COVERAGE_AND_BACKLOG.md",
+        "reported_at": "2026-10-29",
+        "status": "CONCEPTUAL_TEXT_SCREENING_REPORTED",
+        "proof_limit": "LATER_MATRIX_NOTE_ONLY; NO_ARCHIVED_DOCUMENT_VERSION_OR_LINE_LEVEL_PROOF",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      }
+    },
+    {
+      "source_id": "00M-CANON",
+      "reference_kind": "GITHUB_CORPUS_REFERENCE",
+      "baseline_status": "NOT_IN_GOOGLE_DOCS_SCREENING_POPULATION",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "NOT_APPLICABLE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "01K-HID",
+      "reference_kind": "GITHUB_CORPUS_REFERENCE",
+      "baseline_status": "NOT_IN_GOOGLE_DOCS_SCREENING_POPULATION",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "NOT_APPLICABLE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "UC21-SOURCE",
+      "reference_kind": "GITHUB_CORPUS_REFERENCE",
+      "baseline_status": "NOT_IN_GOOGLE_DOCS_SCREENING_POPULATION",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "NOT_APPLICABLE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    },
+    {
+      "source_id": "ACC-EXAMPLES",
+      "reference_kind": "GITHUB_CORPUS_REFERENCE",
+      "baseline_status": "NOT_IN_GOOGLE_DOCS_SCREENING_POPULATION",
+      "baseline_evidence": {
+        "reference": "README.md#1-objetivo-y-fuentes-realmente-utilizadas",
+        "claim_scope": "NOT_APPLICABLE",
+        "dated_cutoff": "2026-10-26",
+        "content_snapshot_sha256": null,
+        "independent_source_level_review_attested": false
+      },
+      "later_review_claim": null
+    }
+  ]
+}

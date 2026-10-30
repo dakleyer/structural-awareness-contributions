@@ -12,10 +12,28 @@ HERE=Path(__file__).resolve().parent
 expected=json.loads((HERE/'REFERENCE_SYNTHETIC_RESULTS.json').read_text(encoding='utf-8'))
 observed=build_campaign(require_existing=True)
 # The synthetic decision/factorial/entropy experiment is an exact fixture replay.
-for key in ('schema_version','date_cutoff','source_documents_screened','decision_experiments',
+for key in ('schema_version','date_cutoff','decision_experiments',
             'factorial_joint_mechanism','FH_C_competing_ablations','network_counterfactuals','source_anchored_microexperiments','finite_entropic_experiment',
             'human_and_measurement_blockers','uc21_case_templates_not_executed','interpretation_guard'):
     assert observed[key]==expected[key],f'Synthetic experiment reference mismatch: {key}'
+# The immutable historical fixture misnamed a REGISTERED count as "screened".
+# Preserve the original bytes and explicitly reconcile its meaning, without
+# publishing 23 as an active text-read claim or altering synthetic verdicts.
+assert 'source_documents_screened' not in observed, 'obsolete source count must not reappear'
+lineage=observed['source_provenance']
+counts=lineage['counts']
+assert expected['source_documents_screened']==counts['registered_total']==23
+assert counts['registered_google_docs']==19
+assert counts['baseline_text_review_reported_cohort_only']==17
+assert counts['baseline_metadata_only_reported']==2
+assert counts['later_conceptual_review_reported_without_snapshot']==2
+assert counts['independent_source_level_historical_text_reviews_attested']==0
+assert counts['registered_sources_used_as_primary_in_frozen_cases']==10
+assert counts['frozen_primary_cases']==60
+assert counts['narrative_cases_with_source_refs']==40
+assert counts['legacy_source_documents_screened_23_meant']=='REGISTERED_TOTAL_NOT_SCREENED_TEXT'
+assert len(lineage['source_level_lineage'])==23
+assert len(lineage['source_input_sha256'])==5
 # Prior artefacts are executed again: source code and pinned reference both checked.
 assert len(observed['existing_synthetic_replays'])==4
 for name,outcome in observed['existing_synthetic_replays'].items():

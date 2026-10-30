@@ -23,7 +23,7 @@
 | HID-D20 | Trabajo humano compensatorio, medición por roles y retroalimentación | `HID_task_time_synthetic` | SYNTHETIC_ONLY; sin fuentes humanas longitudinales, sin resultado 01K externo |
 | ENT-DIST y ENT-AUDIT | Cobertura de preimágenes, KL, riesgo de inferencias físicas | `finite_entropic_experiment` | FINITE_MATH: Shannon sólo con población definida, orientación KL correcta, no Landauer universal |
 | CE-MH-NOTE | Bien común, derechos, UC21/S4 y reflexión | `RIGHTS-*`, `SOLID-*`, UC21 S4 fixture | Analogía; no declaración atribuible oficialmente al Vaticano por este experimento |
-| CE-MH-ONEPAGER y CE-PRESCIENCE | Archivos y antecedente de conciencia mínima | fuente por METADATOS; no caso nuevo atribuido | **TEXT_SCREENED_CONCEPTUAL**: recuperados ambos textos y cribados temas y secciones; copia histórica y antecedente de awareness suficiente, sin nueva observación ni replicación |
+| CE-MH-ONEPAGER y CE-PRESCIENCE | Archivos y antecedente de conciencia mínima | **BASE 26-10:** catalogadas por metadatos, sin caso nuevo atribuido | **NOTA POSTERIOR 29-10:** se afirma cribado conceptual de ambos textos; no existe en este expediente una instantánea archivada/revisor/fecha individual que demuestre lectura íntegra. No se añaden observaciones ni replicaciones; ver [G-06](G06_SOURCE_PROVENANCE_AUDIT.md) |
 | 00M y 01K | Semántica B/C/D y medidas humanas propiamente dichas | `finite_entropic_experiment`, bloqueadores humanos, PR47 bridge | Definición y límites en vigor; NO se reescribieron canónicos |
 | UC21 S1–S6 | 37 gates fuente, R0/R1/R2 y falsadores | `uc21_case_templates_not_executed` + `UC21_adapter_replay` | **Seis tests nativos NOT_RUN**; se ejecuta únicamente fixture S4 sintético; ningún defensor real aceptado |
 | ACC-EXAMPLES | Plátanos, DANA, naranjas, crédito, manzanas, liceo y X−200 | EX-IDs estables en cada familia, cuatro replays de #42–#45 | Historias ilustrativas conservadas, no hechos observados ni pruebas sociológicas |
@@ -35,3 +35,12 @@
 **P1 — medición humana autorizada:** ACW/GIC/NEO/UNKNOWN por episodios con codificadores independientes; autonomía/competencia y eudaimonía con escalas validas; accesibilidad educativa y oficios bajo preferencias de la persona. No solicitar datos reales a menores o poblaciones vulnerables sin protocolo ético.
 
 **P2 — identificación difícil:** captura-recaptura del universo no visto; causalidad de burocracia/credit-gaps; efectos de comunicación pública Q sobre equilibrios; hipótesis de feedback/segundo orden sobre n dimensiones; validación de semánticas físicas de primitivas entrópicas fuera de modelos finitos. Algunos problemas no son evaluables sin nuevos instrumentos, y el plan conserva UNKNOWN.
+
+
+## Conciliación G-06 — registrada, revisada y usada (30-10-2026)
+
+El registro original tenía **23 entradas** (19 Google Docs y cuatro fuentes del corpus), pero `source_documents_screened=23` no procedía de verificaciones de lectura: era la longitud de `SOURCE_REGISTER.json`. La primera versión del README afirma **17 de 19** textos revisados y dos fuentes históricas por metadatos; la anotación de la matriz del **29-10** declara revisión conceptual posterior de esas dos. Ambas afirmaciones permanecen documentadas, sin convertir una nota agregada en una prueba individual con archivo versionado.
+
+El [inventario ejecutable G-06](G06_SOURCE_PROVENANCE_AUDIT.md) reúne ahora las 23 identidades y calcula los usos de casos por sus referencias explícitas. El registro de 60 casos cita **10 fuentes primarias diferentes**, mientras que la unión con los 40 narrativos cita **13 referencias del registro** y otras **12 anclas de párrafos S1** verificadas en las notas completas. Las tablas de cobertura contextual de este archivo **no cuentan como uso directo de un caso**. Si un documento no es `primary_source_id`, eso no significa que sea irrelevante ni que no haya sido leído.
+
+No se modifica la interpretación de los estudios, los derechos, los resultados congelados o la categoría de evidencia. En adelante, los cambios de estado de lectura requieren custodia de versión, fecha, responsable y hash; la validación del corpus rechaza convertir una mera afirmación en una atestación.
