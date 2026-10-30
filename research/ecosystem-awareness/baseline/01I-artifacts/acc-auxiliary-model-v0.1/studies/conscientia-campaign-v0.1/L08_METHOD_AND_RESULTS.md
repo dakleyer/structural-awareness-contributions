@@ -82,4 +82,76 @@ Desde \`studies/conscientia-campaign-v0.1\`:
 
 La CI guarda el JSON completo con identificadores de celdas, los cuatro frentes de precio, hashes del protocolo, lista de política y muestras privadas separadas de las decisiones públicas. Para un caso de terceros con las mismas **preguntas/roles** pueden utilizarse los extractores públicos \`pareto\`, \`checked_price_contract\`, \`two_arm_order\` y \`_measure\`; la fábrica de mundos y el árbitro son adaptadores sujetos al contrato de fuente, y NO se presume aplicabilidad automática a otro modelo social o agéntico.
 
-**El resultado definitivo y las observaciones negativas se incorporarán aquí tras una CI reproducida.** No abrir ni cerrar un hallazgo por una tabla escrita de antemano.
+## 8. Resultado experimental observado — corrección L-08
+
+**Origen:** primera ejecución completa verificada [GitHub Actions #41118275338](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/41118275338), con 20/20 tests nuevos iniciales, 18.816 evaluaciones emparejadas, 6 regímenes G-04 y todos los casos fuente PR68. El informe adicional 7×7 se genera directamente desde las trazas JSON mediante [l08_executive_summary.py](l08_executive_summary.py), sin nuevos parámetros.
+
+### 8.1 Comparación de precisión: sin coste
+
+**Panel A — cobertura/atestación iniciales de G-04.** De 49 combinaciones, B domina **15**, los hechos del dominio **22** y **12** son incomparables. No hubo empates. En el extremo Q 100%, sensores 100%, **todavía gana el dominio**, porque las fuentes son inaccesibles/no cualificadas en parte de los mundos del panel original: B comete **0 errores**, pero pierde **23 oportunidades**; la medición de dominio comete 0 y pierde 5. Es un resultado de **cobertura**, no de precisión del contenido.
+
+**Panel B — fuente y dominio con disponibilidad pública/procedencia idéntica.** B domina **13** combinaciones, hechos **9**, **26** son incomparables y **1** empate. El empate se obtiene cuando ambas precisiones valen 100%, con **cero errores y cero oportunidades válidas perdidas** para ambas. Los límites originales de A/consentimiento/autoridad permanecen iguales en cada mundo.
+
+Los puntos extremos del panel B:
+
+| Precisión B / cada hecho | B: errores / oportunidades perdidas | Hechos cualificados: errores / perdidas | Resultado |
+|---|---:|---:|---|
+| 100 % / 50 % | **0 / 0** | 15 / 52 | Dominancia de B en ambos ejes |
+| 50 % / 100 % | 46 / 23 | **0 / 0** | Dominancia de hechos |
+| 100 % / 100 % | **0 / 0** | **0 / 0** | Empate por eficacia, no superioridad epistémica |
+
+**Cuidado:** se comparan **una declaración B** y **tres hechos medidos independientemente**. Una precisión supuesta del 90% para ambos tipos de entrada no representa necesariamente la misma exactitud del resultado de decisión; el propósito de la superficie es verificar el comportamiento, no afirmar esa equivalencia.
+
+### 8.2 El coste de B fabricaba un puesto en el frente
+
+Este es el hallazgo **más decisivo** de L-08:
+
+| Panel B: pertenencia de B al frente de Pareto, sobre 49 celdas | Celdas |
+|---|---:|
+| **Sin incluir coste** (solo errores y oportunidades perdidas) | **19** |
+| Con los precios originales: B = 0,1; hechos = 0,4; convencional = 0,8 | **49** |
+| Igualando todos los precios a 0,4 | **19** |
+| Haciendo B más cara y los instrumentos directos baratos | **18** |
+| Hechos caros y B barata | **49** |
+
+Los **resultados físicos y las decisiones se mantienen idénticos** en las cinco filas. La presencia de B en el frente de 49/49 no demostraba ventaja científica: era un efecto del precio más barato. El laboratorio conserva el análisis de costes, pero lo etiqueta como **escenario económico condicionado** y nunca lo emplea para sustituir la evaluación informacional.
+
+En el panel A el contraste es aún más evidente: el frente **sin coste** incluye B en **6/49** celdas; el frente con el precio bajo original la incluye en **49/49**.
+
+### 8.3 Comparador correcto, sin alterar los cinco brazos originales
+
+En el régimen histórico sin Q, los resultados reales son:
+
+| Brazo | Propuestas erróneas | Oportunidades válidas no propuestas |
+|---|---:|---:|
+| SOURCE_BOUNDARY_ONLY | 0 | 57 |
+| **DOMAIN_FACTS_ONLY** (lectura no cualificada, control histórico) | **2** | **18** |
+| **CONVENTIONAL_TARGETED** (inspección convencional dirigida) | **0** | **11** |
+
+Por tanto se corrige la atribución equivocada «2/18» a la inspección convencional. **La inspección dirigida domina B en estos dos ejes (0 ≤ 0; 11 < 57)**. El nuevo brazo \`QUALIFIED_DOMAIN_FACTS_ONLY\` conserva el coste de revisión cuando consulta una lectura de procedencia inadecuada y no la transforma en verdad válida. \`DOMAIN_FACTS_ONLY\` antiguo sigue intacto para la reproducción del ensayo histórico.
+
+### 8.4 Reutilización intermodelo contrastada sin equivalencias ficticias
+
+El [adaptador para PR57](l08_agentic_adapter.py) aplica **el mismo método matemático de orden parcial** a los **30 casos × seis brazos = 180 políticas ejecutadas** del motor agéntico original, pero emplea exclusivamente las dimensiones del caso nativo: (brecha técnica de misión según árbitro privado, coste sintético del instrumento). No mezcla su objetivo con la utilidad humana ni con la distribución de plátanos.
+
+En AG01, \`CONVENTIONAL_DIRECTED\` obtiene brecha **0** al precio declarado **1,2**, mientras \`Q_META_PROTOCOL\` deja brecha **2** al precio **0,3**. Son **incomparables** en estas dos coordenadas. \`CONVENTIONAL_EQUIVALENT_Q\` continúa empatando con \`Q_META_PROTOCOL\` bajo la misma Q. No se reescriben capacidades/transferencias/autoridades nativas.
+
+Se ejecutan además de forma independiente los **14 ejemplos originales de secuencias PR69** en una copia de archivos y commit fijados dentro del CI, sin modificar el laboratorio social original ni reclamar equivalencia con el agéntico.
+
+### 8.5 Veredicto respecto a los objetivos fijados antes de ejecutar
+
+| Criterio de aceptación | Resultado |
+|---|---|
+| B puede dominar cuando la fuente cualificada es fiable y la medición es débil | **Sí, condicionado al panel** |
+| Los hechos pueden dominar cuando Q es débil y la medición es fiable | **Sí** |
+| Con ambas informaciones perfectas y acceso/procedencia igual, empatan por eficacia | **Sí** |
+| La inspección convencional no debe ser degradada ni etiquetada con cifras de otro brazo | **Sí, corregido** |
+| Los precios no deben reescribir resultados informacionales/físicos | **Sí, verificado** |
+| Las dimensiones originales y restricciones siguen intactas | **Sí, controles fuente e integración CI** |
+| Se demuestra que B/EA es superior universalmente | **NO, ni era un criterio válido** |
+| Queda demostrada causalmente FH-C en sociedades o agentes reales | **NO; requiere evidencias independientes** |
+
+**Conclusión científica del experimento:** el resultado *correcto* es un **mapa de condiciones y contraejemplos**, no una victoria de B. La cualificación puede mejorar una decisión si su información es válida y pertinente; puede ser peor que un instrumento convencional o una observación directa si su cobertura/fiabilidad/coste son inferiores; y puede quedar incomparable ante restricciones. La evidencia de producción real, permisos y derechos sigue separada.
+
+Los valores exactos y los mapas completos se publican como artefacto reproducible por GitHub Actions. Este cuadro no sustituye la salida generada ni certifica el comportamiento de productos reales.
+
