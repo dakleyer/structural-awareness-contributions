@@ -67,18 +67,19 @@ class PortableExperimentalReport(unittest.TestCase):
         cheap=memberships["SOURCE_CHEAP_ORIGINAL"]["SOURCE_BOUNDARY_ONLY"]
         expensive=memberships["SOURCE_EXPENSIVE_DIRECT_CHEAP"]["SOURCE_BOUNDARY_ONLY"]
         self.assertGreater(cheap,expensive)
-        self.assertEqual(x["without_price_pareto_membership"]["SOURCE_BOUNDARY_ONLY"],
-                         x["without_price_pareto_membership"]["SOURCE_BOUNDARY_ONLY"])
+        self.assertEqual(x["without_price_pareto_membership"]["SOURCE_BOUNDARY_ONLY"],19)
+        self.assertEqual(cheap,49)
+        self.assertEqual(expensive,18)
         self.assertEqual(sum(x["two_axis_verdict_counts"].values()),49)
 
     def test_report_is_non_private_and_readable_without_synthetic_generalisation(self):
         md=as_markdown(self.s)
-        self.assertIn("49",md) if "49" in md else self.assertIn("18",md)
+        self.assertIn("18816",md)
         self.assertIn("EQUAL_PUBLIC_SOURCE_AND_DOMAIN_AVAILABILITY",md)
         self.assertIn("INCOMPARABLE_ERROR_VS_MISSED_OPPORTUNITY_TRADEOFF",md)
         self.assertIn("SOURCE_BOUNDARY_ONLY",md)
         self.assertNotIn("truth_PRIVATE_FOR_REFEREE_ONLY",json.dumps(self.s))
-        self.assertIn("no demuestra prioridad causal",md)
+        self.assertIn("ni demuestra prioridad causal",md)
 
     def test_incomplete_grid_is_rejected_not_filled_by_default(self):
         s=deepcopy(self.raw)
