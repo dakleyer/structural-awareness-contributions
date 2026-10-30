@@ -74,6 +74,27 @@ jobs:
           python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1 -p test_campaign.py -v
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/verify_campaign.py /tmp/conscientia_full_execution.json
 
+      - name: Check G-06 registered, reviewed-claim and directly used source lineage
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1"
+          cp "$S/SOURCE_REGISTER.json" /tmp/acc_g06_frozen_source_registry.json
+          cp "$S/CASE_REGISTRY.json" /tmp/acc_g06_frozen_case_registry.json
+          python -B "$S/bootstrap.py" > /tmp/acc_g06_bootstrap_summary.txt
+          cmp "$S/SOURCE_REGISTER.json" /tmp/acc_g06_frozen_source_registry.json
+          cmp "$S/CASE_REGISTRY.json" /tmp/acc_g06_frozen_case_registry.json
+          python -B -m unittest discover -s "$S" -p test_source_provenance.py -v
+          python -B "$S/source_provenance.py" > /tmp/acc_g06_source_case_lineage.json
+          python -B -c "import json; d=json.load(open('/tmp/acc_g06_source_case_lineage.json')); c=d['counts']; assert (c['registered_total'],c['registered_google_docs'],c['baseline_text_review_reported_cohort_only'],c['baseline_metadata_only_reported'],c['registered_sources_used_as_primary_in_frozen_cases'],c['registered_sources_explicitly_used_in_either_case_registry'])==(23,19,17,2,10,13); assert c['independent_source_level_historical_text_reviews_attested']==0; assert len(d['source_input_sha256'])==5; assert not any(i['source_level_review_attested'] for i in d['source_level_lineage'])"
+
+      - name: Publish G-06 source review and case-linkage audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: acc-g06-registered-read-claims-case-lineage
+          path: |
+            /tmp/acc_g06_source_case_lineage.json
+            /tmp/acc_g06_bootstrap_summary.txt
+          if-no-files-found: error
+
       - name: Execute source-anchored original social and agentic examples
         run: |
           python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1 -p test_dimension_experiment.py -v
