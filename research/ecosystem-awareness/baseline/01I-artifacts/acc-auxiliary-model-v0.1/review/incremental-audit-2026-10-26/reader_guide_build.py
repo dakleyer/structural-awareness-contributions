@@ -126,7 +126,7 @@ LEDGER = [
     ("L-05", "L", "Informativo", "VERIFICADO", 24, "#66 confirma F-04 en los 30 casos de #57: la inspección dirigida lidera sola 14; el metaprotocolo, ninguno."),
     ("L-06", "L", "Informativo", "VERIFICADO", 24, "El desarrollo DG1–DG4 se reproduce: 15 pruebas y las cifras 240/480/904/56/48."),
     ("L-07", "L", "Baja", "RESPONDIDO", 27, "#68: 17 de los 22 veredictos negativos los fija una puerta declarada. El texto dice ahora «casos ilustrativos» y el ejecutor publica el reparto; falta incorporarlo a main."),
-    ("L-08", "L", "Baja", "ABIERTO", 28, "#70: el ganador lo deciden las dos precisiones que fija el autor, y el frente de Pareto, el precio declarado (el brazo de límites está en él en 49 de 49 celdas)."),
+    ("L-08", "L", "Baja", "RESPONDIDO", 30, "#70: el ganador lo decidían las precisiones supuestas y el frente, el precio. #72 publica el mapa con acceso igualado y el frente sin precio; falta incorporarlo a main."),
     ("L-03", "L", "Informativo", "VERIFICADO", 23, "#60: los testigos F1/D1 (10 frente a 8; 11,5 frente a 8,875 con el mismo A) se reproducen desde el código de origen."),
 ]
 
@@ -142,7 +142,7 @@ FAMILIES = (
     ("M28-O", "Líneas de desarrollo (28 oct)"),
     ("J", "Forma del expediente (ronda 14)"),
     ("K", "Modelo social #44–#46 (ronda 17)"),
-    ("L", "Recepciones (rondas 23–28)"),
+    ("L", "Recepciones (rondas 23–30)"),
 )
 
 # Same defect under several names (aliases across audits)
@@ -277,7 +277,7 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"),
 ]
 
 

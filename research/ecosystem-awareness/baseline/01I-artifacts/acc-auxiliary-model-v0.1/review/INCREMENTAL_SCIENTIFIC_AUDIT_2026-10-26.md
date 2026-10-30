@@ -59,6 +59,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 27 | 2026-10-29 | [Recepción de L-04 (#66) y L-07 (#68); #69 recibido](#ronda-27) | L-04 y L-07 respondidos |
 | 28 | 2026-10-29 | [Recepción de G-04 (PR #70)](#ronda-28) | G-04 respondido; L-08 nuevo |
 | 29 | 2026-10-30 | [Recepción de G-06 (PR #71)](#ronda-29) | G-06 respondido; sin hallazgos nuevos |
+| 30 | 2026-10-30 | [Recepción de L-08 (PR #72)](#ronda-30) | L-08 respondido; cifras reproducidas de forma independiente |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1202,3 +1203,30 @@ Se recibe la lista de seis direcciones con literatura externa. Se comprobó que 
 **Estado:** G-06 pasa a `RESPONDIDO` y se cerrará cuando #71 esté en `main`. La parte de N-03 sobre la discrepancia 17/19 queda reconciliada en la fuente, pero N-03 sigue abierto: pide que la nota al revisor externo declare esta y las demás limitaciones.
 
 **Totales:** 87 registros. 35 abiertos, 25 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-30"></a>
+
+## Ronda 30 — recepción de L-08 en PR #72 (30-10-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** [comentario en PR #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-6532234486), escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #72 (`0d2d77d7`) está apilado sobre #70 y no modifica `g04_factorial.py`, `dimension_experiment.py` ni los motores de #44 y #57.
+
+**Recuento independiente** (`l08_independent_panel.py`). Usa solo el generador, el planificador público y el árbitro de #70 y #68. La política de hechos del dominio cualificados se reimplementa a partir de su contrato declarado, sin importar `l08_robustness.py`.
+
+| Afirmación de la nota | Reproducido |
+|---|---|
+| (a) Panel con acceso igualado: 13 celdas con dominio del brazo de límites, 9 con dominio de los hechos, 26 incomparables y 1 empate | **Sí**, exacto |
+| (a) Panel con el acceso original, desigual: 15, 22 y 12 | **Sí**, exacto |
+| (a) Q al 100 % y hechos al 100 %: 0 errores y 0 omisiones en ambos | **Sí** |
+| (a) Q al 100 % y hechos al 50 %: límites 0/0 frente a dominio 15/52; Q al 50 % y hechos al 100 %: 46/23 frente a 0/0 | **Sí**, exacto |
+| (b) Brazo de límites en el frente de dos ejes, sin precio: 19 de 49 | **Sí**, entre los cuatro brazos comparables. Con el acceso original, 6 de 49 |
+| (c) En el régimen sin Q, «2/18» corresponde a `DOMAIN_FACTS_ONLY` y la inspección dirigida da 0/11 | **Sí**, como se señaló en la ronda 28 |
+| (d) Brazo `QUALIFIED_DOMAIN_FACTS_ONLY` con el mismo contrato de procedencia que el de límites; el control antiguo queda fuera del frente | **Sí**. El brazo antiguo se conserva |
+
+Pasan 20 + 6 + 6 pruebas nuevas, las 21 de G-04 siguen en verde y la CI está en verde.
+
+**Lectura.** Con el acceso igualado y la procedencia exigida por igual, ninguna de las dos fuentes de evidencia domina en general: el resultado depende de las precisiones supuestas, y más de la mitad del mapa es incomparable. Esto confirma que el experimento sirve como mapa condicional, no como prueba de FH-C. La nota advierte, con razón, que la precisión de cada una de las tres observaciones del dominio no equivale a la de una afirmación única de la fuente, así que tasas nominales iguales no implican calidad epistémica igual.
+
+**Estado:** L-08 pasa a `RESPONDIDO` y se cerrará cuando #70 y #72 estén en `main`.
+
+**Totales:** 87 registros. 34 abiertos, 26 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.
