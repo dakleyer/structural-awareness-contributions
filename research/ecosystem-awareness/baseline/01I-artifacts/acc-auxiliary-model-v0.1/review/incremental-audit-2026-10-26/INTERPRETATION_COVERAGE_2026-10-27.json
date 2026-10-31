@@ -1,0 +1,191 @@
+{
+  "main_ref": "43203858893325b9cbc1c3e3b75f72a7d35e6f1d",
+  "files_scanned": 2725,
+  "unique_blobs_scanned": 2509,
+  "total_source_bytes": 85432402,
+  "files_with_occurrences": 1157,
+  "occurrences": 7830,
+  "source_counts": {
+    "PR18": {
+      "files": 22,
+      "with_matches": 19,
+      "occurrences": 192
+    },
+    "PR5": {
+      "files": 13,
+      "with_matches": 10,
+      "occurrences": 102
+    },
+    "PR54": {
+      "files": 10,
+      "with_matches": 2,
+      "occurrences": 3
+    },
+    "PR56": {
+      "files": 5,
+      "with_matches": 5,
+      "occurrences": 301
+    },
+    "PR57": {
+      "files": 21,
+      "with_matches": 17,
+      "occurrences": 165
+    },
+    "PR58": {
+      "files": 8,
+      "with_matches": 5,
+      "occurrences": 52
+    },
+    "PR59": {
+      "files": 7,
+      "with_matches": 6,
+      "occurrences": 414
+    },
+    "PR60": {
+      "files": 13,
+      "with_matches": 12,
+      "occurrences": 71
+    },
+    "main": {
+      "files": 2626,
+      "with_matches": 1081,
+      "occurrences": 6530
+    }
+  },
+  "errors": [],
+  "scope": "Literal/nearby-word inventory of all supported tracked text and extractable binary text; not full mathematical review or proof of absence of every semantic ambiguity",
+  "proposal_cards": 36,
+  "proposal_source_units_verified": 36,
+  "source_texts_changed": 0,
+  "scope_note": "literal matches are candidates, not findings; preserved/unsupported binary archives do not receive source rewriting",
+  "not_text_scanned": [
+    {
+      "path": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/admission_checklist.png",
+      "blob": "464cc07b47f8188d4c3d924bd196d01e21c065df",
+      "bytes": 335442,
+      "reason": "raster without text extraction"
+    },
+    {
+      "path": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/claim_selection_map.png",
+      "blob": "a5bc8127241da21313f7fc80f02accdf62198293",
+      "bytes": 272443,
+      "reason": "raster without text extraction"
+    },
+    {
+      "path": "governance/preserved-public-snapshots/UC21_aec08fb5_source/contributions/when-controls-work-system-fails/assets/reading/package_map.png",
+      "blob": "797731d4b2d17afd3eb289f4218750c482a1167c",
+      "bytes": 177686,
+      "reason": "raster without text extraction"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT/assets/marco_clasificacion_es.png",
+      "blob": "7a2f9eb0b585b2c07a982498a56c394f43b46c4a",
+      "bytes": 603290,
+      "reason": "raster without text extraction"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/fixtures/00K-A4-P4-00H-v0.2/00K_A4_executed_ablation_v0.2.zip",
+      "blob": "42d2399d5f9f71257a4bd4b5613cce402d8fbeeb",
+      "bytes": 10309,
+      "reason": "compressed evidence/archive retained; not decompressed as prose"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/figures/ciclo-decision.png",
+      "blob": "6ad199513435f511cd60a46dc99d3b4ce6aa680a",
+      "bytes": 103224,
+      "reason": "raster without text extraction"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/reductions/00G-R01/figures/relacion-00g.png",
+      "blob": "613fea6fb393d0552f857fa7a6b6cbbc7301a194",
+      "bytes": 85591,
+      "reason": "raster without text extraction"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-CACHED-LINEAGE-v0.1/runs/2026-10-01-native-first/EPISODES.json.gz",
+      "blob": "ecaaf17c031c6037532ac99c10e664ce94c76fd2",
+      "bytes": 12204,
+      "reason": "compressed evidence/archive retained; not decompressed as prose"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-CACHED-LINEAGE-v0.1/runs/2026-10-01-paired-first/EPISODES.json.gz",
+      "blob": "d93bee0b9249095d8a6419938b4cf14623c28ab8",
+      "bytes": 119231,
+      "reason": "compressed evidence/archive retained; not decompressed as prose"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-CASBIN-POLLING-v0.1/NATIVE.json.gz",
+      "blob": "841fb799c3585fdcebd162a759cecc9f2b63df45",
+      "bytes": 1889,
+      "reason": "compressed evidence/archive retained; not decompressed as prose"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-CASBIN-POLLING-v0.1/PAIRED.json.gz",
+      "blob": "bf337467ae85f794ee07967301a1b3012010328e",
+      "bytes": 13200,
+      "reason": "compressed evidence/archive retained; not decompressed as prose"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-CONTINUOUS-SOCIAL-v0.1/results/SELECTED_PAIR.json.xz",
+      "blob": "f0b03c07b6a80050458edff512f4d0643cd37914",
+      "bytes": 12384,
+      "reason": "compressed evidence/archive retained; not decompressed as prose"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-CONTINUOUS-SOCIAL-v0.1/results/episodes.json.xz",
+      "blob": "505dfc2e96c0af142b4c692e3c67501b0e4adb4c",
+      "bytes": 1670108,
+      "reason": "compressed evidence/archive retained; not decompressed as prose"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/results/SELECTED_NETWORKS.json.xz",
+      "blob": "f85e4d0d7f3264479845c324a69c43b7a3a01aac",
+      "bytes": 106580,
+      "reason": "compressed evidence/archive retained; not decompressed as prose"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-DYNAMIC-REVIEW-v0.1/results/episodes.jsonl.xz",
+      "blob": "9f4491bdaf9f0160593704510e1ed45d71b301a4",
+      "bytes": 11525848,
+      "reason": "compressed evidence/archive retained; not decompressed as prose"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/traversals/00G-HF-PROBABILISTIC-R123-v0.1/results/episodes.json.xz",
+      "blob": "b58848e0524dab02c3796e1efa321d94c9dfda62",
+      "bytes": 48336,
+      "reason": "compressed evidence/archive retained; not decompressed as prose"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/visuals/EA_ABCD_v0.1.png",
+      "blob": "7c7424bca0c87a14a45836b9794fec2dba6af15d",
+      "bytes": 253065,
+      "reason": "raster without text extraction"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/visuals/EA_MECHANISMS_v0.1.png",
+      "blob": "214dd403943207aab71efab299f8acd3c5bf545c",
+      "bytes": 234170,
+      "reason": "raster without text extraction"
+    },
+    {
+      "path": "research/ecosystem-awareness/baseline/visuals/EA_REQUIREMENTS_v0.1.png",
+      "blob": "8c32fa9972f1894518ca2790c09dce41a47dcc10",
+      "bytes": 325941,
+      "reason": "raster without text extraction"
+    },
+    {
+      "path": "research/ecosystem-awareness/review-packets/2026-10-11-steven-s5/Steven_UC21_Test_Based_Specification_Audit_FULL_REPRODUCIBLE_2026-10-11.zip",
+      "blob": "65c202ec81d50bd2681ab4e3ee8ac814a72c4779",
+      "bytes": 123884,
+      "reason": "compressed evidence/archive retained; not decompressed as prose"
+    }
+  ],
+  "binary_text_counts": {
+    ".docx": 13,
+    ".svg": 40,
+    ".pptx": 6,
+    ".pdf": 6
+  },
+  "pattern_policy": "Broad lexical and nearby-word inventory, including false positives such as tied to, tie-breaking, algebra and data fields; no automatic defect label.",
+  "source_scope": "All eight open PR overlays fixed by compare(base_SHA...head_SHA), rather than a moving PR file list."
+}

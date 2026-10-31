@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 674 356" width="674" height="356" role="img" aria-label="Ganador por celda del barrido de PR 57, tasa real 2,0"><style>
+  .ink{fill:#0b0b0b}.ink2{fill:#52514e}.grid{stroke:#e4e3df}.axis{stroke:#52514e}
+  .bg{fill:#fcfcfb}.c1{fill:#2a78d6}.c2{fill:#eb6834}.c3{fill:#1baf7a}.c0{fill:#d7d6d0}
+  .l1{stroke:#2a78d6}.l2{stroke:#eb6834}.ref{stroke:#d03b3b}
+  text{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .ink{fill:#f0efec}.ink2{fill:#c3c2b7}.grid{stroke:#383835}.axis{stroke:#c3c2b7}
+    .bg{fill:#1a1a19}.c1{fill:#3987e5}.c2{fill:#d95926}.c3{fill:#199e70}.c0{fill:#4a4a46}
+    .l1{stroke:#3987e5}.l2{stroke:#d95926}
+  }
+</style>
+<rect class="bg" width="674" height="356" rx="8"/>
+<text class="ink" x="16" y="26" font-size="15" font-weight="600">F-03 · Quién gana en cada celda (tasa real 2,0; 80 de 160 celdas)</text>
+<text class="ink2" x="16" y="46" font-size="12">Las otras 80 celdas (tasa 0,6) las gana A por construcción: ninguna transferencia puede mejorar.</text>
+<text class="ink2" x="16" y="64" font-size="12">Paneles: coste del instrumento dirigido. Filas: overhead h. Columnas: precio de Q.</text>
+<text class="ink" x="70" y="82" font-size="12" font-weight="600">dirigido = 0,1</text>
+<text class="ink2" x="62" y="111" font-size="11" text-anchor="end">h = 0,1</text>
+<rect class="c3" x="70" y="92" width="30" height="30" rx="3"><title>h=0.1, Q=0.05, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="85.0" y="112" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="102" y="92" width="30" height="30" rx="3"><title>h=0.1, Q=0.3, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="117.0" y="112" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="134" y="92" width="30" height="30" rx="3"><title>h=0.1, Q=0.8, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="149.0" y="112" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="166" y="92" width="30" height="30" rx="3"><title>h=0.1, Q=1.5, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="181.0" y="112" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<text class="ink2" x="62" y="143" font-size="11" text-anchor="end">h = 0,25</text>
+<rect class="c3" x="70" y="124" width="30" height="30" rx="3"><title>h=0.25, Q=0.05, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="85.0" y="144" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="102" y="124" width="30" height="30" rx="3"><title>h=0.25, Q=0.3, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="117.0" y="144" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="134" y="124" width="30" height="30" rx="3"><title>h=0.25, Q=0.8, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="149.0" y="144" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="166" y="124" width="30" height="30" rx="3"><title>h=0.25, Q=1.5, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="181.0" y="144" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<text class="ink2" x="62" y="175" font-size="11" text-anchor="end">h = 0,5</text>
+<rect class="c3" x="70" y="156" width="30" height="30" rx="3"><title>h=0.5, Q=0.05, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="85.0" y="176" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="102" y="156" width="30" height="30" rx="3"><title>h=0.5, Q=0.3, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="117.0" y="176" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="134" y="156" width="30" height="30" rx="3"><title>h=0.5, Q=0.8, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="149.0" y="176" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="166" y="156" width="30" height="30" rx="3"><title>h=0.5, Q=1.5, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="181.0" y="176" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<text class="ink2" x="62" y="207" font-size="11" text-anchor="end">h = 0,75</text>
+<rect class="c3" x="70" y="188" width="30" height="30" rx="3"><title>h=0.75, Q=0.05, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="85.0" y="208" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="102" y="188" width="30" height="30" rx="3"><title>h=0.75, Q=0.3, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="117.0" y="208" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="134" y="188" width="30" height="30" rx="3"><title>h=0.75, Q=0.8, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="149.0" y="208" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="166" y="188" width="30" height="30" rx="3"><title>h=0.75, Q=1.5, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="181.0" y="208" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<text class="ink2" x="62" y="239" font-size="11" text-anchor="end">h = 1,5</text>
+<rect class="c3" x="70" y="220" width="30" height="30" rx="3"><title>h=1.5, Q=0.05, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="85.0" y="240" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="102" y="220" width="30" height="30" rx="3"><title>h=1.5, Q=0.3, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="117.0" y="240" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="134" y="220" width="30" height="30" rx="3"><title>h=1.5, Q=0.8, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="149.0" y="240" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="166" y="220" width="30" height="30" rx="3"><title>h=1.5, Q=1.5, dirigido=0.1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="181.0" y="240" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<text class="ink2" x="85.0" y="266" font-size="10" text-anchor="middle">0,05</text>
+<text class="ink2" x="117.0" y="266" font-size="10" text-anchor="middle">0,3</text>
+<text class="ink2" x="149.0" y="266" font-size="10" text-anchor="middle">0,8</text>
+<text class="ink2" x="181.0" y="266" font-size="10" text-anchor="middle">1,5</text>
+<text class="ink" x="216" y="82" font-size="12" font-weight="600">dirigido = 1</text>
+<rect class="c3" x="216" y="92" width="30" height="30" rx="3"><title>h=0.1, Q=0.05, dirigido=1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="231.0" y="112" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="248" y="92" width="30" height="30" rx="3"><title>h=0.1, Q=0.3, dirigido=1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="263.0" y="112" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="280" y="92" width="30" height="30" rx="3"><title>h=0.1, Q=0.8, dirigido=1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="295.0" y="112" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="312" y="92" width="30" height="30" rx="3"><title>h=0.1, Q=1.5, dirigido=1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="327.0" y="112" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="216" y="124" width="30" height="30" rx="3"><title>h=0.25, Q=0.05, dirigido=1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="231.0" y="144" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="248" y="124" width="30" height="30" rx="3"><title>h=0.25, Q=0.3, dirigido=1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="263.0" y="144" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="280" y="124" width="30" height="30" rx="3"><title>h=0.25, Q=0.8, dirigido=1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="295.0" y="144" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="312" y="124" width="30" height="30" rx="3"><title>h=0.25, Q=1.5, dirigido=1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="327.0" y="144" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="216" y="156" width="30" height="30" rx="3"><title>h=0.5, Q=0.05, dirigido=1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="231.0" y="176" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="248" y="156" width="30" height="30" rx="3"><title>h=0.5, Q=0.3, dirigido=1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="263.0" y="176" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="280" y="156" width="30" height="30" rx="3"><title>h=0.5, Q=0.8, dirigido=1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="295.0" y="176" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="312" y="156" width="30" height="30" rx="3"><title>h=0.5, Q=1.5, dirigido=1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="327.0" y="176" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="216" y="188" width="30" height="30" rx="3"><title>h=0.75, Q=0.05, dirigido=1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="231.0" y="208" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="248" y="188" width="30" height="30" rx="3"><title>h=0.75, Q=0.3, dirigido=1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="263.0" y="208" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="280" y="188" width="30" height="30" rx="3"><title>h=0.75, Q=0.8, dirigido=1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="295.0" y="208" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="312" y="188" width="30" height="30" rx="3"><title>h=0.75, Q=1.5, dirigido=1: CONVENTIONAL_DIRECTED</title></rect>
+<text x="327.0" y="208" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c1" x="216" y="220" width="30" height="30" rx="3"><title>h=1.5, Q=0.05, dirigido=1: A_ONLY</title></rect>
+<text x="231.0" y="240" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="248" y="220" width="30" height="30" rx="3"><title>h=1.5, Q=0.3, dirigido=1: A_ONLY</title></rect>
+<text x="263.0" y="240" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="280" y="220" width="30" height="30" rx="3"><title>h=1.5, Q=0.8, dirigido=1: A_ONLY</title></rect>
+<text x="295.0" y="240" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="312" y="220" width="30" height="30" rx="3"><title>h=1.5, Q=1.5, dirigido=1: A_ONLY</title></rect>
+<text x="327.0" y="240" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<text class="ink2" x="231.0" y="266" font-size="10" text-anchor="middle">0,05</text>
+<text class="ink2" x="263.0" y="266" font-size="10" text-anchor="middle">0,3</text>
+<text class="ink2" x="295.0" y="266" font-size="10" text-anchor="middle">0,8</text>
+<text class="ink2" x="327.0" y="266" font-size="10" text-anchor="middle">1,5</text>
+<text class="ink" x="362" y="82" font-size="12" font-weight="600">dirigido = 3</text>
+<rect class="c2" x="362" y="92" width="30" height="30" rx="3"><title>h=0.1, Q=0.05, dirigido=3: Q_META_PROTOCOL</title></rect>
+<text x="377.0" y="112" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">Q</text>
+<rect class="c2" x="394" y="92" width="30" height="30" rx="3"><title>h=0.1, Q=0.3, dirigido=3: Q_META_PROTOCOL</title></rect>
+<text x="409.0" y="112" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">Q</text>
+<rect class="c2" x="426" y="92" width="30" height="30" rx="3"><title>h=0.1, Q=0.8, dirigido=3: Q_META_PROTOCOL</title></rect>
+<text x="441.0" y="112" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">Q</text>
+<rect class="c3" x="458" y="92" width="30" height="30" rx="3"><title>h=0.1, Q=1.5, dirigido=3: CONVENTIONAL_DIRECTED</title></rect>
+<text x="473.0" y="112" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c2" x="362" y="124" width="30" height="30" rx="3"><title>h=0.25, Q=0.05, dirigido=3: Q_META_PROTOCOL</title></rect>
+<text x="377.0" y="144" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">Q</text>
+<rect class="c2" x="394" y="124" width="30" height="30" rx="3"><title>h=0.25, Q=0.3, dirigido=3: Q_META_PROTOCOL</title></rect>
+<text x="409.0" y="144" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">Q</text>
+<rect class="c3" x="426" y="124" width="30" height="30" rx="3"><title>h=0.25, Q=0.8, dirigido=3: CONVENTIONAL_DIRECTED</title></rect>
+<text x="441.0" y="144" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c3" x="458" y="124" width="30" height="30" rx="3"><title>h=0.25, Q=1.5, dirigido=3: CONVENTIONAL_DIRECTED</title></rect>
+<text x="473.0" y="144" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">D</text>
+<rect class="c2" x="362" y="156" width="30" height="30" rx="3"><title>h=0.5, Q=0.05, dirigido=3: Q_META_PROTOCOL</title></rect>
+<text x="377.0" y="176" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">Q</text>
+<rect class="c2" x="394" y="156" width="30" height="30" rx="3"><title>h=0.5, Q=0.3, dirigido=3: Q_META_PROTOCOL</title></rect>
+<text x="409.0" y="176" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">Q</text>
+<rect class="c1" x="426" y="156" width="30" height="30" rx="3"><title>h=0.5, Q=0.8, dirigido=3: A_ONLY</title></rect>
+<text x="441.0" y="176" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="458" y="156" width="30" height="30" rx="3"><title>h=0.5, Q=1.5, dirigido=3: A_ONLY</title></rect>
+<text x="473.0" y="176" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="362" y="188" width="30" height="30" rx="3"><title>h=0.75, Q=0.05, dirigido=3: A_ONLY</title></rect>
+<text x="377.0" y="208" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="394" y="188" width="30" height="30" rx="3"><title>h=0.75, Q=0.3, dirigido=3: A_ONLY</title></rect>
+<text x="409.0" y="208" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="426" y="188" width="30" height="30" rx="3"><title>h=0.75, Q=0.8, dirigido=3: A_ONLY</title></rect>
+<text x="441.0" y="208" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="458" y="188" width="30" height="30" rx="3"><title>h=0.75, Q=1.5, dirigido=3: A_ONLY</title></rect>
+<text x="473.0" y="208" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="362" y="220" width="30" height="30" rx="3"><title>h=1.5, Q=0.05, dirigido=3: A_ONLY</title></rect>
+<text x="377.0" y="240" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="394" y="220" width="30" height="30" rx="3"><title>h=1.5, Q=0.3, dirigido=3: A_ONLY</title></rect>
+<text x="409.0" y="240" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="426" y="220" width="30" height="30" rx="3"><title>h=1.5, Q=0.8, dirigido=3: A_ONLY</title></rect>
+<text x="441.0" y="240" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="458" y="220" width="30" height="30" rx="3"><title>h=1.5, Q=1.5, dirigido=3: A_ONLY</title></rect>
+<text x="473.0" y="240" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<text class="ink2" x="377.0" y="266" font-size="10" text-anchor="middle">0,05</text>
+<text class="ink2" x="409.0" y="266" font-size="10" text-anchor="middle">0,3</text>
+<text class="ink2" x="441.0" y="266" font-size="10" text-anchor="middle">0,8</text>
+<text class="ink2" x="473.0" y="266" font-size="10" text-anchor="middle">1,5</text>
+<text class="ink" x="508" y="82" font-size="12" font-weight="600">dirigido = 5</text>
+<rect class="c2" x="508" y="92" width="30" height="30" rx="3"><title>h=0.1, Q=0.05, dirigido=5: Q_META_PROTOCOL</title></rect>
+<text x="523.0" y="112" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">Q</text>
+<rect class="c2" x="540" y="92" width="30" height="30" rx="3"><title>h=0.1, Q=0.3, dirigido=5: Q_META_PROTOCOL</title></rect>
+<text x="555.0" y="112" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">Q</text>
+<rect class="c2" x="572" y="92" width="30" height="30" rx="3"><title>h=0.1, Q=0.8, dirigido=5: Q_META_PROTOCOL</title></rect>
+<text x="587.0" y="112" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">Q</text>
+<rect class="c1" x="604" y="92" width="30" height="30" rx="3"><title>h=0.1, Q=1.5, dirigido=5: A_ONLY</title></rect>
+<text x="619.0" y="112" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c2" x="508" y="124" width="30" height="30" rx="3"><title>h=0.25, Q=0.05, dirigido=5: Q_META_PROTOCOL</title></rect>
+<text x="523.0" y="144" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">Q</text>
+<rect class="c2" x="540" y="124" width="30" height="30" rx="3"><title>h=0.25, Q=0.3, dirigido=5: Q_META_PROTOCOL</title></rect>
+<text x="555.0" y="144" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">Q</text>
+<rect class="c1" x="572" y="124" width="30" height="30" rx="3"><title>h=0.25, Q=0.8, dirigido=5: A_ONLY</title></rect>
+<text x="587.0" y="144" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="604" y="124" width="30" height="30" rx="3"><title>h=0.25, Q=1.5, dirigido=5: A_ONLY</title></rect>
+<text x="619.0" y="144" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c2" x="508" y="156" width="30" height="30" rx="3"><title>h=0.5, Q=0.05, dirigido=5: Q_META_PROTOCOL</title></rect>
+<text x="523.0" y="176" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">Q</text>
+<rect class="c2" x="540" y="156" width="30" height="30" rx="3"><title>h=0.5, Q=0.3, dirigido=5: Q_META_PROTOCOL</title></rect>
+<text x="555.0" y="176" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">Q</text>
+<rect class="c1" x="572" y="156" width="30" height="30" rx="3"><title>h=0.5, Q=0.8, dirigido=5: A_ONLY</title></rect>
+<text x="587.0" y="176" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="604" y="156" width="30" height="30" rx="3"><title>h=0.5, Q=1.5, dirigido=5: A_ONLY</title></rect>
+<text x="619.0" y="176" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="508" y="188" width="30" height="30" rx="3"><title>h=0.75, Q=0.05, dirigido=5: A_ONLY</title></rect>
+<text x="523.0" y="208" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="540" y="188" width="30" height="30" rx="3"><title>h=0.75, Q=0.3, dirigido=5: A_ONLY</title></rect>
+<text x="555.0" y="208" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="572" y="188" width="30" height="30" rx="3"><title>h=0.75, Q=0.8, dirigido=5: A_ONLY</title></rect>
+<text x="587.0" y="208" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="604" y="188" width="30" height="30" rx="3"><title>h=0.75, Q=1.5, dirigido=5: A_ONLY</title></rect>
+<text x="619.0" y="208" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="508" y="220" width="30" height="30" rx="3"><title>h=1.5, Q=0.05, dirigido=5: A_ONLY</title></rect>
+<text x="523.0" y="240" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="540" y="220" width="30" height="30" rx="3"><title>h=1.5, Q=0.3, dirigido=5: A_ONLY</title></rect>
+<text x="555.0" y="240" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="572" y="220" width="30" height="30" rx="3"><title>h=1.5, Q=0.8, dirigido=5: A_ONLY</title></rect>
+<text x="587.0" y="240" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<rect class="c1" x="604" y="220" width="30" height="30" rx="3"><title>h=1.5, Q=1.5, dirigido=5: A_ONLY</title></rect>
+<text x="619.0" y="240" font-size="12" text-anchor="middle" fill="#fff" font-weight="600">A</text>
+<text class="ink2" x="523.0" y="266" font-size="10" text-anchor="middle">0,05</text>
+<text class="ink2" x="555.0" y="266" font-size="10" text-anchor="middle">0,3</text>
+<text class="ink2" x="587.0" y="266" font-size="10" text-anchor="middle">0,8</text>
+<text class="ink2" x="619.0" y="266" font-size="10" text-anchor="middle">1,5</text>
+<rect class="c1" x="16" y="294" width="14" height="14" rx="3"/>
+<text class="ink" x="36" y="306" font-size="12">A: mantener A</text>
+<rect class="c2" x="226" y="294" width="14" height="14" rx="3"/>
+<text class="ink" x="246" y="306" font-size="12">Q: Q + metaprotocolo</text>
+<rect class="c3" x="436" y="294" width="14" height="14" rx="3"/>
+<text class="ink" x="456" y="306" font-size="12">D: convencional dirigido</text>
+<text class="ink2" x="16" y="328" font-size="11">Q gana sólo cuando el dirigido cuesta 3 o 5. El brazo convencional con Q equivalente, excluido</text>
+<text class="ink2" x="16" y="344" font-size="11">del barrido, empataría con Q en esas 14 celdas si se le diera el mismo precio.</text>
+</svg>

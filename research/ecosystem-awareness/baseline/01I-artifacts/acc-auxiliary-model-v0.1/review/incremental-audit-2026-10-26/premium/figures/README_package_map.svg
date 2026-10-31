@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1102 360" width="1102" height="360" role="img" aria-label="Mapa del paquete del modelo auxiliar ACC por objetivo del lector"><style>
+  .ink{fill:#0b0b0b}.ink2{fill:#52514e}.bg{fill:#fcfcfb}.card{fill:#f4f3f0;stroke:#d7d6d0}
+  .line{stroke:#c3c2b7}.s0{fill:#2a78d6}.s1{fill:#eb6834}.s2{fill:#1baf7a}.s3{fill:#eda100}
+  .s0s{stroke:#2a78d6}.s1s{stroke:#eb6834}.s2s{stroke:#1baf7a}.s3s{stroke:#eda100}
+  text{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .ink{fill:#f0efec}.ink2{fill:#c3c2b7}.bg{fill:#1a1a19}.card{fill:#262624;stroke:#3d3d3a}.line{stroke:#5a5a55}
+    .s0{fill:#3987e5}.s1{fill:#d95926}.s2{fill:#199e70}.s3{fill:#c98500}
+    .s0s{stroke:#3987e5}.s1s{stroke:#d95926}.s2s{stroke:#199e70}.s3s{stroke:#c98500}
+  }
+</style>
+<rect class="bg" width="1102" height="360" rx="10"/>
+<text class="ink" x="24" y="34" font-size="18" font-weight="650">Mapa del paquete: qué leer según lo que quieras hacer</text>
+<text class="ink2" x="24" y="58" font-size="13">Los mismos documentos de la tabla «Cómo leerlo», agrupados por objetivo del lector. Ningún documento cambia de sitio.</text>
+<text class="ink2" x="24" y="78" font-size="13">Recorrido recomendado de izquierda a derecha; cada columna puede leerse por separado.</text>
+<rect class="card" x="24" y="104" width="250" height="220" rx="10" stroke-width="1"/>
+<rect class="s0" x="24" y="104" width="250" height="40" rx="10"/>
+<rect class="s0" x="24" y="128" width="250" height="16"/>
+<text x="40" y="130" font-size="15" font-weight="700" fill="#fff">1 · Entender</text>
+<circle class="s0" cx="44" cy="168" r="4"/>
+<text class="ink" x="56" y="172" font-size="12.5">Pregunta principal (README)</text>
+<circle class="s0" cx="44" cy="204" r="4"/>
+<text class="ink" x="56" y="208" font-size="12.5">MODEL.md — modelo integrado</text>
+<circle class="s0" cx="44" cy="240" r="4"/>
+<text class="ink" x="56" y="244" font-size="12.5">Núcleo técnico económico</text>
+<circle class="s0" cx="44" cy="276" r="4"/>
+<text class="ink" x="56" y="280" font-size="12.5">CASES.md — casos y dimensiones</text>
+<circle class="s0" cx="44" cy="312" r="4"/>
+<text class="ink" x="56" y="316" font-size="12.5">Textos completos (model/01–04)</text>
+<rect class="card" x="292" y="104" width="250" height="220" rx="10" stroke-width="1"/>
+<rect class="s2" x="292" y="104" width="250" height="40" rx="10"/>
+<rect class="s2" x="292" y="128" width="250" height="16"/>
+<text x="308" y="130" font-size="15" font-weight="700" fill="#fff">2 · Comprobar</text>
+<circle class="s2" cx="312" cy="168" r="4"/>
+<text class="ink" x="324" y="172" font-size="12.5">11 estudios en main</text>
+<circle class="s2" cx="312" cy="204" r="4"/>
+<text class="ink" x="324" y="208" font-size="12.5">RESEARCH_STATUS.md</text>
+<circle class="s2" cx="312" cy="240" r="4"/>
+<text class="ink" x="324" y="244" font-size="12.5">REVIEW_AND_COVERAGE.md</text>
+<circle class="s2" cx="312" cy="276" r="4"/>
+<text class="ink" x="324" y="280" font-size="12.5">Auditoría incremental (PR #58)</text>
+<rect class="card" x="560" y="104" width="250" height="220" rx="10" stroke-width="1"/>
+<rect class="s3" x="560" y="104" width="250" height="40" rx="10"/>
+<rect class="s3" x="560" y="128" width="250" height="16"/>
+<text x="576" y="130" font-size="15" font-weight="700" fill="#fff">3 · Planificar</text>
+<circle class="s3" cx="580" cy="168" r="4"/>
+<text class="ink" x="592" y="172" font-size="12.5">STUDY_SPECIFICATION.md</text>
+<circle class="s3" cx="580" cy="204" r="4"/>
+<text class="ink" x="592" y="208" font-size="12.5">DDS_EVALUATION_PLAN.md</text>
+<circle class="s3" cx="580" cy="240" r="4"/>
+<text class="ink" x="592" y="244" font-size="12.5">Contrato UC21/DDS (toy)</text>
+<circle class="s3" cx="580" cy="276" r="4"/>
+<text class="ink" x="592" y="280" font-size="12.5">Nota 01K-A02 (HID)</text>
+<rect class="card" x="828" y="104" width="250" height="220" rx="10" stroke-width="1"/>
+<rect class="s1" x="828" y="104" width="250" height="40" rx="10"/>
+<rect class="s1" x="828" y="128" width="250" height="16"/>
+<text x="844" y="130" font-size="15" font-weight="700" fill="#fff">4 · Procedencia y límites</text>
+<circle class="s1" cx="848" cy="168" r="4"/>
+<text class="ink" x="860" y="172" font-size="12.5">SOURCES_AND_COVERAGE.md</text>
+<circle class="s1" cx="848" cy="204" r="4"/>
+<text class="ink" x="860" y="208" font-size="12.5">ACC_BOUNDARY.md</text>
+<circle class="s1" cx="848" cy="240" r="4"/>
+<text class="ink" x="860" y="244" font-size="12.5">review/ — acciones y conceptos</text>
+<circle class="s1" cx="848" cy="276" r="4"/>
+<text class="ink" x="860" y="280" font-size="12.5">Aclaraciones de Iván</text>
+<text class="ink2" x="24" y="346" font-size="11">Propuesta de diseño para la portada del README; los enlaces reales están en la tabla equivalente de la propuesta.</text>
+</svg>

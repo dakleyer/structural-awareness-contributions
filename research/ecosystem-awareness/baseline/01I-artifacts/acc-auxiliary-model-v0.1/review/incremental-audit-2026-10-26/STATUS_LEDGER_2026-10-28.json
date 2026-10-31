@@ -1,0 +1,905 @@
+{
+  "schema": "ACC-AUDIT-STATUS-LEDGER-v0.1",
+  "as_of": "2026-10-28",
+  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-31",
+  "state_vocabulary": [
+    "ABIERTO",
+    "RESPONDIDO",
+    "CERRADO",
+    "VERIFICADO",
+    "PROPUESTA",
+    "RETIRADO",
+    "INFORMATIVO"
+  ],
+  "totals": {
+    "ABIERTO": 34,
+    "RESPONDIDO": 27,
+    "CERRADO": 4,
+    "VERIFICADO": 8,
+    "PROPUESTA": 10,
+    "RETIRADO": 2,
+    "INFORMATIVO": 3
+  },
+  "by_family_display_groups": {
+    "groups": [
+      "Abierto",
+      "Respondido",
+      "Cerrado o verificado",
+      "Propuesta de mejora",
+      "Retirado o informativo"
+    ],
+    "counts": {
+      "N": [
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "F": [
+        4,
+        3,
+        0,
+        0,
+        0
+      ],
+      "G": [
+        0,
+        6,
+        0,
+        0,
+        0
+      ],
+      "H": [
+        5,
+        0,
+        1,
+        0,
+        0
+      ],
+      "I": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "M27": [
+        11,
+        2,
+        2,
+        1,
+        4
+      ],
+      "M28": [
+        1,
+        3,
+        1,
+        1,
+        1
+      ],
+      "M27-O": [
+        0,
+        0,
+        0,
+        5,
+        0
+      ],
+      "M28-O": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "J": [
+        1,
+        6,
+        1,
+        0,
+        0
+      ],
+      "K": [
+        1,
+        3,
+        3,
+        1,
+        0
+      ],
+      "L": [
+        2,
+        4,
+        3,
+        0,
+        0
+      ]
+    }
+  },
+  "records": [
+    {
+      "id": "N-01",
+      "family": "N",
+      "severity": "Alta",
+      "state": "ABIERTO",
+      "set_in_round": 1,
+      "summary": "La nota para el revisor externo no lista todos los PR relevantes."
+    },
+    {
+      "id": "N-02",
+      "family": "N",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 1,
+      "summary": "La nota da a entender que la auditoría #50 cubre PR posteriores que no cubre."
+    },
+    {
+      "id": "N-03",
+      "family": "N",
+      "severity": "Alta",
+      "state": "ABIERTO",
+      "set_in_round": 1,
+      "summary": "La nota calla limitaciones que los propios PR ya reconocen."
+    },
+    {
+      "id": "N-04",
+      "family": "N",
+      "severity": "Alta",
+      "state": "ABIERTO",
+      "set_in_round": 1,
+      "summary": "La nota no separa lo que hizo una IA de lo que hizo el autor."
+    },
+    {
+      "id": "N-05",
+      "family": "N",
+      "severity": "Alta",
+      "state": "ABIERTO",
+      "set_in_round": 1,
+      "summary": "La nota no enumera las afirmaciones concretas que se piden revisar."
+    },
+    {
+      "id": "N-06",
+      "family": "N",
+      "severity": "Alta",
+      "state": "ABIERTO",
+      "set_in_round": 1,
+      "summary": "La nota presenta #54 y #57 con más fuerza de la que tienen."
+    },
+    {
+      "id": "N-07",
+      "family": "N",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 1,
+      "summary": "La nota no fija versiones y el material cambia cada día."
+    },
+    {
+      "id": "N-08",
+      "family": "N",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 1,
+      "summary": "La nota usa siglas sin definirlas."
+    },
+    {
+      "id": "N-09",
+      "family": "N",
+      "severity": "Baja",
+      "state": "ABIERTO",
+      "set_in_round": 1,
+      "summary": "Faltan datos prácticos: plazo, honorario, confidencialidad, cómo ejecutar."
+    },
+    {
+      "id": "F-01",
+      "family": "F",
+      "severity": "Alta",
+      "state": "RESPONDIDO",
+      "set_in_round": 11,
+      "summary": "En #57 el metaprotocolo y el comparador convencional ejecutan el mismo código: empatar no prueba ventaja."
+    },
+    {
+      "id": "F-02",
+      "family": "F",
+      "severity": "Alta",
+      "state": "ABIERTO",
+      "set_in_round": 10,
+      "summary": "En el modelo de #57, la única palanca de ventaja agéntica es un coste supuesto e igual para todos."
+    },
+    {
+      "id": "F-03",
+      "family": "F",
+      "severity": "Media",
+      "state": "RESPONDIDO",
+      "set_in_round": 6,
+      "summary": "Los recuentos 107/14/39 del barrido dependen de cómo se eligió la rejilla."
+    },
+    {
+      "id": "F-04",
+      "family": "F",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 2,
+      "summary": "En el caso estrella de #57, el comparador convencional obtiene más."
+    },
+    {
+      "id": "F-05",
+      "family": "F",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 2,
+      "summary": "El modelo de #57 es lineal y resta costes sin una tasa de conversión declarada."
+    },
+    {
+      "id": "F-06",
+      "family": "F",
+      "severity": "Alta",
+      "state": "RESPONDIDO",
+      "set_in_round": 11,
+      "summary": "Los 46 «experimentos» de #54 son ejemplos calculados a partir de datos fijados."
+    },
+    {
+      "id": "F-07",
+      "family": "F",
+      "severity": "Baja",
+      "state": "ABIERTO",
+      "set_in_round": 2,
+      "summary": "Una variable calculada y no usada en el código de #54."
+    },
+    {
+      "id": "G-01",
+      "family": "G",
+      "severity": "Alta",
+      "state": "RESPONDIDO",
+      "set_in_round": 11,
+      "summary": "En la campaña de 60 casos, el comparador convencional tiene la respuesta correcta escrita en los datos."
+    },
+    {
+      "id": "G-02",
+      "family": "G",
+      "severity": "Media",
+      "state": "RESPONDIDO",
+      "set_in_round": 31,
+      "summary": "La «auditoría independiente» de Q era un booleano del fixture. #73 la sustituye por un sensor falible con tasas y coste declarados; falta incorporarlo a main."
+    },
+    {
+      "id": "G-03",
+      "family": "G",
+      "severity": "Media",
+      "state": "RESPONDIDO",
+      "set_in_round": 26,
+      "summary": "Varios «microexperimentos» eran números escritos a mano. #68 los calcula desde los mundos declarados; falta incorporarlo a main."
+    },
+    {
+      "id": "G-04",
+      "family": "G",
+      "severity": "Media",
+      "state": "RESPONDIDO",
+      "set_in_round": 28,
+      "summary": "El factorial y las ablaciones FH-C eran tautológicos por construcción. #70 añade ensayos emparejados en los que el comparador puede perder; falta incorporarlo a main."
+    },
+    {
+      "id": "G-05",
+      "family": "G",
+      "severity": "Baja",
+      "state": "RESPONDIDO",
+      "set_in_round": 6,
+      "summary": "#54 repite 8 celdas de red que ya estaban en #49."
+    },
+    {
+      "id": "G-06",
+      "family": "G",
+      "severity": "Baja",
+      "state": "RESPONDIDO",
+      "set_in_round": 29,
+      "summary": "El recuento de fuentes «cribadas» (23) contaba registradas. #71 separa registradas, leídas según lo declarado y usadas en casos; falta incorporarlo a main."
+    },
+    {
+      "id": "H-01",
+      "family": "H",
+      "severity": "Alta",
+      "state": "ABIERTO",
+      "set_in_round": 10,
+      "summary": "La «trampa» de #42 prohíbe los pasos intermedios; no muestra agentes que elijan quedarse."
+    },
+    {
+      "id": "H-02",
+      "family": "H",
+      "severity": "Alta",
+      "state": "ABIERTO",
+      "set_in_round": 4,
+      "summary": "La brecha que crece con n es un supuesto: la misma ecuación en #42, #49 y #54."
+    },
+    {
+      "id": "H-03",
+      "family": "H",
+      "severity": "Alta",
+      "state": "ABIERTO",
+      "set_in_round": 10,
+      "summary": "En #43 la información se pierde por cómo se pregunta (censura), no por el anidamiento."
+    },
+    {
+      "id": "H-04",
+      "family": "H",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 4,
+      "summary": "«Sufrimiento estructural» mide una brecha de contribución, no bienestar."
+    },
+    {
+      "id": "H-05",
+      "family": "H",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 4,
+      "summary": "La curva de utilidad de las manzanas está escrita a mano, no derivada."
+    },
+    {
+      "id": "H-06",
+      "family": "H",
+      "severity": "Informativo",
+      "state": "VERIFICADO",
+      "set_in_round": 4,
+      "summary": "Las cotas de bits de #43 son correctas."
+    },
+    {
+      "id": "I-01",
+      "family": "I",
+      "severity": "Alta",
+      "state": "CERRADO",
+      "set_in_round": 13,
+      "summary": "qualify podía decir «verdadero» con evidencia vacía; corregido en main y reconfirmado."
+    },
+    {
+      "id": "M27-01",
+      "family": "M27",
+      "severity": "Alta",
+      "state": "CERRADO",
+      "set_in_round": 13,
+      "summary": "Dos fuentes incompatibles podían dar «verdadero»; corregido en main y reconfirmado."
+    },
+    {
+      "id": "M27-02",
+      "family": "M27",
+      "severity": "Alta",
+      "state": "CERRADO",
+      "set_in_round": 13,
+      "summary": "El mismo defecto de tolerancia que I-01; corregido y reconfirmado."
+    },
+    {
+      "id": "M27-03",
+      "family": "M27",
+      "severity": "Alta",
+      "state": "RESPONDIDO",
+      "set_in_round": 12,
+      "summary": "#60: la consulta suplementaria debe contar con la observación A ya disponible. Aplicado en la rama de #60."
+    },
+    {
+      "id": "M27-04",
+      "family": "M27",
+      "severity": "Alta",
+      "state": "RESPONDIDO",
+      "set_in_round": 12,
+      "summary": "#60 mezclaba numeraciones UC21 y DDS. Aplicado en la rama de #60."
+    },
+    {
+      "id": "M27-05",
+      "family": "M27",
+      "severity": "—",
+      "state": "INFORMATIVO",
+      "set_in_round": 8,
+      "summary": "Aclaración de procedencia de R12: TeX original frente a PDF posterior."
+    },
+    {
+      "id": "M27-06",
+      "family": "M27",
+      "severity": "—",
+      "state": "RETIRADO",
+      "set_in_round": 8,
+      "summary": "El revisor retiró una alegación de incumplimiento de navegación."
+    },
+    {
+      "id": "M27-07",
+      "family": "M27",
+      "severity": "Baja",
+      "state": "ABIERTO",
+      "set_in_round": 12,
+      "summary": "#57: el primer observador puede quedar sin identificar."
+    },
+    {
+      "id": "M27-08",
+      "family": "M27",
+      "severity": "Baja",
+      "state": "ABIERTO",
+      "set_in_round": 12,
+      "summary": "El núcleo económico usa convenciones distintas de segunda diferencia."
+    },
+    {
+      "id": "M27-09",
+      "family": "M27",
+      "severity": "—",
+      "state": "RETIRADO",
+      "set_in_round": 8,
+      "summary": "El revisor retiró una conclusión demasiado amplia sobre F-01."
+    },
+    {
+      "id": "M27-10",
+      "family": "M27",
+      "severity": "Alta",
+      "state": "ABIERTO",
+      "set_in_round": 8,
+      "summary": "R19: la ecuación (4) no mantiene S dentro de [0, H]."
+    },
+    {
+      "id": "M27-11",
+      "family": "M27",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 8,
+      "summary": "La ventana semántica no mejora «todo» estimador, sólo una clase definida."
+    },
+    {
+      "id": "M27-12",
+      "family": "M27",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 8,
+      "summary": "La ventana actual no es automáticamente suficiente frente a toda la historia."
+    },
+    {
+      "id": "M27-13",
+      "family": "M27",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 8,
+      "summary": "Una cota de la señal no acota automáticamente el indicador."
+    },
+    {
+      "id": "M27-14",
+      "family": "M27",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 8,
+      "summary": "D28: ser seguro frente a no hacer nada no implica ser mejor que otra acción."
+    },
+    {
+      "id": "M27-15",
+      "family": "M27",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 8,
+      "summary": "D34: salir una vez de una tolerancia no implica quedarse fuera."
+    },
+    {
+      "id": "M27-16",
+      "family": "M27",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 8,
+      "summary": "Una sobrecarga temporal no implica una cola infinita."
+    },
+    {
+      "id": "M27-17",
+      "family": "M27",
+      "severity": "—",
+      "state": "INFORMATIVO",
+      "set_in_round": 8,
+      "summary": "La versión web de D37 ya contiene la aclaración."
+    },
+    {
+      "id": "M27-18",
+      "family": "M27",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 8,
+      "summary": "D37: podar nodos no demuestra atractores estables."
+    },
+    {
+      "id": "M27-19",
+      "family": "M27",
+      "severity": "—",
+      "state": "PROPUESTA",
+      "set_in_round": 8,
+      "summary": "D37: especificar dominio y raíz para obtener un precio interpretable."
+    },
+    {
+      "id": "M27-20",
+      "family": "M27",
+      "severity": "—",
+      "state": "ABIERTO",
+      "set_in_round": 8,
+      "summary": "Cantor no implica que toda representación fiel sea imposible."
+    },
+    {
+      "id": "M27-O1",
+      "family": "M27-O",
+      "severity": "—",
+      "state": "PROPUESTA",
+      "set_in_round": 8,
+      "summary": "Línea de desarrollo: suficiencia de una representación durante una dinámica."
+    },
+    {
+      "id": "M27-O2",
+      "family": "M27-O",
+      "severity": "—",
+      "state": "PROPUESTA",
+      "set_in_round": 8,
+      "summary": "Línea de desarrollo: cotas de error ligadas a pregunta y horizonte."
+    },
+    {
+      "id": "M27-O3",
+      "family": "M27-O",
+      "severity": "—",
+      "state": "PROPUESTA",
+      "set_in_round": 8,
+      "summary": "Línea de desarrollo: renovación de poblaciones (cohortes)."
+    },
+    {
+      "id": "M27-O4",
+      "family": "M27-O",
+      "severity": "—",
+      "state": "PROPUESTA",
+      "set_in_round": 8,
+      "summary": "Línea de desarrollo: colas, plazos y contabilidad sin doble conteo."
+    },
+    {
+      "id": "M27-O5",
+      "family": "M27-O",
+      "severity": "—",
+      "state": "PROPUESTA",
+      "set_in_round": 8,
+      "summary": "Línea de desarrollo: ventanas con error, coste y plazo."
+    },
+    {
+      "id": "M28-01",
+      "family": "M28",
+      "severity": "Alta",
+      "state": "CERRADO",
+      "set_in_round": 13,
+      "summary": "El redondeo de coma flotante podía certificar «verdadero»; corregido y reconfirmado."
+    },
+    {
+      "id": "M28-02",
+      "family": "M28",
+      "severity": "Media",
+      "state": "RESPONDIDO",
+      "set_in_round": 15,
+      "summary": "#60: la guarda no comprobaba que el punto pertenezca al dominio. Corregido en la rama de #60 y reconfirmado; falta incorporarlo a main."
+    },
+    {
+      "id": "M28-03",
+      "family": "M28",
+      "severity": "Media",
+      "state": "RESPONDIDO",
+      "set_in_round": 23,
+      "summary": "#60: se aceptaban NaN o infinito como cota de utilidad. Corregido en la rama de #60 y reconfirmado con 32 valores; falta incorporarlo a main."
+    },
+    {
+      "id": "M28-04",
+      "family": "M28",
+      "severity": "Media",
+      "state": "RESPONDIDO",
+      "set_in_round": 24,
+      "summary": "#60: la caducidad se medía en la fecha del evento. Sustituida por un contrato con dos tiempos y ventana [inicio, fin), reconfirmado; falta incorporarlo a main."
+    },
+    {
+      "id": "M28-05",
+      "family": "M28",
+      "severity": "—",
+      "state": "ABIERTO",
+      "set_in_round": 12,
+      "summary": "Nombres de pruebas que sugieren una comparación que no existe."
+    },
+    {
+      "id": "M28-06",
+      "family": "M28",
+      "severity": "—",
+      "state": "INFORMATIVO",
+      "set_in_round": 12,
+      "summary": "Panel y navegación de la auditoría actualizados."
+    },
+    {
+      "id": "M28-07",
+      "family": "M28",
+      "severity": "Baja",
+      "state": "PROPUESTA",
+      "set_in_round": 12,
+      "summary": "Un script de la ronda 8 sobrescribe su JSON si se ejecuta sin --output."
+    },
+    {
+      "id": "M28-O1",
+      "family": "M28-O",
+      "severity": "—",
+      "state": "PROPUESTA",
+      "set_in_round": 12,
+      "summary": "Línea de desarrollo: coste esperado de un selector frente a búsqueda exhaustiva."
+    },
+    {
+      "id": "M28-O2",
+      "family": "M28-O",
+      "severity": "—",
+      "state": "PROPUESTA",
+      "set_in_round": 12,
+      "summary": "Línea de desarrollo: modelo temporal con versiones de contexto."
+    },
+    {
+      "id": "J-01",
+      "family": "J",
+      "severity": "Media",
+      "state": "RESPONDIDO",
+      "set_in_round": 14,
+      "summary": "La cabecera «lectura vigente» estaba desfasada tras la ronda 13."
+    },
+    {
+      "id": "J-02",
+      "family": "J",
+      "severity": "Media",
+      "state": "RESPONDIDO",
+      "set_in_round": 14,
+      "summary": "Los encabezados guardan el estado histórico; el vigente no se veía en ningún sitio."
+    },
+    {
+      "id": "J-03",
+      "family": "J",
+      "severity": "Media",
+      "state": "RESPONDIDO",
+      "set_in_round": 14,
+      "summary": "Los enlaces a hallazgos se rompían cada vez que cambiaba su estado."
+    },
+    {
+      "id": "J-04",
+      "family": "J",
+      "severity": "Baja",
+      "state": "RESPONDIDO",
+      "set_in_round": 14,
+      "summary": "Las rondas no están en orden y la 7 no tiene título propio."
+    },
+    {
+      "id": "J-05",
+      "family": "J",
+      "severity": "Baja",
+      "state": "RESPONDIDO",
+      "set_in_round": 14,
+      "summary": "Un mismo defecto tiene hasta cinco nombres: riesgo de contarlo varias veces."
+    },
+    {
+      "id": "J-06",
+      "family": "J",
+      "severity": "Baja",
+      "state": "RESPONDIDO",
+      "set_in_round": 14,
+      "summary": "Se usaban más estados de los que la cabecera declaraba."
+    },
+    {
+      "id": "J-07",
+      "family": "J",
+      "severity": "Baja",
+      "state": "ABIERTO",
+      "set_in_round": 14,
+      "summary": "El expediente mezcla español e inglés; falta decidir un idioma."
+    },
+    {
+      "id": "J-08",
+      "family": "J",
+      "severity": "Informativo",
+      "state": "VERIFICADO",
+      "set_in_round": 14,
+      "summary": "Enlaces internos y versiones fijadas: ninguno roto."
+    },
+    {
+      "id": "K-01",
+      "family": "K",
+      "severity": "Media",
+      "state": "RESPONDIDO",
+      "set_in_round": 24,
+      "summary": "#44: que la cualificación B gane a la inspección dirigida depende del tamaño: con los costes actuales deja de ganar a partir de 128 hojas."
+    },
+    {
+      "id": "K-02",
+      "family": "K",
+      "severity": "Media",
+      "state": "RESPONDIDO",
+      "set_in_round": 24,
+      "summary": "#44: dos certificados B válidos por separado pueden prometer juntos más de lo que cabe por un cuello compartido."
+    },
+    {
+      "id": "K-03",
+      "family": "K",
+      "severity": "Baja",
+      "state": "RESPONDIDO",
+      "set_in_round": 25,
+      "summary": "#44: el informe escribía a mano dos ganancias (2 y 0). #67 las calcula con un único oráculo, sin cambiar ningún resultado; falta incorporarlo a main."
+    },
+    {
+      "id": "K-04",
+      "family": "K",
+      "severity": "Informativo",
+      "state": "VERIFICADO",
+      "set_in_round": 17,
+      "summary": "#44: el mismo A con respuestas futuras distintas, el certificado por trayecto y las cotas de bits son correctos."
+    },
+    {
+      "id": "K-05",
+      "family": "K",
+      "severity": "Informativo",
+      "state": "VERIFICADO",
+      "set_in_round": 17,
+      "summary": "#45: el orden derechos > autorización > consentimiento > evidencia es correcto y nunca actúa solo."
+    },
+    {
+      "id": "K-06",
+      "family": "K",
+      "severity": "Informativo",
+      "state": "VERIFICADO",
+      "set_in_round": 17,
+      "summary": "#46: equivalentes ciertos, ejemplos y umbral de varianza recalculados: correctos."
+    },
+    {
+      "id": "K-07",
+      "family": "K",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 17,
+      "summary": "#46: compara una media de lotería (14) con un bienestar neto estipulado (17) sin escala común declarada."
+    },
+    {
+      "id": "K-08",
+      "family": "K",
+      "severity": "—",
+      "state": "PROPUESTA",
+      "set_in_round": 17,
+      "summary": "#46 ya tiene la elección racional bajo riesgo que pedía H-01: se puede reutilizar para el juego de coordinación."
+    },
+    {
+      "id": "L-01",
+      "family": "L",
+      "severity": "Baja",
+      "state": "ABIERTO",
+      "set_in_round": 23,
+      "summary": "#60: una cota de utilidad finita mayor que 1 todavía certifica ganancia, aunque la puntuación está acotada en [0, 1]."
+    },
+    {
+      "id": "L-02",
+      "family": "L",
+      "severity": "Media",
+      "state": "RESPONDIDO",
+      "set_in_round": 24,
+      "summary": "#60: la caducidad de requalify admitía NaN y fallaba si faltaba el campo. El nuevo contrato rechaza esos valores; falta incorporarlo a main."
+    },
+    {
+      "id": "L-04",
+      "family": "L",
+      "severity": "Baja",
+      "state": "RESPONDIDO",
+      "set_in_round": 27,
+      "summary": "#66: el resumen contaba 0 victorias de B porque el brazo del receptor copiaba la opción elegida. Ahora el receptor es una capa aparte y B gana 10; falta incorporarlo a main."
+    },
+    {
+      "id": "L-05",
+      "family": "L",
+      "severity": "Informativo",
+      "state": "VERIFICADO",
+      "set_in_round": 24,
+      "summary": "#66 confirma F-04 en los 30 casos de #57: la inspección dirigida lidera sola 14; el metaprotocolo, ninguno."
+    },
+    {
+      "id": "L-06",
+      "family": "L",
+      "severity": "Informativo",
+      "state": "VERIFICADO",
+      "set_in_round": 24,
+      "summary": "El desarrollo DG1–DG4 se reproduce: 15 pruebas y las cifras 240/480/904/56/48."
+    },
+    {
+      "id": "L-07",
+      "family": "L",
+      "severity": "Baja",
+      "state": "RESPONDIDO",
+      "set_in_round": 27,
+      "summary": "#68: 17 de los 22 veredictos negativos los fija una puerta declarada. El texto dice ahora «casos ilustrativos» y el ejecutor publica el reparto; falta incorporarlo a main."
+    },
+    {
+      "id": "L-08",
+      "family": "L",
+      "severity": "Baja",
+      "state": "RESPONDIDO",
+      "set_in_round": 30,
+      "summary": "#70: el ganador lo decidían las precisiones supuestas y el frente, el precio. #72 publica el mapa con acceso igualado y el frente sin precio; falta incorporarlo a main."
+    },
+    {
+      "id": "L-09",
+      "family": "L",
+      "severity": "Baja",
+      "state": "ABIERTO",
+      "set_in_round": 31,
+      "summary": "En los 60 casos congelados, 6 de las 12 Q falsas se reconocen desde la vista pública; una política adaptativa podría detectarlas sin auditar."
+    },
+    {
+      "id": "L-03",
+      "family": "L",
+      "severity": "Informativo",
+      "state": "VERIFICADO",
+      "set_in_round": 23,
+      "summary": "#60: los testigos F1/D1 (10 frente a 8; 11,5 frente a 8,875 con el mismo A) se reproducen desde el código de origen."
+    }
+  ],
+  "aliases": [
+    {
+      "defect": "Defecto de qualify (#45)",
+      "ids": [
+        "I-01",
+        "D26-F01",
+        "M27-02",
+        "M27-01",
+        "M28-01"
+      ],
+      "state": "CERRADO"
+    },
+    {
+      "defect": "Mismo código en dos brazos (#57)",
+      "ids": [
+        "F-01",
+        "F-03",
+        "D26-F03"
+      ],
+      "state": "RESPONDIDO"
+    },
+    {
+      "defect": "Consulta suplementaria (#60)",
+      "ids": [
+        "M27-03",
+        "D26-F08",
+        "D26-C04/05"
+      ],
+      "state": "RESPONDIDO"
+    },
+    {
+      "defect": "Numeración UC21/DDS (#60)",
+      "ids": [
+        "M27-04",
+        "D26-F09",
+        "D26-C06/07"
+      ],
+      "state": "RESPONDIDO"
+    },
+    {
+      "defect": "Brecha supuesta g·E",
+      "ids": [
+        "H-02",
+        "G-05",
+        "F-06 (familia network)"
+      ],
+      "state": "ABIERTO"
+    }
+  ],
+  "checks": {
+    "ledger_ids": 88,
+    "duplicate_ids": 0,
+    "ledger_ids_absent_from_audit": [],
+    "audit_ids_absent_from_ledger": [],
+    "ledger_ids_without_stable_anchor": [],
+    "guide_totals_row": {
+      "guide": [
+        34,
+        27,
+        12,
+        10,
+        5,
+        88
+      ],
+      "ledger": [
+        34,
+        27,
+        12,
+        10,
+        5,
+        88
+      ],
+      "ok": true
+    },
+    "broken_local_anchors": {
+      "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md": [],
+      "ANNEX.md": [],
+      "GUIA_DE_LECTURA.md": []
+    }
+  },
+  "note": "AI-assisted reading aid. States summarize the audit's own dispositions; they are not independent human validation."
+}

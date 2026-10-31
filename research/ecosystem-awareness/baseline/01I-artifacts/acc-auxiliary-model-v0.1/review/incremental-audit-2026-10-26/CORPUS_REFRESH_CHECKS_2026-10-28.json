@@ -1,0 +1,170 @@
+{
+  "scope": "AI-assisted pinned finite reproductions and algebra, not independent human validation or source repair",
+  "sources_verified": [
+    {
+      "label": "PR64",
+      "ref": "0229bf9439be8459680dce4f7fe0376a9cd31306",
+      "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/scoped-closure-metacognition-v0.1/metacognition.py",
+      "blob": "d4f6cf172ec8b3a17d30d9993a03c5a1eb4c6a28"
+    },
+    {
+      "label": "PR60",
+      "ref": "3a846c6bb0fed6c25bf6deaa7af084a69ea242b5",
+      "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/test_theme18_online_context.py",
+      "blob": "e8518ca15964b91ac925adf727ddae70d192a138"
+    },
+    {
+      "label": "PR60",
+      "ref": "3a846c6bb0fed6c25bf6deaa7af084a69ea242b5",
+      "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/test_theme18_candidate_admission.py",
+      "blob": "57794f4c2605443170b1f8b9f523ee53a1d6f9c5"
+    }
+  ],
+  "checks": [
+    {
+      "name": "M28-01a exact binary inputs violate Lipschitz by 2^-54",
+      "passed": true
+    },
+    {
+      "name": "M28-01a current float candidate incorrectly supports TRUE",
+      "passed": true
+    },
+    {
+      "name": "M28-01a rounded pair guard misses that inconsistency",
+      "passed": true
+    },
+    {
+      "name": "M28-01b compatible single-point model admits values below threshold",
+      "passed": true
+    },
+    {
+      "name": "M28-01b float lower-bound rounding nevertheless supports TRUE",
+      "passed": true
+    },
+    {
+      "name": "original M27-01 is rejected by PR64",
+      "passed": true
+    },
+    {
+      "name": "original I01/M27-02 is rejected by PR64",
+      "passed": true
+    },
+    {
+      "name": "M28-02 full evaluator rejects input outside proof domain",
+      "passed": true
+    },
+    {
+      "name": "M28-02 shortcut nevertheless skips outside its proof domain",
+      "passed": true
+    },
+    {
+      "name": "M28-02 in-domain positive control agrees",
+      "passed": true
+    },
+    {
+      "name": "M28-03 NaN bypasses purported positive lower bound",
+      "passed": true
+    },
+    {
+      "name": "M28-03 infinite lower bound also accepted",
+      "passed": true
+    },
+    {
+      "name": "M28-03 genuinely absent lower bound retains uncertainty",
+      "passed": true
+    },
+    {
+      "name": "M28-03 no action is executed by this fixture",
+      "passed": true
+    },
+    {
+      "name": "M28-04 expiry helper only compares with old capture time",
+      "passed": true
+    },
+    {
+      "name": "M28-04 hypothetical later decision lies beyond expiry",
+      "passed": true
+    },
+    {
+      "name": "M27-03 conditional conflict universe has exactly two pairs",
+      "passed": true
+    },
+    {
+      "name": "M27-03 one supplemental query separates all remaining pairs",
+      "passed": true
+    },
+    {
+      "name": "M27-03 Q-only does not identify every state",
+      "passed": true
+    },
+    {
+      "name": "M28-O1 exact success/fallback cost identity",
+      "passed": true
+    },
+    {
+      "name": "M28-O1 declared example saves work against full-grid procedure",
+      "passed": true
+    },
+    {
+      "name": "M28-O1 no-hit negative control loses overhead",
+      "passed": true
+    },
+    {
+      "name": "M28-O1 expensive selection negative control can lose",
+      "passed": true
+    }
+  ],
+  "passed": 23,
+  "total": 23,
+  "facts": {
+    "M28-01": {
+      "epsilon": 5.551115123125783e-17,
+      "exact_pair_excess": "1/18014398509481984",
+      "pair_status": "LOCALLY_SUPPORTED_TRUE",
+      "single_point_status": "LOCALLY_SUPPORTED_TRUE",
+      "required_pair_status": "EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT",
+      "required_single_point_status": "UNDETERMINED_FROM_AVAILABLE_EVIDENCE"
+    },
+    "M28-02": {
+      "x": 12,
+      "domain": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "full": "ValueError",
+      "guarded": [
+        "REJECT",
+        true
+      ]
+    },
+    "M28-03": {
+      "NaN_status": "SCOPED_PROPOSAL_FOR_EXTERNAL_ACTION_CHECK",
+      "infinite_status": "SCOPED_PROPOSAL_FOR_EXTERNAL_ACTION_CHECK",
+      "execution": "NEVER"
+    },
+    "M28-04": {
+      "classification": "missing time parameter / scope clarification; no deployed runtime failure asserted",
+      "capture_time": 1,
+      "expiry": 3,
+      "hypothetical_decision_time": 10,
+      "helper_status": "ADMISSIBLE_FOR_NEW_REVIEW"
+    },
+    "M28-O1": {
+      "scope": "conditional algebra against declared full-grid procedure only; not measured gain",
+      "D": 100,
+      "s": 10,
+      "h": 5,
+      "p": "1/2",
+      "expected_bound": "60",
+      "strict_gain_condition": "h < p*(D-s)"
+    }
+  }
+}

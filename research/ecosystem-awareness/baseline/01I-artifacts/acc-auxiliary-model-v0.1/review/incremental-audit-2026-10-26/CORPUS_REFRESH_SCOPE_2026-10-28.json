@@ -1,0 +1,349 @@
+{
+  "scope": "32 changed file editions inventoried; focal reading, not complete four-pass audit",
+  "snapshot": {
+    "main": "b7147330506b37567a7821be6f4cb2237da06bda",
+    "oldmain": "43203858893325b9cbc1c3e3b75f72a7d35e6f1d",
+    "prs": [
+      {
+        "number": 64,
+        "title": "Fix ACC qualification: exact empty bounds and joint-evidence feasibility (I-01 / M27-01)",
+        "head": "0229bf9439be8459680dce4f7fe0376a9cd31306",
+        "base": "b7147330506b37567a7821be6f4cb2237da06bda",
+        "ref": "fix/acc-joint-evidence-consistency-20261027"
+      },
+      {
+        "number": 63,
+        "title": "docs(acc): delimit H-01/H-03 against multidimensional and nested-access model",
+        "head": "2193705ef13adec08068f49f355a632e4c35f450",
+        "base": "b7147330506b37567a7821be6f4cb2237da06bda",
+        "ref": "docs/acc-audit-scope-h01-h03-20261027"
+      },
+      {
+        "number": 62,
+        "title": "Research bridge: Structural Awareness → EA/EP; DDS/UC21 rooted upstream",
+        "head": "f3f5e2078ba75443ea6e17ea2af9800f8d8ccec3",
+        "base": "b7147330506b37567a7821be6f4cb2237da06bda",
+        "ref": "research/sa-ea-ep-dds-foundational-bridge-20261027"
+      },
+      {
+        "number": 60,
+        "title": "research(math): audit original mathematical lineage and bounded social→agentic metaprotocol",
+        "head": "3a846c6bb0fed6c25bf6deaa7af084a69ea242b5",
+        "base": "3e58fc6997a439b9783fd6b92ccee3f4292772dd",
+        "ref": "research/mathematical-lineage-agentic-reduction-20261026"
+      },
+      {
+        "number": 59,
+        "title": "Re-audit daily PRs: ACC inference, evidence scope and DDS navigation",
+        "head": "051ff62059b8652b9e0d46fa0bbb9251896ec750",
+        "base": "86cd02fe06ecfb7de883375a1952b73b5fa27150",
+        "ref": "docs/corpus-daily-pr-audit-20261026"
+      },
+      {
+        "number": 58,
+        "title": "Auditoría científica incremental: ACC, Conscientia y reducción agéntica",
+        "head": "5046bbf4ac6dcbd6b7c2393929986868bb5d254d",
+        "base": "2d9e4509447910a8541827edfc82c592d42e3520",
+        "ref": "review/incremental-scientific-audit-20261026"
+      },
+      {
+        "number": 57,
+        "title": "research(ACC): reducción agéntica, frustración operacional y meta-protocolo parcial (30×6 + 160)",
+        "head": "a98940490e8a84051ad314f2392c15338dbf1de9",
+        "base": "3e58fc6997a439b9783fd6b92ccee3f4292772dd",
+        "ref": "research/acc-agentic-ecosystem-reduction-v0.1-20261026"
+      },
+      {
+        "number": 56,
+        "title": "docs(taxonomy): open cross-corpus register of problems, distinctions and ideas",
+        "head": "4da68127944a4e0d89c25b6759bd4b1447ec22f7",
+        "base": "3e58fc6997a439b9783fd6b92ccee3f4292772dd",
+        "ref": "codex/taxonomy-review-register-20261026"
+      },
+      {
+        "number": 54,
+        "title": "Conscientia/ACC: 46 ejemplos sintéticos ejecutables y 88 barridos de sensibilidad",
+        "head": "e225216950fb424c64acd8e7f274f5e3c7ad59c3",
+        "base": "1b5a07f916d3f65cf467628e2bec5b13b769a029",
+        "ref": "research/conscientia-source-experiments-20261026"
+      },
+      {
+        "number": 18,
+        "title": "Complete scoped article reviews and reconcile DDS candidate register",
+        "head": "e079baa04542cf7371337b95878acde7a5b17572",
+        "base": "741e40500363e4287a87fc9def85e99204bd437c",
+        "ref": "review/four-point-completion-registers-2026-10-12"
+      },
+      {
+        "number": 5,
+        "title": "Preserve the earlier A/B/C/D proposal as historical lineage",
+        "head": "efc7f2f9f01de7641da32c7c47b64b78d8180ab1",
+        "base": "741e40500363e4287a87fc9def85e99204bd437c",
+        "ref": "codex/abcd-foundation-2026-10-01"
+      }
+    ],
+    "oldheads": {
+      "54": "c332dfac84d66f58ed424cee20ad6ad40060aec7",
+      "58": "a1f84f33b8a8f5f94d137945d9d02d0cc638e4cd",
+      "60": "c406232a3c4e3b8b42a719956ce7f3136a6dfc49"
+    }
+  },
+  "changed_files": [
+    {
+      "label": "main",
+      "head": "b7147330506b37567a7821be6f4cb2237da06bda",
+      "old": "43203858893325b9cbc1c3e3b75f72a7d35e6f1d",
+      "files": [
+        {
+          "mode": "100644",
+          "sha": "f188709a217a02d32b0772ba6ea521127e46c990",
+          "path": ".github/workflows/00k-symbolic-ablations.yml",
+          "status": "modified"
+        },
+        {
+          "mode": "100644",
+          "sha": "610fa519f1d0cf06a784d1e72d3d0e37103cf605",
+          "path": "research/ecosystem-awareness/DDS_CANONICAL_METHOD_INDEX_v0.1.md",
+          "status": "modified"
+        },
+        {
+          "mode": "100644",
+          "sha": "7bd622cc2ed00fe8ca72e63511e500c43ecb58b8",
+          "path": "research/ecosystem-awareness/review-packets/DDS-S2-EA-01/README.md",
+          "status": "modified"
+        },
+        {
+          "mode": "100644",
+          "sha": "06a117b90746f4a7f41f5db7c612a3d763fd6ed1",
+          "path": "research/ecosystem-awareness/review-packets/DDS-S2-EA-01/REVIEW_RECORD_TEMPLATE.md",
+          "status": "modified"
+        },
+        {
+          "mode": "100644",
+          "sha": "3770cace8ee457f6705509377c2a5fd4f26d2727",
+          "path": "research/ecosystem-awareness/review-packets/README.md",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "label": "PR63",
+      "head": "2193705ef13adec08068f49f355a632e4c35f450",
+      "old": null,
+      "files": [
+        {
+          "mode": "100644",
+          "sha": "9d3602be3f064e22bd96c19c9c9f48de2631398f",
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/MODEL.md",
+          "status": "modified"
+        },
+        {
+          "mode": "100644",
+          "sha": "da22848b2a2ffb69fc5c229ac061ca9e3bf6a136",
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1/README.md",
+          "status": "modified"
+        },
+        {
+          "mode": "100644",
+          "sha": "0ed33073dc48f8f6c7ccb98c1af31b52e62486ea",
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/nested-composition-suffering-v0.1/README.md",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "label": "PR62",
+      "head": "f3f5e2078ba75443ea6e17ea2af9800f8d8ccec3",
+      "old": null,
+      "files": [
+        {
+          "mode": "100644",
+          "sha": "1a5958177f3ed97dfaa8bb4550528febfc12fad9",
+          "path": "research/structural-awareness/SA_EA_EP_DDS_FOUNDATIONAL_BRIDGE_v0.1.md",
+          "status": "added"
+        },
+        {
+          "mode": "100644",
+          "sha": "d8fe847c47bfb8bd2f11faa4d09402e3b1fde60e",
+          "path": "research/structural-awareness/SA_POSITIONED_RESIDUAL_REUSE_AND_LOCAL_ADAPTATION_v0.1.md",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "label": "PR60",
+      "head": "3a846c6bb0fed6c25bf6deaa7af084a69ea242b5",
+      "old": "c406232a3c4e3b8b42a719956ce7f3136a6dfc49",
+      "files": [
+        {
+          "mode": "100644",
+          "sha": "a604cf33f3db2fcc755042e1d15bb4b78c8b998e",
+          "path": ".github/workflows/document-integrity.yml",
+          "status": "modified"
+        },
+        {
+          "mode": "100644",
+          "sha": "274052afff575951bdab4461c84a6698e4d9c28e",
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/02_FORMAL_CORE_AND_PROOFS.md",
+          "status": "modified"
+        },
+        {
+          "mode": "100644",
+          "sha": "3840b186b16ead4f6736c0c9dcbe9eee79594a34",
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/03_METAPROTOCOL_ALGORITHMS_AND_COST.md",
+          "status": "modified"
+        },
+        {
+          "mode": "100644",
+          "sha": "74cab015465db9a2e504a2b31517233a574f10b8",
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/05_INDEPENDENT_VALIDATION_PROTOCOL.md",
+          "status": "modified"
+        },
+        {
+          "mode": "100644",
+          "sha": "fb1757678a13391ba36e664fd9badc3949b7ee69",
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/06_CLAIM_AND_EVIDENCE_MATRIX.md",
+          "status": "modified"
+        },
+        {
+          "mode": "100644",
+          "sha": "e367ab8bdbdbdec48d7b3abeb297f0d3f14167cc",
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/07_THEME18_COLLECTIVE_CHOICE_REGIME_ADEQUACY_INTERFACE_v0.1.md",
+          "status": "modified"
+        },
+        {
+          "mode": "100644",
+          "sha": "ba28392af1aad3d3c47cfeed6224e3cb92cbc1f9",
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/08_THEME18_TEST_MODEL_AND_FIXTURES_v0.1.md",
+          "status": "modified"
+        },
+        {
+          "mode": "100644",
+          "sha": "b451e9d654760765af88104b943fefecd0ca285e",
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/11_THEME18_20261027_CORPUS_RECONCILIATION_AND_ADMISSION_CONTRACT_v0.1.md",
+          "status": "added"
+        },
+        {
+          "mode": "100644",
+          "sha": "10d7332d04e6034f7412846ca43e951a17eba4d5",
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/12_THEME18_EXTERNAL_REVIEW_BRIEF_v0.1.md",
+          "status": "added"
+        },
+        {
+          "mode": "100644",
+          "sha": "ef8e18ca4dd92574a246848b2d76638735ecb2ac",
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/README.md",
+          "status": "modified"
+        },
+        {
+          "mode": "100644",
+          "sha": "57794f4c2605443170b1f8b9f523ee53a1d6f9c5",
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/test_theme18_candidate_admission.py",
+          "status": "added"
+        },
+        {
+          "mode": "100644",
+          "sha": "e8518ca15964b91ac925adf727ddae70d192a138",
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/test_theme18_online_context.py",
+          "status": "added"
+        }
+      ]
+    },
+    {
+      "label": "PR58",
+      "head": "5046bbf4ac6dcbd6b7c2393929986868bb5d254d",
+      "old": "a1f84f33b8a8f5f94d137945d9d02d0cc638e4cd",
+      "files": [
+        {
+          "mode": "100644",
+          "sha": "7e82eb6d65547c17d5c4eff8a860485663e7b278",
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "label": "PR54",
+      "head": "e225216950fb424c64acd8e7f274f5e3c7ad59c3",
+      "old": "c332dfac84d66f58ed424cee20ad6ad40060aec7",
+      "files": [
+        {
+          "mode": "100644",
+          "sha": "aa002e823d13e17a9bf491f7f76314fcb08ba52c",
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-additional-cases-v0.1/EXPERIMENT_CATALOG.md",
+          "status": "modified"
+        },
+        {
+          "mode": "100644",
+          "sha": "f4634163bdc190a8c75087867643865f0c664abb",
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-additional-cases-v0.1/README.md",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "label": "PR57",
+      "head": "a98940490e8a84051ad314f2392c15338dbf1de9",
+      "old": "2a895a98c55d8a60d6f317dc9c07f89d90480272",
+      "files": [
+        {
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/README.md",
+          "sha": "e383cc59aeef19ef443b0ccf510fa45cc96f61e2",
+          "mode": "100644",
+          "status": "modified"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/RUN_SUMMARY.md",
+          "sha": "d3f1d62b48327e4b42b4de3191d1d20e5933bcab",
+          "mode": "100644",
+          "status": "modified"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/test_agentic_reduction.py",
+          "sha": "64d8d8e8b1225d4834a6d80216f5912e0ddcd8a4",
+          "mode": "100644",
+          "status": "modified"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/test_sensitivity.py",
+          "sha": "b919cd63db8081b739906cc827a38005e70d3640",
+          "mode": "100644",
+          "status": "modified"
+        }
+      ]
+    },
+    {
+      "label": "PR64",
+      "head": "0229bf9439be8459680dce4f7fe0376a9cd31306",
+      "old": "b7147330506b37567a7821be6f4cb2237da06bda",
+      "files": [
+        {
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/scoped-closure-metacognition-v0.1/README.md",
+          "sha": "0bc058442d8889ccb0ad72d8578bbaf16d54078a",
+          "mode": "100644",
+          "status": "modified"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/scoped-closure-metacognition-v0.1/metacognition.py",
+          "sha": "d4f6cf172ec8b3a17d30d9993a03c5a1eb4c6a28",
+          "mode": "100644",
+          "status": "modified"
+        },
+        {
+          "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/scoped-closure-metacognition-v0.1/test_metacognition.py",
+          "sha": "bdbac801a9cda734e53b549f0fe162556dcaf516",
+          "mode": "100644",
+          "status": "modified"
+        }
+      ]
+    }
+  ],
+  "local_regressions": {
+    "PR64": 68,
+    "PR60": 30,
+    "PR54": 65,
+    "PR57": 87
+  },
+  "synthetic_report_64_equal": true,
+  "P5_39_success": "https://github.com/dakleyer/structural-awareness-contributions/actions/runs/40546671257/job/122339003753"
+}
