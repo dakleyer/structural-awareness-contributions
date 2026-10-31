@@ -80,6 +80,24 @@ jobs:
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/run_original_experiments.py --model both --compact > /tmp/acc_original_examples.json
           python -B -c "import json; x=json.load(open('/tmp/acc_original_examples.json')); assert x['case_count']==73; assert sum(v for g in x['admission_by_model'].values() for v in g.values())==73; assert set(x['admission_by_model'])=={'SOCIAL_FINITE','SOCIAL_SOURCE_44','AGENTIC_SOURCE_57'}; assert not x['cross_model_objectives_aggregated']"
 
+      - name: Check G-02 independent fallible audit signals and non-oracular conventional comparator
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1"
+          python -B -m unittest discover -s "$S" -p test_g02_evidence_audit.py -v
+          python -B "$S/g02_evidence_audit.py" --manifest "$S/G02_AUDIT_PROTOCOL.json" --output /tmp/acc_g02_fallible_audit_summary.json
+          python -B "$S/g02_evidence_audit.py" --manifest "$S/G02_AUDIT_PROTOCOL.json" --traces --output /tmp/acc_g02_audit_private_referee_traces.json
+          python -B -c "import json; p=json.load(open('/tmp/acc_g02_fallible_audit_summary.json')); assert p['original_source_cases']==60 and p['total_paired_cases']==60*64*8; assert p['historical_flag_baseline_UNCHANGED']['legacy_flag_arm_wrong']==4 and p['historical_flag_baseline_UNCHANGED']['ordinary_Q_wrong']==12; assert all(x['new_policy_outcomes']['A_ONLY']['open_unscored_count']==12*64 for x in p['regimes']); assert 'NO_REAL' not in p['interpretation'] or p['causal_or_technology_superiority']=='NOT_ESTABLISHED'; print('G02_AUDIT_COMPARISON='+json.dumps([{'regime':x['regime'],'new_audited':{k:x['new_policy_outcomes']['Q_WITH_AUDIT_OBSERVATION'][k] for k in ('wrong','unresolved','false_allow','missed_justified_allows','total_synthetic_instrument_cost')},'conventional':{k:x['new_policy_outcomes']['CONVENTIONAL_INDEPENDENT_MEASURED'][k] for k in ('wrong','unresolved','false_allow','missed_justified_allows','total_synthetic_instrument_cost')}} for x in p['regimes']],sort_keys=True))"
+          python -B -c "import json; a=json.load(open('/tmp/acc_g02_fallible_audit_summary.json')); b=json.load(open('/tmp/acc_g02_audit_private_referee_traces.json')); assert a['manifest_sha256']==b['manifest_sha256'] and a['total_paired_cases']==b['total_paired_cases']; assert all('private_referee_sample_traces_NOT_PUBLIC_PLANNER_INPUT' in x for x in b['regimes']) and all('private_referee_sample_traces_NOT_PUBLIC_PLANNER_INPUT' not in x for x in a['regimes'])"
+
+      - name: Publish G-02 audit signal and private referee reproducibility evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: acc-g02-independent-fallible-q-audit-study
+          path: |
+            /tmp/acc_g02_fallible_audit_summary.json
+            /tmp/acc_g02_audit_private_referee_traces.json
+          if-no-files-found: error
+
       - name: Publish original-example cross-model execution report
         uses: actions/upload-artifact@v4
         with:
