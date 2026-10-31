@@ -180,22 +180,22 @@ class BoundaryAndSignalTests(unittest.TestCase):
 class FiniteCampaignRegressions(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.run=g.run(MANIFEST)
-        cls.by={x["regime"]:x for x in cls.run["regimes"]}
+        cls.report=g.run(MANIFEST)
+        cls.by={x["regime"]:x for x in cls.report["regimes"]}
 
     def test_manifest_and_full_source_population_are_frozen_and_reusable(self):
         g.validate(MANIFEST)
-        self.assertEqual(self.run["original_source_cases"],60)
-        self.assertEqual(self.run["replicates_per_case"],64)
-        self.assertEqual(self.run["total_paired_cases"],60*64*len(MANIFEST["regimes"]))
-        self.assertEqual(len(self.run["source_sha256"]),3)
-        self.assertTrue(all(len(v)==64 for v in self.run["source_sha256"].values()))
-        self.assertEqual(self.run["historical_flag_baseline_UNCHANGED"]["legacy_flag_arm_wrong"],4)
-        self.assertEqual(self.run["historical_flag_baseline_UNCHANGED"]["ordinary_Q_wrong"],12)
+        self.assertEqual(self.report["original_source_cases"],60)
+        self.assertEqual(self.report["replicates_per_case"],64)
+        self.assertEqual(self.report["total_paired_cases"],60*64*len(MANIFEST["regimes"]))
+        self.assertEqual(len(self.report["source_sha256"]),3)
+        self.assertTrue(all(len(v)==64 for v in self.report["source_sha256"].values()))
+        self.assertEqual(self.report["historical_flag_baseline_UNCHANGED"]["legacy_flag_arm_wrong"],4)
+        self.assertEqual(self.report["historical_flag_baseline_UNCHANGED"]["ordinary_Q_wrong"],12)
         self.assertTrue(all(sum(x["source_variant_counts"].values())==60*64
-                            for x in self.run["regimes"]))
+                            for x in self.report["regimes"]))
         self.assertTrue(all(set(x["new_policy_outcomes"])==set(g.ARMS)
-                            for x in self.run["regimes"]))
+                            for x in self.report["regimes"]))
 
     def test_perfect_audit_has_no_false_q_wrong_decisions_where_boolean_did(self):
         group=self.by["PERFECT_INDEPENDENT_AUDIT_AND_CONVENTIONAL"]["new_policy_outcomes"]
@@ -209,7 +209,7 @@ class FiniteCampaignRegressions(unittest.TestCase):
         group=self.by["BLIND_AUDIT_FALSE_ASSURANCE"]["new_policy_outcomes"]
         self.assertEqual(group["Q_WITH_AUDIT_OBSERVATION"]["wrong"],12*64)
         self.assertGreater(group["CONVENTIONAL_INDEPENDENT_MEASURED"]["correct"],0)
-        self.assertGreater(group["Q_WITH_AUDIT_OBSERVATION"]["total_synthetic_instrument_cost"],"0")
+        self.assertGreater(g.rat(group["Q_WITH_AUDIT_OBSERVATION"]["total_synthetic_instrument_cost"],"cost"),0)
 
     def test_when_audit_absent_zero_wrong_must_not_be_called_superior(self):
         group=self.by["AUDIT_UNAVAILABLE_DIRECT_AVAILABLE"]["new_policy_outcomes"]
@@ -245,7 +245,7 @@ class FiniteCampaignRegressions(unittest.TestCase):
                             h["Q_WITH_AUDIT_OBSERVATION"]["total_synthetic_instrument_cost"])
 
     def test_open_c_d_never_scored_as_closed_in_any_regime(self):
-        for row in self.run["regimes"]:
+        for row in self.report["regimes"]:
             for a in row["new_policy_outcomes"].values():
                 self.assertEqual(a["open_unscored_count"],12*64)
                 self.assertEqual(a["adjudicable_count"],48*64)
