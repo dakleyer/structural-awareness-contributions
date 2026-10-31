@@ -26,4 +26,4 @@
 
 `EXECUTE`, `REQUALIFY`, `CONTAIN`, `NO_COMMITMENT`, `ESCALATE`, `PRESERVE_AND_ROUTE`, `DENY`, `EXPIRE` and `NO CONCLUSION`.
 
-An isolated KPI must not be turned into a PASS: the full `T#` condition and the source limitation must be satisfied.
+An isolated KPI must not be turned into a PASS: the complete `T#` condition and the source's stated limit must be satisfied.
