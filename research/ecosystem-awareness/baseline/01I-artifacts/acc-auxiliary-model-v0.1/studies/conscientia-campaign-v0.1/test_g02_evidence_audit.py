@@ -134,6 +134,57 @@ class BoundaryAndSignalTests(unittest.TestCase):
         self.assertFalse(scored["arms"]["Q_WITH_AUDIT_OBSERVATION"]["qualified_audit_consumed"])
         self.assertEqual(scored["arms"]["Q_WITH_AUDIT_OBSERVATION"]["acquisition_cost_synthetic"],1.3)
 
+    def test_absent_signal_has_no_hidden_value_in_public_reading(self):
+        e=env(regime="AUDIT_UNAVAILABLE_DIRECT_AVAILABLE")
+        self.assertFalse(e["audit"]["available"])
+        self.assertEqual(e["audit"]["value"],"INCONCLUSIVE")
+        params=dict(REGIMES["PERFECT_INDEPENDENT_AUDIT_AND_CONVENTIONAL"]["parameters"])
+        params["direct_availability"]="0"
+        gone=g.generate(BY_ID["VERS-FALSE_Q"],params,
+                        seed=MANIFEST["seed"],replicate=0)
+        self.assertFalse(gone["direct"]["available"])
+        self.assertEqual(gone["direct"]["value"],"INCONCLUSIVE")
+
+    def test_one_issuer_cannot_be_counted_as_two_independent_observations(self):
+        e=env("VERS-VALID_GO")
+        direct={**e["direct"],"issuer_id":e["audit"]["issuer_id"]}
+        prices=REGIMES["PERFECT_INDEPENDENT_AUDIT_AND_CONVENTIONAL"]["prices"]
+        checked=g.plan_public(e["public"],e["q"],e["audit"],direct,
+                              prices,"BOTH_INDEPENDENT_EVIDENCE")
+        self.assertEqual(checked["action"],"REVIEW")
+        self.assertEqual(checked["evidence_mode"],
+                         "CONTRADICTORY_OR_INSUFFICIENT_EVIDENCE")
+        self.assertTrue(checked["qualified_audit_consumed"])
+        self.assertTrue(checked["qualified_direct_consumed"])
+        self.assertEqual(
+            checked["consulted"]["INDEPENDENT_DIRECT"],"4/5")
+
+    def test_independent_mechanism_reusable_for_an_external_declared_question(self):
+        # Standalone registry-like case with the same question/instrument
+        # interface. No hardcoded VERS/false-Q or knowledge of human motives.
+        third={
+            "case_id":"EXTERNAL-G02-ONE-QUESTION",
+            "family":"EXTERNAL_FINITE_EXAMPLE",
+            "variant":"VALID_GO",
+            "public":{"A":"READY","baseline_action":"REVIEW",
+                      "scope_id":"external-source-qualified-question"},
+            "Q":{"kind":"B","verdict":"ALLOW","status":"CURRENT_VALID",
+                 "source_id":"external-issuer","scope_id":"external-source-qualified-question",
+                 "fresh":True,"provenance_established":True,
+                 "independent_audit":False,"cost":1},
+            "truth_private_for_scoring":"ALLOW",
+            "utility":{"correct_allow":4,"correct_block":2,"false_allow":-5,
+                       "false_block":-3,"review":0},
+        }
+        args=REGIMES["PERFECT_INDEPENDENT_AUDIT_AND_CONVENTIONAL"]
+        sample=g.generate(third,args["parameters"],seed=MANIFEST["seed"],replicate=4)
+        self.assertEqual(sample["audit"]["value"],"SUPPORT")
+        result=g.evaluate(sample,args["prices"])
+        self.assertEqual(result["arms"]["Q_WITH_AUDIT_OBSERVATION"]["action"],"ALLOW")
+        self.assertEqual(result["arms"]["CONVENTIONAL_INDEPENDENT_MEASURED"]["action"],"ALLOW")
+        self.assertEqual(result["arms"]["Q_WITH_AUDIT_OBSERVATION"]["correctness"],"CORRECT")
+        self.assertFalse(result["historical_boolean_DIAGNOSTIC_ONLY"])
+
     def test_stale_q_and_open_cd_never_become_current_valid_audit_evidence(self):
         for sid in ("VERS-STALE","VERS-OPEN_RESIDUAL"):
             with self.subTest(sid=sid):
