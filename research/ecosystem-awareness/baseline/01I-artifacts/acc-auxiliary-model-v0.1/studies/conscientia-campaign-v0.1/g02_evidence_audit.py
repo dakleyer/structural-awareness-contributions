@@ -145,13 +145,17 @@ def generate(case:Mapping[str,Any],params:Mapping[str,Any],
         evidence="INCONCLUSIVE"
     observed=(truth if sample("direct_observation_correct") else
               "BLOCK" if truth=="ALLOW" else "ALLOW") if truth in TRUTH else "INCONCLUSIVE"
+    audit_available=sample("audit_availability")
+    direct_available=sample("direct_availability")
     audit=observation(
-        "AUDITOR",evidence,available=sample("audit_availability"),
+        "AUDITOR",evidence if audit_available else "INCONCLUSIVE",
+        available=audit_available,
         signed=sample("audit_authenticity"),
         scoped=sample("audit_scope_match"),fresh=sample("audit_freshness"),
         issuer="INDEPENDENT_AUDITOR_TOY",scope=case["public"]["scope_id"])
     direct=observation(
-        "CONVENTIONAL",observed,available=sample("direct_availability"),
+        "CONVENTIONAL",observed if direct_available else "INCONCLUSIVE",
+        available=direct_available,
         signed=sample("direct_authenticity"),
         scoped=sample("direct_scope_match"),fresh=sample("direct_freshness"),
         issuer="INDEPENDENT_DIRECT_TOY",scope=case["public"]["scope_id"])
@@ -220,7 +224,9 @@ def plan_public(public:Mapping[str,Any],q:Mapping[str,Any],
     elif arm=="BOTH_INDEPENDENT_EVIDENCE":
         if not usable:
             reason="CURRENT_SCOPED_B_NOT_AVAILABLE"
-        elif (a_valid and d_valid and audit["value"]=="SUPPORT"
+        elif (a_valid and d_valid
+              and audit["issuer_id"]!=direct["issuer_id"]
+              and audit["value"]=="SUPPORT"
               and direct["value"]==q["claimed_action"]):
             action=q["claimed_action"]
             reason="TWO_INDEPENDENT_OBSERVATIONS_AGREE_ON_Q"
