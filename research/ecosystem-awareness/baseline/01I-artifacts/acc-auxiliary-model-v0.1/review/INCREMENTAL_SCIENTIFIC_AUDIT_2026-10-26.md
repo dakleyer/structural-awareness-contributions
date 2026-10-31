@@ -60,6 +60,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 28 | 2026-10-29 | [Recepción de G-04 (PR #70)](#ronda-28) | G-04 respondido; L-08 nuevo |
 | 29 | 2026-10-30 | [Recepción de G-06 (PR #71)](#ronda-29) | G-06 respondido; sin hallazgos nuevos |
 | 30 | 2026-10-30 | [Recepción de L-08 (PR #72)](#ronda-30) | L-08 respondido; cifras reproducidas de forma independiente |
+| 31 | 2026-10-31 | [Recepción de G-02 (PR #73)](#ronda-31) | G-02 respondido; L-09 nuevo |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1230,3 +1231,33 @@ Pasan 20 + 6 + 6 pruebas nuevas, las 21 de G-04 siguen en verde y la CI está en
 **Estado:** L-08 pasa a `RESPONDIDO` y se cerrará cuando #70 y #72 estén en `main`.
 
 **Totales:** 87 registros. 34 abiertos, 26 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-31"></a>
+
+## Ronda 31 — recepción de G-02 en PR #73 (31-10-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** [comentario en PR #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-6541124060), escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #73 (`d3754549`) está apilado sobre #68. No toca `campaign.py`, `CASE_REGISTRY.json` ni `REFERENCE_SYNTHETIC_RESULTS.json`.
+
+**Qué cambia.** En lugar del booleano `Q.independent_audit` del fixture, un sensor de auditoría sintético y falible emite APOYO, CONTRADICCIÓN o NO CONCLUYENTE. Tiene tasas declaradas de detección y de falsa alarma, metadatos de emisor, alcance y frescura, y un coste. Se compara con una medición convencional independiente, que también puede fallar o ganar.
+
+**Las seis comprobaciones que pide la nota, hechas de forma independiente** (`g02_audit_identities.py` y lectura de `g02_evidence_audit.py`):
+
+| Punto | Resultado |
+|---|---|
+| (i) La verdad oculta y `CURRENT_BUT_FALSE` no llegan al planificador | **Sí.** `public_Q` convierte `CURRENT_BUT_FALSE` en `CURRENT`. Ni la Q pública ni la A pública llevan variante, verdad o booleano antiguo. `plan_public` no tiene argumento para ellos |
+| (ii) Emisor, alcance, frescura, disponibilidad y coste; guarda de doble emisor | **Sí.** `qualified` exige un emisor distinto del de Q, firma de juguete, alcance y ventana de frescura. `BOTH_INDEPENDENT_EVIDENCE` exige además emisores distintos entre auditoría y medición |
+| (iii) Falsas alarmas y detecciones fallidas | **Sí.** Se cumplen las identidades: con auditoría ciega, el brazo auditado da exactamente lo mismo que Q sin auditar (768/768/0); sin auditoría disponible o cualificada, se abstiene en las 48 × 64 = 3 072 observaciones y pierde las 768 autorizaciones justificadas; con auditoría perfecta, 0 errores |
+| (iv) Comparador convencional competente | **Sí.** En el régimen de auditoría débil y convencional fuerte, el convencional comete 156 errores frente a 602 del brazo auditado. Con ambos perfectos, el convencional da 0/0/0 y el brazo auditado deja 1 536 casos sin resolver, porque una auditoría que solo valida Q no puede resolver una Q falsa |
+| (v) Identidad de los ficheros fuente y congelados; C y D abiertos | **Sí.** El brazo antiguo conserva sus 4 errores en 12 Q falsas. Los casos C y D abiertos no se puntúan |
+| (vi) Límites de generalización | Declarados: tasas sintéticas, sin evidencia empírica de eficacia de auditoría |
+
+Pasan las 25 pruebas nuevas y las 61 de la campaña, y la CI está en verde. Las cifras publicadas se reproducen sobre 8 regímenes × 60 casos × 64 réplicas = 30 720.
+
+**G-02 pasa a `RESPONDIDO`** y se cerrará cuando #73 esté en `main`.
+
+| ID | Estado | Hallazgo | Propuesta |
+|---|---|---|---|
+| <a id="l-09"></a>**L-09** | Baja · `ABIERTO` | **La mitad de las Q falsas se reconoce desde la vista pública, sin auditoría.** En los 60 casos congelados, cada familia de ejemplos tiene una Q falsa con acción de base `REVIEW` y afirmación `ALLOW`. En 6 de las 12 familias, la Q verdadera con afirmación `ALLOW` tiene base `ALLOW`, así que la vista pública de la Q falsa (emisor, alcance, base y afirmación) nunca coincide con la de una verdadera. Las políticas de #73 no usan esa correlación, de modo que sus cifras no se ven afectadas. Pero cualquier política pública adaptativa o aprendida podría «detectar» Q falsas sin auditar nada, y entonces el beneficio atribuido a la auditoría estaría inflado. Es una propiedad heredada del fixture, no un defecto nuevo. | Añadir una prueba de control que impida a las políticas públicas condicionar a la combinación base × afirmación, o generar una variante derivada del fixture con la base equilibrada entre Q falsas y verdaderas. No reescribir los 60 casos congelados. |
+
+**Totales:** 88 registros. 34 abiertos, 27 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.

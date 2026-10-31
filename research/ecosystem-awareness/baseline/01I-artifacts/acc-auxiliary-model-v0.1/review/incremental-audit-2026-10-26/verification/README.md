@@ -24,6 +24,7 @@ El script de reconfirmación de I-01 ya estaba en el PR: [`../reconfirm_I01_2026
 | [`g04_accuracy_map.py`](g04_accuracy_map.py) | [G-04](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#g-04), [L-08](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-08) | [28](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-28) | Raíz de PR #70 | 1 152 mundos con las cifras publicadas; mapa 7 × 7 de precisiones con regiones B, D e I; brazo de límites en el frente de Pareto en 49 de 49 celdas |
 | [`g06_provenance_recount.py`](g06_provenance_recount.py) | [G-06](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#g-06) | [29](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-29) | Raíz de PR #71 | 23 = 19 + 4; 17 lecturas declaradas en bloque y 2 solo por metadatos; 10 fuentes primarias; 13 usadas en total; 12 anclas `S1-P` presentes. Termina con 1 si algo no coincide |
 | [`l08_independent_panel.py`](l08_independent_panel.py) | [L-08](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-08) | [30](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-30) | Raíz de PR #72 | Acceso igualado: 13 B, 9 D, 26 incomparables, 1 empate, y frente de dos ejes en 19 de 49. Acceso original: 15 B, 22 D, 12 incomparables |
+| [`g02_audit_identities.py`](g02_audit_identities.py) | [G-02](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#g-02), [L-09](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-09) | [31](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-31) | Raíz de PR #73 | Identidades de auditoría ciega, no disponible y perfecta; brazo antiguo 4/12; sin fugas en la vista pública; 6 de 12 Q falsas identificables desde la vista pública. Termina con 1 si falla una identidad |
 | [`anchor_check.py`](anchor_check.py) | Herramienta | 14, 20, 21 | Cualquier `.md` | Enlaces `archivo.md#ancla` que no encuentran título ni `<a id>`. Termina con 1 si hay alguno roto |
 
 ## Cómo ejecutarlos
@@ -50,6 +51,7 @@ python3 -B $V/g03_computed_vs_declared.py     $PR66 $PR68
 python3 -B $V/g04_accuracy_map.py             $PR70
 python3 -B $V/g06_provenance_recount.py       $PR71
 python3 -B $V/l08_independent_panel.py       $PR72
+python3 -B $V/g02_audit_identities.py         $PR73
 python3 -B $V/anchor_check.py                 $V/../GUIA_DE_LECTURA.md $V/../premium/*.md
 ```
 
@@ -79,6 +81,7 @@ g03_computed_vs_declared.py     identical: True | XOR (0,0,1) copy (1,0,1) | 74 
 g04_accuracy_map.py             1152 worlds reproduced | B solo con fuente ≥ 0,9 y medición ≤ 0,8 | frente 49/49 (PR #70, 7170dd9e)
 g06_provenance_recount.py       RESULT: PASS (PR #71, 9dc00e6d)
 l08_independent_panel.py        EQUAL: 13/9/26/1, front 19/49 | HISTORICAL: 15/22/12, front 6/49 (PR #72, 0d2d77d7)
+g02_audit_identities.py         RESULT: PASS | L-09: 6 of 12 false Q identifiable (PR #73, d3754549)
 anchor_check.py                 0 anclas rotas en la auditoría, la guía, el anexo y el kit premium
 ```
 

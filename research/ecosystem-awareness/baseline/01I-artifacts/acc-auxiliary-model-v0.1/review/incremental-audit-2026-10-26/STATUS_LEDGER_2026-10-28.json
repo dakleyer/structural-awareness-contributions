@@ -1,7 +1,7 @@
 {
   "schema": "ACC-AUDIT-STATUS-LEDGER-v0.1",
   "as_of": "2026-10-28",
-  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-30",
+  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-31",
   "state_vocabulary": [
     "ABIERTO",
     "RESPONDIDO",
@@ -13,7 +13,7 @@
   ],
   "totals": {
     "ABIERTO": 34,
-    "RESPONDIDO": 26,
+    "RESPONDIDO": 27,
     "CERRADO": 4,
     "VERIFICADO": 8,
     "PROPUESTA": 10,
@@ -44,8 +44,8 @@
         0
       ],
       "G": [
-        1,
-        5,
+        0,
+        6,
         0,
         0,
         0
@@ -107,7 +107,7 @@
         0
       ],
       "L": [
-        1,
+        2,
         4,
         3,
         0,
@@ -256,9 +256,9 @@
       "id": "G-02",
       "family": "G",
       "severity": "Media",
-      "state": "ABIERTO",
-      "set_in_round": 3,
-      "summary": "La «auditoría independiente» de Q es un sí/no escrito en los datos."
+      "state": "RESPONDIDO",
+      "set_in_round": 31,
+      "summary": "La «auditoría independiente» de Q era un booleano del fixture. #73 la sustituye por un sensor falible con tasas y coste declarados; falta incorporarlo a main."
     },
     {
       "id": "G-03",
@@ -805,6 +805,14 @@
       "summary": "#70: el ganador lo decidían las precisiones supuestas y el frente, el precio. #72 publica el mapa con acceso igualado y el frente sin precio; falta incorporarlo a main."
     },
     {
+      "id": "L-09",
+      "family": "L",
+      "severity": "Baja",
+      "state": "ABIERTO",
+      "set_in_round": 31,
+      "summary": "En los 60 casos congelados, 6 de las 12 Q falsas se reconocen desde la vista pública; una política adaptativa podría detectarlas sin auditar."
+    },
+    {
       "id": "L-03",
       "family": "L",
       "severity": "Informativo",
@@ -863,7 +871,7 @@
     }
   ],
   "checks": {
-    "ledger_ids": 87,
+    "ledger_ids": 88,
     "duplicate_ids": 0,
     "ledger_ids_absent_from_audit": [],
     "audit_ids_absent_from_ledger": [],
@@ -871,19 +879,19 @@
     "guide_totals_row": {
       "guide": [
         34,
-        26,
+        27,
         12,
         10,
         5,
-        87
+        88
       ],
       "ledger": [
         34,
-        26,
+        27,
         12,
         10,
         5,
-        87
+        88
       ],
       "ok": true
     },
