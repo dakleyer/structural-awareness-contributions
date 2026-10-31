@@ -4,7 +4,7 @@
 **Scope:** language editions of 00L-A03, 00L-A02 and 00L-A01 only  
 **Source:** the unchanged Spanish files at main commit `51fc686f45b6ef10c53b69f4c26d0e381b007ff8`  
 **Status:** complete English drafts checked by the translating assistant; owner/source-review and merge remain separate. This is **not** independent external review, scientific validation, a new canonical edition or translation of the whole corpus.  
-**Policy:** [agent-facing English-first translation instructions](../../../AGENTS.md) are repository-wide; the human-facing README has not been edited.
+**Policy:** [agent-facing English-first translation instructions](../../../../AGENTS.md) are repository-wide; the human-facing README has not been edited.
 
 ## Source-to-English document mapping
 
