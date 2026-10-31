@@ -83,6 +83,10 @@ jobs:
             /tmp/conscientia_full_execution.md
           if-no-files-found: error
 
+      - name: Check Conscientia additional source-specific cases and sensitivity sweeps
+        run: |
+          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-additional-cases-v0.1 -p 'test_*.py' -v
+
       - name: Check optimum-derived HID and matched ABCD synthetic tests
         run: python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1 -p test_hid_optimum.py -v
 
