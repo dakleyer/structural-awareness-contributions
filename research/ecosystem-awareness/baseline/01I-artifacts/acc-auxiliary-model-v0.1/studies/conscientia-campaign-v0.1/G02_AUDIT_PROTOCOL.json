@@ -1,0 +1,176 @@
+{
+  "schema": "ACC-G02-OBSERVATION-AUDIT-v0.1",
+  "seed": "G02-source-anchored-finite-audit-20261031",
+  "replicates_per_case": 64,
+  "source_ownership": "PR68 Conscientia CASE_REGISTRY.json / campaign.py; original 60 cases unchanged",
+  "question": "The original 12 families of one-question source Q admissibility, five frozen variants each",
+  "horizon": "ONE_DECLARED_PUBLIC_DECISION_THEN_PRIVATE_REFEREE",
+  "defined_expected_outcome": {
+    "perfect_audit": "false source claims should be detected, but an auditor may still be unreachable",
+    "imperfect_audit": "false reassurance and false alarms must both remain possible",
+    "conventional": "independent direct measurement can win under accurate source-adverse regimes",
+    "interpretation": "parameterized toy not measured calibration or independent field evidence"
+  },
+  "regimes": [
+    {
+      "id": "PERFECT_INDEPENDENT_AUDIT_AND_CONVENTIONAL",
+      "parameters": {
+        "audit_availability": "1",
+        "audit_authenticity": "1",
+        "audit_scope_match": "1",
+        "audit_freshness": "1",
+        "audit_detects_false_claim": "1",
+        "audit_false_alarm_on_true_claim": "0",
+        "direct_availability": "1",
+        "direct_authenticity": "1",
+        "direct_scope_match": "1",
+        "direct_freshness": "1",
+        "direct_observation_correct": "1"
+      },
+      "prices": {
+        "independent_audit": "3/10",
+        "conventional_measurement": "4/5"
+      }
+    },
+    {
+      "id": "RELIABLE_AUDIT_NOISY_CONVENTIONAL",
+      "parameters": {
+        "audit_availability": "1",
+        "audit_authenticity": "1",
+        "audit_scope_match": "1",
+        "audit_freshness": "1",
+        "audit_detects_false_claim": "19/20",
+        "audit_false_alarm_on_true_claim": "1/20",
+        "direct_availability": "1",
+        "direct_authenticity": "1",
+        "direct_scope_match": "1",
+        "direct_freshness": "1",
+        "direct_observation_correct": "3/5"
+      },
+      "prices": {
+        "independent_audit": "3/10",
+        "conventional_measurement": "4/5"
+      }
+    },
+    {
+      "id": "WEAK_AUDIT_STRONG_CONVENTIONAL",
+      "parameters": {
+        "audit_availability": "1",
+        "audit_authenticity": "1",
+        "audit_scope_match": "1",
+        "audit_freshness": "1",
+        "audit_detects_false_claim": "1/5",
+        "audit_false_alarm_on_true_claim": "2/5",
+        "direct_availability": "1",
+        "direct_authenticity": "1",
+        "direct_scope_match": "1",
+        "direct_freshness": "1",
+        "direct_observation_correct": "19/20"
+      },
+      "prices": {
+        "independent_audit": "3/10",
+        "conventional_measurement": "4/5"
+      }
+    },
+    {
+      "id": "AUDIT_UNAVAILABLE_DIRECT_AVAILABLE",
+      "parameters": {
+        "audit_availability": "0",
+        "audit_authenticity": "1",
+        "audit_scope_match": "1",
+        "audit_freshness": "1",
+        "audit_detects_false_claim": "19/20",
+        "audit_false_alarm_on_true_claim": "1/20",
+        "direct_availability": "1",
+        "direct_authenticity": "1",
+        "direct_scope_match": "1",
+        "direct_freshness": "1",
+        "direct_observation_correct": "19/20"
+      },
+      "prices": {
+        "independent_audit": "3/10",
+        "conventional_measurement": "4/5"
+      }
+    },
+    {
+      "id": "AUDIT_UNQUALIFIED_WRONG_SCOPE",
+      "parameters": {
+        "audit_availability": "1",
+        "audit_authenticity": "1",
+        "audit_scope_match": "0",
+        "audit_freshness": "1",
+        "audit_detects_false_claim": "19/20",
+        "audit_false_alarm_on_true_claim": "1/20",
+        "direct_availability": "1",
+        "direct_authenticity": "1",
+        "direct_scope_match": "1",
+        "direct_freshness": "1",
+        "direct_observation_correct": "19/20"
+      },
+      "prices": {
+        "independent_audit": "3/10",
+        "conventional_measurement": "4/5"
+      }
+    },
+    {
+      "id": "BLIND_AUDIT_FALSE_ASSURANCE",
+      "parameters": {
+        "audit_availability": "1",
+        "audit_authenticity": "1",
+        "audit_scope_match": "1",
+        "audit_freshness": "1",
+        "audit_detects_false_claim": "0",
+        "audit_false_alarm_on_true_claim": "0",
+        "direct_availability": "1",
+        "direct_authenticity": "1",
+        "direct_scope_match": "1",
+        "direct_freshness": "1",
+        "direct_observation_correct": "19/20"
+      },
+      "prices": {
+        "independent_audit": "3/10",
+        "conventional_measurement": "4/5"
+      }
+    },
+    {
+      "id": "RELIABLE_AUDIT_BUT_EXPENSIVE",
+      "parameters": {
+        "audit_availability": "1",
+        "audit_authenticity": "1",
+        "audit_scope_match": "1",
+        "audit_freshness": "1",
+        "audit_detects_false_claim": "19/20",
+        "audit_false_alarm_on_true_claim": "1/20",
+        "direct_availability": "1",
+        "direct_authenticity": "1",
+        "direct_scope_match": "1",
+        "direct_freshness": "1",
+        "direct_observation_correct": "3/5"
+      },
+      "prices": {
+        "independent_audit": "3",
+        "conventional_measurement": "1/5"
+      }
+    },
+    {
+      "id": "AUDIT_FALSE_ALARM_DOMINANT",
+      "parameters": {
+        "audit_availability": "1",
+        "audit_authenticity": "1",
+        "audit_scope_match": "1",
+        "audit_freshness": "1",
+        "audit_detects_false_claim": "1",
+        "audit_false_alarm_on_true_claim": "1",
+        "direct_availability": "1",
+        "direct_authenticity": "1",
+        "direct_scope_match": "1",
+        "direct_freshness": "1",
+        "direct_observation_correct": "9/10"
+      },
+      "prices": {
+        "independent_audit": "3/10",
+        "conventional_measurement": "4/5"
+      }
+    }
+  ]
+}
