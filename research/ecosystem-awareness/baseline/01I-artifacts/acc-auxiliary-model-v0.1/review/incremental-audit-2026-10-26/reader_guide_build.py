@@ -63,7 +63,7 @@ LEDGER = [
     ("G-04", "G", "Media", "RESPONDIDO", 28, "El factorial y las ablaciones FH-C eran tautológicos por construcción. #70 añade ensayos emparejados en los que el comparador puede perder; falta incorporarlo a main."),
     ("G-05", "G", "Baja", "RESPONDIDO", 6, "#54 repite 8 celdas de red que ya estaban en #49."),
     ("G-06", "G", "Baja", "RESPONDIDO", 29, "El recuento de fuentes «cribadas» (23) contaba registradas. #71 separa registradas, leídas según lo declarado y usadas en casos; falta incorporarlo a main."),
-    ("H-01", "H", "Alta", "ABIERTO", 10, "La «trampa» de #42 prohíbe los pasos intermedios; no muestra agentes que elijan quedarse."),
+    ("H-01", "H", "Alta", "RESPONDIDO", 33, "La «trampa» de #42 prohibía los pasos intermedios. #76 añade un juego con desviación factible y perjudicial (caza del ciervo); falta incorporarlo a main."),
     ("H-02", "H", "Alta", "ABIERTO", 4, "La brecha que crece con n es un supuesto: la misma ecuación en #42, #49 y #54."),
     ("H-03", "H", "Alta", "ABIERTO", 10, "En #43 la información se pierde por cómo se pregunta (censura), no por el anidamiento."),
     ("H-04", "H", "Media", "ABIERTO", 4, "«Sufrimiento estructural» mide una brecha de contribución, no bienestar."),
@@ -128,6 +128,7 @@ LEDGER = [
     ("L-07", "L", "Baja", "RESPONDIDO", 27, "#68: 17 de los 22 veredictos negativos los fija una puerta declarada. El texto dice ahora «casos ilustrativos» y el ejecutor publica el reparto; falta incorporarlo a main."),
     ("L-08", "L", "Baja", "RESPONDIDO", 30, "#70: el ganador lo decidían las precisiones supuestas y el frente, el precio. #72 publica el mapa con acceso igualado y el frente sin precio; falta incorporarlo a main."),
     ("L-09", "L", "Baja", "RESPONDIDO", 32, "En los 60 casos congelados, 6 de las 12 Q falsas se reconocían desde la vista pública. #75 añade gemelos con la misma vista pública (0 bits antes de medir); falta incorporarlo a main."),
+    ("L-10", "L", "Media", "ABIERTO", 33, "#76: en el juego base, quedarse o moverse empatan en dominancia por riesgo (umbral 1/2), y en 30 de 39 trampas la selección de equilibrios favorece salir."),
     ("L-03", "L", "Informativo", "VERIFICADO", 23, "#60: los testigos F1/D1 (10 frente a 8; 11,5 frente a 8,875 con el mismo A) se reproducen desde el código de origen."),
 ]
 
@@ -143,7 +144,7 @@ FAMILIES = (
     ("M28-O", "Líneas de desarrollo (28 oct)"),
     ("J", "Forma del expediente (ronda 14)"),
     ("K", "Modelo social #44–#46 (ronda 17)"),
-    ("L", "Recepciones (rondas 23–32)"),
+    ("L", "Recepciones (rondas 23–33)"),
 )
 
 # Same defect under several names (aliases across audits)
@@ -278,7 +279,7 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"),
 ]
 
 

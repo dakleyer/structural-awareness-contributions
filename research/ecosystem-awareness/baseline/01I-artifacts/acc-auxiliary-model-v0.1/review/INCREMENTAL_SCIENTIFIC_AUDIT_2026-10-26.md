@@ -62,6 +62,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 30 | 2026-10-30 | [Recepción de L-08 (PR #72)](#ronda-30) | L-08 respondido; cifras reproducidas de forma independiente |
 | 31 | 2026-10-31 | [Recepción de G-02 (PR #73)](#ronda-31) | G-02 respondido; L-09 nuevo |
 | 32 | 2026-11-01 | [Recepción de L-09 (PR #75)](#ronda-32) | L-09 respondido; gemelos sin fuga reproducidos de forma independiente |
+| 33 | 2026-11-01 | [Recepción de H-01 (PR #76)](#ronda-33) | H-01 respondido; L-10 nuevo |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1287,3 +1288,33 @@ Pasan las 16 pruebas nuevas y las 25 de G-02, y la CI está en verde.
 **L-09 pasa a `RESPONDIDO`** y se cerrará cuando #73 y #75 estén en `main`. Como declara el propio PR, el control no dice nada sobre agentes adaptativos arbitrarios, la calidad de auditores reales ni el exterior abierto C/D.
 
 **Totales:** 88 registros. 33 abiertos, 28 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-33"></a>
+
+## Ronda 33 — recepción de H-01 en PR #76 (01-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** [comentario en PR #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-6555834309), escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #76 (`b71ae5dc`) parte de `main`. Solo añade ficheros: `bounded_traps.py` y `REFERENCE_SYNTHETIC_RESULTS.json` son idénticos a `main`.
+
+**Lo que pedía H-01:** una forma de juego mínima, con dos agentes, pagos por perfil, una desviación unilateral factible pero perjudicial, (0,0) como equilibrio dominado por (1,1), y la situación respecto de la literatura de coordinación.
+
+**Comprobado de forma independiente** (`h01_equilibrium_selection.py`, que parte solo de `payoff()` y `feasible()`, sin usar `classify()`):
+
+| Requisito | Resultado |
+|---|---|
+| Los cuatro perfiles son factibles | **Sí**, a diferencia de `coupled_trap`, que prohíbe (1,0) y (0,1). El testigo original se conserva y se etiqueta como de factibilidad, no de juego |
+| Pagos por agente | (0,0) = (3, 3); (0,1) = (2, 0); (1,0) = (0, 2); (1,1) = (5, 5) |
+| Desviación unilateral posible y perjudicial | **Sí.** Desde (0,0), quien se mueve solo pasa de 3 a 0 |
+| (0,0) y (1,1) son equilibrios de Nash estrictos, y (1,1) domina en Pareto | **Sí** |
+| Situación en la literatura | **Sí.** El protocolo lo identifica como la caza del ciervo, un juego de coordinación conocido, y declara que no aporta un teorema nuevo |
+| Barrido de sensibilidad | **Sí.** 180 celdas: 39 trampas estrictas, 72 salidas unilaterales, 27 equilibrios débiles y 42 sin alternativa superior. Coincide con lo publicado |
+
+Pasan las 34 pruebas nuevas y las 21 originales, y la CI está en verde.
+
+**H-01 pasa a `RESPONDIDO`** y se cerrará cuando #76 esté en `main`.
+
+| ID | Estado | Hallazgo | Propuesta |
+|---|---|---|---|
+| <a id="l-10"></a>**L-10** | Media · `ABIERTO` | **Que quedarse sea racional depende de las creencias, y la selección de equilibrios casi nunca lo favorece.** En el juego base, el criterio de dominancia por riesgo de Harsanyi y Selten da un empate exacto: el producto de las pérdidas por desviación vale 9 en (0,0) y 9 en (1,1). Moverse es la mejor respuesta en cuanto se cree que el otro se moverá con probabilidad mayor que 1/2. Como (1,1) domina además en pagos, los criterios estándar de selección eligen (1,1). En las 39 trampas estrictas del barrido, (0,0) solo es dominante por riesgo en 9; en las otras 30 lo es (1,1). El modelo muestra que quedarse *puede* ser un equilibrio, pero no que sea el resultado esperable sin supuestos adicionales sobre las creencias o la aversión al riesgo. | Informar, para cada trampa, del umbral de creencia p* y de qué equilibrio domina por riesgo. Usar las 9 celdas dominantes por riesgo, o la aversión al riesgo de RAV-01 (#46, propuesta K-08), cuando se quiera sostener que la permanencia es la elección racional y no solo un equilibrio posible. |
+
+**Totales:** 89 registros. 33 abiertos, 29 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.

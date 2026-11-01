@@ -1,7 +1,7 @@
 {
   "schema": "ACC-AUDIT-STATUS-LEDGER-v0.1",
   "as_of": "2026-10-28",
-  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-32",
+  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-33",
   "state_vocabulary": [
     "ABIERTO",
     "RESPONDIDO",
@@ -13,7 +13,7 @@
   ],
   "totals": {
     "ABIERTO": 33,
-    "RESPONDIDO": 28,
+    "RESPONDIDO": 29,
     "CERRADO": 4,
     "VERIFICADO": 8,
     "PROPUESTA": 10,
@@ -51,8 +51,8 @@
         0
       ],
       "H": [
-        5,
-        0,
+        4,
+        1,
         1,
         0,
         0
@@ -107,7 +107,7 @@
         0
       ],
       "L": [
-        1,
+        2,
         5,
         3,
         0,
@@ -296,9 +296,9 @@
       "id": "H-01",
       "family": "H",
       "severity": "Alta",
-      "state": "ABIERTO",
-      "set_in_round": 10,
-      "summary": "La «trampa» de #42 prohíbe los pasos intermedios; no muestra agentes que elijan quedarse."
+      "state": "RESPONDIDO",
+      "set_in_round": 33,
+      "summary": "La «trampa» de #42 prohibía los pasos intermedios. #76 añade un juego con desviación factible y perjudicial (caza del ciervo); falta incorporarlo a main."
     },
     {
       "id": "H-02",
@@ -813,6 +813,14 @@
       "summary": "En los 60 casos congelados, 6 de las 12 Q falsas se reconocían desde la vista pública. #75 añade gemelos con la misma vista pública (0 bits antes de medir); falta incorporarlo a main."
     },
     {
+      "id": "L-10",
+      "family": "L",
+      "severity": "Media",
+      "state": "ABIERTO",
+      "set_in_round": 33,
+      "summary": "#76: en el juego base, quedarse o moverse empatan en dominancia por riesgo (umbral 1/2), y en 30 de 39 trampas la selección de equilibrios favorece salir."
+    },
+    {
       "id": "L-03",
       "family": "L",
       "severity": "Informativo",
@@ -871,7 +879,7 @@
     }
   ],
   "checks": {
-    "ledger_ids": 88,
+    "ledger_ids": 89,
     "duplicate_ids": 0,
     "ledger_ids_absent_from_audit": [],
     "audit_ids_absent_from_ledger": [],
@@ -879,19 +887,19 @@
     "guide_totals_row": {
       "guide": [
         33,
-        28,
+        29,
         12,
         10,
         5,
-        88
+        89
       ],
       "ledger": [
         33,
-        28,
+        29,
         12,
         10,
         5,
-        88
+        89
       ],
       "ok": true
     },
