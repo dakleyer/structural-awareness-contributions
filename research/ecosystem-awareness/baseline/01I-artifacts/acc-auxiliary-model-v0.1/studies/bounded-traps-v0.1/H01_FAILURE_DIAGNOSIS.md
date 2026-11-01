@@ -1,5 +1,8 @@
 # H-01 — Why the proposed coordination mechanisms succeed or fail
 
+> **Important supersession of the cost-conversion assumption:** The 114/66 and 24 “remediable traps” analysis below explains only an *optional scalar private-payoff scenario* that subtracts a stipulated coordination burden from R. The original ACC model instead requires coordination C as a **separate dimension**, with no automatic netting. [Corrected dimension-first analysis](ACC_DIMENSIONAL_FIDELITY_REVIEW_2026-11-01.md) and executable [K partial-order](dimensional_contract.py) yield 46 R/C monotone improvements, 92 incomparable tradeoffs, 38 non-improvements and 4 equivalents. The historical scalar taxonomy remains here for transparency, **not as the ACC acceptance decision**.
+
+
 **Source-owned scientific reception, 1 November 2026.** Companion to [H01_STRATEGIC_CHOICE_PROTOCOL.md](H01_STRATEGIC_CHOICE_PROTOCOL.md), [strategic_choice.py](strategic_choice.py) and the author source [bounded_traps.py](bounded_traps.py).
 
 **Reproducible result:** [GitHub Actions #41292908144, PASS](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/41292908144). The CI computes this diagnosis from the **actual 180 H-01 source results** with [h01_failure_diagnostics.py](h01_failure_diagnostics.py), rejects inconsistent labels or actor payoff vectors, and runs **11 additional negative tests** beyond the original 34 H-01 tests and 21 frozen bounded-traps tests. The machine-readable diagnostic is retained in the H-01 artifact.
