@@ -57,7 +57,7 @@ The executor checks, independently and in order, that:
 
 1. The target profile is technically feasible **and** target resources plus physical joint setup do not exceed the declared budget.
 2. Each participant's *net* result after explicitly costed coordination and any transfers meets its own reservation floor and the declared strict or weak gain requirement. The model does not assume a positive global aggregate can compensate an unconsenting participant.
-3. Transfers of actor payoff units are **zero-sum** and require an explicit transfer-authority status; a transfer is not legitimate merely because it balances mathematically.
+3. Compensation uses **one declared common transferable-credit unit**, not directly transferable utility. Transfer deltas must sum to zero and no participant may give more credit than their declared balance. Each actor has an explicit credit-to-own-payoff valuation rate; a transfer must also carry an explicit authority status. This prevents silently assuming that one unit of A's subjective utility equals one unit of B's.
 4. Explicit consents, coordination protocol and institutional authority are **PASS**, rather than FAIL or UNKNOWN. Consent is not derived from an attractive payoff.
 5. Only then does the **synthetic candidate become admissible under stipulated assumptions**. It is **not** an executed real-world commitment or a source of rights.
 
@@ -69,7 +69,7 @@ Two equally capable proposed coordinators are represented: CONVENTIONAL_COORDINA
 
 ## 4. Versioned acceptance and falsification corpus
 
-The manifest contains **19 source-anchored experiments** (one positive strategic case, negative controls, source feasibility control, governance, voluntary acceptance, finite transfer, price comparisons) and the tests additionally construct a three-actor coordination game and a two-actor no-pure-Nash/cyclic strict-response counterexample.
+The manifest contains **22 source-anchored experiments** (one positive strategic case, negative controls, source feasibility control, governance, voluntary acceptance, finite transfer, price comparisons) and the tests additionally construct a three-actor coordination game and a two-actor no-pure-Nash/cyclic strict-response counterexample.
 
 | Family / example | What the experiment must establish |
 |---|---|
@@ -118,7 +118,7 @@ The grid is not independent empirical evidence of an economic prevalence or a su
 
 ## 7. Received H-01 experimental results — 1 November 2026
 
-**Source of executable figures:** [GitHub Actions #41290524931](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/41290524931), **success**. The 19 named scenarios and the separately predeclared 180-cell sensitivity surface ran with **31/31 new H-01 tests passing**, alongside all original bounded-traps and broader document-integrity regressions. The source-owned frozen outputs and original bounded_traps.py blob hashes were explicitly checked and unchanged.
+**Initial result before the three credit-valuation robustness controls:** [GitHub Actions #41290524931](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/41290524931), **success**. The initial 19 named scenarios and the separately predeclared 180-cell sensitivity surface ran with **31/31 new H-01 tests passing**, alongside all original bounded-traps and broader document-integrity regressions. The source-owned frozen outputs and original bounded_traps.py blob hashes were explicitly checked and unchanged.
 
 ### Core computed witness and its falsifiers
 
@@ -156,7 +156,7 @@ One particularly informative control fixes private return = 0, investment = 3, c
 
 1. Reproduce the four computed payoff profiles and original two-state constraint from source files, not from the report's status labels.
 2. Verify that all unilateral moves are feasible and strictly unprofitable at strategic 00, while they are physically infeasible in the frozen original EX-LINEAR-01.
-3. Repeat best-response and Pareto checks for the 19 scenarios and all 180 sweep cells. Inspect profitable deviation, weak equilibrium, no pure Nash and no gain counterexamples.
+3. Repeat best-response and Pareto checks for the 22 scenarios and all 180 sweep cells. Inspect profitable deviation, weak equilibrium, no pure Nash and no gain counterexamples.
 4. Recompute consent, transfer balance, reservation floors, physical setup units and unknown authority. Do not infer authorization from a positive payoff.
 5. Ensure both comparison coordinators have **identical capabilities**, and that instrument price variations never change Nash states or physical admission.
 6. Inspect original file hashes, CI artifacts and author-example crosswalk; check that no changes were made to controlled mathematics, human preference evidence or synthetic/empirical status.
