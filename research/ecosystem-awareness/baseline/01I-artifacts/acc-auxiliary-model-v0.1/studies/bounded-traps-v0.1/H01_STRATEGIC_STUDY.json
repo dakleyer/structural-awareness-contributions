@@ -63,11 +63,19 @@
         "A": "1",
         "B": "1"
       },
-      "transfers_payoff_units": {
+      "strict_gain_required": true,
+      "transfers_common_credit_units": {
         "A": "0",
         "B": "0"
       },
-      "strict_gain_required": true
+      "credit_available_by_actor": {
+        "A": "5",
+        "B": "0"
+      },
+      "credit_to_private_payoff_rate_by_actor": {
+        "A": "1",
+        "B": "1"
+      }
     },
     "information_prices": {
       "CONVENTIONAL_COORDINATOR": "1/5",
@@ -355,7 +363,7 @@
             "A": "0",
             "B": "0"
           },
-          "transfers_payoff_units": {
+          "transfers_common_credit_units": {
             "A": "-1",
             "B": "1"
           }
@@ -401,7 +409,7 @@
             "A": "0",
             "B": "0"
           },
-          "transfers_payoff_units": {
+          "transfers_common_credit_units": {
             "A": "-1",
             "B": "1"
           }
@@ -517,6 +525,156 @@
         }
       },
       "question": "Source toy x1<=x2 and x2<=x1; shows feasibility/protocol trap, not strategic refusal"
+    },
+    {
+      "id": "H01_CREDIT_INSUFFICIENT_SOURCE_BALANCE",
+      "patch": {
+        "actors": [
+          {
+            "id": "A",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "B": "6"
+            },
+            "inactive_exposure_from": {
+              "B": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          },
+          {
+            "id": "B",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "A": "3"
+            },
+            "inactive_exposure_from": {
+              "A": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          }
+        ],
+        "joint": {
+          "burden_payoff_units": {
+            "A": "0",
+            "B": "0"
+          },
+          "transfers_common_credit_units": {
+            "A": "-1",
+            "B": "1"
+          },
+          "credit_available_by_actor": {
+            "A": "0",
+            "B": "0"
+          }
+        }
+      },
+      "question": "A cannot promise a credit transfer she does not own, despite a mathematically balanced entry"
+    },
+    {
+      "id": "H01_CREDIT_ASYMMETRIC_PRIVATE_VALUATIONS",
+      "patch": {
+        "actors": [
+          {
+            "id": "A",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "B": "6"
+            },
+            "inactive_exposure_from": {
+              "B": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          },
+          {
+            "id": "B",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "A": "3"
+            },
+            "inactive_exposure_from": {
+              "A": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          }
+        ],
+        "joint": {
+          "burden_payoff_units": {
+            "A": "0",
+            "B": "0"
+          },
+          "transfers_common_credit_units": {
+            "A": "-1",
+            "B": "1"
+          },
+          "credit_to_private_payoff_rate_by_actor": {
+            "A": "2",
+            "B": "1"
+          }
+        }
+      },
+      "question": "The same one transferable credit can have actor-specific payoff consequences under declared conversion"
+    },
+    {
+      "id": "H01_CREDIT_NO_VALUE_TO_RECEIVER",
+      "patch": {
+        "actors": [
+          {
+            "id": "A",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "B": "6"
+            },
+            "inactive_exposure_from": {
+              "B": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          },
+          {
+            "id": "B",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "A": "3"
+            },
+            "inactive_exposure_from": {
+              "A": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          }
+        ],
+        "joint": {
+          "burden_payoff_units": {
+            "A": "0",
+            "B": "0"
+          },
+          "transfers_common_credit_units": {
+            "A": "-1",
+            "B": "1"
+          },
+          "credit_to_private_payoff_rate_by_actor": {
+            "A": "1",
+            "B": "0"
+          }
+        }
+      },
+      "question": "A common-credit transfer is not assumed to increase B's subjective payoff"
     }
   ],
   "positive_and_adversarial_controls": [
@@ -532,7 +690,8 @@
     "fair_conventional_peer",
     "no_joint_benefit",
     "no_nash_control",
-    "independent_two_actor_beliefs"
+    "independent_two_actor_beliefs",
+    "common_credit_budget_and_actor_specific_conversion"
   ],
   "hypothesis_limits": {
     "known_literature": "Stag Hunt/assurance game and Nash equilibrium are established, NOT new ACC theory",
