@@ -1,5 +1,8 @@
 # H-01 — Strategic coordination versus a physically forbidden transition
 
+> **Dimensional integrity correction — 1 Nov 2026:** The H-01 payoff game remains an *auxiliary Nash example*, not the ACC dimensional architecture. Its synthetic C burden was subtracted from R in the earlier 114/66 scalar result. [Architecture-level reconciliation](ACC_DIMENSIONAL_FIDELITY_REVIEW_2026-11-01.md) now treats R and C separately, keeping E/V unknown and reporting 46 monotone, 92 incomparable, 38 non-improving and 4 equivalent outcomes on the known R/C projection. Prior “admission” labels are legacy conversion-dependent diagnostics and do not mean joint ACC consent or cross-dimensional dominance.
+
+
 **ACC / bounded-traps research supplement · 1 November 2026 · Stage A synthetic study**
 
 **Scientific owner and source:** Iván Abril Palma / The Integral Management Society. The existing PR #42 study and its historical output remain the source-owned feasibility example. This supplemental model/code and audit note are AI-assisted research implementation for independent scientific review, not an amendment to the original theory or the ACC/ITU-T corpus.
