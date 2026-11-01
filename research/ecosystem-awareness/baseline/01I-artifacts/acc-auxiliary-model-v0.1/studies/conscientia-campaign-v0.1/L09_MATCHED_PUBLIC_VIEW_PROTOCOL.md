@@ -69,4 +69,33 @@ Check these boundary conditions independently:
 - Confirm C/D open remain separately unscored; only the controlled binary B subpopulation is balanced. No cross-case aggregation of wellbeing, costs or experimental claims.
 - Verify source input hashes and CI artefacts. Do not treat a successful CI or a finite information identity as empirical validation of human/agent behaviour or FH-C.
 
+## 6. Results actually observed and reproduced on CI
+
+**Original run:** [GitHub Actions 41288498924](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/41288498924), 15 tests at that commit (including source-owner G-02 regressions). [Machine-readable summary and limited post-hoc private samples](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/41288498924/artifacts/13076127496).
+
+**Exact historical leak, independently derived by grouping every source A + sanitized Q visible signature:** 24 source TRUE/FALSE Q cases, equally weighted: 12 ALLOW and 12 BLOCK, original best possible public-only classification **18/24 = 75%**; conditioned finite mutual information **0.5 bit**. This does **not** mean any existing policy learned that association; it quantifies its possible exploitation.
+
+**Matched derived protocol:** 24 pairs × 2 private outcomes × 64 draws × 8 instrument regimes = **24,576 evaluations**. For **each of the eight regimes**, the public view excluding a new measured observation has exact Bayes optimum **1/2** and **0 bits** of information about the private truth. Each regime contains 1,536 true and 1,536 false claim worlds, with exactly matching A/Q and pre-read evidence metadata. The sample count is *synthetic repeated observations on fixed author-example source conditions*, not a field sample.
+
+The following are information metrics computed from the **actual finite synthetic output records**, and source-native G-02 counts of wrong final ALLOW/BLOCK decisions; the same source batch and error parameters apply to both true and false twins.
+
+| Source-owned signal regime | Pre-read information (bits) | Acquired, qualified audit reading (bits) | Qualified conventional measurement (bits) | Audited Q wrong / measured conventional wrong |
+|---|---:|---:|---:|---:|
+| Perfect audit, perfect conventional | **0** | **1.000** | **1.000** | 0 / 0 |
+| Reliable audit, noisy conventional | **0** | **0.726** | **0.029** | 81 / 1,254 |
+| Weak audit, strong conventional | **0** | **0.047** | **0.704** | 1,247 / 170 |
+| Audit unavailable | **0** | **0** | **0.704** | 0 / 170 |
+| Audit wrong scope | **0** | **0** | **0.704** | 0 / 170 |
+| Blind audit (false assurance) | **0** | **0** | **0.704** | 1,536 / 170 |
+| Same reliable audit, price changed | **0** | **0.726** | **0.029** | 81 / 1,254 |
+| Audit always flags claims | **0** | **0** | **0.508** | 0 / 338 |
+
+This table deliberately reports **information acquisition** separately from **correct actions, deferrals and costs**. In the no-audit regime the audited-Q strategy has no wrong final actions but **3,072 unresolved decisions and 1,536 missed legitimate ALLOW opportunities**: no signal, no action is not an informational victory. With a perfect audit, Q claims false in 1,536 worlds are **not automatically corrected into BLOCK**; the source-native policy returns REVIEW. The perfect independent conventional measurement can decide those worlds because it measures the same question directly, a different observation capability.
+
+The figures are a **finite experimental proof of absence of label leakage through the specified public data contract**, followed by a demonstration of conditional signal information. They do not establish real-world auditor accuracy, rule out other implementation side channels, produce empirical probabilities for C/D, nor validate FH-C.
+
+### Additional test after initial run
+
+A new regression verifies directly for all 24 pairs that the source A-only and unaudited-Q public policies choose the **same actions** in the two private worlds, while with a perfect qualified measurement the audit-based and conventional policies may choose different actions. The CI now also rejects an unexpected change in the pinned source PR73 commit or its six original source files. This guarantees stable questions and source ownership during review, not future automatic merge compatibility.
+
 **Requested disposition:** when an independent reviewer reproduces the corrected experimental protocol and confirms source preservation, L-09 may be marked **RESPONDIDO**, but **not CERRADO** before the approved merge sequence. Do not replace the original examples or label the derived counterfactuals as historical outcomes.
