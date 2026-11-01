@@ -106,3 +106,11 @@ Reviewers are asked to try mutations of the payoff coefficients, feasibility con
 - **Review state requested:** H-01 **RESPONDIDO after independent verification**. It cannot be CERRADO or promoted by CI alone; source-owner and audit authorization remain necessary.
 
 The operational lineage of [JubAp.NET Field Notes](https://jubap.net/field-notes/) documents proposal–authorization–commitment boundaries in other contexts, but it is **not evidence that this game-theoretic model was a deployed optimization capability**. The [Tegrity.AI programme](https://tegrity.ai/) frames ecosystem epistemic and coordination questions, but does not validate any empirical equilibrium claim here.
+
+## 6. Predeclared incentive sensitivity, separate from the named examples
+
+The [manifest](H01_STRATEGIC_STUDY.json) predeclares a **four-axis, 180-cell** grid: 3 standalone-return values × 5 investment-cost values × 4 pairwise-complementarity values × 3 joint payoff-burden values. Every cell is run through the same physical feasibility, actor-payoff, Nash and joint-admission algorithms; neither the label "Nash" nor the admission verdict appears in the input. Every output retains payoff vectors, profitable unilateral deviation count, all pure Nash profiles, joint status, and the four input values.
+
+This is a counterexample test against generating only favourable stag-hunt examples. Some cells must show profitable unilateral escape, others a Pareto-superior but blocked joint candidate, weak equilibrium, or no jointly superior alternative. If altering complementarity or cost leaves the output fixed, the study fails. No metric is calculated by adding actor welfare or converting a coordination payoff burden into information price.
+
+The grid is not independent empirical evidence of an economic prevalence or a survey of individuals. It deliberately perturbs a bounded model of incentives while preserving the same question and authorization statuses. It must be reported as a synthetic sensitivity surface, not repeated confirmation of its own premise.
