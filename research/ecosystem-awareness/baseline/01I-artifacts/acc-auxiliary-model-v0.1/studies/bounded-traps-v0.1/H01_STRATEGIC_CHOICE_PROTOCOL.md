@@ -162,3 +162,22 @@ One particularly informative control fixes private return = 0, investment = 3, c
 6. Inspect original file hashes, CI artifacts and author-example crosswalk; check that no changes were made to controlled mathematics, human preference evidence or synthetic/empirical status.
 
 **H-01 can be marked RESPONDIDO only after independent adjudication, and not CERRADO until applicable accepted integration.** A green CI run is a reproducible software result, not institutional or scientific adoption.
+
+
+## 8. Final credit conservation improvement and CI receipt
+
+**Final source-preserving execution:** [GitHub Actions #41291020838](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/41291020838), **PASS**. The final version contains **22** named strategic/governance/credit scenarios and **34 newly added tests**, plus the same 180-cell sensitivity grid. All 21 original bounded_traps tests and its frozen JSON remain unchanged. [Separate generated H-01 synthetic artifact](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/41291020838/artifacts/13076713159).
+
+The initial supplementary zero-sum compensation exercise has been strengthened to avoid an implicit claim that one actor's subjective utility is transferable into another's. The final engine now models **three different units/contracts**:
+
+- Common transferable-credit units are held in a source balance per actor. Credit deltas sum to zero and the payer must have enough credit available. A mathematically balanced promise **cannot be executed if its source is unfunded**.
+- Each actor has a separately declared, nonnegative **private payoff units per common credit** conversion. Credit valuation therefore does not presume interpersonal equality of utility; different actors can value the same credit differently, including zero.
+- Physical resource/setup costs and information-instrument costs remain separate from both common credit and actor payoff. They cannot be silently added into a single welfare sum.
+
+**Negative controls:** in the ordinary compensation toy, source A starts with five common-credit units and transfers one to B, leaving A=4 and B=1. With an explicit payoff valuation 1 per common credit for each, the proposed post-transfer payoff vector is (5,4) and both actors gain from initial (3,3). With A's conversion 2 and B's 1, the **same conserved transfer** produces (4,4); with B's conversion 0 it gives B no individual gain and the voluntary-acceptance test fails. If A has no transferable credit, the same candidate is rejected as **INSUFFICIENT_COMMON_CREDIT_FOR_TRANSFER** regardless of its appealing claimed payoff. Unknown authority still blocks the transfer. These values are experimental valuations, not real exchange rates or ownership evidence.
+
+The source EX-CREDIT-01 example about seven plus four shares of ten is **preserved in the original author ledger**; this new credit transfer is a distinct abstract control, not a silent replacement or assertion that actual donations/contracts can be transferred.
+
+The final 180-cell sensitivity results remain **unchanged**: 39 strict strategic traps, 72 profitable unilateral escapes, 27 weak equilibria, 42 with no Pareto-superior target; of those cells 114 joint candidates satisfy individual voluntary acceptance and 66 fail it under the sweep's explicitly PASS governance assumptions. No original feasibility interpretation, source law or external scientific claim changed.
+
+**Final reviewer instruction:** besides the checks above, verify conservation across declared credit balances, no negative source balance, zero-sum transferable units, explicit actor-specific valuation, strict private participation, and genuine consent/authority. Do not convert a mathematical payoff or an unverified credit ledger into an actual transaction.
