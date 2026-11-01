@@ -322,7 +322,7 @@ class ReusableFiniteMechanismsAndAdversarialCases(unittest.TestCase):
 
     def test_all_scenario_results_are_computed_and_distinct(self):
         self.assertEqual(REPORT["scenario_count"],22)
-        self.assertEqual(len(BY_ID),19)
+        self.assertEqual(len(BY_ID),22)
         self.assertEqual({s["evidence_tier"] for s in REPORT["scenarios"]},
                          {"SOURCE_ANCHORED_SYNTHETIC_TOY"})
         labels={s["mechanism"]["classification"] for s in REPORT["scenarios"]}
