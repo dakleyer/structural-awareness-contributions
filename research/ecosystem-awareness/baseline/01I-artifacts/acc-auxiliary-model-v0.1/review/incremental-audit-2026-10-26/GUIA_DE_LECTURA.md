@@ -70,7 +70,7 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 | M27-O y M28-O · Líneas de desarrollo | 0 | 0 | 0 | 7 | 0 | 7 |
 | J · Forma del expediente | 1 | 6 | 1 | 0 | 0 | 8 |
 | K · Modelo social #44–#46 | 1 | 3 | 3 | 1 | 0 | 8 |
-| L · Recepciones (rondas 23–33) | 2 | 5 | 3 | 0 | 0 | 10 |
+| L · Recepciones (rondas 23–34) | 2 | 5 | 3 | 0 | 0 | 10 |
 | **Total** | **33** | **29** | **12** | **10** | **5** | **89** |
 
 **Qué significa cada estado:**
@@ -279,6 +279,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 31 | 31 oct | Claude | Recepción de G-02 (#73): sensor de auditoría falible comprobado, G-02 respondido, L-09 nuevo | [ronda 31](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-31) |
 | 32 | 1 nov | Claude | Recepción de L-09 (#75): gemelos con la misma vista pública reproducidos, L-09 respondido | [ronda 32](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-32) |
 | 33 | 1 nov | Claude | Recepción de H-01 (#76): juego con desviación factible comprobado, H-01 respondido, L-10 nuevo | [ronda 33](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-33) |
+| 34 | 1 nov | Claude | Diagnóstico complementario de H-01 (#76): condiciones analíticas reproducidas y forma cerrada de L-10 | [ronda 34](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-34) |
 
 <a id="11-los-79-registros-uno-por-uno"></a>
 <a id="11-los-82-registros-uno-por-uno"></a>
@@ -449,7 +450,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 
 </details>
 
-<details><summary><b>L · Recepciones (rondas 23–33)</b> — 10 registros, 2 abiertos</summary>
+<details><summary><b>L · Recepciones (rondas 23–34)</b> — 10 registros, 2 abiertos</summary>
 
 | ID | Estado | Gravedad | En pocas palabras | Ronda que fijó el estado |
 |---|---|---|---|---|

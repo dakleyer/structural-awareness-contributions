@@ -63,6 +63,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 31 | 2026-10-31 | [Recepción de G-02 (PR #73)](#ronda-31) | G-02 respondido; L-09 nuevo |
 | 32 | 2026-11-01 | [Recepción de L-09 (PR #75)](#ronda-32) | L-09 respondido; gemelos sin fuga reproducidos de forma independiente |
 | 33 | 2026-11-01 | [Recepción de H-01 (PR #76)](#ronda-33) | H-01 respondido; L-10 nuevo |
+| 34 | 2026-11-01 | [Diagnóstico complementario de H-01 (PR #76)](#ronda-34) | Sin cambio de estado; condiciones analíticas reproducidas; forma cerrada de L-10 |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1318,3 +1319,18 @@ Pasan las 34 pruebas nuevas y las 21 originales, y la CI está en verde.
 | <a id="l-10"></a>**L-10** | Media · `ABIERTO` | **Que quedarse sea racional depende de las creencias, y la selección de equilibrios casi nunca lo favorece.** En el juego base, el criterio de dominancia por riesgo de Harsanyi y Selten da un empate exacto: el producto de las pérdidas por desviación vale 9 en (0,0) y 9 en (1,1). Moverse es la mejor respuesta en cuanto se cree que el otro se moverá con probabilidad mayor que 1/2. Como (1,1) domina además en pagos, los criterios estándar de selección eligen (1,1). En las 39 trampas estrictas del barrido, (0,0) solo es dominante por riesgo en 9; en las otras 30 lo es (1,1). El modelo muestra que quedarse *puede* ser un equilibrio, pero no que sea el resultado esperable sin supuestos adicionales sobre las creencias o la aversión al riesgo. | Informar, para cada trampa, del umbral de creencia p* y de qué equilibrio domina por riesgo. Usar las 9 celdas dominantes por riesgo, o la aversión al riesgo de RAV-01 (#46, propuesta K-08), cuando se quiera sostener que la permanencia es la elección racional y no solo un equilibrio posible. |
 
 **Totales:** 89 registros. 33 abiertos, 29 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-34"></a>
+
+## Ronda 34 — diagnóstico complementario de H-01 en PR #76 (01-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** [comentario en PR #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-6556108894), escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #76 avanza a `d9d43656` y añade `h01_failure_diagnostics.py` y `H01_FAILURE_DIAGNOSIS.md`.
+
+**Qué afirma.** En el modelo simétrico, el beneficio de desviarse solo es D = r − c, la ganancia conjunta bruta es J = r − c + s y el excedente neto tras la carga es N = J − k. Hay trampa racional estricta cuando D < 0 y J > 0, y el remedio propuesto es aceptable cuando además N > 0. En el barrido salen 39 trampas: 24 con remedio aceptable y 15 sin él. Ninguna de las 66 negativas del barrido se debe a escasez física o a falta de permiso, porque el barrido no varía esas puertas; esos casos se prueban en los 22 escenarios con nombre.
+
+**Comprobado.** Contando directamente sobre la rejilla declarada (r ∈ {0, 2, 5}, c ∈ {0, 1, 2, 3, 5}, s ∈ {0, 2, 4, 6}, k ∈ {0, 1, 3}), las condiciones dan 39 trampas, 24 aceptables y 15 no aceptables, exactamente lo que da el motor. Con s = 0 no hay trampas, porque J = D. Pasan las 11 pruebas nuevas, las 34 de H-01 y las 21 originales. `bounded_traps.py` y el JSON de referencia siguen idénticos a `main`.
+
+**Forma cerrada de L-10, con la misma notación.** La pérdida por desviarse desde (0,0) es −D, y desde (1,1) es J. Por tanto, **(0,0) domina por riesgo si y solo si −D > J, es decir, s < 2(c − r)**. En la rejilla se cumple en 3 combinaciones de (r, c, s), que con los tres valores de k dan las 9 celdas de la ronda 33. Las tres tienen J = 1, así que su remedio solo es aceptable con k = 0. Dicho de otro modo, las trampas en las que quedarse es la opción robusta son justo aquellas cuyo remedio desaparece en cuanto la coordinación tiene un coste: solo 3 de las 24 trampas remediables son dominantes por riesgo en (0,0).
+
+**Estados:** sin cambios. H-01 sigue `RESPONDIDO` y L-10 sigue `ABIERTO`; el diagnóstico lo precisa, pero no lo resuelve.
