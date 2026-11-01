@@ -61,6 +61,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 29 | 2026-10-30 | [Recepción de G-06 (PR #71)](#ronda-29) | G-06 respondido; sin hallazgos nuevos |
 | 30 | 2026-10-30 | [Recepción de L-08 (PR #72)](#ronda-30) | L-08 respondido; cifras reproducidas de forma independiente |
 | 31 | 2026-10-31 | [Recepción de G-02 (PR #73)](#ronda-31) | G-02 respondido; L-09 nuevo |
+| 32 | 2026-11-01 | [Recepción de L-09 (PR #75)](#ronda-32) | L-09 respondido; gemelos sin fuga reproducidos de forma independiente |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1261,3 +1262,28 @@ Pasan las 25 pruebas nuevas y las 61 de la campaña, y la CI está en verde. Las
 | <a id="l-09"></a>**L-09** | Baja · `ABIERTO` | **La mitad de las Q falsas se reconoce desde la vista pública, sin auditoría.** En los 60 casos congelados, cada familia de ejemplos tiene una Q falsa con acción de base `REVIEW` y afirmación `ALLOW`. En 6 de las 12 familias, la Q verdadera con afirmación `ALLOW` tiene base `ALLOW`, así que la vista pública de la Q falsa (emisor, alcance, base y afirmación) nunca coincide con la de una verdadera. Las políticas de #73 no usan esa correlación, de modo que sus cifras no se ven afectadas. Pero cualquier política pública adaptativa o aprendida podría «detectar» Q falsas sin auditar nada, y entonces el beneficio atribuido a la auditoría estaría inflado. Es una propiedad heredada del fixture, no un defecto nuevo. | Añadir una prueba de control que impida a las políticas públicas condicionar a la combinación base × afirmación, o generar una variante derivada del fixture con la base equilibrada entre Q falsas y verdaderas. No reescribir los 60 casos congelados. |
 
 **Totales:** 88 registros. 34 abiertos, 27 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-32"></a>
+
+## Ronda 32 — recepción de L-09 en PR #75 (01-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** [comentario en PR #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-6555527647), escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #75 (`d41e2d40`) está apilado sobre #73. Solo añade ficheros nuevos y no modifica `CASE_REGISTRY.json`, `campaign.py` ni `g02_evidence_audit.py`.
+
+**Qué hace.** Para cada una de las 12 familias y cada acción de base (`ALLOW` y `REVIEW`) construye una pareja de gemelos contrafactuales, explícitamente etiquetados como derivados. Los dos gemelos tienen la misma A pública, la misma base, la misma Q pública y el mismo identificador de caso, y difieren solo en la verdad privada. Sobre esas 24 parejas ejecuta las cinco políticas de G-02 en los ocho regímenes de auditoría.
+
+**Comprobado de forma independiente** (`l09_twin_recount.py`, que no usa las funciones de información de #75):
+
+| Afirmación | Resultado |
+|---|---|
+| Fuga del fixture original: 18 de 24 aciertos (75 %) solo con la vista pública, y 0,5 bits | **Sí**, recalculado desde `CASE_REGISTRY.json` |
+| Dentro de cada pareja solo cambian campos privados | **Sí.** Difieren `variant`, `truth_private_for_scoring`, `Q.status`, `Q.independent_audit` y los veredictos de `expanded_A` y `peer`. Ninguno de esos campos llega al planificador |
+| Antes de medir, el mejor predictor solo con información pública acierta la mitad, con 0 bits, en todos los regímenes | **Sí.** En los 8 regímenes, agrupando por A, Q y los metadatos previos de la auditoría y de la medición, acierta 1 536 de 3 072 con 0,000 bits |
+| La auditoría perfecta aporta 1 bit después de medir; la ciega, la no disponible y la de alcance equivocado, 0 | **Sí**, según la salida de #75; es coherente con las identidades de la ronda 31 |
+| Auditoría débil frente a convencional fuerte: 1 247 frente a 170 decisiones erróneas | **Sí** |
+
+Pasan las 16 pruebas nuevas y las 25 de G-02, y la CI está en verde.
+
+**L-09 pasa a `RESPONDIDO`** y se cerrará cuando #73 y #75 estén en `main`. Como declara el propio PR, el control no dice nada sobre agentes adaptativos arbitrarios, la calidad de auditores reales ni el exterior abierto C/D.
+
+**Totales:** 88 registros. 33 abiertos, 28 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.
