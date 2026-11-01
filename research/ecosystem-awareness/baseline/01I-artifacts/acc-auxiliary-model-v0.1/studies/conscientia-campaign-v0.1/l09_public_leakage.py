@@ -241,7 +241,6 @@ def run(manifest:Mapping[str,Any],*,include_private_samples:bool=False)->dict:
         post_direct=[]
         rows=[]
         samples=[]
-        n=len(manifest["baseline_actions"])*len(pairs)//len(manifest["baseline_actions"])
         for pair in pairs:
             for rep in range(manifest["replicates_per_pair"]):
                 twins=[
