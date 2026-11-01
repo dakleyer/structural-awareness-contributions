@@ -1,0 +1,172 @@
+{
+  "F03_sweep_as_published": {
+    "by_true_rate": {
+      "0.6": {
+        "A_ONLY": 80
+      },
+      "2.0": {
+        "A_ONLY": 27,
+        "CONVENTIONAL_DIRECTED": 39,
+        "Q_META_PROTOCOL": 14
+      }
+    },
+    "cells": 160,
+    "exclusive_winners": {
+      "A_ONLY": 107,
+      "CONVENTIONAL_DIRECTED": 39,
+      "Q_META_PROTOCOL": 14
+    },
+    "q_meta_exclusive_wins": 14,
+    "q_meta_exclusive_wins_peer_costs": [
+      3.0,
+      5.0
+    ]
+  },
+  "F03_sweep_with_equivalent_arm_same_price": {
+    "by_true_rate": {
+      "0.6": {
+        "A_ONLY": 80
+      },
+      "2.0": {
+        "A_ONLY": 27,
+        "CONVENTIONAL_DIRECTED": 39,
+        "TIE": 14
+      }
+    },
+    "cells": 160,
+    "exclusive_winners": {
+      "A_ONLY": 107,
+      "CONVENTIONAL_DIRECTED": 39
+    },
+    "q_meta_exclusive_wins": 0,
+    "q_meta_exclusive_wins_peer_costs": []
+  },
+  "F04_AG01_net_values": {
+    "A_ONLY": 10.0,
+    "CONVENTIONAL_DIRECTED": 12.3,
+    "CONVENTIONAL_EQUIVALENT_Q": 11.2,
+    "Q_META_PROTOCOL": 11.2,
+    "technical_optimum_output": 13.5
+  },
+  "G01_G02_registry_structure": {
+    "adjudicable": 48,
+    "cases": 60,
+    "distinct_utility_tables": 1,
+    "expanded_A_available": 32,
+    "expanded_A_verdict_equals_truth": 32,
+    "false_q_cases": 12,
+    "false_q_with_independent_audit_flag": 4,
+    "peer_costs": [
+      0.5,
+      1.6
+    ],
+    "peer_verdict_equals_truth": 48,
+    "q_costs": [
+      1.0,
+      2.2
+    ]
+  },
+  "H01_stag_hunt_reference": {
+    "nash_equilibria": [
+      "(1, 1)",
+      "(0, 0)"
+    ],
+    "pareto_superior": "(1,1)",
+    "payoffs": {
+      "(0, 0)": [
+        4.0,
+        4.0
+      ],
+      "(0, 1)": [
+        4.0,
+        0.0
+      ],
+      "(1, 0)": [
+        0.0,
+        4.0
+      ],
+      "(1, 1)": [
+        5.0,
+        5.0
+      ]
+    },
+    "reading": "(0,0) is an equilibrium that rational players may keep although (1,1) dominates it",
+    "risk_dominant": "(0,0)"
+  },
+  "H02_gap_threshold": {
+    "dense_ratio_formula": "0.01*(n-1)",
+    "examples": {
+      "5": [
+        0.04,
+        0.016
+      ],
+      "10": [
+        0.09,
+        0.018
+      ],
+      "20": [
+        0.19,
+        0.019
+      ],
+      "40": [
+        0.39,
+        0.0195
+      ],
+      "101": [
+        1.0,
+        0.0198
+      ],
+      "102": [
+        1.01,
+        0.0198
+      ]
+    },
+    "first_n_gap_exceeds_output": 102,
+    "star_limit": 0.02
+  },
+  "H03_censoring_vs_nesting": {
+    "bits_lost_by_nesting_without_censoring": 1.6781,
+    "censored_request_8": {
+      "distinct_flat_branch_reports": 1,
+      "distinct_nested_top_level_sums": 1,
+      "hidden_states": 16
+    },
+    "reading": "With censoring both flat and nested reports collapse to 1 value (loss from censoring). Without censoring flat reports keep all 2^n states while the nested sum keeps n+1: only this second contrast isolates loss attributable to composition.",
+    "uncensored_request_10": {
+      "distinct_flat_branch_reports": 16,
+      "distinct_nested_top_level_sums": 5,
+      "hidden_states": 16
+    }
+  },
+  "I01_empty_intersection_PR45": {
+    "L": 0.0,
+    "current_rule_abs_tol_1e-12": {
+      "hi": 0.0,
+      "interval_empty": true,
+      "lo": 1e-13,
+      "status": "LOCALLY_SUPPORTED_TRUE"
+    },
+    "points_(x,y_min,y_max)": [
+      [
+        0.0,
+        1e-13,
+        1e-13
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "proposed_strict_rejection": {
+      "hi": 0.0,
+      "interval_empty": true,
+      "lo": 1e-13,
+      "status": "EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT"
+    },
+    "threshold": 5e-14,
+    "x": 0.0
+  },
+  "evidence": "AUDIT ARITHMETIC ON SYNTHETIC FIXTURES; NO EMPIRICAL CLAIM",
+  "schema": "ACC-INCREMENTAL-AUDIT-COMPANION-v0.1"
+}

@@ -1,0 +1,271 @@
+{
+  "status": "INTERNAL_PROPOSAL_VERIFICATION",
+  "cards_verified": 36,
+  "source_blobs_verified": 24,
+  "combined_source_groups_verified": 24,
+  "source_edits_applied": 0,
+  "checks": [
+    {
+      "id": "IP-01",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-02",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-03",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-04",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-05",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-06",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-07",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-08",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-09",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-10",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-11",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-12",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-13",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-14",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-15",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-16",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-17",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-18",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-19",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-20",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-21",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-22",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-23",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-24",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-25",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-26",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-27",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-28",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-29",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-30",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-31",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-32",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-33",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-34",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-35",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    },
+    {
+      "id": "IP-36",
+      "source_blob_verified": true,
+      "literal_unit_and_line_verified": true,
+      "preservation_verified": true,
+      "source_applied": false
+    }
+  ],
+  "finite_examples": {
+    "same_information_policy_risks": [
+      0.5,
+      0.0
+    ],
+    "same_execution_different_lifecycle_net": [
+      7,
+      -11
+    ]
+  }
+}

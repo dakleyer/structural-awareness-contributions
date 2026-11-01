@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" width="820" height="400" role="img" aria-label="Probabilidad de que todas las partes consientan frente a su número"><style>
+  .ink{fill:#0b0b0b}.ink2{fill:#52514e}.bg{fill:#fcfcfb}.card{fill:#f4f3f0;stroke:#d7d6d0}
+  .line{stroke:#c3c2b7}.s0{fill:#2a78d6}.s1{fill:#eb6834}.s2{fill:#1baf7a}.s3{fill:#eda100}
+  .s0s{stroke:#2a78d6}.s1s{stroke:#eb6834}.s2s{stroke:#1baf7a}.s3s{stroke:#eda100}
+  text{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .ink{fill:#f0efec}.ink2{fill:#c3c2b7}.bg{fill:#1a1a19}.card{fill:#262624;stroke:#3d3d3a}.line{stroke:#5a5a55}
+    .s0{fill:#3987e5}.s1{fill:#d95926}.s2{fill:#199e70}.s3{fill:#c98500}
+    .s0s{stroke:#3987e5}.s1s{stroke:#d95926}.s2s{stroke:#199e70}.s3s{stroke:#c98500}
+  }
+</style>
+<rect class="bg" width="820" height="400" rx="10"/>
+<text class="ink" x="24" y="34" font-size="18" font-weight="650">q^v: cuántos «sí» hacen falta</text>
+<text class="ink2" x="24" y="58" font-size="13">Probabilidad de que v partes consientan si cada una dice «sí» con q = 0,9 (MODEL.md, «Redes…»).</text>
+<line class="line" x1="64" x2="630" y1="304.0" y2="304.0" stroke-width="0.6"/>
+<text class="ink2" x="56" y="308.0" font-size="11" text-anchor="end">0 %</text>
+<line class="line" x1="64" x2="630" y1="249.0" y2="249.0" stroke-width="0.6"/>
+<text class="ink2" x="56" y="253.0" font-size="11" text-anchor="end">25 %</text>
+<line class="line" x1="64" x2="630" y1="194.0" y2="194.0" stroke-width="0.6"/>
+<text class="ink2" x="56" y="198.0" font-size="11" text-anchor="end">50 %</text>
+<line class="line" x1="64" x2="630" y1="139.0" y2="139.0" stroke-width="0.6"/>
+<text class="ink2" x="56" y="143.0" font-size="11" text-anchor="end">75 %</text>
+<line class="line" x1="64" x2="630" y1="84.0" y2="84.0" stroke-width="0.6"/>
+<text class="ink2" x="56" y="88.0" font-size="11" text-anchor="end">100 %</text>
+<text class="ink2" x="64.0" y="322" font-size="11" text-anchor="middle">1</text>
+<text class="ink2" x="142.1" y="322" font-size="11" text-anchor="middle">5</text>
+<text class="ink2" x="239.7" y="322" font-size="11" text-anchor="middle">10</text>
+<text class="ink2" x="337.2" y="322" font-size="11" text-anchor="middle">15</text>
+<text class="ink2" x="434.8" y="322" font-size="11" text-anchor="middle">20</text>
+<text class="ink2" x="532.4" y="322" font-size="11" text-anchor="middle">25</text>
+<text class="ink2" x="630.0" y="322" font-size="11" text-anchor="middle">30</text>
+<text class="ink2" x="347.0" y="344" font-size="12" text-anchor="middle">v (número de partes cuyo consentimiento hace falta)</text>
+<line class="s1s" x1="64.0" x2="630.0" y1="106.0" y2="106.0" stroke-width="2"/>
+<polyline class="s0s" fill="none" stroke-width="2" points="64.0,106.0 83.5,125.8 103.0,143.6 122.6,159.7 142.1,174.1 161.6,187.1 181.1,198.8 200.6,209.3 220.1,218.8 239.7,227.3 259.2,235.0 278.7,241.9 298.2,248.1 317.7,253.7 337.2,258.7 356.8,263.2 376.3,267.3 395.8,271.0 415.3,274.3 434.8,277.3 454.3,279.9 473.9,282.3 493.4,284.5 512.9,286.5 532.4,288.2 551.9,289.8 571.4,291.2 591.0,292.5 610.5,293.6 630.0,294.7"/>
+<circle class="s0" cx="434.8" cy="277.3" r="5"><title>v = 20: 0,9^20 = 0,1216</title></circle>
+<text class="ink" x="442.8" y="267.3" font-size="12">v = 20 → 12,16 %</text>
+<text class="ink" x="638" y="110.0" font-size="12">respuestas idénticas: 90 %</text>
+<text class="ink" x="638" y="298.7" font-size="12">independientes: q^v</text>
+<text class="ink2" x="24" y="386" font-size="11">Los dos extremos de MODEL.md. Entre ambos: correlación, delegación, sustitución, negociación o gobierno conjunto, que el estudio debe variar.</text>
+</svg>

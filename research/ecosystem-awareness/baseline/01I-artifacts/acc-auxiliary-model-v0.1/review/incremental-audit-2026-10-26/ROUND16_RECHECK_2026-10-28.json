@@ -1,0 +1,160 @@
+{
+  "scope": "pinned AI-assisted recheck and constructed mathematics; known failures remain diagnostics",
+  "sources": [
+    {
+      "name": "metacognition",
+      "ref": "51fc686f45b6ef10c53b69f4c26d0e381b007ff8",
+      "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/scoped-closure-metacognition-v0.1/metacognition.py",
+      "blob": "213c943f1b56f096db47af86af6baf4cac612023"
+    },
+    {
+      "name": "reference",
+      "ref": "51fc686f45b6ef10c53b69f4c26d0e381b007ff8",
+      "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/scoped-closure-metacognition-v0.1/REFERENCE_SYNTHETIC_RESULTS.json",
+      "blob": "27aa4328da00cd05883911a843dee7d3d705b4b4"
+    },
+    {
+      "name": "online",
+      "ref": "cb72bb65ab148de1c7396d9cb8f9c1b7af6edc25",
+      "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/test_theme18_online_context.py",
+      "blob": "79872a3f3ff98538e37df198fe2e9b2351cda67d"
+    },
+    {
+      "name": "admission",
+      "ref": "cb72bb65ab148de1c7396d9cb8f9c1b7af6edc25",
+      "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/mathematical-lineage-social-agentic-v0.1/test_theme18_candidate_admission.py",
+      "blob": "57794f4c2605443170b1f8b9f523ee53a1d6f9c5"
+    }
+  ],
+  "checks": [
+    {
+      "name": "I-01/M27-02",
+      "passed": true
+    },
+    {
+      "name": "M27-01",
+      "passed": true
+    },
+    {
+      "name": "M28-01a",
+      "passed": true
+    },
+    {
+      "name": "M28-01b",
+      "passed": true
+    },
+    {
+      "name": "D28-F01 same numerical family",
+      "passed": true
+    },
+    {
+      "name": "positive certificate",
+      "passed": true
+    },
+    {
+      "name": "positive envelope preserved",
+      "passed": true
+    },
+    {
+      "name": "published lower rounded outward",
+      "passed": true
+    },
+    {
+      "name": "published upper rounded outward",
+      "passed": true
+    },
+    {
+      "name": "synthetic report content unchanged",
+      "passed": true
+    },
+    {
+      "name": "M28-02 full evaluator rejects outside domain",
+      "passed": true
+    },
+    {
+      "name": "M28-02 fixed in branch: domain and alias cases rejected",
+      "passed": true
+    },
+    {
+      "name": "M28-02 positive finite domain preserved",
+      "passed": true
+    },
+    {
+      "name": "pending M28-03: invalid bound still yields proposal",
+      "passed": true
+    },
+    {
+      "name": "M28-03 fixture never executes action",
+      "passed": true
+    },
+    {
+      "name": "M28-04 helper still only checks capture-era validity",
+      "passed": true
+    },
+    {
+      "name": "FA4 illustration matched success rates",
+      "passed": true
+    },
+    {
+      "name": "FA4 conditional successful cost favours A",
+      "passed": true
+    },
+    {
+      "name": "FA4 complete cost reverses that ordering",
+      "passed": true
+    },
+    {
+      "name": "XOR each local observation retains one target bit",
+      "passed": true
+    },
+    {
+      "name": "XOR duplicate source adds no target discrimination",
+      "passed": true
+    },
+    {
+      "name": "XOR complementary pair determines target",
+      "passed": true
+    },
+    {
+      "name": "XOR each local target question is unresolved on every exposure",
+      "passed": true
+    }
+  ],
+  "passed": 23,
+  "total": 23,
+  "facts": {
+    "closure": {
+      "I-01/M27-02": "EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT",
+      "M27-01": "EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT",
+      "M28-01a": "EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT",
+      "M28-01b": "UNDETERMINED_FROM_AVAILABLE_EVIDENCE",
+      "D28-F01 same numerical family": "EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT",
+      "positive certificate": "LOCALLY_SUPPORTED_TRUE"
+    },
+    "closure_scope": "exact finite-input numerical runner; not source authenticity, open exterior or human independent review",
+    "branch_repair": {
+      "M28-02": "reconfirmed in branch60; incorporation into main pending"
+    },
+    "pending": {
+      "M28-03": "NaN passes utility gate; execution NEVER",
+      "M28-04": "decision time absent; missing temporal scope, no deployed failure asserted"
+    },
+    "FA4": {
+      "scope": "constructed reason to formalize the existing requirement to include misses, not a measured policy ranking",
+      "success_rate_A": "1/2",
+      "success_rate_B": "1/2",
+      "conditional_cost_A": "1",
+      "conditional_cost_B": "10",
+      "all_attempts_cost_A": "101/2",
+      "all_attempts_cost_B": "11/2"
+    },
+    "XOR": {
+      "scope": "classical finite complementarity illustration, not a new information theorem or MSCA implementation",
+      "H_Y_given_X0": 1.0,
+      "H_Y_given_X1": 1.0,
+      "H_Y_given_duplicate_X0": 1.0,
+      "H_Y_given_X0_X1": 0.0,
+      "local_unknown_rate_each": 1
+    }
+  }
+}
