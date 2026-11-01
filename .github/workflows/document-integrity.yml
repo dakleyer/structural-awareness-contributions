@@ -50,11 +50,20 @@ jobs:
 
           python -B -c "import json; d=json.load(open('/tmp/acc_h01_strategic_choices.json')); print('H01_SENSITIVITY_SWEEP='+json.dumps({'cells':d['sensitivity']['cells'],'classifications':d['sensitivity']['classification_counts'],'admissions':d['sensitivity']['joint_admission_counts']},sort_keys=True))"
 
+      - name: Diagnose H-01 failure conditions independently of aggregate counts
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1"
+          python -B -m unittest discover -s "$S" -p test_h01_failure_diagnostics.py -v
+          python -B "$S/h01_failure_diagnostics.py" --manifest "$S/H01_STRATEGIC_STUDY.json" --results /tmp/acc_h01_strategic_choices.json --output /tmp/acc_h01_conditional_failure_diagnostics.json
+          python -B -c "import json; d=json.load(open('/tmp/acc_h01_conditional_failure_diagnostics.json')); t=d['classification_by_joint_admission']; assert d['total_cells']==180; assert (t['STRICT_RATIONAL_COORDINATION_TRAP']['joint_admitted'],t['STRICT_RATIONAL_COORDINATION_TRAP']['joint_rejected'])==(24,15); assert d['admitted_cases_not_strict_traps']==90; assert d['net_failure_reasons']=={'JOINT_ALTERNATIVE_HARMS_EACH_ACTOR':30,'JOINT_ALTERNATIVE_BREAK_EVEN_BEFORE_COORDINATION':12,'BURDEN_GREATER_THAN_JOINT_GAIN':12,'BURDEN_EQUALS_JOINT_GAIN_STRICT_RULE_REJECTS':12}; assert d['matched_burden_counterfactuals']['lost_admissibility_when_only_burden_increases']==18; assert d['matched_burden_counterfactuals']['strict_traps_losing_admissibility']==10; print('H01_FAILURE_CONDITIONS='+json.dumps({'classification_vs_admission':t,'failure_reasons':d['net_failure_reasons'],'burden_slices':d['conditional_slices']['by_joint_burden'],'synergy_slices':d['conditional_slices']['by_pairwise_complementarity'],'matched_burden':d['matched_burden_counterfactuals']['lost_admissibility_when_only_burden_increases']},sort_keys=True))"
+
       - name: Publish H-01 synthetic strategic choice, governance and conventional controls
         uses: actions/upload-artifact@v4
         with:
           name: acc-h01-strategic-nash-and-feasibility
-          path: /tmp/acc_h01_strategic_choices.json
+          path: |
+            /tmp/acc_h01_strategic_choices.json
+            /tmp/acc_h01_conditional_failure_diagnostics.json
           if-no-files-found: error
 
       - name: Check ACC nested-systems structural gap and bounded information loss
