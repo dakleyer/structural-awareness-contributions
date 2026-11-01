@@ -98,6 +98,23 @@ jobs:
             /tmp/acc_g02_audit_private_referee_traces.json
           if-no-files-found: error
 
+      - name: Verify L-09 matched public-world counterfactuals and G-02 audit replay
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1"
+          python -B -m unittest discover -s "$S" -p test_l09_public_leakage.py -v
+          python -B "$S/l09_public_leakage.py" --manifest "$S/L09_MATCHING_PROTOCOL.json" --output /tmp/acc_l09_matched_public_binary_summary.json
+          python -B "$S/l09_public_leakage.py" --manifest "$S/L09_MATCHING_PROTOCOL.json" --private-samples --output /tmp/acc_l09_private_audit_samples.json
+          python -B -c "import json; a=json.load(open('/tmp/acc_l09_matched_public_binary_summary.json')); b=json.load(open('/tmp/acc_l09_private_audit_samples.json')); assert a['source_legacy_public_view_leakage']['optimal_public_only_accuracy']=='3/4'; assert a['derived_matched_pairs']==24 and a['total_source_world_evaluations']==24576; assert all(x['public_only_before_measuring']['optimal_public_only_accuracy']=='1/2' and x['public_only_before_measuring']['visible_mutual_information_bits']==0 for x in a['regimes']); assert len(a['regimes'])==8 and a['manifest_sha256']==b['manifest_sha256']; assert all('synthetic_private_referee_samples_NOT_PLANNER_INPUT' not in x for x in a['regimes']) and all('synthetic_private_referee_samples_NOT_PLANNER_INPUT' in x for x in b['regimes']); print('L09_MATCHED_INFORMATION='+json.dumps([{'regime':x['regime'],'public_accuracy':x['public_only_before_measuring']['optimal_public_only_accuracy'],'before_bits':x['public_only_before_measuring']['visible_mutual_information_bits'],'after_audit_bits':x['after_fallible_qualified_audit']['visible_mutual_information_bits'],'after_direct_bits':x['after_fallible_qualified_conventional']['visible_mutual_information_bits'],'new_audit_wrong':x['native_G02_policy_results']['Q_WITH_AUDIT_OBSERVATION']['wrong'],'conventional_wrong':x['native_G02_policy_results']['CONVENTIONAL_INDEPENDENT_MEASURED']['wrong']} for x in a['regimes']],sort_keys=True))"
+
+      - name: Publish L-09 public metadata leakage witness and matched-world audit evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: acc-l09-public-view-balanced-worlds
+          path: |
+            /tmp/acc_l09_matched_public_binary_summary.json
+            /tmp/acc_l09_private_audit_samples.json
+          if-no-files-found: error
+
       - name: Publish original-example cross-model execution report
         uses: actions/upload-artifact@v4
         with:
