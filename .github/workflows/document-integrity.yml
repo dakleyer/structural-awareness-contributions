@@ -57,6 +57,12 @@ jobs:
           python -B "$S/h01_failure_diagnostics.py" --manifest "$S/H01_STRATEGIC_STUDY.json" --results /tmp/acc_h01_strategic_choices.json --output /tmp/acc_h01_conditional_failure_diagnostics.json
           python -B -c "import json; d=json.load(open('/tmp/acc_h01_conditional_failure_diagnostics.json')); t=d['classification_by_joint_admission']; assert d['total_cells']==180; assert (t['STRICT_RATIONAL_COORDINATION_TRAP']['joint_admitted'],t['STRICT_RATIONAL_COORDINATION_TRAP']['joint_rejected'])==(24,15); assert d['admitted_cases_not_strict_traps']==90; assert d['net_failure_reasons']=={'JOINT_ALTERNATIVE_HARMS_EACH_ACTOR':30,'JOINT_ALTERNATIVE_BREAK_EVEN_BEFORE_COORDINATION':12,'BURDEN_GREATER_THAN_JOINT_GAIN':12,'BURDEN_EQUALS_JOINT_GAIN_STRICT_RULE_REJECTS':12}; assert d['matched_burden_counterfactuals']['lost_admissibility_when_only_burden_increases']==18; assert d['matched_burden_counterfactuals']['strict_traps_losing_admissibility']==10; print('H01_FAILURE_CONDITIONS='+json.dumps({'classification_vs_admission':t,'failure_reasons':d['net_failure_reasons'],'burden_slices':d['conditional_slices']['by_joint_burden'],'synergy_slices':d['conditional_slices']['by_pairwise_complementarity'],'matched_burden':d['matched_burden_counterfactuals']['lost_admissibility_when_only_burden_increases']},sort_keys=True))"
 
+      - name: Enforce ACC non-fungible dimension contract; H-01 payoff-cost mix is diagnostic only
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1"
+          python -B -m unittest discover -s "$S" -p test_dimensional_contract.py -v
+          python -B -c "import json; x=json.load(open('/tmp/acc_h01_strategic_choices.json')); a=x['sensitivity']; d=a['acc_known_R_C_dimensional_counts']; assert d=={'MONOTONE_IMPROVEMENT_IN_K':46,'INCOMPARABLE_K_TRADEOFF':92,'NO_MONOTONE_IMPROVEMENT_IN_K':38,'EQUIVALENT_IN_K':4}; assert a['legacy_admission_is_assumed_C_to_R_conversion_not_architecture']; assert all(p['acc_known_dimensions']['full_open_model_dominance']=='NOT_ESTABLISHED' for p in x['scenarios']); print('H01_ACC_DIMENSIONAL_K='+json.dumps(d,sort_keys=True))"
+
       - name: Publish H-01 synthetic strategic choice, governance and conventional controls
         uses: actions/upload-artifact@v4
         with:
