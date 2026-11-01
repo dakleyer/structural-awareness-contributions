@@ -78,6 +78,35 @@ class SourceFixtureAndContractTests(unittest.TestCase):
                                       "private_Q_claim_matched"):
                         self.assertNotIn(forbidden,public)
 
+    def test_public_only_plans_equal_across_matched_private_truths(self):
+        prices=SOURCE_REGIMES["PERFECT_INDEPENDENT_AUDIT_AND_CONVENTIONAL"]["prices"]
+        for pair in lab.make_public_matched_pairs(ORIGINAL["cases"]):
+            yes,no=environments(pair)
+            with self.subTest(pair=pair["pair_id"]):
+                for arm in ("A_ONLY","Q_UNAUDITED_SOURCE"):
+                    y=g02.plan_public(yes["public"],yes["q"],yes["audit"],
+                                      yes["direct"],prices,arm)
+                    n=g02.plan_public(no["public"],no["q"],no["audit"],
+                                      no["direct"],prices,arm)
+                    self.assertEqual(y,n)
+                # Distinct *measured* values can subsequently add evidence:
+                auditor_true=g02.plan_public(
+                    yes["public"],yes["q"],yes["audit"],yes["direct"],
+                    prices,"Q_WITH_AUDIT_OBSERVATION")
+                auditor_false=g02.plan_public(
+                    no["public"],no["q"],no["audit"],no["direct"],
+                    prices,"Q_WITH_AUDIT_OBSERVATION")
+                self.assertEqual(auditor_true["action"],"ALLOW")
+                self.assertEqual(auditor_false["action"],"REVIEW")
+                direct_true=g02.plan_public(
+                    yes["public"],yes["q"],yes["audit"],yes["direct"],
+                    prices,"CONVENTIONAL_INDEPENDENT_MEASURED")
+                direct_false=g02.plan_public(
+                    no["public"],no["q"],no["audit"],no["direct"],
+                    prices,"CONVENTIONAL_INDEPENDENT_MEASURED")
+                self.assertEqual(direct_true["action"],"ALLOW")
+                self.assertEqual(direct_false["action"],"BLOCK")
+
     def test_mismatched_baseline_scope_and_absent_twin_fail_closed(self):
         a,b=environments(one_pair())
         bad=deepcopy(b)
