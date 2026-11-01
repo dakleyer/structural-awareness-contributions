@@ -21,6 +21,7 @@ import json
 from typing import Any, Mapping, Sequence
 
 from bounded_traps import coupled_trap
+from dimensional_contract import compare_dimensions
 
 HERE=Path(__file__).resolve().parent
 SCHEMA="ACC-H01-FINITE-STRATEGIC-CHOICE-v0.1"
@@ -448,10 +449,63 @@ def coordinated_joint_candidate(g:Mapping[str,Any])->dict:
     }
 
 
+def acc_dimensional_projection(g:Mapping[str,Any])->dict:
+    """A bounded, dimension-FIRST ACC reading; NOT the legacy payoff-cost sum.
+
+    r/c/s are scenario coefficients in the toy's actor-payoff generator,
+    NOT an open-model dimension inventory. The joint burden is C itself, not
+    a deduction within R. E needs a same-output efficiency comparator; V
+    attribution/relative recognition is not measured by a credit transfer.
+    Neither is silently closed or assigned zero.
+    """
+    validate(g)
+    current=tuple(g["current"]);target=tuple(g["target"])
+    if not feasible(target,g):
+        return {
+            "known_dimension_comparison":"NOT_APPLICABLE_INFEASIBLE_TARGET",
+            "full_open_model_dominance":"NOT_ESTABLISHED",
+            "other_dimensions_uncharacterized":["E","V","d_(n+1)"],
+            "rights_and_transition":"SEPARATE_REQUIRED",
+            "legacy_scalar_joint_status_is_NOT_an_ACC_result":True,
+        }
+    names=actors(g)
+    rb=payoff(current,g)
+    ra=payoff(target,g)
+    burden={a:q(g["joint"]["burden_payoff_units"][a],signed=False) for a in names}
+    before={
+        "R":{"unit":"individual_toy_payoff_within_each_actor",
+             "components":{name:fmt(v) for name,v in zip(names,rb)}},
+        "C":{"unit":"declared_coordination_burden_in_toy",
+             "components":{name:"0" for name in names}},
+    }
+    after={
+        "R":{"unit":"individual_toy_payoff_within_each_actor",
+             "components":{name:fmt(v) for name,v in zip(names,ra)}},
+        "C":{"unit":"declared_coordination_burden_in_toy",
+             "components":{name:fmt(burden[name]) for name in names}},
+    }
+    result=compare_dimensions(
+        before,after,declared_directions={"R":"INCREASE","C":"DECREASE"},
+        explicitly_unknown=("E","V","d_(n+1)"),
+    )
+    return {
+        **result,
+        "known_dimension_comparison":result["known_K_partial_order"],
+        "R_is_synthetic_actor_specific_payoff_not_external_measured_welfare":True,
+        "C_is_separate_coordination_dimension_not_subtracted_from_R":True,
+        "r_c_s_are_payoff_generator_coefficients_not_three_dimensions":True,
+        "credit_transfer_requires_independent_attribution_dimension_contract":True,
+        "legacy_scalar_joint_status_is_NOT_an_ACC_result":True,
+        "rights_and_transition":"SEPARATE_REQUIRED",
+        "dimension_basis":"SOURCE_S1_P0207_P0223_PARTIAL_ORDER_K_OPEN",
+    }
+
+
 def run_game(g:Mapping[str,Any])->dict:
     validate(g)
     technical=classify(g)
     qualified=coordinated_joint_candidate(g)
+    dimensions=acc_dimensional_projection(g)
     observations=[]
     if len(g["actors"])==2:
         for p in g["belief_grid"]:
@@ -465,6 +519,8 @@ def run_game(g:Mapping[str,Any])->dict:
         "finite_feasible_profiles":[list(s) for s in profiles(g)],
         "mechanism":technical,
         "joint_coordination":qualified,
+        "acc_known_dimensions":dimensions,
+        "joint_coordination_scalar_payoff_gate":"LEGACY_ASSUMED_C_TO_R_CONVERSION_DIAGNOSTIC_ONLY",
         "belief_controls":observations,
         "belief_control_scope":"ONLY_TWO_ACTOR_EXPLICIT_BELIEFS"
             if len(g["actors"])==2 else "NOT_EVALUATED_FOR_LARGER_GAME",
@@ -518,6 +574,7 @@ def sensitivity_grid(base:Mapping[str,Any],plan:Mapping[str,Any])->dict:
         counts[key]=counts.get(key,0)+1
         status=executed["status"]
         admissibility[status]=admissibility.get(status,0)+1
+        dimensionally=acc_dimensional_projection(g)
         rows.append({
             "params":{
                 "private_return":ret,"investment_cost":cost,
@@ -525,6 +582,9 @@ def sensitivity_grid(base:Mapping[str,Any],plan:Mapping[str,Any])->dict:
             },
             "classification":key,
             "joint_admissibility":status,
+            "legacy_scalar_admission_is_NOT_ACC_dimensional_dominance":True,
+            "acc_dimensional_comparison":dimensionally["known_dimension_comparison"],
+            "acc_R_and_C_evaluated_separately":True,
             "unilateral_profitable_count":interpreted[
                 "current_individual_deviation_proof"]["profitable_unilateral_deviations"],
             "nash_equilibria":[e["profile"] for e in
@@ -532,11 +592,17 @@ def sensitivity_grid(base:Mapping[str,Any],plan:Mapping[str,Any])->dict:
             "current_payoffs":interpreted["current_payoffs"],
             "target_payoffs":interpreted["target_payoffs"],
         })
+    dimension_counts={}
+    for row in rows:
+        label=row["acc_dimensional_comparison"]
+        dimension_counts[label]=dimension_counts.get(label,0)+1
     return {
         "scope":"DECLARED_INDEPENDENT_FINITE_PARAMETRIC_SENSITIVITY_NOT_POPULATION",
         "cells":total,
         "classification_counts":dict(sorted(counts.items())),
         "joint_admission_counts":dict(sorted(admissibility.items())),
+        "acc_known_R_C_dimensional_counts":dict(sorted(dimension_counts.items())),
+        "legacy_admission_is_assumed_C_to_R_conversion_not_architecture":True,
         "rows":rows,
         "no_explicit_winner_or_equilibrium_in_source_parameters":True,
     }
