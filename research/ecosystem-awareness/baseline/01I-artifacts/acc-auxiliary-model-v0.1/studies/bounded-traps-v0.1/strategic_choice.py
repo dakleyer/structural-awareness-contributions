@@ -429,9 +429,10 @@ def run_game(g:Mapping[str,Any])->dict:
     technical=classify(g)
     qualified=coordinated_joint_candidate(g)
     observations=[]
-    for p in g["belief_grid"]:
-        for index in range(2):
-            observations.append(belief_best_response(g,p,index))
+    if len(g["actors"])==2:
+        for p in g["belief_grid"]:
+            for index in range(2):
+                observations.append(belief_best_response(g,p,index))
     return {
         "case_id":g["id"],"schema":SCHEMA,
         "source_anchor":g["source_anchor"],
@@ -441,8 +442,79 @@ def run_game(g:Mapping[str,Any])->dict:
         "mechanism":technical,
         "joint_coordination":qualified,
         "belief_controls":observations,
+        "belief_control_scope":"ONLY_TWO_ACTOR_EXPLICIT_BELIEFS"
+            if len(g["actors"])==2 else "NOT_EVALUATED_FOR_LARGER_GAME",
         "physical_resource_units_are_not_summed_with_actor_payoffs":True,
         "information_price_is_not_subtracted_from_actor_utility":True,
+    }
+
+
+def sensitivity_grid(base:Mapping[str,Any],plan:Mapping[str,Any])->dict:
+    """Independent physical/incentive/coordination sweeps, not labels in inputs.
+
+    This grid is predeclared in the JSON; success, Nash traps and failure are
+    computed solely from the payoff/feasibility/authorization mechanisms.
+    It changes neither original source fixtures nor available rights.
+    """
+    dimensions=(
+        "standalone_returns","investment_costs","pairwise_synergies",
+        "individual_joint_burdens",
+    )
+    if not isinstance(plan,dict) or set(plan)!=set(dimensions):
+        raise ValueError("sensitivity requires four separate economic dimensions")
+    if len(base["actors"])!=2:
+        raise ValueError("two-player sensitivity is an explicit subexperiment")
+    for key in dimensions:
+        v=plan[key]
+        if not isinstance(v,list) or not 2<=len(v)<=12 or len(set(v))!=len(v):
+            raise ValueError("sensitivity requires bounded distinct declared values")
+        for x in v:
+            q(x,signed=key not in ("investment_costs","individual_joint_burdens"))
+    total=1
+    for key in dimensions:
+        total*=len(plan[key])
+    if total>2048:
+        raise ValueError("finite sensitivity grid is too large")
+    rows=[]
+    counts={}
+    admissibility={}
+    for ret,cost,gain,burden in product(*(plan[k] for k in dimensions)):
+        g=deepcopy(base)
+        for a in g["actors"]:
+            a["standalone_return"]=ret
+            a["investment_cost"]=cost
+            a["complementarity_from"]={
+                k:gain for k in a["complementarity_from"]}
+        for k in g["joint"]["burden_payoff_units"]:
+            g["joint"]["burden_payoff_units"][k]=burden
+        validate(g)
+        interpreted=classify(g)
+        executed=coordinated_joint_candidate(g)
+        key=interpreted["classification"]
+        counts[key]=counts.get(key,0)+1
+        status=executed["status"]
+        admissibility[status]=admissibility.get(status,0)+1
+        rows.append({
+            "params":{
+                "private_return":ret,"investment_cost":cost,
+                "pairwise_complementarity":gain,"joint_burden":burden,
+            },
+            "classification":key,
+            "joint_admissibility":status,
+            "unilateral_profitable_count":interpreted[
+                "current_individual_deviation_proof"]["profitable_unilateral_deviations"],
+            "nash_equilibria":[e["profile"] for e in
+                               interpreted["all_pure_nash_equilibria"]],
+            "current_payoffs":interpreted["current_payoffs"],
+            "target_payoffs":interpreted["target_payoffs"],
+        })
+    return {
+        "scope":"DECLARED_INDEPENDENT_FINITE_PARAMETRIC_SENSITIVITY_NOT_POPULATION",
+        "cells":total,
+        "classification_counts":dict(sorted(counts.items())),
+        "joint_admission_counts":dict(sorted(admissibility.items())),
+        "rows":rows,
+        "no_explicit_winner_or_equilibrium_in_source_parameters":True,
     }
 
 
@@ -469,6 +541,7 @@ def run_manifest(manifest:Mapping[str,Any])->dict:
         raise AssertionError("original feasibility example changed")
     return {
         "schema":MANIFEST,
+        "sensitivity":sensitivity_grid(base,manifest["sensitivity"]),
         "source_original_coupled_trap":{
             "feasible":source["feasible"],
             "pareto_dominates":source["pareto_dominates"],
