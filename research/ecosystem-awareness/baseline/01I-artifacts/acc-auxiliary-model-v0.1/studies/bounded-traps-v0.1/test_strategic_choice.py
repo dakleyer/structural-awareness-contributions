@@ -264,6 +264,9 @@ class ReusableFiniteMechanismsAndAdversarialCases(unittest.TestCase):
         self.assertEqual(result["joint_coordination"]["status"],
                          "ADMISSIBLE_UNDER_SYNTHETIC_ASSUMPTIONS")
         self.assertEqual(result["joint_coordination"]["joint_resource_use_including_setup"],"5")
+        self.assertEqual(result["belief_controls"],[])
+        self.assertEqual(result["belief_control_scope"],
+                         "NOT_EVALUATED_FOR_LARGER_GAME")
 
     def test_no_pure_nash_matching_pennies_negative_control(self):
         g=deepcopy(BASE)
@@ -334,6 +337,75 @@ class ReusableFiniteMechanismsAndAdversarialCases(unittest.TestCase):
                                          (Fraction(3),Fraction(3))))
         with self.assertRaises(ValueError):
             model.dominance((Fraction(1),),(Fraction(1),Fraction(2)))
+
+    def test_predeclared_sensitivity_has_all_cells_not_only_favourable_ones(self):
+        scan=REPORT["sensitivity"]
+        self.assertEqual(scan["cells"],180)
+        self.assertEqual(len(scan["rows"]),180)
+        self.assertEqual(sum(scan["classification_counts"].values()),180)
+        self.assertEqual(sum(scan["joint_admission_counts"].values()),180)
+        self.assertTrue(scan["no_explicit_winner_or_equilibrium_in_source_parameters"])
+        self.assertIn("STRICT_RATIONAL_COORDINATION_TRAP",
+                      scan["classification_counts"])
+        self.assertIn("PROFITABLE_UNILATERAL_ESCAPE_NOT_A_NASH_TRAP",
+                      scan["classification_counts"])
+        self.assertIn("NO_PARETO_SUPERIOR_TARGET_ON_ACTOR_UTILITIES",
+                      scan["classification_counts"])
+        self.assertIn("ADMISSIBLE_UNDER_SYNTHETIC_ASSUMPTIONS",
+                      scan["joint_admission_counts"])
+        self.assertIn("VOLUNTARY_PARTICIPATION_NOT_SUPPORTED_BY_PAYOFFS",
+                      scan["joint_admission_counts"])
+
+    def test_sensitivity_can_keep_rational_trap_but_lose_joint_acceptance(self):
+        cells=REPORT["sensitivity"]["rows"]
+        def find(ret,cost,comp,burden):
+            return next(x for x in cells if x["params"]=={
+                "private_return":ret,"investment_cost":cost,
+                "pairwise_complementarity":comp,"joint_burden":burden,
+            })
+        approved=find("0","3","4","0")
+        blocked=find("0","3","4","1")
+        self.assertEqual(approved["classification"],
+                         "STRICT_RATIONAL_COORDINATION_TRAP")
+        self.assertEqual(blocked["classification"],
+                         "STRICT_RATIONAL_COORDINATION_TRAP")
+        self.assertEqual(approved["joint_admissibility"],
+                         "ADMISSIBLE_UNDER_SYNTHETIC_ASSUMPTIONS")
+        self.assertEqual(blocked["joint_admissibility"],
+                         "VOLUNTARY_PARTICIPATION_NOT_SUPPORTED_BY_PAYOFFS")
+        self.assertEqual(approved["target_payoffs"],["4","4"])
+        self.assertEqual(blocked["target_payoffs"],["4","4"])
+
+    def test_sensitivity_can_make_unilateral_incentive_profitable(self):
+        cells=REPORT["sensitivity"]["rows"]
+        a=next(x for x in cells if x["params"]=={
+            "private_return":"5","investment_cost":"3",
+            "pairwise_complementarity":"6","joint_burden":"0",
+        })
+        b=next(x for x in cells if x["params"]=={
+            "private_return":"0","investment_cost":"3",
+            "pairwise_complementarity":"6","joint_burden":"0",
+        })
+        self.assertEqual(a["classification"],
+                         "PROFITABLE_UNILATERAL_ESCAPE_NOT_A_NASH_TRAP")
+        self.assertEqual(a["unilateral_profitable_count"],2)
+        self.assertEqual(b["classification"],
+                         "STRICT_RATIONAL_COORDINATION_TRAP")
+        self.assertEqual(b["unilateral_profitable_count"],0)
+
+    def test_illegal_sensitivity_overreach_or_duplicate_fails(self):
+        p=deepcopy(MANIFEST["sensitivity"])
+        p["investment_costs"]=["3","3"]
+        with self.assertRaisesRegex(ValueError,"distinct"):
+            model.sensitivity_grid(BASE,p)
+        p=deepcopy(MANIFEST["sensitivity"])
+        p["individual_joint_burdens"]=["0","-1"]
+        with self.assertRaisesRegex(ValueError,"nonnegative"):
+            model.sensitivity_grid(BASE,p)
+        p=deepcopy(MANIFEST["sensitivity"])
+        p["unknown_best_winner"]=["ACC"]
+        with self.assertRaisesRegex(ValueError,"four separate"):
+            model.sensitivity_grid(BASE,p)
 
     def test_report_determinism_and_source_boundedness(self):
         self.assertEqual(model.run_manifest(MANIFEST),model.run_manifest(MANIFEST))
