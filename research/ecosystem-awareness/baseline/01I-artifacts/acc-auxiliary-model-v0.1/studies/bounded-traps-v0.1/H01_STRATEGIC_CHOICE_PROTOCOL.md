@@ -114,3 +114,51 @@ The [manifest](H01_STRATEGIC_STUDY.json) predeclares a **four-axis, 180-cell** g
 This is a counterexample test against generating only favourable stag-hunt examples. Some cells must show profitable unilateral escape, others a Pareto-superior but blocked joint candidate, weak equilibrium, or no jointly superior alternative. If altering complementarity or cost leaves the output fixed, the study fails. No metric is calculated by adding actor welfare or converting a coordination payoff burden into information price.
 
 The grid is not independent empirical evidence of an economic prevalence or a survey of individuals. It deliberately perturbs a bounded model of incentives while preserving the same question and authorization statuses. It must be reported as a synthetic sensitivity surface, not repeated confirmation of its own premise.
+
+
+## 7. Received H-01 experimental results — 1 November 2026
+
+**Source of executable figures:** [GitHub Actions #41290524931](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/41290524931), **success**. The 19 named scenarios and the separately predeclared 180-cell sensitivity surface ran with **31/31 new H-01 tests passing**, alongside all original bounded-traps and broader document-integrity regressions. The source-owned frozen outputs and original bounded_traps.py blob hashes were explicitly checked and unchanged.
+
+### Core computed witness and its falsifiers
+
+| Experiment | Nash / physical distinction | Joint proposal result |
+|---|---|---|
+| Strict strategic coordination | All four profiles feasible; strict Nash at 00 and 11; individual deviation −3 at 00; 11 Pareto-superior | Admissible **under synthetic consent, authority and resource assumptions** |
+| Original EX-LINEAR-01 feasibility witness | Only 00 and 11 technically feasible; unilateral intermediate moves do not exist | Joint change conditionally available, but **no strategic refusal is demonstrated** |
+| Profitable unilateral control | The choice to stay is no longer Nash; strict better-response can escape | Joint coordination not necessary to claim unilateral blockage |
+| Weak best-response tie | Nash at 00 is weak, **not a strict refusal** | No claim of strict rational trap |
+| No jointly superior target | Nash may still exist, but joint candidate does not Pareto-dominate | Not an improvement by the source criterion |
+| Missing consent / authority / joint protocol | Payoff temptation and Nash source state may be unchanged | Explicitly FAIL or UNKNOWN; never real commitment |
+| No available setup budget | Both game states physically feasible, but required switch setup resources are not | Materially infeasible transition |
+| Zero-sum compensation | One actor lacks strict gain before transfer; both gain after declared authorized transfer | Only conditionally admissible; transfer itself needs a separate right |
+| Strong conventional peer | Conventional and ACC-labelled arms receive the same transition proposal and rights | Conventional can be cheaper, equal or more expensive **solely by the hypothetical instrument cost** |
+
+The three-actor negative/positive extensions and a **no-pure-Nash, cycling best-response** counterexample pass. The engine therefore does not assume every finite game must converge to a pure equilibrium.
+
+### Actual 180-cell sensitivity outcomes (not preregistered winners)
+
+| Mechanism classification, computed from the payoff law | Cells |
+|---|---:|
+| Strict rational coordination trap | **39** |
+| Profitable unilateral escape: not an inferior Nash trap | **72** |
+| Weak rather than strict Nash equilibrium | **27** |
+| No Pareto-superior joint target | **42** |
+| **Total** | **180** |
+
+Under the assumed PASS governance and adequate resource budget of this parameter sweep, **114** configurations have an individually admissible joint payoff and **66** fail the voluntary participation test. Those 114 are **not real-world authorizations**, and admission is a different question from Nash classification. The individually named scenarios additionally test governance FAIL/UNKNOWN, coordination resource budgets and explicit credit permissions.
+
+One particularly informative control fixes private return = 0, investment = 3, complementarity = 4. With actor coordination burden 0, both receive 4 instead of the initial 3 and the joint candidate passes. With burden 1, the proposed net result becomes 3, so a strictly improving voluntary commitment is **not** justified. The **same strict Nash source state exists in both cases**: whether a trap exists and whether a remedy is admissible are demonstrably distinct.
+
+**Interpretable result:** the research question H-01 now has a source-preserving, reproducible positive finite strategic-choice witness and a falsifiable family of negative counterparts. It is **not** evidence that all constrained organizations display Nash behaviour, that ACC invented coordination games, or that an ACC-labelled coordinator outperforms a competent conventional one.
+
+### Exact independent audit handoff
+
+1. Reproduce the four computed payoff profiles and original two-state constraint from source files, not from the report's status labels.
+2. Verify that all unilateral moves are feasible and strictly unprofitable at strategic 00, while they are physically infeasible in the frozen original EX-LINEAR-01.
+3. Repeat best-response and Pareto checks for the 19 scenarios and all 180 sweep cells. Inspect profitable deviation, weak equilibrium, no pure Nash and no gain counterexamples.
+4. Recompute consent, transfer balance, reservation floors, physical setup units and unknown authority. Do not infer authorization from a positive payoff.
+5. Ensure both comparison coordinators have **identical capabilities**, and that instrument price variations never change Nash states or physical admission.
+6. Inspect original file hashes, CI artifacts and author-example crosswalk; check that no changes were made to controlled mathematics, human preference evidence or synthetic/empirical status.
+
+**H-01 can be marked RESPONDIDO only after independent adjudication, and not CERRADO until applicable accepted integration.** A green CI run is a reproducible software result, not institutional or scientific adoption.
