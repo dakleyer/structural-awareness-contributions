@@ -39,6 +39,22 @@ jobs:
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/bounded_traps.py > /tmp/acc_traps_results.json
           python -B -c "import json; from pathlib import Path; p=Path('research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/REFERENCE_SYNTHETIC_RESULTS.json'); assert json.loads(p.read_text()) == json.loads(Path('/tmp/acc_traps_results.json').read_text())"
 
+      - name: Check H-01 strategic Nash versus original feasible-protocol blockage
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1"
+          test "$(git hash-object "$S/bounded_traps.py")" = "7f4e7c1487882ef3d848d35dcfa1d292a1b53ade"
+          test "$(git hash-object "$S/REFERENCE_SYNTHETIC_RESULTS.json")" = "88a26fed4a1ab929cea9e338b5f95433437e6f8b"
+          python -B -m unittest discover -s "$S" -p test_strategic_choice.py -v
+          python -B "$S/strategic_choice.py" --manifest "$S/H01_STRATEGIC_STUDY.json" --output /tmp/acc_h01_strategic_choices.json
+          python -B -c "import json; d=json.load(open('/tmp/acc_h01_strategic_choices.json')); p={x['case_id']:x for x in d['scenarios']}; assert d['scenario_count']==19; assert p['H01_STRICT_COORDINATION_TRAP']['mechanism']['classification']=='STRICT_RATIONAL_COORDINATION_TRAP'; assert p['H01_ORIGINAL_FEASIBILITY_REFERENCE']['mechanism']['classification']=='FEASIBILITY_PROTOCOL_TRAP_NOT_STRATEGIC_CHOICE'; assert len(p['H01_STRICT_COORDINATION_TRAP']['finite_feasible_profiles'])==4 and len(p['H01_ORIGINAL_FEASIBILITY_REFERENCE']['finite_feasible_profiles'])==2; assert p['H01_PROFITABLE_UNILATERAL_ESCAPE']['mechanism']['classification']=='PROFITABLE_UNILATERAL_ESCAPE_NOT_A_NASH_TRAP'; assert p['H01_NO_CONSENT']['joint_coordination']['status']=='BLOCKED_BY_EXPLICIT_GOVERNANCE'; assert p['H01_CREDIT_WITH_BALANCED_TRANSFER']['joint_coordination']['status']=='ADMISSIBLE_UNDER_SYNTHETIC_ASSUMPTIONS'; print('H01_STRATEGIC_AUDIT='+json.dumps([{'case':x['case_id'],'mechanism':x['mechanism']['classification'],'admission':x['joint_coordination']['status'],'equilibria':[a['profile'] for a in x['mechanism']['all_pure_nash_equilibria']]} for x in d['scenarios']],sort_keys=True))"
+
+      - name: Publish H-01 synthetic strategic choice, governance and conventional controls
+        uses: actions/upload-artifact@v4
+        with:
+          name: acc-h01-strategic-nash-and-feasibility
+          path: /tmp/acc_h01_strategic_choices.json
+          if-no-files-found: error
+
       - name: Check ACC nested-systems structural gap and bounded information loss
         run: |
           python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/nested-composition-suffering-v0.1 -p test_nested_model.py -v
