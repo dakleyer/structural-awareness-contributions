@@ -98,6 +98,15 @@ jobs:
             /tmp/acc_g02_audit_private_referee_traces.json
           if-no-files-found: error
 
+      - name: Pin G-02 source owner and frozen Conscientia artifacts for L-09
+        run: |
+          git fetch --depth=1 origin refs/heads/research/acc-g02-independent-audit-observation-20261031
+          test "$(git rev-parse FETCH_HEAD)" = "d37545493c1ddc2e90e555a10e58dcbab9e23f7b"
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1"
+          for file in campaign.py CASE_REGISTRY.json SOURCE_REGISTER.json REFERENCE_SYNTHETIC_RESULTS.json G02_AUDIT_PROTOCOL.json g02_evidence_audit.py; do
+            git show "FETCH_HEAD:$S/$file" | cmp - "$S/$file"
+          done
+
       - name: Verify L-09 matched public-world counterfactuals and G-02 audit replay
         run: |
           S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1"
