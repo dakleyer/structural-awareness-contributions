@@ -1,5 +1,8 @@
 # ACC — Bloqueo racional por codependencia y utilidad no monótona (v0.1)
 
+> **Architectural correction — 1 Nov 2026:** The H-01 scalar 114/66 “admitted/rejected” count is **not the open ACC dimensional result**: it deducts coordination burden C from individual payoff R without an independently justified exchange rate. The corrected [dimension-fidelity review](ACC_DIMENSIONAL_FIDELITY_REVIEW_2026-11-01.md) and source-code [partial order](dimensional_contract.py) give **46 known-K R/C improvements, 92 incomparable tradeoffs, 38 non-improvements and 4 equal cases**. E, V and further dimensions remain UNKNOWN. Older figures below are historical conditional toy results, not original ACC conclusions.
+
+
 **Corte:** 26 octubre 2026 · **Autor conceptual:** Iván Abril Palma / The Integral Management Society  
 **Estado:** estudio auxiliar sintético, sin medición empírica; NO redefine A/B/C/D, HID, UC21 ni autoridad de terceros.
 
