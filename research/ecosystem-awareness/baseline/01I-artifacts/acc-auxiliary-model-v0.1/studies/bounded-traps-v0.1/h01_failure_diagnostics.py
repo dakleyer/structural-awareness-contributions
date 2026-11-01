@@ -60,7 +60,7 @@ def _symmetry_contract(manifest:Mapping[str,Any])->dict[str,Any]:
         base["governance"]["authority"],base["governance"]["joint_protocol"],
         *base["governance"]["consents"].values())):
         raise ValueError("sweep assumes explicit PASS governance; cannot extrapolate")
-    if any(n(a["resource_units_if_active"],signed=False)<0 for a in base["actors"]):
+    if any(source.q(a["resource_units_if_active"],signed=False)<0 for a in base["actors"]):
         raise ValueError("invalid resource")
     use=sum(n(a["resource_units_if_active"]) for a in base["actors"])+n(
         base["joint"]["setup_resource_units"])
