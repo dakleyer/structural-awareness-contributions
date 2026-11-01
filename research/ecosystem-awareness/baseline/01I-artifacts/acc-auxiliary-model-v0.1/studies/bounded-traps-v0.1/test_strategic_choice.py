@@ -199,9 +199,43 @@ class GovernanceAndConventionalPeer(unittest.TestCase):
         self.assertEqual(x["status"],"GOVERNANCE_UNKNOWN_CANNOT_COMMIT")
         self.assertEqual(x["governance_evidence"]["transfer_authority"],"UNKNOWN")
         altered=game("H01_CREDIT_WITH_BALANCED_TRANSFER")
-        altered["joint"]["transfers_payoff_units"]["A"]="0"
+        altered["joint"]["transfers_common_credit_units"]["A"]="0"
         with self.assertRaisesRegex(ValueError,"sum to zero"):
             model.validate(altered)
+
+    def test_transfer_is_in_declared_common_credit_and_cannot_overdraft_source(self):
+        good=BY_ID["H01_CREDIT_WITH_BALANCED_TRANSFER"]["joint_coordination"]
+        self.assertEqual(good["common_credit_units_before"],{"A":"5","B":"0"})
+        self.assertEqual(good["common_credit_units_after"],{"A":"4","B":"1"})
+        self.assertTrue(good["credit_transfer_units_conserved"])
+        self.assertTrue(good["credit_outflow_fully_funded"])
+        bad=BY_ID["H01_CREDIT_INSUFFICIENT_SOURCE_BALANCE"]["joint_coordination"]
+        self.assertFalse(bad["credit_outflow_fully_funded"])
+        self.assertEqual(bad["status"],"INSUFFICIENT_COMMON_CREDIT_FOR_TRANSFER")
+        self.assertTrue(bad["technical_candidate_feasible"])
+        self.assertTrue(bad["credit_transfer_units_conserved"])
+        self.assertEqual(bad["common_credit_units_after"]["A"],"-1")
+
+    def test_actor_specific_credit_to_private_payoff_rates_are_explicit(self):
+        base=BY_ID["H01_CREDIT_WITH_BALANCED_TRANSFER"]["joint_coordination"]
+        alternate=BY_ID["H01_CREDIT_ASYMMETRIC_PRIVATE_VALUATIONS"]["joint_coordination"]
+        self.assertEqual(base["common_credit_units_after"],
+                         alternate["common_credit_units_after"])
+        self.assertEqual(base["actor_payoffs_after_burden_and_zero_sum_transfers"],
+                         ["5","4"])
+        self.assertEqual(alternate["actor_payoffs_after_burden_and_zero_sum_transfers"],
+                         ["4","4"])
+        self.assertEqual(alternate["status"],
+                         "ADMISSIBLE_UNDER_SYNTHETIC_ASSUMPTIONS")
+        self.assertTrue(alternate["credit_to_payoff_valuation_is_actor_specific_and_declared"])
+
+    def test_credit_without_receiver_valuation_cannot_claim_personal_gain(self):
+        x=BY_ID["H01_CREDIT_NO_VALUE_TO_RECEIVER"]["joint_coordination"]
+        self.assertEqual(x["actor_payoffs_after_burden_and_zero_sum_transfers"],
+                         ["5","3"])
+        self.assertEqual(x["status"],
+                         "VOLUNTARY_PARTICIPATION_NOT_SUPPORTED_BY_PAYOFFS")
+        self.assertTrue(x["credit_outflow_fully_funded"])
 
     def test_stronger_actor_reservation_can_block_even_positive_raw_gain(self):
         x=BY_ID["H01_RESERVATION_FLOOR_NOT_MET"]["joint_coordination"]
@@ -253,7 +287,9 @@ class ReusableFiniteMechanismsAndAdversarialCases(unittest.TestCase):
         g["current"]=[0,0,0];g["target"]=[1,1,1]
         g["governance"]["consents"]["C"]="PASS"
         g["joint"]["burden_payoff_units"]["C"]="0"
-        g["joint"]["transfers_payoff_units"]["C"]="0"
+        g["joint"]["transfers_common_credit_units"]["C"]="0"
+        g["joint"]["credit_available_by_actor"]["C"]="0"
+        g["joint"]["credit_to_private_payoff_rate_by_actor"]["C"]="1"
         g["joint"]["burden_payoff_units"].update({"A":"0","B":"0"})
         result=model.run_game(g)
         self.assertEqual(result["actor_count"],3)
@@ -285,7 +321,7 @@ class ReusableFiniteMechanismsAndAdversarialCases(unittest.TestCase):
                          "NO_PARETO_SUPERIOR_TARGET_ON_ACTOR_UTILITIES")
 
     def test_all_scenario_results_are_computed_and_distinct(self):
-        self.assertEqual(REPORT["scenario_count"],19)
+        self.assertEqual(REPORT["scenario_count"],22)
         self.assertEqual(len(BY_ID),19)
         self.assertEqual({s["evidence_tier"] for s in REPORT["scenarios"]},
                          {"SOURCE_ANCHORED_SYNTHETIC_TOY"})
@@ -321,6 +357,12 @@ class ReusableFiniteMechanismsAndAdversarialCases(unittest.TestCase):
                     model.validate(c)
         with self.assertRaisesRegex(ValueError,"undeclared field"):
             model.merge(BASE,{"made_up_result":"WIN"})
+        x=deepcopy(BASE);x["joint"]["credit_available_by_actor"]["A"]="-1"
+        with self.assertRaisesRegex(ValueError,"nonnegative"):
+            model.validate(x)
+        x=deepcopy(BASE);x["joint"]["credit_to_private_payoff_rate_by_actor"]["B"]="-1"
+        with self.assertRaisesRegex(ValueError,"nonnegative"):
+            model.validate(x)
         x=deepcopy(BASE);x["actors"][0]["investment_cost"]=True
         with self.assertRaises(ValueError):
             model.validate(x)
