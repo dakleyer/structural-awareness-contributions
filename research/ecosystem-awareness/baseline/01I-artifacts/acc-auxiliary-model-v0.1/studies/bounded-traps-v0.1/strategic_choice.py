@@ -110,20 +110,24 @@ def validate(g:Mapping[str,Any])->None:
     joint=g.get("joint")
     if not isinstance(joint,dict) or set(joint)!={
         "setup_resource_units","burden_payoff_units",
-        "transfers_payoff_units","strict_gain_required"
+        "transfers_common_credit_units","credit_available_by_actor",
+        "credit_to_private_payoff_rate_by_actor","strict_gain_required"
     }:
         raise ValueError("joint proposal contract incomplete")
     q(joint["setup_resource_units"],signed=False)
     if type(joint["strict_gain_required"]) is not bool:
         raise ValueError("strict individual agreement requirement must be boolean")
-    for name,signed in (("burden_payoff_units",False),("transfers_payoff_units",True)):
+    for name,signed in (("burden_payoff_units",False),
+                        ("transfers_common_credit_units",True),
+                        ("credit_available_by_actor",False),
+                        ("credit_to_private_payoff_rate_by_actor",False)):
         vals=joint[name]
         if not isinstance(vals,dict) or set(vals)!=set(ids):
-            raise ValueError("joint actor cost/transfer ledger mismatch")
+            raise ValueError("joint actor cost/credit/valuation ledger mismatch")
         for value in vals.values():
             q(value,signed=signed)
-    if sum((q(v) for v in joint["transfers_payoff_units"].values()),Fraction(0))!=0:
-        raise ValueError("payoff transfers must sum to zero; no money created")
+    if sum((q(v) for v in joint["transfers_common_credit_units"].values()),Fraction(0))!=0:
+        raise ValueError("common credit transfers must sum to zero; no credit is created")
     prices=g.get("information_prices")
     if not isinstance(prices,dict) or set(prices)!=set(ARMS):
         raise ValueError("both strong coordinators require comparable instrument cost")
@@ -358,6 +362,18 @@ def coordinated_joint_candidate(g:Mapping[str,Any])->dict:
     physical=target_feasible and use<=budget
     original=payoff(current,g)
     after=payoff(target,g) if target_feasible else None
+    credit_before={
+        name:q(g["joint"]["credit_available_by_actor"][name],signed=False)
+        for name in actors(g)
+    }
+    credit_delta={
+        name:q(g["joint"]["transfers_common_credit_units"][name])
+        for name in actors(g)
+    }
+    credit_after={name:credit_before[name]+credit_delta[name] for name in actors(g)}
+    credit_funded=all(v>=0 for v in credit_after.values())
+    if sum(credit_before.values(),Fraction(0))!=sum(credit_after.values(),Fraction(0)):
+        raise AssertionError("credit conservation violated")
     final=[]
     reservations=[]
     if after is not None:
@@ -365,15 +381,16 @@ def coordinated_joint_candidate(g:Mapping[str,Any])->dict:
             name=actor["id"]
             amt=(after[i] -
                  q(g["joint"]["burden_payoff_units"][name],signed=False)+
-                 q(g["joint"]["transfers_payoff_units"][name]))
+                 credit_delta[name] * q(
+                     g["joint"]["credit_to_private_payoff_rate_by_actor"][name],
+                     signed=False))
             final.append(amt)
             floor=q(actor["reservation_floor"])
             meets=amt>=floor and (
                 amt>original[i] if g["joint"]["strict_gain_required"]
                 else amt>=original[i])
             reservations.append(meets)
-    needs_transfer=any(q(v)!=0 for v in
-                       g["joint"]["transfers_payoff_units"].values())
+    needs_transfer=any(v!=0 for v in credit_delta.values())
     gov=g["governance"]
     gates={
         "authority":gov["authority"],
@@ -385,6 +402,8 @@ def coordinated_joint_candidate(g:Mapping[str,Any])->dict:
     applicable=[x for x in gates.values() if x!="NOT_NEEDED"]
     if not physical:
         status="MATERIALLY_INFEASIBLE_OR_RESOURCE_OVERDRAFT"
+    elif not credit_funded:
+        status="INSUFFICIENT_COMMON_CREDIT_FOR_TRANSFER"
     elif not all(reservations):
         status="VOLUNTARY_PARTICIPATION_NOT_SUPPORTED_BY_PAYOFFS"
     elif "FAIL" in applicable:
@@ -414,6 +433,11 @@ def coordinated_joint_candidate(g:Mapping[str,Any])->dict:
         "actor_payoffs_before":[fmt(v) for v in original],
         "actor_payoffs_after_burden_and_zero_sum_transfers":[fmt(v) for v in final]
             if after is not None else None,
+        "common_credit_units_before":{k:fmt(v) for k,v in credit_before.items()},
+        "common_credit_units_after":{k:fmt(v) for k,v in credit_after.items()},
+        "credit_transfer_units_conserved":True,
+        "credit_outflow_fully_funded":credit_funded,
+        "credit_to_payoff_valuation_is_actor_specific_and_declared":True,
         "individual_reservation_tests":dict(zip(actors(g),reservations)),
         "governance_evidence":gates,
         "explicit_consent_is_not_inferred_from_preferences":True,
