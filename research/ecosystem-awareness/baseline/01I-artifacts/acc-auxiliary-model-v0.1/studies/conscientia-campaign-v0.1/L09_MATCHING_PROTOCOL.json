@@ -1,0 +1,36 @@
+{
+  "schema": "ACC-L09-MATCHED-PUBLIC-TRUTH-v0.1",
+  "source_manifest": "G02_AUDIT_PROTOCOL.json",
+  "seed": "ACC-L09-balanced-public-metadata-20261101",
+  "baseline_actions": [
+    "ALLOW",
+    "REVIEW"
+  ],
+  "replicates_per_pair": 64,
+  "source_regimes": [
+    "PERFECT_INDEPENDENT_AUDIT_AND_CONVENTIONAL",
+    "RELIABLE_AUDIT_NOISY_CONVENTIONAL",
+    "WEAK_AUDIT_STRONG_CONVENTIONAL",
+    "AUDIT_UNAVAILABLE_DIRECT_AVAILABLE",
+    "AUDIT_UNQUALIFIED_WRONG_SCOPE",
+    "BLIND_AUDIT_FALSE_ASSURANCE",
+    "RELIABLE_AUDIT_BUT_EXPENSIVE",
+    "AUDIT_FALSE_ALARM_DOMINANT"
+  ],
+  "experimental_question": "Can a public metadata-only observer distinguish true and false current B claims before acquiring new observations?",
+  "source_pairing": "Each of the twelve original families uses VALID_GO vs FALSE_Q as private counterfactual witnesses; both public A baseline choices are held constant across the pair, as are issuer, source Q claim, scope, metadata and instrument pre-read availability. No frozen record is changed.",
+  "evidence_boundaries": {
+    "historical": "Source fixture has detectable baseline-by-Q correlation in six families, reported as reference not removed",
+    "derived": "Paired synthetic case templates are counterfactual test fixtures, not observed public-world pairs",
+    "metadata": "Public A/Q and observation provenance/status BEFORE seeing measured values; no private truth or row/variant ID",
+    "measurements": "Generated G02 auditor and conventional readings may legitimately carry information; measured only after acquisition",
+    "open_C_D": "Not sampled; this diagnostic covers ONLY binary finite current-B cases; original G02 keeps open residual tests"
+  },
+  "acceptance": {
+    "historical_clue": "Public-only optimal finite classifier can achieve 3/4 on original VALID_GO/FALSE_Q subset (24 cases)",
+    "paired_no_clue": "Public-only optimal finite classifier achieves exactly 1/2 and mutual information zero on each matched regime",
+    "legitimate_instrument": "Perfect source detector can add information only after reading the independently generated qualified audit signal",
+    "adverse": "A blind or unavailable audit must not gain the missing evidence; a conventional source may outperform it",
+    "source_fidelity": "Original 60 cases and five historic policies unmodified; G02 source simulator reused without modification"
+  }
+}
