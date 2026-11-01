@@ -99,6 +99,23 @@ class CanonicalDimensionContract(unittest.TestCase):
         self.assertTrue(report["sensitivity"]
                         ["legacy_admission_is_assumed_C_to_R_conversion_not_architecture"])
 
+    def test_strict_rational_traps_are_not_24_dimensional_cures(self):
+        report=h01.run_manifest(SOURCE)
+        strict=[row for row in report["sensitivity"]["rows"]
+                if row["classification"]=="STRICT_RATIONAL_COORDINATION_TRAP"]
+        self.assertEqual(len(strict),39)
+        from collections import Counter
+        counts=Counter(row["acc_dimensional_comparison"] for row in strict)
+        self.assertEqual(dict(counts),{
+            "MONOTONE_IMPROVEMENT_IN_K":13,
+            "INCOMPARABLE_K_TRADEOFF":26,
+        })
+        scalar_admitted=sum(
+            row["joint_admissibility"]=="ADMISSIBLE_UNDER_SYNTHETIC_ASSUMPTIONS"
+            for row in strict)
+        self.assertEqual(scalar_admitted,24)
+        self.assertNotEqual(counts["MONOTONE_IMPROVEMENT_IN_K"],scalar_admitted)
+
     def test_monotone_dimension_K_does_not_authorize_open_model_or_rights(self):
         g=scenario("H01_NO_CONSENT")
         g["joint"]["burden_payoff_units"]={"A":"0","B":"0"}
