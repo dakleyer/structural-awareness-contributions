@@ -64,6 +64,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 32 | 2026-11-01 | [Recepción de L-09 (PR #75)](#ronda-32) | L-09 respondido; gemelos sin fuga reproducidos de forma independiente |
 | 33 | 2026-11-01 | [Recepción de H-01 (PR #76)](#ronda-33) | H-01 respondido; L-10 nuevo |
 | 34 | 2026-11-01 | [Diagnóstico complementario de H-01 (PR #76)](#ronda-34) | Sin cambio de estado; condiciones analíticas reproducidas; forma cerrada de L-10 |
+| 35 | 2026-11-01 | [Corrección de fidelidad dimensional (PR #76)](#ronda-35) | Sin cambio de estado; recuento R/C reproducido; precisiones a H-01, L-10 y L-05 |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1334,3 +1335,34 @@ Pasan las 34 pruebas nuevas y las 21 originales, y la CI está en verde.
 **Forma cerrada de L-10, con la misma notación.** La pérdida por desviarse desde (0,0) es −D, y desde (1,1) es J. Por tanto, **(0,0) domina por riesgo si y solo si −D > J, es decir, s < 2(c − r)**. En la rejilla se cumple en 3 combinaciones de (r, c, s), que con los tres valores de k dan las 9 celdas de la ronda 33. Las tres tienen J = 1, así que su remedio solo es aceptable con k = 0. Dicho de otro modo, las trampas en las que quedarse es la opción robusta son justo aquellas cuyo remedio desaparece en cuanto la coordinación tiene un coste: solo 3 de las 24 trampas remediables son dominantes por riesgo en (0,0).
 
 **Estados:** sin cambios. H-01 sigue `RESPONDIDO` y L-10 sigue `ABIERTO`; el diagnóstico lo precisa, pero no lo resuelve.
+
+
+<a id="ronda-35"></a>
+
+## Ronda 35 — corrección de fidelidad dimensional en PR #76 (01-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** [comentario en PR #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-6556662213), escrito por Codex, asistencia de IA, desde la cuenta del propietario. Lo presenta como respuesta a una objeción del autor de las fuentes. La auditoría no tiene constancia directa de esa objeción y la trata como contenido de la nota. PR #76 avanza a `ea1a8c6b`.
+
+**Qué sostiene la nota.** ACC compara estados en un conjunto abierto de dimensiones K no intercambiables. Un beneficio en una dimensión no compensa automáticamente una pérdida en otra, y lo desconocido se mantiene como desconocido. Restar la carga de coordinación de la utilidad privada, como hacía el juego de H-01, convierte implícitamente C en R. Por tanto, las 114 «admisiones» y los 24 «remedios» escalares no prueban una mejora en K.
+
+**Contraste con las fuentes.** La lectura está respaldada por las notas. S1-P0205 dice que el modelo es abierto por construcción. S1-P0208 trata C (coordinación) y V (atribución) como dimensiones diagnósticas distintas de la utilidad. S1-P0220 habla de una dominancia parcial sobre dimensiones heterogéneas en la que los costes de transición se incluyen y no se ocultan. S1-P0280 establece que una transición solo domina en K si no empeora ninguna dimensión.
+
+**Recuento independiente** (`h01_k_dimension_recount.py`, que no usa `dimensional_contract.py`). Compara (0,0) con (1,1) en dos dimensiones separadas, sin compensar una con otra: R es el pago de cada actor y C es la carga de coordinación de cada actor (0 antes, k después). Resultado sobre las 180 celdas:
+
+| Relación en K = {R, C} | Celdas | Entre las 39 trampas escalares |
+|---|---:|---:|
+| Mejora monótona: R mejora y C no empeora | 46 | 13 |
+| Intercambio: R mejora y C empeora; incomparable | 92 | 26 |
+| Sin mejora | 38 | — |
+| Equivalente | 4 | — |
+
+Coincide con #76. Las 13 trampas monótonas son exactamente las de carga k = 0. Pasan 9 + 34 + 11 + 21 pruebas, y `bounded_traps.py` y el JSON de referencia siguen sin cambios.
+
+**Consecuencias para el registro** (sin cambio de estados):
+
+- **H-01 sigue `RESPONDIDO`.** Lo que pedía, distinguir una trampa de factibilidad de una elección racional, está resuelto. El juego queda ahora como juguete sobre la dimensión R y no como la arquitectura de ACC, y así lo declara #76.
+- **L-10 sigue `ABIERTO`, con una precisión.** La dominancia por riesgo y el umbral de creencia se calculan sobre los pagos de R. Sobre el vector K no están definidos, porque no hay un orden total. Para afirmar que la permanencia es racional en el sentido de ACC, hay que declarar además cómo elige cada actor con un orden parcial; las fuentes no lo fijan.
+- **L-05 sigue `VERIFICADO` como cálculo**, pero su ordenación usa el neto nativo de #57, que resta el coste del instrumento de la producción física. Hay que leerla bajo F-05.
+- **#57, #66 y #54.** Lo que la nota dice de ellos ya estaba en la auditoría: F-05 (resta de costes sin tasa de conversión, abierto), K-07 y OP-06 (escala común declarada). No se añaden registros nuevos; la nota confirma esos hallazgos desde las fuentes.
+
+**Recomendación de notación.** Para la utilidad directa, las fuentes usan D (S1-P0266 y S1-P0280: K₂ = {E, D}). #76 usa R, que evita el choque con la posición D de A/B/C/D, el mismo choque que señaló P-M03 en la entrega 02 del kit. Para la atribución, S1-P0208 usa V y S1-P0280 usa A. Conviene una tabla de equivalencias única (D → R, A ↔ V) en `MODEL.md` o en el núcleo técnico antes de que más estudios adopten letras distintas.
