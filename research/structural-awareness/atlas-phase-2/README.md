@@ -1,9 +1,11 @@
 # Perspective Beyond / Atlas — Procedimiento fase 2
 
-**Estado:** propuesta de trabajo experimental, v0.1 · 4 de noviembre de 2026.  
+**Estado:** procedimiento experimental de referencia, **v0.2** · 4 de noviembre de 2026. El cuerpo v0.1 se preserva como linaje; en caso de discrepancia rige el procedimiento v0.2 enlazado abajo.  
 **Alcance:** arquitectura informacional y prueba de recorrido; **no** revisión del corpus canónico, norma ni demostración científica.  
 **Ámbito:** Atlas de pensamiento, con un grafo conceptual común y lecturas dependientes del posicionamiento.  
 **Compatibilidad:** las definiciones A/B/C/D son las de [00M v0.8 §1](../../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). La expresión *distancia epistemológica* ya se desarrolla, sin presuponer una métrica escalar, en [Map, Flow, Epistemic Distance — working programme bridge](../MAP_FLOW_EPISTEMIC_DISTANCE_PROGRAMME_BRIDGE_v0.1_DRAFT.md). Este experimento **no reemplaza ni modifica** esos documentos.
+
+> **Lectura operativa vigente v0.2:** [Procedimiento integral de etiquetas, ítems, nodos y recorridos](./PROCEDIMIENTO_LENGUAJE_Y_RECORRIDOS_v0.2.md) · [Diccionario taxonómico reutilizable y traducible (JSON)](./TAG_DICTIONARY_v0.1.json) · [Ejemplo v0.2](./examples/language-v02-pilot.json) · [Validador v0.2](./scripts/validate-language-v02.mjs). Leer el diccionario **antes** de extraer fichas. El protocolo es referencia sólo para esta rama experimental Atlas; **no** altera el baseline controlado EA/MSCA.
 
 ## 1. Decisión de arquitectura
 
@@ -12,11 +14,13 @@ Construir en dos pasos distintos:
 1. **Mapa relacional libre:** registrar ítems, nodos y vínculos conceptuales respaldados o propuestos, sin imponer A/B/C/D a cada arista.
 2. **Lectura de distancia epistemológica:** desde **cada nodo de origen y una finalidad declarada**, seguir hilos completos del mapa, calificando cada nuevo tramo con respecto al recorrido acumulado. **D detiene ese hilo**, aunque las demás ramas continúan.
 
-Después de caracterizar esos recorridos, identificar los **clústeres conceptuales principales** y finalmente los **temas**. La ficha de nodo y la ficha temática permanecen inicialmente **libres en su redacción**, pero con envoltura JSON estable para trazabilidad y futuras ampliaciones.
+Después de caracterizar esos recorridos, identificar los **clústeres conceptuales principales** y finalmente los **temas**. Las fichas de **ítem, nodo y tema** conservan texto libre autosuficiente dentro de JSON con **etiquetas** del mismo diccionario compartible, flexible y versionado. Los temas se describen **después** de los clústeres, no al empezar a construir las rutas.
 
-No introducir ahora más niveles jerárquicos, F1/F2/F3, etiquetas obligatorias MSCA ni una ontología rígida. La web, el Atlas actual y sus fichas siguen funcionando mientras esta fase se estudia aparte.
+No introducir ahora más niveles jerárquicos ni etiquetas **MSCA obligatorias** o una ontología rígida. **Sí se incorpora Jumps & Falls JF.F1–JF.F4 como segunda calificación funcional del recorrido, después de ABCD**, sólo cuando corresponda a la actividad. `JF.F4` es efecto colateral transversal y **no** equivale a `D`. La web y el Atlas existentes siguen funcionando mientras esta rama se estudia aparte.
 
 ## 2. Modelo de datos mínimo
+
+**Revisión v0.2:** el lenguaje canónico de descripción se denomina **etiquetas**. Hay claves reservadas (`trace:hook`, `core:description`, `trace:item_refs`, etc.) y etiquetas flexibles en `/etiquetas`. El [diccionario](./TAG_DICTIONARY_v0.1.json) registra definición, sinónimos, traducciones y ámbitos; los bots reutilizan claves y sólo proponen nuevas cuando las existentes no alcanzan. No se infiere una relación conceptual por compartir una etiqueta.
 
 | Objeto | Qué representa | Regla vigente |
 |---|---|---|
@@ -30,6 +34,8 @@ No introducir ahora más niveles jerárquicos, F1/F2/F3, etiquetas obligatorias 
 Un ítem no es automáticamente una prueba de una afirmación. La relación ítem–nodo conserva el tipo de apoyo: descripción, evidencia primaria, testimonio, hipótesis, refutación, analogía, etc. Un identificador externo de persona o empresa se maneja respetando confidencialidad y acceso; no exige publicar un documento de identidad.
 
 ### 2.1 Hooks: los ítems anclan y permiten reevaluar
+
+**Ampliación v0.2:** todo ítem tiene ficha semiestructurada JSON, también su propia `description`, `version`, `evidence_status` y `etiquetas`; su `hook` es el campo estructural reservado correspondiente a la etiqueta `trace:hook`. La ausencia de hook deja un **candidato pendiente de anclaje**, no una prueba. Véase [procedimiento §2](./PROCEDIMIENTO_LENGUAJE_Y_RECORRIDOS_v0.2.md#2-fase-0--crear-fichas-semiestructuradas-de-ítem-y-nodo).
 
 Un hook no es una palabra clave decorativa. Debe permitir volver al **mismo objeto y a su estado**: URL estable más fragmento, ID externo, ruta y versión de repositorio, JSON Pointer, página y párrafo, revisión y hash de contenido, registro fechado o equivalente. Si la ubicación cambia, mantener un alias/mecanismo de resolución. Si una fuente no es accesible, registrar esa limitación: un enlace roto **no** se convierte en evidencia.
 
@@ -53,9 +59,9 @@ Registro mínimo sugerido:
 
 En producción, los campos de revisión/hash se completan por la ingesta. Un ítem de una fuente cambiante debe mantener revisiones o capturas comparables. No inventar hashes ni fechas de publicación.
 
-### 2.2 Fichas libres de nodo y tema, envoltura JSON
+### 2.2 Fichas de nodo y, posteriormente, tema: JSON semiestructurado
 
-Se adopta **texto libre dentro de JSON**, no MSCA obligatorio todavía:
+Se adopta **texto libre autosuficiente dentro de JSON, con `etiquetas` flexibles**, no MSCA obligatorio. Este ejemplo simplificado v0.1 se conserva como mínimo legible; la versión operativa completa, con referencias y etiquetas tipadas, está en el [ejemplo v0.2](./examples/language-v02-pilot.json):
 
 ```json
 {
@@ -81,7 +87,7 @@ Se adopta **texto libre dentro de JSON**, no MSCA obligatorio todavía:
 }
 ```
 
-El nodo no necesita forzarse hoy a un número fijo de páginas ni a una estructura de MSCA. La descripción temática tampoco necesita tres páginas, ni métricas obligatorias en la ficha. Más adelante podremos incorporar MSCA, resultados, medios, entradas/salidas, controles, riesgos y estados sólo cuando prueben utilidad.
+El nodo no necesita forzarse hoy a un número fijo de páginas ni a una estructura de MSCA. **La ficha de tema se elabora tras los clústeres** y reutiliza **el mismo diccionario de etiquetas**; tampoco necesita tres páginas. MSCA queda como **vista analítica opcional pendiente de decisión**, sobre una actividad/clúster/arquitectura de control con objetivo explícito, y no como casillero universal de nodos.
 
 ## 3. Procedimiento secuencial
 
@@ -138,6 +144,10 @@ Usar las definiciones de 00M:
 
 **Resultado obligatorio del recorrido:** `terminal_kind = D | END_OF_GRAPH | CUT_NO_RELEVANCE | BUDGET | CYCLE | REVIEW_PENDING`. La ruta está **completa hasta D** sólo si su último tramo es D. Otra parada es una cobertura parcial con su propia razón, nunca un D ficticio.
 
+### Fase 2b — Segunda lectura funcional Jumps & Falls
+
+Después de haber calificado los pasos ABCD de cada recorrido, y sin cambiar sus valores, asignar los roles `JF.F1` (entrada/coste de claridad), `JF.F2` (procesamiento/proporcionalidad), `JF.F3` (salida/objetivo) y `JF.F4` (efectos colaterales) cuando resulten pertinentes. **F4 es transversal, no cuarto paso obligatorio; puede coexistir con A, B, C o D.** No mezclar Jumps & Falls con el nombre del framework JUBAP ni con otras series F. La receta verificable y sus condiciones de abstención se documentan en [procedimiento §4.4](./PROCEDIMIENTO_LENGUAJE_Y_RECORRIDOS_v0.2.md#44-fase-2b--aplicar-jumps--falls-jff1jff4-después-de-abcd).
+
 ### Fase 2.1 — Trabajo finito y revisión controlada
 
 Un grafo finito no garantiza un número pequeño de caminos: el número de rutas simples puede crecer exponencialmente. La **hipótesis de coste acotado** debe comprobarse; D ayudará, pero no es una prueba de terminación o escalabilidad.
@@ -173,7 +183,7 @@ Solo ahora proponer ejes temáticos humanos, relativamente pocos y reconocibles.
 
 ### Fase 5 — Consolidar fichas JSON y detener el alcance aquí
 
-Publicar como objetos de datos versiones de ítems/hooks, nodos, aristas, recorridos, clústeres principales y temas, conservando la **descripción libre** y las fuentes. Se pueden generar vistas legibles o páginas web desde esos mismos registros. Aquí termina la fase 2 propuesta. No desarrollar por ahora niveles posteriores, preguntas obligatorias, F1/F2/F3 ni automatismos de decisión.
+Publicar como objetos de datos versiones de ítems/hooks, nodos, aristas, recorridos, clústeres principales y temas, conservando la **descripción libre** y las fuentes. Se pueden generar vistas legibles o páginas web desde esos mismos registros. Aquí termina la fase 2 propuesta. No desarrollar por ahora nuevos niveles ontológicos, **MSCA universal**, preguntas editoriales obligatorias ni automatismos de decisión. `JF.F1`–`JF.F4` **sí** se registran en la capa de recorrido como segunda lectura posterior a ABCD.
 
 ## 4. Pruebas de interpretación
 
@@ -211,10 +221,11 @@ La futura ingestión debe comparar `hook` y revisión/hash del ítem. Si un art�
 
 ## 6. Prueba y criterios de aceptación
 
-Comando local con Node.js:
+Comandos locales con Node.js (ambos casos deben conservarse):
 
 ```bash
 node scripts/validate-phase2.mjs
+node scripts/validate-language-v02.mjs
 ```
 
 El validador debe comprobar: integridad de IDs, hooks, referencias, continuidad direccional de cada recorrido, detección de D terminal, posibilidad de C consecutivos, ausencia de una etiqueta global por arista, distinción entre corte de pertinencia y D, y contraste de una misma arista desde dos orígenes.
@@ -227,6 +238,8 @@ Antes de llevar a producción:
 - Auditoría de selección de clústeres y temas: ¿preservan el discurso o amplifican sesgos de la primera extracción?
 
 ## 7. Fuentes, precedencia y límites
+
+**Versiones de esta rama:** el procedimiento integral v0.2 y el diccionario v0.1 son ahora las referencias operativas del Atlas fase 2; los ejemplos y el validador v0.1 permanecen como prueba histórica de la distancia ABCD. Los nuevos ejemplos v0.2 agregan fichas etiquetadas y factores JF sin publicar la base privada. Estado **experimental**, no estándar ni documento EA controlado.
 
 1. [00M v0.8 — A/B/C/D](../../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical): autoridad terminológica en el corpus EA/EP; no se modifica.
 2. [Programme Bridge: Map, Flow, Epistemic Distance](../MAP_FLOW_EPISTEMIC_DISTANCE_PROGRAMME_BRIDGE_v0.1_DRAFT.md): síntesis **no canónica** de distancia epistemológica, sin métrica obligatoria.
