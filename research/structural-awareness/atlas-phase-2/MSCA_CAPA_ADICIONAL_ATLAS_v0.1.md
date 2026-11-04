@@ -229,6 +229,20 @@ El [ejemplo Atlas v0.2](./examples/language-v02-pilot.json) conserva, con sus fu
 | Averiguar M | Posibles actividades de diagnóstico y seguimiento. | Datos, personas, medios, comunicación y **medición independiente de efecto**. |
 | Evaluar | Fronteras B/C/D y relaciones ayudan a localizar preguntas. | Comparar configuraciones para S/E; mientras no haya pruebas, `UNASSESSED`. |
 
+### 6.1 Lectura de campo más concreta: qué encontraríamos en el relato Nestlé
+
+El artículo público [Nestlé North America — Where JUBAP Was Named](https://jubap.eu/nestle-case-study-where-jubap-was-first-named/) contiene material útil **para formular** una representación MSCA retrospectiva, manteniendo la distinción entre *hecho relatado*, *interpretación arquitectónica* y *prueba de suficiencia*:
+
+| Campo MSCA | Material de campo que podríamos vincular como ítems/nodos | Qué **no** se puede concluir aún |
+|---|---|---|
+| **S** | La fuente describe el encargo de conseguir que el cambio organizativo se materializara y sostuviera, preservando la capacidad internamente. Es una **descripción retrospectiva de finalidad**. | No tenemos aquí el documento del titular legítimo con rangos, restricciones duras, reglas de compromiso y periodo para instanciar un nuevo S. Se mantiene `UNKNOWN`/`UNBOUND` en el piloto. |
+| **E** | Entorno industrial de Nestlé en México, dentro de Nestlé Continuous Excellence (NCE), Lean/TPM, procedimientos, auditorías y evaluaciones. | No sabemos que las condiciones sean reproducibles en otra planta, país, sector o fecha. |
+| **C** | La fuente explica un tablero por proyecto con niveles de stakeholders y ocho pasos adaptados de Kotter; permite investigar qué se observaba y coordinaba en aquel sistema. | Mostrar actores en un tablero no prueba mandato, cobertura completa ni capacidad de coordinar fuera de ese proyecto. |
+| **P** | Aparecen mecanismos relatados de apoyo a iniciativas, coaching, desbloqueo/escalado y adaptación del cambio al sistema existente. | No basta para establecer qué intervenciones estarían disponibles, autorizadas, reversibles o suficientemente rápidas **en una nueva misión**. |
+| **M** | Se describe un dashboard con siete estados de evidencia y medidas/revisiones de progreso y competencias; posibles medios de observación y seguimiento. | No demuestra por sí solo que todos los efectos pertinentes se midan independientemente ni que los medios operen bajo el nuevo E/S. |
+
+Este es exactamente el beneficio de la capa: **en lugar de volver a leer cientos de páginas desde cero**, el Atlas ofrece los *hooks* y recorridos pertinentes; MSCA obliga a preguntar «¿qué de esto constituye objetivo, condición, coordinación, intervención o medio, para quién y bajo qué condiciones?». En una investigación más profunda podrían aparecer **nuevos ítems** (mandato original, tableros, registros de medida, permisos, roles, revisiones de resultados) que sustenten nuevos valores o mantengan `UNKNOWN` si no están disponibles. **No se cambia el estado de suficiencia del caso histórico por haber encontrado una tabla bien organizada.**
+
 Resultado correcto del piloto: una **vista MSCA parcial** que hace visibles los huecos concretos —sobre todo S, titular, C y M— y enlaza los lugares donde investigar. Resultado **incorrecto**: «JUBAP es suficiente porque está en A» o «Kotter tiene etiqueta F2, así que P está demostrado».
 
 #### Por qué una segunda vista es necesaria
