@@ -40,6 +40,16 @@ flowchart TD
 
 La flecha del Atlas a MSCA significa **selección de material cualificado**, nunca un mapeo semántico automático ni una cadena temporal obligatoria. MSCA puede abrir una nueva pregunta y llevar a **minar ítems adicionales**, introducir nodos, proponer relaciones o revisar recorridos. La vuelta es explícita y versionada; no se sobrescriben las calificaciones anteriores sin una nueva evaluación.
 
+### 1.2 Corrección de integración: del conocimiento completo a una **lámina por agente**
+
+La representación `X=[S,E,C,P,M]` desarrollada en este documento describe la **dimensión de control**. **No es toda la lámina que se comparte.** Un agente mantiene su propio grafo Atlas y una `Cart_i` local de composición MSCA; para su acción elige **posicionamientos y clústeres relevantes**, extrae sus recorridos **hasta D en cada rama donde pueda calificarse**, conserva ramas parciales, fuentes, temas y dependencias, y vincula el conjunto con su MSCA/Role focal.
+
+El resultado propuesto se llama **lámina cartográfica MSCA** y se describe, paso a paso, en [LAMINA_CARTOGRAFICA_MSCA_AGENTES_v0.1.md](./LAMINA_CARTOGRAFICA_MSCA_AGENTES_v0.1.md). Incluye un [piloto JSON](./examples/msca-cartographic-slice-v01.json) y un [validador](./scripts/validate-msca-cartographic-slice-v01.mjs). Conecta expresamente el Atlas con la **Ecosystem Cartography `Cart_i`** de [Composición MSCA canónica](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) y su emisión selectiva con [Signalling 01J](../../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md).
+
+Por tanto se distinguen **tres objetos**: el *grafo epistémico del agente* (Atlas), su *cartografía local de ecosistemas MSCA* (`Cart_i`) y la *lámina seleccionada para una actividad/destinatario*. La vista S/E/C/P/M **forma parte del contexto de esa lámina**; no sustituye el subgrafo hasta las fronteras epistemológicas ni pretende describir todo el agente. La calificación A/B/C/D del hilo, `A_Cart/B_Cart/C_Cart/D_Cart` de cartografía y la posición propia `Π_MSCA` conservan objetos diferentes.
+
+
+
 ## 2. Condición de entrada: cuándo tiene sentido activar MSCA
 
 Se considera una vista MSCA cuando al menos se puede **formular** una pregunta operativa realista, como «¿qué necesitamos observar, coordinar y poder modificar para sostener este resultado bajo estas condiciones?». La vista puede iniciarse *incompleta*. **No** se declara `SUPPORTED` por haberla creado.
