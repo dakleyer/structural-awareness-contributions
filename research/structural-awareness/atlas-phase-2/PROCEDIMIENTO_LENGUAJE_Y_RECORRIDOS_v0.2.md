@@ -22,7 +22,7 @@ Los nombres tienen significados distintos:
 | **Clúster conceptual principal** | `cluster_id` | Región de alcance funcional A, interpretada en un discurso/posicionamiento, con fronteras y superposiciones documentadas. | No es el componente conexo de todo el grafo ni una ontología universal. |
 | **Tema** | `theme_id` | Eje legible y diferenciado, descubierto **después** de recorridos y clústeres, con ficha descriptiva y asociación ponderada a nodos. | No determina retrospectivamente el significado de A/B/C/D. |
 
-**Regla invariable de orden:** (0) anclar ítems y nodos → (1) mapear relaciones conceptuales → (2) calificar distancia A/B/C/D por recorrido → (2b) aplicar JF.F1–JF.F4 cuando corresponda → (3) identificar clústeres principales → (4) descubrir temas y elaborar sus fichas → (5) consolidar, revisar y publicar datos versionados. Las fichas se crean desde la fase 0 y pueden enriquecerse en cada ciclo; no se exige completarlas antes del mapa.
+**Regla invariable de orden:** (0) anclar ítems y nodos → (1) mapear relaciones conceptuales → (2) calificar distancia A/B/C/D por recorrido → (2b) aplicar JF.F1–JF.F4 cuando corresponda → (3) identificar clústeres principales → (4) descubrir temas y elaborar sus fichas → (5) consolidar, revisar y publicar datos versionados. Las fichas se crean desde la fase 0 y pueden enriquecerse en cada ciclo; no se exige completarlas antes del mapa. **MSCA** es una proyección opcional posterior o bajo demanda, no una etapa obligatoria que reordene la minería.
 
 ## 1. Lenguaje canónico de **etiquetas**: flexible, compartible y versionado
 
@@ -158,17 +158,33 @@ Una ruta sólo se declara `complete_to_D` cuando **D es el último paso** y se e
 4. En esta versión asignar, cuando la clasificación temática esté madura, **un tema principal de peso 1** por nodo del ámbito evaluado; secundarios **sólo justificados y de menor peso**, sin poner todos los temas en todos los nodos. No convertir esta ponderación en una probabilidad de verdad ni adelantarla a la fase 2.
 5. Una ficha temática es autosuficiente en lenguaje natural, aunque legible como JSON; no exigir tres páginas, número fijo de párrafos ni MSCA. Puede generarse una vista HTML/PDF distinta **desde los mismos datos** sin crear otra fuente canónica.
 
-## 7. ¿Dónde entra MSCA? — interfaz candidata, no decisión impuesta
+## 7. ¿Dónde entra MSCA? — proyección opcional de control, documentada en v0.1
 
-**Propuesta para discusión:** introducir **MSCA como una vista de análisis opcional, vinculada a un clúster, una actividad/recorrido o a una configuración de control concreta**, cuando exista objetivo y pregunta de suficiencia definidos. Puede utilizar elementos de nodos e ítems como entradas. No colocar automáticamente `S/E/C/P/M` como campos obligatorios en **todas** las fichas ni confundir `MSCA.C` con `ABCD.C`.
+**Acuerdo de diseño en prueba:** MSCA se trata como una **capa adicional seleccionable por objetivo y actividad**, no como cinco casillas obligatorias para fichas de ítem, nodo, tema o clúster. Su interfaz completa, supuestos, reglas, ejemplo y pruebas están en **[MSCA como capa adicional del Atlas v0.1](./MSCA_CAPA_ADICIONAL_ATLAS_v0.1.md)**. Es un **adaptador experimental**: no cambia la [arquitectura canónica MSCA](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md).
 
-`MSCA.S` = Objective Envelope; `MSCA.E` = entorno/hipótesis operativas; `MSCA.C` = coordinación; `MSCA.P` = mecanismos de intervención; `MSCA.M` = medios habilitadores. Su aplicación supone una **actividad y un objetivo delimitados**: una misma agrupación puede admitir varios análisis MSCA bajo distintos objetivos. Registrar vista con `objective_ref`, `position_refs`, `source_item_refs`, `review_status` y evidencia; si faltan componentes, conservar `unknown` sin inventarlos. **No se adopta aquí un esquema MSCA obligatorio; la decisión queda abierta.**
+### 7.1 Cuándo se abre una vista MSCA
+
+1. Partir de un posicionamiento, clúster y/o tema útil, **con referencias a recorridos e ítems**; no basta una etiqueta temática o la amplitud A del nodo.
+2. Formular un **problema de control** y una pregunta de suficiencia para **un Objective Envelope** delimitado. Identificar su titular legítimo; si no se conoce, dejar `owner_status=UNKNOWN`, `binding_status=UNBOUND` y `S=UNKNOWN`.
+3. Crear **una entidad independiente `msca_view`** con referencias al Atlas y representación parcial `X=[S,E,C,P,M]`. No copiar literalmente ABCD/JF a esos campos. Reutilizar el **mismo diccionario de etiquetas** para notas e índices; los cinco campos MSCA conservan sus significados canónicos.
+4. Conservar `POPULATED` (valor cualificado), `UNKNOWN` y `UNPOPULATED` por campo, con fuentes, condiciones y tiempo. El estado de suficiencia es **independiente**: `UNASSESSED | SUPPORTED | FAILED | UNRESOLVED`.
+5. Solo después de especificar S/E y evidencias valorar configuraciones C/P/M y carga justificada; una vista sin evaluación **no** acredita control. Autoridad, ejecución y medida de efecto son fronteras externas.
+6. Varias vistas pueden usar el mismo clúster bajo objetivos/mandatos diferentes. **Nunca** fusionar S o trasladar `SUPPORTED` entre vistas por compartir nodos o etiquetas.
+
+### 7.2 Encaje con los recorridos A/B/C/D y JF
+
+- **A/B/C/D** siguen siendo **calificaciones de pasos de un hilo Atlas acumulado**. Que un método aparezca en **A** no lo convierte en intervención suficiente; un **C** abre una pregunta; **D** cierra ese hilo situado y limita extrapolaciones.
+- **JF.F1–JF.F4**, añadidos **después** de ABCD, aportan pistas sobre entradas, mecanismos, salidas y efectos laterales. No existe mapeo automático `F1→M`, `F2→P`, `F3→S` o `F4→E`: cada correspondencia requiere proceso/objetivo, fuentes y evaluación.
+- `MSCA.C` es **alcance de coordinación** y `ABCD.C` es **frontera de exploración**. MSCA tiene una posición cualificada propia `Π_MSCA=[A_X,B_X,C_X,D_X]`, evaluada sobre **su** arquitectura de control, no copiada del recorrido Atlas.
+- El ejemplo [JUBAP / dos vistas MSCA](./examples/msca-view-v01.json) enlaza dos preguntas controladas sobre el mismo clúster. En ambas `S` no está legitimado y el resultado es `UNASSESSED`; véase [validador](./scripts/validate-msca-view-v01.mjs).
+
+**Lugar procedimental:** tras los clústeres/temas, como **fase opcional a demanda**; también se puede abrir una vista parcial antes de cerrar un tema si ya existe la pregunta de control. No retrasa ni obliga a reestructurar las fases 0–4. La revisión de un hook puede invalidar selectivamente una vista MSCA dependiente sin recalcular todo el mapa.
 
 ## 8. Reevaluación, custodia y verificación
 
 ### 8.1 Cadena de dependencia ante cambio de fuente
 
-`item hook/revisión → enlaces ítem–nodo → fichas de nodo → aristas de nivel 1 → recorridos afectados nivel 2 (ABCD, después JF) → clústeres candidatos → temas/fichas/asociaciones`. Recalcular únicamente descendientes afectados cuando sea justificable; conservar historial y revisor. Cambios cosméticos pueden no alterar semántica: registrar la decisión. Las aristas y calificaciones no se invalidan indiscriminadamente porque comparten una palabra.
+`item hook/revisión → enlaces ítem–nodo → fichas de nodo → aristas de nivel 1 → recorridos afectados nivel 2 (ABCD, después JF) → clústeres candidatos → temas/fichas/asociaciones → **vistas MSCA dependientes** (si existen)`. Recalcular únicamente descendientes afectados cuando sea justificable; conservar historial y revisor. Cambios cosméticos pueden no alterar semántica: registrar la decisión. Las aristas y calificaciones no se invalidan indiscriminadamente porque comparten una palabra.
 
 ### 8.2 Control de calidad por fase (no sólo JSON válido)
 
@@ -181,6 +197,7 @@ Una ruta sólo se declara `complete_to_D` cuando **D es el último paso** y se e
 | JF | Se ejecuta después de ABCD; factor motivado por función; F4 transversal; namespace correcto; abstención permitida. | `not_assessed` / `not_applicable`, nunca inventar. |
 | Clústeres | Alcance A contextual, revisión de límites y solapamientos; no solo centralidad numérica. | Candidato pendiente. |
 | Temas | Diferenciación/cobertura, ficha libre, etiquetas del mismo diccionario y peso primario revisable. | Etiquetas temáticas provisionales. |
+| MSCA (opcional) | Vista delimitada por objetivo/actividad, campo S/E/C/P/M con procedencia y estados, assessment independiente, autoridad separada. | Si falta legitimación/prueba: `UNKNOWN` / `UNASSESSED`; nunca `SUPPORTED` automático. |
 | Diccionario | Claves únicas/versionadas; alias sin colisión silenciosa; traducciones sin alterar identidad; migración rastreable. | Propuesta pendiente o conflicto documentado. |
 
 ### 8.3 Prueba mínima repetible
@@ -191,6 +208,7 @@ Una ruta sólo se declara `complete_to_D` cuando **D es el último paso** y se e
 - [ ] Otro hilo se detiene por falta de pertinencia o presupuesto **sin declararlo D**.
 - [ ] Un ejemplo de **JF.F4 con ABCD.C** prueba que JF.F4 ≠ D, y la validación rechaza F1–F4 como estado de nivel 1.
 - [ ] Nodo sin MSCA obligatorio y ficha temática con el mismo diccionario se serializan y se leen sin perder descripción libre.
+- [ ] Dos vistas MSCA del mismo clúster conservan problemas/objetivos separados; un recorrido Atlas A no produce evaluación `SUPPORTED`. Ejecución: `node scripts/validate-msca-view-v01.mjs`.
 - [ ] El ejemplo distingue hechos publicados, interpretación y aristas hipotéticas de enseñanza.
 - [ ] Al alterar un hook se obtiene lista de dependencias por revisar; no se finge que existe aún un motor de reevaluación automático.
 
