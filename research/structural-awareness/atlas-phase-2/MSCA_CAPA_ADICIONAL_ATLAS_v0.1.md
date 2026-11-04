@@ -24,30 +24,18 @@ Esa pregunta no se obtiene automáticamente de un clúster amplio ni de una etiq
 
 ### 1.1 Arquitectura de datos: añadir una *vista*, no reescribir los nodos
 
-```text
-Fuentes ─ hooks ─ ítems ─ nodos ─ aristas L1
-                                   │
-                                   ▼
-                        recorridos L2: A/B/C/D → JF
-                                   │
-                                   ▼
-                         clústeres conceptuales
-                                   │
-                                   ▼
-                               temas
-                                   │
-                    selección contextual y legítima
-                                   ▼
-                  ┌───────────────────────────┐
-                  │ Vista MSCA (opcional)      │
-                  │ objetivo/titular/decisión  │
-                  │ S  E  C  P  M              │
-                  │ estado de evaluación       │
-                  └───────────────────────────┘
-                                   │
-                    revisión de cambios y límites
-                                   ▼
-                     vínculos de vuelta al Atlas
+```mermaid
+flowchart TD
+  F["Fuente y hook"] --> I["Ítem"] --> N["Nodo"] --> L["Arista conceptual L1"]
+  L --> W["Recorrido L2: ABCD, después JF"]
+  W --> C["Clúster conceptual"]
+  C --> T["Tema"]
+  C --> Q{"¿Pregunta de control delimitada?"}
+  T --> Q
+  Q -->|No| A["Conservar sólo Atlas"]
+  Q -->|Sí| V["Vista MSCA opcional: S/E/C/P/M"]
+  V --> R["Cualificación, revisión y reanclaje"]
+  R -.-> I
 ```
 
 La flecha del Atlas a MSCA significa **selección de material cualificado**, nunca un mapeo semántico automático ni una cadena temporal obligatoria. MSCA puede abrir una nueva pregunta y llevar a **minar ítems adicionales**, introducir nodos, proponer relaciones o revisar recorridos. La vuelta es explícita y versionada; no se sobrescriben las calificaciones anteriores sin una nueva evaluación.
