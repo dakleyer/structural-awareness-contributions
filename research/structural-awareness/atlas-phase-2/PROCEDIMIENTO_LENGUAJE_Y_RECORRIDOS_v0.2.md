@@ -180,11 +180,25 @@ Una ruta sólo se declara `complete_to_D` cuando **D es el último paso** y se e
 
 **Lugar procedimental:** tras los clústeres/temas, como **fase opcional a demanda**; también se puede abrir una vista parcial antes de cerrar un tema si ya existe la pregunta de control. No retrasa ni obliga a reestructurar las fases 0–4. La revisión de un hook puede invalidar selectivamente una vista MSCA dependiente sin recalcular todo el mapa.
 
+### 7.3 Lámina cartográfica MSCA por agente: de Atlas a Ecosystem Positioning
+
+**Ampliación de diseño:** la vista `S/E/C/P/M` anterior representa la **dimensión de control de una actividad**, pero la **lámina que un agente utiliza y puede transmitir** es una **proyección del subgrafo epistemológico** que sustenta esa dimensión. Véase el documento específico [Lámina cartográfica MSCA — agentes v0.1](./LAMINA_CARTOGRAFICA_MSCA_AGENTES_v0.1.md), el [fixture](./examples/msca-cartographic-slice-v01.json) y su [validador](./scripts/validate-msca-cartographic-slice-v01.mjs).
+
+1. El agente `i` mantiene su propio Atlas `G_i`: **ítems/hooks → nodos → aristas L1 → recorridos L2 ABCD→JF → clústeres → temas ponderados**. Ningún agente conoce por defecto el ecosistema completo.
+2. Para **su actividad/decisión y MSCA/Role focal**, selecciona clústeres y **posicionamientos de origen** pertinentes, con justificación y referencias a fuentes. Los pesos temáticos pueden ayudar a seleccionar, pero **su fórmula/porcentaje se deja para una fase posterior** y las dependencias materiales no se descartan por bajo peso temático.
+3. Desde las raíces seleccionadas, conserva las rutas materiales **hasta D de cada hilo que realmente alcanza D**, incluidos B y C intermedios. Un corte por presupuesto, fin de grafo o falta de pertinencia se declara **parcial**, jamás se renombra D. Un D no cierra otras ramas ni enumera todo lo desconocido.
+4. La lámina relaciona ese subgrafo con `X_i=[S,E,C,P,M]` y con la **Ecosystem Cartography local `Cart_i`** del [MSCA Composition & Control canónico](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md). **Grafo Atlas, Cart_i, MSCA focal y lámina no son objetos idénticos.** Separar cercanía semántica de dependencia material y conservar estado de suficiencia independiente.
+5. Un **Objective Envelope puede tener su firma como nodo relacionado** dentro de la lámina, pero su titular y validez en `S` no nacen de la representación del nodo. MSCAs de agentes vecinos conservan sus propios envelopes salvo que exista un envelope superior legítimo.
+6. Para otro agente se produce una **proyección de divulgación selectiva** según [Signalling 01J](../../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md). Los fragmentos omitidos quedan `NOT_DECLARED/WITHHELD`, no «D=0». El receptor **recalifica su propio** `Cart_j`, busca coincidencias, dependencias y puntos ciegos; no copia automáticamente el ABCD del emisor ni recibe autoridad para ejecutar.
+
+Esta ampliación queda **dentro del mismo Atlas fase 2 experimental**, como interfaz documentada **sin fijar aún** cálculo de porcentajes temáticos, transporte concreto, compatibilidad de protocolos, algoritmos de selección del subgrafo o composición autónoma validada.
+
+
 ## 8. Reevaluación, custodia y verificación
 
 ### 8.1 Cadena de dependencia ante cambio de fuente
 
-`item hook/revisión → enlaces ítem–nodo → fichas de nodo → aristas de nivel 1 → recorridos afectados nivel 2 (ABCD, después JF) → clústeres candidatos → temas/fichas/asociaciones → **vistas MSCA dependientes** (si existen)`. Recalcular únicamente descendientes afectados cuando sea justificable; conservar historial y revisor. Cambios cosméticos pueden no alterar semántica: registrar la decisión. Las aristas y calificaciones no se invalidan indiscriminadamente porque comparten una palabra.
+`item hook/revisión → enlaces ítem–nodo → fichas de nodo → aristas de nivel 1 → recorridos afectados nivel 2 (ABCD, después JF) → clústeres candidatos → temas/fichas/asociaciones → **vistas MSCA y láminas dependientes** (si existen)`. Recalcular únicamente descendientes afectados cuando sea justificable; conservar historial y revisor. Cambios cosméticos pueden no alterar semántica: registrar la decisión. Las aristas y calificaciones no se invalidan indiscriminadamente porque comparten una palabra.
 
 ### 8.2 Control de calidad por fase (no sólo JSON válido)
 
@@ -198,6 +212,7 @@ Una ruta sólo se declara `complete_to_D` cuando **D es el último paso** y se e
 | Clústeres | Alcance A contextual, revisión de límites y solapamientos; no solo centralidad numérica. | Candidato pendiente. |
 | Temas | Diferenciación/cobertura, ficha libre, etiquetas del mismo diccionario y peso primario revisable. | Etiquetas temáticas provisionales. |
 | MSCA (opcional) | Vista delimitada por objetivo/actividad, campo S/E/C/P/M con procedencia y estados, assessment independiente, autoridad separada. | Si falta legitimación/prueba: `UNKNOWN` / `UNASSESSED`; nunca `SUPPORTED` automático. |
+| Lámina por agente (opcional) | Raíces/clústeres seleccionados, rutas completas hasta D o parciales honestas, cobertura, anclas y dependencia material separada; emisión selectiva. | No afirmar completitud universal ni D=0 cuando el emisor omite contenido. |
 | Diccionario | Claves únicas/versionadas; alias sin colisión silenciosa; traducciones sin alterar identidad; migración rastreable. | Propuesta pendiente o conflicto documentado. |
 
 ### 8.3 Prueba mínima repetible
@@ -209,6 +224,7 @@ Una ruta sólo se declara `complete_to_D` cuando **D es el último paso** y se e
 - [ ] Un ejemplo de **JF.F4 con ABCD.C** prueba que JF.F4 ≠ D, y la validación rechaza F1–F4 como estado de nivel 1.
 - [ ] Nodo sin MSCA obligatorio y ficha temática con el mismo diccionario se serializan y se leen sin perder descripción libre.
 - [ ] Dos vistas MSCA del mismo clúster conservan problemas/objetivos separados; un recorrido Atlas A no produce evaluación `SUPPORTED`. Ejecución: `node scripts/validate-msca-view-v01.mjs`.
+- [ ] Una lámina de agente conserva un hilo `A→C→C→D` y un segundo hilo parcial sin D ficticio; una versión divulgada puede omitir una rama sin declarar que el residual es cero. Ejecución: `node scripts/validate-msca-cartographic-slice-v01.mjs`.
 - [ ] El ejemplo distingue hechos publicados, interpretación y aristas hipotéticas de enseñanza.
 - [ ] Al alterar un hook se obtiene lista de dependencias por revisar; no se finge que existe aún un motor de reevaluación automático.
 
