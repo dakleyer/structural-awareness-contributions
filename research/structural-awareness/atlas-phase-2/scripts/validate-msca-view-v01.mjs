@@ -13,6 +13,7 @@ const viewPath = process.argv[2] ? resolve(process.argv[2]) : resolve(here, '../
 const atlasPath = process.argv[3] ? resolve(process.argv[3]) : resolve(here, '../examples/language-v02-pilot.json');
 const fixture = JSON.parse(readFileSync(viewPath, 'utf8'));
 const atlas = JSON.parse(readFileSync(atlasPath, 'utf8'));
+const dictionary = JSON.parse(readFileSync(resolve(here, '../TAG_DICTIONARY_v0.1.json'), 'utf8'));
 const stateKinds = new Set(['POPULATED', 'UNKNOWN', 'UNPOPULATED']);
 const assessmentKinds = new Set(['UNASSESSED', 'SUPPORTED', 'FAILED', 'UNRESOLVED']);
 const authKinds = new Set(['NOT_ESTABLISHED', 'REQUESTED', 'AUTHORIZED', 'DENIED', 'EXPIRED', 'NOT_APPLICABLE']);
@@ -25,6 +26,7 @@ const clusterMap = new Map((atlas.conceptual_clusters || []).map(x => [x.id, x])
 const themeMap = new Map((atlas.themes || []).map(x => [x.id, x]));
 const walkMap = new Map((atlas.walks || []).map(x => [x.id, x]));
 const allTagKeys = new Set();
+const tagMap = new Map((dictionary.etiquetas || []).map(x => [x.key, x]));
 
 function inspect(candidate) {
   const errors = [];
@@ -33,6 +35,7 @@ function inspect(candidate) {
   check(candidate.meta?.version === '0.1-experimental', 'Versión del adaptador incorrecta');
   check(candidate.meta?.source_fixture === 'language-v02-pilot.json', 'Fixture base incorrecto');
   check(candidate.meta?.dictionary_version === atlas.meta?.dictionary_version, 'Diccionario Atlas incongruente');
+  check(candidate.meta?.dictionary_version === dictionary.dictionary_version, 'Versión del diccionario cargado incongruente');
   check(Array.isArray(candidate.views) && candidate.views.length > 0, 'Faltan vistas');
 
   for (const view of candidate.views || []) {
@@ -122,6 +125,12 @@ function inspect(candidate) {
     for (const e of view.etiquetas || []) {
       check(e?.key && typeof e.key === 'string', `${id}: etiqueta sin clave`);
       allTagKeys.add(e.key);
+      const definition = tagMap.get(e.key);
+      check(!!definition && definition.kind === 'flexible_tag' && definition.applies_to.includes('analysis_profile'), `${id}: etiqueta fuera del diccionario o ámbito: ${e.key}`);
+      if (definition?.value_type === 'object') check(e.value && typeof e.value === 'object' && !Array.isArray(e.value), `${id}: valor de etiqueta no es objeto: ${e.key}`);
+      if (definition?.state !== 'active') check(e.dictionary_state === 'candidate_local_only', `${id}: etiqueta candidata promovida silenciosamente: ${e.key}`);
+      check(typeof e.basis === 'string' && e.basis.length > 3, `${id}: etiqueta sin justificación: ${e.key}`);
+      for (const ref of e.item_refs || []) check((map.item_refs || []).includes(ref), `${id}: etiqueta sin trazabilidad al ítem ${ref}`);
     }
     check(Array.isArray(view.candidate_questions), `${id}: faltan preguntas de minería`);
     for (const d of view.dependencies || []) {
@@ -166,6 +175,7 @@ if (errors.length) {
 } else {
   console.log('ATLAS MSCA View v0.1 — validación estructural correcta');
   console.log(`${fixture.views.length} vistas objetivo-independientes, ${itemMap.size} ítems del Atlas vinculables`);
+  console.log(`Diccionario ${dictionary.dictionary_version}; ${allTagKeys.size} etiquetas usadas como candidatas locales.`);
   console.log('Autopruebas negativas: SUPPORTED sin S, ABCD alterado y titular ficticio rechazados.');
   console.log('No valida legitimidad, suficiencia, causalidad ni eficacia de un método.');
 }
