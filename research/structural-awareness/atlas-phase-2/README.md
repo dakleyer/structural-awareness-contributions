@@ -5,7 +5,7 @@
 **Ámbito:** Atlas de pensamiento, con un grafo conceptual común y lecturas dependientes del posicionamiento.  
 **Compatibilidad:** las definiciones A/B/C/D son las de [00M v0.8 §1](../../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). La expresión *distancia epistemológica* ya se desarrolla, sin presuponer una métrica escalar, en [Map, Flow, Epistemic Distance — working programme bridge](../MAP_FLOW_EPISTEMIC_DISTANCE_PROGRAMME_BRIDGE_v0.1_DRAFT.md). Este experimento **no reemplaza ni modifica** esos documentos.
 
-> **Lectura operativa vigente v0.2:** [Procedimiento integral de etiquetas, ítems, nodos y recorridos](./PROCEDIMIENTO_LENGUAJE_Y_RECORRIDOS_v0.2.md) · [Diccionario taxonómico reutilizable y traducible (JSON)](./TAG_DICTIONARY_v0.1.json) · [Ejemplo v0.2](./examples/language-v02-pilot.json) · [Validador v0.2](./scripts/validate-language-v02.mjs) · **[MSCA como capa opcional de control v0.1](./MSCA_CAPA_ADICIONAL_ATLAS_v0.1.md)** · [dos vistas MSCA de prueba](./examples/msca-view-v01.json) · [validador MSCA](./scripts/validate-msca-view-v01.mjs). Leer el diccionario **antes** de extraer fichas. El protocolo es referencia sólo para esta rama experimental Atlas; **no** altera el baseline controlado EA/MSCA.
+> **Lectura operativa vigente v0.2:** [Procedimiento integral de etiquetas, ítems, nodos y recorridos](./PROCEDIMIENTO_LENGUAJE_Y_RECORRIDOS_v0.2.md) · [Diccionario taxonómico reutilizable y traducible (JSON)](./TAG_DICTIONARY_v0.1.json) · [Ejemplo v0.2](./examples/language-v02-pilot.json) · [Validador v0.2](./scripts/validate-language-v02.mjs) · **[MSCA como capa opcional de control v0.1](./MSCA_CAPA_ADICIONAL_ATLAS_v0.1.md)** · **[Lámina cartográfica MSCA por agente](./LAMINA_CARTOGRAFICA_MSCA_AGENTES_v0.1.md)** · [dos vistas MSCA de prueba](./examples/msca-view-v01.json) · [validador MSCA](./scripts/validate-msca-view-v01.mjs). Leer el diccionario **antes** de extraer fichas. El protocolo es referencia sólo para esta rama experimental Atlas; **no** altera el baseline controlado EA/MSCA.
 
 ## 1. Decisión de arquitectura
 
@@ -16,7 +16,7 @@ Construir en dos pasos distintos:
 
 Después de caracterizar esos recorridos, identificar los **clústeres conceptuales principales** y finalmente los **temas**. Las fichas de **ítem, nodo y tema** conservan texto libre autosuficiente dentro de JSON con **etiquetas** del mismo diccionario compartible, flexible y versionado. Los temas se describen **después** de los clústeres, no al empezar a construir las rutas.
 
-No introducir ahora más niveles jerárquicos ni etiquetas **MSCA obligatorias** o una ontología rígida. Se ensaya una **vista de control separada** con S/E/C/P/M sólo para una pregunta y un Objective Envelope definidos; su estado puede permanecer `UNASSESSED`. **Sí se incorpora Jumps & Falls JF.F1–JF.F4 como segunda calificación funcional del recorrido, después de ABCD**, sólo cuando corresponda a la actividad. `JF.F4` es efecto colateral transversal y **no** equivale a `D`. La web y el Atlas existentes siguen funcionando mientras esta rama se estudia aparte.
+No introducir ahora más niveles jerárquicos ni etiquetas **MSCA obligatorias** o una ontología rígida. Se ensaya una **vista de control separada** con S/E/C/P/M sólo para una pregunta y un Objective Envelope definidos; su estado puede permanecer `UNASSESSED`. **Además**, una [lámina cartográfica por agente](./LAMINA_CARTOGRAFICA_MSCA_AGENTES_v0.1.md) selecciona clústeres/posicionamientos pertinentes a la acción y conserva sus hilos hasta D o con cortes parciales explícitos, con anclas y un contexto MSCA focal; no exporta por defecto toda la epistemología. **Sí se incorpora Jumps & Falls JF.F1–JF.F4 como segunda calificación funcional del recorrido, después de ABCD**, sólo cuando corresponda a la actividad. `JF.F4` es efecto colateral transversal y **no** equivale a `D`. La web y el Atlas existentes siguen funcionando mientras esta rama se estudia aparte.
 
 ## 2. Modelo de datos mínimo
 
@@ -227,6 +227,7 @@ Comandos locales con Node.js (ambos casos deben conservarse):
 node scripts/validate-phase2.mjs
 node scripts/validate-language-v02.mjs
 node scripts/validate-msca-view-v01.mjs
+node scripts/validate-msca-cartographic-slice-v01.mjs
 ```
 
 El validador debe comprobar: integridad de IDs, hooks, referencias, continuidad direccional de cada recorrido, detección de D terminal, posibilidad de C consecutivos, ausencia de una etiqueta global por arista, distinción entre corte de pertinencia y D, y contraste de una misma arista desde dos orígenes.
@@ -247,6 +248,7 @@ Antes de llevar a producción:
 3. [EA Canonical Corpus Manifest](../../ecosystem-awareness/baseline/CANONICAL_CORPUS_MANIFEST.md): delimitación de estado y versiones; esta rama Atlas está fuera de su baseline congelado.
 4. [JUBAP — framework](https://jubap.eu/the-jubap-framework/) y [Nestlé case study](https://jubap.eu/nestle-case-study-where-jubap-was-first-named/): contexto y uso histórico, no prueba causal independiente.
 5. **Interfaz experimental MSCA v0.1:** [diseño completo](./MSCA_CAPA_ADICIONAL_ATLAS_v0.1.md), [piloto de dos vistas](./examples/msca-view-v01.json) y [pruebas estructurales](./scripts/validate-msca-view-v01.mjs). Se apoya en [MSCA canónico](../../../standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md) sin modificarlo; S/E/C/P/M, estado de evaluación y autoridad son conceptos distintos de ABCD/JF Atlas.
-6. **Atlas conceptual privado v1.0 (2 nov 2026):** 125 nodos, 380 relaciones editoriales. Es fuente de trabajo para la prueba privada; sus datos internos no se copian aquí ni se convierten en publicación pública.
+6. **Lámina cartográfica MSCA multiagente:** [procedimiento situado](./LAMINA_CARTOGRAFICA_MSCA_AGENTES_v0.1.md), [ejemplo JSON](./examples/msca-cartographic-slice-v01.json), [validador](./scripts/validate-msca-cartographic-slice-v01.mjs). Se conecta con la [Ecosystem Cartography canónica](../../../standards/minimum-sufficient-control/03_MSCA_ECOSYSTEM_COMPOSITION_AND_CONTROL.md) y la [divulgación selectiva 01J](../../ecosystem-awareness/baseline/01J_ECOSYSTEM_SIGNALLING_SELECTIVE_DISCLOSURE_AND_CHOREOGRAPHED_REPOSITIONING_v0.1.md), sin redefinirlas. Contiene un hilo a D y otro parcial: **no representa cartografía global ni suficiencia de control**.
+7. **Atlas conceptual privado v1.0 (2 nov 2026):** 125 nodos, 380 relaciones editoriales. Es fuente de trabajo para la prueba privada; sus datos internos no se copian aquí ni se convierten en publicación pública.
 
 **Separación de alcance:** este protocolo es una hipótesis instrumental para organizar un corpus de pensamiento, no una formalización nueva de Ecosystem Awareness, una declaración de cumplimiento ni una metodología DDS. La prueba interactiva privada del Atlas conserva sus propias extensiones, resultados y accesos.
