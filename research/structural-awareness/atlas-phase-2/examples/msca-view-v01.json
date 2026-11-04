@@ -72,7 +72,15 @@
       "dependencies": [
         {"field": "E", "item_ref": "ITEM-NESTLE-CASE", "on_change": "requalify_dependent_claims"}
       ],
-      "etiquetas": [],
+      "etiquetas": [
+        {
+          "key": "profile:msca",
+          "value": {"profile": "optional_control_view", "adapter_version": "0.1-experimental"},
+          "basis": "adapter_proposal",
+          "item_refs": ["ITEM-NESTLE-CASE"],
+          "dictionary_state": "candidate_local_only"
+        }
+      ],
       "review_status": "experimental_candidate"
     },
     {
@@ -129,7 +137,15 @@
       "dependencies": [
         {"field": "E", "item_ref": "ITEM-ROLEPLAY-HYPOTHESIS", "on_change": "requalify_dependent_claims"}
       ],
-      "etiquetas": [],
+      "etiquetas": [
+        {
+          "key": "profile:msca",
+          "value": {"profile": "optional_control_view", "adapter_version": "0.1-experimental"},
+          "basis": "adapter_proposal",
+          "item_refs": ["ITEM-ROLEPLAY-HYPOTHESIS"],
+          "dictionary_state": "candidate_local_only"
+        }
+      ],
       "review_status": "experimental_candidate"
     }
   ]
