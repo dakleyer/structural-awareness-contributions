@@ -1,0 +1,1224 @@
+{
+  "dictionary_id": "perspective-beyond-atlas-tags",
+  "dictionary_version": "0.2.0",
+  "as_of": "2026-11-05",
+  "status": "experimental_phase2_extended_working_vocabulary",
+  "authority_scope": "Atlas phase 2 working branch only; not EA controlled corpus",
+  "purpose": "Versioned vocabulary for clear, source-grounded item and conceptual-node documentation.",
+  "normalization_policy": {
+    "load_first": true,
+    "prefer_reuse": true,
+    "permit_new_labels": true,
+    "new_key_prefix": "proposed:",
+    "review_before_shared_canonical": true,
+    "translate_key": false,
+    "keep_original_description": true,
+    "shared_label_does_not_imply_edge": true,
+    "aliases_are_discovery_aids_not_proof": true,
+    "json_slot_and_flexible_tag_must_not_duplicate": true,
+    "deprecated_keys_remain_resolvable": true,
+    "no_status_transfer_from_item_to_node_or_edge": true
+  },
+  "etiquetas": [
+    {
+      "key": "trace:hook",
+      "state": "active",
+      "kind": "reserved_field",
+      "json_path": "/hook",
+      "applies_to": [
+        "item"
+      ],
+      "value_type": "object",
+      "required_if": "item.evidence_status != pending_anchor",
+      "definition": "A concrete mechanism for locating and re-evaluating the referenced object: a resolvable URI or identifier, an internal locator, and an observed state or revision.",
+      "translations": {
+        "es": "ancla verificable",
+        "en": "verifiable hook"
+      },
+      "aliases": {
+        "es": [
+          "hook",
+          "ancla",
+          "referencia resoluble"
+        ],
+        "en": [
+          "hook",
+          "anchor",
+          "source locator"
+        ]
+      },
+      "example": {
+        "uri": "https://jubap.eu/nestle-case-study-where-jubap-was-first-named/",
+        "locator": "Kotter y dashboard",
+        "observed_at": "2026-11-04"
+      },
+      "constraints": [
+        "Do not invent a hash or revision.",
+        "Do not publish sensitive identifiers.",
+        "An unreachable link is not evidence."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "core:description",
+      "state": "active",
+      "kind": "reserved_field",
+      "json_path": "/description",
+      "applies_to": [
+        "item",
+        "node",
+        "cluster",
+        "theme"
+      ],
+      "value_type": "string",
+      "required_if": "object_is_published",
+      "definition": "A self-contained natural-language description of the object, retaining distinctions, negations, conditions and provenance that discrete tags cannot express.",
+      "translations": {
+        "es": "descripción libre",
+        "en": "free-form description"
+      },
+      "aliases": {
+        "es": [
+          "descripción",
+          "texto de ficha"
+        ],
+        "en": [
+          "description",
+          "narrative"
+        ]
+      },
+      "example": "free-form description",
+      "constraints": [
+        "Do not replace the description with a tag list.",
+        "Do not infer claims unsupported by the source."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "trace:item_refs",
+      "state": "active",
+      "kind": "reserved_field",
+      "json_path": "/item_refs",
+      "applies_to": [
+        "node",
+        "edge",
+        "cluster",
+        "theme",
+        "walk"
+      ],
+      "value_type": "array",
+      "required_if": "documented_claim",
+      "definition": "Explicit references to anchored items stating each source's evidential role. Referencing a source does not imply that it supports every property of the record.",
+      "translations": {
+        "es": "referencias a ítems",
+        "en": "item references"
+      },
+      "aliases": {
+        "es": [
+          "fuentes vinculadas",
+          "evidencia documental"
+        ],
+        "en": [
+          "item links",
+          "source references"
+        ]
+      },
+      "example": [
+        {
+          "item_id": "ITEM-NESTLE-CASE",
+          "role": "historical_use"
+        }
+      ],
+      "constraints": [
+        "Reference existing IDs.",
+        "Retain each source's role as support, refutation, analogy, hypothesis or other documented use."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "core:version",
+      "state": "active",
+      "kind": "reserved_field",
+      "json_path": "/version",
+      "applies_to": [
+        "item",
+        "node",
+        "edge",
+        "walk",
+        "cluster",
+        "theme"
+      ],
+      "value_type": "string",
+      "required_if": "object_is_recorded",
+      "definition": "Version of the Atlas record, distinct from the source revision and dictionary version.",
+      "translations": {
+        "es": "versión del registro",
+        "en": "record version"
+      },
+      "aliases": {
+        "es": [
+          "revisión de ficha"
+        ],
+        "en": [
+          "record revision"
+        ]
+      },
+      "example": "0.2-proposed",
+      "constraints": [
+        "Do not confuse record version with source_revision."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "evidence:status",
+      "state": "active",
+      "kind": "reserved_field",
+      "json_path": "/evidence_status",
+      "applies_to": [
+        "item",
+        "node",
+        "edge",
+        "cluster",
+        "theme"
+      ],
+      "value_type": "string",
+      "required_if": "object_is_recorded",
+      "definition": "Evidence or review state of a record, such as documented source, synthetic hypothesis, candidate or pending anchor. This is distinct from situated A/B/C/D assessment.",
+      "translations": {
+        "es": "estado documental",
+        "en": "evidence status"
+      },
+      "aliases": {
+        "es": [
+          "estado de evidencia",
+          "estado de fuente"
+        ],
+        "en": [
+          "source status",
+          "evidence state"
+        ]
+      },
+      "example": "source_documented",
+      "constraints": [
+        "Do not turn a hypothesis into an implemented result.",
+        "This status is distinct from A/B/C/D."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "item:kind",
+      "state": "active",
+      "kind": "reserved_field",
+      "json_path": "/kind",
+      "applies_to": [
+        "item"
+      ],
+      "value_type": "string",
+      "required_if": "object_is_recorded",
+      "definition": "Kind of referable object, such as a document, fragment, website, software, person, company, field case or explicitly synthetic artefact.",
+      "translations": {
+        "es": "tipo de ítem",
+        "en": "item kind"
+      },
+      "aliases": {
+        "es": [
+          "tipo de fuente",
+          "naturaleza de ítem"
+        ],
+        "en": [
+          "item type",
+          "source kind"
+        ]
+      },
+      "example": "public_web_page",
+      "constraints": [
+        "Do not confuse the referable object with the conceptual node record."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "node:role",
+      "state": "active",
+      "kind": "flexible_tag",
+      "applies_to": [
+        "node"
+      ],
+      "value_type": "string",
+      "required_if": "never",
+      "definition": "The function of a node in its documented textual interpretation; this is not an exhaustive ontological class.",
+      "translations": {
+        "es": "papel del nodo",
+        "en": "node role"
+      },
+      "aliases": {
+        "es": [
+          "papel",
+          "función del nodo"
+        ],
+        "en": [
+          "role",
+          "function in description"
+        ]
+      },
+      "example": "node role",
+      "constraints": [
+        "Do not assign global A/B/C/D or Jumps & Falls roles.",
+        "Anchor concrete claims."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "node:mechanism",
+      "state": "active",
+      "kind": "flexible_tag",
+      "applies_to": [
+        "node"
+      ],
+      "value_type": "string",
+      "required_if": "never",
+      "definition": "How something operates where a mechanism is described. Missing or uncertain mechanisms remain identifiable rather than being filled by invention.",
+      "translations": {
+        "es": "mecanismo",
+        "en": "mechanism"
+      },
+      "aliases": {
+        "es": [
+          "cómo funciona",
+          "modo de acción"
+        ],
+        "en": [
+          "how it works",
+          "operation mechanism"
+        ]
+      },
+      "example": "mechanism",
+      "constraints": [
+        "Do not invent causality.",
+        "A mechanism is optional when the object has none documented."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "node:scope",
+      "state": "active",
+      "kind": "flexible_tag",
+      "applies_to": [
+        "node"
+      ],
+      "value_type": "string",
+      "required_if": "never",
+      "definition": "The node's descriptive domain and conditions of applicability, distinct from the scope declared for a situated walk.",
+      "translations": {
+        "es": "alcance del nodo",
+        "en": "node scope"
+      },
+      "aliases": {
+        "es": [
+          "ámbito",
+          "aplicación"
+        ],
+        "en": [
+          "scope",
+          "applicability"
+        ]
+      },
+      "example": "node scope",
+      "constraints": [
+        "This does not replace the scope of a situated position."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "node:distinction",
+      "state": "active",
+      "kind": "flexible_tag",
+      "applies_to": [
+        "node"
+      ],
+      "value_type": "string",
+      "required_if": "never",
+      "definition": "An explicit difference from neighbouring ideas that prevents conflating nodes or attributing a container's properties to one of its parts.",
+      "translations": {
+        "es": "distinción",
+        "en": "distinction"
+      },
+      "aliases": {
+        "es": [
+          "no equivale a",
+          "diferenciación"
+        ],
+        "en": [
+          "not equivalent to",
+          "contrast"
+        ]
+      },
+      "example": "Focus ON no equivale al framework JUBAP completo.",
+      "constraints": [
+        "Retain meaningful negations present in the source."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "node:observable",
+      "state": "active",
+      "kind": "flexible_tag",
+      "applies_to": [
+        "node"
+      ],
+      "value_type": "string",
+      "required_if": "never",
+      "definition": "An observable signal or result and its interpretation, without treating observation alone as causal validation.",
+      "translations": {
+        "es": "observable",
+        "en": "observable"
+      },
+      "aliases": {
+        "es": [
+          "indicador observable",
+          "señal"
+        ],
+        "en": [
+          "observed signal",
+          "indicator"
+        ]
+      },
+      "example": "observable",
+      "constraints": [
+        "Keep an objective, an indicator and a demonstrated result distinct."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "node:condition",
+      "state": "active",
+      "kind": "flexible_tag",
+      "applies_to": [
+        "node"
+      ],
+      "value_type": "string",
+      "required_if": "never",
+      "definition": "An explicit condition or assumption of the node; a local condition remains tied to its stated setting.",
+      "translations": {
+        "es": "condición",
+        "en": "condition"
+      },
+      "aliases": {
+        "es": [
+          "bajo condiciones",
+          "supuesto"
+        ],
+        "en": [
+          "assumption",
+          "precondition"
+        ]
+      },
+      "example": "condition",
+      "constraints": [
+        "Retain whether a condition is observed, assumed or hypothetical."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "edge:predicate",
+      "state": "active",
+      "kind": "reserved_field",
+      "json_path": "/predicate",
+      "applies_to": [
+        "edge"
+      ],
+      "value_type": "string",
+      "required_if": "object_is_recorded",
+      "definition": "The conceptual verb or relation making an edge intelligible, such as includes, uses, contributes to, contradicts or is articulated with.",
+      "translations": {
+        "es": "predicado conceptual",
+        "en": "conceptual predicate"
+      },
+      "aliases": {
+        "es": [
+          "vínculo",
+          "tipo de unión"
+        ],
+        "en": [
+          "predicate",
+          "relation"
+        ]
+      },
+      "example": "conceptual predicate",
+      "constraints": [
+        "Do not reduce every relation to merely related.",
+        "Do not turn a conceptual relation into causal certainty."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "edge:relation_type",
+      "state": "active",
+      "kind": "flexible_tag",
+      "applies_to": [
+        "edge"
+      ],
+      "value_type": "string",
+      "required_if": "never",
+      "definition": "Optional reusable classification of a relation predicate without replacing its full natural-language meaning.",
+      "translations": {
+        "es": "clase de relación",
+        "en": "relation class"
+      },
+      "aliases": {
+        "es": [
+          "pertenencia",
+          "dependencia",
+          "analogía"
+        ],
+        "en": [
+          "membership",
+          "dependency",
+          "analogy"
+        ]
+      },
+      "example": "membership",
+      "constraints": [
+        "A relation type does not determine A/B/C/D."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "edge:semantic_direction",
+      "state": "active",
+      "kind": "reserved_field",
+      "json_path": "/semantic_direction",
+      "applies_to": [
+        "edge"
+      ],
+      "value_type": "string",
+      "required_if": "object_is_recorded",
+      "definition": "Level-1 predicate orientation: directed, symmetric or permitting a defined semantic inverse.",
+      "translations": {
+        "es": "dirección semántica",
+        "en": "semantic direction"
+      },
+      "aliases": {
+        "es": [
+          "sentido de predicado"
+        ],
+        "en": [
+          "predicate orientation"
+        ]
+      },
+      "example": "inverse_available",
+      "constraints": [
+        "A defined inverse such as includes/belongs-to is permitted.",
+        "Do not infer reverse causality."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "edge:reason",
+      "state": "active",
+      "kind": "reserved_field",
+      "json_path": "/reason",
+      "applies_to": [
+        "edge"
+      ],
+      "value_type": "string",
+      "required_if": "object_is_recorded",
+      "definition": "The specific reason two nodes are connected, supported by a source or identified as interpretation or hypothesis.",
+      "translations": {
+        "es": "razón de vínculo",
+        "en": "relation rationale"
+      },
+      "aliases": {
+        "es": [
+          "por qué se relaciona"
+        ],
+        "en": [
+          "why related"
+        ]
+      },
+      "example": "relation rationale",
+      "constraints": [
+        "Lexical similarity alone is insufficient."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "walk:origin",
+      "state": "active",
+      "kind": "reserved_field",
+      "json_path": "/position/origin",
+      "applies_to": [
+        "walk"
+      ],
+      "value_type": "string",
+      "required_if": "object_is_recorded",
+      "definition": "Starting node from which the complete accumulated prefix of a situated walk is assessed.",
+      "translations": {
+        "es": "posicionamiento de origen",
+        "en": "origin position"
+      },
+      "aliases": {
+        "es": [
+          "origen",
+          "punto de partida"
+        ],
+        "en": [
+          "origin",
+          "starting node"
+        ]
+      },
+      "example": "FON",
+      "constraints": [
+        "Do not confuse the walk's origin with an edge's evidential source."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "walk:activity",
+      "state": "active",
+      "kind": "reserved_field",
+      "json_path": "/position/activity",
+      "applies_to": [
+        "walk"
+      ],
+      "value_type": "string",
+      "required_if": "object_is_recorded",
+      "definition": "The declared activity, process or use determining which functions and boundaries matter for a walk.",
+      "translations": {
+        "es": "actividad del recorrido",
+        "en": "walk activity"
+      },
+      "aliases": {
+        "es": [
+          "función evaluada"
+        ],
+        "en": [
+          "declared process"
+        ]
+      },
+      "example": "walk activity",
+      "constraints": [
+        "Do not replace the declared activity with a thematic label."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "walk:question",
+      "state": "active",
+      "kind": "reserved_field",
+      "json_path": "/position/question",
+      "applies_to": [
+        "walk"
+      ],
+      "value_type": "string",
+      "required_if": "object_is_recorded",
+      "definition": "The concrete exploration or decision question whose evaluability is being assessed.",
+      "translations": {
+        "es": "pregunta",
+        "en": "assessment question"
+      },
+      "aliases": {
+        "es": [
+          "qué queremos averiguar"
+        ],
+        "en": [
+          "question",
+          "decision question"
+        ]
+      },
+      "example": "assessment question",
+      "constraints": [
+        "Do not generalise A/B/C/D without a question."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "walk:capability",
+      "state": "active",
+      "kind": "reserved_field",
+      "json_path": "/position/capability",
+      "applies_to": [
+        "walk"
+      ],
+      "value_type": "string",
+      "required_if": "object_is_recorded",
+      "definition": "The methods, access, authority, resources and time actually available for assessing the question, especially when distinguishing C from D.",
+      "translations": {
+        "es": "capacidad de evaluación",
+        "en": "evaluation capability"
+      },
+      "aliases": {
+        "es": [
+          "medios de evaluación",
+          "límite de acceso"
+        ],
+        "en": [
+          "assessment capability",
+          "evaluation means"
+        ]
+      },
+      "example": "evaluation capability",
+      "constraints": [
+        "D requires an effective evaluation boundary, not mere lack of knowledge."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "walk:abcd",
+      "state": "active",
+      "kind": "reserved_field",
+      "json_path": "/steps/*/abcd",
+      "applies_to": [
+        "walk_step"
+      ],
+      "value_type": "enum:ABCD",
+      "required_if": "each_assessed_step",
+      "definition": "A step's epistemic role relative to the full preceding path and declared position, assessed before Jumps & Falls.",
+      "translations": {
+        "es": "calificación A/B/C/D",
+        "en": "A/B/C/D qualification"
+      },
+      "aliases": {
+        "es": [
+          "distancia epistemológica"
+        ],
+        "en": [
+          "epistemic qualification"
+        ]
+      },
+      "example": "C",
+      "constraints": [
+        "Do not fix this assessment globally on an edge.",
+        "D terminates that route.",
+        "Do not confuse ABCD.C with MSCA.C."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "walk:jf_roles",
+      "state": "active",
+      "kind": "reserved_field",
+      "json_path": "/steps/*/jf_roles",
+      "applies_to": [
+        "walk_step"
+      ],
+      "value_type": "array:JF",
+      "required_if": "only_if_jf_assessed",
+      "definition": "Jumps & Falls functions fulfilled by a step in its declared activity, assessed after A/B/C/D. The list may be empty.",
+      "translations": {
+        "es": "roles Jumps & Falls",
+        "en": "Jumps & Falls roles"
+      },
+      "aliases": {
+        "es": [
+          "factores F1 a F4"
+        ],
+        "en": [
+          "JF factors"
+        ]
+      },
+      "example": [
+        "JF.F4"
+      ],
+      "constraints": [
+        "JF.F4 is distinct from D.",
+        "Do not use factors from another F-series.",
+        "All four roles are not mandatory."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "walk:terminal_kind",
+      "state": "active",
+      "kind": "reserved_field",
+      "json_path": "/terminal_kind",
+      "applies_to": [
+        "walk"
+      ],
+      "value_type": "enum:TERMINAL",
+      "required_if": "object_is_recorded",
+      "definition": "The actual reason a walk stops: D, lack of relevance, budget, cycle, end of graph or pending review.",
+      "translations": {
+        "es": "cierre de recorrido",
+        "en": "walk termination"
+      },
+      "aliases": {
+        "es": [
+          "fin del hilo"
+        ],
+        "en": [
+          "stop reason"
+        ]
+      },
+      "example": "D",
+      "constraints": [
+        "A budget-limited stop is not D."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "cluster:a_reach",
+      "state": "active",
+      "kind": "flexible_tag",
+      "applies_to": [
+        "cluster"
+      ],
+      "value_type": "array",
+      "required_if": "never",
+      "definition": "Nodes reached through justified contextual A assessments from declared positions, used to identify a functional conceptual core.",
+      "translations": {
+        "es": "alcance A contextual",
+        "en": "contextual A reach"
+      },
+      "aliases": {
+        "es": [
+          "amplitud funcional A"
+        ],
+        "en": [
+          "A functional reach"
+        ]
+      },
+      "example": [
+        "JFW",
+        "KOT"
+      ],
+      "constraints": [
+        "This is not universal centrality.",
+        "Use only justified contextual A routes."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "theme:scope",
+      "state": "active",
+      "kind": "flexible_tag",
+      "applies_to": [
+        "theme"
+      ],
+      "value_type": "string",
+      "required_if": "never",
+      "definition": "Discourses, questions and clusters made readable by a differentiated thematic axis, distinct from a tag's scope or a route's scope.",
+      "translations": {
+        "es": "alcance temático",
+        "en": "theme scope"
+      },
+      "aliases": {
+        "es": [
+          "eje de lectura"
+        ],
+        "en": [
+          "reading axis"
+        ]
+      },
+      "example": "theme scope",
+      "constraints": [
+        "Propose themes after examining clusters."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "theme:distinction",
+      "state": "active",
+      "kind": "flexible_tag",
+      "applies_to": [
+        "theme"
+      ],
+      "value_type": "string",
+      "required_if": "never",
+      "definition": "A meaningful difference from neighbouring themes that prevents redundant reading axes.",
+      "translations": {
+        "es": "distinción temática",
+        "en": "theme distinction"
+      },
+      "aliases": {
+        "es": [
+          "diferente de otro tema"
+        ],
+        "en": [
+          "theme contrast"
+        ]
+      },
+      "example": "theme distinction",
+      "constraints": [
+        "Do not invent separation between connected clusters."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "theme:node_weight",
+      "state": "active",
+      "kind": "reserved_field",
+      "json_path": "/node_associations/*/weight",
+      "applies_to": [
+        "theme"
+      ],
+      "value_type": "number",
+      "required_if": "theme_is_assigned_to_node",
+      "definition": "Editorial relevance weight of a node under a theme, with a justified primary association of weight 1 and lower secondary weights.",
+      "translations": {
+        "es": "ponderación temática",
+        "en": "theme association weight"
+      },
+      "aliases": {
+        "es": [
+          "peso principal",
+          "peso secundario"
+        ],
+        "en": [
+          "primary weight",
+          "secondary weight"
+        ]
+      },
+      "example": 0.5,
+      "constraints": [
+        "A relevance weight is not a probability of truth.",
+        "Do not assign every theme to every node."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "profile:msca",
+      "state": "candidate",
+      "kind": "flexible_tag",
+      "applies_to": [
+        "cluster",
+        "walk",
+        "analysis_profile"
+      ],
+      "value_type": "object",
+      "required_if": "never",
+      "definition": "Optional MSCA analysis profile for an explicitly situated control question; it does not impose an MSCA form on every node.",
+      "translations": {
+        "es": "vista MSCA",
+        "en": "MSCA analysis view"
+      },
+      "aliases": {
+        "es": [
+          "arquitectura de control"
+        ],
+        "en": [
+          "control architecture view"
+        ]
+      },
+      "example": {
+        "objective_ref": "OBJ-EXAMPLE",
+        "review_status": "not_assessed"
+      },
+      "constraints": [
+        "MSCA is an optional situated profile.",
+        "Do not transfer Atlas A/B/C/D into MSCA sufficiency or execution authority."
+      ],
+      "definition_language": "en"
+    },
+    {
+      "key": "proposed:node-question",
+      "kind": "flexible_tag",
+      "value_type": "string",
+      "definition": "The concrete question that this thought unit answers for a reader.",
+      "distinction": "Describes the explanatory purpose of a node; it does not replace a situated walk's decision question.",
+      "example": "What is the difference between a program's input grammar and the inputs on which it actually halts?",
+      "state": "proposed",
+      "applies_to": [
+        "node"
+      ],
+      "required_if": "never",
+      "origin_language": "en",
+      "author": "Atlas node documentation review",
+      "review_date": "2026-11-05",
+      "constraints": [
+        "Use only when it adds supported explanatory information.",
+        "Retain the difference between source claims, editorial explanation and constructed examples."
+      ],
+      "counterexample": "Repeating the node title or adding the same generic text to every card.",
+      "translations": {
+        "en": "node question"
+      },
+      "aliases": {
+        "en": []
+      }
+    },
+    {
+      "key": "proposed:node-formulations",
+      "kind": "reserved_field",
+      "json_path": "/formulations",
+      "value_type": "array",
+      "definition": "Formal expressions belonging to a node, with notation, units or reference conventions and located sources where applicable.",
+      "distinction": "Records the formulation itself; node:mechanism describes operation in prose. The expression is stored once in the reserved field.",
+      "example": [
+        {
+          "expression": "E = C − K(x)",
+          "notation": [
+            {
+              "symbol": "C",
+              "meaning": "selected information capacity",
+              "unit": "bits"
+            },
+            {
+              "symbol": "K(x)",
+              "meaning": "algorithmic description length of state x",
+              "unit": "bits"
+            }
+          ]
+        }
+      ],
+      "state": "proposed",
+      "applies_to": [
+        "node"
+      ],
+      "required_if": "never",
+      "origin_language": "en",
+      "author": "Atlas node documentation review",
+      "review_date": "2026-11-05",
+      "constraints": [
+        "Use only when it adds supported explanatory information.",
+        "Retain the difference between source claims, editorial explanation and constructed examples."
+      ],
+      "counterexample": "Repeating the node title or adding the same generic text to every card.",
+      "translations": {
+        "en": "node formulations"
+      },
+      "aliases": {
+        "en": []
+      }
+    },
+    {
+      "key": "proposed:node-example",
+      "kind": "flexible_tag",
+      "value_type": "object",
+      "definition": "A concrete worked example that makes the thought understandable, identifying whether it is source-reported or constructed for explanation.",
+      "distinction": "An illustration is not an observed outcome. node:observable describes what can be measured rather than supplying a worked example.",
+      "example": {
+        "kind": "constructed_illustration",
+        "situation": "A universe has eight equiprobable states.",
+        "reasoning": "Its information capacity is log₂ 8.",
+        "result": "C = 3 bits."
+      },
+      "state": "proposed",
+      "applies_to": [
+        "node"
+      ],
+      "required_if": "never",
+      "origin_language": "en",
+      "author": "Atlas node documentation review",
+      "review_date": "2026-11-05",
+      "constraints": [
+        "Use only when it adds supported explanatory information.",
+        "Retain the difference between source claims, editorial explanation and constructed examples."
+      ],
+      "counterexample": "Repeating the node title or adding the same generic text to every card.",
+      "translations": {
+        "en": "node example"
+      },
+      "aliases": {
+        "en": []
+      }
+    },
+    {
+      "key": "proposed:node-derivation",
+      "kind": "flexible_tag",
+      "value_type": "array",
+      "definition": "An ordered explanatory chain from premises or definitions to a stated result, identifying algebraic reasoning and any additional assumptions.",
+      "distinction": "A derivation explains why a result follows. node:mechanism explains how a process operates; neither substitutes for the other.",
+      "example": [
+        "Fix H(Ω).",
+        "Define E(𝒫)=H(Ω)−H(𝒫).",
+        "Subtract the initial and final definitions to obtain ΔE=−ΔH."
+      ],
+      "state": "proposed",
+      "applies_to": [
+        "node"
+      ],
+      "required_if": "never",
+      "origin_language": "en",
+      "author": "Atlas node documentation review",
+      "review_date": "2026-11-05",
+      "constraints": [
+        "Use only when it adds supported explanatory information.",
+        "Retain the difference between source claims, editorial explanation and constructed examples."
+      ],
+      "counterexample": "Repeating the node title or adding the same generic text to every card.",
+      "translations": {
+        "en": "node derivation"
+      },
+      "aliases": {
+        "en": []
+      }
+    },
+    {
+      "key": "proposed:node-terminology",
+      "kind": "flexible_tag",
+      "value_type": "array",
+      "definition": "Local meanings of the technical terms or symbols a reader needs to understand this node, with source-specific meanings retained.",
+      "distinction": "Defines vocabulary within the card. It does not create a global theme or equate similarly named quantities across manuscripts.",
+      "example": [
+        {
+          "term": "halting domain",
+          "meaning": "The inputs on which the specified machine eventually terminates."
+        }
+      ],
+      "state": "proposed",
+      "applies_to": [
+        "node"
+      ],
+      "required_if": "never",
+      "origin_language": "en",
+      "author": "Atlas node documentation review",
+      "review_date": "2026-11-05",
+      "constraints": [
+        "Use only when it adds supported explanatory information.",
+        "Retain the difference between source claims, editorial explanation and constructed examples."
+      ],
+      "counterexample": "Repeating the node title or adding the same generic text to every card.",
+      "translations": {
+        "en": "node terminology"
+      },
+      "aliases": {
+        "en": []
+      }
+    },
+    {
+      "key": "proposed:node-failure-mode",
+      "kind": "flexible_tag",
+      "value_type": "string",
+      "definition": "A specific way the idea, model, application or interpretation can fail, together with the condition that makes that failure relevant.",
+      "distinction": "A failure mode describes an identified breakdown. node:condition states a prerequisite; this tag is not a mandatory disclaimer.",
+      "example": "Reading a stationary solution as stable without checking the sign of the local derivative can reverse the predicted dynamics.",
+      "state": "proposed",
+      "applies_to": [
+        "node"
+      ],
+      "required_if": "never",
+      "origin_language": "en",
+      "author": "Atlas node documentation review",
+      "review_date": "2026-11-05",
+      "constraints": [
+        "Use only when it adds supported explanatory information.",
+        "Retain the difference between source claims, editorial explanation and constructed examples."
+      ],
+      "counterexample": "Repeating the node title or adding the same generic text to every card.",
+      "translations": {
+        "en": "node failure mode"
+      },
+      "aliases": {
+        "en": []
+      }
+    }
+  ],
+  "controlled_vocabularies": {
+    "ABCD": {
+      "authority": "EA/EP 00M v0.8 §1 — adopted semantics; reused here without modification",
+      "scope": "walk step relative to whole prefix and position",
+      "A": {
+        "es": "explotación activa",
+        "en": "active exploitation",
+        "rule": "function or result actually used/delivered by declared process"
+      },
+      "B": {
+        "es": "reserva de explotación caracterizada",
+        "en": "characterized exploitation reserve",
+        "rule": "assessable option with method and conditions, not necessarily used"
+      },
+      "C": {
+        "es": "frontera de exploración",
+        "en": "exploration frontier",
+        "rule": "grounded relevant avenue not yet characterized for defensible evaluation"
+      },
+      "D": {
+        "es": "residual más allá de evaluación efectiva",
+        "en": "beyond-effective-evaluation residual",
+        "rule": "potentially material influence beyond current effective assessment"
+      },
+      "UNKNOWN": {
+        "es": "pendiente de calificación",
+        "en": "unqualified pending review",
+        "rule": "not an ABCD value; do not manufacture a classification"
+      }
+    },
+    "JF": {
+      "authority": "Jumps & Falls research framing; separate from JUBAP and FG-TIDA F-series",
+      "scope": "functional overlay on an assessed walk step, after ABCD",
+      "JF.F1": {
+        "es": "entrada / coste de claridad",
+        "en": "input / cost of clarity",
+        "role": "information acquisition, meaning and availability"
+      },
+      "JF.F2": {
+        "es": "procesamiento / proporcionalidad",
+        "en": "processing / proportionality",
+        "role": "transformation mechanism and its feasible effort"
+      },
+      "JF.F3": {
+        "es": "salida / objetivo",
+        "en": "output / objective",
+        "role": "declared or observed outcome and value"
+      },
+      "JF.F4": {
+        "es": "efectos colaterales",
+        "en": "collateral effects",
+        "role": "direct or indirect effects outside primary chain; parallel and transversal"
+      },
+      "notes": [
+        "F1→F2→F3 functional chain; F4 is not mandatory fourth step",
+        "JF.F4 is compatible with ABCD.A/B/C/D",
+        "Jump/Walk/Fall outcomes are not factor numbers"
+      ]
+    },
+    "TERMINAL": [
+      "D",
+      "END_OF_GRAPH",
+      "CUT_NO_RELEVANCE",
+      "BUDGET",
+      "CYCLE",
+      "REVIEW_PENDING"
+    ]
+  },
+  "governance": {
+    "proposal_record_fields": [
+      "proposed_key",
+      "definition",
+      "applies_to",
+      "value_type",
+      "synonyms",
+      "translation",
+      "nearest_existing_keys",
+      "reason_not_reuse",
+      "source_item_refs",
+      "author",
+      "status",
+      "decision"
+    ],
+    "permitted_decisions": [
+      "reuse",
+      "new",
+      "alias",
+      "split",
+      "merge",
+      "deprecate",
+      "defer"
+    ],
+    "promotion_requires": [
+      "semantic_review",
+      "version_increment",
+      "collision_check",
+      "migration_impact_check"
+    ],
+    "deprecation_requires": [
+      "replacement_or_reason",
+      "mapping_version",
+      "backward_resolution"
+    ],
+    "review_policy": "Bots may propose and locally use provisional labels; publication as shared dictionary key requires explicit review of meaning, examples and aliases."
+  },
+  "default_language": "en",
+  "based_on": {
+    "dictionary_id": "perspective-beyond-atlas-tags",
+    "dictionary_version": "0.1.0",
+    "blob_sha": "9fa7f18c7905cfaa80884515ee4311c4230c73ed",
+    "url": "https://github.com/dakleyer/structural-awareness-contributions/blob/atlas/phase-2-epistemic-distance-20261104/research/structural-awareness/atlas-phase-2/TAG_DICTIONARY_v0.1.json"
+  },
+  "extension_review": {
+    "existing_keys_preserved": 28,
+    "new_keys": 6,
+    "shared_canonical_status": "New proposed keys are explicitly identified; controlled research definitions remain unchanged.",
+    "rationale": "Source anchoring and a valid JSON shape do not by themselves explain a thought. The added entries distinguish a question, formulation, terminology, worked example, derivation and specific failure mode."
+  }
+}
