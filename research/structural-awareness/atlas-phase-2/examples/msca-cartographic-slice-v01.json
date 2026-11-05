@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "Atlas/MSCA cartographic slice v0.1 — situated agent handoff",
+    "version": "0.1-experimental",
+    "as_of": "2026-11-04",
+    "source_atlas_fixture": "language-v02-pilot.json",
+    "source_msca_fixture": "msca-view-v01.json",
+    "evidence_status": "synthetic_handoff_of_mixed_public_and_synthetic_atlas_content",
+    "notice": "No Nestlé agent is claimed. Source-documented JUBAP/Kotter relations and synthetic transfer/roleplay paths remain distinct. This is a proposed Atlas adapter, not a canonical Cart_i or proof of MSCA sufficiency."
+  },
+  "slices": [
+    {
+      "slice_id": "SLICE-JUBAP-001",
+      "version": "0.1-experimental",
+      "producer": {
+        "agent_id": "AGENT-ILLUSTRATIVE-01",
+        "agent_status": "synthetic_teaching_agent",
+        "cart_i_ref": null,
+        "cart_i_state": "NOT_INSTANTIATED_IN_CANONICAL_MSCA",
+        "as_of": "2026-11-04"
+      },
+      "focal_context": {
+        "activity": "Estudiar una operación hipotética de transformación organizativa",
+        "decision": "¿Qué parte del mapa conceptual es pertinente para una pregunta de control sobre transformación?",
+        "focal_msca_view_ref": "MSCA-JUBAP-CHANGE-001",
+        "objective_envelope_ref": null,
+        "objective_binding_status": "UNBOUND",
+        "architectural_role_ref": null,
+        "horizon": "UNKNOWN",
+        "source_limit": "Historical published field note plus declared teaching hypotheses; no active mandate"
+      },
+      "selection": {
+        "seed_cluster_refs": ["CL-JUBAP"],
+        "position_refs": ["W-JFW", "W-COLLATERAL"],
+        "seed_node_refs": ["JFW"],
+        "reason": "El clúster de transformación es el punto de partida de la pregunta; se añade una rama colateral para probar cierre parcial.",
+        "theme_selection": [
+          {
+            "theme_ref": "TH-TRANSFORMATION",
+            "node_ref": "JFW",
+            "weight": 1.0,
+            "basis": "public_node_theme_assignment",
+            "state": "provisional_not_global_percentage"
+          }
+        ],
+        "theme_percentage_policy": "NOT_DEFINED_IN_THIS_PHASE",
+        "materiality_override": "Retener dependencias de control relevantes aunque su afinidad temática sea baja."
+      },
+      "internal_slice": {
+        "item_hooks": [
+          {"item_ref": "ITEM-JUBAP-FRAMEWORK", "uri": "https://jubap.eu/the-jubap-framework/", "locator": "framework y herramienta Focus ON", "evidence_status": "source_documented"},
+          {"item_ref": "ITEM-NESTLE-CASE", "uri": "https://jubap.eu/nestle-case-study-where-jubap-was-first-named/", "locator": "The mandate & the setup / eight Kotter steps", "evidence_status": "source_documented"},
+          {"item_ref": "ITEM-TRANSFER-HYPOTHESIS", "uri": "examples/language-v02-pilot.json", "locator": "/scenarios/transfer", "evidence_status": "synthetic_hypothesis"},
+          {"item_ref": "ITEM-ROLEPLAY-HYPOTHESIS", "uri": "examples/language-v02-pilot.json", "locator": "/scenarios/collateral", "evidence_status": "synthetic_hypothesis"}
+        ],
+        "node_refs": ["JFW", "KOT", "OUTSIDE", "MULTI", "EXT", "RPL", "EMO"],
+        "conceptual_edge_refs": ["E-J02", "E-J03", "E-J04", "E-J05", "E-J06", "E-J07"],
+        "material_dependency_refs": [],
+        "material_dependency_state": "NOT_QUALIFIED_BY_THIS_EXAMPLE",
+        "objective_envelope_node_refs": [],
+        "objective_envelope_graph_state": "NO_OWNER_BOUND_OBJECTIVE_NODE_ESTABLISHED",
+        "walks": [
+          {
+            "walk_ref": "W-JFW",
+            "origin": "JFW",
+            "position_scope": "Historical case plus explicitly synthetic transfer",
+            "path": [
+              {"edge_ref": "E-J02", "from": "JFW", "to": "KOT", "direction": "forward", "abcd": "A", "jf_roles": ["JF.F2"], "item_refs": ["ITEM-NESTLE-CASE"]},
+              {"edge_ref": "E-J03", "from": "KOT", "to": "OUTSIDE", "direction": "forward", "abcd": "C", "jf_roles": ["JF.F2"], "item_refs": ["ITEM-TRANSFER-HYPOTHESIS"]},
+              {"edge_ref": "E-J04", "from": "OUTSIDE", "to": "MULTI", "direction": "forward", "abcd": "C", "jf_roles": ["JF.F3"], "item_refs": ["ITEM-TRANSFER-HYPOTHESIS"]},
+              {"edge_ref": "E-J05", "from": "MULTI", "to": "EXT", "direction": "forward", "abcd": "D", "jf_roles": ["JF.F4"], "item_refs": ["ITEM-TRANSFER-HYPOTHESIS"]}
+            ],
+            "terminal_kind": "D",
+            "complete_to_D": true,
+            "boundary_reason": "Al intentar transferir el caso a otro entorno, este recorrido documental no tiene capacidad para evaluar condiciones externas potencialmente materiales."
+          },
+          {
+            "walk_ref": "W-COLLATERAL",
+            "origin": "JFW",
+            "position_scope": "Synthetic collateral-effect teaching scenario",
+            "path": [
+              {"edge_ref": "E-J06", "from": "JFW", "to": "RPL", "direction": "forward", "abcd": "A", "jf_roles": ["JF.F2"], "item_refs": ["ITEM-ROLEPLAY-HYPOTHESIS"]},
+              {"edge_ref": "E-J07", "from": "RPL", "to": "EMO", "direction": "forward", "abcd": "C", "jf_roles": ["JF.F4"], "item_refs": ["ITEM-ROLEPLAY-HYPOTHESIS"]}
+            ],
+            "terminal_kind": "END_OF_GRAPH",
+            "complete_to_D": false,
+            "boundary_reason": "El ejercicio ilustrativo termina sin haber establecido una ruta a D; su frontera C sigue abierta."
+          }
+        ],
+        "coverage_summary": {
+          "selected_roots": 1,
+          "selected_walks": 2,
+          "walks_closed_to_D": 1,
+          "walks_partial": 1,
+          "universal_coverage_claim": false,
+          "scope": "Only these two prequalified routes, not all routes of CL-JUBAP"
+        }
+      },
+      "control_projection": {
+        "msca_view_ref": "MSCA-JUBAP-CHANGE-001",
+        "msca_kernel": "S/E/C/P/M",
+        "slot_states": {"S": "UNKNOWN", "E": "POPULATED", "C": "UNKNOWN", "P": "UNKNOWN", "M": "UNKNOWN"},
+        "assessment_state": "UNASSESSED",
+        "authority_state": "NOT_ESTABLISHED",
+        "note": "Atlas A/B/C/D findings do not establish MSCA sufficiency or execution rights."
+      },
+      "disclosure_example": {
+        "receiver_agent_id": "AGENT-ILLUSTRATIVE-02",
+        "state": "PREPARED_NOT_TRANSMITTED",
+        "included_walk_refs": ["W-JFW"],
+        "omitted_walk_count": 1,
+        "omission_qualifier": "NOT_DECLARED",
+        "receiver_must_not_infer": ["D=0", "complete_epistemology", "owner_authority", "MSCA_sufficiency"],
+        "reason": "Ilustración de una proyección diferente de la lámina interna; no hay política de permiso implementada."
+      },
+      "receiver_analysis": {
+        "state": "NOT_EVALUATED",
+        "blindspots_found": [],
+        "candidate_questions": [
+          "¿Existe en el mapa del receptor una condición externa material del tramo MULTI→EXT?",
+          "¿Qué diferencias de fuente, horizonte o mandato impiden comparar las representaciones?"
+        ],
+        "claim": "No se ha ejecutado ni probado una composición multiagente."
+      },
+      "requalification_on_change": [
+        {"item_ref": "ITEM-NESTLE-CASE", "affected_walk_refs": ["W-JFW"], "effect": "review_dependent_projection"},
+        {"item_ref": "ITEM-TRANSFER-HYPOTHESIS", "affected_walk_refs": ["W-JFW"], "effect": "review_dependent_projection"},
+        {"item_ref": "ITEM-ROLEPLAY-HYPOTHESIS", "affected_walk_refs": ["W-COLLATERAL"], "effect": "review_dependent_projection"}
+      ],
+      "review_status": "experimental_candidate"
+    }
+  ]
+}

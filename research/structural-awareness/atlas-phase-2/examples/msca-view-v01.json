@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "Atlas Phase 2 — Optional MSCA control-view adapter",
+    "version": "0.1-experimental",
+    "as_of": "2026-11-04",
+    "source_fixture": "language-v02-pilot.json",
+    "dictionary_version": "0.1.1",
+    "normative_source": "standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md",
+    "status": "prototype_not_operational",
+    "notice": "This adapter does not define or change canonical MSCA. All objectives are unbound; all assessments remain UNASSESSED. Historical context is attributed to a published field note, whereas roleplay and transfer effects are synthetic hypotheses. No MSCA sufficiency or deployment is claimed."
+  },
+  "views": [
+    {
+      "view_id": "MSCA-JUBAP-CHANGE-001",
+      "adapter_version": "0.1-experimental",
+      "kind": "historical_context_as_control_questions",
+      "description": "Vista exploratoria sobre qué requeriría controlar un programa de transformación; lectura retrospectiva de un caso publicado, no un MSCA demostrado en Nestlé.",
+      "source_map": {
+        "cluster_refs": ["CL-JUBAP"],
+        "theme_refs": ["TH-TRANSFORMATION"],
+        "node_refs": ["JFW", "FON", "KOT"],
+        "walk_refs": ["W-JFW", "W-FON"],
+        "item_refs": ["ITEM-JUBAP-FRAMEWORK", "ITEM-NESTLE-CASE"],
+        "observations": [
+          {
+            "walk_ref": "W-JFW",
+            "step_index": 0,
+            "atlas_abcd": "A",
+            "atlas_jf": ["JF.F2"],
+            "msca_implication": "Historical alignment suggests a candidate intervention question, not sufficiency."
+          },
+          {
+            "walk_ref": "W-FON",
+            "step_index": 1,
+            "atlas_abcd": "C",
+            "atlas_jf": ["JF.F2"],
+            "msca_implication": "The Focus ON path lacks a characterized Kotter use; no assumed control transfer."
+          }
+        ]
+      },
+      "scope": {
+        "activity": "Diseño hipotético de control para una transformación organizativa",
+        "decision": "¿Qué configuración de coordinación, intervención y medios bastaría para un objetivo de cambio realmente declarado?",
+        "process_boundary": "Por definir para una organización y proyecto específicos; no se reinterpreta un mandato histórico.",
+        "horizon": "UNKNOWN",
+        "as_of": "2026-11-04"
+      },
+      "objective_binding": {
+        "owner_status": "UNKNOWN",
+        "owner_ref": null,
+        "envelope_ref": null,
+        "binding_status": "UNBOUND",
+        "reason": "La fuente histórica no convierte al autor del Atlas en titular del objetivo de un proyecto actual."
+      },
+      "msca": {
+        "S": {"state": "UNKNOWN", "value": null, "item_refs": [], "reason": "Objetivo, rangos, restricciones duras y titular legítimo no establecidos para esta vista."},
+        "E": {"state": "POPULATED", "value": "Existe un relato publicado del caso Nestlé y su articulación metodológica, sin datos operativos actuales para trasladarlo a otro entorno.", "item_refs": ["ITEM-NESTLE-CASE"], "qualification": "historical_source_only"},
+        "C": {"state": "UNKNOWN", "value": null, "item_refs": [], "reason": "No se determina qué actores o recursos podría coordinar legítimamente un nuevo titular."},
+        "P": {"state": "UNKNOWN", "value": null, "item_refs": [], "reason": "JUBAP/Focus ON/Kotter son candidatos a estudiar; no se establecen disponibilidad, latencia, precondiciones ni capacidad actual."},
+        "M": {"state": "UNKNOWN", "value": null, "item_refs": [], "reason": "Observación, intervención, personas y medida independiente del efecto no establecidos."}
+      },
+      "candidate_questions": [
+        "¿Quién es el propietario del Objective Envelope y qué rango de resultados exige?",
+        "¿Qué condiciones del contexto histórico son relevantes y cuáles no son transferibles?",
+        "¿Qué alcance de coordinación, permisos y recursos existe realmente?",
+        "¿Qué datos y medición de efectos demostrarían que las intervenciones funcionan?"
+      ],
+      "candidate_configurations": [],
+      "assessment": {"state": "UNASSESSED", "configuration_refs": [], "rationale": "No hay S legitimado, E operativo completo ni evaluación de alternativas."},
+      "qualified_position_msca": null,
+      "authority_boundary": {"authorization_state": "NOT_ESTABLISHED", "execution_state": "NOT_ESTABLISHED", "effect_state": "NOT_ESTABLISHED"},
+      "dependencies": [
+        {"field": "E", "item_ref": "ITEM-NESTLE-CASE", "on_change": "requalify_dependent_claims"}
+      ],
+      "etiquetas": [
+        {
+          "key": "profile:msca",
+          "value": {"profile": "optional_control_view", "adapter_version": "0.1-experimental"},
+          "basis": "adapter_proposal",
+          "item_refs": ["ITEM-NESTLE-CASE"],
+          "dictionary_state": "candidate_local_only"
+        }
+      ],
+      "review_status": "experimental_candidate"
+    },
+    {
+      "view_id": "MSCA-JUBAP-HUMAN-002",
+      "adapter_version": "0.1-experimental",
+      "kind": "synthetic_separate_control_question",
+      "description": "Vista independiente para imaginar cómo investigar un eventual efecto emocional de una dinámica de rol; no prueba el efecto ni se fusiona con el objetivo de cambio empresarial.",
+      "source_map": {
+        "cluster_refs": ["CL-JUBAP"],
+        "theme_refs": [],
+        "node_refs": ["JFW", "RPL", "EMO"],
+        "walk_refs": ["W-COLLATERAL"],
+        "item_refs": ["ITEM-ROLEPLAY-HYPOTHESIS"],
+        "observations": [
+          {
+            "walk_ref": "W-COLLATERAL",
+            "step_index": 1,
+            "atlas_abcd": "C",
+            "atlas_jf": ["JF.F4"],
+            "msca_implication": "A collateral C is an exploration question; it is neither an established objective nor a measured effect."
+          }
+        ]
+      },
+      "scope": {
+        "activity": "Investigación hipotética de una posible consecuencia humana",
+        "decision": "¿Qué debería autorizarse, observarse y medir para evaluar un efecto humano en un proceso delimitado?",
+        "process_boundary": "No existe proceso real delimitado en este ejemplo sintético.",
+        "horizon": "UNKNOWN",
+        "as_of": "2026-11-04"
+      },
+      "objective_binding": {
+        "owner_status": "UNKNOWN",
+        "owner_ref": null,
+        "envelope_ref": null,
+        "binding_status": "UNBOUND",
+        "reason": "La hipótesis no establece un titular legítimo ni un objetivo de intervención humana."
+      },
+      "msca": {
+        "S": {"state": "UNKNOWN", "value": null, "item_refs": [], "reason": "No se ha autorizado ni delimitado objetivo humano."},
+        "E": {"state": "POPULATED", "value": "Solo escenario didáctico declarado en el fixture Atlas: posible efecto colateral de roleplay.", "item_refs": ["ITEM-ROLEPLAY-HYPOTHESIS"], "qualification": "synthetic_assumption_only"},
+        "C": {"state": "UNKNOWN", "value": null, "item_refs": [], "reason": "Participantes, ámbito de coordinación, confidencialidad y mandato no establecidos."},
+        "P": {"state": "UNPOPULATED", "value": null, "item_refs": [], "reason": "No se ofrece intervención técnicamente/éticamente evaluada."},
+        "M": {"state": "UNKNOWN", "value": null, "item_refs": [], "reason": "No se dispone de medios de medida independiente ni observabilidad cualificada."}
+      },
+      "candidate_questions": [
+        "¿La hipótesis admite una evaluación legítima y adecuada al ámbito humano?",
+        "¿Qué observa y mide realmente la técnica, separando efecto intencional y colateral?",
+        "¿Qué condiciones y límites protegerían a los participantes?"
+      ],
+      "candidate_configurations": [],
+      "assessment": {"state": "UNASSESSED", "configuration_refs": [], "rationale": "Es un escenario didáctico sin S ni resultados evaluados."},
+      "qualified_position_msca": null,
+      "authority_boundary": {"authorization_state": "NOT_ESTABLISHED", "execution_state": "NOT_ESTABLISHED", "effect_state": "NOT_ESTABLISHED"},
+      "dependencies": [
+        {"field": "E", "item_ref": "ITEM-ROLEPLAY-HYPOTHESIS", "on_change": "requalify_dependent_claims"}
+      ],
+      "etiquetas": [
+        {
+          "key": "profile:msca",
+          "value": {"profile": "optional_control_view", "adapter_version": "0.1-experimental"},
+          "basis": "adapter_proposal",
+          "item_refs": ["ITEM-ROLEPLAY-HYPOTHESIS"],
+          "dictionary_state": "candidate_local_only"
+        }
+      ],
+      "review_status": "experimental_candidate"
+    }
+  ]
+}

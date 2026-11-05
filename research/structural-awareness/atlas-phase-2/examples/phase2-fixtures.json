@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "name": "Perspective Beyond · Phase 2 path experiment",
+    "version": "0.1-draft",
+    "as_of": "2026-11-04",
+    "status": "synthetic_methodological_fixture",
+    "warning": "The walk assessments are experimental and contextual, not global edge attributes or scientific validation."
+  },
+  "scenarios": {
+    "cat_mouse": {
+      "premise": "A cat pursuing a mouse; a synthetic epistemic boundary illustration rather than an ethological observation.",
+      "D_condition": "A shift from pursuit to affectionate interaction could materially change the outcome, but the declared pursuit-only procedure cannot evaluate it."
+    },
+    "jubap": {
+      "premise": "Public field-note relationship between JUBAP, Focus ON and Kotter in the Nestlé setting.",
+      "D_condition": "Unobserved organizational and contextual constraints could materially affect transfer to new sites but cannot be evaluated with the evidence and capability declared for this walk. Later steps are hypothetical, not implemented JUBAP features."
+    }
+  },
+  "items": [
+    {
+      "id": "ITEM-JUBAP-FRAMEWORK",
+      "kind": "public_web_page",
+      "hook": {
+        "uri": "https://jubap.eu/the-jubap-framework/",
+        "locator": "framework description and Focus ON",
+        "revision": null,
+        "observed_at": "2026-11-04"
+      },
+      "evidence_role": "public_field_account"
+    },
+    {
+      "id": "ITEM-NESTLE-CASE",
+      "kind": "public_web_page",
+      "hook": {
+        "uri": "https://jubap.eu/nestle-case-study-where-jubap-was-first-named/",
+        "locator": "JUBAP, Kotter and Nestlé Continuous Excellence",
+        "revision": null,
+        "observed_at": "2026-11-04"
+      },
+      "evidence_role": "public_field_account"
+    },
+    {
+      "id": "ITEM-SYNTHETIC-CAT",
+      "kind": "synthetic_example",
+      "hook": {
+        "uri": "examples/phase2-fixtures.json",
+        "locator": "/scenarios/cat_mouse",
+        "revision": "0.1-draft",
+        "observed_at": "2026-11-04"
+      },
+      "evidence_role": "teaching_fixture_not_empirical_evidence"
+    },
+    {
+      "id": "ITEM-SYNTHETIC-JUBAP",
+      "kind": "synthetic_example",
+      "hook": {
+        "uri": "examples/phase2-fixtures.json",
+        "locator": "/scenarios/jubap",
+        "revision": "0.1-draft",
+        "observed_at": "2026-11-04"
+      },
+      "evidence_role": "boundary_hypothesis_not_historical_claim"
+    }
+  ],
+  "nodes": [
+    {"id":"CAT","label":"Gato","description":"Gato dentro de una escena sintética de persecución.","item_refs":["ITEM-SYNTHETIC-CAT"],"version":"0.1"},
+    {"id":"MOUSE","label":"Ratón","description":"Ratón perseguido en esta escena.","item_refs":["ITEM-SYNTHETIC-CAT"],"version":"0.1"},
+    {"id":"CHASE","label":"Persecución","description":"Actividad de persecución.","item_refs":["ITEM-SYNTHETIC-CAT"],"version":"0.1"},
+    {"id":"SCRATCH","label":"Arañar","description":"Interacción física hipotética dentro de la persecución.","item_refs":["ITEM-SYNTHETIC-CAT"],"version":"0.1"},
+    {"id":"CLAW","label":"Uña","description":"Instrumento corporal conectado al arañazo.","item_refs":["ITEM-SYNTHETIC-CAT"],"version":"0.1"},
+    {"id":"FUR","label":"Pelo","description":"Superficie que puede relacionarse con contacto, sin caracterizar todavía la actividad.","item_refs":["ITEM-SYNTHETIC-CAT"],"version":"0.1"},
+    {"id":"TOUCH","label":"Contacto con pelo","description":"Posibilidad de contacto que no resuelve el modo de interacción.","item_refs":["ITEM-SYNTHETIC-CAT"],"version":"0.1"},
+    {"id":"PET","label":"Acariciar","description":"Cambio hipotético de actividad con posible efecto material.","item_refs":["ITEM-SYNTHETIC-CAT"],"version":"0.1"},
+    {"id":"JFW","label":"JUBAP · framework","description":"Framework documentado en relatos públicos y su articulación histórica con otras herramientas.","item_refs":["ITEM-JUBAP-FRAMEWORK","ITEM-NESTLE-CASE"],"version":"0.1"},
+    {"id":"FON","label":"Focus ON","description":"Instrumento de lectura diagnóstica del framework, no equivalente al framework completo.","item_refs":["ITEM-JUBAP-FRAMEWORK"],"version":"0.1"},
+    {"id":"KOT","label":"Kotter · ocho pasos","description":"Marco históricamente articulado con JUBAP en el caso Nestlé.","item_refs":["ITEM-NESTLE-CASE"],"version":"0.1"},
+    {"id":"OUTSIDE","label":"Transferencia fuera del caso","description":"Hipótesis de uso en un ámbito distinto del caso documentado.","item_refs":["ITEM-SYNTHETIC-JUBAP"],"version":"0.1"},
+    {"id":"MULTI","label":"Generalización multisitio","description":"Hipótesis todavía no caracterizada en este ejercicio.","item_refs":["ITEM-SYNTHETIC-JUBAP"],"version":"0.1"},
+    {"id":"UNIVERSAL","label":"Condiciones externas no observadas","description":"Influencias potencialmente materiales para la transferencia que el proceso y las fuentes actuales no pueden evaluar.","item_refs":["ITEM-SYNTHETIC-JUBAP"],"version":"0.1"},
+    {"id":"ALT","label":"Diagnóstico alternativo configurable","description":"Reserva caracterizada ficticia con medios de evaluación conocidos, no ejecución histórica afirmada.","item_refs":["ITEM-SYNTHETIC-JUBAP"],"version":"0.1"}
+  ],
+  "edges": [
+    {"id":"E-C01","source":"CAT","target":"MOUSE","predicate":"persigue","reason":"Premisa del caso sintético","item_refs":["ITEM-SYNTHETIC-CAT"]},
+    {"id":"E-C02","source":"MOUSE","target":"CHASE","predicate":"participa en","reason":"Premisa del caso sintético","item_refs":["ITEM-SYNTHETIC-CAT"]},
+    {"id":"E-C03","source":"CHASE","target":"SCRATCH","predicate":"puede incluir","reason":"Candidato de interacción física","item_refs":["ITEM-SYNTHETIC-CAT"]},
+    {"id":"E-C04","source":"SCRATCH","target":"CLAW","predicate":"emplea","reason":"Mecanismo en el ejemplo","item_refs":["ITEM-SYNTHETIC-CAT"]},
+    {"id":"E-C05","source":"CLAW","target":"FUR","predicate":"puede contactar","reason":"Candidato de transición","item_refs":["ITEM-SYNTHETIC-CAT"]},
+    {"id":"E-C06","source":"FUR","target":"TOUCH","predicate":"invita a explorar","reason":"Conexión semántica pertinente pero no caracterizada","item_refs":["ITEM-SYNTHETIC-CAT"]},
+    {"id":"E-C07","source":"TOUCH","target":"PET","predicate":"puede cambiar hacia","reason":"Candidato de cambio de actividad y desenlace","item_refs":["ITEM-SYNTHETIC-CAT"]},
+    {"id":"E-J01","source":"JFW","target":"FON","predicate":"integra como instrumento","reason":"Asociación publicada de framework e instrumento","item_refs":["ITEM-JUBAP-FRAMEWORK"]},
+    {"id":"E-J02","source":"JFW","target":"KOT","predicate":"se articuló con","reason":"Asociación histórica del caso Nestlé","item_refs":["ITEM-NESTLE-CASE"]},
+    {"id":"E-J03","source":"KOT","target":"OUTSIDE","predicate":"sugiere investigar transferencia","reason":"Hipótesis del experimento, no afirmación histórica","item_refs":["ITEM-SYNTHETIC-JUBAP"]},
+    {"id":"E-J04","source":"OUTSIDE","target":"MULTI","predicate":"abre hipótesis de generalización","reason":"Hipótesis del experimento","item_refs":["ITEM-SYNTHETIC-JUBAP"]},
+    {"id":"E-J05","source":"MULTI","target":"UNIVERSAL","predicate":"podría verse alterada por","reason":"Influencias hipotéticas materiales que exceden medios de evaluación","item_refs":["ITEM-SYNTHETIC-JUBAP"]},
+    {"id":"E-J06","source":"FON","target":"ALT","predicate":"admite alternativa caracterizada hipotética","reason":"Sirve para contrastar reserva B con ejecución A","item_refs":["ITEM-SYNTHETIC-JUBAP"]}
+  ],
+  "walks": [
+    {
+      "id": "W-CAT", "position": {"origin":"CAT","activity":"persecución","question":"¿Qué cambia la interacción gato–ratón?","scope":"escena sintética","capability":"proceso de caza sin evaluación afectiva","as_of":"2026-11-04"},
+      "steps": [
+        {"edge":"E-C01","dir":1,"status":"A","reason":"relación inicial de persecución"},
+        {"edge":"E-C02","dir":1,"status":"A","reason":"rol dentro de la actividad"},
+        {"edge":"E-C03","dir":1,"status":"A","reason":"mecanismo admitido en el escenario"},
+        {"edge":"E-C04","dir":1,"status":"A","reason":"medio de acción dentro del escenario"},
+        {"edge":"E-C05","dir":1,"status":"C","reason":"posible contacto con pelo sin caracterización"},
+        {"edge":"E-C06","dir":1,"status":"C","reason":"múltiples modos de contacto aún no evaluables"},
+        {"edge":"E-C07","dir":1,"status":"D","reason":"interacción afectiva potencialmente altera el resultado y excede evaluación declarada"}
+      ],
+      "terminal_kind":"D", "review_status":"synthetic_proposed"
+    },
+    {
+      "id": "W-JFW", "position": {"origin":"JFW","activity":"articulación empresarial","question":"¿Hasta dónde alcanza el caso JUBAP en Nestlé?","scope":"caso documentado","capability":"lectura de campo pública, sin validación universal","as_of":"2026-11-04"},
+      "steps": [
+        {"edge":"E-J02","dir":1,"status":"A","reason":"articulación con Kotter documentada"},
+        {"edge":"E-J03","dir":1,"status":"C","reason":"nuevo contexto no caracterizado"},
+        {"edge":"E-J04","dir":1,"status":"C","reason":"generalización multisitio no caracterizada"},
+        {"edge":"E-J05","dir":1,"status":"D","reason":"condiciones externas materiales imposibles de evaluar en este alcance"}
+      ],
+      "terminal_kind":"D", "review_status":"mixed_public_and_synthetic_proposed"
+    },
+    {
+      "id": "W-FON", "position": {"origin":"FON","activity":"diagnóstico Focus ON","question":"¿Qué puede inferirse desde esta herramienta?","scope":"función diagnóstica, no framework completo","capability":"lectura de alcance instrumental","as_of":"2026-11-04"},
+      "steps": [
+        {"edge":"E-J01","dir":-1,"status":"A","reason":"Focus ON está dentro de JUBAP"},
+        {"edge":"E-J02","dir":1,"status":"C","reason":"Kotter está fuera de la función diagnóstica especificada"},
+        {"edge":"E-J03","dir":1,"status":"C","reason":"traslado a otros contextos permanece por explorar"},
+        {"edge":"E-J04","dir":1,"status":"C","reason":"sin variables/alcance para multisite"},
+        {"edge":"E-J05","dir":1,"status":"D","reason":"condiciones externas potencialmente determinantes exceden evaluación de Focus ON"}
+      ],
+      "terminal_kind":"D", "review_status":"mixed_public_and_synthetic_proposed"
+    },
+    {
+      "id": "W-OPTIONAL-B", "position": {"origin":"JFW","activity":"selección de herramientas","question":"¿Qué alternativas se pueden evaluar?","scope":"ensayo sintético","capability":"comparación de opciones definida, ejecución no realizada","as_of":"2026-11-04"},
+      "steps": [
+        {"edge":"E-J01","dir":1,"status":"A","reason":"herramienta integrada"},
+        {"edge":"E-J06","dir":1,"status":"B","reason":"alternativa ficticia caracterizada y evaluable pero no ejecutada"}
+      ],
+      "terminal_kind":"END_OF_GRAPH", "review_status":"synthetic_proposed"
+    },
+    {
+      "id": "W-PARTIAL", "position": {"origin":"FON","activity":"diagnóstico Focus ON","question":"¿Hasta dónde se ha revisado?","scope":"hilo no completado","capability":"presupuesto de exploración limitado","as_of":"2026-11-04"},
+      "steps": [
+        {"edge":"E-J01","dir":-1,"status":"A","reason":"vínculo con framework"},
+        {"edge":"E-J02","dir":1,"status":"C","reason":"candidato por caracterizar"}
+      ],
+      "terminal_kind":"BUDGET", "review_status":"synthetic_proposed"
+    }
+  ],
+  "rejected_candidates": [
+    {"source":"CAT","target":"KOT","reason":"No existe vínculo defendible dentro del escenario de persecución; sin arista y sin D."}
+  ],
+  "conceptual_clusters": [
+    {"id":"CL-JUBAP","position_origin":"JFW","core":"JFW","description":"Candidato a clúster principal por alcance funcional y articulación; evaluación pendiente."},
+    {"id":"CL-CAT","position_origin":"CAT","core":"CAT","description":"Clúster sintético para ensayar el límite contextual; no clasificación universal de animales."}
+  ],
+  "themes": [
+    {"id":"TH-METHOD","title":"Métodos de transformación","description":"Herramientas, intervención y diagnóstico organizacional.","primary_nodes":["JFW","FON","KOT","ALT"],"secondary_nodes":[]},
+    {"id":"TH-FRONTIER","title":"Fronteras de evaluación","description":"Transferencia, hipótesis y límites defendibles de inferencia.","primary_nodes":["OUTSIDE","MULTI","UNIVERSAL"],"secondary_nodes":[]},
+    {"id":"TH-CAT","title":"Interacción gato–ratón","description":"Escena didáctica para examinar continuidad y cambio de actividad.","primary_nodes":["CAT","MOUSE","CHASE","SCRATCH","CLAW","FUR","TOUCH","PET"],"secondary_nodes":[]}
+  ]
+}
