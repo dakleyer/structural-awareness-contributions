@@ -1,0 +1,328 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:perspective-beyond:node-card:0.2.0",
+  "title": "Perspective Beyond explanatory node card v0.2",
+  "type": "object",
+  "required": [
+    "id",
+    "record_type",
+    "label",
+    "description",
+    "item_refs",
+    "evidence_status",
+    "version",
+    "etiquetas",
+    "dictionary_ref"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "record_type": {
+      "const": "node"
+    },
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "item_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/itemRef"
+      }
+    },
+    "evidence_status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "etiquetas": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/tag"
+      }
+    },
+    "dictionary_ref": {
+      "type": "object",
+      "required": [
+        "id",
+        "version",
+        "blob_sha"
+      ],
+      "properties": {
+        "id": {
+          "const": "perspective-beyond-atlas-tags"
+        },
+        "version": {
+          "type": "string"
+        },
+        "blob_sha": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        }
+      }
+    },
+    "explanation": {
+      "type": "object",
+      "properties": {
+        "core_statement": {
+          "type": "string"
+        },
+        "source_context": {
+          "type": "string"
+        },
+        "source_voice": {
+          "type": "string"
+        },
+        "development": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "text",
+              "item_id",
+              "locator",
+              "role"
+            ],
+            "properties": {
+              "text": {
+                "type": "string",
+                "minLength": 1
+              },
+              "item_id": {
+                "type": "string"
+              },
+              "locator": {
+                "type": [
+                  "string",
+                  "object"
+                ]
+              },
+              "role": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "formulations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "expression",
+          "source_item_id",
+          "locator"
+        ],
+        "properties": {
+          "expression": {
+            "type": "string"
+          },
+          "source_item_id": {
+            "type": "string"
+          },
+          "locator": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "overlaps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "node_id",
+          "basis"
+        ],
+        "properties": {
+          "node_id": {
+            "type": "string"
+          },
+          "basis": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "itemRef": {
+      "type": "object",
+      "required": [
+        "item_id",
+        "role",
+        "locator"
+      ],
+      "properties": {
+        "item_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "role": {
+          "type": "string"
+        },
+        "locator": {
+          "type": [
+            "string",
+            "object"
+          ]
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "revision": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "tag": {
+      "type": "object",
+      "required": [
+        "key",
+        "value",
+        "basis",
+        "item_refs"
+      ],
+      "properties": {
+        "key": {
+          "enum": [
+            "node:role",
+            "node:mechanism",
+            "node:scope",
+            "node:distinction",
+            "node:observable",
+            "node:condition",
+            "proposed:node-question",
+            "proposed:node-example",
+            "proposed:node-derivation",
+            "proposed:node-terminology",
+            "proposed:node-failure-mode"
+          ]
+        },
+        "value": {
+          "type": [
+            "string",
+            "array",
+            "object"
+          ]
+        },
+        "basis": {
+          "type": "string"
+        },
+        "item_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "key": {
+                "enum": [
+                  "node:role",
+                  "node:mechanism",
+                  "node:scope",
+                  "node:distinction",
+                  "node:observable",
+                  "node:condition",
+                  "proposed:node-question",
+                  "proposed:node-failure-mode"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "key": {
+                "enum": [
+                  "proposed:node-derivation",
+                  "proposed:node-terminology"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "type": "array",
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "key": {
+                "const": "proposed:node-example"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "value": {
+                "type": "object",
+                "required": [
+                  "kind",
+                  "setup",
+                  "reasoning",
+                  "result"
+                ],
+                "properties": {
+                  "kind": {
+                    "enum": [
+                      "constructed_illustration",
+                      "source_reported_example"
+                    ]
+                  },
+                  "setup": {
+                    "type": "string"
+                  },
+                  "reasoning": {
+                    "type": "string"
+                  },
+                  "result": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
