@@ -7,6 +7,10 @@
 
 > **Lectura operativa vigente v0.2:** [Procedimiento integral de etiquetas, ítems, nodos y recorridos](./PROCEDIMIENTO_LENGUAJE_Y_RECORRIDOS_v0.2.md) · [Diccionario taxonómico reutilizable y traducible (JSON)](./TAG_DICTIONARY_v0.1.json) · [Ejemplo v0.2](./examples/language-v02-pilot.json) · [Validador v0.2](./scripts/validate-language-v02.mjs) · **[MSCA como capa opcional de control v0.1](./MSCA_CAPA_ADICIONAL_ATLAS_v0.1.md)** · **[Lámina cartográfica MSCA por agente](./LAMINA_CARTOGRAFICA_MSCA_AGENTES_v0.1.md)** · [dos vistas MSCA de prueba](./examples/msca-view-v01.json) · [validador MSCA](./scripts/validate-msca-view-v01.mjs). Leer el diccionario **antes** de extraer fichas. El protocolo es referencia sólo para esta rama experimental Atlas; **no** altera el baseline controlado EA/MSCA.
 
+## Seven-judge review profile — 5 November 2026
+
+Read the [seven-judge ABCD and restricted Jumps & Falls review profile](./SEVEN_JUDGE_ABCD_JF_REVIEW_PROFILE_v0.1.md) for the three independent passes, surgical amendment rules and separate experiment diary. ABCD continues through A/B/C and stops each branch at D. The local factor experiment examines only adopted A/B occurrences; it leaves the general factor definitions and earlier examples intact.
+
 ## 1. Decisión de arquitectura
 
 Construir en dos pasos distintos:
