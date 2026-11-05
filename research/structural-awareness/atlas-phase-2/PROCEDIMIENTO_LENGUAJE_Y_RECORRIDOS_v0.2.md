@@ -3,7 +3,8 @@
 **Versión:** 0.2 · 4 de noviembre de 2026  
 **Estado:** procedimiento de referencia **para el piloto experimental Atlas fase 2**; sujeto a pruebas y revisión. Es canónico **dentro de esta rama de trabajo**, pero **no** modifica documentos controlados, definiciones A/B/C/D, especificaciones de Ecosystem Awareness, MSCA ni estados institucionales.  
 **Precedencia local:** este procedimiento v0.2 prevalece sobre instrucciones operativas contradictorias del README experimental v0.1. Conserva los ejemplos anteriores como historial.  
-**Artefactos:** `TAG_DICTIONARY_v0.1.json` (lenguaje descargable), `examples/language-v02-pilot.json` (ejemplo trazable) y `scripts/validate-language-v02.mjs` (validación estructural).  
+**Artefactos:** `TAG_DICTIONARY_v0.1.json` (lenguaje descargable), `examples/language-v02-pilot.json` (ejemplo trazable), `scripts/validate-language-v02.mjs` (validación estructural) y [contrato específico de temas y adjudicación](./TEMAS_ASOCIACIONES_Y_ADJUDICACION_v0.1.md) (precisión de 5 de noviembre).
+
 **Separación:** un descriptor metodológico no constituye evidencia sobre el mundo; una fuente histórica, una interpretación y una hipótesis deben conservar estados separados.
 
 ## 0. Contrato de alcance y vocabulario
@@ -20,7 +21,7 @@ Los nombres tienen significados distintos:
 | **Relación de nivel 1** | `edge_id` | Vínculo conceptual entre nodos, con predicado, evidencia/razón y semántica de dirección, sin distancia epistemológica todavía. | No es una inferencia transitiva ni un paso obligatorio de proceso. |
 | **Recorrido de nivel 2** | `walk_id` | Secuencia dirigida y ordenada de aristas de nivel 1 desde un origen, actividad, pregunta y capacidad de evaluación, calificada paso a paso. | No es un atributo fijo de cada arista. |
 | **Clúster conceptual principal** | `cluster_id` | Región de alcance funcional A, interpretada en un discurso/posicionamiento, con fronteras y superposiciones documentadas. | No es el componente conexo de todo el grafo ni una ontología universal. |
-| **Tema** | `theme_id` | Eje legible y diferenciado, descubierto **después** de recorridos y clústeres, con ficha descriptiva y asociación ponderada a nodos. | No determina retrospectivamente el significado de A/B/C/D. |
+| **Tema** | `theme_id` | Materia legible descubierta **después** de recorridos y clústeres; su ficha define solamente la materia. Las asociaciones ponderadas se almacenan **aparte**, tras la adjudicación. | No define relaciones, no agrupa nodos por decreto ni determina retrospectivamente A/B/C/D. |
 
 **Regla invariable de orden:** (0) anclar ítems y nodos → (1) mapear relaciones conceptuales → (2) calificar distancia A/B/C/D por recorrido → (2b) aplicar JF.F1–JF.F4 cuando corresponda → (3) identificar clústeres principales → (4) descubrir temas y elaborar sus fichas → (5) consolidar, revisar y publicar datos versionados. Las fichas se crean desde la fase 0 y pueden enriquecerse en cada ciclo; no se exige completarlas antes del mapa. **MSCA** es una proyección opcional posterior o bajo demanda, no una etapa obligatoria que reordene la minería.
 
@@ -56,6 +57,7 @@ Los campos estructurales `hook`, `description`, `item_refs`, `position`, etc. **
 - `JF.F1`–`JF.F4` pertenece a **Jumps & Falls**, no a los factores F de otros documentos, Theme #13, pruebas de Ecosystem Awareness ni a la herramienta JUBAP denominada JUMP UP. Jumps & Falls y JUBAP son arquitecturas relacionadas pero distintas.
 - Una etiqueta de tema `theme:*` no debe convertirse en tema definitivo antes de la fase 4. Una etiqueta descriptiva como `node:mechanism` **no es un eje temático**.
 - Dos nodos que comparten etiquetas **no quedan conectados automáticamente**: necesitan una relación conceptual explícita y justificada de nivel 1.
+- Dos temas que comparten palabras o nodos **no adquieren por ello una relación sustantiva**: sus posibles asociaciones se investigan **después**, sobre el grafo, fuera de sus fichas descriptivas.
 
 ## 2. Fase 0 — Crear fichas semiestructuradas de **ítem** y **nodo**
 
@@ -148,15 +150,18 @@ Una ruta sólo se declara `complete_to_D` cuando **D es el último paso** y se e
 4. Guardar `cluster_id`, `core_node_ids`, `position_refs`, `a_reach`, `boundary_walk_refs`, `description`, `item_refs`, `etiquetas`, `review_status`, `version`. El clúster describe un alcance **comprobable en las rutas existentes**, no exhaustividad del mundo.
 5. Permitir superposición y enlaces entre clústeres; no clausurar constelaciones por pertenencia temática o comercial.
 
-## 6. Fase 4 — Ejes temáticos y **fichas de tema**
+## 6. Fase 4 — **Temas definidos después del grafo; asociaciones por separado**
 
-**Decisión de trabajo propuesta, pendiente de aprobación final:** **sí, reutilizar el mismo diccionario de etiquetas y el mismo JSON semiestructurado**, extendido con entradas `theme:*` sólo si aportan distinciones reales. Mantener ficha textual libre; no abrir un segundo lenguaje paralelo para temas. La taxonomía ayuda a indexar, **pero un tema no es sinónimo de etiqueta**: el tema es una perspectiva editorial/intelectual sobre conjuntos de clústeres.
+**Corrección explícita de 5 de noviembre de 2026:** no poner el carro antes de los bueyes. El tema **no explica por qué están agrupados los nodos**, **no descubre ni enuncia las relaciones entre temas** y **no dirige la lectura retrospectiva** del grafo. Esas relaciones y sus diferencias se descubren mediante el análisis ya realizado sobre nodos, aristas, recorridos y clústeres. Véase el [contrato público/privado completo](./TEMAS_ASOCIACIONES_Y_ADJUDICACION_v0.1.md).
 
-1. Tras revisar clústeres, proponer pocos **ejes temáticos legibles**; preguntar qué discurso ordenan y cuáles quedan fuera.
-2. Contrastar entre sí **distinción** (no duplicación), **cobertura** (qué clústeres quedan atendidos), **coherencia** (no agrupar solo por palabras), **trazabilidad** (desde qué nodos/ítems) y **legibilidad humana**.
-3. Crear ficha `theme_id`, `title`, `description` libre, `scope`, `distinction_from` cuando sea útil, `cluster_refs`, `node_associations` ponderadas, `item_refs` de apoyo si procede, `etiquetas`, `version` y `review_status`.
-4. En esta versión asignar, cuando la clasificación temática esté madura, **un tema principal de peso 1** por nodo del ámbito evaluado; secundarios **sólo justificados y de menor peso**, sin poner todos los temas en todos los nodos. No convertir esta ponderación en una probabilidad de verdad ni adelantarla a la fase 2.
-5. Una ficha temática es autosuficiente en lenguaje natural, aunque legible como JSON; no exigir tres páginas, número fijo de párrafos ni MSCA. Puede generarse una vista HTML/PDF distinta **desde los mismos datos** sin crear otra fuente canónica.
+1. **Descubrir**, sólo tras el nivel 1, los recorridos situados y los clústeres, los nombres de materias que resultan útiles para leer el corpus. La existencia de un nombre temático no constituye una arista ni evidencia de vinculación.
+2. **Ficha temática pública:** `id`, `title`, `description` libre y autosuficiente **acerca del tema mismo**, `scope` semántico propio cuando aporte precisión, `etiquetas` del mismo diccionario, `version`, `review_status`. No requerir preguntas editoriales ni MSCA. **Excluir** `central_question`, `why_together`, `distinction_from`, `cluster_refs`, `node_associations`, enlaces con otros temas, recorridos y conclusiones o estadísticas del grafo. La definición no es una explicación anticipada del resultado de análisis.
+3. **Asociaciones nodo–tema públicas, independientes de la ficha:** cada registro contiene **exactamente** `node_id`, `theme_id`, `weight`. Ningún `reason`, `role`, evidencia ni explicación de jueces en esa tabla. **Invariante incondicional de cada nodo clasificado: `Σ_theme weight(node, theme) = 1`.** Si tiene un tema, su peso es 1; si tiene varios, los pesos **comparten** ese 1. Un peso 1 «principal» con pesos secundarios adicionales **está prohibido**.
+4. **Pendientes:** si el reparto de un nodo no está completamente adjudicado, no publicar pesos parciales. Conservar el nodo pendiente **fuera de la proyección temática pública**; declarar en un manifiesto separado la población efectivamente clasificada. No confundir ausencia de asignación con peso cero.
+5. **Jueces y debate:** varios jueces dictaminan primero de forma independiente y **después contrastan sus razones**, alternativas y discrepancias. Conservar argumentos, caminos consultados, decisiones y versiones en una **tabla interna no pública**, sin contaminar el esquema de lectura de bots externos. El uso de siete jueces en ABCD/JF no implica que ya se haya ejecutado aquí una evaluación temática.
+6. **Resultados derivados de investigación:** calcular y documentar en otra capa las asociaciones entre temas por coasignación y, distintamente, por vínculos/rutas reales del grafo. Mantener las estadísticas, cobertura, concentraciones y distribuciones con versión del grafo, población, método y fuente reproducible. Nunca insertarlas en la descripción de la materia ni usarlas para crear aristas retroactivamente.
+
+Una vista HTML/PDF puede presentar la ficha y sus datos derivados **claramente diferenciados**, sin crear una segunda fuente canónica ni convertir una relación derivada en propiedad intrínseca de la ficha.
 
 ## 7. ¿Dónde entra MSCA? — proyección opcional de control, documentada en v0.1
 
@@ -210,7 +215,7 @@ Esta ampliación queda **dentro del mismo Atlas fase 2 experimental**, como inte
 | Nivel 2 | Posición completa; continuidad de flechas; cada paso con ABCD+razón; D terminal genuino; cortes diferenciados. | Ruta parcial con terminal real. |
 | JF | Se ejecuta después de ABCD; factor motivado por función; F4 transversal; namespace correcto; abstención permitida. | `not_assessed` / `not_applicable`, nunca inventar. |
 | Clústeres | Alcance A contextual, revisión de límites y solapamientos; no solo centralidad numérica. | Candidato pendiente. |
-| Temas | Diferenciación/cobertura, ficha libre, etiquetas del mismo diccionario y peso primario revisable. | Etiquetas temáticas provisionales. |
+| Temas | Ficha que describe **sólo la materia**, con diccionario común; ternas públicas `node_id–theme_id–weight` separadas, **suma exacta 1 por nodo clasificado**; razones de jueces privadas y estadísticas derivadas versionadas. | Retener proyección temática incompleta; no publicar pesos parciales, razonamientos ni relaciones preconcebidas. |
 | MSCA (opcional) | Vista delimitada por objetivo/actividad, campo S/E/C/P/M con procedencia y estados, assessment independiente, autoridad separada. | Si falta legitimación/prueba: `UNKNOWN` / `UNASSESSED`; nunca `SUPPORTED` automático. |
 | Lámina por agente (opcional) | Raíces/clústeres seleccionados, rutas completas hasta D o parciales honestas, cobertura, anclas y dependencia material separada; emisión selectiva. | No afirmar completitud universal ni D=0 cuando el emisor omite contenido. |
 | Diccionario | Claves únicas/versionadas; alias sin colisión silenciosa; traducciones sin alterar identidad; migración rastreable. | Propuesta pendiente o conflicto documentado. |
@@ -223,6 +228,7 @@ Esta ampliación queda **dentro del mismo Atlas fase 2 experimental**, como inte
 - [ ] Otro hilo se detiene por falta de pertinencia o presupuesto **sin declararlo D**.
 - [ ] Un ejemplo de **JF.F4 con ABCD.C** prueba que JF.F4 ≠ D, y la validación rechaza F1–F4 como estado de nivel 1.
 - [ ] Nodo sin MSCA obligatorio y ficha temática con el mismo diccionario se serializan y se leen sin perder descripción libre.
+- [ ] El validador rechaza una asociación pública con justificación/rol añadido, pares duplicados, pesos fuera de rango, tema desconocido o suma distinta de 1 para cualquier nodo incluido en la proyección temática; ficha sin relaciones precocinadas. Ejecución: `node scripts/validate-language-v02.mjs` y **13 casos negativos** en `node scripts/test-theme-contract-v01.mjs`.
 - [ ] Dos vistas MSCA del mismo clúster conservan problemas/objetivos separados; un recorrido Atlas A no produce evaluación `SUPPORTED`. Ejecución: `node scripts/validate-msca-view-v01.mjs`.
 - [ ] Una lámina de agente conserva un hilo `A→C→C→D` y un segundo hilo parcial sin D ficticio; una versión divulgada puede omitir una rama sin declarar que el residual es cero. Ejecución: `node scripts/validate-msca-cartographic-slice-v01.mjs`.
 - [ ] El ejemplo distingue hechos publicados, interpretación y aristas hipotéticas de enseñanza.

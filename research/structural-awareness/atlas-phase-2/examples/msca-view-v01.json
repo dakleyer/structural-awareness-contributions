@@ -4,7 +4,7 @@
     "version": "0.1-experimental",
     "as_of": "2026-11-04",
     "source_fixture": "language-v02-pilot.json",
-    "dictionary_version": "0.1.0",
+    "dictionary_version": "0.1.1",
     "normative_source": "standards/minimum-sufficient-control/00_CANONICAL_MSCA_ARCHITECTURE.md",
     "status": "prototype_not_operational",
     "notice": "This adapter does not define or change canonical MSCA. All objectives are unbound; all assessments remain UNASSESSED. Historical context is attributed to a published field note, whereas roleplay and transfer effects are synthetic hypotheses. No MSCA sufficiency or deployment is claimed."

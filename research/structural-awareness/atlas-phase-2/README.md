@@ -5,7 +5,7 @@
 **Ámbito:** Atlas de pensamiento, con un grafo conceptual común y lecturas dependientes del posicionamiento.  
 **Compatibilidad:** las definiciones A/B/C/D son las de [00M v0.8 §1](../../ecosystem-awareness/baseline/00M_ABCD_AND_MATHEMATICAL_PLAUSIBILITY_v0.8_RESEARCH_NOTE.md#abcd-canonical). La expresión *distancia epistemológica* ya se desarrolla, sin presuponer una métrica escalar, en [Map, Flow, Epistemic Distance — working programme bridge](../MAP_FLOW_EPISTEMIC_DISTANCE_PROGRAMME_BRIDGE_v0.1_DRAFT.md). Este experimento **no reemplaza ni modifica** esos documentos.
 
-> **Lectura operativa vigente v0.2:** [Procedimiento integral de etiquetas, ítems, nodos y recorridos](./PROCEDIMIENTO_LENGUAJE_Y_RECORRIDOS_v0.2.md) · [Diccionario taxonómico reutilizable y traducible (JSON)](./TAG_DICTIONARY_v0.1.json) · [Ejemplo v0.2](./examples/language-v02-pilot.json) · [Validador v0.2](./scripts/validate-language-v02.mjs) · **[MSCA como capa opcional de control v0.1](./MSCA_CAPA_ADICIONAL_ATLAS_v0.1.md)** · **[Lámina cartográfica MSCA por agente](./LAMINA_CARTOGRAFICA_MSCA_AGENTES_v0.1.md)** · [dos vistas MSCA de prueba](./examples/msca-view-v01.json) · [validador MSCA](./scripts/validate-msca-view-v01.mjs). Leer el diccionario **antes** de extraer fichas. El protocolo es referencia sólo para esta rama experimental Atlas; **no** altera el baseline controlado EA/MSCA.
+> **Lectura operativa vigente v0.2:** [Procedimiento integral de etiquetas, ítems, nodos y recorridos](./PROCEDIMIENTO_LENGUAJE_Y_RECORRIDOS_v0.2.md) · **[Temas después del grafo: contrato público/privado de asociaciones y adjudicación](./TEMAS_ASOCIACIONES_Y_ADJUDICACION_v0.1.md)** · [Diccionario taxonómico reutilizable y traducible (JSON)](./TAG_DICTIONARY_v0.1.json) · [Ejemplo v0.2](./examples/language-v02-pilot.json) · [Validador v0.2](./scripts/validate-language-v02.mjs) · **[MSCA como capa opcional de control v0.1](./MSCA_CAPA_ADICIONAL_ATLAS_v0.1.md)** · **[Lámina cartográfica MSCA por agente](./LAMINA_CARTOGRAFICA_MSCA_AGENTES_v0.1.md)** · [dos vistas MSCA de prueba](./examples/msca-view-v01.json) · [validador MSCA](./scripts/validate-msca-view-v01.mjs). Leer el diccionario **antes** de extraer fichas. El protocolo es referencia sólo para esta rama experimental Atlas; **no** altera el baseline controlado EA/MSCA.
 
 ## Seven-judge review profile — 5 November 2026
 
@@ -33,7 +33,7 @@ No introducir ahora más niveles jerárquicos ni etiquetas **MSCA obligatorias**
 | **Relación conceptual** | Asociación de nodo con nodo por cualquier vínculo justificable. | Registrar dirección, por qué se asocian y evidencia/candidatura. **No** hereda una calificación A/B/C/D global. |
 | **Recorrido** | Secuencia ordenada de relaciones desde un nodo y una cuestión/actividad concreta. | La evaluación de un tramo depende de **todo el prefijo** recorrido, no sólo de sus extremos. |
 | **Clúster conceptual principal** | Conjunto que adquiere amplitud funcional por el alcance de A desde un posicionamiento. | Se descubre **después** de calificar recorridos, no por una taxonomía previa ni sólo por grado bruto. |
-| **Tema** | Eje humano comprensible para leer y comunicar varios nodos/clústeres. | Se elige **después** de los clústeres; debe diferenciarse de los demás, cubrir el discurso y tener descripción libre. |
+| **Tema** | Materia nombrada y descrita para leer el corpus. | Se descubre **después** del análisis del grafo y los clústeres; su ficha **sólo define la materia**, sin anticipar vínculos entre nodos o temas. Las asociaciones ponderadas van en otra tabla. |
 
 Un ítem no es automáticamente una prueba de una afirmación. La relación ítem–nodo conserva el tipo de apoyo: descripción, evidencia primaria, testimonio, hipótesis, refutación, analogía, etc. Un identificador externo de persona o empresa se maneja respetando confidencialidad y acceso; no exige publicar un documento de identidad.
 
@@ -82,16 +82,17 @@ Se adopta **texto libre autosuficiente dentro de JSON, con `etiquetas` flexibles
 
 ```json
 {
-  "theme_id": "THEME-TRANSFORMATION",
+  "id": "THEME-TRANSFORMATION",
   "title": "Transformación",
-  "description": "Texto libre que delimita qué preguntas y contenidos se leen bajo este tema.",
-  "primary_node_ids": ["NODE-JUBAP-FRAMEWORK"],
-  "secondary_node_ids": [],
-  "version": "draft-0.1"
+  "description": "Cambios deliberados en estructuras, prácticas o procesos.",
+  "scope": "Cambio organizativo",
+  "etiquetas": [],
+  "version": "draft-0.1",
+  "review_status": "illustrative"
 }
 ```
 
-El nodo no necesita forzarse hoy a un número fijo de páginas ni a una estructura de MSCA. **La ficha de tema se elabora tras los clústeres** y reutiliza **el mismo diccionario de etiquetas**; tampoco necesita tres páginas. MSCA tiene ahora un **adaptador opcional documentado y en prueba** en [MSCA como capa adicional](./MSCA_CAPA_ADICIONAL_ATLAS_v0.1.md), sobre un problema de control y un objetivo/actividad delimitados; no es un casillero universal de nodos ni acredita suficiencia.
+La asociación posterior, **separada de la ficha**, tiene sólo `{ "node_id": "NODE-JUBAP-FRAMEWORK", "theme_id": "THEME-TRANSFORMATION", "weight": 1 }`. Si hay varios temas para un nodo, sus pesos suman **exactamente 1**, no un principal de 1 más secundarios. El nodo no necesita un número fijo de páginas ni MSCA obligatorio; la ficha de tema tampoco. Véase el [contrato específico de temas](./TEMAS_ASOCIACIONES_Y_ADJUDICACION_v0.1.md). MSCA tiene un **adaptador opcional documentado y en prueba** en [MSCA como capa adicional](./MSCA_CAPA_ADICIONAL_ATLAS_v0.1.md), sobre un problema de control y un objetivo/actividad delimitados; no es un casillero universal de nodos ni acredita suficiencia.
 
 ## 3. Procedimiento secuencial
 
@@ -175,15 +176,9 @@ La medida exploratoria `A_reach(P)` cuenta nodos alcanzables mediante recorridos
 
 ### Fase 4 — Descubrir y delimitar los temas
 
-Solo ahora proponer ejes temáticos humanos, relativamente pocos y reconocibles. Hacer un brainstorming asistido y comprobar entre todos:
+Solo ahora, **a partir de las relaciones, recorridos y clústeres ya estudiados**, identificar temas comprensibles. Las fichas se limitan a **describir cada tema en sí**; no incluyen preguntas de agrupación, motivos para asociar nodos, diferencias con otros temas ni relaciones entre materias. Dejar que sea el **grafo el que descubra esas relaciones**, no la redacción temática.
 
-- **Distinción:** dos temas no deben duplicar indefinidamente el mismo propósito.
-- **Cobertura:** las regiones relevantes del corpus deben tener una vía de lectura razonable; no inventar una etiqueta para rellenar vacíos.
-- **Legibilidad:** una persona puede explicar en pocas frases qué información va en cada tema.
-- **Ponderación:** un nodo tiene un **tema primario** (peso normalizado 1 en esta primera versión) y, sólo si está justificado, algunos secundarios con peso menor. No etiquetar todo con todo.
-- **Revisión:** nuevas regiones A o cambios de fuentes pueden exigir reasignar temas.
-
-**Salida:** fichas temáticas de descripción libre y asociaciones ponderadas con nodos. No se usan para volver a etiquetar retroactivamente los recorridos como A/B/C/D.
+Las asignaciones se resuelven mediante varios jueces, con juicios independientes y **debate posterior en registro interno no público**. Publicar una tabla separada con **sólo** `node_id`, `theme_id`, `weight`: para **cada nodo clasificado**, `Σ peso = 1` sin excepciones. No emitir asignaciones parciales de nodos aún pendientes. Las relaciones entre temas y las estadísticas se **derivan después** y se documentan, con procedencia/versionado, como **investigación separada**. Véase [contrato detallado](./TEMAS_ASOCIACIONES_Y_ADJUDICACION_v0.1.md).
 
 ### Fase 5 — Consolidar fichas JSON y detener el alcance aquí
 
@@ -230,6 +225,7 @@ Comandos locales con Node.js (ambos casos deben conservarse):
 ```bash
 node scripts/validate-phase2.mjs
 node scripts/validate-language-v02.mjs
+node scripts/test-theme-contract-v01.mjs
 node scripts/validate-msca-view-v01.mjs
 node scripts/validate-msca-cartographic-slice-v01.mjs
 ```
@@ -256,3 +252,5 @@ Antes de llevar a producción:
 7. **Atlas conceptual privado v1.0 (2 nov 2026):** 125 nodos, 380 relaciones editoriales. Es fuente de trabajo para la prueba privada; sus datos internos no se copian aquí ni se convierten en publicación pública.
 
 **Separación de alcance:** este protocolo es una hipótesis instrumental para organizar un corpus de pensamiento, no una formalización nueva de Ecosystem Awareness, una declaración de cumplimiento ni una metodología DDS. La prueba interactiva privada del Atlas conserva sus propias extensiones, resultados y accesos.
+
+**Compatibilidad histórica de las pruebas:** `examples/phase2-fixtures.json` y `scripts/validate-phase2.mjs` se conservan para verificar el experimento **v0.1 de recorridos ABCD**. Sus listas antiguas `primary_nodes`/`secondary_nodes` **no son el contrato temático vigente** y no deben consumirse como asociaciones de producción. La pauta corregida para temas, ponderación estrictamente unitaria, deliberación privada y datos públicos está en el [contrato temático v0.1](./TEMAS_ASOCIACIONES_Y_ADJUDICACION_v0.1.md), el ejemplo `language-v02-pilot.json` y el validador `validate-language-v02.mjs`.

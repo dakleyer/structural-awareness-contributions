@@ -21,6 +21,7 @@ const edges = new Map(atlas.edges.map(x => [x.id, x]));
 const walks = new Map(atlas.walks.map(x => [x.id, x]));
 const clusters = new Map(atlas.conceptual_clusters.map(x => [x.id, x]));
 const themes = new Map(atlas.themes.map(x => [x.id, x]));
+const themeAssignments = new Map(atlas.theme_assignments.map(x => [`${x.node_id}\u0000${x.theme_id}`, x.weight]));
 const mscaViews = new Map(views.views.map(x => [x.view_id, x]));
 const ABCD = new Set(['A', 'B', 'C', 'D']);
 const term = new Set(['D', 'END_OF_GRAPH', 'CUT_NO_RELEVANCE', 'BUDGET', 'CYCLE', 'REVIEW_PENDING']);
@@ -55,8 +56,8 @@ function inspect(doc) {
     check(select.reason && select.theme_percentage_policy === 'NOT_DEFINED_IN_THIS_PHASE', `${id}: tema condicionado por fórmula ficticia`);
     for (const t of select.theme_selection || []) {
       check(themes.has(t.theme_ref) && nodes.has(t.node_ref), `${id}: tema/nodo inexistente`);
-      const association = themes.get(t.theme_ref)?.node_associations.find(a => a.node_id === t.node_ref);
-      check(association?.weight === t.weight, `${id}: peso no coincide con la ficha temática`);
+      const weight = themeAssignments.get(`${t.node_ref}\u0000${t.theme_ref}`);
+      check(weight === t.weight, `${id}: peso no coincide con la tabla pública separada de asociaciones nodo–tema`);
       check(t.state === 'provisional_not_global_percentage', `${id}: peso confundido con porcentaje global`);
     }
 

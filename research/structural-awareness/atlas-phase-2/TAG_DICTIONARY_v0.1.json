@@ -1,7 +1,7 @@
 {
   "dictionary_id": "perspective-beyond-atlas-tags",
-  "dictionary_version": "0.1.0",
-  "as_of": "2026-11-04",
+  "dictionary_version": "0.1.1",
+  "as_of": "2026-11-05",
   "status": "experimental_phase2_working_vocabulary",
   "authority_scope": "Atlas phase 2 working branch only; not EA controlled corpus",
   "purpose": "Lenguaje semiestructurado compartible para fichas de ítem, nodo, arista, recorrido, clúster y tema; clave estable independiente del idioma.",
@@ -17,7 +17,12 @@
     "aliases_are_discovery_aids_not_proof": true,
     "json_slot_and_flexible_tag_must_not_duplicate": true,
     "deprecated_keys_remain_resolvable": true,
-    "no_status_transfer_from_item_to_node_or_edge": true
+    "no_status_transfer_from_item_to_node_or_edge": true,
+    "themes_only_after_graph_and_clusters": true,
+    "theme_cards_define_matter_not_graph_relations": true,
+    "theme_assignment_public_fields": ["node_id", "theme_id", "weight"],
+    "theme_assignment_weight_sum_per_classified_node": 1,
+    "theme_judge_reasons_non_public": true
   },
   "etiquetas": [
     {
@@ -29,10 +34,10 @@
     {
       "key": "core:description", "state": "active", "kind": "reserved_field", "json_path": "/description", "applies_to": ["item", "node", "cluster", "theme"], "value_type": "string", "required_if": "object_is_published",
       "definition": "Descripción natural autosuficiente del objeto; puede conservar matices, reservas, negaciones y condiciones que no caben en etiquetas discretas.",
-      "translations": {"es": "descripción libre", "en": "free-form description"}, "aliases": {"es": ["descripción", "texto de ficha"], "en": ["description", "narrative"]}, "example": "Focus ON es una herramienta diagnóstica de JUBAP, no el framework completo.", "constraints": ["No sustituir por una lista de tags", "No inferir claims que la fuente no sustenta"]
+      "translations": {"es": "descripción libre", "en": "free-form description"}, "aliases": {"es": ["descripción", "texto de ficha"], "en": ["description", "narrative"]}, "example": "Focus ON es una herramienta diagnóstica de JUBAP, no el framework completo.", "constraints": ["No sustituir por una lista de tags", "No inferir claims que la fuente no sustenta", "En tema: describir sólo la materia, sin relaciones derivadas del grafo"]
     },
     {
-      "key": "trace:item_refs", "state": "active", "kind": "reserved_field", "json_path": "/item_refs", "applies_to": ["node", "edge", "cluster", "theme", "walk"], "value_type": "array", "required_if": "documented_claim",
+      "key": "trace:item_refs", "state": "active", "kind": "reserved_field", "json_path": "/item_refs", "applies_to": ["node", "edge", "cluster", "walk"], "value_type": "array", "required_if": "documented_claim",
       "definition": "Relaciones explícitas con ítems anclados y función probatoria específica; no supone que una fuente respalde todas las afirmaciones del objeto.",
       "translations": {"es": "referencias a ítems", "en": "item references"}, "aliases": {"es": ["fuentes vinculadas", "evidencia documental"], "en": ["item links", "source references"]}, "example": [{"item_id": "ITEM-NESTLE-CASE", "role": "historical_use"}], "constraints": ["Referenciar IDs existentes", "Preservar soporte, refutación, analogía o hipótesis según corresponda"]
     },
@@ -142,19 +147,19 @@
       "translations": {"es": "alcance A contextual", "en": "contextual A reach"}, "aliases": {"es": ["amplitud funcional A"], "en": ["A functional reach"]}, "example": ["JFW", "KOT"], "constraints": ["No es centralidad universal", "Solo rutas A justificadas"]
     },
     {
-      "key": "theme:scope", "state": "active", "kind": "flexible_tag", "applies_to": ["theme"], "value_type": "string", "required_if": "never",
-      "definition": "Discursos, preguntas y clústeres que un eje temático permite leer; diferencia alcance de etiqueta y alcance de ruta.",
-      "translations": {"es": "alcance temático", "en": "theme scope"}, "aliases": {"es": ["eje de lectura"], "en": ["reading axis"]}, "example": "transformación organizativa", "constraints": ["Proponer temas sólo después de clústeres"]
+      "key": "theme:scope", "state": "active", "kind": "reserved_field", "json_path": "/scope", "applies_to": ["theme"], "value_type": "string", "required_if": "never",
+      "definition": "Alcance semántico interno de la materia descrita; no enumera nodos, clústeres, preguntas, relaciones o rutas del grafo.",
+      "translations": {"es": "alcance temático", "en": "theme scope"}, "aliases": {"es": ["ámbito de la materia"], "en": ["meaning scope"]}, "example": "cambio organizativo", "constraints": ["Proponer temas sólo después de clústeres", "No introducir relaciones ni asociaciones de nodos en la ficha"]
     },
     {
-      "key": "theme:distinction", "state": "active", "kind": "flexible_tag", "applies_to": ["theme"], "value_type": "string", "required_if": "never",
-      "definition": "Diferencia significativa frente a temas vecinos, para prevenir ejes redundantes.",
-      "translations": {"es": "distinción temática", "en": "theme distinction"}, "aliases": {"es": ["diferente de otro tema"], "en": ["theme contrast"]}, "example": "gobernanza de procesos no es equivalente a experiencia personal", "constraints": ["No inventar separación artificial entre clústeres relacionados"]
+      "key": "theme:distinction", "state": "deprecated", "kind": "flexible_tag", "applies_to": ["theme"], "value_type": "string", "required_if": "never",
+      "definition": "Clave histórica de comparación entre materias, retirada de las fichas públicas: cualquier diferencia entre temas debe estudiarse después mediante el grafo y registrarse en investigación separada.",
+      "translations": {"es": "distinción temática (retirada)", "en": "theme distinction (deprecated)"}, "aliases": {"es": ["diferente de otro tema"], "en": ["theme contrast"]}, "example": "no usar en la ficha temática", "constraints": ["No emitir esta clave en fichas nuevas", "Conservar sólo para lectura de registros históricos y migración", "Derivar comparaciones desde el grafo, no desde la definición del tema"]
     },
     {
-      "key": "theme:node_weight", "state": "active", "kind": "reserved_field", "json_path": "/node_associations/*/weight", "applies_to": ["theme"], "value_type": "number", "required_if": "theme_is_assigned_to_node",
-      "definition": "Peso editorial de pertinencia de un nodo bajo un tema, con un primario de peso 1 y secundarios menores si están justificados.",
-      "translations": {"es": "ponderación temática", "en": "theme association weight"}, "aliases": {"es": ["peso principal", "peso secundario"], "en": ["primary weight", "secondary weight"]}, "example": 0.5, "constraints": ["No equivale a probabilidad de verdad", "No asignar todas las etiquetas a todos"]
+      "key": "theme:node_weight", "state": "active", "kind": "reserved_field", "json_path": "/theme_assignments/*/weight", "applies_to": ["theme_assignment"], "value_type": "number", "required_if": "theme_is_assigned_to_classified_node",
+      "definition": "Peso de asociación en una terna pública nodo–tema–peso, almacenada fuera de la ficha temática. Para cada nodo clasificado la suma de todos sus pesos temáticos es exactamente 1.",
+      "translations": {"es": "ponderación temática", "en": "theme association weight"}, "aliases": {"es": ["peso de asociación"], "en": ["membership weight"]}, "example": 0.4, "constraints": ["0 < peso <= 1", "Suma por nodo clasificado igual a 1", "Sólo node_id, theme_id, weight en cada asociación pública", "No equivale a probabilidad de verdad", "No publicar asignaciones parciales", "Razones y debate de jueces en registro interno separado"]
     },
     {
       "key": "profile:msca", "state": "candidate", "kind": "flexible_tag", "applies_to": ["cluster", "walk", "analysis_profile"], "value_type": "object", "required_if": "never",

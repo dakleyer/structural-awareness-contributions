@@ -1,16 +1,16 @@
 #!/usr/bin/env node
 /**
  * Atlas Phase 2 v0.2: structural checks only. No assertion of semantic truth.
- * Usage: node scripts/validate-language-v02.mjs [fixture.json] [dictionary.json]
+ * Usage: node scripts/validate-language-v02.mjs [fixture.json|- (stdin)] [dictionary.json]
  */
 import { readFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const here = dirname(fileURLToPath(import.meta.url));
-const fixtureFile = process.argv[2] ? resolve(process.argv[2]) : resolve(here, '../examples/language-v02-pilot.json');
+const fixtureFile = process.argv[2] === '-' ? null : process.argv[2] ? resolve(process.argv[2]) : resolve(here, '../examples/language-v02-pilot.json');
 const dictionaryFile = process.argv[3] ? resolve(process.argv[3]) : resolve(here, '../TAG_DICTIONARY_v0.1.json');
-const corpus = JSON.parse(readFileSync(fixtureFile, 'utf8'));
+const corpus = JSON.parse(readFileSync(fixtureFile ?? 0, 'utf8'));
 const dictionary = JSON.parse(readFileSync(dictionaryFile, 'utf8'));
 const errors = [];
 const assert = (ok, msg) => { if (!ok) errors.push(msg); };
@@ -59,8 +59,8 @@ const itemIDs = identifiers(corpus.items, 'Ítem');
 const nodeIDs = identifiers(corpus.nodes, 'Nodo');
 const edgeIDs = identifiers(corpus.edges, 'Arista');
 const walkIDs = identifiers(corpus.walks, 'Recorrido');
-const clusterIDs = identifiers(corpus.conceptual_clusters, 'Clúster');
-identifiers(corpus.themes, 'Tema');
+identifiers(corpus.conceptual_clusters, 'Clúster');
+const themeIDs = identifiers(corpus.themes, 'Tema');
 const edgeMap = new Map((corpus.edges || []).map(e => [e.id, e]));
 const proposalKeys = new Set((corpus.proposed_dictionary_changes || []).map(x => x.proposed_key));
 
@@ -84,6 +84,7 @@ function checkLabels(obj, kind) {
     } else {
       assert(def.kind === 'flexible_tag', `${kind} ${obj.id}: campo reservado duplicado en etiquetas ${e.key}`);
       assert(def.applies_to.includes(kind), `${kind} ${obj.id}: etiqueta ${e.key} fuera de ámbito`);
+      assert(def.state !== 'deprecated', `${kind} ${obj.id}: etiqueta deprecada ${e.key}`);
       assert(checkType(e.value, def.value_type), `${kind} ${obj.id}: tipo inválido ${e.key}`);
     }
     assert(typeof e.basis === 'string' && !!e.basis, `${kind} ${obj.id}: etiqueta sin base interpretativa`);
@@ -179,21 +180,40 @@ for (const c of corpus.conceptual_clusters || []) {
   for (const id of c.boundary_walk_refs || []) assert(walkIDs.has(id), `Clúster ${c.id}: frontera inexistente ${id}`);
   checkItemRefs(c.item_refs, `Clúster ${c.id}`, true);
 }
-const primary = new Map();
+// Theme definitions describe only the matter. Node memberships are a separate
+// public minimal projection; detailed judge reasons must never be encoded here.
+const allowedThemeKeys = new Set(['id', 'title', 'description', 'scope', 'etiquetas', 'version', 'review_status', 'aliases', 'translations']);
 for (const t of corpus.themes || []) {
   checkLabels(t, 'theme');
   assert(t.description && t.title && t.version && t.review_status, `Tema incompleto ${t.id}`);
-  for (const id of t.cluster_refs || []) assert(clusterIDs.has(id), `Tema ${t.id}: clúster inexistente ${id}`);
-  checkItemRefs(t.item_refs, `Tema ${t.id}`);
-  for (const a of t.node_associations || []) {
-    assert(nodeIDs.has(a.node_id), `Tema ${t.id}: nodo inexistente ${a.node_id}`);
-    assert(typeof a.weight === 'number' && a.weight > 0 && a.weight <= 1, `Tema ${t.id}: peso inválido ${a.weight}`);
-    assert(a.role !== 'primary' || a.weight === 1, `Tema ${t.id}: primario sin peso 1`);
-    assert(a.role !== 'secondary' || a.weight < 1, `Tema ${t.id}: secundario no menor de 1`);
-    if (a.role === 'primary') primary.set(a.node_id, (primary.get(a.node_id) || 0) + 1);
-  }
+  for (const field of Object.keys(t)) assert(allowedThemeKeys.has(field), `Tema ${t.id}: campo de relaciones/interpretación prohibido ${field}`);
+  if ('scope' in t) assert(typeof t.scope === 'string', `Tema ${t.id}: scope semántico inválido`);
 }
-for (const [id, count] of primary) assert(count === 1, `Nodo ${id} tiene ${count} temas principales en la muestra`);
+const projection = corpus.theme_projection;
+assert(!!projection && typeof projection === 'object', 'Falta manifiesto independiente de proyección temática');
+assert(typeof projection?.version === 'string' && typeof projection?.graph_snapshot === 'string' && typeof projection?.scope === 'string', 'La proyección temática debe declarar versión, grafo de origen y alcance');
+assert(Array.isArray(projection?.classified_node_ids), 'La proyección temática debe declarar nodos clasificados');
+const classifiedNodeIDs = new Set(projection?.classified_node_ids || []);
+assert(classifiedNodeIDs.size === (projection?.classified_node_ids || []).length, 'Nodos clasificados repetidos en proyección temática');
+for (const id of classifiedNodeIDs) assert(nodeIDs.has(id), `Proyección temática: nodo clasificado desconocido ${id}`);
+const membershipKeys = new Set();
+const themeWeightTotals = new Map();
+const associationFields = ['node_id', 'theme_id', 'weight'];
+for (const a of corpus.theme_assignments || []) {
+  assert(Object.keys(a).sort().join(',') === associationFields.slice().sort().join(','), `Asociación nodo–tema pública con campos distintos de node_id, theme_id, weight: ${JSON.stringify(a)}`);
+  assert(nodeIDs.has(a.node_id), `Asociación temática: nodo desconocido ${a.node_id}`);
+  assert(themeIDs.has(a.theme_id), `Asociación temática: tema desconocido ${a.theme_id}`);
+  assert(classifiedNodeIDs.has(a.node_id), `Asociación temática parcial/no declarada del nodo ${a.node_id}`);
+  assert(typeof a.weight === 'number' && Number.isFinite(a.weight) && a.weight > 0 && a.weight <= 1, `Asociación temática: peso inválido ${a.node_id}/${a.theme_id}: ${a.weight}`);
+  const key = `${a.node_id}\u0000${a.theme_id}`;
+  assert(!membershipKeys.has(key), `Asociación temática repetida ${a.node_id}/${a.theme_id}`);
+  membershipKeys.add(key);
+  if (typeof a.weight === 'number' && Number.isFinite(a.weight)) themeWeightTotals.set(a.node_id, (themeWeightTotals.get(a.node_id) || 0) + a.weight);
+}
+for (const id of classifiedNodeIDs) {
+  const sum = themeWeightTotals.get(id);
+  assert(sum !== undefined && Math.abs(sum - 1) <= 1e-9, `Nodo ${id}: la suma de todos los pesos temáticos debe ser exactamente 1 (actual: ${sum ?? 'sin asociaciones'})`);
+}
 for (const rejected of corpus.rejected_candidates || []) {
   assert(nodeIDs.has(rejected.source) && nodeIDs.has(rejected.target) && rejected.reason, 'Candidato rechazado incompleto');
   assert(!(corpus.edges || []).some(e => (e.source === rejected.source && e.target === rejected.target) || (e.source === rejected.target && e.target === rejected.source)), 'Candidato rechazado figura como arista activa');
@@ -212,6 +232,7 @@ if (errors.length) {
   console.log(`Diccionario ${dictionary.dictionary_version}: ${tagKeys.size} claves (${[...tagMap.values()].filter(t => t.kind === 'flexible_tag').length} flexibles)`);
   console.log(`Ítems ${itemIDs.size}; nodos ${nodeIDs.size}; aristas nivel 1 ${edgeIDs.size}; recorridos nivel 2 ${walkIDs.size}`);
   console.log(`Rutas hasta D ${walkToD}; C→C ${repeatedC}; JF.F4 con C ${collateralC}`);
+  console.log(`Proyección temática: ${classifiedNodeIDs.size} nodos clasificados; ${membershipKeys.size} asociaciones; suma de pesos por nodo = 1`);
   console.log('Arista E-J02 = A desde JUBAP, C desde Focus ON sin calificación global de arista.');
   console.log('NOTA: no verifica evidencia histórica, semántica ABCD/JF, calidad de traducciones ni economía de inferencia.');
 }

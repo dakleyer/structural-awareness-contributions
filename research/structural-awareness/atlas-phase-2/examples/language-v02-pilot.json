@@ -2,7 +2,7 @@
   "meta": {
     "name": "Atlas phase 2 — v0.2 tag language and positioned walks",
     "version": "0.2-experimental",
-    "dictionary_version": "0.1.0",
+    "dictionary_version": "0.1.1",
     "as_of": "2026-11-04",
     "scope": "public JUBAP–Nestlé references plus clearly marked synthetic route extensions; no private Atlas replication",
     "classification_order": ["ABCD", "JF"],
@@ -133,7 +133,7 @@
   ],
   "walks": [
     {
-      "id": "W-JFW", "version": "0.2", "dictionary_version": "0.1.0", "classification_order": ["ABCD", "JF"],
+      "id": "W-JFW", "version": "0.2", "dictionary_version": "0.1.1", "classification_order": ["ABCD", "JF"],
       "position": {"origin": "JFW", "activity": "articulación de cambio organizativo", "question": "¿Hasta dónde permite inferir la articulación histórica JUBAP–Kotter?", "scope": "caso publicado + hipótesis explícitas de transferencia", "capability": "lectura pública; sin evaluación de despliegue multisitio", "as_of": "2026-11-04"},
       "steps": [
         {"edge_id": "E-J02", "from": "JFW", "to": "KOT", "direction": "forward", "abcd": "A", "abcd_reason": "La articulación histórica se encuentra documentada.", "jf_roles": ["JF.F2"], "jf_applicability": "assessed", "jf_reason": "Marco operativo de transformación; factor de procesamiento.", "item_refs": ["ITEM-NESTLE-CASE"]},
@@ -144,7 +144,7 @@
       "terminal_kind": "D", "complete_to_D": true, "review_status": "illustrative_mixed_evidence"
     },
     {
-      "id": "W-FON", "version": "0.2", "dictionary_version": "0.1.0", "classification_order": ["ABCD", "JF"],
+      "id": "W-FON", "version": "0.2", "dictionary_version": "0.1.1", "classification_order": ["ABCD", "JF"],
       "position": {"origin": "FON", "activity": "diagnóstico Focus ON", "question": "¿Qué admite este instrumento sin confundirlo con todo JUBAP?", "scope": "herramienta diagnóstica", "capability": "descripción pública de función; sin caracterización de integración Kotter desde Focus ON", "as_of": "2026-11-04"},
       "steps": [
         {"edge_id": "E-J01", "from": "FON", "to": "JFW", "direction": "reverse", "abcd": "A", "abcd_reason": "Focus ON pertenece al framework JUBAP bajo su función descrita.", "jf_roles": ["JF.F1"], "jf_applicability": "assessed", "jf_reason": "Entrada diagnóstica desde este posicionamiento.", "item_refs": ["ITEM-JUBAP-FRAMEWORK"]},
@@ -153,7 +153,7 @@
       "terminal_kind": "END_OF_GRAPH", "complete_to_D": false, "review_status": "illustrative_contextual_assessment"
     },
     {
-      "id": "W-COLLATERAL", "version": "0.2", "dictionary_version": "0.1.0", "classification_order": ["ABCD", "JF"],
+      "id": "W-COLLATERAL", "version": "0.2", "dictionary_version": "0.1.1", "classification_order": ["ABCD", "JF"],
       "position": {"origin": "JFW", "activity": "dinámica de cambio del ejemplo", "question": "¿Puede un ejercicio de rol abrir un efecto humano no caracterizado?", "scope": "escenario sintético", "capability": "ensayo metodológico sin prueba sobre transformación humana", "as_of": "2026-11-04"},
       "steps": [
         {"edge_id": "E-J06", "from": "JFW", "to": "RPL", "direction": "forward", "abcd": "A", "abcd_reason": "La premisa sintética declara una dinámica de rol activa.", "jf_roles": ["JF.F2"], "jf_applicability": "assessed", "jf_reason": "Dinámica de procesamiento del caso didáctico.", "item_refs": ["ITEM-ROLEPLAY-HYPOTHESIS"]},
@@ -167,7 +167,20 @@
     {"id": "CL-JUBAP", "version": "0.2", "core_node_ids": ["JFW"], "position_refs": ["W-JFW", "W-COLLATERAL"], "a_reach": ["JFW", "KOT", "RPL"], "boundary_walk_refs": ["W-JFW", "W-COLLATERAL"], "description": "Candidato de núcleo de transformación ilustrado por dos rutas; no se demuestra centralidad general del corpus.", "item_refs": ["ITEM-JUBAP-FRAMEWORK", "ITEM-NESTLE-CASE"], "review_status": "candidate", "etiquetas": [{"key": "cluster:a_reach", "value": ["JFW", "KOT", "RPL"], "basis": "walk_analysis", "item_refs": ["ITEM-NESTLE-CASE", "ITEM-ROLEPLAY-HYPOTHESIS"]}]}
   ],
   "themes": [
-    {"id": "TH-TRANSFORMATION", "version": "0.2", "title": "Transformación organizativa", "description": "Eje temático provisional para estudiar procesos y herramientas de cambio; se propone DESPUÉS del clúster candidato y no gobierna ABCD.", "scope": "transformación organizativa", "distinction_from": [], "cluster_refs": ["CL-JUBAP"], "node_associations": [{"node_id": "JFW", "weight": 1, "role": "primary"}, {"node_id": "FON", "weight": 0.5, "role": "secondary"}], "item_refs": ["ITEM-JUBAP-FRAMEWORK"], "review_status": "provisional_not_global_theme_taxonomy", "etiquetas": [{"key": "theme:scope", "value": "transformación organizativa", "basis": "interpretation", "item_refs": ["ITEM-JUBAP-FRAMEWORK"]}]}
+    {"id": "TH-TRANSFORMATION", "version": "0.2", "title": "Transformación organizativa", "description": "Cambios deliberados en las prácticas, estructuras o procesos de una organización, desde su preparación hasta su realización.", "scope": "cambio organizativo", "review_status": "illustrative_definition", "etiquetas": []},
+    {"id": "TH-DIAGNOSTIC", "version": "0.2", "title": "Diagnóstico organizativo", "description": "Actividad de examinar y caracterizar la situación de una organización para identificar condiciones, necesidades o problemas.", "scope": "observación y caracterización organizativa", "review_status": "illustrative_definition", "etiquetas": []}
+  ],
+  "theme_projection": {
+    "scope": "illustrative_subset_only",
+    "classified_node_ids": ["JFW", "FON"],
+    "version": "0.1-example",
+    "graph_snapshot": "language-v02-pilot.json:0.2-experimental",
+    "review_status": "illustrative_not_adjudicated"
+  },
+  "theme_assignments": [
+    {"node_id": "JFW", "theme_id": "TH-TRANSFORMATION", "weight": 1},
+    {"node_id": "FON", "theme_id": "TH-TRANSFORMATION", "weight": 0.4},
+    {"node_id": "FON", "theme_id": "TH-DIAGNOSTIC", "weight": 0.6}
   ],
   "proposed_dictionary_changes": [
     {"proposed_key": "proposed:case_context", "definition": "Identificador del caso de campo que contextualiza una fuente.", "applies_to": ["item"], "value_type": "string", "nearest_existing_keys": ["node:scope", "item:kind"], "reason_not_reuse": "Se refiere al contexto externo del caso fuente, no al alcance de un nodo ni al tipo de ítem.", "source_item_refs": ["ITEM-NESTLE-CASE"], "author": "phase2_pilot", "status": "local_only_pending_dictionary_review", "decision": null}

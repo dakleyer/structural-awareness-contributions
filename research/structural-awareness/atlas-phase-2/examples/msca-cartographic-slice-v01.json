@@ -39,7 +39,7 @@
             "theme_ref": "TH-TRANSFORMATION",
             "node_ref": "JFW",
             "weight": 1.0,
-            "basis": "existing_node_association_weight",
+            "basis": "public_node_theme_assignment",
             "state": "provisional_not_global_percentage"
           }
         ],
