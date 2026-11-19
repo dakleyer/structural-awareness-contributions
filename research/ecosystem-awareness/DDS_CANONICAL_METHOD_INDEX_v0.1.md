@@ -202,6 +202,7 @@ This is the authoritative **cross-stage classification registry** for current DD
 6. [DDS bibliography](./DDS_REFERENCES_2026-10-06.bib)
 7. [Limited claim source/consumer register](./DDS_CLAIM_SOURCE_CONSUMER_REGISTER_v0.1.md) — ten externally reused statements, their owning sources, evidence ceilings and maintenance triggers; an editorial aid, not a new DDS authority.
 8. [Stage A VNext review ledger](./DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md) — proposals, applied successors and remaining audit tests; frozen Stage A remains the source contract.
+9. [Ad hoc shared-board / emergent handshake / context-change and EHD exploration — Stage C research note v0.1](./DDS_STAGE_C_AD_HOC_SHARED_BOARD_HANDSHAKE_CONTEXT_CHANGE_EHD_NOTE_v0.1.md) — **noncanonical, not preregistered, not executed**; an optional implementation-level research design, not a new DDS method, Stage profile or evidence result.
 
 ## 10. Migration and preservation status
 
