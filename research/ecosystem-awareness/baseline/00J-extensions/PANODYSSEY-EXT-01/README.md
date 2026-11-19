@@ -9,8 +9,8 @@
 
 | Reader needs to... | Start with | Then verify |
 |---|---|---|
-| Understand the proposed **one Challenge / three trajectories** | [FG-TIDA use-case presentation v0.4](./presentation/FG_TIDA_Panodyssey_Agent_Rights_Use_Case_PRESENTATION_v0.4.md) | [Expanded Challenge](./PANO-01_EXPANDED_CHALLENGE_THREE_TRAJECTORIES.md) and [source map](./SOURCE-00_ORIGINAL_CHALLENGE_AND_TOR_MAP.md) |
-| Check publisher-side rights facts or **legal/technical applicability** | [Conditional register](./PANO-02_CONDITIONAL_LEGAL_TECHNICAL_TRACEABILITY.md) | [Alexandre's version/channel question](./PANO-05_ALEXANDRE_NOTICE_RAG_DISCREPANCY.md) |
+| Understand the proposed **one Challenge / three trajectories** | [FG-TIDA source-reviewed presentation v0.5](./presentation/FG_TIDA_Panodyssey_Agent_Rights_Use_Case_PRESENTATION_v0.5.md) | [Expanded Challenge](./PANO-01_EXPANDED_CHALLENGE_THREE_TRAJECTORIES.md) and [source map](./SOURCE-00_ORIGINAL_CHALLENGE_AND_TOR_MAP.md) |
+| Check publisher-side rights facts or **legal/technical applicability** | [Six-point review and attribution trace](./presentation/CONTRIBUTIONS_AND_REVIEW_TRACE_v0.5.md) | [Conditional register](./PANO-02_CONDITIONAL_LEGAL_TECHNICAL_TRACEABILITY.md) and [historical version/channel question](./PANO-05_ALEXANDRE_NOTICE_RAG_DISCREPANCY.md) |
 | Assess the evidence expected of an **AI provider or agent** | [T-UC3 E1–E5](./PANO-03_TUC3_EVIDENCE_EXECUTION_Q3_INTERFACE.md) | [DDS Stage A contract](./PANO-04_DDS_STAGE_A_EVALUATION_EVIDENCE_CONTRACT.md) |
 | Decide whether prior **UC21/S6 evidence** could be reused | [Partial-isomorphism method](./PANO-08_PARTIAL_ISOMORPHISM_EVIDENCE_TRANSFER.md) | [Transfer ledger](./TRANSFER_LEDGER.md); no inherited PASS is currently established |
 | See **what is ready versus on hold** | [Execution-readiness register](./DDS_UC4_READINESS.md) | [Open findings](./PANO-07_COMPLETENESS_AUDIT_OPEN_FINDINGS.md) and [promotion review](./PROMOTION_REVIEW.md) |
@@ -33,6 +33,8 @@ flowchart TB
 > **CANONICAL RESEARCH RECORD OF A PROPOSED EXTENSION · OWNER-ACCEPTED FOR CORPUS PUBLICATION · 25 October 2026.** This reader is the *single current canonical entry point for this logical extension*. Individual `PANO-xx` and `SOURCE-00` files preserve their source-document roles. None reports a completed A25/A26 admission, DDS score, UC4 run, Panodyssey failure or EU-law compliance decision.
 >
 > **Publication and custody:** The original Google Docs retain their historical **INTERNAL / NOT FOR EXTERNAL CIRCULATION** labels. Iván Abril Palma, the corpus owner, explicitly directed public GitHub publication and promotion of these ten working-document mirrors through [PR #39](https://github.com/dakleyer/structural-awareness-contributions/pull/39) on 25 October 2026. That scoped corpus decision does **not** grant permission to publish underlying third-party private correspondence, commercial records or unpublished source material, nor authorize external filing, rights claims or institutional approval. Source-owner and evidentiary permissions remain separate for those purposes. See [the disposition record](./PROMOTION_REVIEW.md#5-owner-promotion-decision-and-residual-gates).
+
+**Source-owner review incorporated (19 November 2026).** The [Panodyssey FG-TIDA presentation v0.5](./presentation/FG_TIDA_Panodyssey_Agent_Rights_Use_Case_PRESENTATION_v0.5.md) integrates Alexandre's six-point production/Notice/licensing/agent-identity/name/ownership review (3 November) and Olena's E3/product-status/credit refinements (30 October). The [contribution and evidence trace](./presentation/CONTRIBUTIONS_AND_REVIEW_TRACE_v0.5.md) identifies each person's role, evidence boundary and pending filing step. [v0.4](./presentation/FG_TIDA_Panodyssey_Agent_Rights_Use_Case_PRESENTATION_v0.4.md) and all ten source mirrors remain unchanged. Publication here is not a submission to FG-TIDA.
 
 ## 1. Identity and parental discipline
 

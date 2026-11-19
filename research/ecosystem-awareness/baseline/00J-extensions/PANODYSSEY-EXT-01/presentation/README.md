@@ -9,8 +9,8 @@
 
 | Reader's question | First document | Supporting route |
 |---|---|---|
-| **What is the proposed FG-TIDA use case?** | [Agent Identity and Rights Evidence for Published Text — presentation v0.4](./FG_TIDA_Panodyssey_Agent_Rights_Use_Case_PRESENTATION_v0.4.md) | Source-owned [Challenge](./PANO-01_EXPANDED_CHALLENGE_THREE_TRAJECTORIES.md) and [original S1–S14 map](./SOURCE-00_ORIGINAL_CHALLENGE_AND_TOR_MAP.md) |
-| **What is described as working today?** | [Alexandre's version/channel reconciliation](./PANO-05_ALEXANDRE_NOTICE_RAG_DISCREPANCY.md) | [Conditional legal/technical register](./PANO-02_CONDITIONAL_LEGAL_TECHNICAL_TRACEABILITY.md); current capabilities require dated source-owner confirmation |
+| **What is the proposed FG-TIDA use case?** | [Agent Identity and Rights Evidence for Published Text — source-reviewed presentation v0.5](./FG_TIDA_Panodyssey_Agent_Rights_Use_Case_PRESENTATION_v0.5.md) | Source-owned [Challenge](./PANO-01_EXPANDED_CHALLENGE_THREE_TRAJECTORIES.md) and [original S1–S14 map](./SOURCE-00_ORIGINAL_CHALLENGE_AND_TOR_MAP.md) |
+| **What is described as working today?** | [v0.5 source-owner review](./FG_TIDA_Panodyssey_Agent_Rights_Use_Case_PRESENTATION_v0.5.md) | [Contribution / six-point trace](./CONTRIBUTIONS_AND_REVIEW_TRACE_v0.5.md); current Notice v2.1 and five production layers are source-owner-confirmed, not independently tested |
 | **What would a candidate need to evidence?** | [T-UC3 evidence checkpoints](./PANO-03_TUC3_EVIDENCE_EXECUTION_Q3_INTERFACE.md) | [DDS Stage A fair assessment and outcome contract](./PANO-04_DDS_STAGE_A_EVALUATION_EVIDENCE_CONTRACT.md) |
 | **Can older UC21/S6 evidence avoid repetition?** | [Partial-isomorphism and transfer method](./PANO-08_PARTIAL_ISOMORPHISM_EVIDENCE_TRANSFER.md) | [Original transfer ledger](../TRANSFER_LEDGER.md); no eligible passed run has been established |
 | **What can happen next, and what is on hold?** | [DDS/UC4/UC21 roadmap](./PANO-06_DDS_UC4_UC21_REUSE_ROADMAP.md) | [Execution-readiness](../DDS_UC4_READINESS.md), [completeness audit](./PANO-07_COMPLETENESS_AUDIT_OPEN_FINDINGS.md) |
@@ -28,6 +28,8 @@ flowchart TB
 ```
 
 *This is a reader map, not an executed, frozen or approved test flow.*
+
+**Version and attribution:** The [six-point and contributor trace](./CONTRIBUTIONS_AND_REVIEW_TRACE_v0.5.md) reconciles Alexandre's 3 November and Olena's 30 October reviews. [v0.4](./FG_TIDA_Panodyssey_Agent_Rights_Use_Case_PRESENTATION_v0.4.md) remains available as the unchanged pre-review version. Publishing this reader update does not perform Alexandre's FG-TIDA issue/README filing.
 
 ## 2. All ten original working documents — readable companions
 
@@ -75,8 +77,8 @@ This is a **reading checklist extracted from the existing research contracts**, 
 
 - The **source** is one broad Panodyssey Challenge with three specific documentary trajectories, **not three official FG-TIDA cases**.
 - The ten archival mirrors retain their historical **INTERNAL / NOT FOR EXTERNAL CIRCULATION** labels and exact source wording. Owner-accepted research publication does not authorize distribution of underlying private correspondence or commercial records.
-- Panodyssey publisher-side operational descriptions are **source-owner assertions** with version/channel details pending renewed verification; no agent-side verified deployed implementation is asserted.
+- Alexandre confirmed five publisher-side production layers and Notice v2.1 on 3 November 2026. These remain **source-owner-asserted status**, not independent verification; RAG as a distinct v2.2 channel is **upcoming**, and no agent-side verified implementation is asserted.
 - **Not yet established:** completed A25/A26 admission, inherited PanO-v6 PASS, DDS Stage A/B/C score, UC4 execution, EU-law compliance, FG-TIDA/ITU endorsement or formal submission.
-- The draft FG-TIDA use case requires Alexandre's and Olena's source/attribution/external-use review before filing. GitHub commits provide technical provenance, not those approvals.
+- Alexandre's six clarifications and Olena's three wording/attribution refinements are incorporated in v0.5. **Final review of the revised wording, an agreed go-ahead and Alexandre's official filing are still open.** GitHub commits provide technical provenance, not institutional approval.
 
 For source authority, start again at the [canonical research entry](../README.md).
