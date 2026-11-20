@@ -68,6 +68,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 36 | 2026-11-20 | [Informes sin compensación de unidades (PR #81 y #82)](#ronda-36) | Sin cambio de estado; F-05 (b) atendido en rama; L-05 se sostiene en unidades físicas |
 | 37 | 2026-11-20 | [Recepción de L-01 (PR #83)](#ronda-37) | L-01 respondido |
 | 38 | 2026-11-20 | [Óptimos repetidos en #69 (PR #84)](#ronda-38) | Defecto de #69 encontrado por su autor y corregido; sin registro nuevo |
+| 39 | 2026-11-20 | [Indicadores de evidencia no booleanos en #60 (PR #85)](#ronda-39) | Defecto encontrado por el autor y corregido; sin registro nuevo |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1452,3 +1453,24 @@ Pasan las 105 pruebas del directorio (101 previas y 4 nuevas) y la CI está en v
 Pasan las 56 pruebas del estudio (51 previas y 5 nuevas) y la CI está en verde.
 
 **Estado:** no hay registro nuevo. La auditoría a fondo de #69 sigue pendiente y tomará #84 como parte de su base.
+
+
+<a id="ronda-39"></a>
+
+## Ronda 39 — indicadores de evidencia no booleanos en #60, corregidos en PR #85 (20-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** [comentario en PR #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-7052081345), escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #85 (`7751da21`) es un único commit sobre #83 (`ddd29db2`).
+
+**El defecto.** `assess_candidate` y `qualified_common_rejection` comprobaban cinco indicadores por su valor de verdad: la captura de cada observación, la recepción, el vínculo con el valor, la autoridad y el presupuesto. Un valor como `"UNKNOWN"`, `"yes"`, 1 o un diccionario contaba como cierto y podía llegar al estado positivo. Es la misma clase que M28-03 y L-02: un campo no establecido que se convierte en certificado positivo. Lo encontró el propio autor.
+
+**La corrección.** Las cinco comprobaciones pasan a exigir `is True`. No se añade ninguna puerta ni cambia ninguna otra lógica.
+
+**Comprobado de forma independiente** (`explicit_flags_check.py`, comparando con #83):
+
+- Las 16 combinaciones booleanas de las cuatro puertas dan el mismo estado antes y después; solo la de todo abierto es positiva.
+- Se probaron seis sustitutos no booleanos por puerta («UNKNOWN», «yes», 1, 2, un diccionario y una lista). Antes, los seis llegaban al estado positivo en cada puerta. Después, ninguno.
+- Lo mismo con `captured` en cualquiera de las observaciones: antes llegaban al estado positivo 24 combinaciones; después, ninguna.
+
+Pasan las 109 pruebas del directorio y la CI está en verde.
+
+**Estado:** no hay registro nuevo, por el mismo criterio que en la ronda 38: defecto encontrado y corregido por el autor en una rama abierta. Se cerrará con #60, #83 y #85 cuando estén en `main`.
