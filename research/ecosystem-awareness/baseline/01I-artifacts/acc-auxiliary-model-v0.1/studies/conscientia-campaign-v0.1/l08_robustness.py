@@ -200,10 +200,15 @@ def pareto(
     for arm,values in points.items():
         if any(v is None for v in values):
             raise ValueError("unknown value cannot become zero in Pareto comparison")
-    return sorted(arm for arm,point in points.items() if not any(
+    normalized = {
+        arm: tuple(rational(value, name=axis, nonnegative=False)
+                   for axis, value in zip(axes, values))
+        for arm, values in points.items()
+    }
+    return sorted(arm for arm,point in normalized.items() if not any(
         peer!=arm and all(a<=b for a,b in zip(other,point)) and
         any(a<b for a,b in zip(other,point))
-        for peer,other in points.items()
+        for peer,other in normalized.items()
     ))
 
 
@@ -414,3 +419,4 @@ def main(argv:Sequence[str]|None=None)->int:
 
 if __name__=="__main__":
     raise SystemExit(main())
+
