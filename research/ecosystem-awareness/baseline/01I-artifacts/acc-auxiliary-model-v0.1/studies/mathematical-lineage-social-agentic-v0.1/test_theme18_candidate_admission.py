@@ -13,7 +13,7 @@ from fractions import Fraction
 import unittest
 
 from qualified_gain import ValueInterval, compare_gain
-from qualified_gain_adapters import geometry_score_bounds
+from qualified_gain_adapters import geometry_score_bounds, geometry_score_lower_bound
 
 SOURCES = tuple("observer-" + str(i) for i in range(4))
 THRESHOLD = 0.6
@@ -35,7 +35,8 @@ def geometry_gain_status(lower_bound):
                              verification="SUPPORTED")
     candidate = ValueInterval("geometry", "score", "theme18-v1",
                               "PROPOSED_BOUND", "qualified-source-to-value-link",
-                              lower=lower_bound, verification="SUPPORTED")
+                              lower=geometry_score_lower_bound(lower_bound),
+                              verification="SUPPORTED")
     return compare_gain(baseline, candidate).status
 
 
@@ -235,3 +236,4 @@ class CandidateAdmissionResearchChecks(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
+
