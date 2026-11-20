@@ -279,24 +279,30 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"), (37, 0, "L-01 (#83)"), (38, 0, "#69: óptimos repetidos (#84)"), (39, 0, "#60: indicadores booleanos (#85)"), (40, 0, "Fe de erratas; #86–#91"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"), (37, 0, "L-01 (#83)"), (38, 0, "#69: óptimos repetidos (#84)"), (39, 0, "#60: indicadores booleanos (#85)"), (40, 0, "Fe de erratas; #86–#91"), (41, 0, "Identidad dimensional (#92)"),
 ]
 
 
 def fig_rounds() -> str:
-    # Four label lanes (far/near above, near/far below) so labels on the same lane are 4 steps apart.
-    w, left, right, y0 = 1200, 80, 80, 178
-    step = (w - left - right) / (len(ROUNDS) - 1)
-    h = 340
+    # Two strips (the first half of the rounds above, the rest below) with four label lanes each
+    # (far/near above, near/far below), so labels on the same lane are 4 steps apart and never collide.
+    w, left, right = 1200, 70, 70
+    per = (len(ROUNDS) + 1) // 2
+    step = (w - left - right) / (per - 1)
+    strips = (150, 350)
+    h = 490
     lanes = ((-1, 70), (1, 46), (-1, 34), (1, 82))  # (direction, label offset)
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
          f'aria-label="Línea de tiempo de las {len(ROUNDS)} rondas de auditoría y su autor">{STYLE}',
          f'<rect class="bg" width="{w}" height="{h}" rx="8"/>',
-         '<text class="ink" x="16" y="28" font-size="16" font-weight="600">Las rondas de la auditoría, en orden (26–28 oct 2026)</text>',
-         '<text class="ink2" x="16" y="50" font-size="12">En el archivo, las rondas 1–6 aparecen en orden inverso (6, 4, 3, 2, 1) y desde la 7 en orden directo. Aquí van en orden real.</text>',
-         f'<line class="grid" x1="{left}" x2="{w - right}" y1="{y0}" y2="{y0}" stroke-width="2"/>']
+         f'<text class="ink" x="16" y="28" font-size="16" font-weight="600">Las {len(ROUNDS)} rondas de la auditoría, en orden (26 oct – 21 nov 2026)</text>',
+         '<text class="ink2" x="16" y="50" font-size="12">En el archivo, las rondas 1–6 aparecen en orden inverso (6, 4, 3, 2, 1) y desde la 7 en orden directo. Aquí van en orden real.</text>']
+    for k, y0 in enumerate(strips):
+        n = len(ROUNDS[k * per:(k + 1) * per])
+        s.append(f'<line class="grid" x1="{left}" x2="{left + (n - 1) * step:.1f}" y1="{y0}" y2="{y0}" stroke-width="2"/>')
     for i, (r, a, label) in enumerate(ROUNDS):
-        x = left + i * step
+        y0 = strips[i // per]
+        x = left + (i % per) * step
         d, off = lanes[i % 4]
         ty = y0 - off if d < 0 else y0 + off
         tick = (off - 12) if d < 0 else (off - 24)
@@ -311,7 +317,6 @@ def fig_rounds() -> str:
     s.append(f'<text class="ink2" x="{w - 16}" y="{h - 26}" font-size="11" text-anchor="end">Ninguna ronda es una revisión humana independiente.</text>')
     s.append("</svg>")
     return "\n".join(s)
-
 
 M27_20_URL = "https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-6446350643"
 STATE_LABEL = {"ABIERTO": "🔵 Abierto", "RESPONDIDO": "🟠 Respondido", "CERRADO": "🟢 Cerrado",

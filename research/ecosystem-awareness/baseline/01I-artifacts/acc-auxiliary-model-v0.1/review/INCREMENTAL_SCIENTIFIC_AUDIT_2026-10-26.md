@@ -70,6 +70,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 38 | 2026-11-20 | [Óptimos repetidos en #69 (PR #84)](#ronda-38) | Defecto de #69 encontrado por su autor y corregido; sin registro nuevo |
 | 39 | 2026-11-20 | [Indicadores de evidencia no booleanos en #60 (PR #85)](#ronda-39) | Defecto encontrado por el autor y corregido; sin registro nuevo |
 | 40 | 2026-11-21 | [Fe de erratas de la ronda 36 y seis correcciones técnicas (#86–#91)](#ronda-40) | La ronda 36 llamó «producción» a un valor sintético; seis defectos de comparación corregidos por el autor; sin registros nuevos |
+| 41 | 2026-11-21 | [Identidad de las dimensiones en #92](#ronda-41) | Nombres ambiguos o en blanco ahora se rechazan; informe H-01 idéntico; sin registros nuevos |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1508,3 +1509,30 @@ Sondeo propio en #72 frente a #91: `pareto` con NaN devolvía los dos brazos en 
 **Efecto en los resultados publicados: ninguno.** Las entradas reales eran enteros exactos. El recuento independiente de L-08 (`l08_independent_panel.py`) sobre #91 da las mismas cifras que en la ronda 30: 13/9/26/1 y 19 de 49 con acceso igualado, y 15/22/12 y 6 de 49 con el acceso original.
 
 **Estado:** sin registros nuevos ni cambios de estado, por el criterio de las rondas 38 y 39. Totales: 89 registros. 32 abiertos, 30 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-41"></a>
+
+## Ronda 41 — identidad de las dimensiones en PR #92 (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** PR #92 (`a36f5969`), hijo de #76 (`ea1a8c6b`), y comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. Codex pidió reproducir los dos fallos en el padre, comprobar que las identidades ambiguas o sin nombre se rechazan de forma explícita, que los nombres válidos nuevos pasan sin normalizarse y que el informe completo no cambia.
+
+**Qué corrige.** El contrato dimensional de #76 (ronda 35) compara dos estados dimensión por dimensión, sin compensar unas con otras. Pero aceptaba como nombre cualquier clave. Dos componentes `1` (número) y `"1"` (texto) se trataban como actores distintos; al guardar el informe en JSON, las dos claves se convierten en una sola y uno de los dos actores desaparece del registro. También aceptaba unidades en blanco y la misma dimensión desconocida repetida. #92 exige que dimensiones, componentes, unidades y desconocidas sean texto literal no vacío, y rechaza desconocidas duplicadas.
+
+**Comprobación** (`verification/dimensional_identity_check.py`, cada árbol en su propio proceso):
+
+| Sondeo | #76 (padre) | #92 |
+|---|---|---|
+| Componentes `{1: 3, "1": 3}` | aceptado: `INCOMPARABLE_K_TRADEOFF` | rechazado (`ValueError`) |
+| Unidad `"   "` | aceptado: `MONOTONE_IMPROVEMENT_IN_K` | rechazado |
+| Desconocidas `("E", "E")` | aceptado: `MONOTONE_IMPROVEMENT_IN_K` | rechazado |
+| Dimensión llamada `"   "` | aceptado: `MONOTONE_IMPROVEMENT_IN_K` | rechazado |
+| Nombres distintos `" actor "`, `"01"`, `"1"`, `"ñ"` | se conservan tal cual | se conservan tal cual |
+
+El cuarto sondeo es propio; los otros tres reproducen los casos que describe el PR. Los nombres válidos no se recortan ni se normalizan: `" actor "` y `"1"`/`"01"` siguen siendo componentes distintos y sobreviven a la ida y vuelta por JSON.
+
+**Efecto en los resultados publicados: ninguno.** El informe H-01 completo (`run_manifest` sobre `H01_STRATEGIC_STUDY.json`, 252 327 bytes) es idéntico byte a byte en #76 y en #92. El recuento independiente de la ronda 35 (`h01_k_dimension_recount.py`) da en #92 las mismas cifras: 46 monótonas, 92 con compensación, 38 sin mejora y 4 equivalentes en las 180 celdas; 13 y 26 entre las 39 trampas. Pasan las 69 pruebas de los cuatro módulos afectados (5 nuevas en `test_dimensional_identity.py`) y la CI está en verde.
+
+**Para quien no programa.** Es como una hoja de cálculo donde dos filas se llamaran «1» y «uno»: para el programa eran personas distintas, pero al exportar el archivo se fundían en una y se perdía una de ellas sin aviso. Ahora el programa exige nombres de texto claros y se niega a seguir si hay ambigüedad.
+
+**Estado:** sin registros nuevos ni cambios de estado, por el criterio de las rondas 38 a 40: defecto encontrado y corregido por el autor en una rama abierta. Queda pendiente de cierre con #76 cuando esté en `main`. Totales sin cambios: 89 registros.

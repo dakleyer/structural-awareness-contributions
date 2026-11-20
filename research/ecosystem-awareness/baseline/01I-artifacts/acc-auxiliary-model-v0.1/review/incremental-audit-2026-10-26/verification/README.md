@@ -33,6 +33,7 @@ El script de reconfirmación de I-01 ya estaba en el PR: [`../reconfirm_I01_2026
 | [`narrative_optima_dedupe.py`](narrative_optima_dedupe.py) | #69 / #84 | [38](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-38) | Directorio del estudio en #69 (`4cd76d96`) y en PR #84 | 1 528 casos: el resto de campos y el conjunto de óptimos, idénticos; repeticiones 878 → 0. Termina con 1 si algo falla |
 | [`explicit_flags_check.py`](explicit_flags_check.py) | #60 / #85 | [39](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-39) | Directorio del estudio en #83 (`ddd29db2`) y en PR #85 | 16 combinaciones booleanas idénticas; sustitutos no booleanos que llegan al estado positivo: de 6 a 0 por puerta y de 24 a 0 en `captured`. Termina con 1 si algo falla |
 | [`regressions_on_parent.py`](regressions_on_parent.py) | #86, #87, #88, #90, #91 | [40](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-40) | Raíz del repositorio con las ramas de los PR descargadas | Cada regresión nueva pasa en su PR y falla en su padre; sondeo de `pareto` y `two_arm_order` en #72 frente a #91. Termina con 1 si algo falla |
+| [`dimensional_identity_check.py`](dimensional_identity_check.py) | #92 (K, contrato de #76) | [41](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-41) | Árboles de #76 y #92 | Cuatro identidades ambiguas aceptadas en #76 y rechazadas en #92; nombres distintos conservados; informe H-01 idéntico. Termina con 1 si algo falla |
 | [`anchor_check.py`](anchor_check.py) | Herramienta | 14, 20, 21 | Cualquier `.md` | Enlaces `archivo.md#ancla` que no encuentran título ni `<a id>`. Termina con 1 si hay alguno roto |
 
 ## Cómo ejecutarlos
@@ -68,6 +69,7 @@ python3 -B $V/l01_codomain_check.py          $PR60/$S/mathematical-lineage-socia
 python3 -B $V/narrative_optima_dedupe.py     $PR69/$S/narrative-acceptance-v0.1 $PR84/$S/narrative-acceptance-v0.1
 python3 -B $V/explicit_flags_check.py        $PR83/$S/mathematical-lineage-social-agentic-v0.1 $PR85/$S/mathematical-lineage-social-agentic-v0.1
 python3 -B $V/regressions_on_parent.py       .
+python3 -B $V/dimensional_identity_check.py  $PR76 $PR92
 python3 -B $V/anchor_check.py                 $V/../GUIA_DE_LECTURA.md $V/../premium/*.md
 ```
 
@@ -106,6 +108,8 @@ l01_codomain_check.py           codomain [0,1] | >1 rejected | 151 hundredths id
 narrative_optima_dedupe.py      1528 cases | same optima set | repeats 878 -> 0 | RESULT: PASS (PR #84, e7da9c58)
 explicit_flags_check.py         16 booleans identical | stand-ins 6->0 per gate, captured 24->0 | RESULT: PASS (PR #85, 7751da21)
 regressions_on_parent.py        5/5 fail on parent, pass on fix | RESULT: PASS (ronda 40)
+dimensional_identity_check.py   4/4 accepted on #76, rejected on #92 | distinct names kept | H-01 report identical | RESULT: PASS (PR #92, a36f5969)
+h01_k_dimension_recount.py      46/92/38/4 | traps 13/26 | RESULT: PASS (PR #92, a36f5969)
 anchor_check.py                 0 anclas rotas en la auditoría, la guía, el anexo y el kit premium
 ```
 
