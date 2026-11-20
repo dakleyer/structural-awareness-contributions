@@ -28,6 +28,7 @@ El script de reconfirmación de I-01 ya estaba en el PR: [`../reconfirm_I01_2026
 | [`l09_twin_recount.py`](l09_twin_recount.py) | [L-09](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-09) | [32](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-32) | Raíz de PR #75 | Fuga original 18/24 y 0,5 bits; dentro de cada pareja solo cambian campos privados; 1 536/3 072 y 0 bits en los 8 regímenes. Termina con 1 si hay fuga |
 | [`h01_equilibrium_selection.py`](h01_equilibrium_selection.py) | [H-01](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#h-01), [L-10](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-10) | [33](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-33) | Raíz de PR #76 | Pagos (3,3) (2,0) (0,2) (5,5); dos Nash estrictos; empate en dominancia por riesgo (9 y 9, umbral 1/2); de las 39 trampas, 9 favorecen (0,0) por riesgo y 30 favorecen (1,1) |
 | [`h01_k_dimension_recount.py`](h01_k_dimension_recount.py) | [H-01](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#h-01), [L-10](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-10) | [35](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-35) | Raíz de PR #76 | R/C sin compensación: 46 monótonas, 92 intercambios, 38 sin mejora, 4 equivalentes; entre las trampas, 13 y 26. Termina con 1 si algo no coincide |
+| [`unit_safe_probe.py`](unit_safe_probe.py) | [F-05](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#f-05), [L-05](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-05), [K-01](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-01) | [36](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-36) | Raíz de PR #82, que incluye #81 | Los campos escalares antiguos no influyen; valores inválidos rechazados; precios de K-01; inspección dirigida con la producción máxima en solitario en 14 de 30; mismo presupuesto en todos los brazos |
 | [`anchor_check.py`](anchor_check.py) | Herramienta | 14, 20, 21 | Cualquier `.md` | Enlaces `archivo.md#ancla` que no encuentran título ni `<a id>`. Termina con 1 si hay alguno roto |
 
 ## Cómo ejecutarlos
@@ -58,6 +59,7 @@ python3 -B $V/g02_audit_identities.py         $PR73
 python3 -B $V/l09_twin_recount.py             $PR75
 python3 -B $V/h01_equilibrium_selection.py    $PR76
 python3 -B $V/h01_k_dimension_recount.py      $PR76
+python3 -B $V/unit_safe_probe.py             $PR82
 python3 -B $V/anchor_check.py                 $V/../GUIA_DE_LECTURA.md $V/../premium/*.md
 ```
 
@@ -91,6 +93,7 @@ g02_audit_identities.py         RESULT: PASS | L-09: 6 of 12 false Q identifiabl
 l09_twin_recount.py             original 18/24, 0.5 bit | twins 1536/3072, 0 bits x 8 | RESULT: PASS (PR #75, d41e2d40)
 h01_equilibrium_selection.py    Nash (0,0),(1,1) | risk 9 vs 9, p*=1/2 | traps: 9 (0,0) vs 30 (1,1) risk-dominant (PR #76, b71ae5dc)
 h01_k_dimension_recount.py      46/92/38/4 | traps 13/26 | RESULT: PASS (PR #76, ea1a8c6b)
+unit_safe_probe.py              legacy fields inert | NaN/inf/bool/text rejected | K-01 9/4, 3, 13/4 vs 3 | directed max alone 14/30 (PR #82, da78cd31)
 anchor_check.py                 0 anclas rotas en la auditoría, la guía, el anexo y el kit premium
 ```
 

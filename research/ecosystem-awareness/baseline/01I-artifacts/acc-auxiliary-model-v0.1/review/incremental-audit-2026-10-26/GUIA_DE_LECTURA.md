@@ -281,6 +281,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 33 | 1 nov | Claude | Recepción de H-01 (#76): juego con desviación factible comprobado, H-01 respondido, L-10 nuevo | [ronda 33](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-33) |
 | 34 | 1 nov | Claude | Diagnóstico complementario de H-01 (#76): condiciones analíticas reproducidas y forma cerrada de L-10 | [ronda 34](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-34) |
 | 35 | 1 nov | Claude | Corrección de fidelidad dimensional (#76): recuento R/C reproducido; precisiones a H-01, L-10 y L-05 | [ronda 35](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-35) |
+| 36 | 20 nov | Claude | Informes sin compensación de unidades (#81, #82): F-05 (b) atendido en rama; L-05 se sostiene en producción física | [ronda 36](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-36) |
 
 <a id="11-los-79-registros-uno-por-uno"></a>
 <a id="11-los-82-registros-uno-por-uno"></a>

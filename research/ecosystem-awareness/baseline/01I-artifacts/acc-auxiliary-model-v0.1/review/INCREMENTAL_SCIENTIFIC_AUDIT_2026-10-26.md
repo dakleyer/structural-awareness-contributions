@@ -65,6 +65,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 33 | 2026-11-01 | [Recepción de H-01 (PR #76)](#ronda-33) | H-01 respondido; L-10 nuevo |
 | 34 | 2026-11-01 | [Diagnóstico complementario de H-01 (PR #76)](#ronda-34) | Sin cambio de estado; condiciones analíticas reproducidas; forma cerrada de L-10 |
 | 35 | 2026-11-01 | [Corrección de fidelidad dimensional (PR #76)](#ronda-35) | Sin cambio de estado; recuento R/C reproducido; precisiones a H-01, L-10 y L-05 |
+| 36 | 2026-11-20 | [Informes sin compensación de unidades (PR #81 y #82)](#ronda-36) | Sin cambio de estado; F-05 (b) atendido en rama; L-05 se sostiene en unidades físicas |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1366,3 +1367,39 @@ Coincide con #76. Las 13 trampas monótonas son exactamente las de carga k = 0. 
 - **#57, #66 y #54.** Lo que la nota dice de ellos ya estaba en la auditoría: F-05 (resta de costes sin tasa de conversión, abierto), K-07 y OP-06 (escala común declarada). No se añaden registros nuevos; la nota confirma esos hallazgos desde las fuentes.
 
 **Recomendación de notación.** Para la utilidad directa, las fuentes usan D (S1-P0266 y S1-P0280: K₂ = {E, D}). #76 usa R, que evita el choque con la posición D de A/B/C/D, el mismo choque que señaló P-M03 en la entrega 02 del kit. Para la atribución, S1-P0208 usa V y S1-P0280 usa A. Conviene una tabla de equivalencias única (D → R, A ↔ V) en `MODEL.md` o en el núcleo técnico antes de que más estudios adopten letras distintas.
+
+
+<a id="ronda-36"></a>
+
+## Ronda 36 — informes sin compensación de unidades en PR #81 y PR #82 (20-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** [comentario en PR #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-7051784691), escrito por Codex, asistencia de IA, desde la cuenta del propietario. Hay dos PR nuevos, en borrador y apilados:
+
+- **#81 (`f3971ba4`), sobre #66.** Añade `unit_safe_envelope.py`, que proyecta cada caso en dos ejes separados, la producción física y el precio de información, sin usar el neto ni los «líderes» antiguos.
+- **#82 (`da78cd31`), sobre #81.** Añade `unit_safe_evidence.py` para los 30 casos de #57 y un barrido de 160 celdas. Conserva el libro de recursos físicos y las señales de información condicional.
+
+Cada PR solo añade cuatro ficheros. Las huellas de `agentic_reduction.py`, `CASES.json` y `sensitivity.py` coinciden con #57 en `a9894049`.
+
+**Comprobado de forma independiente** (`unit_safe_probe.py`, con las perturbaciones que pide la nota):
+
+| Prueba | Resultado |
+|---|---|
+| Valores aleatorios en todos los netos, «líderes» y campos antiguos | **La proyección no cambia.** Los campos escalares antiguos no influyen |
+| Producción de un brazo + 1 | Cambia su ganancia física |
+| Coste NaN, ∞, booleano, texto o decimal binario | **Se rechaza.** Un coste ausente da `UNKNOWN_MEASUREMENTS` |
+| Componentes de coste que no suman el total | Se rechaza |
+| K-01 sin conversión | B y la inspección dirigida producen lo mismo (10) con precios 9/4 frente a 3 (n = 16), 3 frente a 3 (n = 128) y 13/4 frente a 3 (n = 256). Coincide con lo publicado |
+| Mismo presupuesto físico en todos los brazos (#82) | **Sí**, en los 30 casos y en las 160 celdas |
+| `Q_REVIEW_ONLY` en AG01 | Mantiene su señal condicional (0,8) aunque su producción iguala la base (10) |
+
+Pasan 45 pruebas en #81 y 94 en el directorio de #57 con #82, y la CI está en verde en los dos.
+
+**Lo que cambia la lectura:**
+
+- **F-05 sigue `ABIERTO`, con la parte (b) atendida en rama.** #81 y #82 dejan de restar el precio de la producción: informan los dos ejes por separado, con frontera parcial y comparación de precios a producción igual. Es mejor que declarar una tasa de conversión, que era lo propuesto. La parte (a), sobre rendimientos decrecientes del receptor en un modelo lineal, sigue pendiente.
+- **L-05 se sostiene ahora sin escalarizar.** La precisión de la ronda 35, que pedía leer L-05 bajo F-05, queda superada. Medido solo en producción física, con el mismo presupuesto, la inspección dirigida convencional es la única con la producción máxima en 14 de los 30 casos agénticos originales, el metaprotocolo Q está entre los máximos en 13 y otros brazos en 3.
+- **AG01, completo.** La nota destaca que el metaprotocolo produce 11,5 frente a 10 de la base. Para no leerlo de forma selectiva hay que añadir que la inspección dirigida produce 13,5 con un precio de 1,2, frente a 0,3. Los dos están en la frontera, como ya recogía F-04, que sigue `ABIERTO`.
+- **K-07 no se ve afectado.** Trata de la escala de RAV-01 en #46, que estos PR no tocan.
+- **Lo que la nota escala al autor**, y la auditoría está de acuerdo en que no lo puede decidir el implementador: los umbrales escalares de las políticas nativas, la asignación de medidas físicas o de instrumento a E/R/C/V, las conversiones aceptadas entre dimensiones de K y la elección con orden parcial (relacionada con L-10).
+
+**Totales:** sin cambios. 89 registros: 33 abiertos, 29 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.
