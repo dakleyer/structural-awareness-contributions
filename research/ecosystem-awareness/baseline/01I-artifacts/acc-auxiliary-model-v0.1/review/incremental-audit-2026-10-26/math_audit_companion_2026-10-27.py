@@ -1,11 +1,14 @@
 """Pinned, read-only mathematical audit checks for PR58. Standard library only.
 Run: python math_audit_companion_2026-10-27.py
 Optional: --source-archive PATH to the 27-Oct archived source layout.
-Downloads are public, immutable source blobs; no credentials or source edits.
+Default: full JSON on stdout; downloads use an automatically removed temporary directory.
+--output PATH creates a new file and refuses to overwrite an existing one.
+Downloads are public, immutable source blobs; archives remain read-only.
 """
 from __future__ import annotations
 import argparse, hashlib, importlib.util, itertools, json, math, sys, urllib.request
 from pathlib import Path
+from tempfile import TemporaryDirectory
 
 HERE=Path(__file__).resolve().parent
 BASE="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/"
@@ -20,19 +23,19 @@ def load_module(name,path):
     spec=importlib.util.spec_from_file_location(name,path)
     module=importlib.util.module_from_spec(spec)
     sys.modules[name]=module
-    spec.loader.exec_module(module)
+    previous=sys.dont_write_bytecode
+    sys.dont_write_bytecode=True
+    try:
+        spec.loader.exec_module(module)
+    finally:
+        sys.dont_write_bytecode=previous
     return module
 
-def main():
-    parser=argparse.ArgumentParser()
-    parser.add_argument("--source-archive",type=Path)
-    parser.add_argument("--output",type=Path,default=HERE/"MATH_AUDIT_RESULTS_2026-10-27.json")
-    args=parser.parse_args()
-    root=args.source_archive or HERE/".pinned-math-audit-sources"
+def run_checks(root:Path, *, allow_download:bool)->dict:
     verified=[]; locations={}
     for local,revision,remote,expected in SOURCES:
         path=root/local
-        if not args.source_archive and not path.exists():
+        if allow_download and not path.exists():
             path.parent.mkdir(parents=True,exist_ok=True)
             url="https://raw.githubusercontent.com/dakleyer/structural-awareness-contributions/"+revision+"/"+remote
             with urllib.request.urlopen(url,timeout=30) as response:raw=response.read()
@@ -137,7 +140,35 @@ def main():
     findings["M27-O1-O3"]={"plus_at_one":plus,"minus_at_one":minus,"population_mean_ten":mean,"population_limit_gamma_beta_one":.5,"limiting_fraction_loss_over_quarter":.75}
     result={"scope":"Pinned source-defect reproductions and constructed finite mathematical checks; not experiments, source repairs, DDS admission or independent human validation",
             "sources_verified":verified,"checks":checks,"passed":sum(c["passed"] for c in checks),"total":len(checks),"findings":findings}
-    args.output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print(json.dumps({"passed":result["passed"],"total":result["total"],"verified_source_blobs":len(verified)},ensure_ascii=False))
-if __name__=="__main__":main()
+    return result
 
+
+def main(argv=None)->int:
+    parser=argparse.ArgumentParser()
+    parser.add_argument("--source-archive",type=Path)
+    parser.add_argument("--output",type=Path,
+                        help="create a new result file; default: full JSON on stdout")
+    args=parser.parse_args(argv)
+    if args.output is not None and args.output.exists():
+        parser.error("output already exists; choose a new path")
+    if args.source_archive is not None:
+        result=run_checks(args.source_archive,allow_download=False)
+    else:
+        with TemporaryDirectory(prefix="acc-math-audit-") as scratch:
+            result=run_checks(Path(scratch),allow_download=True)
+    payload=json.dumps(result,ensure_ascii=False,indent=2)+"\n"
+    if args.output is None:
+        print(payload,end="")
+    else:
+        try:
+            with args.output.open("x",encoding="utf-8") as output:
+                output.write(payload)
+        except FileExistsError:
+            parser.error("output already exists; choose a new path")
+        print(json.dumps({"passed":result["passed"],"total":result["total"],
+                          "verified_source_blobs":len(result["sources_verified"])},
+                         ensure_ascii=False))
+    return 0
+
+
+if __name__=="__main__":sys.exit(main())
