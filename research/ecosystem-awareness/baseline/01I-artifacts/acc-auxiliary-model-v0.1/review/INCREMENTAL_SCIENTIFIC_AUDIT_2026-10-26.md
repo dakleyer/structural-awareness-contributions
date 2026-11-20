@@ -66,6 +66,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 34 | 2026-11-01 | [Diagnóstico complementario de H-01 (PR #76)](#ronda-34) | Sin cambio de estado; condiciones analíticas reproducidas; forma cerrada de L-10 |
 | 35 | 2026-11-01 | [Corrección de fidelidad dimensional (PR #76)](#ronda-35) | Sin cambio de estado; recuento R/C reproducido; precisiones a H-01, L-10 y L-05 |
 | 36 | 2026-11-20 | [Informes sin compensación de unidades (PR #81 y #82)](#ronda-36) | Sin cambio de estado; F-05 (b) atendido en rama; L-05 se sostiene en unidades físicas |
+| 37 | 2026-11-20 | [Recepción de L-01 (PR #83)](#ronda-37) | L-01 respondido |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1403,3 +1404,28 @@ Pasan 45 pruebas en #81 y 94 en el directorio de #57 con #82, y la CI está en v
 - **Lo que la nota escala al autor**, y la auditoría está de acuerdo en que no lo puede decidir el implementador: los umbrales escalares de las políticas nativas, la asignación de medidas físicas o de instrumento a E/R/C/V, las conversiones aceptadas entre dimensiones de K y la elección con orden parcial (relacionada con L-10).
 
 **Totales:** sin cambios. 89 registros: 33 abiertos, 29 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-37"></a>
+
+## Ronda 37 — recepción de L-01 en PR #83 (20-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** [comentario en PR #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-7051979326), escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #83 (`ddd29db2`) es un único commit sobre la rama de #60 en `7fc88e2e`.
+
+**Qué cambia.** `qualified_gain_adapters.py` añade `geometry_score_lower_bound`. La función calcula el máximo alcanzable con el mismo adaptador sobre el dominio declarado [0, 1]⁴ y rechaza cualquier cota inferior por encima de ese máximo. El fixture de admisión de candidatos la usa al construir el intervalo propuesto. La fórmula de la métrica, la aritmética genérica de intervalos y los datos de entrada no cambian.
+
+**Comprobado de forma independiente** (`l01_codomain_check.py`, comparando con el padre `7fc88e2e`):
+
+| Prueba | Resultado |
+|---|---|
+| Codominio de G sobre [0, 1]⁴ | [0, 1], calculado con el adaptador sin modificar |
+| Valores justo por encima de 1 (el siguiente flotante, 1001/1000, 1 + 10⁻¹², `Decimal` 1 + 10⁻¹⁹) y muy por encima (1,5, 10²¹, 1e308) | **Todos `UTILITY_NOT_ESTABLISHED`.** Antes los dos últimos grupos llegaban al estado positivo |
+| La cota 1, el máximo exacto | Sigue en el estado positivo |
+| Las 151 cotas de −0,50 a 1,00 en centésimas | **Clasificación idéntica antes y después**, con 25 positivas |
+| Barrido de 32 valores de M28-03 | 0 valores inválidos llegan al estado positivo |
+
+Pasan las 105 pruebas del directorio (101 previas y 4 nuevas) y la CI está en verde.
+
+**L-01 pasa a `RESPONDIDO`** y se cerrará cuando #60 y #83 estén en `main`.
+
+**Totales:** 89 registros. 32 abiertos, 30 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.

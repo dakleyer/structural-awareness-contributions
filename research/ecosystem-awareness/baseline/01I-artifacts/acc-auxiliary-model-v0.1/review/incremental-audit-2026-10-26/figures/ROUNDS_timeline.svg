@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Línea de tiempo de las 36 rondas de auditoría y su autor"><style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Línea de tiempo de las 37 rondas de auditoría y su autor"><style>
   .ink{fill:#0b0b0b}.ink2{fill:#52514e}.bg{fill:#fcfcfb}.grid{stroke:#e4e3df}
   .s0{fill:#2a78d6}.s1{fill:#eb6834}.s2{fill:#1baf7a}.s3{fill:#eda100}.s4{fill:#e87ba4}
   .a0{fill:#2a78d6}.a1{fill:#eb6834}.a0s{stroke:#2a78d6}.a1s{stroke:#eb6834}
@@ -17,146 +17,150 @@
 <circle class="a0" cx="80.0" cy="178" r="11"><title>Ronda 1: Nota al revisor</title></circle>
 <text x="80.0" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">1</text>
 <text class="ink" x="80.0" y="108" font-size="11" text-anchor="middle">Nota al revisor</text>
-<line class="a0s" x1="109.7" x2="109.7" y1="178" y2="200" stroke-width="2"/>
-<circle class="a0" cx="109.7" cy="178" r="11"><title>Ronda 2: Código #57/#54</title></circle>
-<text x="109.7" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">2</text>
-<text class="ink" x="109.7" y="224" font-size="11" text-anchor="middle">Código #57/#54</text>
-<line class="a0s" x1="139.4" x2="139.4" y1="178" y2="156" stroke-width="2"/>
-<circle class="a0" cx="139.4" cy="178" r="11"><title>Ronda 3: Campaña #48/#49</title></circle>
-<text x="139.4" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">3</text>
-<text class="ink" x="139.4" y="144" font-size="11" text-anchor="middle">Campaña #48/#49</text>
-<line class="a0s" x1="169.1" x2="169.1" y1="178" y2="236" stroke-width="2"/>
-<circle class="a0" cx="169.1" cy="178" r="11"><title>Ronda 4: Modelo social</title></circle>
-<text x="169.1" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">4</text>
-<text class="ink" x="169.1" y="260" font-size="11" text-anchor="middle">Modelo social</text>
-<line class="a0s" x1="198.9" x2="198.9" y1="178" y2="120" stroke-width="2"/>
-<circle class="a0" cx="198.9" cy="178" r="11"><title>Ronda 5: Figuras y referencias</title></circle>
-<text x="198.9" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">5</text>
-<text class="ink" x="198.9" y="108" font-size="11" text-anchor="middle">Figuras y referencias</text>
-<line class="a0s" x1="228.6" x2="228.6" y1="178" y2="200" stroke-width="2"/>
-<circle class="a0" cx="228.6" cy="178" r="11"><title>Ronda 6: Contraste #59; I-01</title></circle>
-<text x="228.6" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">6</text>
-<text class="ink" x="228.6" y="224" font-size="11" text-anchor="middle">Contraste #59; I-01</text>
-<line class="a1s" x1="258.3" x2="258.3" y1="178" y2="156" stroke-width="2"/>
-<circle class="a1" cx="258.3" cy="178" r="11"><title>Ronda 7: Promoción TAX26</title></circle>
-<text x="258.3" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">7</text>
-<text class="ink" x="258.3" y="144" font-size="11" text-anchor="middle">Promoción TAX26</text>
-<line class="a1s" x1="288.0" x2="288.0" y1="178" y2="236" stroke-width="2"/>
-<circle class="a1" cx="288.0" cy="178" r="11"><title>Ronda 8: Corpus matemático</title></circle>
-<text x="288.0" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">8</text>
-<text class="ink" x="288.0" y="260" font-size="11" text-anchor="middle">Corpus matemático</text>
-<line class="a1s" x1="317.7" x2="317.7" y1="178" y2="120" stroke-width="2"/>
-<circle class="a1" cx="317.7" cy="178" r="11"><title>Ronda 9: Lectura de comparaciones</title></circle>
-<text x="317.7" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">9</text>
-<text class="ink" x="317.7" y="108" font-size="11" text-anchor="middle">Lectura de comparaciones</text>
-<line class="a1s" x1="347.4" x2="347.4" y1="178" y2="200" stroke-width="2"/>
-<circle class="a1" cx="347.4" cy="178" r="11"><title>Ronda 10: Alcance H-01/H-03</title></circle>
-<text x="347.4" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">10</text>
-<text class="ink" x="347.4" y="224" font-size="11" text-anchor="middle">Alcance H-01/H-03</text>
-<line class="a1s" x1="377.1" x2="377.1" y1="178" y2="156" stroke-width="2"/>
-<circle class="a1" cx="377.1" cy="178" r="11"><title>Ronda 11: Arreglo #64, F-06</title></circle>
-<text x="377.1" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">11</text>
-<text class="ink" x="377.1" y="144" font-size="11" text-anchor="middle">Arreglo #64, F-06</text>
-<line class="a1s" x1="406.9" x2="406.9" y1="178" y2="236" stroke-width="2"/>
-<circle class="a1" cx="406.9" cy="178" r="11"><title>Ronda 12: Relectura y cola</title></circle>
-<text x="406.9" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">12</text>
-<text class="ink" x="406.9" y="260" font-size="11" text-anchor="middle">Relectura y cola</text>
-<line class="a0s" x1="436.6" x2="436.6" y1="178" y2="120" stroke-width="2"/>
-<circle class="a0" cx="436.6" cy="178" r="11"><title>Ronda 13: I-01 cerrado</title></circle>
-<text x="436.6" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">13</text>
-<text class="ink" x="436.6" y="108" font-size="11" text-anchor="middle">I-01 cerrado</text>
-<line class="a0s" x1="466.3" x2="466.3" y1="178" y2="200" stroke-width="2"/>
-<circle class="a0" cx="466.3" cy="178" r="11"><title>Ronda 14: Revisión formal y guía</title></circle>
-<text x="466.3" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">14</text>
-<text class="ink" x="466.3" y="224" font-size="11" text-anchor="middle">Revisión formal y guía</text>
-<line class="a0s" x1="496.0" x2="496.0" y1="178" y2="156" stroke-width="2"/>
-<circle class="a0" cx="496.0" cy="178" r="11"><title>Ronda 15: M28-02 reconfirmado</title></circle>
-<text x="496.0" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">15</text>
-<text class="ink" x="496.0" y="144" font-size="11" text-anchor="middle">M28-02 reconfirmado</text>
-<line class="a1s" x1="525.7" x2="525.7" y1="178" y2="236" stroke-width="2"/>
-<circle class="a1" cx="525.7" cy="178" r="11"><title>Ronda 16: Cinco mecanismos</title></circle>
-<text x="525.7" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">16</text>
-<text class="ink" x="525.7" y="260" font-size="11" text-anchor="middle">Cinco mecanismos</text>
-<line class="a0s" x1="555.4" x2="555.4" y1="178" y2="120" stroke-width="2"/>
-<circle class="a0" cx="555.4" cy="178" r="11"><title>Ronda 17: Modelo social #44–#46</title></circle>
-<text x="555.4" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">17</text>
-<text class="ink" x="555.4" y="108" font-size="11" text-anchor="middle">Modelo social #44–#46</text>
-<line class="a0s" x1="585.1" x2="585.1" y1="178" y2="200" stroke-width="2"/>
-<circle class="a0" cx="585.1" cy="178" r="11"><title>Ronda 18: Alias precisados</title></circle>
-<text x="585.1" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">18</text>
-<text class="ink" x="585.1" y="224" font-size="11" text-anchor="middle">Alias precisados</text>
-<line class="a0s" x1="614.9" x2="614.9" y1="178" y2="156" stroke-width="2"/>
-<circle class="a0" cx="614.9" cy="178" r="11"><title>Ronda 19: Oportunidades de mejora</title></circle>
-<text x="614.9" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">19</text>
-<text class="ink" x="614.9" y="144" font-size="11" text-anchor="middle">Oportunidades de mejora</text>
-<line class="a0s" x1="644.6" x2="644.6" y1="178" y2="236" stroke-width="2"/>
-<circle class="a0" cx="644.6" cy="178" r="11"><title>Ronda 20: Kit premium 01 README</title></circle>
-<text x="644.6" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">20</text>
-<text class="ink" x="644.6" y="260" font-size="11" text-anchor="middle">Kit premium 01 README</text>
-<line class="a0s" x1="674.3" x2="674.3" y1="178" y2="120" stroke-width="2"/>
-<circle class="a0" cx="674.3" cy="178" r="11"><title>Ronda 21: Kit premium 02 MODEL</title></circle>
-<text x="674.3" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">21</text>
-<text class="ink" x="674.3" y="108" font-size="11" text-anchor="middle">Kit premium 02 MODEL</text>
-<line class="a0s" x1="704.0" x2="704.0" y1="178" y2="200" stroke-width="2"/>
-<circle class="a0" cx="704.0" cy="178" r="11"><title>Ronda 22: Scripts de verificación</title></circle>
-<text x="704.0" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">22</text>
-<text class="ink" x="704.0" y="224" font-size="11" text-anchor="middle">Scripts de verificación</text>
-<line class="a0s" x1="733.7" x2="733.7" y1="178" y2="156" stroke-width="2"/>
-<circle class="a0" cx="733.7" cy="178" r="11"><title>Ronda 23: PR #60: M28-03 y F1/D1</title></circle>
-<text x="733.7" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">23</text>
-<text class="ink" x="733.7" y="144" font-size="11" text-anchor="middle">PR #60: M28-03 y F1/D1</text>
-<line class="a0s" x1="763.4" x2="763.4" y1="178" y2="236" stroke-width="2"/>
-<circle class="a0" cx="763.4" cy="178" r="11"><title>Ronda 24: M28-04, K-01, K-02, DG</title></circle>
-<text x="763.4" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">24</text>
-<text class="ink" x="763.4" y="260" font-size="11" text-anchor="middle">M28-04, K-01, K-02, DG</text>
-<line class="a0s" x1="793.1" x2="793.1" y1="178" y2="120" stroke-width="2"/>
-<circle class="a0" cx="793.1" cy="178" r="11"><title>Ronda 25: K-03 (#67)</title></circle>
-<text x="793.1" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">25</text>
-<text class="ink" x="793.1" y="108" font-size="11" text-anchor="middle">K-03 (#67)</text>
-<line class="a0s" x1="822.9" x2="822.9" y1="178" y2="200" stroke-width="2"/>
-<circle class="a0" cx="822.9" cy="178" r="11"><title>Ronda 26: G-03 (#68)</title></circle>
-<text x="822.9" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">26</text>
-<text class="ink" x="822.9" y="224" font-size="11" text-anchor="middle">G-03 (#68)</text>
-<line class="a0s" x1="852.6" x2="852.6" y1="178" y2="156" stroke-width="2"/>
-<circle class="a0" cx="852.6" cy="178" r="11"><title>Ronda 27: L-04 y L-07</title></circle>
-<text x="852.6" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">27</text>
-<text class="ink" x="852.6" y="144" font-size="11" text-anchor="middle">L-04 y L-07</text>
-<line class="a0s" x1="882.3" x2="882.3" y1="178" y2="236" stroke-width="2"/>
-<circle class="a0" cx="882.3" cy="178" r="11"><title>Ronda 28: G-04 (#70)</title></circle>
-<text x="882.3" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">28</text>
-<text class="ink" x="882.3" y="260" font-size="11" text-anchor="middle">G-04 (#70)</text>
-<line class="a0s" x1="912.0" x2="912.0" y1="178" y2="120" stroke-width="2"/>
-<circle class="a0" cx="912.0" cy="178" r="11"><title>Ronda 29: G-06 (#71)</title></circle>
-<text x="912.0" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">29</text>
-<text class="ink" x="912.0" y="108" font-size="11" text-anchor="middle">G-06 (#71)</text>
-<line class="a0s" x1="941.7" x2="941.7" y1="178" y2="200" stroke-width="2"/>
-<circle class="a0" cx="941.7" cy="178" r="11"><title>Ronda 30: L-08 (#72)</title></circle>
-<text x="941.7" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">30</text>
-<text class="ink" x="941.7" y="224" font-size="11" text-anchor="middle">L-08 (#72)</text>
-<line class="a0s" x1="971.4" x2="971.4" y1="178" y2="156" stroke-width="2"/>
-<circle class="a0" cx="971.4" cy="178" r="11"><title>Ronda 31: G-02 (#73)</title></circle>
-<text x="971.4" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">31</text>
-<text class="ink" x="971.4" y="144" font-size="11" text-anchor="middle">G-02 (#73)</text>
-<line class="a0s" x1="1001.1" x2="1001.1" y1="178" y2="236" stroke-width="2"/>
-<circle class="a0" cx="1001.1" cy="178" r="11"><title>Ronda 32: L-09 (#75)</title></circle>
-<text x="1001.1" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">32</text>
-<text class="ink" x="1001.1" y="260" font-size="11" text-anchor="middle">L-09 (#75)</text>
-<line class="a0s" x1="1030.9" x2="1030.9" y1="178" y2="120" stroke-width="2"/>
-<circle class="a0" cx="1030.9" cy="178" r="11"><title>Ronda 33: H-01 (#76)</title></circle>
-<text x="1030.9" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">33</text>
-<text class="ink" x="1030.9" y="108" font-size="11" text-anchor="middle">H-01 (#76)</text>
-<line class="a0s" x1="1060.6" x2="1060.6" y1="178" y2="200" stroke-width="2"/>
-<circle class="a0" cx="1060.6" cy="178" r="11"><title>Ronda 34: H-01: diagnóstico</title></circle>
-<text x="1060.6" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">34</text>
-<text class="ink" x="1060.6" y="224" font-size="11" text-anchor="middle">H-01: diagnóstico</text>
-<line class="a0s" x1="1090.3" x2="1090.3" y1="178" y2="156" stroke-width="2"/>
-<circle class="a0" cx="1090.3" cy="178" r="11"><title>Ronda 35: Fidelidad dimensional K</title></circle>
-<text x="1090.3" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">35</text>
-<text class="ink" x="1090.3" y="144" font-size="11" text-anchor="middle">Fidelidad dimensional K</text>
-<line class="a0s" x1="1120.0" x2="1120.0" y1="178" y2="236" stroke-width="2"/>
-<circle class="a0" cx="1120.0" cy="178" r="11"><title>Ronda 36: Unidades: #81 y #82</title></circle>
-<text x="1120.0" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">36</text>
-<text class="ink" x="1120.0" y="260" font-size="11" text-anchor="middle">Unidades: #81 y #82</text>
+<line class="a0s" x1="108.9" x2="108.9" y1="178" y2="200" stroke-width="2"/>
+<circle class="a0" cx="108.9" cy="178" r="11"><title>Ronda 2: Código #57/#54</title></circle>
+<text x="108.9" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">2</text>
+<text class="ink" x="108.9" y="224" font-size="11" text-anchor="middle">Código #57/#54</text>
+<line class="a0s" x1="137.8" x2="137.8" y1="178" y2="156" stroke-width="2"/>
+<circle class="a0" cx="137.8" cy="178" r="11"><title>Ronda 3: Campaña #48/#49</title></circle>
+<text x="137.8" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">3</text>
+<text class="ink" x="137.8" y="144" font-size="11" text-anchor="middle">Campaña #48/#49</text>
+<line class="a0s" x1="166.7" x2="166.7" y1="178" y2="236" stroke-width="2"/>
+<circle class="a0" cx="166.7" cy="178" r="11"><title>Ronda 4: Modelo social</title></circle>
+<text x="166.7" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">4</text>
+<text class="ink" x="166.7" y="260" font-size="11" text-anchor="middle">Modelo social</text>
+<line class="a0s" x1="195.6" x2="195.6" y1="178" y2="120" stroke-width="2"/>
+<circle class="a0" cx="195.6" cy="178" r="11"><title>Ronda 5: Figuras y referencias</title></circle>
+<text x="195.6" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">5</text>
+<text class="ink" x="195.6" y="108" font-size="11" text-anchor="middle">Figuras y referencias</text>
+<line class="a0s" x1="224.4" x2="224.4" y1="178" y2="200" stroke-width="2"/>
+<circle class="a0" cx="224.4" cy="178" r="11"><title>Ronda 6: Contraste #59; I-01</title></circle>
+<text x="224.4" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">6</text>
+<text class="ink" x="224.4" y="224" font-size="11" text-anchor="middle">Contraste #59; I-01</text>
+<line class="a1s" x1="253.3" x2="253.3" y1="178" y2="156" stroke-width="2"/>
+<circle class="a1" cx="253.3" cy="178" r="11"><title>Ronda 7: Promoción TAX26</title></circle>
+<text x="253.3" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">7</text>
+<text class="ink" x="253.3" y="144" font-size="11" text-anchor="middle">Promoción TAX26</text>
+<line class="a1s" x1="282.2" x2="282.2" y1="178" y2="236" stroke-width="2"/>
+<circle class="a1" cx="282.2" cy="178" r="11"><title>Ronda 8: Corpus matemático</title></circle>
+<text x="282.2" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">8</text>
+<text class="ink" x="282.2" y="260" font-size="11" text-anchor="middle">Corpus matemático</text>
+<line class="a1s" x1="311.1" x2="311.1" y1="178" y2="120" stroke-width="2"/>
+<circle class="a1" cx="311.1" cy="178" r="11"><title>Ronda 9: Lectura de comparaciones</title></circle>
+<text x="311.1" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">9</text>
+<text class="ink" x="311.1" y="108" font-size="11" text-anchor="middle">Lectura de comparaciones</text>
+<line class="a1s" x1="340.0" x2="340.0" y1="178" y2="200" stroke-width="2"/>
+<circle class="a1" cx="340.0" cy="178" r="11"><title>Ronda 10: Alcance H-01/H-03</title></circle>
+<text x="340.0" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">10</text>
+<text class="ink" x="340.0" y="224" font-size="11" text-anchor="middle">Alcance H-01/H-03</text>
+<line class="a1s" x1="368.9" x2="368.9" y1="178" y2="156" stroke-width="2"/>
+<circle class="a1" cx="368.9" cy="178" r="11"><title>Ronda 11: Arreglo #64, F-06</title></circle>
+<text x="368.9" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">11</text>
+<text class="ink" x="368.9" y="144" font-size="11" text-anchor="middle">Arreglo #64, F-06</text>
+<line class="a1s" x1="397.8" x2="397.8" y1="178" y2="236" stroke-width="2"/>
+<circle class="a1" cx="397.8" cy="178" r="11"><title>Ronda 12: Relectura y cola</title></circle>
+<text x="397.8" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">12</text>
+<text class="ink" x="397.8" y="260" font-size="11" text-anchor="middle">Relectura y cola</text>
+<line class="a0s" x1="426.7" x2="426.7" y1="178" y2="120" stroke-width="2"/>
+<circle class="a0" cx="426.7" cy="178" r="11"><title>Ronda 13: I-01 cerrado</title></circle>
+<text x="426.7" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">13</text>
+<text class="ink" x="426.7" y="108" font-size="11" text-anchor="middle">I-01 cerrado</text>
+<line class="a0s" x1="455.6" x2="455.6" y1="178" y2="200" stroke-width="2"/>
+<circle class="a0" cx="455.6" cy="178" r="11"><title>Ronda 14: Revisión formal y guía</title></circle>
+<text x="455.6" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">14</text>
+<text class="ink" x="455.6" y="224" font-size="11" text-anchor="middle">Revisión formal y guía</text>
+<line class="a0s" x1="484.4" x2="484.4" y1="178" y2="156" stroke-width="2"/>
+<circle class="a0" cx="484.4" cy="178" r="11"><title>Ronda 15: M28-02 reconfirmado</title></circle>
+<text x="484.4" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">15</text>
+<text class="ink" x="484.4" y="144" font-size="11" text-anchor="middle">M28-02 reconfirmado</text>
+<line class="a1s" x1="513.3" x2="513.3" y1="178" y2="236" stroke-width="2"/>
+<circle class="a1" cx="513.3" cy="178" r="11"><title>Ronda 16: Cinco mecanismos</title></circle>
+<text x="513.3" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">16</text>
+<text class="ink" x="513.3" y="260" font-size="11" text-anchor="middle">Cinco mecanismos</text>
+<line class="a0s" x1="542.2" x2="542.2" y1="178" y2="120" stroke-width="2"/>
+<circle class="a0" cx="542.2" cy="178" r="11"><title>Ronda 17: Modelo social #44–#46</title></circle>
+<text x="542.2" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">17</text>
+<text class="ink" x="542.2" y="108" font-size="11" text-anchor="middle">Modelo social #44–#46</text>
+<line class="a0s" x1="571.1" x2="571.1" y1="178" y2="200" stroke-width="2"/>
+<circle class="a0" cx="571.1" cy="178" r="11"><title>Ronda 18: Alias precisados</title></circle>
+<text x="571.1" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">18</text>
+<text class="ink" x="571.1" y="224" font-size="11" text-anchor="middle">Alias precisados</text>
+<line class="a0s" x1="600.0" x2="600.0" y1="178" y2="156" stroke-width="2"/>
+<circle class="a0" cx="600.0" cy="178" r="11"><title>Ronda 19: Oportunidades de mejora</title></circle>
+<text x="600.0" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">19</text>
+<text class="ink" x="600.0" y="144" font-size="11" text-anchor="middle">Oportunidades de mejora</text>
+<line class="a0s" x1="628.9" x2="628.9" y1="178" y2="236" stroke-width="2"/>
+<circle class="a0" cx="628.9" cy="178" r="11"><title>Ronda 20: Kit premium 01 README</title></circle>
+<text x="628.9" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">20</text>
+<text class="ink" x="628.9" y="260" font-size="11" text-anchor="middle">Kit premium 01 README</text>
+<line class="a0s" x1="657.8" x2="657.8" y1="178" y2="120" stroke-width="2"/>
+<circle class="a0" cx="657.8" cy="178" r="11"><title>Ronda 21: Kit premium 02 MODEL</title></circle>
+<text x="657.8" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">21</text>
+<text class="ink" x="657.8" y="108" font-size="11" text-anchor="middle">Kit premium 02 MODEL</text>
+<line class="a0s" x1="686.7" x2="686.7" y1="178" y2="200" stroke-width="2"/>
+<circle class="a0" cx="686.7" cy="178" r="11"><title>Ronda 22: Scripts de verificación</title></circle>
+<text x="686.7" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">22</text>
+<text class="ink" x="686.7" y="224" font-size="11" text-anchor="middle">Scripts de verificación</text>
+<line class="a0s" x1="715.6" x2="715.6" y1="178" y2="156" stroke-width="2"/>
+<circle class="a0" cx="715.6" cy="178" r="11"><title>Ronda 23: PR #60: M28-03 y F1/D1</title></circle>
+<text x="715.6" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">23</text>
+<text class="ink" x="715.6" y="144" font-size="11" text-anchor="middle">PR #60: M28-03 y F1/D1</text>
+<line class="a0s" x1="744.4" x2="744.4" y1="178" y2="236" stroke-width="2"/>
+<circle class="a0" cx="744.4" cy="178" r="11"><title>Ronda 24: M28-04, K-01, K-02, DG</title></circle>
+<text x="744.4" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">24</text>
+<text class="ink" x="744.4" y="260" font-size="11" text-anchor="middle">M28-04, K-01, K-02, DG</text>
+<line class="a0s" x1="773.3" x2="773.3" y1="178" y2="120" stroke-width="2"/>
+<circle class="a0" cx="773.3" cy="178" r="11"><title>Ronda 25: K-03 (#67)</title></circle>
+<text x="773.3" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">25</text>
+<text class="ink" x="773.3" y="108" font-size="11" text-anchor="middle">K-03 (#67)</text>
+<line class="a0s" x1="802.2" x2="802.2" y1="178" y2="200" stroke-width="2"/>
+<circle class="a0" cx="802.2" cy="178" r="11"><title>Ronda 26: G-03 (#68)</title></circle>
+<text x="802.2" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">26</text>
+<text class="ink" x="802.2" y="224" font-size="11" text-anchor="middle">G-03 (#68)</text>
+<line class="a0s" x1="831.1" x2="831.1" y1="178" y2="156" stroke-width="2"/>
+<circle class="a0" cx="831.1" cy="178" r="11"><title>Ronda 27: L-04 y L-07</title></circle>
+<text x="831.1" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">27</text>
+<text class="ink" x="831.1" y="144" font-size="11" text-anchor="middle">L-04 y L-07</text>
+<line class="a0s" x1="860.0" x2="860.0" y1="178" y2="236" stroke-width="2"/>
+<circle class="a0" cx="860.0" cy="178" r="11"><title>Ronda 28: G-04 (#70)</title></circle>
+<text x="860.0" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">28</text>
+<text class="ink" x="860.0" y="260" font-size="11" text-anchor="middle">G-04 (#70)</text>
+<line class="a0s" x1="888.9" x2="888.9" y1="178" y2="120" stroke-width="2"/>
+<circle class="a0" cx="888.9" cy="178" r="11"><title>Ronda 29: G-06 (#71)</title></circle>
+<text x="888.9" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">29</text>
+<text class="ink" x="888.9" y="108" font-size="11" text-anchor="middle">G-06 (#71)</text>
+<line class="a0s" x1="917.8" x2="917.8" y1="178" y2="200" stroke-width="2"/>
+<circle class="a0" cx="917.8" cy="178" r="11"><title>Ronda 30: L-08 (#72)</title></circle>
+<text x="917.8" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">30</text>
+<text class="ink" x="917.8" y="224" font-size="11" text-anchor="middle">L-08 (#72)</text>
+<line class="a0s" x1="946.7" x2="946.7" y1="178" y2="156" stroke-width="2"/>
+<circle class="a0" cx="946.7" cy="178" r="11"><title>Ronda 31: G-02 (#73)</title></circle>
+<text x="946.7" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">31</text>
+<text class="ink" x="946.7" y="144" font-size="11" text-anchor="middle">G-02 (#73)</text>
+<line class="a0s" x1="975.6" x2="975.6" y1="178" y2="236" stroke-width="2"/>
+<circle class="a0" cx="975.6" cy="178" r="11"><title>Ronda 32: L-09 (#75)</title></circle>
+<text x="975.6" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">32</text>
+<text class="ink" x="975.6" y="260" font-size="11" text-anchor="middle">L-09 (#75)</text>
+<line class="a0s" x1="1004.4" x2="1004.4" y1="178" y2="120" stroke-width="2"/>
+<circle class="a0" cx="1004.4" cy="178" r="11"><title>Ronda 33: H-01 (#76)</title></circle>
+<text x="1004.4" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">33</text>
+<text class="ink" x="1004.4" y="108" font-size="11" text-anchor="middle">H-01 (#76)</text>
+<line class="a0s" x1="1033.3" x2="1033.3" y1="178" y2="200" stroke-width="2"/>
+<circle class="a0" cx="1033.3" cy="178" r="11"><title>Ronda 34: H-01: diagnóstico</title></circle>
+<text x="1033.3" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">34</text>
+<text class="ink" x="1033.3" y="224" font-size="11" text-anchor="middle">H-01: diagnóstico</text>
+<line class="a0s" x1="1062.2" x2="1062.2" y1="178" y2="156" stroke-width="2"/>
+<circle class="a0" cx="1062.2" cy="178" r="11"><title>Ronda 35: Fidelidad dimensional K</title></circle>
+<text x="1062.2" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">35</text>
+<text class="ink" x="1062.2" y="144" font-size="11" text-anchor="middle">Fidelidad dimensional K</text>
+<line class="a0s" x1="1091.1" x2="1091.1" y1="178" y2="236" stroke-width="2"/>
+<circle class="a0" cx="1091.1" cy="178" r="11"><title>Ronda 36: Unidades: #81 y #82</title></circle>
+<text x="1091.1" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">36</text>
+<text class="ink" x="1091.1" y="260" font-size="11" text-anchor="middle">Unidades: #81 y #82</text>
+<line class="a0s" x1="1120.0" x2="1120.0" y1="178" y2="120" stroke-width="2"/>
+<circle class="a0" cx="1120.0" cy="178" r="11"><title>Ronda 37: L-01 (#83)</title></circle>
+<text x="1120.0" y="182" font-size="11" font-weight="700" text-anchor="middle" fill="#fff">37</text>
+<text class="ink" x="1120.0" y="108" font-size="11" text-anchor="middle">L-01 (#83)</text>
 <circle class="a0" cx="23" cy="310" r="7"/>
 <text class="ink" x="36" y="314" font-size="12">Claude (auditor de IA)</text>
 <circle class="a1" cx="283" cy="310" r="7"/>

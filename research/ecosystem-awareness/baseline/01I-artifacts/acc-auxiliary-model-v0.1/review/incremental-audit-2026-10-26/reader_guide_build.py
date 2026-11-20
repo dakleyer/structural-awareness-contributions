@@ -120,7 +120,7 @@ LEDGER = [
     ("K-06", "K", "Informativo", "VERIFICADO", 17, "#46: equivalentes ciertos, ejemplos y umbral de varianza recalculados: correctos."),
     ("K-07", "K", "Media", "ABIERTO", 17, "#46: compara una media de lotería (14) con un bienestar neto estipulado (17) sin escala común declarada."),
     ("K-08", "K", "—", "PROPUESTA", 17, "#46 ya tiene la elección racional bajo riesgo que pedía H-01: se puede reutilizar para el juego de coordinación."),
-    ("L-01", "L", "Baja", "ABIERTO", 23, "#60: una cota de utilidad finita mayor que 1 todavía certifica ganancia, aunque la puntuación está acotada en [0, 1]."),
+    ("L-01", "L", "Baja", "RESPONDIDO", 37, "#60: una cota de utilidad finita mayor que 1 certificaba ganancia, aunque la puntuación está acotada en [0, 1]. #83 la rechaza contra el codominio del adaptador; falta incorporarlo a main."),
     ("L-02", "L", "Media", "RESPONDIDO", 24, "#60: la caducidad de requalify admitía NaN y fallaba si faltaba el campo. El nuevo contrato rechaza esos valores; falta incorporarlo a main."),
     ("L-04", "L", "Baja", "RESPONDIDO", 27, "#66: el resumen contaba 0 victorias de B porque el brazo del receptor copiaba la opción elegida. Ahora el receptor es una capa aparte y B gana 10; falta incorporarlo a main."),
     ("L-05", "L", "Informativo", "VERIFICADO", 24, "#66 confirma F-04 en los 30 casos de #57: la inspección dirigida lidera sola 14; el metaprotocolo, ninguno."),
@@ -144,7 +144,7 @@ FAMILIES = (
     ("M28-O", "Líneas de desarrollo (28 oct)"),
     ("J", "Forma del expediente (ronda 14)"),
     ("K", "Modelo social #44–#46 (ronda 17)"),
-    ("L", "Recepciones (rondas 23–34)"),
+    ("L", "Recepciones (rondas 23–37)"),
 )
 
 # Same defect under several names (aliases across audits)
@@ -279,7 +279,7 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"), (37, 0, "L-01 (#83)"),
 ]
 
 

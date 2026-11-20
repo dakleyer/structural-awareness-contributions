@@ -37,7 +37,7 @@
   > - Las pruebas finitas revisadas establecen resultados concretos bajo sus hipótesis: una representación puede conservar una distinción necesaria para decidir; información compatible puede sostener una conclusión local útil; una guarda probada puede ahorrar comprobaciones en su dominio y balance de costes.
   > - Los fixtures también comprueban reproducción y sensibilidad bajo entradas o procedimientos suministrados. Esos resultados conservan su valor; para estudiar adquisición, selección o adaptación se necesita el proceso correspondiente y su evidencia.
   > - El fallo numérico I-01 y sus ampliaciones están corregidos y reconfirmados. La guarda de dominio M28-02 ya se corrigió y reconfirmó en la rama de #60; su incorporación sigue pendiente.
-- **Dónde estamos.** La auditoría tiene 81 registros sobre el contenido y 8 sobre la forma del propio expediente: 89 en total. De ellos, 33 siguen abiertos, 29 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 15 son propuestas de mejora, aclaraciones o puntos retirados.
+- **Dónde estamos.** La auditoría tiene 81 registros sobre el contenido y 8 sobre la forma del propio expediente: 89 en total. De ellos, 32 siguen abiertos, 30 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 15 son propuestas de mejora, aclaraciones o puntos retirados.
 - **Qué no es.** No es una revisión científica humana independiente. Todas las rondas las han escrito asistentes de IA (Claude y Codex), en parte a partir de observaciones de Iván.
 
 ## 2. Quién ha escrito qué
@@ -70,8 +70,8 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 | M27-O y M28-O · Líneas de desarrollo | 0 | 0 | 0 | 7 | 0 | 7 |
 | J · Forma del expediente | 1 | 6 | 1 | 0 | 0 | 8 |
 | K · Modelo social #44–#46 | 1 | 3 | 3 | 1 | 0 | 8 |
-| L · Recepciones (rondas 23–34) | 2 | 5 | 3 | 0 | 0 | 10 |
-| **Total** | **33** | **29** | **12** | **10** | **5** | **89** |
+| L · Recepciones (rondas 23–37) | 1 | 6 | 3 | 0 | 0 | 10 |
+| **Total** | **32** | **30** | **12** | **10** | **5** | **89** |
 
 **Qué significa cada estado:**
 
@@ -282,6 +282,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 34 | 1 nov | Claude | Diagnóstico complementario de H-01 (#76): condiciones analíticas reproducidas y forma cerrada de L-10 | [ronda 34](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-34) |
 | 35 | 1 nov | Claude | Corrección de fidelidad dimensional (#76): recuento R/C reproducido; precisiones a H-01, L-10 y L-05 | [ronda 35](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-35) |
 | 36 | 20 nov | Claude | Informes sin compensación de unidades (#81, #82): F-05 (b) atendido en rama; L-05 se sostiene en producción física | [ronda 36](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-36) |
+| 37 | 20 nov | Claude | Recepción de L-01 (#83): cota fuera del codominio rechazada, cotas válidas sin cambio; L-01 respondido | [ronda 37](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-37) |
 
 <a id="11-los-79-registros-uno-por-uno"></a>
 <a id="11-los-82-registros-uno-por-uno"></a>
@@ -452,11 +453,11 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 
 </details>
 
-<details><summary><b>L · Recepciones (rondas 23–34)</b> — 10 registros, 2 abiertos</summary>
+<details><summary><b>L · Recepciones (rondas 23–37)</b> — 10 registros, 1 abiertos</summary>
 
 | ID | Estado | Gravedad | En pocas palabras | Ronda que fijó el estado |
 |---|---|---|---|---|
-| [L-01](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-01) | 🔵 Abierto | Baja | #60: una cota de utilidad finita mayor que 1 todavía certifica ganancia, aunque la puntuación está acotada en [0, 1]. | 23 |
+| [L-01](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-01) | 🟠 Respondido | Baja | #60: una cota de utilidad finita mayor que 1 certificaba ganancia, aunque la puntuación está acotada en [0, 1]. #83 la rechaza contra el codominio del adaptador; falta incorporarlo a main. | 37 |
 | [L-02](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-02) | 🟠 Respondido | Media | #60: la caducidad de requalify admitía NaN y fallaba si faltaba el campo. El nuevo contrato rechaza esos valores; falta incorporarlo a main. | 24 |
 | [L-04](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-04) | 🟠 Respondido | Baja | #66: el resumen contaba 0 victorias de B porque el brazo del receptor copiaba la opción elegida. Ahora el receptor es una capa aparte y B gana 10; falta incorporarlo a main. | 27 |
 | [L-05](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-05) | 🟢 Verificado | Informativo | #66 confirma F-04 en los 30 casos de #57: la inspección dirigida lidera sola 14; el metaprotocolo, ninguno. | 24 |

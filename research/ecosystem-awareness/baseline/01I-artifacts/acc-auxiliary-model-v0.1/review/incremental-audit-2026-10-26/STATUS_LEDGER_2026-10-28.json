@@ -1,7 +1,7 @@
 {
   "schema": "ACC-AUDIT-STATUS-LEDGER-v0.1",
   "as_of": "2026-10-28",
-  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-36",
+  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-37",
   "state_vocabulary": [
     "ABIERTO",
     "RESPONDIDO",
@@ -12,8 +12,8 @@
     "INFORMATIVO"
   ],
   "totals": {
-    "ABIERTO": 33,
-    "RESPONDIDO": 29,
+    "ABIERTO": 32,
+    "RESPONDIDO": 30,
     "CERRADO": 4,
     "VERIFICADO": 8,
     "PROPUESTA": 10,
@@ -107,8 +107,8 @@
         0
       ],
       "L": [
-        2,
-        5,
+        1,
+        6,
         3,
         0,
         0
@@ -752,9 +752,9 @@
       "id": "L-01",
       "family": "L",
       "severity": "Baja",
-      "state": "ABIERTO",
-      "set_in_round": 23,
-      "summary": "#60: una cota de utilidad finita mayor que 1 todavía certifica ganancia, aunque la puntuación está acotada en [0, 1]."
+      "state": "RESPONDIDO",
+      "set_in_round": 37,
+      "summary": "#60: una cota de utilidad finita mayor que 1 certificaba ganancia, aunque la puntuación está acotada en [0, 1]. #83 la rechaza contra el codominio del adaptador; falta incorporarlo a main."
     },
     {
       "id": "L-02",
@@ -886,16 +886,16 @@
     "ledger_ids_without_stable_anchor": [],
     "guide_totals_row": {
       "guide": [
-        33,
-        29,
+        32,
+        30,
         12,
         10,
         5,
         89
       ],
       "ledger": [
-        33,
-        29,
+        32,
+        30,
         12,
         10,
         5,
