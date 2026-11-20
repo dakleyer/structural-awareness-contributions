@@ -1,5 +1,7 @@
 """Adversarial and source-integration tests for the unit-safe #66 report."""
 from copy import deepcopy
+from decimal import Decimal
+from fractions import Fraction
 import json
 from pathlib import Path
 import unittest
@@ -29,6 +31,18 @@ def case(output="10", price="0"):
 
 
 class UnitSafeContract(unittest.TestCase):
+    def test_exact_cost_types_are_serializable_without_input_mutation(self):
+        source = case("12", "13/30")
+        source["arms"][1]["components"] = {
+            "acquisition": Fraction(1, 3), "maintenance": Decimal("0.1")}
+        original = deepcopy(source)
+        result = project_case(source)
+        encoded = json.loads(json.dumps(result))
+        self.assertEqual(encoded["observations"][1]["cost_components"],
+                         {"acquisition": "1/3", "maintenance": "1/10"})
+        self.assertEqual(encoded["observations"][1]["information_cost"], "13/30")
+        self.assertEqual(source, original)
+
     def test_output_improves_price_worsens_is_tradeoff(self):
         result = project_case(case("12", "1"))
         self.assertEqual(result["measurement_frontier"], ["A_ONLY", "B"])

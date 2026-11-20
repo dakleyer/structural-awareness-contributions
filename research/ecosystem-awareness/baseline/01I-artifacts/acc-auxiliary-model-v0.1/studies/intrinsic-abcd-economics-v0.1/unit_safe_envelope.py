@@ -54,17 +54,19 @@ def project_case(source: Mapping[str, Any]) -> dict[str, Any]:
         if not isinstance(components, Mapping):
             raise ValueError("itemized source costs required")
         charged = []
+        normalized_components = {}
         for key, value in components.items():
             _name(key)
             value = quantity(value)
             if value < 0:
                 raise ValueError("negative cost component")
             charged.append(value)
+            normalized_components[key] = str(value)
         if cost is not None and sum(charged, quantity(0)) != cost:
             raise ValueError("cost components disagree with total")
         row = {"arm": name, "output": None if gross is None else str(gross),
                "information_cost": None if cost is None else str(cost),
-               "cost_components": deepcopy(dict(components)),
+               "cost_components": normalized_components,
                "source_status": _name(arm["status"]),
                "source": _name(arm["source"]),
                "controls_or_permission": "NOT_INFERRED_FROM_MEASUREMENTS"}
