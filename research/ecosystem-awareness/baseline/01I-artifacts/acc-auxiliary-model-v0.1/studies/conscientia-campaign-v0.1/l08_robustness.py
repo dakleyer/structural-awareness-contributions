@@ -263,9 +263,9 @@ def validate(manifest:Mapping[str,Any])->None:
     grid=manifest.get("accuracy_grid")
     if not isinstance(grid,list) or not 2<=len(grid)<=9:
         raise ValueError("accuracy grid must contain 2-9 declared points")
-    if len(set(grid))!=len(grid):
-        raise ValueError("duplicate grid probabilities")
     vals=[rational(x,name="signal_accuracy") for x in grid]
+    if len(set(vals))!=len(vals):
+        raise ValueError("duplicate grid probabilities")
     if any(x>1 for x in vals) or vals!=sorted(vals):
         raise ValueError("accuracy grid must be sorted probabilities in [0,1]")
     panels=manifest.get("panels")
