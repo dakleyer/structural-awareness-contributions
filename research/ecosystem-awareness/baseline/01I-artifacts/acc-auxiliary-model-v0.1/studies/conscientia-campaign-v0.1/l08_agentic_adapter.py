@@ -25,6 +25,27 @@ HERE=Path(__file__).resolve().parent
 SOURCE=HERE.parent/"agentic-ecosystem-reduction-v0.1"
 
 
+def _check_resource_conservation(public:dict, observed:dict)->None:
+    """Check components against the budget at the pinned source's precision.
+
+    PR57 rounds each of three component amounts to four decimals, while
+    retaining the unrounded total. Their combined rounding error is at most
+    three half-units of the fourth decimal; no economic conversion is used.
+    """
+    total = Fraction(str(public["total_resources"]))
+    declared = Fraction(str(observed["total_resources_same"]))
+    components = tuple(Fraction(str(observed[key])) for key in (
+        "donor_resources_after", "recipient_resources_after",
+        "coordination_resources_spent"))
+    if total < 0 or any(value < 0 for value in components):
+        raise ValueError("negative physical resource amount")
+    if declared != total:
+        raise AssertionError("source changed physical total resources")
+    rounding_error = len(components) * Fraction(1, 20000)
+    if abs(sum(components, Fraction(0)) - total) > rounding_error:
+        raise AssertionError("source component resource conservation failed")
+
+
 def _load_native(path:Path):
     spec=spec_from_file_location("_acc_l08_agentic_native_immutable",path)
     if spec is None or spec.loader is None:
@@ -60,8 +81,7 @@ def run(source_folder:Path=SOURCE)->dict:
         for name,row in result["arms"].items():
             plan=row["plan"]
             result_only=row["observed_by_referee_only"]
-            if result_only["total_resources_same"]!=public["total_resources"]:
-                raise AssertionError("source changed physical total resources")
+            _check_resource_conservation(public, result_only)
             if row["residual_C_D_exhaustiveness"]!="NOT_CLOSED":
                 raise AssertionError("source declared a universal closure")
             if row["experience_of_suffering"]!="NOT_MEASURED_NOT_ATTRIBUTED_TO_AI":
@@ -133,3 +153,4 @@ def main(argv=None)->int:
 
 if __name__=="__main__":
     raise SystemExit(main())
+
