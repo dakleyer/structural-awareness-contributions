@@ -35,6 +35,44 @@ def case(output="10", price="0"):
 
 
 class UnitSafeContract(unittest.TestCase):
+    def test_social_source_value_is_not_labelled_as_physical_output(self):
+        source = case("10", "1")
+        source["frame"].update(model="ACC_SOCIAL_INTRINSIC_44", baseline_a="128",
+                               output_unit="output_units", cost_unit="synthetic_value_units")
+        source["arms"][0]["gross"] = "0"
+        result = project_case(source)
+        self.assertEqual(result["frame"]["output_unit"], "synthetic_value_units")
+        self.assertEqual(result["frame"]["baseline_a_unit"], "output_units")
+        self.assertEqual(result["frame"]["measurement_kind"], "SYNTHETIC_SOURCE_VALUE")
+        self.assertEqual(result["measurement_gain_vs_baseline"]["B"], "10")
+        self.assertNotIn("physical_output_gain_vs_baseline", result)
+
+    def test_agentic_source_keeps_physical_measurement_and_compatibility_key(self):
+        source = case("12", "1")
+        source["frame"].update(model="ACC_AGENTIC_REDUCTION_57",
+                               output_unit="output_units", cost_unit="synthetic_value_units")
+        result = project_case(source)
+        self.assertEqual(result["frame"]["measurement_kind"], "PHYSICAL_MISSION_OUTPUT")
+        self.assertEqual(result["frame"]["output_unit"], "output_units")
+        self.assertEqual(result["measurement_gain_vs_baseline"],
+                         result["physical_output_gain_vs_baseline"])
+
+    def test_K01_source_distinguishes_two_increment_units_from_ten_value_units(self):
+        producer = legacy._load("_unit_label_source", HERE / "intrinsic_abcd.py")
+        for n in (16, 128, 256):
+            world = producer.balanced_tree(tuple(int(i == n // 4) for i in range(n)))
+            target = "source-" + str(n // 4)
+            costs = producer.Costs()
+            certificate = producer.upstream_B(world, target, now=5, ttl=10)
+            for mode in ("B_QUALIFIED", "TARGETED_EXPLORATION_OF_A"):
+                result = producer.policy(world, target, mode, costs, now=6, b=certificate)
+                with self.subTest(n=n, mode=mode):
+                    self.assertEqual(result["promised_increment"], 2)
+                    self.assertEqual(result["physical_increment_PRIVATE_ORACLE"], 2)
+                    self.assertEqual(result["gross_realized_value_SYNTHETIC"], 10)
+                    self.assertEqual(result["gross_realized_value_SYNTHETIC"],
+                                     costs.value_per_unit * result["promised_increment"])
+
     def test_cli_binds_exact_manifest_bytes_without_changing_results(self):
         manifest = json.loads((HERE / "ECONOMIC_SWEEP_MANIFEST.json").read_text())
         manifest["social"].update({
@@ -148,7 +186,7 @@ class UnitSafeContract(unittest.TestCase):
         with self.assertRaises(ValueError):
             project_report({"cases": [case(), case()]})
 
-    def test_K01_cost_claims_hold_at_equal_realized_output(self):
+    def test_K01_cost_claims_hold_at_equal_source_gross_value(self):
         manifest = json.loads((HERE / "ECONOMIC_SWEEP_MANIFEST.json").read_text())
         manifest["social"].update({
             "sizes": [16, 128, 256], "roots": [{"id": "free", "slack": None}],

@@ -33,6 +33,17 @@ jobs:
       - name: Check original regressions and unit-safe evidence
         working-directory: research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1
         run: python -B -m unittest test_economic_envelope test_unit_safe_envelope -v
+      - name: Check typed-measure compatibility with pinned PR82 evidence
+        run: |
+          AG="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1"
+          git fetch --depth=1 origin 01555f1368b446126208fce185e9a6467d8af312
+          test "$(git rev-parse FETCH_HEAD)" = "01555f1368b446126208fce185e9a6467d8af312"
+          for file in unit_safe_evidence.py test_unit_safe_evidence.py; do
+            test ! -e "$AG/$file"
+            git show "FETCH_HEAD:$AG/$file" > "$AG/$file"
+          done
+          python -B -m unittest discover -s "$AG" -p test_unit_safe_evidence.py -v
+          git diff --exit-code -- "$AG/agentic_reduction.py" "$AG/CASES.json" "$AG/sensitivity.py"
       - name: Produce corrected source-native report
         run: |
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1/unit_safe_envelope.py --corpus-root . --model both > unit-safe-economic-evidence.json

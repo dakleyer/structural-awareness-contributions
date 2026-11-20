@@ -1,6 +1,6 @@
 """Unit-safe replacement report for #66; original policies remain source-owned.
 
-Physical output and acquisition prices are independent measurement axes. Their
+Source-reported values and acquisition prices are independent measurement axes. Their
 Pareto frontier is not an ACC K-vector or a total economic ranking. No scalar
 conversion, dimension assignment, permission or action is inferred here.
 """
@@ -17,7 +17,7 @@ from economic_envelope import quantity
 from economic_envelope_runner import execute
 
 HERE = Path(__file__).resolve().parent
-SCHEMA = "ACC-UNIT-SAFE-ENVELOPE-v0.1"
+SCHEMA = "ACC-UNIT-SAFE-ENVELOPE-v0.2"
 
 
 def _name(value: Any) -> str:
@@ -92,6 +92,20 @@ def project_case(source: Mapping[str, Any]) -> dict[str, Any]:
     clean_frame = {key: deepcopy(frame[key]) for key in (
         "case_id", "model", "scope", "question", "output_unit", "cost_unit",
         "horizon", "public_contract_id", "baseline_a")}
+    clean_frame["baseline_a_unit"] = frame["output_unit"]
+    kind = "SOURCE_REPORTED_VALUE"
+    source_field = None
+    if frame["model"] == "ACC_SOCIAL_INTRINSIC_44":
+        # The unchanged source scores a promise using value_per_unit and a
+        # false-promise penalty. That score is not physical production.
+        clean_frame["output_unit"] = "synthetic_value_units"
+        kind = "SYNTHETIC_SOURCE_VALUE"
+        source_field = "gross_realized_value_SYNTHETIC"
+    elif frame["model"] == "ACC_AGENTIC_REDUCTION_57":
+        kind = "PHYSICAL_MISSION_OUTPUT"
+        source_field = "observed_by_referee_only.output"
+    clean_frame["measurement_kind"] = kind
+    clean_frame["source_measurement_field"] = source_field
     matched = []
     for i, left in enumerate(known):
         for right in known[i + 1:]:
@@ -107,15 +121,15 @@ def project_case(source: Mapping[str, Any]) -> dict[str, Any]:
     gains = {row["arm"]: None if row["output"] is None or baseline["output"] is None
              else str(quantity(row["output"]) - quantity(baseline["output"]))
              for row in rows}
-    return {
+    result = {
         "frame": clean_frame,
         "measurement_axes": {
-            "output": {"unit": frame["output_unit"], "direction": "INCREASE"},
+            "output": {"unit": clean_frame["output_unit"], "direction": "INCREASE"},
             "information_cost": {"unit": frame["cost_unit"], "direction": "DECREASE"}},
         "baseline_arm": source["baseline_arm"], "observations": rows,
         "source_receiver_diagnostics": diagnostics,
         "measurement_frontier": frontier,
-        "physical_output_gain_vs_baseline": gains,
+        "measurement_gain_vs_baseline": gains,
         "matched_output_cost_order": matched,
         "unknown_measurement_arms": unknown,
         "status": "UNKNOWN_MEASUREMENTS" if unknown else "KNOWN_MEASUREMENT_PARTIAL_ORDER",
@@ -126,6 +140,9 @@ def project_case(source: Mapping[str, Any]) -> dict[str, Any]:
         "governance": "SOURCE_OWNED_SEPARATE_CONTROLS",
         "source_policy_semantics": "LEGACY_SCALAR_POLICY_UNCHANGED_NOT_REVALIDATED",
     }
+    if kind == "PHYSICAL_MISSION_OUTPUT":
+        result["physical_output_gain_vs_baseline"] = gains
+    return result
 
 
 def project_report(legacy: Mapping[str, Any]) -> dict[str, Any]:
