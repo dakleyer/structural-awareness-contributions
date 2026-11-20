@@ -58,7 +58,7 @@ def qualified_common_rejection(rows, event, scope):
     if any(r["event_id"] != event or r["scope"] != scope
            for r in rows):
         return False, "EVENT_OR_SCOPE_MISMATCH"
-    if any(not r["captured"] or
+    if any(r["captured"] is not True or
            r["finding"] != "CERTIFIED_OUTSIDE_LOCAL_A"
            for r in rows):
         return False, "NEGATIVE_ADMISSION_NOT_PROVEN"
@@ -80,9 +80,9 @@ def assess_candidate(rows, *,
               "operator_changed": False, "execution": "NEVER"}
     if not valid:
         result["candidate_status"] = "UNSUPPORTED_COMMON_COMPLEMENT"
-    elif not received_after_exchange:
+    elif received_after_exchange is not True:
         result["candidate_status"] = "CANDIDATE_NOT_RECEIVED"
-    elif not source_to_value_link_qualified or source_value_lower_bound is None:
+    elif source_to_value_link_qualified is not True or source_value_lower_bound is None:
         result["candidate_status"] = "UTILITY_NOT_ESTABLISHED"
     else:
         try:
@@ -92,9 +92,9 @@ def assess_candidate(rows, *,
         else:
             if gain_status != "CERTIFIED_STRICT_GAIN":
                 result["candidate_status"] = "NO_CERTIFIED_STRICT_VALUE_GAIN"
-            elif not action_authorized:
+            elif action_authorized is not True:
                 result["candidate_status"] = "ACTION_RIGHT_NOT_ESTABLISHED"
-            elif not decision_budget_ok:
+            elif decision_budget_ok is not True:
                 result["candidate_status"] = "TRANSITION_BUDGET_NOT_ESTABLISHED"
             else:
                 result["candidate_status"] = "SCOPED_PROPOSAL_FOR_EXTERNAL_ACTION_CHECK"
