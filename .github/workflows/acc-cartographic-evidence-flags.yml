@@ -1,0 +1,39 @@
+name: ACC cartographic explicit evidence flags
+
+on:
+  pull_request:
+    paths:
+      - 'research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/**'
+      - '.github/workflows/acc-cartographic-evidence-flags.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  explicit-cartographic-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check original physical source and frozen fixture/report pins
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1"
+          test "$(git hash-object "$S/CASES.json")" = "be77afef2a1bd3000bbfd1dca373b66db355b5db"
+          test "$(git hash-object "$S/REFERENCE_SWEEP.json")" = "fc89cee79327169f094a86dd3bdaa7ec151ecd2f"
+          test "$(git hash-object "$S/REFERENCE_SYNTHETIC_RESULTS.json")" = "eadb3f886b8ca5c1af4b596a03ba8576fbe68da4"
+          test "$(git hash-object "$S/agentic_reduction.py")" = "be7b04af92f3d2dc29b3f9dc79e2052b7418d602"
+          test "$(git hash-object "$S/sensitivity.py")" = "3392863652e43ae2e22dbee8f053e3d80773485e"
+      - name: Test original source, sensitivity, cartography and explicit evidence flags
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1"
+          python -B -m unittest discover -s "$S" -p 'test_*.py' -v
+          python -B "$S/verify.py"
+      - name: Preserve the complete original cartographic report
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1"
+          python -B "$S/residual_cartography_stage.py" > "$RUNNER_TEMP/acc_cartographic_report.json"
+          python -B -c "import hashlib,json,os; from pathlib import Path; r=json.loads((Path(os.environ['RUNNER_TEMP'])/'acc_cartographic_report.json').read_text(encoding='utf-8')); digest=hashlib.sha256(json.dumps(r,sort_keys=True,separators=(',',':')).encode()).hexdigest(); assert digest=='d484073be0dafc1fefe4d7f8d4bda5ca23604e6c4f07cf3a5f37ed7f1dc1f4a7'; assert r['stage_outputs']==[10,10,11.5]; print('Complete original cartographic report unchanged')"
+          git diff --exit-code -- "$S/agentic_reduction.py" "$S/CASES.json" "$S/sensitivity.py" "$S/REFERENCE_SYNTHETIC_RESULTS.json" "$S/REFERENCE_SWEEP.json"

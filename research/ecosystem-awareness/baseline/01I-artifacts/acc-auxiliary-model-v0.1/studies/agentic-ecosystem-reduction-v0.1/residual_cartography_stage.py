@@ -50,7 +50,7 @@ def local_claim(event: Observation, dimension: int) -> dict:
                 and math.isfinite(float(raw))
                 and 0.0 <= float(raw) <= 1.0
                 and bool(event.event_id)
-                and event.captured_before_admission)
+                and event.captured_before_admission is True)
     if not is_valid:
         return {"event_id": event.event_id,
                 "source_scope": event.source_scope,
@@ -131,7 +131,7 @@ def three_stages(*, case_id: str = REFERENCE_AG01,
             candidate, meta = event, verdict
             break
 
-    linked = bool(candidate is not None and assumed_class_to_q_source_valid
+    linked = bool(candidate is not None and assumed_class_to_q_source_valid is True
                   and scenario.get("Q") is not None)
     if linked:
         final = object_policy(scenario, "Q_META_PROTOCOL")
