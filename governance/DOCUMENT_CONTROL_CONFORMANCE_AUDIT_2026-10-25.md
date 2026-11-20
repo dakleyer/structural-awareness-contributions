@@ -536,3 +536,55 @@ The implementation PR records the exact accepted wave, whole-tree diff, reverse 
 ## Taxonomy audit reception — 26 October 2026
 
 **Additional assessment by Codex AI assistant.** The [case/corpus taxonomy assessment](https://github.com/dakleyer/structural-awareness-contributions/blob/main/architectural-contributions/ecosystem-positioning/README_VNext.md#additional-nomenclature-semantic-and-taxonomy-audit--26-october-2026) and nine complete source-owned literal candidates distinguish document role, evidence status, appraisal, sufficiency judgment, authority, capacity, decision, execution and effect. The Plan3 first-wave source application and its exact preservation/readback receipts remain applied; this review does not reopen those units or execute AP3-09. Canonical means the named owner's current reference, not a validated scientific finding or an adopted FG-TIDA term. A documentary-check PASS is not semantic/scientific conformance. Existing registry/native-guard gaps and the 04 general-handoff/no-A H06 integration issue remain visible. All nine TAX26 candidates are proposed, not incorporated. Private mail and the unshared authorial glossary are not reproduced; public HO-EDM/UC-20 sources supply the attributable audit basis.
+
+
+## Daily PR audit — publication and check coverage
+
+The [EP daily audit](../architectural-contributions/ecosystem-positioning/README_VNext.md#corpus-and-daily-pr-audit--26-october-2026) covers 21 PRs created/merged today plus older5/18 and a direct main commit. Actual Git deltas preserve all2,427 pre-day paths/modes and add193; none is deleted. The 193 include authentic old copies, not 193 scientific discoveries. Source roles remain separate from publication and CIstatus.
+
+**D26-F02 — incomplete environment coverage.** [PR22 job 121706636351](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/40361155403/job/121706636351) failed before tests: Python3.9 x64 was not found for Ubuntu26.04. This is an environment failure, not a mathematical counterexample. The other matrix jobs do not prove the unexecuted3.9 cell. Select a supported reproducibility environment or a supported-version policy, retain the failed record and do not change workflows under this audit.
+
+**D26-F06 — correct my full-PR navigation claim.** My earlier PR56 summary said zero new broken routes too broadly. The later board extension versus its immediate predecessor has zero new unresolved routes; the whole PR56 versus main adds three source-relative strings in the authentic relocated CONTRIBUTING snapshot: DOCUMENT_CONTROL, Corpus Review Procedure and LICENSE. They are historical-context links, not missing canonical files. Read the [original at its original root location](https://github.com/dakleyer/structural-awareness-contributions/blob/1b5a07f916d3f65cf467628e2bec5b13b769a029/CONTRIBUTING.md); keep the custody snapshot bytes exact and make that reading route explicit in the board. The existing manifest’s four qualified historical quotations and frozen split-URLcontext remain distinct from this new snapshot.
+
+**Applied-card custody:** PR52 replaces the nine completed first-wave cards with anchored receipts to their complete pre-application revision. This is requested retirement of applied pending text, not a scientific-source deletion. AP3-09 and registry/native-guard decisions remain open. No source or checker rollback is justified by the old card’s historical wording. The raw old/new blocks, active gate states and public provenance must remain retrievable. Direct comparison verifies that operative clauses 1–13 stay byte-exact in PR52. The nine original-source .txt copies added by PR51 each match their actual predecessor blob; the tenth old-folder file is its descriptive index, not another purported source copy.
+
+**D26-F07 — direct-write scope:** d5f7cd6137da97ed265acfa5bc68c9f00f128c7dchanges/adds17Panodyssey reader/presentation files outside a PR. It introduces reading aids and an explicitly derivative presentation layer; original source mirrors/manifest stay exact. One QAline is split into two retained paragraphs. A PR-only list would miss it. This observation does not establish whether the owner authorized that publication; the request/receipt must supply that fact. Native PR-only enforcement remains separately pending, so a successful CIjob is not proof that direct writes are impossible.
+
+
+### Daily-audit native check receipt
+
+The [document-control job for audit head db75b9c](https://github.com/dakleyer/structural-awareness-contributions/actions/runs/40408471507/job/121872253805) succeeds. Its annotations also disclose two environment transitions: actions/checkout@v4, setup-python@v5 and upload-artifact@v4 target Node20 but run under forced Node24; ubuntu-latest is migrating to Ubuntu26. These are portability/maintenance signals, not failed scientific assertions. They support recording the actual interpreter/runner boundary in D26-F02; a green documentation job does not supply PR22's missing Python3.9 execution. No runner or action version is changed by this audit.
+
+
+### Late daily coverage and attribution receipt
+
+The 21-PR cut now includes PR60's seven added documents; all current-main paths/modes/blobs remain. Updated 58 at 406c4637 adds arithmetic and accepts evidence limitations. At 8008240c, after our comment, attribution identifies Codex AI-assisted review rather than a personal owner statement. D26-F10 is resolved; no already corrected attribution card remains in the source queue.
+
+Actual document checks succeed for PR60 aa4a2250 (run 40409231123/job 121875046445) and PR58 at 8008240c (run 40410442516/job 121879493551). They do not validate query conditioning (F08), namespace/admission (F09), original-source editions or real architecture advantage. Late GFM adds zero missing local routes/fragments. All source pairs remain unapplied.
+
+
+### PR59 qualification binding after additive review — 27 October 2026
+
+The documentary job for head38fa9c8 rejected the changed04owner VNext because its exact historical-source qualification still named the previous normalized text hash. This was a missing metadata refresh in my review continuation; the guard correctly stopped it. The complete original review body is an exact prefix, its two qualified source-relative citation occurrences and receiving file are unchanged. The native helper reproduces the failure with the old record and accepts the refreshed record: three records/four qualified occurrences, no broader exclusion.
+
+This successor changes only the record: normalized source hash, reviewed-source commit and appended qualification explanation, plus this receipt. Destination, occurrence count, receiver hash, other records, checker and workflow are unchanged. Original raw formatting and every unrelated JSON byte are preserved by three exact replacements. The earlier failed run remains public; no canonical research, frozen source, result or active schema was altered to make the check pass.
+
+
+### Follow-up: verify pinned repository links as actual targets (27 October 2026)
+
+Codex, AI-assisted review. The first PR58 reconciliation table I published at0276fefe included an invalid absolute interface-owner link ending in `01I_VNext.mdF`. Native document control passed that cut; its success therefore did not establish the validity of that pinned-commit target. Claude corrected only the link at92db166, pointing to the existing interface VNext and its TAX26-04 heading. The findings and source proposals were retained.
+
+I then resolved all eight visible repository links introduced by the new PR58/59 review sections against their actual referenced Git trees, and checked their heading fragments with GFM parsing: eight existing targets, zero broken links and zero unresolved fragments. Code-literal examples were excluded. Both the source file and target heading for the separate, still-pending SA-U2 citation repair were also read. This is the completed check for these additions, not a repository-wide external-link claim.
+
+Practical control improvement: keep the native qualification checker intact, and include explicit pinned-revision target/fragment validation in the preparation and readback of review navigation. Native CI and a main-relative-link scan are insufficient evidence for those URLs. A future automated enforcement change needs its own exact checker patch and regression cases; none is represented as already implemented here. The original erroneous link remains identifiable in Git history; the current shared PR58 contains its surgical correction.
+
+
+## Current delta and verification disposition — 28 October 2026
+
+Codex, AI-assisted re-audit. Main advanced from the prior 2644-path cut to2646paths: two additions, seven modifications, zero removed paths or changed modes. Current-main carry is kept separate from the review additions. P5's former environment-only failure is resolved at current main: run 40546671257has successful Python 3.9 / 3.12 / 3.13 cells, each completing fixture-spec validation and actual regression execution. The old failed run remains historical; this is not new experimental evidence.
+
+Full main GFM comparison: zero newly unresolved relative/main paths or fragments, zero formerly reachable files detached, one S2 versioned heading changed. The raw archived/source-relative warnings retain their old count and scope. PR62's two new working papers have valid local outgoing links and only mutual incoming links; a future selected source-index entry is a promotion dependency. Absolute pinned-revision links still need their explicit target check, as recorded in the prior follow-up; local GFM success alone does not cover them.
+
+Review-ledger drift was checked materially: nine TAX26old units remain unique/unapplied; the enclosing TAX26-07 source changed outside its unit; D26-C04–07are now implemented in PR60's branch, not main; C01is superseded as a separate plan by PR64. All 36interpretation old units remain literal, while preparation of source-owner mapping and per-unit impact/risk/effort is still incomplete in that registry. Two retained-reference cards are not pending changes. The historical units and disagreement remain preserved.
+
+New runtime review evidence: PR64's66 tests and frozen report reproduce, an assertion-only private candidate also passes 66, and a rationally checked binary64 counterexample shows why a coherent numerical policy remains a source-review issue. No mathematical-runtime fix, source promotion, workflow edit or merge is performed by these review updates. Existing historical qualification entries and source hashes are unchanged because their source 04 VNext is not edited in this continuation.

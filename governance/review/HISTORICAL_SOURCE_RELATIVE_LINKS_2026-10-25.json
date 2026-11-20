@@ -6,11 +6,11 @@
       "source": "research/ecosystem-awareness/baseline/04_GENERAL_FUNCTIONAL_INTERFACES_AGENTIC_SECURITY_VNEXT_REVIEW_AND_DELTA_v0.1_DRAFT.md",
       "raw_target": "./PUBLICATION_MANIFEST.json",
       "expected_occurrences": 2,
-      "source_text_sha256_lf": "466275298d483d41be2e59c801fd5fa9d46dd95848bc073d752b2d22a349f659",
+      "source_text_sha256_lf": "757d7e23c413abe7dc40edba61c9ee173ef70eb88b99ca4ff869c3598dce4a14",
       "source_relative_base": "research/ecosystem-awareness/baseline/04_INPUT_INTERFACE_CONTRACT",
       "receiver_text_sha256_lf": "340264dd70df9ec49a13d45167b80189e6ac5c8ce2eb97d395edc98b4057ed54",
-      "qualification": "Preserved 101/102 before/after source-relative citation; upstream added two incorporated-reading paragraphs outside the quoted contexts",
-      "reviewed_at_commit": "67c6328cdf71ab4cfe744dc2b07c81b2e330b0f2"
+      "qualification": "Preserved 101/102 before/after source-relative citation; upstream added two incorporated-reading paragraphs outside the quoted contexts; 27 October: additive review-readiness receipt verified; original citation count, quoted context and receiver remain unchanged",
+      "reviewed_at_commit": "38fa9c83a898c7cfaa12151e9dff4812bebd9b10"
     },
     {
       "source": "research/ecosystem-awareness/baseline/fixtures/00K-SUITE/README_VNext.md",

@@ -3086,3 +3086,240 @@ The source-owned plan is:
 **Decision requested later:** select exact TAX26 pairs for source promotion. They are **PROPOSED, NOT APPLIED**. Before any promotion, bind the current old passage again, preserve its predecessor, check affected consumers and apply only the selected complete new passage. On acceptance, retire its pending card to a concise applied receipt with immutable history. The separate AP3-09 workflow decision and all unresolved scientific/native-conformance work retain their current states. No hourly continuation is created.
 
 **Publication dependency checked.** The existing historical-citation manifest binds the entire 04 VNext text, including these new append-only observations. This publication refreshes only that entry's normalized source-text SHA256 after verifying the old source is an exact prefix, the same two historical PUBLICATION_MANIFEST citations remain, and the receiver hash/path and every other qualification stay unchanged. The checker/helper and all its rules are unchanged. This is custody metadata for the audit addition, not an applied TAX26 candidate or an exception for new links.
+
+
+## Corpus and daily PR audit — 26 October 2026
+
+This review covers the current repository and all 21 PRs created or merged on 26 October (Europe/Madrid), plus older open5/18 updated that day. Baseline main is 3e58fc6997a439b9783fd6b92ccee3f4292772dd; the daily first-parent predecessor is4256d68bd82d67630fc33225ce54d1f7f81f518b. It also includes the direct Panodyssey commit outside the PR list. The exercise checks actual deltas, reading/evidence claims and receiving paths; it does not repeat every historical scientific proof.
+
+**Overall:** document custody and navigation have been preserved, while scientific and numerical questions remain. Main grew from2,427 to 2,620 paths:193 added, none deleted, no mode change,31 existing files changed. No new active VNext was created; the four new filenames containing VNext are authentic old-text snapshots. The ACC profile/01K changes are bounded navigation additions, not normative replacement.
+
+| Finding | Severity | Object | What matters |
+| --- | --- | --- | --- |
+| D26-F01 | High | PR45 / current main | An empty bound can be classified as supported true |
+| D26-F02 | Medium | PR22 / merged | One reproducibility environment did not run |
+| D26-F03 | High interpretive | PR48/49,54,57 | Synthetic results do not establish measured comparator performance |
+| D26-F04 | Medium | PR44 / current main | Two paths use different cost boundaries |
+| D26-F05 | Medium | PR53 / merged | Two versioned heading anchors disappeared |
+| D26-F06 | Medium reporting | PR56 / open | My earlier no-new-broken-routes summary was too broad |
+| D26-F07 | Informational/control | Direct main commit d5f7cd6 | PR-only audit misses a real change |
+
+The [ACC owner review](../../research/ecosystem-awareness/baseline/01I_VNext.md#daily-pr-audit--acc-and-conscientia) holds the reproduced numerical counterexample, source/evidence limits and exact code candidate. The [DDS review](../../research/ecosystem-awareness/DDS_CHALLENGE_TRAJECTORY_PROFILE_v0.1_VNext.md#daily-pr-audit--dds-reader-compatibility) holds the two complete heading-anchor proposals. The [document-control audit](../../governance/DOCUMENT_CONTROL_CONFORMANCE_AUDIT_2026-10-25.md#daily-pr-audit--publication-and-check-coverage) records environment coverage, retirement custody and the corrected full-PR link scope.
+
+### PR-by-PR disposition
+
+| PR | Status at cutoff | Audit assessment |
+| --- | --- | --- |
+| [#5](https://github.com/dakleyer/structural-awareness-contributions/pull/5) | Open draft | Historical-lineage proposal remains open/draft; no adoption into current 00M. Review source-native versus current meanings before any promotion. |
+| [#18](https://github.com/dakleyer/structural-awareness-contributions/pull/18) | Open | Open older article/register proposal; not merged. Preserve its candidate register and existing source-owned reviews; merging is not authorized by this audit. |
+| [#21](https://github.com/dakleyer/structural-awareness-contributions/pull/21) | Merged today | Campaign package is a documentary, proposed Theme23 scenario. Registry/index changes and new assets retained; no native product result established. |
+| [#22](https://github.com/dakleyer/structural-awareness-contributions/pull/22) | Merged today | Only 00M VNext expands; current 00M/00N definitions stay unchanged. Hypotheses/type distinctions retained. Python3.9 reproducibility job did not execute. |
+| [#28](https://github.com/dakleyer/structural-awareness-contributions/pull/28) | Merged today | Source books and bounded model installed;01I/01K receive navigation additions, not normative body replacement. Historical-link helper is a real checker change, not a zero-diff source. |
+| [#40](https://github.com/dakleyer/structural-awareness-contributions/pull/40) | Merged today | Stacked into28 before main. Direct-vector HID toy and causal bridges remain separate from human 01K measurement; do not double-count28/40 as independent evidence. |
+| [#42](https://github.com/dakleyer/structural-awareness-contributions/pull/42) | Merged today | Finite feasibility/coordination trap and stipulated utility examples; no empirical frequency or strategic equilibrium demonstrated by those fixtures. |
+| [#43](https://github.com/dakleyer/structural-awareness-contributions/pull/43) | Merged today | Fibres/counting bounds are valid in their finite setting; demand censoring supplies the displayed ambiguity, not nesting by itself. |
+| [#44](https://github.com/dakleyer/structural-awareness-contributions/pull/44) | Merged today | Public planner is separated from private scoring; cost boundary differs between policy and public-planning paths (F04). |
+| [#45](https://github.com/dakleyer/structural-awareness-contributions/pull/45) | Merged today | Scoped Lipschitz inference found a concrete empty-interval false support (F01). Rationale/mathematics do not immunize its numerical implementation. |
+| [#46](https://github.com/dakleyer/structural-awareness-contributions/pull/46) | Merged today | CARA/normal certainty-equivalent formulas are explicitly conditional; no probability over open C/D or observed human distress follows. |
+| [#47](https://github.com/dakleyer/structural-awareness-contributions/pull/47) | Merged today | Claim ladder and UC21 bridge remain synthetic/documentary; source role, permission and Stage A/C distinctions preserved. |
+| [#48](https://github.com/dakleyer/structural-awareness-contributions/pull/48) | Merged today | 60 designed cases/300 decisions. Input verdicts and prices are stipulated; comparison is conditional fixture scoring (F03). |
+| [#49](https://github.com/dakleyer/structural-awareness-contributions/pull/49) | Merged today | Extends 48 within the same campaign with worked microcases and references. Not independent replication; reference JSON extension is visible and reproducible. |
+| [#50](https://github.com/dakleyer/structural-awareness-contributions/pull/50) | Merged today | Dated promotion review of its 11 PR scope, not later54/57 or whole scientific validation. Broader pending work remains open. |
+| [#51](https://github.com/dakleyer/structural-awareness-contributions/pull/51) | Merged today | Source-specific distinctions clarified with authentic old snapshots; no normative 00M/01K redefinition. Concept edits retain authored working-model role. |
+| [#52](https://github.com/dakleyer/structural-awareness-contributions/pull/52) | Merged today | Applied AP3 cards retire to linked complete immutable pre-application cards; operative policy clauses and separate AP3-09 decision remain. No code/workflow rollback. |
+| [#53](https://github.com/dakleyer/structural-awareness-contributions/pull/53) | Merged today | Localized wording clarifies readiness, reading burden and intake; reviewers remain unassigned. Two H1 anchor aliases are missing (F05). |
+| [#54](https://github.com/dakleyer/structural-awareness-contributions/pull/54) | Open | Open synthetic worked-case extension;8 network sweep cells overlap 49. Case arithmetic and regression success are not independent empirical evidence. |
+| [#55](https://github.com/dakleyer/structural-awareness-contributions/pull/55) | Merged today | Published case review and9literal source pairs retained; proposed source corrections, not canonical adoptions. Orthogonality rationale is refined in open56. |
+| [#56](https://github.com/dakleyer/structural-awareness-contributions/pull/56) | Open draft | 32 observation/10 idea board stays open. Whole-PR snapshot link context is clarified by F06 in head 4da68127944a4e0d89c25b6759bd4b1447ec22f7; no source proposal applied. |
+| [#57](https://github.com/dakleyer/structural-awareness-contributions/pull/57) | Open | Open agentic reduction with strong-peer parity/negative cases and new mathematical annex. P1/P2/P4 are conditional/standard arguments; Rxx primary-source/edition reuse is not independently certified by this audit. |
+| [#58](https://github.com/dakleyer/structural-awareness-contributions/pull/58) | Open draft | Useful incremental challenge, with pinned scope and AI attribution. Core/high-level limitations substantially supported; code45 numerical boundary and 22 environment failure were not covered. Its findings do not close all later/older models. |
+
+### Preservation and receiving-route result
+
+The whole-day GFM comparison over1,069→1,164Markdown introduces no new missing file/fragment and no newly unreachable file. Two H1 slugs changed in DDS review packets; their compatibility proposals are in the owning review. The raw historical inventory still has3,455 unresolved source-relative path occurrences and17fragment occurrences, largely in relocated snapshots. Four current-location historical quotations are explicitly qualified by the repository manifest; one bare URL is split at a frozen source-part boundary. These counts are not3,455 current canonical failures and are not hidden by the no-new-regression statement.
+
+Each of the four open new PRs was checked as a merge preview against current main, preserving intervening audit work. PR54/57/58 add no missing local routes/fragments. PR56 adds three unresolved relative strings only in its exact CONTRIBUTING custody copy; its original root-location route remains available and the board/PR summary correction is published at 4da68127944a4e0d89c25b6759bd4b1447ec22f7. No snapshot is rewritten to satisfy a scanner.
+
+All 21 current PRheads have published checks. PR22 has a failed Python3.9 setup job; a green documentary job does not erase it. Main and the other reviewed heads retain their observed checks. No new research campaign, source edit, workflow/configuration change or merge is authorized by this audit. The three source candidates below remain pending selection; full-source science and owner decisions remain distinct from documentary verification.
+
+
+## Late daily PR audit — PR60 and updated PR58
+
+Scope extends to 22 primary PRs on 26 October plus older 5/18, excluding PR59's separately checked audit publication. PR60 at aa4a2250 adds seven Stage A research documents; PR58 was reread at 406c4637 and attribution correction 8008240c. Main 3e58fc6 and the whole-day preservation result stay unchanged.
+
+D26-F08 separates a valid Q-only theorem from a faulty minimum-supplement interpretation that ignores already available A. D26-F09 reconciles UC21 native R0/R1/R2 with conditional prospective DDS R1/R2/R3. The dossier improves the conditional mathematical formulation and negative controls; those integration points need correction before acceptance. Four literal C04–C07 pairs join the three earlier proposals in [01I VNext](../../research/ecosystem-awareness/baseline/01I_VNext.md#late-daily-pr-audit--mathematical-lineage-and-supplementary-evidence), with the receiving method review in DDS. All seven source candidates remain proposed.
+
+PR58's round 6 reproduces the interval problem and accepts comparator/scope precisions without declaring source corrections. Its initial attribution of a Codex comment to the owner was corrected at 8008240c: D26-F10 is resolved in that review. Codex/Claude review is AI-assisted work, not personal owner wording, implementation GO or blind human validation.
+
+Both late PR cuts add no missing local routes/fragments or removed current-main headings. PR60 has no receiving entry from the existing ACC README yet; its own README/PR connects the internal reader. Before promotion, choose the existing owner research entry instead of silently making another README a canonical level. Original-source fidelity and external/deployment validation remain pending.
+
+
+## Shared audit and promotion selection — 27 October 2026
+
+Use [PR58](https://github.com/dakleyer/structural-awareness-contributions/pull/58) for the shared scientific audit conversation and its annex for the receiving/promotion discussion. Exact source edits remain in their existing owning VNext; PR59 transports those review records. No parallel source queue is created.
+
+All nine TAX26 pairs were revalidated against main 3e58fc6: old text unique, proposed text not already applied, full pair present in its owner. The suggested first documentary selection is TAX26-02/04: evidence, human notice/comprehension, sufficiency judgment, decision, execution and effect become easier to distinguish. Both are High expected impact / Low risk / Low effort, with no schema, permission, frozen-result or payload change. A private two-file preview preserves every old span, reverses exactly to its preimage and adds no navigation regression. These are ready for a named owner wave, not applied.
+
+Technical priority remains D26-C01/I-01. Its unchanged 60-test baseline passes; the private predicate-plus-regression candidate passes 61 tests, including 18 adverse gap/threshold subcases. Generated synthetic_report output is identical; published evidence is untouched. The exact test companion now follows the original code pair in 01I VNext. Numerical policy remains part of the selected repair; a passing candidate does not close the still-published defect.
+
+The PR58 remedies also need review. A truth-fed noisy signal generator is not a runtime comparator; assumed per-arm cost or renamed per-link gain is not independent efficacy evidence. Finite verified mathematics and useful reading figures can be retained as scoped results. Empirical advantage, human welfare, source accuracy and deployment claims await their own evidence. On actual source adoption, update the one owning pending status to the actual applied commit and preserve the audit/predecessor; do not promote a transported proposal twice.
+
+Current-head reconciliation: main advanced to891af45a75b245082859147c0f7233cf85dd9035 while this review was prepared. Its22 new Structural Awareness research files and root-reading addition are retained, not rolled back. All prior corpus files except root README have identical blobs, so the nine TAX26 sources and the interval study retain their verified preimages. PR57 now has a new residual-cartography overlay and PR60 a Theme18 annex/fixture plus workflow step. Earlier core findings remain scoped to the unchanged core; these extensions need their own review. The new mathematical research route labels itself noncanonical; publication and custody do not certify its proofs. PR60 uses the corrected A+Q formulation in its new annex but leaves the original02/03 and05/06candidate source passages unchanged, so C04–07are not closed. A workflow addition requires separate scope selection from research-note promotion.
+
+
+## Navigation candidate — current mathematical reading route, 27 October 2026
+
+**State:** proposed, not applied. **Priority:** First reader-maintenance selection, alongside TAX26-02/04. **Expected impact:** Medium; the direct Shannon-theorem citation opens its intended section. **Risk:** Low. **Effort:** Low. **Source:** [research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md](https://github.com/dakleyer/structural-awareness-contributions/blob/891af45a75b245082859147c0f7233cf85dd9035/research/structural-awareness/SA_METAEXISTENCE_CONTEXT_AND_EVALUABILITY_CALCULUS_v0.1.md), the complete paragraph below. The target heading is unchanged and has two hyphens around the removed em dash; the source has one. Both source and target were read. This is navigation repair in a noncanonical working research note, not scientific approval or a new corpus hierarchy. No other link, wording or theorem changes.
+
+**Text before — complete existing paragraph:**
+
+````markdown
+A correct **shrinking** of context is not always better: it may discard variance-reducing observations or other valuable properties for a different question. The original *Semantic Window* theorem supplies an explicit **bias–variance threshold** for the current-regime mean; more history can help when correctly scoped and qualified. Likewise [Shannon conditional task information](./METASYNTACTIC_UTILITY_CLASS_THEOREMS_v0.1.md#5-theorem-sa-u2-strong-decision-relevant-information-gain-in-the-shannon-sense) applies only under a declared joint law. [R14 coverage and support-aware KL](./METASYNTACTIC_UTILITY_CLASS_THEOREMS_v0.1.md#6-distorsión-entrópica-coverage-kl-direction-and-decision-relevance) show that the *size* of a represented region cannot tell us by itself how relevant it is. The [R16 computational-description gap](./METASYNTACTIC_UTILITY_CLASS_THEOREMS_v0.1.md#7-computational-exergy-coding-potential-and-semantic-value-are-different-quantities) is also distinct from the **cost of discovering an applicable proof**.
+````
+
+**Text after — complete proposed paragraph:**
+
+````markdown
+A correct **shrinking** of context is not always better: it may discard variance-reducing observations or other valuable properties for a different question. The original *Semantic Window* theorem supplies an explicit **bias–variance threshold** for the current-regime mean; more history can help when correctly scoped and qualified. Likewise [Shannon conditional task information](./METASYNTACTIC_UTILITY_CLASS_THEOREMS_v0.1.md#5-theorem-sa-u2--strong-decision-relevant-information-gain-in-the-shannon-sense) applies only under a declared joint law. [R14 coverage and support-aware KL](./METASYNTACTIC_UTILITY_CLASS_THEOREMS_v0.1.md#6-distorsión-entrópica-coverage-kl-direction-and-decision-relevance) show that the *size* of a represented region cannot tell us by itself how relevant it is. The [R16 computational-description gap](./METASYNTACTIC_UTILITY_CLASS_THEOREMS_v0.1.md#7-computational-exergy-coding-potential-and-semantic-value-are-different-quantities) is also distinct from the **cost of discovering an applicable proof**.
+````
+
+The pair matches once and its inverse restores the exact predecessor. Source adoption awaits the named wave; all existing source bytes remain intact in this review. In the private three-file preview with TAX26-02/04, this repair removes the one live missing fragment; the 17 inherited snapshot-context fragment reports remain historical, not newly hidden or repaired.
+
+Live publication revalidation: main c64f8ad1464d593d93da721b63cfa940f36c12ab retains all nine TAX26 source blobs and the complete interval-study blobs unchanged. The navigation old paragraph still matches once. Current main research additions/edits are retained as the second parent; they are not changes authored by this review.
+
+
+## Corpus changes and audit dispositions — 28 October 2026
+
+At the fixed current-main cut, all 2644previous paths/modes remain and two research files were added: collective residual paper and its synthetic fixture. Seven existing paths changed: four DDS/S2 work-order reader/template files, the SA index/editorial audit and the P5 workflow. DDS now separates published known-case branch agreement from a prospective comparison; the original A14 output remains unchanged. The new collective-residual paper expressly says the original portfolio already enumerates INTEGRATE; its local masking/certificate interfaces are a new intervention, not recovery of a missing original capability.
+
+The [01I current reconciliation](../../research/ecosystem-awareness/baseline/01I_VNext.md#review-28-october-2026) supersedes the earlier pending-state summary: PR60 implemented D26-C04–07 in its source branch; PR64 subsumes the partial C01 and passes 66 tests, with a newly concrete floating-point boundary still to adjudicate; P5execution is fixed in main. Nine TAX26 units and the one-hyphen SA-U2link candidate remain unapplied. The H5 headline clarification IP-31 and audit's short UC21/DDS sentence now have full localized units in the same01I owner.
+
+Round9's36literal units have been revalidated, not promoted: two retain the source,33owner-route instructions are still generic, and the card registry lacks individual impact/risk/effort fields. Complete those decisions in existing source reviews, without another VNext collection. First small documentary selection remains TAX26-02/04, IP-31 and the short namespace correction; the citation repair is a separate Medium-impact/Low-risk item. The positive-control assertion is a separate Low-risk test item in the PR64edition. Numeric certification policy and new research need their own technical scope.
+
+The complete main Markdown comparison adds no unresolved relative/main route or fragment and detaches no previously reachable file. One S2 H1 changes editionv0.2.1 → v0.2.2; no checked current internal link targets the removed versioned fragment. Raw archived/source-relative warnings persist unchanged and are not reclassified as new faults. In a PR62 preview both new papers resolve their local links, but their only incoming links are from each other: if retained/promoted, prepare an explicit optional-research entry from the existing owning index, with that index's review; this observation does not authorize another canonical hierarchy or an automatic README edit. Full scientific review of that new material remains separate from this navigation result.
+
+
+### Receipt of the shared round12 — same owners, not another queue (28 October 2026)
+
+PR58's round12 was published concurrently and supplies M28-01–07, IP-37–42 and the proposed cost/temporal developments. The [existing 01I reception](../../research/ecosystem-awareness/baseline/01I_VNext.md#round12-source-reception) now receives the **nine exact technical units** under their original M28 IDs, with impact/risk/effort and dependencies. No new VNext or public companion is created by this reception. The older D28-F01 witness is additional support for M28-01, not another defect count.
+
+The numeric source advanced to 0229bf9: fresh 68/68 tests and the unchanged reference report reproduce, while round12's numerical issue remains open. D28-C01's same assertion-only unit also passes 68 tests privately. The temporal proposal M28-04 remains held for a typed finite-time contract and complete caller pairs; applying only its new signature would be incomplete. M28-02 and the paired M28-03 changes are the smallest concrete fixture repairs; the four M28-07 units form one I/O package. These selections accompany the localized documentary candidates above and require their own source wave.
+
+The current main cut and the nine TAX26 units remain as in the preceding entry. The six new IP-37–42 units and remaining mathematical/source reviews retain round12's actual work status; this receipt verifies and routes the technical units, not all those proofs or editorial choices. Pending-state reception for PR59 is now done; source implementation, owner selection and merge are separate remaining actions.
+
+**Later incorporation checked in this same review:** main advanced to 51fc686f through PR64. The numerical defects now have an actual source fix, 72 passing tests and unchanged frozen-reference bytes. I-01/M27-01/02/M28-01 are closed in their scoped runtime meaning; the eight still-pending M28 technical units above exclude that already-covered regression proposal. PR60 and the remaining documentary units retain their explicit states.
+
+
+## Current shared-review receipt — 28 October 2026
+
+PR58 rounds 14/15 and their reader guide/status ledger are received. PR60 `cb72bb65` now implements M28-02; Codex reverified 15/15 file tests. The source-owned 01I VNext retires that superseded pair from implementation and keeps its exact historical card linked. PR60 incorporation remains pending. Seven other round 12 technical units remain unimplemented, with the time-contract unit held for its NaN/caller issues. A one-paragraph guide clarification (D28-C03) separates aliases from related findings without deleting records or changing their states. The main numeric repair remains verified 72/72. No canonical source or code is changed by these receipts.
+
+## Development opportunities: integrating the mechanisms and explaining their value — 28 October 2026
+
+**Purpose:** develop the positive research programme requested by Iván: combine existing elements, explain what they enable, use external results constructively and replace repeated defensive prose with precise affirmative statements. This is an extension of the existing review and strategy, with source changes proposed below.
+
+### What the other reviews already contribute
+
+[PR58 round 19](https://github.com/dakleyer/structural-awareness-contributions/blob/461f8f8dba0389a3e9615de101457b7b823e82bf/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-19) supplies OP-01–13: a better reviewer entry, a coordination game from existing pieces, exact certificate checks, shared-capacity certificates, parameter regions and actual observation-based comparators. Claude's [rounds 20/21 reader kit](https://github.com/dakleyer/structural-awareness-contributions/blob/1e36ed0645e1ee6511da171911968d9e90911532/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/premium/INDEX.md) provides the front page, reading spine, symbol/notation map, study catalogue and visual routes. Reuse these proposals and their identities rather than create another parallel editorial kit.
+
+The [PR62 architecture-search annex, sections 14/15](https://github.com/dakleyer/structural-awareness-contributions/blob/4caf7d69144cbd4983e840705cc60745e27233a1/research/structural-awareness/SA_POSITIONED_RESIDUAL_REUSE_AND_LOCAL_ADAPTATION_v0.1.md#15-five-independent-mechanisms-for-ecosystem-architecture-opportunity-search--public-research-interface-and-comparison-map-28-october-2026) already articulates five swappable functions and a learning loop. Its neighbours table already covers sensor fusion, partial-information decomposition, constraint acquisition, SafeOpt, diagnosis, Rainbow and change detection. The opportunity is to turn that foundation into a clear central explanation, reusable algorithms and a programme of cumulative evidence.
+
+### 1. One explanatory spine, demonstrated by one complete case
+
+Lead with the work the system performs:
+
+> Select a consequential architectural boundary; combine the participants' complementary observations; check a small set of accessible options; establish a feasible, authorized change; observe its effects and update the next decision.
+
+Explain the five functions through this cycle while keeping EP's eight owned modules and the independent DDS stages in their existing places. Use the existing telework example across the whole route: 120 staff, 100 seats, and a proposed arrangement that must guarantee at least 20 staff off-site on every relevant day. Show the observation that changes the decision, the joined constraints and the result to check. Then link the same case to its Challenge, Stage A specification, Stage B candidate and later campaign evidence. One illustration and its source table can do more explanatory work than repeated alphabetic labels.
+
+Extend OP-01/05/13 and the current premium proposals with this common case. [CheckList, Ribeiro et al., ACL 2020](https://aclanthology.org/2020.acl-main.442/) supplies a published method for organizing capabilities and minimum-functionality, invariance and directional tests; its user study found actionable failures in an extensively tested commercial sentiment model. Reuse its testing grammar to organize explanatory case variations. The corpus-specific case remains ours to specify.
+
+**First deliverable:** one compact reading spine and a source-linked walkthrough, followed by the full proof/evidence route. Put status and applicability in one short evidence table; state the mechanism affirmatively in the narrative.
+
+### 2. A context that learns without losing its evidence
+
+Connect F9 effect learning, the Semantic Window, retained pre-admission traces and the versioned context loop. Maintain an immutable source record and a current working view that can incorporate local, attributable lessons from successful and failed selections.
+
+**External support:** [Agentic Context Engineering, Zhang et al., ICLR 2026, arXiv v3 of 29 March 2026](https://arxiv.org/abs/2510.04618v3), reports context-adaptation improvements on agent and finance benchmarks. Its reusable design is generation, reflection and curation through localized updates; the paper directly studies context collapse caused by repeated rewriting. This supplies an implementable neighbour for the F9/context-engineering interface. The project repository reports Apache-2.0 licensing; the article is CC BY 4.0.
+
+For the computational side, [DBSP, Budiu, Chajed, McSherry, Ryzhyk and Tannen, PVLDB 2023](https://www.vldb.org/pvldb/vol16/p1601-budiu.pdf), gives a compositional incremental-query construction with Lean-checked results. Use that model for changed evidence feeding changed derived views, so an update need not trigger a fresh computation of every derived result. Query or contract changes require their own dependency/revalidation path.
+
+**First deliverable:** a public functional contract for a local context update: source event, previous interpretation, proposed lesson, changed working view and a held-out decision on which it is useful. Preserve originals and distinguish the current view from its history.
+
+### 3. Turn contextual sufficiency into a temporal quality guarantee
+
+Combine PR60's exact interface/transition adequacy with M27-O1/O2/O5 and M28-O2. Specify the information retained for a decision, the transitions it must support, its error budget and when a changed context calls for a successor.
+
+**External support:** [Subramanian, Sinha, Seraj and Mahajan, JMLR 2022](https://jmlr.org/papers/v23/20-1165.html), defines approximate information states and derives value and policy-loss bounds from reward and transition approximation errors (Theorem 9). This is a strong mathematical bridge between a compact context and decisions of controlled quality. It gives the research a constructive way to explain why an adequate context can be smaller than the full history.
+
+**First deliverable:** one bounded temporal model that translates its state representation to the current owner-defined interfaces, proves a decision-relevant error bound between context changes and demonstrates when refinement recovers the required quality. Keep the article's conditions distinct from EA's P1–P6 naming.
+
+### 4. A selector that learns which work is worth doing
+
+Join the architectural preselection and residual selection with actual F9 feedback. The key output is a useful selection policy, trained or specified from available features and tested against later cases, rather than an assumed good ordering.
+
+**External support:** [SATzilla2009, Xu, Hutter, Hoos and Leyton-Brown](https://www.cs.ubc.ca/~kevinlb/papers/2009-satzilla09.pdf), describes learned per-instance performance prediction, feature-cost prediction, presolvers and backup solvers. [Hay, Russell, Tolpin and Shimony, UAI 2012](https://proceedings.mlr.press/r10/hay12a.html), develops the value-of-computation basis for selecting further work. Their reusable pieces are the performance/cost model and the decision to compute, ask, inspect or stop.
+
+**First deliverable:** a public selector interface over available architectural/gate features, with a fixed fallback and a ledger of all attempts, acquisition, preparation and maintenance. Produce regions where selection helps and where the fallback is preferable. Reuse M28-O1 and OP-05/08; count costs over all paired tasks, including failures. Keep the proprietary MSCA implementation separate from the public functional comparison.
+
+### 5. Joint certificates and coordinated action across shared resources
+
+Develop OP-02/04 together. The current K-02 evidence makes the construction target clear: individually sound certificates can refer to the same remaining capacity. A bundle certificate must evaluate the joint allocation and its interactions.
+
+**External support:** [Phan et al., Component-Based Simplex Architecture, ACSD 2017](https://www3.cs.stonybrook.edu/~stoller/papers/acsd2017.pdf), derives component and system guarantees through assume-guarantee contracts and coordinated switching. Its rover example proves model-specific energy/collision properties. [Modi, Shen, Tambe and Yokoo, ADOPT, Artificial Intelligence 2005](https://robots.isi.edu/prl/b2hd-modi2005adopt-asynchronous-distributed-constraint.html), supplies distributed optimization with quality guarantees. These provide constructive tools for composing assumptions and finding joint feasible choices.
+
+**First deliverable:** a proposed bundle-certification interface using the existing shared-bottleneck model and joint delivered-value calculation. Return the shared-resource reservation, joint gain bound and certificate dependencies. Then connect the existing risk-aware choice function and two-actor feasibility constraint to a coordination game. Preserve individual certificates; test the composed result against the exact joint computation. This gives EA/EHD, cartography, ACC and the gradient a concrete integration task.
+
+### 6. Regime feedback that identifies what needs revisiting
+
+Link independent RA monitoring to the context update and selection loop: monitored evidence identifies an affected assumption; that assumption identifies the contracts or derived views to revisit; a checked successor supports continuation.
+
+**External support:** [Ramdas, Grünwald, Vovk and Shafer, Statistical Science 2023](https://doi.org/10.1214/23-STS894), develops anytime-valid evidence and confidence sequences for continuous monitoring. This supports a statistical warning channel with a specified false-alarm contract. [Clarke, Grumberg, Jha, Lu and Veith, CAV 2000](https://web.stanford.edu/class/cs357/cegar.pdf), provides counterexample-guided abstraction refinement, including an implemented hardware-verification study. It supplies a constructive repair pattern once a representation is shown insufficient.
+
+**First deliverable:** an adapter linking one monitored statistical hypothesis to an owner-defined RA signal and one affected context component. Distinguish a genuine system violation from a spurious abstraction counterexample before choosing repair. Evaluate alert delay, unnecessary review and the quality recovered by the successor. Statistical evidence, architectural validity and authorized action retain their separate contracts.
+
+### Priority and the role of external evidence
+
+| Work | Expected impact | Integration risk | Effort | Order and acceptance product |
+| --- | --- | --- | --- | --- |
+| Explanatory spine and concentrated status/conditions | High | Low | Low | First: exact source paragraphs below, reuse the premium figures/catalogue and one existing case |
+| Evolving context and evidence-preserving updates | High | Medium | Medium | Next: update contract plus held-out reuse design |
+| Joint certificate and coordinated choice | High | Medium | Medium | Next: one shared-resource interface and exact joint oracle |
+| Learned cost-aware selector | High | Medium | Medium–High | Next: observe/choose/fallback contract and full-cost comparison |
+| Temporal sufficiency guarantee | High | Medium | High | Development: mapped assumptions and a bounded quality theorem |
+| RA feedback and representation repair | High | Medium | High | Development: typed monitor-to-contract adapter and successor evidence |
+
+These are expected benefits and preparation priorities. Published external theorems, algorithm implementations and benchmark results provide **positive support for identifiable mechanisms**; the proposed integration connects them to this corpus. The core research task is to show what that connection enables.
+
+External reading cut: 28 October 2026. ACE v3 and its methods/benchmark sections, AIS definitions and Theorem 9, CBSA composition/coordinated switching, SATzilla2009's cost/fallback procedure, Hay's stated results, DBSP's incremental construction/formalization, SAVI's monitoring framework, CEGAR's abstraction/refinement mechanism and CheckList's method were consulted. Bibliography metadata is retained at each primary link. ACE's code license was checked through native repository metadata; no external code or datasets were imported or executed. Other references here are methodological reuse by citation, not a redistribution of their code, figures or datasets.
+
+### Two exact opening-text candidates
+
+Target: [PR62 positioned-residual annex](https://github.com/dakleyer/structural-awareness-contributions/blob/4caf7d69144cbd4983e840705cc60745e27233a1/research/structural-awareness/SA_POSITIONED_RESIDUAL_REUSE_AND_LOCAL_ADAPTATION_v0.1.md), pinned source blob `cebf1f8c437c9580a40df52b086a5f12d2de725d`. Existing status, public/private implementation boundary, formal premises, tests and source ownership remain in their detailed sections. These are pending editorial candidates; no source text is changed by this entry. Expected impact High, risk Low, effort Low; select the two together after checking the latest source.
+
+**Opening status — text before, literal complete paragraph:**
+
+````text
+**Status:** Structural Awareness working mathematical research, Stage A; proposed annex to PR #62, owner review pending. **Not** an adopted axiom, new oracle, closed-world census, claim of universal speedup, empirical demonstration, DDS Stage C result, or replacement of the canonical A/B/C/D definitions.
+````
+
+**Opening status — text after, complete proposed paragraph:**
+
+````text
+**Status:** Working Structural Awareness research for DDS Stage A, proposed as an annex to PR #62 and awaiting owner review. This is a computable architecture-search proposal, with mathematical results, constructed examples and experimental hypotheses identified in their own sections. Canonical A/B/C/D definitions remain in their source documents.
+````
+
+**Research question — text before, literal complete paragraph:**
+
+````text
+**Research question.** Can an agentic or other operating process reuse a *small, deliberately selected* portion of the unresolved evidence encountered by its current exploitation procedures, because metastructural positioning identifies which process boundary is worth examining, **without** first enumerating the exterior, constructing a global exploration generator, or knowing which epistemic regime describes the wider world?
+````
+
+**Research question — text after, complete proposed paragraph:**
+
+````text
+**Research question.** How can an operating process discover and verify useful architectural changes by selecting where to look, combining complementary observations and requalifying a small set of accessible cases? The proposed cycle uses bounded architectural maps and existing evaluators, with Regime Awareness tracking the assumptions of use and effect feedback improving later selection. Its target is greater verified improvement for the full effort spent on discovery, validation and transition.
+````
+
+**Reason and compatibility:** the opening states the proposal and its research target first. Model premises and evidence status stay with the results they qualify, including the original tests and comparison contracts. The two replacements neither change an equation nor declare a demonstrated integration benefit. They preserve Stage A, owner review, ordinary computability and canonical taxonomy; no external algorithm is adopted. Apply only after Iván selects this source edit, with literal revalidation and inverse verification. EP README and DEVELOPMENT_STRATEGY stay read-only in this review.
+

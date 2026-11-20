@@ -19144,3 +19144,64 @@ Describe the evidence basis (documentary, analytical, mathematical, virtual/symb
 ````
 
 **Acceptance and Iván's decision:** Promote only on Iván's GO naming this pair or its explicitly selected wave. Reconfirm literal old-text uniqueness and the owning source version, preserve the exact predecessor, apply this replacement only, and verify the full inverse/diff, related reader/consumer routes and public readback. The original source, frozen cases, all other bytes, enums, schemas, outputs and history remain unchanged. This audit does not supply that incorporation GO.
+
+
+## Daily PR audit — DDS reader compatibility
+
+PR21 adds a documentary Theme23candidate/campaign route; it does not establish a native result. PR22 adds proposed00M context/composition work in its existing VNext, not an adopted definition. PR53 clarifies review-readiness, effort, intake and unassigned reviewers; its two versioned H1 titles change previously available fragment IDs. No existing internal edge points at those old H1 slugs, so this is external-bookmark compatibility work, not an observed internal disconnection.
+
+### D26-C02 — Retain the previous packet-title anchor
+
+**State:** proposed, not applied. **Priority:** Next. **Expected impact:** Medium (stable external/bookmarked entry). **Risk:** Low (additive anchor only). **Effort:** Low, including GFM/fragment check. **Source/location:** [research/ecosystem-awareness/review-packets/DDS-MR-01/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/review-packets/DDS-MR-01/README.md), first heading. No wording, version or scientific gate changes. Owner selection is still required.
+
+**Text before — complete existing heading:**
+
+````markdown
+# DDS-MR-01 — Independent DDS Methodology Audit: R1/R2/R3 (v0.3.1)
+````
+
+**Text after — complete proposed replacement:**
+
+````markdown
+<a id="dds-mr-01--independent-dds-methodology-audit-r1r2r3-v03"></a>
+
+# DDS-MR-01 — Independent DDS Methodology Audit: R1/R2/R3 (v0.3.1)
+````
+
+**Acceptance:** match this heading once, retain every other byte and both old/new entry fragments, and verify incoming routes. No packet source is edited by this proposal.
+
+### D26-C03 — Retain the previous packet-title anchor
+
+**State:** proposed, not applied. **Priority:** Next. **Expected impact:** Medium (stable external/bookmarked entry). **Risk:** Low (additive anchor only). **Effort:** Low, including GFM/fragment check. **Source/location:** [research/ecosystem-awareness/review-packets/DDS-S2-EA-01/README.md](https://github.com/dakleyer/structural-awareness-contributions/blob/3e58fc6997a439b9783fd6b92ccee3f4292772dd/research/ecosystem-awareness/review-packets/DDS-S2-EA-01/README.md), first heading. No wording, version or scientific gate changes. Owner selection is still required.
+
+**Text before — complete existing heading:**
+
+````markdown
+# DDS-S2-EA-01 — Independent S2 mobility / Ecosystem Awareness requirements review (v0.2.1)
+````
+
+**Text after — complete proposed replacement:**
+
+````markdown
+<a id="dds-s2-ea-01--independent-s2-mobility--ecosystem-awareness-requirements-review-v02"></a>
+
+# DDS-S2-EA-01 — Independent S2 mobility / Ecosystem Awareness requirements review (v0.2.1)
+````
+
+**Acceptance:** match this heading once, retain every other byte and both old/new entry fragments, and verify incoming routes. No packet source is edited by this proposal.
+
+The direct Panodyssey publication also adds a presentation reading layer while preserving the ten source mirrors and their manifest. It remains a documentary/pending-execution route; presentation views must not replace source citations or imply inherited DDS/UC4 PASS. No campaign or hierarchy is reorganized here.
+
+
+## Late daily PR audit — UC21/DDS receiving contract
+
+D26-F09 contrasts PR60 study05/matrix with this profile's namespace paragraph and DDS-MR-01eligibility. UC21 keeps native R0/R1/R2; prospective DDS uses R1 competent initial, R2 repair after actual R1 failure, R3 material stress of a passing frozen predecessor. Known failure disclosure for repair and a blinded later scored realization are separate opportunities; no predecessor PASS may be invented.
+
+Exact C06/C07 pairs live in the [single 01I owner review](./baseline/01I_VNext.md#exact-source-candidates-for-the-pr60-cut). This receiving source is unchanged. Prior C02/C03 bookmark proposals remain separate; no historical run is relabelled or executed.
+
+
+## Receiving PR60 and current DDS comparison wording — 28 October 2026
+
+Cross-review with [01I's current reconciliation](./baseline/01I_VNext.md#review-28-october-2026): PR60at3a846c6 has incorporated D26-C06/C07 in its source 05 paragraph and06 M-UC21 row. Native UC21 R0/R1/R2 is separate from prospective DDS R1/R2/R3; actual failed R1, genuine repair and an actually passing frozen predecessor are explicit gates. Record these as implemented in the source branch, pending review/merge; do not run the older proposed substitutions again.
+
+Main's S2 work orderv0.2.2now distinguishes published known-case agreement from an admissible prospective, full-cost comparison and links the already approved S10successor without duplicating all gate assessments. A14's original symbolic branch outputs are preserved. R11's short audit sentence still compresses UC21/DDS; the complete one-sentence correction is D28-C02 in 01I. The audit receives its intended scope without changing source-native routes or retrospectively relabelling campaigns. Actual native run/admission evidence, prospective effects, costs and independent depth/access tests remain required where their claims depend on them.
