@@ -30,6 +30,7 @@ El script de reconfirmación de I-01 ya estaba en el PR: [`../reconfirm_I01_2026
 | [`h01_k_dimension_recount.py`](h01_k_dimension_recount.py) | [H-01](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#h-01), [L-10](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-10) | [35](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-35) | Raíz de PR #76 | R/C sin compensación: 46 monótonas, 92 intercambios, 38 sin mejora, 4 equivalentes; entre las trampas, 13 y 26. Termina con 1 si algo no coincide |
 | [`unit_safe_probe.py`](unit_safe_probe.py) | [F-05](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#f-05), [L-05](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-05), [K-01](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#k-01) | [36](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-36) | Raíz de PR #82, que incluye #81 | Los campos escalares antiguos no influyen; valores inválidos rechazados; precios de K-01; inspección dirigida con la producción máxima en solitario en 14 de 30; mismo presupuesto en todos los brazos |
 | [`l01_codomain_check.py`](l01_codomain_check.py) | [L-01](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-01) | [37](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-37) | Directorio del estudio en `7fc88e2e` y en PR #83 | Codominio [0, 1]; todo valor mayor que 1 da `UTILITY_NOT_ESTABLISHED`; 1 sigue positivo; las 151 cotas en centésimas, idénticas. Termina con 1 si algo falla |
+| [`narrative_optima_dedupe.py`](narrative_optima_dedupe.py) | #69 / #84 | [38](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-38) | Directorio del estudio en #69 (`4cd76d96`) y en PR #84 | 1 528 casos: el resto de campos y el conjunto de óptimos, idénticos; repeticiones 878 → 0. Termina con 1 si algo falla |
 | [`anchor_check.py`](anchor_check.py) | Herramienta | 14, 20, 21 | Cualquier `.md` | Enlaces `archivo.md#ancla` que no encuentran título ni `<a id>`. Termina con 1 si hay alguno roto |
 
 ## Cómo ejecutarlos
@@ -62,6 +63,7 @@ python3 -B $V/h01_equilibrium_selection.py    $PR76
 python3 -B $V/h01_k_dimension_recount.py      $PR76
 python3 -B $V/unit_safe_probe.py             $PR82
 python3 -B $V/l01_codomain_check.py          $PR60/$S/mathematical-lineage-social-agentic-v0.1 $PR83/$S/mathematical-lineage-social-agentic-v0.1
+python3 -B $V/narrative_optima_dedupe.py     $PR69/$S/narrative-acceptance-v0.1 $PR84/$S/narrative-acceptance-v0.1
 python3 -B $V/anchor_check.py                 $V/../GUIA_DE_LECTURA.md $V/../premium/*.md
 ```
 
@@ -97,6 +99,7 @@ h01_equilibrium_selection.py    Nash (0,0),(1,1) | risk 9 vs 9, p*=1/2 | traps: 
 h01_k_dimension_recount.py      46/92/38/4 | traps 13/26 | RESULT: PASS (PR #76, ea1a8c6b)
 unit_safe_probe.py              legacy fields inert | NaN/inf/bool/text rejected | K-01 9/4, 3, 13/4 vs 3 | directed max alone 14/30 (PR #82, da78cd31)
 l01_codomain_check.py           codomain [0,1] | >1 rejected | 151 hundredths identical | RESULT: PASS (PR #83, ddd29db2)
+narrative_optima_dedupe.py      1528 cases | same optima set | repeats 878 -> 0 | RESULT: PASS (PR #84, e7da9c58)
 anchor_check.py                 0 anclas rotas en la auditoría, la guía, el anexo y el kit premium
 ```
 

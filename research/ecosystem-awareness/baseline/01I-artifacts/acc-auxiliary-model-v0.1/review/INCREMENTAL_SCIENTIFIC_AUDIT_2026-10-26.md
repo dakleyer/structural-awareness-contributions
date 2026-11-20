@@ -67,6 +67,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 35 | 2026-11-01 | [Corrección de fidelidad dimensional (PR #76)](#ronda-35) | Sin cambio de estado; recuento R/C reproducido; precisiones a H-01, L-10 y L-05 |
 | 36 | 2026-11-20 | [Informes sin compensación de unidades (PR #81 y #82)](#ronda-36) | Sin cambio de estado; F-05 (b) atendido en rama; L-05 se sostiene en unidades físicas |
 | 37 | 2026-11-20 | [Recepción de L-01 (PR #83)](#ronda-37) | L-01 respondido |
+| 38 | 2026-11-20 | [Óptimos repetidos en #69 (PR #84)](#ronda-38) | Defecto de #69 encontrado por su autor y corregido; sin registro nuevo |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1429,3 +1430,25 @@ Pasan las 105 pruebas del directorio (101 previas y 4 nuevas) y la CI está en v
 **L-01 pasa a `RESPONDIDO`** y se cerrará cuando #60 y #83 estén en `main`.
 
 **Totales:** 89 registros. 32 abiertos, 30 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-38"></a>
+
+## Ronda 38 — óptimos repetidos en el estudio de #69, corregidos en PR #84 (20-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** [comentario en PR #58](https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-7052040386), escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #84 (`e7da9c58`) es un único commit sobre #69 (`4cd76d96`).
+
+**El defecto.** `finite_feasible_gap.optimize` enumera subconjuntos de modos. Cuando un modo del subconjunto no se usa, varios subconjuntos producen la misma asignación física, y esa asignación aparecía repetida en `optimizers_with_ties`. En los dos periodos originales de IQ-03, el único óptimo salía dos veces. Lo encontró el propio autor; la auditoría no lo había registrado porque #69 aún no se ha auditado a fondo.
+
+**La corrección.** Elimina duplicados por la asignación exacta antes de ordenar. Esto es correcto porque `_subset_allocation` solo guarda modos con cantidad positiva, así que dos asignaciones iguales son la misma asignación física. El coste mínimo, el coste actual, la brecha, la enumeración y la elegibilidad no cambian.
+
+**Comprobado de forma independiente** (`narrative_optima_dedupe.py`, sobre 1 528 conjuntos de modos aleatorios con elegibilidad PASS, FAIL o UNKNOWN):
+
+- Todos los campos salvo `optimizers_with_ties` son idénticos antes y después.
+- El *conjunto* de asignaciones óptimas es idéntico; solo desaparecen las repeticiones.
+- Antes, 878 casos repetían algún óptimo; después, ninguno.
+- IQ-03 conserva sus mínimos y brechas, 80/20 y 65/45, con un único óptimo por periodo.
+
+Pasan las 56 pruebas del estudio (51 previas y 5 nuevas) y la CI está en verde.
+
+**Estado:** no hay registro nuevo. La auditoría a fondo de #69 sigue pendiente y tomará #84 como parte de su base.
