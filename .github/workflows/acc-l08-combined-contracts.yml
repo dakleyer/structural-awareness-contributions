@@ -1,0 +1,61 @@
+name: ACC combined L08 measurement contracts
+
+on:
+  pull_request:
+    paths:
+      - 'research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/l08_*.py'
+      - 'research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/test_l08_*.py'
+      - '.github/workflows/acc-l08-combined-contracts.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  combined-l08-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Select pinned resource and summary corrections with overwrite guards
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1"
+          BASE=0d2d77d73a0f42d643ba96fd5294eda0d1a0cff1
+          RESOURCE=7f4e0a8f1e8dc1855d27bbd592c4b052fcfdf359
+          SUMMARY=c0b45e58facdf61aad46565cdd98ff4318433f03
+          for pin in "$BASE" "$RESOURCE" "$SUMMARY"; do
+            git fetch --depth=1 origin "$pin"
+            test "$(git rev-parse FETCH_HEAD)" = "$pin"
+          done
+          select_file() {
+            pin="$1"
+            file="$2"
+            selected="$(git rev-parse "$pin:$S/$file")"
+            if test -e "$S/$file"; then
+              current="$(git hash-object "$S/$file")"
+              if test "$current" != "$selected"; then
+                if test "$file" = test_l08_resource_conservation.py; then
+                  echo "Resource regression changed; reconcile the pinned combination"
+                  exit 1
+                fi
+                test "$current" = "$(git rev-parse "$BASE:$S/$file")" || {
+                  echo "Source changed; reconcile the pinned combination before overwriting"
+                  exit 1
+                }
+              fi
+            fi
+            git show "$pin:$S/$file" > "$S/$file"
+            test "$(git hash-object "$S/$file")" = "$selected"
+          }
+          select_file "$RESOURCE" l08_agentic_adapter.py
+          select_file "$RESOURCE" test_l08_resource_conservation.py
+          select_file "$SUMMARY" l08_executive_summary.py
+          select_file "$SUMMARY" test_l08_executive_summary.py
+      - name: Test current exact classifier with resource conservation and exact summary
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1"
+          python -B -m unittest discover -s "$S" -p 'test_l08_*.py' -v
+          AG="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1"
+          git diff --exit-code -- "$S/g04_factorial.py" "$S/dimension_experiment.py" "$S/G04_PROTOCOL.json" "$S/L08_PROTOCOL.json" "$AG/agentic_reduction.py" "$AG/CASES.json"
