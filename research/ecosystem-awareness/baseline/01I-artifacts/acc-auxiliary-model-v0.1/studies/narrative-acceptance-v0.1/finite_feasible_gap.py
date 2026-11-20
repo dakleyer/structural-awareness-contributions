@@ -107,9 +107,15 @@ def optimize(target: Any, modes: list[dict], current: dict) -> dict:
     if not candidates:
         raise AssertionError("declared current plan must itself be available")
     best_cost = min(cost for cost, _ in candidates)
+    # Unused modes can make different enumerated subsets produce the same
+    # physical allocation. Report each generated optimal allocation once.
+    unique_allocations = {
+        tuple(sorted(allocation.items()))
+        for cost, allocation in candidates if cost == best_cost
+    }
     optimizers = sorted(
-        ({name: str(value) for name,value in sorted(allocation.items())}
-         for cost, allocation in candidates if cost == best_cost),
+        ({name: str(value) for name, value in allocation}
+         for allocation in unique_allocations),
         key=lambda row: repr(sorted(row.items())),
     )
     return {
@@ -144,3 +150,4 @@ def original_iq03_periods() -> tuple[dict, dict]:
          "eligibility":"PASS"},
     ], {"incumbent":140})
     return t0, t1
+
