@@ -288,6 +288,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 40 | 21 nov | Claude | Fe de erratas: en K-01, el 10 de la ronda 36 es valor sintético (5 × 2), no producción; seis defectos de comparación corregidos en #86–#91 sin efecto en las cifras publicadas | [ronda 40](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-40) |
 | 41 | 21 nov | Claude | #92: el contrato dimensional rechaza nombres ambiguos (`1` frente a `"1"`), unidades en blanco y desconocidas repetidas; informe H-01 idéntico | [ronda 41](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-41) |
 | 42 | 21 nov | Claude | #93: el acompañante de la ronda 8 escribe por pantalla, crea destinos nuevos sin sobrescribir y limpia sus fuentes temporales; M28-07 pasa a respondido | [ronda 42](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-42) |
+| 43 | 21 nov | Claude | Precisión: las 92 celdas de la ronda 41 son intercambios incomparables (`INCOMPARABLE_K_TRADEOFF`, compensación `NOT_INFERRED`), no «compensaciones» | [ronda 43](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-43) |
 
 <a id="11-los-79-registros-uno-por-uno"></a>
 <a id="11-los-82-registros-uno-por-uno"></a>

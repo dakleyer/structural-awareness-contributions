@@ -72,6 +72,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 40 | 2026-11-21 | [Fe de erratas de la ronda 36 y seis correcciones técnicas (#86–#91)](#ronda-40) | La ronda 36 llamó «producción» a un valor sintético; seis defectos de comparación corregidos por el autor; sin registros nuevos |
 | 41 | 2026-11-21 | [Identidad de las dimensiones en #92](#ronda-41) | Nombres ambiguos o en blanco ahora se rechazan; informe H-01 idéntico; sin registros nuevos |
 | 42 | 2026-11-21 | [M28-07 en #93](#ronda-42) | El acompañante matemático ya no reescribe su JSON de referencia ni deja caché; M28-07 pasa a respondido |
+| 43 | 2026-11-21 | [Precisión de la ronda 41: intercambio, no compensación](#ronda-43) | Las 92 celdas son intercambios incomparables sin compensación inferida; sin cambios de cifras ni estados |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1568,3 +1569,18 @@ El cuerpo de cálculo (108 líneas, desde la verificación de fuentes hasta la c
 **Para quien no programa.** Era como una balanza que, al pesar, reescribía la etiqueta del peso de referencia: el número seguía siendo el mismo, pero la etiqueta ya no era la original y había que confiar en que no hubiera cambiado. Ahora la balanza enseña el resultado en pantalla, solo escribe en una hoja nueva si se le pide, y recoge lo que usa al terminar.
 
 **Estado:** M28-07 pasa de `PROPUESTA` a `RESPONDIDO`. Se cerrará cuando #93 y esta auditoría estén en `main`. Totales: 89 registros. 32 abiertos, 31 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-43"></a>
+
+## Ronda 43 — precisión terminológica de la ronda 41: intercambio, no compensación (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario.
+
+La ronda 41 resumió el recuento R/C como «46 monótonas, 92 con compensación, 38 sin mejora y 4 equivalentes». **La expresión «con compensación» es incorrecta.** Para esas 92 celdas, el contrato dimensional devuelve `INCOMPARABLE_K_TRADEOFF` (`dimensional_contract.py`, línea 99 en #92): R mejora y C empeora, y el resultado es *incomparable*. El mismo informe declara `accepted_tradeoff_or_compensation = NOT_INFERRED` (línea 114): nadie ha aceptado que la mejora en R compense el empeoramiento en C, y no se infiere ninguna preferencia agregada. C sigue siendo una dimensión separada de R. Así lo formulaba ya la tabla de la ronda 35: «Intercambio: R mejora y C empeora; incomparable».
+
+La lectura correcta de la ronda 41 es: **46 monótonas, 92 intercambios incomparables (sin compensación inferida), 38 sin mejora y 4 equivalentes**; entre las 39 trampas, 13 monótonas y 26 intercambios incomparables.
+
+La distinción importa porque la arquitectura de EA es abierta y no fungible: decir «compensación» sugiere que una dimensión se ha cambiado por otra en una misma escala, que es precisamente lo que el contrato prohíbe. Comprobado en el código de #92, citado arriba. No cambia ninguna cifra, estado ni conclusión; el texto de la ronda 41 se conserva y esta nota lo corrige.
+
+**Estado:** sin registros nuevos ni cambios de estado. Totales: 89 registros. 32 abiertos, 31 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
