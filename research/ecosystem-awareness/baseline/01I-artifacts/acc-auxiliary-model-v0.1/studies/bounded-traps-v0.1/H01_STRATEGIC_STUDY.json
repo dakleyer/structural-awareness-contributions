@@ -1,0 +1,729 @@
+{
+  "schema": "ACC-H01-FINITE-STRATEGIC-STUDY-v0.1",
+  "source_owner": "PR42 original bounded_traps.py main retained",
+  "research_cutoff": "2026-11-01",
+  "experimental_status": "DECLARED_SYNTHETIC_STRATEGIC_GAME_NO_FIELD_PAYOFF_MEASUREMENTS",
+  "base_game": {
+    "schema": "ACC-H01-FINITE-STRATEGIC-CHOICE-v0.1",
+    "id": "H01_STRICT_COORDINATION_TRAP",
+    "source_anchor": "studies/bounded-traps-v0.1/README.md#3-contraejemplo-de-trampa-racional-lineal-estado-final-factible-pero-sin-transición-unilateral",
+    "evidence_tier": "SOURCE_ANCHORED_SYNTHETIC_TOY",
+    "actors": [
+      {
+        "id": "A",
+        "base_payoff": "3",
+        "standalone_return": "0",
+        "investment_cost": "3",
+        "complementarity_from": {
+          "B": "5"
+        },
+        "inactive_exposure_from": {
+          "B": "1"
+        },
+        "resource_units_if_active": "1",
+        "reservation_floor": "3"
+      },
+      {
+        "id": "B",
+        "base_payoff": "3",
+        "standalone_return": "0",
+        "investment_cost": "3",
+        "complementarity_from": {
+          "A": "5"
+        },
+        "inactive_exposure_from": {
+          "A": "1"
+        },
+        "resource_units_if_active": "1",
+        "reservation_floor": "3"
+      }
+    ],
+    "current": [
+      0,
+      0
+    ],
+    "target": [
+      1,
+      1
+    ],
+    "resource_budget": "10",
+    "linear_constraints": [],
+    "governance": {
+      "authority": "PASS",
+      "joint_protocol": "PASS",
+      "transfer_authority": "PASS",
+      "consents": {
+        "A": "PASS",
+        "B": "PASS"
+      }
+    },
+    "joint": {
+      "setup_resource_units": "2",
+      "burden_payoff_units": {
+        "A": "1",
+        "B": "1"
+      },
+      "strict_gain_required": true,
+      "transfers_common_credit_units": {
+        "A": "0",
+        "B": "0"
+      },
+      "credit_available_by_actor": {
+        "A": "5",
+        "B": "0"
+      },
+      "credit_to_private_payoff_rate_by_actor": {
+        "A": "1",
+        "B": "1"
+      }
+    },
+    "information_prices": {
+      "CONVENTIONAL_COORDINATOR": "1/5",
+      "ACC_META_PROTOCOL": "4/5"
+    },
+    "belief_grid": [
+      "0",
+      "1/5",
+      "1/2",
+      "4/5",
+      "1"
+    ]
+  },
+  "scenarios": [
+    {
+      "id": "H01_STRICT_COORDINATION_TRAP",
+      "patch": {},
+      "question": "Source-connected strategic stag-hunt: all profiles feasible, strict inferior Nash with optional joint transition"
+    },
+    {
+      "id": "H01_PROFITABLE_UNILATERAL_ESCAPE",
+      "patch": {
+        "actors": [
+          {
+            "id": "A",
+            "base_payoff": "3",
+            "standalone_return": "5",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "B": "5"
+            },
+            "inactive_exposure_from": {
+              "B": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          },
+          {
+            "id": "B",
+            "base_payoff": "3",
+            "standalone_return": "5",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "A": "5"
+            },
+            "inactive_exposure_from": {
+              "A": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          }
+        ]
+      },
+      "question": "Negative: unilateral investment profitable, so staying is not Nash"
+    },
+    {
+      "id": "H01_WEAK_BEST_RESPONSE_TIE",
+      "patch": {
+        "actors": [
+          {
+            "id": "A",
+            "base_payoff": "3",
+            "standalone_return": "3",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "B": "5"
+            },
+            "inactive_exposure_from": {
+              "B": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          },
+          {
+            "id": "B",
+            "base_payoff": "3",
+            "standalone_return": "3",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "A": "5"
+            },
+            "inactive_exposure_from": {
+              "A": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          }
+        ]
+      },
+      "question": "Negative: weak rather than strict stability"
+    },
+    {
+      "id": "H01_NO_PARETO_JOINT_GAIN",
+      "patch": {
+        "actors": [
+          {
+            "id": "A",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "B": "2"
+            },
+            "inactive_exposure_from": {
+              "B": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          },
+          {
+            "id": "B",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "A": "2"
+            },
+            "inactive_exposure_from": {
+              "A": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          }
+        ]
+      },
+      "question": "Negative: jointly moving is worse; no Pareto recommendation"
+    },
+    {
+      "id": "H01_TOO_EXPENSIVE_COORDINATION",
+      "patch": {
+        "joint": {
+          "burden_payoff_units": {
+            "A": "3",
+            "B": "3"
+          }
+        }
+      },
+      "question": "Joint material move possible, but burdens erase private gain"
+    },
+    {
+      "id": "H01_NO_CONSENT",
+      "patch": {
+        "governance": {
+          "consents": {
+            "B": "FAIL"
+          }
+        }
+      },
+      "question": "Consent cannot be inferred from payoff"
+    },
+    {
+      "id": "H01_UNKNOWN_AUTHORITY",
+      "patch": {
+        "governance": {
+          "authority": "UNKNOWN"
+        }
+      },
+      "question": "Potential improvement without confirmed authority"
+    },
+    {
+      "id": "H01_NO_JOINT_PROTOCOL",
+      "patch": {
+        "governance": {
+          "joint_protocol": "FAIL"
+        }
+      },
+      "question": "Physical candidate remains feasible but transition mechanism missing"
+    },
+    {
+      "id": "H01_CONVENTIONAL_COORDINATOR_CHEAPER",
+      "patch": {},
+      "question": "Conventional agent has identical capability but lower synthetic price"
+    },
+    {
+      "id": "H01_META_PROTOCOL_CHEAPER",
+      "patch": {
+        "information_prices": {
+          "CONVENTIONAL_COORDINATOR": "4/5",
+          "ACC_META_PROTOCOL": "1/5"
+        }
+      },
+      "question": "If price assumptions flip, synthetic cost ordering flips"
+    },
+    {
+      "id": "H01_COORDINATORS_EQUAL_COST",
+      "patch": {
+        "information_prices": {
+          "CONVENTIONAL_COORDINATOR": "2/5",
+          "ACC_META_PROTOCOL": "2/5"
+        }
+      },
+      "question": "No exclusive gain from identical information and cost"
+    },
+    {
+      "id": "H01_INSUFFICIENT_TRANSITION_BUDGET",
+      "patch": {
+        "resource_budget": "3"
+      },
+      "question": "Technical target is feasible but physical setup exceeds budget"
+    },
+    {
+      "id": "H01_TECHNICAL_TARGET_INFEASIBLE",
+      "patch": {
+        "resource_budget": "1"
+      },
+      "question": "Technically infeasible target cannot be called recoverable"
+    },
+    {
+      "id": "H01_CREDIT_WITHOUT_COMPENSATION",
+      "patch": {
+        "actors": [
+          {
+            "id": "A",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "B": "6"
+            },
+            "inactive_exposure_from": {
+              "B": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          },
+          {
+            "id": "B",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "A": "3"
+            },
+            "inactive_exposure_from": {
+              "A": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          }
+        ],
+        "joint": {
+          "burden_payoff_units": {
+            "A": "0",
+            "B": "0"
+          }
+        }
+      },
+      "question": "Positive A increment cannot automatically create strict gain for B"
+    },
+    {
+      "id": "H01_CREDIT_WITH_BALANCED_TRANSFER",
+      "patch": {
+        "actors": [
+          {
+            "id": "A",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "B": "6"
+            },
+            "inactive_exposure_from": {
+              "B": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          },
+          {
+            "id": "B",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "A": "3"
+            },
+            "inactive_exposure_from": {
+              "A": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          }
+        ],
+        "joint": {
+          "burden_payoff_units": {
+            "A": "0",
+            "B": "0"
+          },
+          "transfers_common_credit_units": {
+            "A": "-1",
+            "B": "1"
+          }
+        }
+      },
+      "question": "A's gain can fund zero-sum negotiated B gain, contingent on transfer authority"
+    },
+    {
+      "id": "H01_CREDIT_TRANSFER_NO_AUTHORITY",
+      "patch": {
+        "actors": [
+          {
+            "id": "A",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "B": "6"
+            },
+            "inactive_exposure_from": {
+              "B": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          },
+          {
+            "id": "B",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "A": "3"
+            },
+            "inactive_exposure_from": {
+              "A": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          }
+        ],
+        "joint": {
+          "burden_payoff_units": {
+            "A": "0",
+            "B": "0"
+          },
+          "transfers_common_credit_units": {
+            "A": "-1",
+            "B": "1"
+          }
+        },
+        "governance": {
+          "transfer_authority": "UNKNOWN"
+        }
+      },
+      "question": "No assumed right to redistribute credit"
+    },
+    {
+      "id": "H01_RESERVATION_FLOOR_NOT_MET",
+      "patch": {
+        "actors": [
+          {
+            "id": "A",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "B": "5"
+            },
+            "inactive_exposure_from": {
+              "B": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          },
+          {
+            "id": "B",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "A": "5"
+            },
+            "inactive_exposure_from": {
+              "A": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "5"
+          }
+        ]
+      },
+      "question": "Even individually nonnegative benefit may fail stronger reservation floor"
+    },
+    {
+      "id": "H01_UNKNOWN_CONSENT",
+      "patch": {
+        "governance": {
+          "consents": {
+            "A": "UNKNOWN"
+          }
+        }
+      },
+      "question": "UNKNOWN consent cannot admit transition"
+    },
+    {
+      "id": "H01_ORIGINAL_FEASIBILITY_REFERENCE",
+      "patch": {
+        "actors": [
+          {
+            "id": "A",
+            "base_payoff": "4",
+            "standalone_return": "0",
+            "investment_cost": "0",
+            "complementarity_from": {
+              "B": "1"
+            },
+            "inactive_exposure_from": {
+              "B": "0"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          },
+          {
+            "id": "B",
+            "base_payoff": "4",
+            "standalone_return": "0",
+            "investment_cost": "0",
+            "complementarity_from": {
+              "A": "1"
+            },
+            "inactive_exposure_from": {
+              "A": "0"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          }
+        ],
+        "linear_constraints": [
+          {
+            "coefficients": [
+              "1",
+              "-1"
+            ],
+            "capacity": "0"
+          },
+          {
+            "coefficients": [
+              "-1",
+              "1"
+            ],
+            "capacity": "0"
+          }
+        ],
+        "joint": {
+          "setup_resource_units": "0",
+          "burden_payoff_units": {
+            "A": "0",
+            "B": "0"
+          }
+        }
+      },
+      "question": "Source toy x1<=x2 and x2<=x1; shows feasibility/protocol trap, not strategic refusal"
+    },
+    {
+      "id": "H01_CREDIT_INSUFFICIENT_SOURCE_BALANCE",
+      "patch": {
+        "actors": [
+          {
+            "id": "A",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "B": "6"
+            },
+            "inactive_exposure_from": {
+              "B": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          },
+          {
+            "id": "B",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "A": "3"
+            },
+            "inactive_exposure_from": {
+              "A": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          }
+        ],
+        "joint": {
+          "burden_payoff_units": {
+            "A": "0",
+            "B": "0"
+          },
+          "transfers_common_credit_units": {
+            "A": "-1",
+            "B": "1"
+          },
+          "credit_available_by_actor": {
+            "A": "0",
+            "B": "0"
+          }
+        }
+      },
+      "question": "A cannot promise a credit transfer she does not own, despite a mathematically balanced entry"
+    },
+    {
+      "id": "H01_CREDIT_ASYMMETRIC_PRIVATE_VALUATIONS",
+      "patch": {
+        "actors": [
+          {
+            "id": "A",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "B": "6"
+            },
+            "inactive_exposure_from": {
+              "B": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          },
+          {
+            "id": "B",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "A": "3"
+            },
+            "inactive_exposure_from": {
+              "A": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          }
+        ],
+        "joint": {
+          "burden_payoff_units": {
+            "A": "0",
+            "B": "0"
+          },
+          "transfers_common_credit_units": {
+            "A": "-1",
+            "B": "1"
+          },
+          "credit_to_private_payoff_rate_by_actor": {
+            "A": "2",
+            "B": "1"
+          }
+        }
+      },
+      "question": "The same one transferable credit can have actor-specific payoff consequences under declared conversion"
+    },
+    {
+      "id": "H01_CREDIT_NO_VALUE_TO_RECEIVER",
+      "patch": {
+        "actors": [
+          {
+            "id": "A",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "B": "6"
+            },
+            "inactive_exposure_from": {
+              "B": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          },
+          {
+            "id": "B",
+            "base_payoff": "3",
+            "standalone_return": "0",
+            "investment_cost": "3",
+            "complementarity_from": {
+              "A": "3"
+            },
+            "inactive_exposure_from": {
+              "A": "1"
+            },
+            "resource_units_if_active": "1",
+            "reservation_floor": "3"
+          }
+        ],
+        "joint": {
+          "burden_payoff_units": {
+            "A": "0",
+            "B": "0"
+          },
+          "transfers_common_credit_units": {
+            "A": "-1",
+            "B": "1"
+          },
+          "credit_to_private_payoff_rate_by_actor": {
+            "A": "1",
+            "B": "0"
+          }
+        }
+      },
+      "question": "A common-credit transfer is not assumed to increase B's subjective payoff"
+    }
+  ],
+  "positive_and_adversarial_controls": [
+    "all_four_feasible_and_payoff_calculated",
+    "no_profitable_individual_deviation",
+    "original_two_feasible_only_case_kept_distinct",
+    "unilateral_profitable_escape",
+    "voluntary_reservation",
+    "permission_unknown",
+    "consent_negative",
+    "joint_setup_resources",
+    "credit_transfer_conservation",
+    "fair_conventional_peer",
+    "no_joint_benefit",
+    "no_nash_control",
+    "independent_two_actor_beliefs",
+    "common_credit_budget_and_actor_specific_conversion"
+  ],
+  "hypothesis_limits": {
+    "known_literature": "Stag Hunt/assurance game and Nash equilibrium are established, NOT new ACC theory",
+    "incentives": "Utilities are transparent scenario assumptions, not participant choices or observed human preferences",
+    "mechanism": "The contribution is traceable classification and layered authorization, not a theorem of new equilibrium",
+    "comparators": "Conventional and ACC-labelled coordination arms receive exactly same candidate/information/capabilities",
+    "costs": "Instrument cost is not commensurate with actor payoffs or physical resource units unless a separately declared conversion exists",
+    "evidence": "A positive payoff cannot certify an actual person's consent, a transferable contract or external regime C/D"
+  },
+  "sensitivity": {
+    "standalone_returns": [
+      "0",
+      "2",
+      "5"
+    ],
+    "investment_costs": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "pairwise_synergies": [
+      "0",
+      "2",
+      "4",
+      "6"
+    ],
+    "individual_joint_burdens": [
+      "0",
+      "1",
+      "3"
+    ]
+  }
+}

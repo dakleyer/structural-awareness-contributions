@@ -39,6 +39,39 @@ jobs:
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/bounded_traps.py > /tmp/acc_traps_results.json
           python -B -c "import json; from pathlib import Path; p=Path('research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/REFERENCE_SYNTHETIC_RESULTS.json'); assert json.loads(p.read_text()) == json.loads(Path('/tmp/acc_traps_results.json').read_text())"
 
+      - name: Check H-01 strategic Nash versus original feasible-protocol blockage
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1"
+          test "$(git hash-object "$S/bounded_traps.py")" = "7f4e7c1487882ef3d848d35dcfa1d292a1b53ade"
+          test "$(git hash-object "$S/REFERENCE_SYNTHETIC_RESULTS.json")" = "88a26fed4a1ab929cea9e338b5f95433437e6f8b"
+          python -B -m unittest discover -s "$S" -p test_strategic_choice.py -v
+          python -B "$S/strategic_choice.py" --manifest "$S/H01_STRATEGIC_STUDY.json" --output /tmp/acc_h01_strategic_choices.json
+          python -B -c "import json; d=json.load(open('/tmp/acc_h01_strategic_choices.json')); p={x['case_id']:x for x in d['scenarios']}; assert d['scenario_count']==22; assert d['sensitivity']['cells']==180; assert sum(d['sensitivity']['classification_counts'].values())==180 and sum(d['sensitivity']['joint_admission_counts'].values())==180; assert p['H01_STRICT_COORDINATION_TRAP']['mechanism']['classification']=='STRICT_RATIONAL_COORDINATION_TRAP'; assert p['H01_ORIGINAL_FEASIBILITY_REFERENCE']['mechanism']['classification']=='FEASIBILITY_PROTOCOL_TRAP_NOT_STRATEGIC_CHOICE'; assert len(p['H01_STRICT_COORDINATION_TRAP']['finite_feasible_profiles'])==4 and len(p['H01_ORIGINAL_FEASIBILITY_REFERENCE']['finite_feasible_profiles'])==2; assert p['H01_PROFITABLE_UNILATERAL_ESCAPE']['mechanism']['classification']=='PROFITABLE_UNILATERAL_ESCAPE_NOT_A_NASH_TRAP'; assert p['H01_NO_CONSENT']['joint_coordination']['status']=='BLOCKED_BY_EXPLICIT_GOVERNANCE'; assert p['H01_CREDIT_WITH_BALANCED_TRANSFER']['joint_coordination']['status']=='ADMISSIBLE_UNDER_SYNTHETIC_ASSUMPTIONS'; assert p['H01_CREDIT_INSUFFICIENT_SOURCE_BALANCE']['joint_coordination']['status']=='INSUFFICIENT_COMMON_CREDIT_FOR_TRANSFER'; assert p['H01_CREDIT_NO_VALUE_TO_RECEIVER']['joint_coordination']['status']=='VOLUNTARY_PARTICIPATION_NOT_SUPPORTED_BY_PAYOFFS'; print('H01_STRATEGIC_AUDIT='+json.dumps([{'case':x['case_id'],'mechanism':x['mechanism']['classification'],'admission':x['joint_coordination']['status'],'equilibria':[a['profile'] for a in x['mechanism']['all_pure_nash_equilibria']]} for x in d['scenarios']],sort_keys=True))"
+
+          python -B -c "import json; d=json.load(open('/tmp/acc_h01_strategic_choices.json')); print('H01_SENSITIVITY_SWEEP='+json.dumps({'cells':d['sensitivity']['cells'],'classifications':d['sensitivity']['classification_counts'],'admissions':d['sensitivity']['joint_admission_counts']},sort_keys=True))"
+
+      - name: Diagnose H-01 failure conditions independently of aggregate counts
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1"
+          python -B -m unittest discover -s "$S" -p test_h01_failure_diagnostics.py -v
+          python -B "$S/h01_failure_diagnostics.py" --manifest "$S/H01_STRATEGIC_STUDY.json" --results /tmp/acc_h01_strategic_choices.json --output /tmp/acc_h01_conditional_failure_diagnostics.json
+          python -B -c "import json; d=json.load(open('/tmp/acc_h01_conditional_failure_diagnostics.json')); t=d['classification_by_joint_admission']; assert d['total_cells']==180; assert (t['STRICT_RATIONAL_COORDINATION_TRAP']['joint_admitted'],t['STRICT_RATIONAL_COORDINATION_TRAP']['joint_rejected'])==(24,15); assert d['admitted_cases_not_strict_traps']==90; assert d['net_failure_reasons']=={'JOINT_ALTERNATIVE_HARMS_EACH_ACTOR':30,'JOINT_ALTERNATIVE_BREAK_EVEN_BEFORE_COORDINATION':12,'BURDEN_GREATER_THAN_JOINT_GAIN':12,'BURDEN_EQUALS_JOINT_GAIN_STRICT_RULE_REJECTS':12}; assert d['matched_burden_counterfactuals']['lost_admissibility_when_only_burden_increases']==18; assert d['matched_burden_counterfactuals']['strict_traps_losing_admissibility']==10; print('H01_FAILURE_CONDITIONS='+json.dumps({'classification_vs_admission':t,'failure_reasons':d['net_failure_reasons'],'burden_slices':d['conditional_slices']['by_joint_burden'],'synergy_slices':d['conditional_slices']['by_pairwise_complementarity'],'matched_burden':d['matched_burden_counterfactuals']['lost_admissibility_when_only_burden_increases']},sort_keys=True))"
+
+      - name: Enforce ACC non-fungible dimension contract; H-01 payoff-cost mix is diagnostic only
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1"
+          python -B -m unittest discover -s "$S" -p test_dimensional_contract.py -v
+          python -B -c "import json; x=json.load(open('/tmp/acc_h01_strategic_choices.json')); a=x['sensitivity']; d=a['acc_known_R_C_dimensional_counts']; assert d=={'MONOTONE_IMPROVEMENT_IN_K':46,'INCOMPARABLE_K_TRADEOFF':92,'NO_MONOTONE_IMPROVEMENT_IN_K':38,'EQUIVALENT_IN_K':4}; assert a['legacy_admission_is_assumed_C_to_R_conversion_not_architecture']; assert all(p['acc_known_dimensions']['full_open_model_dominance']=='NOT_ESTABLISHED' for p in x['scenarios']); print('H01_ACC_DIMENSIONAL_K='+json.dumps(d,sort_keys=True))"
+
+      - name: Publish H-01 synthetic strategic choice, governance and conventional controls
+        uses: actions/upload-artifact@v4
+        with:
+          name: acc-h01-strategic-nash-and-feasibility
+          path: |
+            /tmp/acc_h01_strategic_choices.json
+            /tmp/acc_h01_conditional_failure_diagnostics.json
+          if-no-files-found: error
+
       - name: Check ACC nested-systems structural gap and bounded information loss
         run: |
           python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/nested-composition-suffering-v0.1 -p test_nested_model.py -v

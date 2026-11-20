@@ -1,5 +1,8 @@
 # ACC — Bloqueo racional por codependencia y utilidad no monótona (v0.1)
 
+> **Architectural correction — 1 Nov 2026:** The H-01 scalar 114/66 “admitted/rejected” count is **not the open ACC dimensional result**: it deducts coordination burden C from individual payoff R without an independently justified exchange rate. The corrected [dimension-fidelity review](ACC_DIMENSIONAL_FIDELITY_REVIEW_2026-11-01.md) and source-code [partial order](dimensional_contract.py) give **46 known-K R/C improvements, 92 incomparable tradeoffs, 38 non-improvements and 4 equal cases**. E, V and further dimensions remain UNKNOWN. Older figures below are historical conditional toy results, not original ACC conclusions.
+
+
 **Corte:** 26 octubre 2026 · **Autor conceptual:** Iván Abril Palma / The Integral Management Society  
 **Estado:** estudio auxiliar sintético, sin medición empírica; NO redefine A/B/C/D, HID, UC21 ni autoridad de terceros.
 
@@ -101,3 +104,19 @@ El [registro versionado de ejemplos del autor](EXAMPLE_LEDGER.md) conserva con I
 
 La [revisión bibliográfica vinculada a este estudio](EXTERNAL_RESEARCH_NOVELTY_REVIEW_2026-10-26.md) identifica los antecedentes de complementariedad estratégica, gobernanza de recursos comunes, precio de la anarquía y motivaciones de reconocimiento. No atribuye a ACC esos resultados previos. La prueba binaria de bloqueo es una construcción matemática **del toy**, no un descubrimiento de un tipo desconocido de equilibrio. La brecha G sólo tiene lectura de deuda recuperable cuando el estado S* se demuestra conjuntamente factible. Se proponen contrastes con coordinadores convencionales competentes y mínimos de crédito realmente acreditados.
 
+
+
+## 10. H-01 review response — distinguish strategic choice from feasibility blockage (1 Nov 2026)
+
+The [H-01 source-preserving experimental protocol](H01_STRATEGIC_CHOICE_PROTOCOL.md) introduces a supplementary finite strategic-choice study without altering the original bounded_traps.py, its published outputs, or the author-source examples. The historical EX-LINEAR-01 constraints still demonstrate only a feasibility/transition-protocol trap: (0,0) and (1,1) are feasible, while intermediate unilateral states are not. That claim remains true.
+
+The new [parameterized game engine](strategic_choice.py) and [22 cases plus a 180-cell sensitivity grid](H01_STRATEGIC_STUDY.json) ask a different question: are all unilateral deviations possible but individually unattractive while a joint target benefits every participant? It computes exact payoffs, Nash equilibria, best-response dynamics, belief-dependent choices and negative controls. Joint proposals are separately tested for resources, actor-level willingness, explicit consent/authority/transfer rights and cost. An equally capable conventional coordinator receives full credit; there is no assumed exclusive technical advantage from an ACC-labelled metaprotocol. The original 21 bounded-traps tests and the frozen results remain unchanged.
+
+The [adversarial regressions](test_strategic_choice.py) test strict Pareto-inferior Nash equilibria, profitable unilateral escape, feasibility-only traps, non-viable coordination, conserved transferable-credit compensation with actor-specific valuation, unknown governance, three-agent reuse, a no-pure-Nash cycle, and sensitivity. This is synthetic game theory, not observed human behaviour, historical decisions or evidence for a novel Nash theorem. H-01 can become RESPONDIDO after independent reproduction, not CERRADO without approved integration.
+
+
+## 11. H-01 failure taxonomy and exact conditional boundaries (1 November 2026)
+
+The [H-01 failure diagnosis](H01_FAILURE_DIAGNOSIS.md) distinguishes **strategic traps** from **other joint proposals** and explains all 180 predeclared parameter combinations. The **114 admitted** cases are *not* 114 traps resolved: **24** are strict rational traps with an admissible remedy, 24 are only weak equilibria, and **66 already have profitable unilateral escape**. Of the **66 rejected**, **42 have no positive Pareto improvement before coordination** and **24 lose the gain to joint burden** (including 15 genuine strict traps). The exact thresholds are r<c, s>c−r and burden<s−(c−r) for a strictly beneficial remedy in this symmetric model.
+
+The [computed diagnostic engine](h01_failure_diagnostics.py) and [11 independent condition tests](test_h01_failure_diagnostics.py) recover these regions from the executed source output and expose cross-tabs by return, investment, complementarity, and burden. Holding the other parameters fixed, increasing only burden 0→3 eliminates **18** previously accepted proposals, **10** of them strict-trap remedies. These are conditional counts on a declared finite grid, not population averages or evidence about social prevalence. Governance and resources are fixed at permitted/sufficient in this sweep; negative permission/resource cases stay separately identifiable in the named H-01 manifest.
