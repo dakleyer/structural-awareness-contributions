@@ -1,0 +1,44 @@
+name: ACC unit-safe economic evidence
+
+on:
+  pull_request:
+    paths:
+      - 'research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1/**'
+      - 'research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/**'
+      - '.github/workflows/acc-unit-safe-envelope.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-and-unit-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify unchanged original source blobs and frozen references
+        run: |
+          python - <<'PY'
+          import subprocess
+          pins = {"research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/CASES.json":"be77afef2a1bd3000bbfd1dca373b66db355b5db","research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/REFERENCE_SWEEP.json":"fc89cee79327169f094a86dd3bdaa7ec151ecd2f","research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/REFERENCE_SYNTHETIC_RESULTS.json":"eadb3f886b8ca5c1af4b596a03ba8576fbe68da4","research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/agentic_reduction.py":"be7b04af92f3d2dc29b3f9dc79e2052b7418d602","research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1/intrinsic_abcd.py":"a8540fc02e713dad7e181b7522b334dbd9f95e90"}
+          for path, expected in pins.items():
+              actual = subprocess.check_output(["git", "hash-object", path], text=True).strip()
+              if actual != expected:
+                  raise SystemExit("original source changed: " + path)
+          print("Original engines, fixtures and frozen references preserved")
+          PY
+      - name: Check original regressions and unit-safe evidence
+        working-directory: research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1
+        run: python -B -m unittest test_economic_envelope test_unit_safe_envelope -v
+      - name: Produce corrected source-native report
+        run: |
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1/unit_safe_envelope.py --corpus-root . --model both > unit-safe-economic-evidence.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: unit-safe-economic-evidence
+          path: unit-safe-economic-evidence.json
+          retention-days: 7
+
