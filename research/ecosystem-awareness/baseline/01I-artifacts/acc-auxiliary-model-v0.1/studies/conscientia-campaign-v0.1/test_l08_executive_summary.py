@@ -2,10 +2,15 @@
 from __future__ import annotations
 
 from copy import deepcopy
+import builtins
+from fractions import Fraction
+from hashlib import sha256
 import unittest
+from unittest.mock import patch
 
 from l08_robustness import run
 from l08_executive_summary import summarize, as_markdown
+import l08_executive_summary as presentation
 import json
 from pathlib import Path
 
@@ -19,6 +24,12 @@ class PortableExperimentalReport(unittest.TestCase):
         cls.raw=run(MANIFEST)
         cls.s=summarize(cls.raw)
         cls.byid={row["panel"]:row for row in cls.s["panels"]}
+
+    def test_published_default_summary_is_unchanged(self):
+        digest = sha256(json.dumps(self.s, sort_keys=True,
+                                  separators=(",", ":")).encode()).hexdigest()
+        self.assertEqual(digest,
+                         "4d3da83ce13e0081ddf1d7442404b244b9f30bec7a6cd014f3007dbbcf3707dd")
 
     def test_source_owned_original_accuracy_surfaces_not_hand_entered(self):
         self.assertEqual(self.s["total_grid_cells"],98)
@@ -93,5 +104,52 @@ class PortableExperimentalReport(unittest.TestCase):
             summarize(s)
 
 
+
+
+class ExactProbabilityPresentation(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        manifest = deepcopy(MANIFEST)
+        manifest["worlds_per_grid_cell"] = 16
+        manifest["panels"] = manifest["panels"][:1]
+        manifest["accuracy_grid"] = ["1/3", "0.3333333333333333333333333334"]
+        cls.raw = run(manifest)
+        cls.expected = list(manifest["accuracy_grid"])
+
+    @staticmethod
+    def reverse_set_iteration(values, *args, **kwargs):
+        # A set has no promised iteration order. Exercise its adverse order
+        # deterministically, without depending on a platform's hash seed.
+        if isinstance(values, set) and kwargs.get("key") is not None:
+            values = builtins.sorted(values, key=Fraction, reverse=True)
+        return builtins.sorted(values, *args, **kwargs)
+
+    def ordered_summary(self):
+        with patch.object(presentation, "sorted", self.reverse_set_iteration, create=True):
+            return summarize(self.raw)
+
+    def test_distinct_source_probabilities_keep_their_exact_order(self):
+        self.assertLess(Fraction(self.expected[0]), Fraction(self.expected[1]))
+        self.assertEqual(float(Fraction(self.expected[0])),
+                         float(Fraction(self.expected[1])))
+        panel = self.ordered_summary()["panels"][0]
+        self.assertEqual(panel["q_accuracy_rows"], self.expected)
+        self.assertEqual([row["source_accuracy"] for row in panel["classification_matrix"]],
+                         self.expected)
+
+    def test_distinct_domain_probabilities_keep_their_exact_order(self):
+        panel = self.ordered_summary()["panels"][0]
+        self.assertEqual(panel["domain_accuracy_columns"], self.expected)
+
+    def test_markdown_keeps_the_exact_axis_labels_and_row_order(self):
+        text = as_markdown(self.ordered_summary())
+        header = "| Q \\ dominio |" + "|".join(self.expected) + "|"
+        self.assertIn(header, text)
+        first = text.index("| " + self.expected[0] + " |")
+        second = text.index("| " + self.expected[1] + " |")
+        self.assertLess(first, second)
+
+
 if __name__=="__main__":
     unittest.main()
+

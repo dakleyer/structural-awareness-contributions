@@ -7,6 +7,7 @@ cells and price-front memberships. All totals derive from recorded outputs.
 from __future__ import annotations
 
 from collections import Counter
+from fractions import Fraction
 from pathlib import Path
 import argparse
 import json
@@ -39,9 +40,9 @@ def summarize(report:Mapping[str,Any])->dict[str,Any]:
         if not cells or len(cells)!=panel["count_cells"]:
             raise ValueError("missing grid records")
         source_grid=sorted({x["assumed_accuracy_of_qualified_source"] for x in cells},
-                           key=lambda x:float(__import__('fractions').Fraction(x)))
+                           key=Fraction)
         domain_grid=sorted({x["assumed_per_domain_observation_accuracy"] for x in cells},
-                           key=lambda x:float(__import__('fractions').Fraction(x)))
+                           key=Fraction)
         if len(cells)!=len(source_grid)*len(domain_grid):
             raise ValueError("incomplete source/domain grid")
         by_pair={
@@ -193,3 +194,4 @@ def main(argv=None):
 
 if __name__=="__main__":
     raise SystemExit(main())
+
