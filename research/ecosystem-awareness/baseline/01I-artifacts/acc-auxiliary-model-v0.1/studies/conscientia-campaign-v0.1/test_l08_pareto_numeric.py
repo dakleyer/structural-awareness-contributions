@@ -7,12 +7,44 @@ import json
 from pathlib import Path
 import unittest
 
-from l08_robustness import pareto, run, validate
+from l08_robustness import CLASSIFICATIONS, pareto, run, two_arm_order, validate
 
 HERE = Path(__file__).resolve().parent
 
 
 class ParetoNumericContractTests(unittest.TestCase):
+    def test_invalid_counts_cannot_be_published_as_known_comparisons(self):
+        fields = ("invalid_proposals", "missed_valid_opportunities")
+        for invalid in (None, "UNKNOWN", True, False, float("nan"),
+                        float("inf"), -float("inf"), Decimal("NaN"),
+                        Decimal("Infinity"), -1, "-1/2"):
+            for field in fields:
+                for arm in (0, 1):
+                    counts = [dict.fromkeys(fields, 0), dict.fromkeys(fields, 0)]
+                    counts[arm][field] = invalid
+                    with self.subTest(value=repr(invalid), field=field, arm=arm):
+                        with self.assertRaises(ValueError):
+                            two_arm_order(*counts)
+
+    def test_numeric_count_strings_are_compared_by_exact_value(self):
+        self.assertEqual(two_arm_order(
+            {"invalid_proposals": "10", "missed_valid_opportunities": "0"},
+            {"invalid_proposals": "2", "missed_valid_opportunities": "0"}),
+            CLASSIFICATIONS[1])
+
+    def test_exact_count_ties_and_tradeoffs_preserve_inputs(self):
+        first = {"invalid_proposals": Fraction(1, 10),
+                 "missed_valid_opportunities": "1/3"}
+        second = {"invalid_proposals": Decimal("0.1"),
+                  "missed_valid_opportunities": Fraction(1, 3)}
+        original = deepcopy((first, second))
+        self.assertEqual(two_arm_order(first, second), CLASSIFICATIONS[2])
+        self.assertEqual((first, second), original)
+        self.assertEqual(two_arm_order(
+            {"invalid_proposals": "1/10", "missed_valid_opportunities": "2"},
+            {"invalid_proposals": Decimal("0.2"), "missed_valid_opportunities": 1}),
+            CLASSIFICATIONS[3])
+
     def test_equivalent_probability_encodings_are_not_distinct_grid_points(self):
         original = json.loads((HERE / "L08_PROTOCOL.json").read_text(encoding="utf-8"))
         for grid in (("0", "0/1", "1"), ("0", "1/2", "0.50", "1"),
