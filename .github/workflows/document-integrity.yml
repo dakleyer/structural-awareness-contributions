@@ -135,6 +135,7 @@ jobs:
         run: |
           S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1"
           python -B -m unittest discover -s "$S" -p test_l08_agentic_adapter.py -v
+          python -B -m unittest discover -s "$S" -p test_l08_resource_conservation.py -v
           python -B "$S/l08_agentic_adapter.py" --output /tmp/acc_l08_native_agentic_pareto.json
           python -B -c "import json; r=json.load(open('/tmp/acc_l08_native_agentic_pareto.json')); assert (r['source_native_cases'],r['policy_decisions_replayed'])==(30,180); assert len(r['cases'])==30; assert 'NO_EMPIRICAL_AI_OR_HUMAN_DATA' in r['interpretation']; assert all(len(c['policy_arms'])==6 for c in r['cases'])"
           git fetch --depth=1 origin refs/heads/research/acc-original-narrative-regressions-20261029
