@@ -101,7 +101,7 @@ LEDGER = [
     ("M28-04", "M28", "Media", "RESPONDIDO", 24, "#60: la caducidad se medía en la fecha del evento. Sustituida por un contrato con dos tiempos y ventana [inicio, fin), reconfirmado; falta incorporarlo a main."),
     ("M28-05", "M28", "—", "ABIERTO", 12, "Nombres de pruebas que sugieren una comparación que no existe."),
     ("M28-06", "M28", "—", "INFORMATIVO", 12, "Panel y navegación de la auditoría actualizados."),
-    ("M28-07", "M28", "Baja", "PROPUESTA", 12, "Un script de la ronda 8 sobrescribe su JSON si se ejecuta sin --output."),
+    ("M28-07", "M28", "Baja", "RESPONDIDO", 42, "Un script de la ronda 8 sobrescribía su JSON si se ejecutaba sin --output. #93: salida por pantalla, destino nuevo sin sobrescribir y fuentes temporales; falta incorporarlo a main."),
     ("M28-O1", "M28-O", "—", "PROPUESTA", 12, "Línea de desarrollo: coste esperado de un selector frente a búsqueda exhaustiva."),
     ("M28-O2", "M28-O", "—", "PROPUESTA", 12, "Línea de desarrollo: modelo temporal con versiones de contexto."),
     ("J-01", "J", "Media", "RESPONDIDO", 14, "La cabecera «lectura vigente» estaba desfasada tras la ronda 13."),
@@ -279,7 +279,7 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"), (37, 0, "L-01 (#83)"), (38, 0, "#69: óptimos repetidos (#84)"), (39, 0, "#60: indicadores booleanos (#85)"), (40, 0, "Fe de erratas; #86–#91"), (41, 0, "Identidad dimensional (#92)"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"), (37, 0, "L-01 (#83)"), (38, 0, "#69: óptimos repetidos (#84)"), (39, 0, "#60: indicadores booleanos (#85)"), (40, 0, "Fe de erratas; #86–#91"), (41, 0, "Identidad dimensional (#92)"), (42, 0, "M28-07 (#93)"),
 ]
 
 

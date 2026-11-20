@@ -71,6 +71,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 39 | 2026-11-20 | [Indicadores de evidencia no booleanos en #60 (PR #85)](#ronda-39) | Defecto encontrado por el autor y corregido; sin registro nuevo |
 | 40 | 2026-11-21 | [Fe de erratas de la ronda 36 y seis correcciones técnicas (#86–#91)](#ronda-40) | La ronda 36 llamó «producción» a un valor sintético; seis defectos de comparación corregidos por el autor; sin registros nuevos |
 | 41 | 2026-11-21 | [Identidad de las dimensiones en #92](#ronda-41) | Nombres ambiguos o en blanco ahora se rechazan; informe H-01 idéntico; sin registros nuevos |
+| 42 | 2026-11-21 | [M28-07 en #93](#ronda-42) | El acompañante matemático ya no reescribe su JSON de referencia ni deja caché; M28-07 pasa a respondido |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1536,3 +1537,34 @@ El cuarto sondeo es propio; los otros tres reproducen los casos que describe el 
 **Para quien no programa.** Es como una hoja de cálculo donde dos filas se llamaran «1» y «uno»: para el programa eran personas distintas, pero al exportar el archivo se fundían en una y se perdía una de ellas sin aviso. Ahora el programa exige nombres de texto claros y se niega a seguir si hay ambigüedad.
 
 **Estado:** sin registros nuevos ni cambios de estado, por el criterio de las rondas 38 a 40: defecto encontrado y corregido por el autor en una rama abierta. Queda pendiente de cierre con #76 cuando esté en `main`. Totales sin cambios: 89 registros.
+
+
+<a id="ronda-42"></a>
+
+## Ronda 42 — M28-07 en PR #93: el acompañante matemático deja de reescribir su referencia (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #93 (`59f2bf03`) es un único commit sobre la rama de esta auditoría en `5f097519`. Toca tres archivos: el acompañante `math_audit_companion_2026-10-27.py`, pruebas nuevas y un workflow nuevo.
+
+**Qué era M28-07.** El acompañante de la ronda 8 reproduce 32 comprobaciones matemáticas sobre cuatro fuentes fijadas por su hash. Ejecutado sin `--output`, escribía el resultado encima de su propio JSON versionado y dejaba junto a él una caché de fuentes descargadas con bytecode. Era una propuesta de higiene, no un defecto matemático.
+
+**Reproducción en el padre.** Copiado el acompañante y su JSON a una carpeta aparte, una ejecución por defecto:
+- reescribe `MATH_AUDIT_RESULTS_2026-10-27.json` entero (590 líneas en el diff). El contenido es el mismo al leerlo, pero los bytes cambian: la referencia tiene saltos de línea CRLF y la reescritura los convierte en LF. Quien lo ejecutara para comprobar la auditoría ensuciaría el archivo que pretende comprobar;
+- deja `.pinned-math-audit-sources/` con las cuatro fuentes y 3 archivos `.pyc`.
+
+**Comprobación de #93** (`verification/m28_07_storage_check.py`, sin tocar ninguna copia de trabajo):
+
+| Caso | Resultado en #93 |
+|---|---|
+| Ejecución por defecto | El JSON completo sale por pantalla y es igual a la referencia (32/32). La referencia conserva sus bytes exactos, no aparece ningún archivo nuevo y no queda carpeta temporal |
+| `--output` sobre un archivo existente | Se rechaza antes de ejecutar nada; el archivo queda intacto |
+| `--output` sobre una ruta nueva | Se crea y es igual a la referencia |
+| `--source-archive` con las fuentes descargadas | Mismo resultado; el archivo de fuentes no cambia y no se escribe bytecode en él |
+| `--source-archive` vacío | Falla y no crea nada |
+
+El cuerpo de cálculo (108 líneas, desde la verificación de fuentes hasta la construcción del resultado) es idéntico al del padre salvo una condición: `not args.source_archive` pasa a `allow_download`, con el mismo efecto. Los cuatro hashes de las fuentes no cambian. Pasan las 6 pruebas nuevas y la CI dedicada.
+
+**Lo que #93 no cambia.** Si alguna comprobación fallara, el acompañante seguiría terminando con código 0: se probó forzando un resultado de 31/32. La señal de discrepancia mediante código de salida es la otra mitad de la propuesta (herramienta 13, OP-11) y no forma parte de #93. Conviene tratarla aparte, como cambio de herramienta y no científico.
+
+**Para quien no programa.** Era como una balanza que, al pesar, reescribía la etiqueta del peso de referencia: el número seguía siendo el mismo, pero la etiqueta ya no era la original y había que confiar en que no hubiera cambiado. Ahora la balanza enseña el resultado en pantalla, solo escribe en una hoja nueva si se le pide, y recoge lo que usa al terminar.
+
+**Estado:** M28-07 pasa de `PROPUESTA` a `RESPONDIDO`. Se cerrará cuando #93 y esta auditoría estén en `main`. Totales: 89 registros. 32 abiertos, 31 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.

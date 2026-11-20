@@ -37,7 +37,7 @@
   > - Las pruebas finitas revisadas establecen resultados concretos bajo sus hipótesis: una representación puede conservar una distinción necesaria para decidir; información compatible puede sostener una conclusión local útil; una guarda probada puede ahorrar comprobaciones en su dominio y balance de costes.
   > - Los fixtures también comprueban reproducción y sensibilidad bajo entradas o procedimientos suministrados. Esos resultados conservan su valor; para estudiar adquisición, selección o adaptación se necesita el proceso correspondiente y su evidencia.
   > - El fallo numérico I-01 y sus ampliaciones están corregidos y reconfirmados. La guarda de dominio M28-02 ya se corrigió y reconfirmó en la rama de #60; su incorporación sigue pendiente.
-- **Dónde estamos.** La auditoría tiene 81 registros sobre el contenido y 8 sobre la forma del propio expediente: 89 en total. De ellos, 32 siguen abiertos, 30 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 15 son propuestas de mejora, aclaraciones o puntos retirados.
+- **Dónde estamos.** La auditoría tiene 81 registros sobre el contenido y 8 sobre la forma del propio expediente: 89 en total. De ellos, 32 siguen abiertos, 31 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 14 son propuestas de mejora, aclaraciones o puntos retirados.
 - **Qué no es.** No es una revisión científica humana independiente. Todas las rondas las han escrito asistentes de IA (Claude y Codex), en parte a partir de observaciones de Iván.
 
 ## 2. Quién ha escrito qué
@@ -66,12 +66,12 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 | H · Modelo social | 4 | 1 | 1 | 0 | 0 | 6 |
 | I · Defecto de qualify | 0 | 0 | 1 | 0 | 0 | 1 |
 | M27 · Corpus matemático | 11 | 2 | 2 | 1 | 4 | 20 |
-| M28 · Relectura | 1 | 3 | 1 | 1 | 1 | 7 |
+| M28 · Relectura | 1 | 4 | 1 | 0 | 1 | 7 |
 | M27-O y M28-O · Líneas de desarrollo | 0 | 0 | 0 | 7 | 0 | 7 |
 | J · Forma del expediente | 1 | 6 | 1 | 0 | 0 | 8 |
 | K · Modelo social #44–#46 | 1 | 3 | 3 | 1 | 0 | 8 |
 | L · Recepciones (rondas 23–37) | 1 | 6 | 3 | 0 | 0 | 10 |
-| **Total** | **32** | **30** | **12** | **10** | **5** | **89** |
+| **Total** | **32** | **31** | **12** | **9** | **5** | **89** |
 
 **Qué significa cada estado:**
 
@@ -287,6 +287,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 39 | 20 nov | Claude | Indicadores de evidencia no booleanos en #60, corregidos en #85; los sustitutos que antes llegaban al estado positivo ya no llegan | [ronda 39](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-39) |
 | 40 | 21 nov | Claude | Fe de erratas: en K-01, el 10 de la ronda 36 es valor sintético (5 × 2), no producción; seis defectos de comparación corregidos en #86–#91 sin efecto en las cifras publicadas | [ronda 40](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-40) |
 | 41 | 21 nov | Claude | #92: el contrato dimensional rechaza nombres ambiguos (`1` frente a `"1"`), unidades en blanco y desconocidas repetidas; informe H-01 idéntico | [ronda 41](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-41) |
+| 42 | 21 nov | Claude | #93: el acompañante de la ronda 8 escribe por pantalla, crea destinos nuevos sin sobrescribir y limpia sus fuentes temporales; M28-07 pasa a respondido | [ronda 42](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-42) |
 
 <a id="11-los-79-registros-uno-por-uno"></a>
 <a id="11-los-82-registros-uno-por-uno"></a>
@@ -402,7 +403,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 | [M28-04](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-04) | 🟠 Respondido | Media | #60: la caducidad se medía en la fecha del evento. Sustituida por un contrato con dos tiempos y ventana [inicio, fin), reconfirmado; falta incorporarlo a main. | 24 |
 | [M28-05](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-05) | 🔵 Abierto | — | Nombres de pruebas que sugieren una comparación que no existe. | 12 |
 | [M28-06](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-06) | ⚪ Informativo | — | Panel y navegación de la auditoría actualizados. | 12 |
-| [M28-07](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-07) | 🟡 Propuesta | Baja | Un script de la ronda 8 sobrescribe su JSON si se ejecuta sin --output. | 12 |
+| [M28-07](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-07) | 🟠 Respondido | Baja | Un script de la ronda 8 sobrescribía su JSON si se ejecutaba sin --output. #93: salida por pantalla, destino nuevo sin sobrescribir y fuentes temporales; falta incorporarlo a main. | 42 |
 
 </details>
 

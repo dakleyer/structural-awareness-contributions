@@ -1,7 +1,7 @@
 {
   "schema": "ACC-AUDIT-STATUS-LEDGER-v0.1",
   "as_of": "2026-10-28",
-  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-41",
+  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-42",
   "state_vocabulary": [
     "ABIERTO",
     "RESPONDIDO",
@@ -13,10 +13,10 @@
   ],
   "totals": {
     "ABIERTO": 32,
-    "RESPONDIDO": 30,
+    "RESPONDIDO": 31,
     "CERRADO": 4,
     "VERIFICADO": 8,
-    "PROPUESTA": 10,
+    "PROPUESTA": 9,
     "RETIRADO": 2,
     "INFORMATIVO": 3
   },
@@ -73,9 +73,9 @@
       ],
       "M28": [
         1,
-        3,
+        4,
         1,
-        1,
+        0,
         1
       ],
       "M27-O": [
@@ -600,9 +600,9 @@
       "id": "M28-07",
       "family": "M28",
       "severity": "Baja",
-      "state": "PROPUESTA",
-      "set_in_round": 12,
-      "summary": "Un script de la ronda 8 sobrescribe su JSON si se ejecuta sin --output."
+      "state": "RESPONDIDO",
+      "set_in_round": 42,
+      "summary": "Un script de la ronda 8 sobrescribía su JSON si se ejecutaba sin --output. #93: salida por pantalla, destino nuevo sin sobrescribir y fuentes temporales; falta incorporarlo a main."
     },
     {
       "id": "M28-O1",
@@ -887,17 +887,17 @@
     "guide_totals_row": {
       "guide": [
         32,
-        30,
+        31,
         12,
-        10,
+        9,
         5,
         89
       ],
       "ledger": [
         32,
-        30,
+        31,
         12,
-        10,
+        9,
         5,
         89
       ],

@@ -54,11 +54,9 @@
 <text class="ink" x="280" y="325" font-size="12" text-anchor="end">M28 · Relectura (28 oct)</text>
 <rect class="s0" x="290" y="308" width="24" height="26" rx="4"><title>M28: 1 abierto</title></rect>
 <text x="302.0" y="325" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">1</text>
-<rect class="s1" x="316" y="308" width="76" height="26" rx="4"><title>M28: 3 respondido</title></rect>
-<text x="354.0" y="325" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">3</text>
-<rect class="s2" x="394" y="308" width="24" height="26" rx="4"><title>M28: 1 cerrado o verificado</title></rect>
-<text x="406.0" y="325" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">1</text>
-<rect class="s3" x="420" y="308" width="24" height="26" rx="4"><title>M28: 1 propuesta de mejora</title></rect>
+<rect class="s1" x="316" y="308" width="102" height="26" rx="4"><title>M28: 4 respondido</title></rect>
+<text x="367.0" y="325" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">4</text>
+<rect class="s2" x="420" y="308" width="24" height="26" rx="4"><title>M28: 1 cerrado o verificado</title></rect>
 <text x="432.0" y="325" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">1</text>
 <rect class="s4" x="446" y="308" width="24" height="26" rx="4"><title>M28: 1 retirado o informativo</title></rect>
 <text x="458.0" y="325" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">1</text>
