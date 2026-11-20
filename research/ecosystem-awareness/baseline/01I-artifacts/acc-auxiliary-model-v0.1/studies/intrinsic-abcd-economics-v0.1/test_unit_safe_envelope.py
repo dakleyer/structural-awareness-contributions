@@ -2,8 +2,12 @@
 from copy import deepcopy
 from decimal import Decimal
 from fractions import Fraction
+from hashlib import sha256
 import json
 from pathlib import Path
+import subprocess
+import sys
+from tempfile import TemporaryDirectory
 import unittest
 
 import economic_envelope_runner as legacy
@@ -31,6 +35,29 @@ def case(output="10", price="0"):
 
 
 class UnitSafeContract(unittest.TestCase):
+    def test_cli_binds_exact_manifest_bytes_without_changing_results(self):
+        manifest = json.loads((HERE / "ECONOMIC_SWEEP_MANIFEST.json").read_text())
+        manifest["social"].update({
+            "sizes": [16], "roots": [{"id": "free", "slack": None}],
+            "accesses": ["full"], "prices": [{"id": "original", "costs": {}}]})
+        outputs = []
+        hashes = []
+        with TemporaryDirectory() as scratch:
+            for index, indent in enumerate((None, 2)):
+                raw = json.dumps(manifest, indent=indent).encode("utf-8")
+                path = Path(scratch) / (str(index) + ".json")
+                path.write_bytes(raw)
+                output = json.loads(subprocess.check_output([
+                    sys.executable, "-B", str(HERE / "unit_safe_envelope.py"),
+                    "--corpus-root", str(ROOT), "--manifest", str(path),
+                    "--model", "social"], text=True))
+                digest = output.pop("manifest_sha256")
+                self.assertEqual(digest, sha256(raw).hexdigest())
+                hashes.append(digest)
+                outputs.append(output)
+        self.assertNotEqual(hashes[0], hashes[1])
+        self.assertEqual(outputs[0], outputs[1])
+
     def test_exact_cost_types_are_serializable_without_input_mutation(self):
         source = case("12", "13/30")
         source["arms"][1]["components"] = {

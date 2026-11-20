@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 from copy import deepcopy
+from hashlib import sha256
 import json
 from pathlib import Path
 from typing import Any, Mapping
@@ -160,9 +161,11 @@ def main() -> int:
     parser.add_argument("--manifest", type=Path, default=HERE / "ECONOMIC_SWEEP_MANIFEST.json")
     parser.add_argument("--model", choices=("social", "agentic", "both"), default="both")
     args = parser.parse_args()
-    manifest = json.loads(args.manifest.read_text(encoding="utf-8"))
-    print(json.dumps(run(manifest, args.corpus_root, model=args.model),
-                     sort_keys=True, indent=2))
+    manifest_bytes = args.manifest.read_bytes()
+    manifest = json.loads(manifest_bytes.decode("utf-8"))
+    result = run(manifest, args.corpus_root, model=args.model)
+    result["manifest_sha256"] = sha256(manifest_bytes).hexdigest()
+    print(json.dumps(result, sort_keys=True, indent=2))
     return 0
 
 
