@@ -1,0 +1,45 @@
+name: ACC joint numerical and physical evidence compatibility
+
+on:
+  pull_request:
+    paths:
+      - 'research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/l08_*.py'
+      - 'research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1/test_l08_*.py'
+      - '.github/workflows/acc-l08-joint-compatibility.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  joint-l08-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Select exact shared numerical correction without hiding other edits
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1"
+          git fetch --depth=1 origin 0a4109200955ab7a47f0eaaf6ad2cb36fbbed8e0
+          test "$(git rev-parse FETCH_HEAD)" = "0a4109200955ab7a47f0eaaf6ad2cb36fbbed8e0"
+          CURRENT="$(git hash-object "$S/l08_robustness.py")"
+          case "$CURRENT" in
+            4147b4c0927c14863d588e7d42930c900880b3ff|80880183350e3474303196b59a113c15d963fe2d) ;;
+            *) echo "Shared comparator changed; reconcile its source pin before testing"; exit 1 ;;
+          esac
+          if test -e "$S/test_l08_pareto_numeric.py"; then
+            test "$(git hash-object "$S/test_l08_pareto_numeric.py")" = "fc32e5eb6c83c562895b3b50c2cca98b3bb011d3"
+          fi
+          for file in l08_robustness.py test_l08_pareto_numeric.py; do
+            git show "FETCH_HEAD:$S/$file" > "$S/$file"
+          done
+          test "$(git hash-object "$S/l08_robustness.py")" = "80880183350e3474303196b59a113c15d963fe2d"
+          test "$(git hash-object "$S/test_l08_pareto_numeric.py")" = "fc32e5eb6c83c562895b3b50c2cca98b3bb011d3"
+      - name: Check current resource adapter and all shared numerical evidence together
+        run: |
+          S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1"
+          python -B -m unittest discover -s "$S" -p 'test_l08_*.py' -v
+          AG="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1"
+          git diff --exit-code -- "$S/g04_factorial.py" "$S/dimension_experiment.py" "$S/G04_PROTOCOL.json" "$AG/agentic_reduction.py" "$AG/CASES.json"
