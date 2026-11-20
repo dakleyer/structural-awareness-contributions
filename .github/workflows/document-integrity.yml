@@ -61,6 +61,7 @@ jobs:
         run: |
           S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1"
           python -B -m unittest discover -s "$S" -p test_dimensional_contract.py -v
+          python -B -m unittest discover -s "$S" -p test_dimensional_identity.py -v
           python -B -c "import json; x=json.load(open('/tmp/acc_h01_strategic_choices.json')); a=x['sensitivity']; d=a['acc_known_R_C_dimensional_counts']; assert d=={'MONOTONE_IMPROVEMENT_IN_K':46,'INCOMPARABLE_K_TRADEOFF':92,'NO_MONOTONE_IMPROVEMENT_IN_K':38,'EQUIVALENT_IN_K':4}; assert a['legacy_admission_is_assumed_C_to_R_conversion_not_architecture']; assert all(p['acc_known_dimensions']['full_open_model_dominance']=='NOT_ESTABLISHED' for p in x['scenarios']); print('H01_ACC_DIMENSIONAL_K='+json.dumps(d,sort_keys=True))"
 
       - name: Publish H-01 synthetic strategic choice, governance and conventional controls
