@@ -94,3 +94,74 @@ jobs:
           python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1/tests -p test_uc21_dds_bridge.py -v
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1/uc21_dds_bridge.py research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/parametric-economic-toy-v0.1/examples/uc21_s4_synthetic_defender.json --output /tmp/uc21_dds_synthetic_result.json
           python -B -c "import json; d=json.load(open('/tmp/uc21_dds_synthetic_result.json')); assert d['selected_intervention_prediction']=='SYNTHETIC_DEFENCE_NOT_EMPIRICAL_FALSIFICATION'; assert d['case_results'][2]['admitted_branch_defence']; assert d['uc21_hr_existential_six_case_conclusion']=='NOT_REFUTED_OR_PROVED_BY_NONEXHAUSTIVE_RUNS'; assert d['economic_projection']['mode']=='formulas'"
+
+      - name: Check source-anchored ACC original examples, dimensions, rights and reachability
+        run: |
+          cp research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/cases.json /tmp/acc_narrative_frozen_cases.json
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/build_fixtures.py
+          cmp research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/cases.json /tmp/acc_narrative_frozen_cases.json
+          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1 -p 'test_*.py' -v
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/engine.py --manifest research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/cases.json --output /tmp/acc_original_narrative_results.json
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/source_replay.py --output /tmp/acc_original_narrative_source_concordance.json
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/mechanistic_replay.py --output /tmp/acc_original_narrative_operation_results.json
+          python -B -c "import json; from pathlib import Path; p=Path('research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/REFERENCE_RESULTS.json'); assert json.loads(p.read_text(encoding='utf-8'))==json.loads(Path('/tmp/acc_original_narrative_results.json').read_text(encoding='utf-8'))"
+
+      - name: Check bounded source-native PR57 agentic analogues without changing original model
+        run: |
+          git fetch --depth=1 origin refs/heads/research/acc-agentic-ecosystem-reduction-v0.1-20261026
+          test "$(git rev-parse FETCH_HEAD)" = "a98940490e8a84051ad314f2392c15338dbf1de9"
+          mkdir -p /tmp/acc_pr57_pinned_source
+          git show FETCH_HEAD:research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/agentic_reduction.py > /tmp/acc_pr57_pinned_source/agentic_reduction.py
+          git show FETCH_HEAD:research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/CASES.json > /tmp/acc_pr57_pinned_source/CASES.json
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/agentic_crosswalk.py --source-dir /tmp/acc_pr57_pinned_source --output /tmp/acc_original_narrative_agentic_crosswalk.json
+          python -B -c "import json; d=json.load(open('/tmp/acc_original_narrative_agentic_crosswalk.json')); assert d['counts']=={'author_examples':14,'structural_analogues':8,'non_equivalent':6,'unique_native_agentic_cases_executed':5}; assert d['boundary'].startswith('STRUCTURAL_ANALOGIES_ONLY')"
+
+      - name: Check joint compatibility of PR57, PR66 L-04, PR67 K-03 and PR69 without merging
+        run: |
+          git fetch --depth=1 origin refs/heads/research/acc-reusable-crossmodel-economic-envelope-20261028
+          REV66="$(git rev-parse FETCH_HEAD)"
+          test "$REV66" = "7c9043e0d035786297d4c04972e2fd5d2fa1138e"
+          git fetch --depth=1 origin refs/heads/research/acc-source-native-private-response-k03-20261028
+          REV67="$(git rev-parse FETCH_HEAD)"
+          test "$REV67" = "078bf7fcdcc33811cbfa437b60e3f57d634dfd57"
+          SOCIAL="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1"
+          AGENT="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1"
+          mkdir -p "$AGENT"
+          for file in economic_envelope.py economic_envelope_adapters.py economic_envelope_runner.py ECONOMIC_SWEEP_MANIFEST.json test_economic_envelope.py; do
+            git show "$REV66:$SOCIAL/$file" > "$SOCIAL/$file"
+          done
+          for file in agentic_reduction.py CASES.json; do
+            git show "$REV66:$AGENT/$file" > "$AGENT/$file"
+          done
+          for file in intrinsic_abcd.py test_native_selected_response.py; do
+            git show "$REV67:$SOCIAL/$file" > "$SOCIAL/$file"
+          done
+          python -B -m unittest discover -s "$SOCIAL" -p 'test_*.py' -v
+          python -B "$SOCIAL/economic_envelope_runner.py" --corpus-root . --model both > /tmp/acc_joint_crossmodel_compatibility.json
+          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1 -p 'test_*.py' -v
+          python -B -c "import json; d=json.load(open('/tmp/acc_joint_crossmodel_compatibility.json')); assert d['summary']['groups']['ACC_SOCIAL_INTRINSIC_44']['cases']==168; assert d['summary']['groups']['ACC_AGENTIC_REDUCTION_57']['cases']==118; assert d['summary']['groups']['ACC_SOCIAL_INTRINSIC_44']['strict_wins'].get('B_QUALIFIED',0)>0; assert d['ranking_contract'].startswith('POLICIES_COMPETE')"
+
+          git fetch --depth=1 origin refs/heads/research/acc-original-examples-generative-experiments-20261029
+          REV68="$(git rev-parse FETCH_HEAD)"
+          test "$REV68" = "583590dbadf48ea1015e33111b374631509015ae"
+          OWNER="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/conscientia-campaign-v0.1"
+          for file in dimension_experiment.py native_experiment_adapters.py run_original_experiments.py ORIGINAL_EXPERIMENTS.json NATIVE_EXPERIMENTS.json; do
+            git show "$REV68:$OWNER/$file" > "$OWNER/$file"
+          done
+          python -B "$OWNER/run_original_experiments.py" --model both --compact > /tmp/acc_owner68_full_source_execution.json
+          python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/narrative-acceptance-v0.1/owner68_concordance.py --source-dir "$OWNER" --output /tmp/acc_owner68_independent_concordance.json
+          python -B -c "import json; o=json.load(open('/tmp/acc_owner68_full_source_execution.json')); c=json.load(open('/tmp/acc_owner68_independent_concordance.json')); assert o['case_count']==73 and c['source_owner_case_count']==40 and c['operation_sequence_case_count']==14; assert len(c['shared_source_property_checks'])>=10; assert c['no_automatic_EA_THEORY_CHANGE']; x=o['social_constraint_evidence_origin']; assert (x['source_owned_social_cases'],x['declared_conditions'],x['calculated_conditions'],x['eligible_conditional'],x['non_eligible'])==(40,74,26,18,22)"
+
+      - name: Publish original ACC narrative acceptance traces (synthetic only)
+        uses: actions/upload-artifact@v4
+        with:
+          name: acc-original-examples-narrative-acceptance
+          path: |
+            /tmp/acc_original_narrative_results.json
+            /tmp/acc_original_narrative_source_concordance.json
+            /tmp/acc_original_narrative_operation_results.json
+            /tmp/acc_original_narrative_agentic_crosswalk.json
+            /tmp/acc_joint_crossmodel_compatibility.json
+            /tmp/acc_owner68_full_source_execution.json
+            /tmp/acc_owner68_independent_concordance.json
+          if-no-files-found: error

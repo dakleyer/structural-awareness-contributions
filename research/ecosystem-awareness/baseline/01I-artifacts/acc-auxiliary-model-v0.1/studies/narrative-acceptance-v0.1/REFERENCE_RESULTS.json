@@ -1,0 +1,1717 @@
+{
+  "case_count": 14,
+  "cases": [
+    {
+      "case_id": "EX-BAN-02",
+      "comparisons": [
+        {
+          "from": "held",
+          "individual_payoffs": {
+            "status": "NOT_REPRESENTED"
+          },
+          "stages": [
+            {
+              "axes": [
+                "E_transport",
+                "R_food"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "E_transport": "-3",
+                  "R_food": "1"
+                },
+                "status": "TRADEOFF"
+              },
+              "newly_material_axes": [
+                "E_transport",
+                "R_food"
+              ],
+              "stage": "K_declared"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "PASS",
+          "to": "sent"
+        }
+      ],
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "interpretation": "Africa is author clarification, not a field shipment; R improves, E worsens; transport units are invented.",
+      "reachability": {
+        "joint_allowed": {
+          "paths": {
+            "held": [
+              "held"
+            ],
+            "sent": [
+              "held",
+              "sent"
+            ]
+          },
+          "protocol": "joint_allowed",
+          "reachable_states": [
+            "held",
+            "sent"
+          ]
+        },
+        "unilateral_only": {
+          "paths": {
+            "held": [
+              "held"
+            ],
+            "sent": [
+              "held",
+              "sent"
+            ]
+          },
+          "protocol": "unilateral_only",
+          "reachable_states": [
+            "held",
+            "sent"
+          ]
+        }
+      },
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/CASES.md#recorrido-de-variantes-y-condiciones-que-pueden-bloquear",
+      "state_validity": {
+        "held": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "sent": {
+          "issues": [],
+          "status": "PASS"
+        }
+      },
+      "transitions": {
+        "deliver_with_transport": {
+          "admissible": "PASS",
+          "failed": [],
+          "institutional": "PASS",
+          "resource_use": {
+            "logistic_slot": "1"
+          },
+          "technical": "PASS",
+          "unresolved": []
+        }
+      },
+      "welfare": {}
+    },
+    {
+      "case_id": "EX-BAN-01",
+      "comparisons": [
+        {
+          "from": "imported_discard",
+          "individual_payoffs": {
+            "status": "NOT_REPRESENTED"
+          },
+          "stages": [
+            {
+              "axes": [
+                "E_distance",
+                "R_food"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "E_distance": "14000",
+                  "R_food": "1"
+                },
+                "status": "DOMINATES_ON_DECLARED_AXES"
+              },
+              "newly_material_axes": [
+                "E_distance",
+                "R_food"
+              ],
+              "stage": "K2_E_R"
+            },
+            {
+              "axes": [
+                "E_distance",
+                "R_food",
+                "C_effort"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "C_effort": "-2",
+                  "E_distance": "14000",
+                  "R_food": "1"
+                },
+                "status": "TRADEOFF"
+              },
+              "newly_material_axes": [
+                "C_effort"
+              ],
+              "stage": "K3_E_R_C"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "PASS",
+          "to": "local_use"
+        }
+      ],
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "interpretation": "14,000 km is hypothetical, not measured. K2 dominance can coexist with K3 tradeoff and no authorized transition.",
+      "reachability": {
+        "joint_allowed": {
+          "paths": {
+            "imported_discard": [
+              "imported_discard"
+            ]
+          },
+          "protocol": "joint_allowed",
+          "reachable_states": [
+            "imported_discard"
+          ]
+        },
+        "unilateral_only": {
+          "paths": {
+            "imported_discard": [
+              "imported_discard"
+            ]
+          },
+          "protocol": "unilateral_only",
+          "reachable_states": [
+            "imported_discard"
+          ]
+        }
+      },
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/model/01_NOTAS_COMPLETAS.md#s1-p0271",
+      "state_validity": {
+        "imported_discard": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "local_use": {
+          "issues": [],
+          "status": "PASS"
+        }
+      },
+      "transitions": {
+        "organize_local_route": {
+          "admissible": "UNKNOWN",
+          "failed": [],
+          "institutional": "UNKNOWN",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": [
+            "coordination_is_effective",
+            "title_and_contract_approvals"
+          ]
+        }
+      },
+      "welfare": {}
+    },
+    {
+      "case_id": "EX-BAN-03",
+      "comparisons": [
+        {
+          "from": "discard",
+          "individual_payoffs": {
+            "oriented_deltas": {
+              "donor": "1",
+              "recipient": "1"
+            },
+            "status": "DOMINATES_ON_DECLARED_AXES"
+          },
+          "stages": [
+            {
+              "axes": [
+                "E_waste",
+                "R_help"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "E_waste": "1",
+                  "R_help": "1"
+                },
+                "status": "DOMINATES_ON_DECLARED_AXES"
+              },
+              "newly_material_axes": [
+                "E_waste",
+                "R_help"
+              ],
+              "stage": "K2_E_R"
+            },
+            {
+              "axes": [
+                "E_waste",
+                "R_help",
+                "C_extra"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "C_extra": "0",
+                  "E_waste": "1",
+                  "R_help": "1"
+                },
+                "status": "DOMINATES_ON_DECLARED_AXES"
+              },
+              "newly_material_axes": [
+                "C_extra"
+              ],
+              "stage": "K3_plus_C"
+            },
+            {
+              "axes": [
+                "E_waste",
+                "R_help",
+                "C_extra",
+                "V_donor"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "C_extra": "0",
+                  "E_waste": "1",
+                  "R_help": "1",
+                  "V_donor": "-9/10"
+                },
+                "status": "TRADEOFF"
+              },
+              "newly_material_axes": [
+                "V_donor"
+              ],
+              "stage": "K4_plus_V"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "PASS",
+          "to": "donate_without_recognition"
+        },
+        {
+          "from": "discard",
+          "individual_payoffs": {
+            "oriented_deltas": {
+              "donor": "1",
+              "recipient": "1"
+            },
+            "status": "DOMINATES_ON_DECLARED_AXES"
+          },
+          "stages": [
+            {
+              "axes": [
+                "E_waste",
+                "R_help"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "E_waste": "1",
+                  "R_help": "1"
+                },
+                "status": "DOMINATES_ON_DECLARED_AXES"
+              },
+              "newly_material_axes": [
+                "E_waste",
+                "R_help"
+              ],
+              "stage": "K2_E_R"
+            },
+            {
+              "axes": [
+                "E_waste",
+                "R_help",
+                "C_extra"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "C_extra": "0",
+                  "E_waste": "1",
+                  "R_help": "1"
+                },
+                "status": "DOMINATES_ON_DECLARED_AXES"
+              },
+              "newly_material_axes": [
+                "C_extra"
+              ],
+              "stage": "K3_plus_C"
+            },
+            {
+              "axes": [
+                "E_waste",
+                "R_help",
+                "C_extra",
+                "V_donor"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "C_extra": "0",
+                  "E_waste": "1",
+                  "R_help": "1",
+                  "V_donor": "0"
+                },
+                "status": "DOMINATES_ON_DECLARED_AXES"
+              },
+              "newly_material_axes": [
+                "V_donor"
+              ],
+              "stage": "K4_plus_V"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "PASS",
+          "to": "donate_with_recognition"
+        }
+      ],
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "interpretation": "Hypothetical donor preference, never attributed to actual Caritas conduct; separate absolute gains, consent and relative recognition.",
+      "reachability": {
+        "joint_allowed": {
+          "paths": {
+            "discard": [
+              "discard"
+            ],
+            "donate_with_recognition": [
+              "discard",
+              "donate_with_recognition"
+            ]
+          },
+          "protocol": "joint_allowed",
+          "reachable_states": [
+            "discard",
+            "donate_with_recognition"
+          ]
+        },
+        "unilateral_only": {
+          "paths": {
+            "discard": [
+              "discard"
+            ],
+            "donate_with_recognition": [
+              "discard",
+              "donate_with_recognition"
+            ]
+          },
+          "protocol": "unilateral_only",
+          "reachable_states": [
+            "discard",
+            "donate_with_recognition"
+          ]
+        }
+      },
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/model/01_NOTAS_COMPLETAS.md#s1-p0214",
+      "state_validity": {
+        "discard": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "donate_with_recognition": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "donate_without_recognition": {
+          "issues": [],
+          "status": "PASS"
+        }
+      },
+      "transitions": {
+        "alternate_credit_accepted": {
+          "admissible": "PASS",
+          "failed": [],
+          "institutional": "PASS",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": []
+        },
+        "proposed_donation_declined": {
+          "admissible": "FAIL",
+          "failed": [
+            "donor_declines_credit_sharing"
+          ],
+          "institutional": "FAIL",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": []
+        }
+      },
+      "welfare": {}
+    },
+    {
+      "case_id": "EX-BAN-04",
+      "comparisons": [
+        {
+          "from": "S0",
+          "individual_payoffs": {
+            "status": "NOT_REPRESENTED"
+          },
+          "stages": [
+            {
+              "axes": [
+                "E_waste",
+                "R_child"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "E_waste": "-1",
+                  "R_child": "0"
+                },
+                "status": "WORSE_OR_INCOMPARABLE"
+              },
+              "newly_material_axes": [
+                "E_waste",
+                "R_child"
+              ],
+              "stage": "K_declared"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "PASS",
+          "to": "S1"
+        },
+        {
+          "from": "S1",
+          "individual_payoffs": {
+            "status": "NOT_REPRESENTED"
+          },
+          "stages": [
+            {
+              "axes": [
+                "E_waste",
+                "R_child"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "E_waste": "1",
+                  "R_child": "1"
+                },
+                "status": "DOMINATES_ON_DECLARED_AXES"
+              },
+              "newly_material_axes": [
+                "E_waste",
+                "R_child"
+              ],
+              "stage": "K_declared"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "PASS",
+          "to": "S2"
+        }
+      ],
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "interpretation": "Exact original S0/S1/S2 and B1=5 F1=7 W1=-2; F is stipulated toy, NEVER measured suffering.",
+      "reachability": {
+        "joint_allowed": {
+          "paths": {
+            "S0": [
+              "S0"
+            ],
+            "S1": [
+              "S0",
+              "S1"
+            ]
+          },
+          "protocol": "joint_allowed",
+          "reachable_states": [
+            "S0",
+            "S1"
+          ]
+        },
+        "unilateral_only": {
+          "paths": {
+            "S0": [
+              "S0"
+            ],
+            "S1": [
+              "S0",
+              "S1"
+            ]
+          },
+          "protocol": "unilateral_only",
+          "reachable_states": [
+            "S0",
+            "S1"
+          ]
+        }
+      },
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/model/01_NOTAS_COMPLETAS.md#s1-p0639",
+      "state_validity": {
+        "S0": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "S1": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "S2": {
+          "issues": [
+            {
+              "enforcement": "REPORT_ONLY",
+              "rule": "toy_welfare_B_minus_F",
+              "status": "UNKNOWN"
+            }
+          ],
+          "status": "PASS"
+        }
+      },
+      "transitions": {
+        "grow_two": {
+          "admissible": "PASS",
+          "failed": [],
+          "institutional": "PASS",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": []
+        },
+        "redistribute_one": {
+          "admissible": "UNKNOWN",
+          "failed": [],
+          "institutional": "UNKNOWN",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": [
+            "safe_authorized_delivery"
+          ]
+        }
+      },
+      "welfare": {
+        "S0": {
+          "B": 0,
+          "F": 0,
+          "W": 0,
+          "status": "STIPULATED_TOY_NOT_HUMAN_MEASUREMENT"
+        },
+        "S1": {
+          "B": 5,
+          "F": 7,
+          "W": -2,
+          "status": "STIPULATED_TOY_NOT_HUMAN_MEASUREMENT"
+        },
+        "S2": {
+          "B": null,
+          "F": null,
+          "W": null,
+          "status": "STIPULATED_TOY_NOT_HUMAN_MEASUREMENT"
+        }
+      }
+    },
+    {
+      "case_id": "EX-ROBIN-01",
+      "comparisons": [
+        {
+          "from": "lost",
+          "individual_payoffs": {
+            "oriented_deltas": {
+              "Robinson": "999",
+              "Viernes": "1"
+            },
+            "status": "DOMINATES_ON_DECLARED_AXES"
+          },
+          "stages": [
+            {
+              "axes": [
+                "E_waste",
+                "R_both"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "E_waste": "2000",
+                  "R_both": "2"
+                },
+                "status": "DOMINATES_ON_DECLARED_AXES"
+              },
+              "newly_material_axes": [
+                "E_waste",
+                "R_both"
+              ],
+              "stage": "K2_E_R"
+            },
+            {
+              "axes": [
+                "E_waste",
+                "R_both",
+                "V_viernes"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "E_waste": "2000",
+                  "R_both": "2",
+                  "V_viernes": "-499/1000"
+                },
+                "status": "TRADEOFF"
+              },
+              "newly_material_axes": [
+                "V_viernes"
+              ],
+              "stage": "K4_including_V"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "PASS",
+          "to": "unequal"
+        }
+      ],
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "interpretation": "Actual source quantity 1 coco+fish vs 999 each; actor payoffs are merely positive toy proxies, not measured preferences.",
+      "reachability": {
+        "joint_allowed": {
+          "paths": {
+            "lost": [
+              "lost"
+            ]
+          },
+          "protocol": "joint_allowed",
+          "reachable_states": [
+            "lost"
+          ]
+        },
+        "unilateral_only": {
+          "paths": {
+            "lost": [
+              "lost"
+            ]
+          },
+          "protocol": "unilateral_only",
+          "reachable_states": [
+            "lost"
+          ]
+        }
+      },
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/model/01_NOTAS_COMPLETAS.md#s1-p0277",
+      "state_validity": {
+        "lost": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "unequal": {
+          "issues": [],
+          "status": "PASS"
+        }
+      },
+      "transitions": {
+        "proposal_with_relative_rejection": {
+          "admissible": "FAIL",
+          "failed": [
+            "Viernes_declines_relative_outcome"
+          ],
+          "institutional": "FAIL",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": []
+        }
+      },
+      "welfare": {}
+    },
+    {
+      "case_id": "EX-MIN-01",
+      "comparisons": [
+        {
+          "from": "fragmented",
+          "individual_payoffs": {
+            "status": "NOT_REPRESENTED"
+          },
+          "stages": [
+            {
+              "axes": [
+                "E_apps"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "E_apps": "698"
+                },
+                "status": "DOMINATES_ON_DECLARED_AXES"
+              },
+              "newly_material_axes": [
+                "E_apps"
+              ],
+              "stage": "E_only"
+            },
+            {
+              "axes": [
+                "E_apps",
+                "R_affected"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "E_apps": "698",
+                  "R_affected": null
+                },
+                "status": "NOT_ESTABLISHED"
+              },
+              "newly_material_axes": [
+                "R_affected"
+              ],
+              "stage": "E_plus_R"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "PASS",
+          "to": "unified"
+        }
+      ],
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "interpretation": "700→2 is an image not field-measured. Nominal service flag is illustrative and does not prove full rights/quality equivalence.",
+      "reachability": {
+        "joint_allowed": {
+          "paths": {
+            "fragmented": [
+              "fragmented"
+            ]
+          },
+          "protocol": "joint_allowed",
+          "reachable_states": [
+            "fragmented"
+          ]
+        },
+        "unilateral_only": {
+          "paths": {
+            "fragmented": [
+              "fragmented"
+            ]
+          },
+          "protocol": "unilateral_only",
+          "reachable_states": [
+            "fragmented"
+          ]
+        }
+      },
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/model/01_NOTAS_COMPLETAS.md#s1-p0104",
+      "state_validity": {
+        "fragmented": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "unified": {
+          "issues": [],
+          "status": "PASS"
+        }
+      },
+      "transitions": {
+        "consolidate": {
+          "admissible": "UNKNOWN",
+          "failed": [],
+          "institutional": "UNKNOWN",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": [
+            "service_guarantees_are_identical",
+            "institutional_authorization"
+          ]
+        }
+      },
+      "welfare": {}
+    },
+    {
+      "case_id": "EX-APPLE-01",
+      "comparisons": [
+        {
+          "from": "q3",
+          "individual_payoffs": {
+            "oriented_deltas": {
+              "buyer": "-1"
+            },
+            "status": "WORSE_OR_INCOMPARABLE"
+          },
+          "stages": [
+            {
+              "axes": [
+                "U_actor"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "U_actor": "-1"
+                },
+                "status": "WORSE_OR_INCOMPARABLE"
+              },
+              "newly_material_axes": [
+                "U_actor"
+              ],
+              "stage": "K_declared"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "PASS",
+          "to": "q4"
+        },
+        {
+          "from": "q3",
+          "individual_payoffs": {
+            "oriented_deltas": {
+              "buyer": "2"
+            },
+            "status": "DOMINATES_ON_DECLARED_AXES"
+          },
+          "stages": [
+            {
+              "axes": [
+                "U_actor"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "U_actor": "2"
+                },
+                "status": "DOMINATES_ON_DECLARED_AXES"
+              },
+              "newly_material_axes": [
+                "U_actor"
+              ],
+              "stage": "K_declared"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "PASS",
+          "to": "q8"
+        }
+      ],
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "interpretation": "Original nonmonotone utility table; unilateral nondecrease blocks 3→4, finite joint jump to 8 succeeds only under positive-control financing assumption.",
+      "reachability": {
+        "joint_allowed": {
+          "paths": {
+            "q3": [
+              "q3"
+            ],
+            "q8": [
+              "q3",
+              "q8"
+            ]
+          },
+          "protocol": "joint_allowed",
+          "reachable_states": [
+            "q3",
+            "q8"
+          ]
+        },
+        "unilateral_only": {
+          "paths": {
+            "q3": [
+              "q3"
+            ]
+          },
+          "protocol": "unilateral_only",
+          "reachable_states": [
+            "q3"
+          ]
+        }
+      },
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/EXAMPLE_LEDGER.md",
+      "state_validity": {
+        "q0": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "q1": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "q2": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "q3": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "q4": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "q5": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "q6": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "q7": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "q8": {
+          "issues": [],
+          "status": "PASS"
+        }
+      },
+      "transitions": {
+        "buy_1": {
+          "admissible": "PASS",
+          "failed": [],
+          "institutional": "PASS",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": []
+        },
+        "buy_2": {
+          "admissible": "PASS",
+          "failed": [],
+          "institutional": "PASS",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": []
+        },
+        "buy_3": {
+          "admissible": "PASS",
+          "failed": [],
+          "institutional": "PASS",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": []
+        },
+        "buy_4": {
+          "admissible": "FAIL",
+          "failed": [],
+          "institutional": "FAIL",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": []
+        },
+        "buy_5": {
+          "admissible": "FAIL",
+          "failed": [],
+          "institutional": "FAIL",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": []
+        },
+        "buy_6": {
+          "admissible": "PASS",
+          "failed": [],
+          "institutional": "PASS",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": []
+        },
+        "buy_7": {
+          "admissible": "PASS",
+          "failed": [],
+          "institutional": "PASS",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": []
+        },
+        "buy_8": {
+          "admissible": "PASS",
+          "failed": [],
+          "institutional": "PASS",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": []
+        },
+        "joint_bridge_valley": {
+          "admissible": "PASS",
+          "failed": [],
+          "institutional": "PASS",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": []
+        }
+      },
+      "welfare": {}
+    },
+    {
+      "case_id": "EX-LINEAR-01",
+      "comparisons": [
+        {
+          "from": "00",
+          "individual_payoffs": {
+            "oriented_deltas": {
+              "actor1": "1",
+              "actor2": "1"
+            },
+            "status": "DOMINATES_ON_DECLARED_AXES"
+          },
+          "stages": [
+            {
+              "axes": [
+                "U1",
+                "U2"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "U1": "1",
+                  "U2": "1"
+                },
+                "status": "DOMINATES_ON_DECLARED_AXES"
+              },
+              "newly_material_axes": [
+                "U1",
+                "U2"
+              ],
+              "stage": "K_declared"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "PASS",
+          "to": "11"
+        }
+      ],
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "interpretation": "Both final 00,11 physically feasible; no feasible unilateral binary intermediate. Atomic joint is a distinct protocol, not new resources.",
+      "reachability": {
+        "joint_allowed": {
+          "paths": {
+            "00": [
+              "00"
+            ],
+            "11": [
+              "00",
+              "11"
+            ]
+          },
+          "protocol": "joint_allowed",
+          "reachable_states": [
+            "00",
+            "11"
+          ]
+        },
+        "unilateral_only": {
+          "paths": {
+            "00": [
+              "00"
+            ]
+          },
+          "protocol": "unilateral_only",
+          "reachable_states": [
+            "00"
+          ]
+        }
+      },
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md",
+      "state_validity": {
+        "00": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "01": {
+          "issues": [
+            {
+              "enforcement": "PHYSICAL",
+              "rule": "equal_fields",
+              "status": "FAIL"
+            }
+          ],
+          "status": "FAIL"
+        },
+        "10": {
+          "issues": [
+            {
+              "enforcement": "PHYSICAL",
+              "rule": "equal_fields",
+              "status": "FAIL"
+            }
+          ],
+          "status": "FAIL"
+        },
+        "11": {
+          "issues": [],
+          "status": "PASS"
+        }
+      },
+      "transitions": {
+        "atomic_together": {
+          "admissible": "PASS",
+          "failed": [],
+          "institutional": "PASS",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": []
+        },
+        "first_alone": {
+          "admissible": "FAIL",
+          "failed": [],
+          "institutional": "PASS",
+          "resource_use": {},
+          "technical": "FAIL",
+          "unresolved": []
+        },
+        "second_alone": {
+          "admissible": "FAIL",
+          "failed": [],
+          "institutional": "PASS",
+          "resource_use": {},
+          "technical": "FAIL",
+          "unresolved": []
+        }
+      },
+      "welfare": {}
+    },
+    {
+      "case_id": "EX-CREDIT-01",
+      "comparisons": [
+        {
+          "from": "shares_7_3",
+          "individual_payoffs": {
+            "status": "NOT_REPRESENTED"
+          },
+          "stages": [
+            {
+              "axes": [
+                "V_A",
+                "V_B"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "V_A": "0",
+                  "V_B": "1"
+                },
+                "status": "DOMINATES_ON_DECLARED_AXES"
+              },
+              "newly_material_axes": [
+                "V_A",
+                "V_B"
+              ],
+              "stage": "K_declared"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "FAIL",
+          "to": "shares_7_4"
+        }
+      ],
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "interpretation": "7+4 impossible with budget10; 7+3 compatible. Do not infer that any actor legitimately requires the declared share.",
+      "reachability": {
+        "joint_allowed": {
+          "paths": {
+            "shares_7_3": [
+              "shares_7_3"
+            ]
+          },
+          "protocol": "joint_allowed",
+          "reachable_states": [
+            "shares_7_3"
+          ]
+        },
+        "unilateral_only": {
+          "paths": {
+            "shares_7_3": [
+              "shares_7_3"
+            ]
+          },
+          "protocol": "unilateral_only",
+          "reachable_states": [
+            "shares_7_3"
+          ]
+        }
+      },
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/EXAMPLE_LEDGER.md",
+      "state_validity": {
+        "shares_7_3": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "shares_7_4": {
+          "issues": [
+            {
+              "enforcement": "PHYSICAL",
+              "rule": "sum_at_most",
+              "status": "FAIL"
+            }
+          ],
+          "status": "FAIL"
+        }
+      },
+      "transitions": {
+        "raise_B_to_four": {
+          "admissible": "FAIL",
+          "failed": [],
+          "institutional": "PASS",
+          "resource_use": {},
+          "technical": "FAIL",
+          "unresolved": []
+        }
+      },
+      "welfare": {}
+    },
+    {
+      "case_id": "EX-SOLIDAR-01",
+      "comparisons": [
+        {
+          "from": "retain",
+          "individual_payoffs": {
+            "status": "NOT_REPRESENTED"
+          },
+          "stages": [
+            {
+              "axes": [
+                "E_cost",
+                "R_received"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "E_cost": "-1",
+                  "R_received": "1"
+                },
+                "status": "TRADEOFF"
+              },
+              "newly_material_axes": [
+                "E_cost",
+                "R_received"
+              ],
+              "stage": "K_declared"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "PASS",
+          "to": "without_choice"
+        }
+      ],
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "interpretation": "Same aid and cost can be offered, but legitimate chosen contribution requires own authorization; no scalar solidarity score.",
+      "reachability": {
+        "joint_allowed": {
+          "paths": {
+            "retain": [
+              "retain"
+            ],
+            "with_choice": [
+              "retain",
+              "with_choice"
+            ]
+          },
+          "protocol": "joint_allowed",
+          "reachable_states": [
+            "retain",
+            "with_choice"
+          ]
+        },
+        "unilateral_only": {
+          "paths": {
+            "retain": [
+              "retain"
+            ],
+            "with_choice": [
+              "retain",
+              "with_choice"
+            ]
+          },
+          "protocol": "unilateral_only",
+          "reachable_states": [
+            "retain",
+            "with_choice"
+          ]
+        }
+      },
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/MODEL.md#fines-y-capacidades",
+      "state_validity": {
+        "retain": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "with_choice": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "without_choice": {
+          "issues": [],
+          "status": "PASS"
+        }
+      },
+      "transitions": {
+        "freely_chosen": {
+          "admissible": "PASS",
+          "failed": [],
+          "institutional": "PASS",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": []
+        },
+        "no_consent": {
+          "admissible": "UNKNOWN",
+          "failed": [],
+          "institutional": "UNKNOWN",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": [
+            "person_choice_not_evidenced"
+          ]
+        }
+      },
+      "welfare": {}
+    },
+    {
+      "case_id": "EX-ORANGE-01",
+      "comparisons": [
+        {
+          "from": "reported_waste",
+          "individual_payoffs": {
+            "status": "NOT_REPRESENTED"
+          },
+          "stages": [
+            {
+              "axes": [
+                "E_recovery",
+                "R_need"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "E_recovery": null,
+                  "R_need": null
+                },
+                "status": "NOT_ESTABLISHED"
+              },
+              "newly_material_axes": [
+                "E_recovery",
+                "R_need"
+              ],
+              "stage": "K_declared"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "PASS",
+          "to": "proposed_recovery"
+        }
+      ],
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "interpretation": "An allegation about price manipulation is NOT a fact; unknown quantities and human distress remain unknown, not zero.",
+      "reachability": {
+        "joint_allowed": {
+          "paths": {
+            "reported_waste": [
+              "reported_waste"
+            ]
+          },
+          "protocol": "joint_allowed",
+          "reachable_states": [
+            "reported_waste"
+          ]
+        },
+        "unilateral_only": {
+          "paths": {
+            "reported_waste": [
+              "reported_waste"
+            ]
+          },
+          "protocol": "unilateral_only",
+          "reachable_states": [
+            "reported_waste"
+          ]
+        }
+      },
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/EXAMPLE_LEDGER.md",
+      "state_validity": {
+        "proposed_recovery": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "reported_waste": {
+          "issues": [],
+          "status": "PASS"
+        }
+      },
+      "transitions": {
+        "investigate_recovery": {
+          "admissible": "UNKNOWN",
+          "failed": [],
+          "institutional": "UNKNOWN",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": [
+            "ownership_and_safety",
+            "price_collusion_claim"
+          ]
+        }
+      },
+      "welfare": {}
+    },
+    {
+      "case_id": "EX-HUMAN-01",
+      "comparisons": [
+        {
+          "from": "school_then_job",
+          "individual_payoffs": {
+            "status": "NOT_REPRESENTED"
+          },
+          "stages": [
+            {
+              "axes": [
+                "capacity"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "capacity": null
+                },
+                "status": "NOT_ESTABLISHED"
+              },
+              "newly_material_axes": [
+                "capacity"
+              ],
+              "stage": "K_declared"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "PASS",
+          "to": "counterfactual_university"
+        }
+      ],
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "interpretation": "Hypothetical French lycée trajectory. No empirical student, distress, dignity or numerical potential is inferred.",
+      "reachability": {
+        "joint_allowed": {
+          "paths": {
+            "school_then_job": [
+              "school_then_job"
+            ]
+          },
+          "protocol": "joint_allowed",
+          "reachable_states": [
+            "school_then_job"
+          ]
+        },
+        "unilateral_only": {
+          "paths": {
+            "school_then_job": [
+              "school_then_job"
+            ]
+          },
+          "protocol": "unilateral_only",
+          "reachable_states": [
+            "school_then_job"
+          ]
+        }
+      },
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/EXAMPLE_LEDGER.md",
+      "state_validity": {
+        "counterfactual_university": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "school_then_job": {
+          "issues": [],
+          "status": "PASS"
+        }
+      },
+      "transitions": {
+        "access_to_university": {
+          "admissible": "UNKNOWN",
+          "failed": [],
+          "institutional": "UNKNOWN",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": [
+            "available_university_place",
+            "personal_choice"
+          ]
+        }
+      },
+      "welfare": {}
+    },
+    {
+      "case_id": "EX-SUPER-01",
+      "comparisons": [
+        {
+          "from": "limited",
+          "individual_payoffs": {
+            "status": "NOT_REPRESENTED"
+          },
+          "stages": [
+            {
+              "axes": [
+                "output"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "output": "200"
+                },
+                "status": "DOMINATES_ON_DECLARED_AXES"
+              },
+              "newly_material_axes": [
+                "output"
+              ],
+              "stage": "K_declared"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "PASS",
+          "to": "fully_delivered"
+        }
+      ],
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "interpretation": "Source X−200 example instantiated with X=1000 as toy. Not a source-verified repair or physical availability claim.",
+      "reachability": {
+        "joint_allowed": {
+          "paths": {
+            "limited": [
+              "limited"
+            ]
+          },
+          "protocol": "joint_allowed",
+          "reachable_states": [
+            "limited"
+          ]
+        },
+        "unilateral_only": {
+          "paths": {
+            "limited": [
+              "limited"
+            ]
+          },
+          "protocol": "unilateral_only",
+          "reachable_states": [
+            "limited"
+          ]
+        }
+      },
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/bounded-traps-v0.1/EXAMPLE_LEDGER.md",
+      "state_validity": {
+        "fully_delivered": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "limited": {
+          "issues": [],
+          "status": "PASS"
+        }
+      },
+      "transitions": {
+        "repair_unknown_bottleneck": {
+          "admissible": "UNKNOWN",
+          "failed": [],
+          "institutional": "UNKNOWN",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": [
+            "root_capacity_evaluated"
+          ]
+        }
+      },
+      "welfare": {}
+    },
+    {
+      "case_id": "EX-BUSINESS-01",
+      "comparisons": [
+        {
+          "from": "status_quo",
+          "individual_payoffs": {
+            "oriented_deltas": {
+              "marketing": "60",
+              "operations": "40",
+              "systems": "-30"
+            },
+            "status": "TRADEOFF"
+          },
+          "stages": [
+            {
+              "axes": [
+                "E_joint_gain"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "E_joint_gain": "70"
+                },
+                "status": "DOMINATES_ON_DECLARED_AXES"
+              },
+              "newly_material_axes": [
+                "E_joint_gain"
+              ],
+              "stage": "E_only"
+            },
+            {
+              "axes": [
+                "E_joint_gain",
+                "R_worst_actor"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "E_joint_gain": "70",
+                  "R_worst_actor": "-30"
+                },
+                "status": "TRADEOFF"
+              },
+              "newly_material_axes": [
+                "R_worst_actor"
+              ],
+              "stage": "E_plus_R"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "PASS",
+          "to": "raw_offer"
+        },
+        {
+          "from": "status_quo",
+          "individual_payoffs": {
+            "oriented_deltas": {
+              "marketing": "19",
+              "operations": "36",
+              "systems": "0"
+            },
+            "status": "DOMINATES_ON_DECLARED_AXES"
+          },
+          "stages": [
+            {
+              "axes": [
+                "E_joint_gain"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "E_joint_gain": "55"
+                },
+                "status": "DOMINATES_ON_DECLARED_AXES"
+              },
+              "newly_material_axes": [
+                "E_joint_gain"
+              ],
+              "stage": "E_only"
+            },
+            {
+              "axes": [
+                "E_joint_gain",
+                "R_worst_actor"
+              ],
+              "comparison": {
+                "oriented_deltas": {
+                  "E_joint_gain": "55",
+                  "R_worst_actor": "0"
+                },
+                "status": "DOMINATES_ON_DECLARED_AXES"
+              },
+              "newly_material_axes": [
+                "R_worst_actor"
+              ],
+              "stage": "E_plus_R"
+            }
+          ],
+          "target_state_physically_admissible_in_declared_model": "PASS",
+          "to": "compensated_after_cost"
+        }
+      ],
+      "evidence_tier": "AUTHOR_HYPOTHETICAL_TOY",
+      "interpretation": "Source gross 60+40−30=70; transfer35 marketing→systems; hypothetical newly declared real cost split (6,4,5) sums15; no actual CFO consent.",
+      "reachability": {
+        "joint_allowed": {
+          "paths": {
+            "status_quo": [
+              "status_quo"
+            ]
+          },
+          "protocol": "joint_allowed",
+          "reachable_states": [
+            "status_quo"
+          ]
+        },
+        "unilateral_only": {
+          "paths": {
+            "status_quo": [
+              "status_quo"
+            ]
+          },
+          "protocol": "unilateral_only",
+          "reachable_states": [
+            "status_quo"
+          ]
+        }
+      },
+      "source_anchor": "https://github.com/dakleyer/structural-awareness-contributions/blob/main/research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/ECONOMIC_MODEL_TECHNICAL_CORE_v0.1.md",
+      "state_validity": {
+        "compensated_after_cost": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "raw_offer": {
+          "issues": [],
+          "status": "PASS"
+        },
+        "status_quo": {
+          "issues": [],
+          "status": "PASS"
+        }
+      },
+      "transitions": {
+        "compensated_but_approval_unverified": {
+          "admissible": "UNKNOWN",
+          "failed": [],
+          "institutional": "UNKNOWN",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": [
+            "CFO_authorizes"
+          ]
+        },
+        "raw_offer_without_compensation": {
+          "admissible": "FAIL",
+          "failed": [],
+          "institutional": "FAIL",
+          "resource_use": {},
+          "technical": "PASS",
+          "unresolved": []
+        }
+      },
+      "welfare": {}
+    }
+  ],
+  "evidence": "SYNTHETIC_DECLARED_EXERCISES_NOT_FIELD_OBSERVATION",
+  "limit": "No hidden empirical truth, global objective, permission grant or epistemic A/B/C/D inventory",
+  "schema": "ACC-NARRATIVE-EXPERIMENTS-v0.1"
+}
