@@ -14,6 +14,12 @@ from fractions import Fraction
 from typing import Any, Mapping
 
 
+def _identity(value:Any)->None:
+    """Keep literal names; coercing JSON keys can collapse distinct measures."""
+    if not isinstance(value,str) or not value.strip():
+        raise ValueError("nonempty string dimensional identity required")
+
+
 def _fraction(x:Any)->Fraction:
     if isinstance(x,bool) or x is None or isinstance(x,float):
         raise ValueError("finite explicit rational measurement required")
@@ -38,11 +44,20 @@ def compare_dimensions(
     them. For C, components may separately represent actor coordination
     burdens. Extensible dimensions require explicit comparable measurements.
     """
-    if not isinstance(before,dict) or not before or set(before)!=set(after):
+    if (not isinstance(before,dict) or not before or not isinstance(after,dict)
+        or set(before)!=set(after)):
         raise ValueError("both states must have exactly the same known dimensions")
+    for dim in (*before,*after):
+        _identity(dim)
     if set(before)!=set(declared_directions):
         raise ValueError("every measured dimension requires a declared direction")
-    if not isinstance(explicitly_unknown,tuple) or set(explicitly_unknown)&set(before):
+    if not isinstance(explicitly_unknown,tuple):
+        raise ValueError("unknown dimensions require a tuple of identities")
+    for dim in explicitly_unknown:
+        _identity(dim)
+    if len(set(explicitly_unknown))!=len(explicitly_unknown):
+        raise ValueError("duplicate unknown dimension identity")
+    if set(explicitly_unknown)&set(before):
         raise ValueError("unknown dimension cannot be silently treated as zero")
     detail={};better=[];worse=[];unchanged=[]
     for dim in before:
@@ -53,11 +68,14 @@ def compare_dimensions(
         if (not isinstance(old,dict) or not isinstance(new,dict) or
             set(old)!={"unit","components"} or set(new)!={"unit","components"}):
             raise ValueError("dimension requires unit and actor/measure components")
-        if (old["unit"]!=new["unit"] or not isinstance(old["unit"],str) or not old["unit"]):
+        if old["unit"]!=new["unit"]:
             raise ValueError("within-dimension unit mismatch")
+        _identity(old["unit"])
         a=old["components"];z=new["components"]
         if not isinstance(a,dict) or not a or not isinstance(z,dict) or set(a)!=set(z):
             raise ValueError("dimension comparison requires same referenced components")
+        for key in (*a,*z):
+            _identity(key)
         changes={k:_fraction(z[k])-_fraction(a[k]) for k in a}
         good=any((v>0 if direction=="INCREASE" else v<0) for v in changes.values())
         bad=any((v<0 if direction=="INCREASE" else v>0) for v in changes.values())
