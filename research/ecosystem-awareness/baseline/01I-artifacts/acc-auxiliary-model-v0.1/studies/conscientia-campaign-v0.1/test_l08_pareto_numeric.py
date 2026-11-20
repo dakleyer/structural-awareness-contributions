@@ -7,12 +7,28 @@ import json
 from pathlib import Path
 import unittest
 
-from l08_robustness import pareto, run
+from l08_robustness import pareto, run, validate
 
 HERE = Path(__file__).resolve().parent
 
 
 class ParetoNumericContractTests(unittest.TestCase):
+    def test_equivalent_probability_encodings_are_not_distinct_grid_points(self):
+        original = json.loads((HERE / "L08_PROTOCOL.json").read_text(encoding="utf-8"))
+        for grid in (("0", "0/1", "1"), ("0", "1/2", "0.50", "1"),
+                     ("0", "1", "1.0")):
+            manifest = deepcopy(original)
+            manifest["accuracy_grid"] = list(grid)
+            with self.subTest(grid=grid), self.assertRaisesRegex(ValueError, "duplicate grid"):
+                validate(manifest)
+
+    def test_close_but_distinct_rational_grid_points_are_preserved(self):
+        manifest = json.loads((HERE / "L08_PROTOCOL.json").read_text(encoding="utf-8"))
+        manifest["accuracy_grid"] = ["0", "1/3", "0.3333333333333333333333333334", "1"]
+        original = deepcopy(manifest)
+        validate(manifest)
+        self.assertEqual(manifest, original)
+
     def test_nonfinite_unknown_and_boolean_axes_cannot_enter_a_front(self):
         for invalid in (None, "UNKNOWN", True, False, float("nan"),
                         float("inf"), -float("inf"), Decimal("NaN"),
