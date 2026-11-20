@@ -1,0 +1,1588 @@
+{
+  "cases": [
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG01-QUALIFIED-NEAR-OPTIMUM",
+      "notes": "B certifies a nearby partial improvement, not the global optimum",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 0.4,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 0.5
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 0.5
+      },
+      "id": "AG02-LOW-CAPABILITY-SAME-A",
+      "notes": "Identical current A; no advantageous reallocation",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 0.5
+      }
+    },
+    {
+      "Q": null,
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG03-A-ONLY-Q-ABSENT",
+      "notes": "No Q; traditional directed information may still exist",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG04-Q-REVIEW-NO-EXECUTION",
+      "notes": "Second-order visible but no physically executable joint path",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": false,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG05-NO-A-ROLE-CHANGE",
+      "notes": "Metamorphosis absent from A: the protocol cannot manufacture capabilities",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": false,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "CE-ANTS",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG06-NO-DONOR-RELEASE-CAPABILITY",
+      "notes": "Declining local output without a predeclared release is not authorized",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": false,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "CE-SOLIDARITY",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG07-DONOR-REFUSES",
+      "notes": "No forced functional solidarity or sacrifice",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": false,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG08-META-OWNER-LACKS-AUTHORITY",
+      "notes": "Meta process observes but cannot assign rights",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": false,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": true,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG09-MATERIAL-D-UNRESOLVED",
+      "notes": "Material D remains beyond an effective assessment route",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": true,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG10-D-OTHER-SCOPE-UNPERTINENT",
+      "notes": "An unrelated D does not cause blanket HOLD",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 0.5
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 0.5
+      },
+      "id": "AG11-BOGUS-B-CERTIFICATE",
+      "notes": "A syntactically correct Q may lie; real output can fall",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 0.5
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 8
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG12-EXPIRED-B",
+      "notes": "No automatic permission from obsolete signal",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "different-vendor-contract",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG13-WRONG-SCOPE",
+      "notes": "Partial B cannot be transferred across incompatible scope",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "C",
+        "lower_rate": null,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG14-UNCHARACTERIZED-C",
+      "notes": "C is a grounded exploration avenue without a usable ROI guarantee",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "D",
+        "lower_rate": null,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG15-D-NOT-A-MARGINAL",
+      "notes": "D is not a variable with a known rate",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 1.5,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG16-EXCESSIVE-Q-MAINTENANCE",
+      "notes": "Acquiring Q may be net worse than skipping it",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG17-RECONFIGURATION-CONSUMES-MOST",
+      "notes": "True physical potential does not imply cheap/continuous path",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 1.8,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 0.1,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG18-EFFICIENT-DIRECTED-PEER",
+      "notes": "Conventional peer with genuine effective inspection can win",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-CORRESPONDENCE",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 0.1,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG19-FULL-A-CHEAP",
+      "notes": "When whole-A information is actually inexpensive it may dominate",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": false,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG20-FULL-A-UNAVAILABLE",
+      "notes": "No omniscient comparator within the profile",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": false,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG21-DIRECTED-PEER-UNAVAILABLE",
+      "notes": "Strong targeted competitor must have an actual instrument",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-CORRESPONDENCE",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.05,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG22-CONVENTIONAL-EQUIVALENT-CHEAP",
+      "notes": "A conventional implementation of Q deserves full credit",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG23-AGENTIC-LOW-REWRITE-COST",
+      "notes": "A parameter scenario, not a measured cost superiority",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.1,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "CE-CORRESPONDENCE",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG24-LEGACY-HIGH-REWRITE-COST",
+      "notes": "Legacy/human reconfiguration overhead parameter; no population claim",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 1.8,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "CE-CORRESPONDENCE",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG25-MISSION-HAS-ALREADY-BEEN-MET",
+      "notes": "Meeting service mission does not imply optimizing all functions",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 9,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG26-NO-UNRESTRICTED-DONOR",
+      "notes": "Donor indispensable floor restricts options; no invented reserve",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 5.5,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG27-THIRD-PARTY-REVIEW-LIMIT",
+      "notes": "Social governance cannot be overwritten by meta decision",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": false,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": false,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG28-BARRED-PRIVATE-EVIDENCE",
+      "notes": "Unattributed Q gives no justified claim",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.01,
+        "kind": "B",
+        "lower_rate": 1.6,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": true,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 0.5
+      },
+      "full_A": {
+        "available": true,
+        "cost": 8.0,
+        "fully_measured_rate": 0.5
+      },
+      "id": "AG29-CHEAP-Q-BUT-WRONG-WORLD",
+      "notes": "Low cost of false B does not make it true",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 0.5
+      }
+    },
+    {
+      "Q": {
+        "cost": 0.3,
+        "kind": "C",
+        "lower_rate": null,
+        "material_D_for_question": false,
+        "origin": "recipient's characterized B capacity margin",
+        "scope": "vendor-ecosystem-v1",
+        "source_named": true,
+        "transfer_ceiling": 2,
+        "valid_until": 20
+      },
+      "directed": {
+        "available": false,
+        "cost": 1.2,
+        "equivalent_Q_cost": 0.3,
+        "measured_rate": 2.0
+      },
+      "full_A": {
+        "available": false,
+        "cost": 8.0,
+        "fully_measured_rate": 2.0
+      },
+      "id": "AG30-SHARED-PROTOCOL-BUT-UNCHARACTERIZED-Q",
+      "notes": "Residual cannot be turned into A by desire",
+      "public": {
+        "donor_current": 6,
+        "donor_marginal_rate": 1,
+        "donor_minimum": 2,
+        "joint_protocol_available": true,
+        "known_upper_rate_bound": 2.5,
+        "material_D_for_joint_decision": false,
+        "meta_owner_authority": true,
+        "metamorph_declared_in_A": true,
+        "mission_target": 12,
+        "overhead_resources": 0.25,
+        "recipient_current": 4,
+        "release_consent": true,
+        "release_declared_in_A": true,
+        "scope": "vendor-ecosystem-v1",
+        "total_resources": 10,
+        "transfer_maximum": 4
+      },
+      "source_evidence_level": "CONCEPTUAL_SOURCE_THEN_SYNTHETIC_FIXTURE",
+      "source_ids": [
+        "ACC-00M",
+        "ACC-00N",
+        "CE-SCHEME",
+        "CE-WORKBENCH"
+      ],
+      "truth_private": {
+        "recipient_incremental_rate": 2.0
+      }
+    }
+  ],
+  "evidence": "SYNTHETIC_AUTHOR_INSPIRED_CASES_NOT_REAL_AGENT_RUNS",
+  "schema": "ACC-AGENTIC-REDUCTION-v0.1"
+}

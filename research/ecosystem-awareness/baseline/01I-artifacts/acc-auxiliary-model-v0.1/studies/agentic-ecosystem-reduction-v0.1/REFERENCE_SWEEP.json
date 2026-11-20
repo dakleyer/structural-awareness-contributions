@@ -1,0 +1,2762 @@
+{
+  "co_best_counts": {
+    "A_ONLY": 107,
+    "CONVENTIONAL_DIRECTED": 39,
+    "Q_META_PROTOCOL": 14
+  },
+  "exclusive_winners": {
+    "A_ONLY": 107,
+    "CONVENTIONAL_DIRECTED": 39,
+    "Q_META_PROTOCOL": 14
+  },
+  "n_cases": 160,
+  "param_ranges": {
+    "Q_price": [
+      0.05,
+      0.3,
+      0.8,
+      1.5
+    ],
+    "coordination_overhead": [
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      1.5
+    ],
+    "directed_peer_price": [
+      0.1,
+      1.0,
+      3.0,
+      5.0
+    ],
+    "truth_rate": [
+      0.6,
+      2.0
+    ]
+  },
+  "scenarios": [
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.1,
+      "id": "SW-0.6-0.1-0.05-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.1,
+      "id": "SW-0.6-0.1-0.05-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.1,
+      "id": "SW-0.6-0.1-0.05-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.1,
+      "id": "SW-0.6-0.1-0.05-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.1,
+      "id": "SW-0.6-0.1-0.3-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.1,
+      "id": "SW-0.6-0.1-0.3-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.1,
+      "id": "SW-0.6-0.1-0.3-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.1,
+      "id": "SW-0.6-0.1-0.3-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.1,
+      "id": "SW-0.6-0.1-0.8-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.1,
+      "id": "SW-0.6-0.1-0.8-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.1,
+      "id": "SW-0.6-0.1-0.8-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.1,
+      "id": "SW-0.6-0.1-0.8-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.1,
+      "id": "SW-0.6-0.1-1.5-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.1,
+      "id": "SW-0.6-0.1-1.5-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.1,
+      "id": "SW-0.6-0.1-1.5-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.1,
+      "id": "SW-0.6-0.1-1.5-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.25,
+      "id": "SW-0.6-0.25-0.05-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.25,
+      "id": "SW-0.6-0.25-0.05-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.25,
+      "id": "SW-0.6-0.25-0.05-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.25,
+      "id": "SW-0.6-0.25-0.05-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.25,
+      "id": "SW-0.6-0.25-0.3-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.25,
+      "id": "SW-0.6-0.25-0.3-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.25,
+      "id": "SW-0.6-0.25-0.3-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.25,
+      "id": "SW-0.6-0.25-0.3-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.25,
+      "id": "SW-0.6-0.25-0.8-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.25,
+      "id": "SW-0.6-0.25-0.8-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.25,
+      "id": "SW-0.6-0.25-0.8-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.25,
+      "id": "SW-0.6-0.25-0.8-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.25,
+      "id": "SW-0.6-0.25-1.5-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.25,
+      "id": "SW-0.6-0.25-1.5-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.25,
+      "id": "SW-0.6-0.25-1.5-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.25,
+      "id": "SW-0.6-0.25-1.5-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.5,
+      "id": "SW-0.6-0.5-0.05-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.5,
+      "id": "SW-0.6-0.5-0.05-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.5,
+      "id": "SW-0.6-0.5-0.05-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.5,
+      "id": "SW-0.6-0.5-0.05-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.5,
+      "id": "SW-0.6-0.5-0.3-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.5,
+      "id": "SW-0.6-0.5-0.3-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.5,
+      "id": "SW-0.6-0.5-0.3-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.5,
+      "id": "SW-0.6-0.5-0.3-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.5,
+      "id": "SW-0.6-0.5-0.8-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.5,
+      "id": "SW-0.6-0.5-0.8-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.5,
+      "id": "SW-0.6-0.5-0.8-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.5,
+      "id": "SW-0.6-0.5-0.8-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.5,
+      "id": "SW-0.6-0.5-1.5-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.5,
+      "id": "SW-0.6-0.5-1.5-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.5,
+      "id": "SW-0.6-0.5-1.5-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.5,
+      "id": "SW-0.6-0.5-1.5-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.75,
+      "id": "SW-0.6-0.75-0.05-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.75,
+      "id": "SW-0.6-0.75-0.05-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.75,
+      "id": "SW-0.6-0.75-0.05-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.75,
+      "id": "SW-0.6-0.75-0.05-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.75,
+      "id": "SW-0.6-0.75-0.3-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.75,
+      "id": "SW-0.6-0.75-0.3-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.75,
+      "id": "SW-0.6-0.75-0.3-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.75,
+      "id": "SW-0.6-0.75-0.3-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.75,
+      "id": "SW-0.6-0.75-0.8-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.75,
+      "id": "SW-0.6-0.75-0.8-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.75,
+      "id": "SW-0.6-0.75-0.8-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.75,
+      "id": "SW-0.6-0.75-0.8-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.75,
+      "id": "SW-0.6-0.75-1.5-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.75,
+      "id": "SW-0.6-0.75-1.5-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.75,
+      "id": "SW-0.6-0.75-1.5-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.75,
+      "id": "SW-0.6-0.75-1.5-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 1.5,
+      "id": "SW-0.6-1.5-0.05-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 1.5,
+      "id": "SW-0.6-1.5-0.05-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 1.5,
+      "id": "SW-0.6-1.5-0.05-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 1.5,
+      "id": "SW-0.6-1.5-0.05-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 1.5,
+      "id": "SW-0.6-1.5-0.3-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 1.5,
+      "id": "SW-0.6-1.5-0.3-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 1.5,
+      "id": "SW-0.6-1.5-0.3-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 1.5,
+      "id": "SW-0.6-1.5-0.3-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 1.5,
+      "id": "SW-0.6-1.5-0.8-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 1.5,
+      "id": "SW-0.6-1.5-0.8-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 1.5,
+      "id": "SW-0.6-1.5-0.8-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 1.5,
+      "id": "SW-0.6-1.5-0.8-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 1.5,
+      "id": "SW-0.6-1.5-1.5-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -0.1,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 1.5,
+      "id": "SW-0.6-1.5-1.5-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 1.5,
+      "id": "SW-0.6-1.5-1.5-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 1.5,
+      "id": "SW-0.6-1.5-1.5-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 0.6
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.1,
+      "id": "SW-2.0-0.1-0.05-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 3.7,
+        "Q_META_PROTOCOL": 1.75
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.1,
+      "id": "SW-2.0-0.1-0.05-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.8,
+        "Q_META_PROTOCOL": 1.75
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "Q_META_PROTOCOL"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.1,
+      "id": "SW-2.0-0.1-0.05-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 0.8,
+        "Q_META_PROTOCOL": 1.75
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "Q_META_PROTOCOL"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.1,
+      "id": "SW-2.0-0.1-0.05-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": 1.75
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.1,
+      "id": "SW-2.0-0.1-0.3-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 3.7,
+        "Q_META_PROTOCOL": 1.5
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.1,
+      "id": "SW-2.0-0.1-0.3-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.8,
+        "Q_META_PROTOCOL": 1.5
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "Q_META_PROTOCOL"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.1,
+      "id": "SW-2.0-0.1-0.3-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 0.8,
+        "Q_META_PROTOCOL": 1.5
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "Q_META_PROTOCOL"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.1,
+      "id": "SW-2.0-0.1-0.3-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": 1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.1,
+      "id": "SW-2.0-0.1-0.8-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 3.7,
+        "Q_META_PROTOCOL": 1.0
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.1,
+      "id": "SW-2.0-0.1-0.8-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.8,
+        "Q_META_PROTOCOL": 1.0
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "Q_META_PROTOCOL"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.1,
+      "id": "SW-2.0-0.1-0.8-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 0.8,
+        "Q_META_PROTOCOL": 1.0
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "Q_META_PROTOCOL"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.1,
+      "id": "SW-2.0-0.1-0.8-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": 1.0
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.1,
+      "id": "SW-2.0-0.1-1.5-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 3.7,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.1,
+      "id": "SW-2.0-0.1-1.5-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.8,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.1,
+      "id": "SW-2.0-0.1-1.5-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 0.8,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.1,
+      "id": "SW-2.0-0.1-1.5-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.25,
+      "id": "SW-2.0-0.25-0.05-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 3.4,
+        "Q_META_PROTOCOL": 1.45
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.25,
+      "id": "SW-2.0-0.25-0.05-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.5,
+        "Q_META_PROTOCOL": 1.45
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "Q_META_PROTOCOL"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.25,
+      "id": "SW-2.0-0.25-0.05-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 0.5,
+        "Q_META_PROTOCOL": 1.45
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "Q_META_PROTOCOL"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.25,
+      "id": "SW-2.0-0.25-0.05-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": 1.45
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.25,
+      "id": "SW-2.0-0.25-0.3-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 3.4,
+        "Q_META_PROTOCOL": 1.2
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.25,
+      "id": "SW-2.0-0.25-0.3-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.5,
+        "Q_META_PROTOCOL": 1.2
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "Q_META_PROTOCOL"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.25,
+      "id": "SW-2.0-0.25-0.3-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 0.5,
+        "Q_META_PROTOCOL": 1.2
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "Q_META_PROTOCOL"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.25,
+      "id": "SW-2.0-0.25-0.3-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": 1.2
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.25,
+      "id": "SW-2.0-0.25-0.8-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 3.4,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.25,
+      "id": "SW-2.0-0.25-0.8-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.5,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.25,
+      "id": "SW-2.0-0.25-0.8-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 0.5,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.25,
+      "id": "SW-2.0-0.25-0.8-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.25,
+      "id": "SW-2.0-0.25-1.5-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 3.4,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.25,
+      "id": "SW-2.0-0.25-1.5-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.5,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.25,
+      "id": "SW-2.0-0.25-1.5-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 0.5,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.25,
+      "id": "SW-2.0-0.25-1.5-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.5,
+      "id": "SW-2.0-0.5-0.05-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.9,
+        "Q_META_PROTOCOL": 0.95
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.5,
+      "id": "SW-2.0-0.5-0.05-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.0,
+        "Q_META_PROTOCOL": 0.95
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "Q_META_PROTOCOL"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.5,
+      "id": "SW-2.0-0.5-0.05-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": 0.95
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "Q_META_PROTOCOL"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.5,
+      "id": "SW-2.0-0.5-0.05-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": 0.95
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.5,
+      "id": "SW-2.0-0.5-0.3-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.9,
+        "Q_META_PROTOCOL": 0.7
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.5,
+      "id": "SW-2.0-0.5-0.3-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.0,
+        "Q_META_PROTOCOL": 0.7
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "Q_META_PROTOCOL"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.5,
+      "id": "SW-2.0-0.5-0.3-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": 0.7
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": true,
+      "best_arms": [
+        "Q_META_PROTOCOL"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.5,
+      "id": "SW-2.0-0.5-0.3-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": 0.7
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.5,
+      "id": "SW-2.0-0.5-0.8-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.9,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.5,
+      "id": "SW-2.0-0.5-0.8-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.5,
+      "id": "SW-2.0-0.5-0.8-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.5,
+      "id": "SW-2.0-0.5-0.8-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.5,
+      "id": "SW-2.0-0.5-1.5-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.9,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.5,
+      "id": "SW-2.0-0.5-1.5-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.5,
+      "id": "SW-2.0-0.5-1.5-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.5,
+      "id": "SW-2.0-0.5-1.5-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.75,
+      "id": "SW-2.0-0.75-0.05-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.4,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.75,
+      "id": "SW-2.0-0.75-0.05-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 1.5,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.75,
+      "id": "SW-2.0-0.75-0.05-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.75,
+      "id": "SW-2.0-0.75-0.05-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.75,
+      "id": "SW-2.0-0.75-0.3-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.4,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.75,
+      "id": "SW-2.0-0.75-0.3-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 1.5,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.75,
+      "id": "SW-2.0-0.75-0.3-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.75,
+      "id": "SW-2.0-0.75-0.3-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.75,
+      "id": "SW-2.0-0.75-0.8-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.4,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.75,
+      "id": "SW-2.0-0.75-0.8-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 1.5,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.75,
+      "id": "SW-2.0-0.75-0.8-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.75,
+      "id": "SW-2.0-0.75-0.8-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 0.75,
+      "id": "SW-2.0-0.75-1.5-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 2.4,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 0.75,
+      "id": "SW-2.0-0.75-1.5-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 1.5,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 0.75,
+      "id": "SW-2.0-0.75-1.5-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 0.75,
+      "id": "SW-2.0-0.75-1.5-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 1.5,
+      "id": "SW-2.0-1.5-0.05-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 0.9,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 1.5,
+      "id": "SW-2.0-1.5-0.05-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 1.5,
+      "id": "SW-2.0-1.5-0.05-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.05,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 1.5,
+      "id": "SW-2.0-1.5-0.05-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.05
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 1.5,
+      "id": "SW-2.0-1.5-0.3-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 0.9,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 1.5,
+      "id": "SW-2.0-1.5-0.3-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 1.5,
+      "id": "SW-2.0-1.5-0.3-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.3,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 1.5,
+      "id": "SW-2.0-1.5-0.3-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.3
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 1.5,
+      "id": "SW-2.0-1.5-0.8-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 0.9,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 1.5,
+      "id": "SW-2.0-1.5-0.8-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 1.5,
+      "id": "SW-2.0-1.5-0.8-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 0.8,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 1.5,
+      "id": "SW-2.0-1.5-0.8-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -0.8
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "CONVENTIONAL_DIRECTED"
+      ],
+      "conventional_directed_cost": 0.1,
+      "coordination_resources": 1.5,
+      "id": "SW-2.0-1.5-1.5-0.1",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": 0.9,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": true,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 1.0,
+      "coordination_resources": 1.5,
+      "id": "SW-2.0-1.5-1.5-1.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -1.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 3.0,
+      "coordination_resources": 1.5,
+      "id": "SW-2.0-1.5-1.5-3.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -3.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    },
+    {
+      "Q_cost": 1.5,
+      "Q_improvement_physical": false,
+      "best_arms": [
+        "A_ONLY"
+      ],
+      "conventional_directed_cost": 5.0,
+      "coordination_resources": 1.5,
+      "id": "SW-2.0-1.5-1.5-5.0",
+      "net_gain_vs_A_only": {
+        "A_ONLY": 0.0,
+        "CONVENTIONAL_DIRECTED": -5.0,
+        "Q_META_PROTOCOL": -1.5
+      },
+      "peer_improvement_physical": false,
+      "rate_PRIVATE_for_score": 2.0
+    }
+  ],
+  "schema": "ACC-AGENTIC-PARAM-SWEEP-v0.1",
+  "warning": "SYNTHETIC PARAMETER GRID, not observed relative costs or prevalence; truthful B assumed except adverse cases in base suite."
+}
