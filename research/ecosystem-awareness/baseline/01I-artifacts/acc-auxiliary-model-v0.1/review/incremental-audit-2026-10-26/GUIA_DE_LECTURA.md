@@ -285,6 +285,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 37 | 20 nov | Claude | Recepción de L-01 (#83): cota fuera del codominio rechazada, cotas válidas sin cambio; L-01 respondido | [ronda 37](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-37) |
 | 38 | 20 nov | Claude | Óptimos repetidos en #69, corregidos en #84; comprobado sobre 1 528 casos aleatorios | [ronda 38](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-38) |
 | 39 | 20 nov | Claude | Indicadores de evidencia no booleanos en #60, corregidos en #85; los sustitutos que antes llegaban al estado positivo ya no llegan | [ronda 39](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-39) |
+| 40 | 21 nov | Claude | Fe de erratas: en K-01, el 10 de la ronda 36 es valor sintético (5 × 2), no producción; seis defectos de comparación corregidos en #86–#91 sin efecto en las cifras publicadas | [ronda 40](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-40) |
 
 <a id="11-los-79-registros-uno-por-uno"></a>
 <a id="11-los-82-registros-uno-por-uno"></a>

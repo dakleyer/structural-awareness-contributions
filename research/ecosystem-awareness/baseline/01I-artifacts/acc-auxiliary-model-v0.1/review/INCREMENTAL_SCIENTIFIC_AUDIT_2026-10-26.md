@@ -69,6 +69,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 37 | 2026-11-20 | [Recepción de L-01 (PR #83)](#ronda-37) | L-01 respondido |
 | 38 | 2026-11-20 | [Óptimos repetidos en #69 (PR #84)](#ronda-38) | Defecto de #69 encontrado por su autor y corregido; sin registro nuevo |
 | 39 | 2026-11-20 | [Indicadores de evidencia no booleanos en #60 (PR #85)](#ronda-39) | Defecto encontrado por el autor y corregido; sin registro nuevo |
+| 40 | 2026-11-21 | [Fe de erratas de la ronda 36 y seis correcciones técnicas (#86–#91)](#ronda-40) | La ronda 36 llamó «producción» a un valor sintético; seis defectos de comparación corregidos por el autor; sin registros nuevos |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1474,3 +1475,36 @@ Pasan las 56 pruebas del estudio (51 previas y 5 nuevas) y la CI está en verde.
 Pasan las 109 pruebas del directorio y la CI está en verde.
 
 **Estado:** no hay registro nuevo, por el mismo criterio que en la ronda 38: defecto encontrado y corregido por el autor en una rama abierta. Se cerrará con #60, #83 y #85 cuando estén en `main`.
+
+
+<a id="ronda-40"></a>
+
+## Ronda 40 — fe de erratas de la ronda 36 y seis correcciones técnicas en #86–#91 (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** siete comentarios en PR #58, escritos por Codex, asistencia de IA, desde la cuenta del propietario.
+
+### Fe de erratas de la ronda 36 (#89)
+
+La ronda 36 escribió «B y la inspección dirigida producen lo mismo (10)» para K-01, y lo mismo dijo el resumen enviado a Iván. **Es incorrecto.** En `intrinsic_abcd.py` (#66, `7c9043e0`, línea 359), el 10 es `gross_realized_value_SYNTHETIC = value_per_unit × promised_increment` = 5 × 2. El incremento físico (`physical_increment_PRIVATE_ORACLE`) es 2 en los dos brazos. La auditoría reprodujo la etiqueta de #81 sin contrastarla con el campo de origen. Lo corrige #89 (`b14ee957`), del mismo autor que #81.
+
+**Qué se mantiene.** La comparación de precios de K-01 sigue siendo válida con valor sintético igual (10) y con incremento físico igual (2): 9/4 frente a 3, 3 frente a 3 y 13/4 frente a 3. La lectura de L-05 en la ronda 36 no se ve afectada, porque se refiere al modelo agéntico de #57, donde `output` sí es producción física medida por el árbitro. Comprobado: en #89 las cifras, costes, estados y fronteras de los 286 casos son idénticos a los de #81; solo cambian la unidad del eje social, que pasa a `synthetic_value_units`, y el nombre del campo de ganancia, que pasa a `measurement_gain_vs_baseline`. Pasan 17 pruebas en local.
+
+El texto de la ronda 36 se conserva tal como se escribió; esta nota lo corrige.
+
+### Seis correcciones técnicas en los comparadores de L-08 (#86, #87, #88, #90, #91)
+
+Son defectos encontrados por el propio autor en el código de comparación añadido en #72. Se comprobaron con `regressions_on_parent.py`: cada módulo de regresión nuevo pasa en su PR y **falla al copiarlo a su padre**, es decir, reproduce el defecto.
+
+| PR | Defecto | Prueba en el padre / en el PR |
+|---|---|---|
+| #86 | `pareto` dejaba en la frontera un punto con NaN y comparaba «10» y «2» como texto | 9 fallos / OK |
+| #87 | La rejilla de probabilidades admitía alias del mismo valor («0» y «0/1», «1/2» y «0.50») | 3 fallos / OK |
+| #88 | El adaptador agéntico declaraba los recursos conservados aunque un componente se hubiera inflado, si el total repetido coincidía | 7 fallos / OK |
+| #90 | El resumen ordenaba probabilidades exactas por su `float`, que empata 1/3 con 0,3333…4 | 3 fallos / OK |
+| #91 | `two_arm_order` aceptaba NaN, devolvía «incomparable», y comparaba «10» y «2» como texto | 46 fallos / OK |
+
+Sondeo propio en #72 frente a #91: `pareto` con NaN devolvía los dos brazos en la frontera y ahora rechaza la entrada. Con «10» frente a «2», tanto `pareto` como `two_arm_order` invertían el resultado, y ahora lo dan bien. `two_arm_order` con NaN daba «incomparable» y ahora rechaza la entrada.
+
+**Efecto en los resultados publicados: ninguno.** Las entradas reales eran enteros exactos. El recuento independiente de L-08 (`l08_independent_panel.py`) sobre #91 da las mismas cifras que en la ronda 30: 13/9/26/1 y 19 de 49 con acceso igualado, y 15/22/12 y 6 de 49 con el acceso original.
+
+**Estado:** sin registros nuevos ni cambios de estado, por el criterio de las rondas 38 y 39. Totales: 89 registros. 32 abiertos, 30 respondidos, 12 cerrados o verificados, 10 propuestas y 5 retirados o informativos.
