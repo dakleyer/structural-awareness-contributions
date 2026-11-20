@@ -1,0 +1,43 @@
+name: ACC agentic physical and information evidence
+
+on:
+  pull_request:
+    paths:
+      - 'research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/**'
+      - 'research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1/unit_safe_envelope.py'
+      - '.github/workflows/acc-agentic-unit-safe-evidence.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  original-and-corrected-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Preserve original source and frozen results
+        run: |
+          python - <<'PY'
+          import subprocess
+          pins = {"research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/CASES.json":"be77afef2a1bd3000bbfd1dca373b66db355b5db","research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/REFERENCE_SWEEP.json":"fc89cee79327169f094a86dd3bdaa7ec151ecd2f","research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/REFERENCE_SYNTHETIC_RESULTS.json":"eadb3f886b8ca5c1af4b596a03ba8576fbe68da4","research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/agentic_reduction.py":"be7b04af92f3d2dc29b3f9dc79e2052b7418d602","research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1/intrinsic_abcd.py":"a8540fc02e713dad7e181b7522b334dbd9f95e90"}
+          for path, expected in pins.items():
+              if subprocess.check_output(["git", "hash-object", path], text=True).strip() != expected:
+                  raise SystemExit("original source changed: " + path)
+          PY
+      - name: Verify original and corrected agentic evidence
+        working-directory: research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1
+        run: |
+          python -B -m unittest test_agentic_reduction test_sensitivity test_residual_cartography_stage test_unit_safe_evidence -v
+          python -B verify.py
+      - name: Produce physical and information evidence
+        run: python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/agentic-ecosystem-reduction-v0.1/unit_safe_evidence.py > unit-safe-agentic-evidence.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: unit-safe-agentic-evidence
+          path: unit-safe-agentic-evidence.json
+          retention-days: 7
+
