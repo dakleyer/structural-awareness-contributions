@@ -213,8 +213,9 @@ def pareto(
 
 
 def two_arm_order(first:Mapping[str,Any],second:Mapping[str,Any])->str:
-    x=(first["invalid_proposals"],first["missed_valid_opportunities"])
-    y=(second["invalid_proposals"],second["missed_valid_opportunities"])
+    fields=("invalid_proposals","missed_valid_opportunities")
+    x=tuple(rational(first[key],name=key) for key in fields)
+    y=tuple(rational(second[key],name=key) for key in fields)
     if all(a<=b for a,b in zip(x,y)) and any(a<b for a,b in zip(x,y)):
         return CLASSIFICATIONS[0]
     if all(b<=a for a,b in zip(x,y)) and any(b<a for a,b in zip(x,y)):
