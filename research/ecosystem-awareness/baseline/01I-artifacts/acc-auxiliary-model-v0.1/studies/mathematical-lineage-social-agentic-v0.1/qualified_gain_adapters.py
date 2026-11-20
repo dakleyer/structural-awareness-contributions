@@ -112,3 +112,19 @@ def geometry_score_bounds(
         return Fraction(1) - sum((1 - x) ** 2 for x in xs) / 4
 
     return score(lows), score(highs)
+
+
+def geometry_score_lower_bound(value: Any) -> Fraction:
+    """Validate a supplied lower bound against this adapter's own codomain.
+
+    G on the declared feature box cannot exceed its computed maximum. A
+    bound above that maximum is contradictory evidence, not a positive gain.
+    A loose bound below the minimum remains conservative and is preserved.
+    This does not restrict unrelated metrics handled by ValueInterval.
+    """
+    bound = exact_number(value)
+    _, maximum = geometry_score_bounds([(0, 1)] * 4)
+    if bound > maximum:
+        raise ValueError("geometry lower bound exceeds attainable maximum")
+    return bound
+
