@@ -29,3 +29,6 @@ Impact high for evidence-grounded positioning; risk medium because premium/uniqu
 ## Incorporation record
 
 New authored supporting sourcebook, reference library and typed source register, directly authorized by the owner. There was no prior live sourcebook body to replace. The exact final authored candidate is the companion source file; internal preimages of draft corrections remain in the task batch. No experiment, scoring threshold, frozen source or normative stage was modified. Future changes must preserve this source and review epoch.
+
+> [!NOTE]
+> **Orientación a la función evolutiva — sin cuarto método DDS.** El [puente SA→EA→EP](../structural-awareness/SA_EA_EP_ECOSYSTEM_EVOLUTION_FOUNDATIONS_REQUIREMENTS_DDS_v0.1.md) distingue Stage A (semántica SA/00M/00N, Foundation y requisitos), Stage B (cinco funciones dentro de ocho módulos EP) y Stage C (efecto real comparado). El índice DDS y **UC21** ya proveen método y puertas; **00D v0.2/v0.3** son el programa comparativo. Las antiguas familias locales FV0–FV5 se han **despromovido** como ensayos candidatos; sus preguntas se leen dentro de **00D Q2/Q3**. Esta nota no altera las 34 referencias ni el alcance del sourcebook.

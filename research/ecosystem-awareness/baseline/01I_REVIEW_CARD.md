@@ -5,3 +5,6 @@
 Primera, tercera y cuarta lecturas textuales realizadas; evidencia/relaciones todavía abiertas. Quinta específica realizada en el alcance que declara la VNext; no equivale a implementación probada, adopción o permiso de reutilizar toda pieza. Sexta global pendiente. Una lectura simulada del mismo asistente no es revisión humana independiente. No aplicar cambios de contenido sin decisión concreta de Iván.
 
 Fuente leída en commit `26eb9ee1e5cccb348abe26a71f37d18a947af6bb`, blob `9477861ecb59f991a5bcc6957459c3332cb714f1`; el original no se cambia para insertar esta nota.
+
+> [!NOTE]
+> **ACC conserva el contrato de ciudadanía y su autoridad.** El [mapa de función ecosistémica](../../structural-awareness/SA_EA_EP_ECOSYSTEM_EVOLUTION_FOUNDATIONS_REQUIREMENTS_DDS_v0.1.md) propone que una relajación de regla puede permitir evaluación nueva **solo bajo una versión de condiciones diferente**; ello no revoca la negativa anterior ni autoriza el reposicionamiento. Señal, acuerdo del dueño, rol efectivo, linaje y ejecución son estados distintos. Reusar **UC21 S4 y 00D M8/Q0**, sin nuevos permisos o pruebas automáticas.
