@@ -38,7 +38,8 @@ def result(case):
     if t=='distribution':
         u=case['delta_utils']; floors=case['credit_minimums']; total=finite(case['credit_total'],'credit_total')
         if len(u)!=len(floors) or total<=0: raise ValueError('incompatible credits input')
-        req=sum(finite(v,'floor') for v in floors);fine=all(v>=0 for v in u)
+        for v in u:finite(v,'delta_utils')
+        req=sum(finite(v,'floor') for v in floors);finite(req,'credit_demand');fine=all(v>=0 for v in u)
         return res('RELATIVE_CREDIT_FEASIBLE' if req<=total else 'RELATIVE_CREDIT_IMPOSSIBLE',absolute_pareto=fine and any(v>0 for v in u),credit_demand=req,credit_available=total,credit_shortfall=max(0,req-total))
     if t=='nonmonotone':
         vals=case['table']; start=case['start'];assert 0<=start<len(vals)
@@ -94,7 +95,11 @@ def result(case):
             return res('SUPPORTED_AND_AUTHORIZED_CHANGE',mission_change=True)
         return res('UNSUPPORTED_MISSION_CHANGE',mission_change=False,nominal_sources=case['reported_independent'],source_independent=case['actual_independent'])
     if t=='q_cost':
+        for key in ('targeted_cost','full_cost')+(('qualified_cost',) if case['valid_Q'] is True else ()):
+            finite(case[key],key)
         v=finite(case['decision_value'],'value');modes={'A_ONLY':0.0,'SOURCE_B':v-case['qualified_cost'] if case['valid_Q'] is True else None,'TARGETED_CONVENTIONAL':v-case['targeted_cost'],'FULL_A_EXPANSION':v-case['full_cost']}
+        for name,value in modes.items():
+            if value is not None:finite(value,name)
         # A valid Q does not mean full new throughput is available in all worlds:
         # this is a stipulated maximal value conditional on a truly enabling world.
         win=max((name for name in modes if modes[name] is not None), key=lambda key:modes[key]);return res('COST_COMPARISON_IF_BENEFIT_REALIZED',net_values={k:rnd(x) if x is not None else None for k,x in modes.items()},best_mode=win,certificate_qualified=case['valid_Q'])
