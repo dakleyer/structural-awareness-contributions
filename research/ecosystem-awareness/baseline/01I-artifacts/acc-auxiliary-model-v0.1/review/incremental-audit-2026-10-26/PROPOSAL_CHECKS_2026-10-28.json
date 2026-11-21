@@ -1,0 +1,20 @@
+[
+  {
+    "label": "PR60",
+    "scope": "private candidate only; no published source edit",
+    "exit": 0,
+    "output": "----------------------------------------------------------------------\nRan 30 tests in 0.004s\n\nOK\n"
+  },
+  {
+    "label": "PR64",
+    "scope": "private candidate only; no published source edit",
+    "exit": 1,
+    "output": "======================================================================\nFAIL: test_binary_rounding_does_not_hide_joint_contradiction (test_metacognition.LocalSufficiency.test_binary_rounding_does_not_hide_joint_contradiction)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"<private working copy>\\private_candidate_PR64\\test_metacognition.py\", line 140, in test_binary_rounding_does_not_hide_joint_contradiction\n    self.assertEqual(result[\"local_answer_status\"],\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                     \"EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT\")\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 'LOCALLY_SUPPORTED_TRUE' != 'EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT'\n- LOCALLY_SUPPORTED_TRUE\n+ EVIDENCE_OR_ASSUMPTIONS_INCONSISTENT\n\n\n======================================================================\nFAIL: test_rounded_lower_bound_is_not_a_positive_certificate (test_metacognition.LocalSufficiency.test_rounded_lower_bound_is_not_a_positive_certificate)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"<private working copy>\\private_candidate_PR64\\test_metacognition.py\", line 147, in test_rounded_lower_bound_is_not_a_positive_certificate\n    self.assertEqual(result[\"local_answer_status\"],\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                     \"UNDETERMINED_FROM_AVAILABLE_EVIDENCE\")\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 'LOCALLY_SUPPORTED_TRUE' != 'UNDETERMINED_FROM_AVAILABLE_EVIDENCE'\n- LOCALLY_SUPPORTED_TRUE\n+ UNDETERMINED_FROM_AVAILABLE_EVIDENCE\n\n\n----------------------------------------------------------------------\nRan 70 tests in 0.006s\n\nFAILED (failures=2)\n"
+  },
+  {
+    "label": "PR58 old companion proposal",
+    "scope": "private candidate only; original source/reference unchanged",
+    "exit": 0,
+    "output": "32/32; JSON content equals pinned reference; stdout default creates no result/cache in package; existing output refused without truncation"
+  }
+]
