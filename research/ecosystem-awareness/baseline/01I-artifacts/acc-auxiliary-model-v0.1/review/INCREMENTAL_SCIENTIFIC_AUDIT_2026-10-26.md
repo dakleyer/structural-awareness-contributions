@@ -86,6 +86,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 54 | 2026-11-21 | [Inventario #81–#102 contrastado](#ronda-54) | 22 borradores abiertos con las cabeceras declaradas; ninguna corrección cambia una cifra publicada; sin registros nuevos |
 | 55 | 2026-11-21 | [Precisión de autoría](#ronda-55) | «El autor» de las rondas 38–53 es Codex, asistencia de IA, no una revisión manual de Iván; sin cambios de estado |
 | 56 | 2026-11-21 | [Operandos finitos (#103)](#ronda-56) | Un NaN en un coste ya no cambia la opción ganadora; utilidades infinitas y desbordamientos se rechazan; sin registros nuevos |
+| 57 | 2026-11-21 | [Muestras finitas en `closure` (#104) y L-13](#ronda-57) | #104 rechaza muestras no finitas; nuevo L-13: una constante de Lipschitz negativa certifica el predicado |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1938,3 +1939,36 @@ La campaña completa (46 casos) y el barrido de sensibilidad son idénticos. Pas
 **Alcance.** #103 cubre estas dos ramas. Codex, asistencia de IA, advierte de que no ha revisado todos los contratos numéricos del archivo. Por ejemplo, `network` y `entropy` usan sus propias comprobaciones.
 
 **Estado:** sin registros nuevos ni cambios de estado. La observación de la ronda 53 no tenía registro y queda atendida en rama. Se añade #103 al mapa del lote. Totales: 91 registros. 31 abiertos, 34 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-57"></a>
+
+## Ronda 57 — muestras finitas en `closure` (PR #104) y constante de regularidad negativa (L-13) (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #104 (`c0043e6e`) es un único commit sobre #103 en `215dbd12`. Toca la rama `closure` de `campaign.py` y añade una prueba.
+
+**Qué es `closure`.** Es la única familia de los casos adicionales que hace una inferencia matemática y no una mera clasificación; F-06 la destacó por eso. Parte de muestras con intervalos conocidos [l, u] en posiciones `pos` y de una constante de regularidad (Lipschitz) L. Con ellas acota el valor en un punto x: la cota inferior es max(l − L·|x − pos|) y la superior, min(u + L·|x − pos|). Después compara esas cotas con un umbral.
+
+**Qué corrige #104.** Pasa por `finite` cada posición y cada extremo de las muestras, y también cada proyección calculada. La vía sin regularidad (`L = None`) no cambia.
+
+**Comprobación** (`verification/closure_samples_check.py`):
+
+| Caso modificado | #103 | #104 |
+|---|---|---|
+| CLOSURE-01, cota superior de la primera muestra NaN | `SUPPORTED_IN_FRAME`, cotas [8, nan] | `ValueError` |
+| Una sola muestra [∞, ∞] | `SUPPORTED_IN_FRAME` | `ValueError` |
+| Una sola muestra [−∞, −∞] | `REFUTED_IN_FRAME` | `ValueError` |
+| Posición 10³⁰⁸ con L = 10³⁰⁸ (desbordamiento) | `UNDETERMINED` | `ValueError` |
+| Los tres casos publicados; CLOSURE-03 con muestra inutilizable | — | idénticos |
+
+La campaña completa y el barrido de sensibilidad son idénticos. Pasan las 88 pruebas y la CI está en verde.
+
+### Hallazgo nuevo: L puede ser negativa
+
+| ID | Estado | Hallazgo | Propuesta |
+|---|---|---|---|
+| <a id="l-13"></a>**L-13** | Baja · `ABIERTO` | **Una constante de regularidad negativa estrecha las cotas por debajo de lo que dicen las propias muestras y certifica el predicado.** Una constante de Lipschitz es, por definición, no negativa: mide cuánto *puede* cambiar el valor al alejarse de una muestra. `finite(L)` acepta L < 0, y entonces el término L·\|x − pos\| *suma* a la cota inferior y *resta* a la superior. Con las muestras de CLOSURE-02 ([9, 10] a distancia 1), L = 0,4 da cotas [8,6; 10,4] y `PREDICATE_UNDETERMINED` frente al umbral 9. En cambio, L = −0,4 da [9,4; 9,6], un intervalo más estrecho que el de cualquier muestra, y `PREDICATE_SUPPORTED_IN_FRAME`. Se reproduce igual en #103 y en #104, porque #104 no añade restricciones de signo a propósito. Con L = −1 el resultado es `INCONSISTENT_ASSUMPTIONS`, así que el efecto depende del valor. | Exigir L ≥ 0 (o L > 0, si el autor quiere excluir funciones constantes) antes de proyectar. No es una restricción nueva del modelo, sino la definición del supuesto que la rama ya declara. Añadir el caso L = −0,4 a las pruebas. Con las entradas publicadas (L = 1 o `None`) no cambia nada. |
+
+**Para quien no programa.** Es como estimar la temperatura de mañana a partir de la de hoy sabiendo que «como mucho cambia 2 grados». Si alguien escribe «como mucho cambia −2 grados», el cálculo concluye que mañana se sabe la temperatura con más precisión que hoy, lo cual no tiene sentido. El programa debería rechazar ese «−2».
+
+**Estado:** #104 queda reconocido sin cambio de estado (observación de la ronda 53 atendida en rama). Se abre **L-13** (Baja, `ABIERTO`). Totales: 92 registros. 32 abiertos, 34 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.

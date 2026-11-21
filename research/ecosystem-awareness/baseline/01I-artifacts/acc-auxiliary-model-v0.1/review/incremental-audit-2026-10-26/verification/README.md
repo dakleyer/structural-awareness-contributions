@@ -45,6 +45,7 @@ El script de reconfirmación de I-01 ya estaba en el PR: [`../reconfirm_I01_2026
 | [`m28_05_test_labels_check.py`](m28_05_test_labels_check.py) | M28-05 (IP-39, IP-40) | [52](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-52) | Árboles de #85 y #101 | AST de los dos módulos idéntico al devolver los nombres antiguos; cada prueba renombrada llama dos veces a la misma función con los mismos argumentos; suite de Theme 18 idéntica (109). Termina con 1 si algo falla |
 | [`l12_premises_check.py`](l12_premises_check.py) | L-12 | [53](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-53) | Árboles de #100 y #102 | Las tres ramas de L-12 y `attribution` dan estado positivo con «UNKNOWN» en #100 y no en #102; `False` conocido conservado; campaña y sensibilidad idénticas. Termina con 1 si algo falla |
 | [`finite_operands_check.py`](finite_operands_check.py) | #103 (observación de la ronda 53) | [56](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-56) | Árboles de #102 y #103 | Cuatro operandos no finitos clasificados en #102 y rechazados en #103; coste de Q no válida sin efecto; negativos y cero idénticos; campaña y sensibilidad idénticas. Termina con 1 si algo falla |
+| [`closure_samples_check.py`](closure_samples_check.py) | L-13; #104 | [57](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-57) | Árboles de #103 y #104 | Cuatro muestras no finitas clasificadas en #103 y rechazadas en #104; casos publicados idénticos; L-13 (L = −0,4 certifica) se reproduce en ambos. Termina con 1 si algo falla |
 | [`anchor_check.py`](anchor_check.py) | Herramienta | 14, 20, 21 | Cualquier `.md` | Enlaces `archivo.md#ancla` que no encuentran título ni `<a id>`. Termina con 1 si hay alguno roto |
 
 ## Cómo ejecutarlos
@@ -92,6 +93,7 @@ python3 -B $V/explicit_premises_check.py      $PR99 $PR100
 python3 -B $V/m28_05_test_labels_check.py     $PR85 $PR101
 python3 -B $V/l12_premises_check.py           $PR100 $PR102
 python3 -B $V/finite_operands_check.py        $PR102 $PR103
+python3 -B $V/closure_samples_check.py        $PR103 $PR104
 python3 -B $V/anchor_check.py                 $V/../GUIA_DE_LECTURA.md $V/../premium/*.md
 ```
 
@@ -145,6 +147,7 @@ m28_05_test_labels_check.py     2/2 modules AST-identical | 2/2 tests repeat the
 l12_premises_check.py           mission/q_cost/knowledge/attribution fixed | False kept | campaign + sensitivity identical | RESULT: PASS (PR #102, e6bd3a7c)
 explicit_premises_check.py      on #100 vs #102: B reports BAD by design (L-12 no longer reproduces; see ronda 53)
 finite_operands_check.py        4/4 non-finite rejected | inactive Q kept | negatives/zero identical | campaign + sensitivity identical | RESULT: PASS (PR #103, 215dbd12)
+closure_samples_check.py        4/4 non-finite rejected | published identical | L-13 L=-0.4 SUPPORTED on both | RESULT: PASS (PR #104, c0043e6e)
 m28_07_storage_check.py         5/5 storage controls kept on #97 | summary-only INFO exit 1 (label corrected, ronda 47) | RESULT: PASS (PR #97)
 anchor_check.py                 0 anclas rotas en la auditoría, la guía, el anexo y el kit premium
 ```
