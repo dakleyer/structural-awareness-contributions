@@ -41,6 +41,10 @@ def fixture_case(case_id: str = REFERENCE_AG01) -> dict:
     return matches[0]
 
 
+def _valid_event_id(value: object) -> bool:
+    return isinstance(value, str) and bool(value.strip())
+
+
 def local_claim(event: Observation, dimension: int) -> dict:
     """One observer sees only one numeric coordinate, not the four-coordinate event."""
     if dimension not in range(N_OBSERVERS):
@@ -49,7 +53,7 @@ def local_claim(event: Observation, dimension: int) -> dict:
     is_valid = (type(raw) in (int, float)
                 and math.isfinite(float(raw))
                 and 0.0 <= float(raw) <= 1.0
-                and bool(event.event_id)
+                and _valid_event_id(event.event_id)
                 and event.captured_before_admission is True)
     if not is_valid:
         return {"event_id": event.event_id,
@@ -67,6 +71,8 @@ def common_cartographic_label(claims: list[dict], *, source_scope: str) -> dict:
     """Signed negative local predicates only; UNKNOWN is never logical NOT A_i."""
     if len(claims) != N_OBSERVERS or not claims:
         return {"joint_region": False, "reason": "INCOMPLETE_VIEWS"}
+    if any(not _valid_event_id(c["event_id"]) for c in claims):
+        return {"joint_region": False, "reason": "INVALID_EVENT_ID"}
     event_ids = {c["event_id"] for c in claims}
     origins = {c["observer_id"] for c in claims}
     scopes = {c["source_scope"] for c in claims}
@@ -81,6 +87,7 @@ def common_cartographic_label(claims: list[dict], *, source_scope: str) -> dict:
 
 
 def qualified_event(event: Observation, *, required_scope: str) -> dict:
+    """Classify captured evidence; three_stages validates its arrival ticks."""
     if (event.first_capture_observer_id is not None
             and event.first_capture_observer_id not in
             {"observer-" + str(i) for i in range(N_OBSERVERS)}):
@@ -117,7 +124,13 @@ def three_stages(*, case_id: str = REFERENCE_AG01,
 
     Unlike the original AG01 Q_META_PROTOCOL this introduces an explicit,
     NEW candidate-arrival gate and class-to-Q link assumption.
+    Arrival ordering uses Observation.time's existing integer-tick contract.
     """
+    for event in events:
+        if type(event.time) is not int:
+            raise ValueError("arrival time must be an explicit integer tick")
+        if not _valid_event_id(event.event_id):
+            raise ValueError("event_id must be nonblank text")
     scenario = fixture_case(case_id)
     a_only = object_policy(scenario, "A_ONLY")
     q_review = object_policy(scenario, "Q_REVIEW_ONLY")
