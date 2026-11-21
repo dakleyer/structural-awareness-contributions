@@ -108,6 +108,7 @@ def result(case):
     if t=='closure':
         if case['L'] is None:return res('REGULARITY_NOT_ESTABLISHED',bounds=None)
         L=finite(case['L'],'L');x=finite(case['x'],'x');threshold=finite(case['threshold'],'threshold')
+        if L<0:raise ValueError('L: nonnegative Lipschitz constant required')
         for pos,l,u in case['samples']:
             finite(pos,'sample_position');finite(l,'sample_lower');finite(u,'sample_upper')
         lower=max(finite(l-L*abs(x-pos),'projected_lower') for pos,l,u in case['samples'])
