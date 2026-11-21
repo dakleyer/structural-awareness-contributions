@@ -223,13 +223,13 @@ class CandidateAdmissionResearchChecks(unittest.TestCase):
         self.assertIsNone(result["regime_signal"])
         self.assertEqual(result["execution"], "NEVER")
 
-    def test_strong_peer_with_same_evidence_ties(self):
+    def test_supplied_candidate_procedure_reproduces_fixture(self):
         args = dict(received_after_exchange=True,
                     source_to_value_link_qualified=True,
                     source_value_lower_bound=.84, action_authorized=True,
                     decision_budget_ok=True)
-        # Correct tie for identical algorithm and evidence; does not prove
-        # one architecture superior (or test adaptation cost).
+        # Repeating the supplied function checks deterministic reproduction.
+        # No independent acquisition, selection or adaptation is run here.
         self.assertEqual(assess_candidate(reports(), **args),
                          assess_candidate(reports(), **args))
 
