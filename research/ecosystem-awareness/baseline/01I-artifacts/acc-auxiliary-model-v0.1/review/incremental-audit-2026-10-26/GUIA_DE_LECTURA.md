@@ -298,8 +298,9 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 50 | 21 nov | Claude | #99: se elimina el cálculo muerto de F-07 en #54; resultados idénticos en 26 324 tablas y en la campaña completa; F-07 pasa a respondido | [ronda 50](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-50) |
 | 51 | 21 nov | Claude | #100: autorización, viabilidad y mismo servicio exigen `True`; las brechas, datos calculados. Nuevo L-12: «UNKNOWN» aún autoriza un cambio de misión y elige la fuente B en otras tres ramas | [ronda 51](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-51) |
 | 52 | 21 nov | Claude | #101: dos pruebas que repetían la misma función dejan de presentarse como comparación con un «peer»; M28-05 sigue abierto por su parte documental | [ronda 52](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-52) |
-| 53 | 21 nov | Claude | #102: «UNKNOWN» deja de autorizar un cambio de misión, de elegir la fuente B y de abrir la vía de validación; el autor halla y corrige además `attribution`. L-12 pasa a respondido | [ronda 53](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-53) |
+| 53 | 21 nov | Claude | #102: «UNKNOWN» deja de autorizar un cambio de misión, de elegir la fuente B y de abrir la vía de validación; Codex (asistencia de IA) halla y corrige además `attribution`. L-12 pasa a respondido | [ronda 53](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-53) |
 | 54 | 21 nov | Claude | Inventario de Codex de los 22 borradores #81–#102 contrastado con GitHub: cabeceras y dependencias coinciden con el [mapa del lote](#el-lote-de-correcciones-8197-añadido-en-la-ronda-48) | [ronda 54](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-54) |
+| 55 | 21 nov | Claude | Precisión de autoría: cuando las rondas 38–53 dicen «el autor» de los PR #84–#102, se refieren a Codex (asistencia de IA), no a una revisión manual de Iván | [ronda 55](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-55) |
 
 <a id="el-lote-de-correcciones-8197-añadido-en-la-ronda-48"></a>
 

@@ -84,6 +84,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 52 | 2026-11-21 | [M28-05, parte técnica, en #101](#ronda-52) | Dos pruebas dejan de llamarse «peer»: reproducen la misma función; parte documental pendiente; sin cambio de estado |
 | 53 | 2026-11-21 | [L-12 respondido en #102](#ronda-53) | `mission`, `q_cost`, `knowledge` y también `attribution` exigen premisas explícitas; L-12 pasa a respondido |
 | 54 | 2026-11-21 | [Inventario #81–#102 contrastado](#ronda-54) | 22 borradores abiertos con las cabeceras declaradas; ninguna corrección cambia una cifra publicada; sin registros nuevos |
+| 55 | 2026-11-21 | [Precisión de autoría](#ronda-55) | «El autor» de las rondas 38–53 es Codex, asistencia de IA, no una revisión manual de Iván; sin cambios de estado |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1878,5 +1879,30 @@ La campaña completa (46 casos) y el barrido de sensibilidad son idénticos. Pas
 **Lo que no se verifica aquí.** El orden de retirada y las referencias cruzadas de CI son instrucciones operativas para quien decida. No se han ejecutado.
 
 **Lectura de conjunto.** Las 22 correcciones son de validación de entradas, nombres y almacenamiento. Ninguna cambia una conclusión numérica publicada. Cinco responden registros de la auditoría (L-01, M28-07, L-11, F-07 y L-12), una atiende la parte técnica de M28-05 y dos dieron lugar a fe de erratas del auditor (rondas 40 y 47).
+
+**Estado:** sin registros nuevos ni cambios de estado. Totales: 91 registros. 31 abiertos, 34 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-55"></a>
+
+## Ronda 55 — precisión de autoría: «el autor» de las rondas 38–53 es Codex, asistencia de IA (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario.
+
+**Qué se precisa.** Varias rondas recientes usan «el autor», «el propio autor» o «del mismo autor» para referirse a quien escribió los PR #84 a #102. Esos PR, sus reproducciones y sus revisiones de código los hizo **Codex, asistencia de IA**, en una tarea autorizada, y se publicaron desde la cuenta del propietario. **No son revisiones manuales de Iván ni implican su aprobación semántica.** Tampoco son validación humana independiente. La recepción independiente es de Claude, asistencia de IA. Es la misma regla que la auditoría aplica a los comentarios desde la ronda 1 (véase N-04); en estas rondas la redacción no la respetó.
+
+**Dónde se lee así:**
+
+| Ronda | Expresión | Léase |
+|---|---|---|
+| 38 | «Lo encontró el propio autor» | Lo encontró Codex, asistencia de IA |
+| 39 | «Lo encontró el propio autor»; «corregido por el autor» | Codex, asistencia de IA |
+| 40 | «del mismo autor que #81»; «encontrados por el propio autor» | Codex, asistencia de IA |
+| 41 y 44 | «corregido por el autor en una rama abierta» (criterio de estado) | corregido por Codex, asistencia de IA, en una rama abierta |
+| 53 | «el autor revisó el archivo entero… y encontró»; «el autor advierte» | Codex, asistencia de IA, revisó, encontró y advierte |
+
+El texto de esas rondas se conserva; esta nota lo corrige. En la guía se ha ajustado la fila de la ronda 53 del mapa del expediente, que repetía la expresión.
+
+**Lo que no cambia.** Las comprobaciones, cifras y estados de esas rondas no varían: se verificaron sobre el código, con independencia de quién lo escribiera. El criterio de estado de las rondas 38 a 53 queda así: «defecto encontrado y corregido en una rama abierta por la implementación asistida por IA, pendiente de incorporarse a `main`».
 
 **Estado:** sin registros nuevos ni cambios de estado. Totales: 91 registros. 31 abiertos, 34 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
