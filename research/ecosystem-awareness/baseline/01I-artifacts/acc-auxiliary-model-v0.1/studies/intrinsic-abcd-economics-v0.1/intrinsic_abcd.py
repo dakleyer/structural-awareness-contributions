@@ -153,6 +153,36 @@ def selected_demand(world: Node, target: str, *, minimum: int = 8,
     return demand
 
 
+@dataclass(frozen=True)
+class PrivateSelectedResponse:
+    """Private finite-laboratory outputs for one fixed target/demand question.
+
+    This post-hoc response is not a source-issued B or a receiver-visible plan.
+    Derive the gain from the two actual outputs so it cannot drift independently.
+    """
+    current_A: int
+    selected_output: int
+
+    @property
+    def gain(self) -> int:
+        return self.selected_output - self.current_A
+
+
+def private_selected_response(world: Node, target: str, *,
+                              minimum: int = 8, extra: int = 2) -> PrivateSelectedResponse:
+    """Evaluate the same one-question physical response in native source units.
+
+    Only the finite laboratory and post-decision scorers call this. The producer
+    still issues B from its operational logs and characterized path headroom;
+    the receiver still plans from its public view, not from this private oracle.
+    """
+    return PrivateSelectedResponse(
+        current_A=deliver(world, base_demand(world, minimum)),
+        selected_output=deliver(world, selected_demand(world, target,
+                                                       minimum=minimum, extra=extra)),
+    )
+
+
 def path_to(node: Node, target: str) -> tuple[Node, ...]:
     if isinstance(node, Leaf):
         return (node,) if node.name == target else ()
@@ -315,10 +345,9 @@ def policy(world: Node, target: str, mode: str, costs: Costs,
     path = path_to(world, target)
     if not path:
         raise ValueError("target not in tree")
-    actual_current = deliver(world, base_demand(world, minimum))
-    actual_future = deliver(world, selected_demand(world, target,
-                                                   minimum=minimum, extra=extra))
-    capacity_gain = actual_future - actual_current
+    response = private_selected_response(world, target, minimum=minimum, extra=extra)
+    actual_current = response.current_A
+    capacity_gain = response.gain
     full_cost = node_count(world) * costs.full_node
     b_cost = len(path) * costs.b_issuance_per_path_node + costs.b_transmission + costs.b_maintenance
     promised_increment = 0
@@ -418,7 +447,7 @@ def score_public_plan(world: Node, plan: dict, costs: Costs, *,
                       minimum: int = 8, extra: int = 2) -> dict:
     """Independent synthetic effects oracle; NEVER passed into plan_from_public."""
     target = plan["target"]
-    truth = deliver(world, selected_demand(world,target,minimum=minimum,extra=extra)) - deliver(world,base_demand(world,minimum))
+    truth = private_selected_response(world, target, minimum=minimum, extra=extra).gain
     claim=plan["promised_increment"]
     gross=-costs.false_promise if claim > truth else costs.value_per_unit*claim
     result=dict(plan)
@@ -482,14 +511,16 @@ def sample_report() -> dict:
     outcomes = [policy(world, target, mode, cost, now=6, b=cert) for mode in modes]
     clipped_world = balanced_tree(bits, cap_root=8*n)
     clipped_cert = upstream_B(clipped_world, target, now=5, ttl=10)
+    baseline_response = private_selected_response(world, target)
+    clipped_response = private_selected_response(clipped_world, target)
     return {
         "scientific_status": "FINITE_SYNTHETIC_ONLY_UNQUANTIFIED_OPEN_RESIDUAL",
         "n_leaves": n, "total_modules": node_count(world),
         "nested_depth_on_target": len(path_to(world, target)),
-        "current_A": deliver(world, base_demand(world)),
-        "same_current_A_with_root_bottleneck": deliver(clipped_world, base_demand(clipped_world)),
-        "baseline_world_private_selected_gain": 2,
-        "root_bottleneck_world_private_selected_gain": 0,
+        "current_A": baseline_response.current_A,
+        "same_current_A_with_root_bottleneck": clipped_response.current_A,
+        "baseline_world_private_selected_gain": baseline_response.gain,
+        "root_bottleneck_world_private_selected_gain": clipped_response.gain,
         "policies": outcomes,
         "root_bottleneck_B_private_qualified_increment": clipped_cert.delivered_if_requested,
         "communication_query_relative": communication_lower_bounds(n),

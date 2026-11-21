@@ -47,7 +47,7 @@ jobs:
 
       - name: Check ACC endogenous A/B/C/D, source-native partial qualification and comprehension cost
         run: |
-          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1 -p test_intrinsic_abcd.py -v
+          python -B -m unittest discover -s research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1 -p 'test_*.py' -v
           python -B research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1/intrinsic_abcd.py > /tmp/acc_intrinsic_abcd_result.json
           python -B -c "import json; from pathlib import Path; p=Path('research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1/REFERENCE_SYNTHETIC_RESULTS.json'); assert json.loads(p.read_text()) == json.loads(Path('/tmp/acc_intrinsic_abcd_result.json').read_text())"
 
