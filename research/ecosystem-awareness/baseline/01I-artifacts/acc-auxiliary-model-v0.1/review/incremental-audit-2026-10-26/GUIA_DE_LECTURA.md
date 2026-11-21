@@ -37,7 +37,7 @@
   > - Las pruebas finitas revisadas establecen resultados concretos bajo sus hipótesis: una representación puede conservar una distinción necesaria para decidir; información compatible puede sostener una conclusión local útil; una guarda probada puede ahorrar comprobaciones en su dominio y balance de costes.
   > - Los fixtures también comprueban reproducción y sensibilidad bajo entradas o procedimientos suministrados. Esos resultados conservan su valor; para estudiar adquisición, selección o adaptación se necesita el proceso correspondiente y su evidencia.
   > - El fallo numérico I-01 y sus ampliaciones están corregidos y reconfirmados. La guarda de dominio M28-02 ya se corrigió y reconfirmó en la rama de #60; su incorporación sigue pendiente.
-- **Dónde estamos.** La auditoría tiene 82 registros sobre el contenido y 8 sobre la forma del propio expediente: 90 en total. De ellos, 32 siguen abiertos, 32 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 14 son propuestas de mejora, aclaraciones o puntos retirados.
+- **Dónde estamos.** La auditoría tiene 82 registros sobre el contenido y 8 sobre la forma del propio expediente: 90 en total. De ellos, 31 siguen abiertos, 33 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 14 son propuestas de mejora, aclaraciones o puntos retirados.
 - **Qué no es.** No es una revisión científica humana independiente. Todas las rondas las han escrito asistentes de IA (Claude y Codex), en parte a partir de observaciones de Iván.
 
 ## 2. Quién ha escrito qué
@@ -61,7 +61,7 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 | Familia | Abierto | Respondido | Cerrado o verificado | Propuesta | Retirado o informativo | Total |
 |---|---:|---:|---:|---:|---:|---:|
 | N · Nota al revisor externo | 9 | 0 | 0 | 0 | 0 | 9 |
-| F · Código de #57 y #54 | 4 | 3 | 0 | 0 | 0 | 7 |
+| F · Código de #57 y #54 | 3 | 4 | 0 | 0 | 0 | 7 |
 | G · Campaña de 60 casos | 0 | 6 | 0 | 0 | 0 | 6 |
 | H · Modelo social | 4 | 1 | 1 | 0 | 0 | 6 |
 | I · Defecto de qualify | 0 | 0 | 1 | 0 | 0 | 1 |
@@ -71,7 +71,7 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 | J · Forma del expediente | 1 | 6 | 1 | 0 | 0 | 8 |
 | K · Modelo social #44–#46 | 1 | 3 | 3 | 1 | 0 | 8 |
 | L · Recepciones (rondas 23–44) | 1 | 7 | 3 | 0 | 0 | 11 |
-| **Total** | **32** | **32** | **12** | **9** | **5** | **90** |
+| **Total** | **31** | **33** | **12** | **9** | **5** | **90** |
 
 **Qué significa cada estado:**
 
@@ -295,6 +295,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 47 | 21 nov | Claude | Fe de erratas: en la ronda 42, una comprobación que falla ya terminaba con código 1; lo que salía con 0 era un resumen que no cuadraba con sus comprobaciones. #97 lo corrige | [ronda 47](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-47) |
 | 48 | 21 nov | Claude | Inventario de Codex sobre #81–#97 contrastado con GitHub; nuevo mapa del lote y tabla de efectos ([abajo](#el-lote-de-correcciones-8197-añadido-en-la-ronda-48)) | [ronda 48](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-48) |
 | 49 | 21 nov | Claude | #98: dos ámbitos «vacíos» iguales (None, en blanco, `True`, 1) ya no califican una región conjunta; la información local se conserva | [ronda 49](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-49) |
+| 50 | 21 nov | Claude | #99: se elimina el cálculo muerto de F-07 en #54; resultados idénticos en 26 324 tablas y en la campaña completa; F-07 pasa a respondido | [ronda 50](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-50) |
 
 <a id="el-lote-de-correcciones-8197-añadido-en-la-ronda-48"></a>
 
@@ -302,7 +303,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 
 Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores, cada uno con una corrección acotada sobre un PR de investigación o sobre esta auditoría. Ninguno está fusionado. El mapa muestra de qué PR depende cada uno y en qué ronda se verificó; el inventario de Codex del 21-11 coincide con las cabeceras reales de los 17 PR, comprobadas en la ronda 48.
 
-![Mapa de las correcciones #81 a #98, su PR de base y la ronda que las recibió](figures/BATCH_81_97_map.svg)
+![Mapa de las correcciones #81 a #99, su PR de base y la ronda que las recibió](figures/BATCH_81_97_map.svg)
 
 | PR | Qué corrige, en una línea | Base | Ronda | Efecto en el registro | Efecto en las cifras publicadas |
 |---|---|---|---|---|---|
@@ -324,8 +325,11 @@ Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores,
 | #96 | Hora de llegada entera e identificador de texto | #94 | [46](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-46) | L-11 → respondido | Ninguno |
 | #97 | Código de salida coherente con el informe | #93 | [47](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-47) | Fe de erratas de la ronda 42 | Ninguno |
 | #98 | Ámbitos de fuente con nombre antes de calificar una región conjunta (añadido en la ronda 49) | #96 | [49](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-49) | — | Ninguno |
+| #99 | Elimina el cálculo muerto `loc` en `nonmonotone` (añadido en la ronda 50) | #54 | [50](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-50) | F-07 → respondido | Ninguno |
 
 **Cómo leerlo.** El lote no cambia ninguna conclusión numérica; corrige cómo se validan las entradas, cómo se nombran las cosas y cómo se guardan los resultados. Tres correcciones responden registros de la auditoría (L-01, M28-07 y L-11). Dos rondas (40 y 47) corrigen errores del propio auditor en las rondas 36 y 42, y la 43 precisa su terminología. Nada de esto es revisión humana independiente.
+
+*Actualización de la ronda 50:* el lote creció con #98 (ronda 49) y #99 (ronda 50). Con #99, las correcciones que responden registros pasan a ser cuatro: se suma F-07.
 
 <a id="11-los-79-registros-uno-por-uno"></a>
 <a id="11-los-82-registros-uno-por-uno"></a>
@@ -357,7 +361,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 
 </details>
 
-<details><summary><b>F · Código de #57 y #54</b> — 7 registros, 4 abiertos</summary>
+<details><summary><b>F · Código de #57 y #54</b> — 7 registros, 3 abiertos</summary>
 
 | ID | Estado | Gravedad | En pocas palabras | Ronda que fijó el estado |
 |---|---|---|---|---|
@@ -367,7 +371,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 | [F-04](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#f-04) | 🔵 Abierto | Media | En el caso estrella de #57, el comparador convencional obtiene más. | 2 |
 | [F-05](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#f-05) | 🔵 Abierto | Media | El modelo de #57 es lineal y resta costes sin una tasa de conversión declarada. | 2 |
 | [F-06](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#f-06) | 🟠 Respondido | Alta | Los 46 «experimentos» de #54 son ejemplos calculados a partir de datos fijados. | 11 |
-| [F-07](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#f-07) | 🔵 Abierto | Baja | Una variable calculada y no usada en el código de #54. | 2 |
+| [F-07](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#f-07) | 🟠 Respondido | Baja | Una variable calculada y no usada en el código de #54. #99 la elimina sin cambiar ningún resultado; falta incorporarlo a main. | 50 |
 
 </details>
 

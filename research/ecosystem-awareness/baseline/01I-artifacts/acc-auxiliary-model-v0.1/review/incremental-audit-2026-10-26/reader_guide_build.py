@@ -56,7 +56,7 @@ LEDGER = [
     ("F-04", "F", "Media", "ABIERTO", 2, "En el caso estrella de #57, el comparador convencional obtiene más."),
     ("F-05", "F", "Media", "ABIERTO", 2, "El modelo de #57 es lineal y resta costes sin una tasa de conversión declarada."),
     ("F-06", "F", "Alta", "RESPONDIDO", 11, "Los 46 «experimentos» de #54 son ejemplos calculados a partir de datos fijados."),
-    ("F-07", "F", "Baja", "ABIERTO", 2, "Una variable calculada y no usada en el código de #54."),
+    ("F-07", "F", "Baja", "RESPONDIDO", 50, "Una variable calculada y no usada en el código de #54. #99 la elimina sin cambiar ningún resultado; falta incorporarlo a main."),
     ("G-01", "G", "Alta", "RESPONDIDO", 11, "En la campaña de 60 casos, el comparador convencional tiene la respuesta correcta escrita en los datos."),
     ("G-02", "G", "Media", "RESPONDIDO", 31, "La «auditoría independiente» de Q era un booleano del fixture. #73 la sustituye por un sensor falible con tasas y coste declarados; falta incorporarlo a main."),
     ("G-03", "G", "Media", "RESPONDIDO", 26, "Varios «microexperimentos» eran números escritos a mano. #68 los calcula desde los mundos declarados; falta incorporarlo a main."),
@@ -280,7 +280,7 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"), (37, 0, "L-01 (#83)"), (38, 0, "#69: óptimos repetidos (#84)"), (39, 0, "#60: indicadores booleanos (#85)"), (40, 0, "Fe de erratas; #86–#91"), (41, 0, "Identidad dimensional (#92)"), (42, 0, "M28-07 (#93)"), (43, 0, "Intercambio, no compensación"), (44, 0, "#94 y L-11"), (45, 0, "Rejillas, no dimensiones (#95)"), (46, 0, "L-11 (#96)"), (47, 0, "Fe de erratas; salida (#97)"), (48, 0, "Mapa del lote #81–#97"), (49, 0, "Ámbitos con nombre (#98)"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"), (37, 0, "L-01 (#83)"), (38, 0, "#69: óptimos repetidos (#84)"), (39, 0, "#60: indicadores booleanos (#85)"), (40, 0, "Fe de erratas; #86–#91"), (41, 0, "Identidad dimensional (#92)"), (42, 0, "M28-07 (#93)"), (43, 0, "Intercambio, no compensación"), (44, 0, "#94 y L-11"), (45, 0, "Rejillas, no dimensiones (#95)"), (46, 0, "L-11 (#96)"), (47, 0, "Fe de erratas; salida (#97)"), (48, 0, "Mapa del lote #81–#97"), (49, 0, "Ámbitos con nombre (#98)"), (50, 0, "F-07 (#99)"),
 ]
 
 
@@ -324,7 +324,7 @@ BATCH = [
     (66, 0, 0, "Envolvente económica", None, None, None), (60, 2, 0, "Linaje matemático", None, None, None),
     (69, 3, 0, "Aceptación narrativa", None, None, None), (72, 4, 0, "Sensibilidad L-08", None, None, None),
     (76, 7, 0, "Elección estratégica H-01", None, None, None), (58, 8, 0, "Esta auditoría", None, None, None),
-    (57, 9, 0, "Reducción agéntica", None, None, None),
+    (57, 9, 0, "Reducción agéntica", None, None, None), (54, 10, 0, "Casos adicionales", None, None, None),
     (81, 0, 1, "Medidas y precios aparte", 36, 0, 66), (82, 0, 2, "Evidencia agéntica aparte", 36, 0, 81),
     (89, 1, 2, "Unidad de valor sintético", 40, 0, 81),
     (83, 2, 1, "Codominio de la cota", 37, 2, 60), (85, 2, 2, "Indicadores booleanos", 39, 0, 83),
@@ -336,13 +336,14 @@ BATCH = [
     (93, 8, 1, "Referencia protegida", 42, 2, 58), (97, 8, 2, "Código de salida coherente", 47, 0, 93),
     (94, 9, 1, "Captura y enlace explícitos", 44, 0, 57), (96, 9, 2, "Hora e identidad de llegada", 46, 2, 94),
     (98, 9, 3, "Ámbitos con nombre", 49, 0, 96),
+    (99, 10, 1, "Sin cálculo muerto", 50, 2, 54),
 ]
 
 
 def fig_batch() -> str:
     left, top, col, row_h, bw, bh = 16, 92, 262, 50, 240, 38
     w = left + 4 * col
-    h = top + 10 * row_h + 64
+    h = top + (max(n[1] for n in BATCH) + 1) * row_h + 64
     pos = {n[0]: (left + n[2] * col, top + n[1] * row_h) for n in BATCH}
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
          f'aria-label="Mapa de las {sum(n[4] is not None for n in BATCH)} correcciones acotadas #81 a #{max(n[0] for n in BATCH)}, '
@@ -367,7 +368,7 @@ def fig_batch() -> str:
             s.append(f'<text x="{x + 10}" y="{y + 24}" font-size="12" fill="#fff"><tspan font-weight="700">#{pr}</tspan> {label}</text>')
             s.append(f'<text x="{x + bw - 8}" y="{y + 24}" font-size="11" fill="#fff" text-anchor="end">r{rnd}</text>')
     for k, (cls, label) in enumerate((("s0", "Corrección sin cambio de estado"),
-                                      ("s2", "Responde un registro (L-01, M28-07, L-11)"))):
+                                      ("s2", "Responde un registro (L-01, M28-07, L-11, F-07)"))):
         xl = 16 + k * 300
         s.append(f'<rect class="{cls}" x="{xl}" y="{h - 38}" width="14" height="14" rx="3"/>')
         s.append(f'<text class="ink" x="{xl + 22}" y="{h - 26}" font-size="12">{label}</text>')

@@ -79,6 +79,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 47 | 2026-11-21 | [Fe de erratas de la ronda 42; código de salida en #97](#ronda-47) | Un fallo real ya salía con código 1; lo que salía con 0 era un resumen incoherente, y #97 lo corrige; sin registros nuevos |
 | 48 | 2026-11-21 | [Inventario #81–#97 contrastado; mapa visual](#ronda-48) | 17 borradores abiertos, cabeceras y dependencias coinciden; nuevo mapa del lote en la guía; sin registros nuevos |
 | 49 | 2026-11-21 | [Ámbitos de fuente con nombre (#98)](#ronda-49) | Ámbitos sin nombre ya no califican una región conjunta; información local conservada; sin registros nuevos |
+| 50 | 2026-11-21 | [F-07 respondido en #99](#ronda-50) | Se elimina la variable `loc` que nunca se leía; 26 324 casos y la campaña completa idénticos; F-07 pasa a respondido |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1756,3 +1757,22 @@ La información local se conserva. Con ámbito `None`, las cuatro observaciones 
 **Alcance real del defecto.** Por la vía principal, `three_stages`, no era explotable en #96: el ámbito requerido sale de `CASES.json`, que siempre tiene nombre, así que un evento sin ámbito no casaba y no producía candidato (producción 10). El defecto afectaba a quien llamara directamente a `qualified_event` o a `common_cartographic_label`. Por eso no se abre registro.
 
 **Estado:** sin registros nuevos ni cambios de estado, por el criterio de las rondas 38 a 41. Se añade #98 al mapa del lote de la guía. Totales: 90 registros. 32 abiertos, 32 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-50"></a>
+
+## Ronda 50 — F-07 respondido en PR #99: fuera el cálculo muerto de `nonmonotone` (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #99 (`a5a2621a`) es un único commit sobre #54 en `e2252169` y borra una sola línea de `conscientia-additional-cases-v0.1/campaign.py`.
+
+**Qué era F-07.** Desde la ronda 2, F-07 señalaba que la rama `nonmonotone` calculaba una variable `loc` que nunca se usaba. La decisión local que se informa es otra: un paseo de un paso que se detiene en la primera bajada (`k`), comparado con el óptimo global (`opt`). `loc` parecía una regla alternativa, pero era código muerto.
+
+**Comprobación** (`verification/f07_dead_code_check.py`):
+- **Árbol sintáctico.** En #54, `loc` se asigna una vez y se lee cero veces. En #99 no aparece. Quitando esa asignación, el resto de `result` es idéntico en los dos árboles.
+- **Comportamiento.** Se compararon 26 324 tablas: todas las de valores {0, 1, 2}, longitudes 1 a 7 y cualquier punto de partida (21 324), más 5 000 tablas aleatorias con decimales, NaN e infinito. No hay ninguna diferencia, ni en el resultado ni en las excepciones.
+- **Campaña completa y barrido de sensibilidad.** Las salidas de `campaign.py` y `sensitivity.py` son idénticas byte a byte en los dos árboles.
+- Pasan las 65 pruebas y la CI está en verde.
+
+¿Podía `loc` lanzar alguna excepción que hubiera dejado de saltar al borrarla? Solo si la tabla mezcla valores que no se pueden comparar entre sí. En ese caso `opt = max(...)` también los compara todos y falla igual, así que el comportamiento observable no cambia.
+
+**Estado:** F-07 pasa de `ABIERTO` a `RESPONDIDO`. Se cerrará cuando #99 y #54 estén en `main`. Se añade #99 al mapa del lote. Totales: 90 registros. 31 abiertos, 33 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.

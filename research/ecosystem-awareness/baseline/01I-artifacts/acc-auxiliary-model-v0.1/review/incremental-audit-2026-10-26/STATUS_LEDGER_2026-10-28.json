@@ -1,7 +1,7 @@
 {
   "schema": "ACC-AUDIT-STATUS-LEDGER-v0.1",
   "as_of": "2026-10-28",
-  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-49",
+  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-50",
   "state_vocabulary": [
     "ABIERTO",
     "RESPONDIDO",
@@ -12,8 +12,8 @@
     "INFORMATIVO"
   ],
   "totals": {
-    "ABIERTO": 32,
-    "RESPONDIDO": 32,
+    "ABIERTO": 31,
+    "RESPONDIDO": 33,
     "CERRADO": 4,
     "VERIFICADO": 8,
     "PROPUESTA": 9,
@@ -37,8 +37,8 @@
         0
       ],
       "F": [
-        4,
         3,
+        4,
         0,
         0,
         0
@@ -240,9 +240,9 @@
       "id": "F-07",
       "family": "F",
       "severity": "Baja",
-      "state": "ABIERTO",
-      "set_in_round": 2,
-      "summary": "Una variable calculada y no usada en el código de #54."
+      "state": "RESPONDIDO",
+      "set_in_round": 50,
+      "summary": "Una variable calculada y no usada en el código de #54. #99 la elimina sin cambiar ningún resultado; falta incorporarlo a main."
     },
     {
       "id": "G-01",
@@ -894,16 +894,16 @@
     "ledger_ids_without_stable_anchor": [],
     "guide_totals_row": {
       "guide": [
-        32,
-        32,
+        31,
+        33,
         12,
         9,
         5,
         90
       ],
       "ledger": [
-        32,
-        32,
+        31,
+        33,
         12,
         9,
         5,
