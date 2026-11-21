@@ -29,7 +29,7 @@ def result(case):
         a,b=case['actual'],case['alternative'];coord=finite(case['max_coordination'],'cap')
         for item in (a,b):
             for k in ('service','resources','coordination'):finite(item[k],k)
-        if not b['authorized']: status='RIGHTS_BLOCKED'
+        if b['authorized'] is not True: status='RIGHTS_BLOCKED'
         elif b['coordination']>coord: status='COORDINATION_BLOCKED'
         elif b['service']>=a['service'] and b['resources']<=a['resources']:
             status='WEAK_PARETO_RESOURCE_SERVICE_GAIN' if (b['service']>a['service'] or b['resources']<a['resources']) else 'NO_STRICT_GAIN'
@@ -50,8 +50,8 @@ def result(case):
         rows=[]
         for p in case['periods']:
             ac=finite(p['actual_cost'],'actual_cost');best=finite(p['ideal_same_output_cost'],'ideal')
-            rows.append({'time':p['time'],'output':p['actual_output'],'gap':rnd(ac-best) if p['feasible'] and ac>=best else None,'certified_feasible':p['feasible']})
-        return res('GAPS_ESTABLISHED_IN_TOY' if all(x['certified_feasible'] for x in rows) else 'OPTIMUM_NOT_ESTABLISHED',periods=rows,gap_increases=(len(rows)>1 and all(x['gap'] is not None for x in rows) and rows[-1]['gap']>rows[0]['gap']))
+            rows.append({'time':p['time'],'output':p['actual_output'],'gap':rnd(ac-best) if p['feasible'] is True and ac>=best else None,'certified_feasible':p['feasible']})
+        return res('GAPS_ESTABLISHED_IN_TOY' if rows and all(x['certified_feasible'] is True and x['gap'] is not None for x in rows) else 'OPTIMUM_NOT_ESTABLISHED',periods=rows,gap_increases=(len(rows)>1 and all(x['gap'] is not None for x in rows) and rows[-1]['gap']>rows[0]['gap']))
     if t=='net_discomfort':
         if case['stipulated_discomfort'] is None:return res('SUBJECTIVE_NOT_MEASURED',net_welfare_toy=None,subjective_measured=False)
         v=finite(case['benefit'],'benefit')-finite(case['stipulated_discomfort'],'cost')
@@ -60,7 +60,7 @@ def result(case):
         keys=('GIC','NEO','ACW','UNKNOWN')
         a,r=case['actual'],case['reference'];total=sum(finite(a[k],k) for k in keys)
         if total<=0:raise ValueError('no human time')
-        if not case['same_service']:return res('MATCHED_REFERENCE_MISSING',human_observation='NOT_MEASURED')
+        if case['same_service'] is not True:return res('MATCHED_REFERENCE_MISSING',human_observation='NOT_MEASURED')
         return res('HUMAN_INPUT_DIFF_NOT_OBSERVED_HID',actual_total=rnd(total),ACW_share=rnd(a['ACW']/total),GIC_delta=rnd(r['GIC']-a['GIC']),ACW_delta=rnd(a['ACW']-r['ACW']),NEO_is_debt=False,human_observation='SYNTHETIC')
     if t=='entropy':
         prior=case['prior']
