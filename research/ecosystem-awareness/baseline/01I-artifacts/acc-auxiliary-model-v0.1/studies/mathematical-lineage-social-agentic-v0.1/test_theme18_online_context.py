@@ -162,10 +162,11 @@ class OnlineContextTests(unittest.TestCase):
         self.assertEqual(ledger(10, 5)["gain"], 10)
         self.assertEqual(ledger(2, 1)["gain"], -22)
 
-    def test_competent_same_guard_conventional_peer_ties(self):
-        our = ledger(10, 5)
-        peer = ledger(10, 5)
-        self.assertEqual(our, peer)
+    def test_reusing_supplied_guard_reproduces_cost_ledger(self):
+        # Reproduction control for this supplied ledger.
+        first = ledger(10, 5)
+        repeated = ledger(10, 5)
+        self.assertEqual(first, repeated)
 
 
 if __name__ == "__main__":
