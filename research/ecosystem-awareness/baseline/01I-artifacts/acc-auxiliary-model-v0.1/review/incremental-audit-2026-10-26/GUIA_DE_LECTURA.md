@@ -305,6 +305,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 57 | 21 nov | Claude | #104: las muestras de `closure` deben ser finitas. Nuevo L-13: una constante de regularidad negativa estrecha las cotas por debajo de las muestras y certifica el predicado | [ronda 57](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-57) |
 | 58 | 21 nov | Claude | #105: un número infinito o NaN de fuentes ya no autoriza ni deniega un cambio de misión; `kl` rechaza booleanos como enteros. L-13 sigue abierto | [ronda 58](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-58) |
 | 59 | 21 nov | Claude | #106: `closure` rechaza constantes de Lipschitz negativas, igual que el contrato canónico `Frame`; L = 0 y `None` sin cambios. L-13 pasa a respondido | [ronda 59](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-59) |
+| 60 | 21 nov | Claude | #107: `closure` comprueba que las muestras sean compatibles y decide con aritmética exacta, como el modelo canónico (I-01, M28-01). Coincide con un oráculo independiente en 3 200 casos | [ronda 60](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-60) |
 
 <a id="el-lote-de-correcciones-8197-añadido-en-la-ronda-48"></a>
 
@@ -312,7 +313,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 
 Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores, cada uno con una corrección acotada sobre un PR de investigación o sobre esta auditoría. Ninguno está fusionado. El mapa muestra de qué PR depende cada uno y en qué ronda se verificó; el inventario de Codex del 21-11 coincide con las cabeceras reales de los 17 PR, comprobadas en la ronda 48.
 
-![Mapa de las correcciones #81 a #106, su PR de base y la ronda que las recibió](figures/BATCH_81_97_map.svg)
+![Mapa de las correcciones #81 a #107, su PR de base y la ronda que las recibió](figures/BATCH_81_97_map.svg)
 
 | PR | Qué corrige, en una línea | Base | Ronda | Efecto en el registro | Efecto en las cifras publicadas |
 |---|---|---|---|---|---|
@@ -342,6 +343,7 @@ Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores,
 | #104 | Muestras finitas en `closure` (añadido en la ronda 57) | #103 | [57](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-57) | Origen de L-13 | Ninguno |
 | #105 | Recuentos de evidencia finitos en `mission`; `kl` sin booleanos (añadido en la ronda 58) | #104 | [58](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-58) | — | Ninguno |
 | #106 | Constante de Lipschitz no negativa en `closure` (añadido en la ronda 59) | #105 | [59](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-59) | L-13 → respondido | Ninguno |
+| #107 | Viabilidad conjunta y umbrales exactos en `closure` (añadido en la ronda 60) | #106 | [60](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-60) | — (mismo patrón que I-01 y M28-01, ya cerrados en el canónico) | Ninguno |
 
 **Cómo leerlo.** El lote no cambia ninguna conclusión numérica; corrige cómo se validan las entradas, cómo se nombran las cosas y cómo se guardan los resultados. Tres correcciones responden registros de la auditoría (L-01, M28-07 y L-11). Dos rondas (40 y 47) corrigen errores del propio auditor en las rondas 36 y 42, y la 43 precisa su terminología. Nada de esto es revisión humana independiente.
 

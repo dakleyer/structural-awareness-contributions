@@ -89,6 +89,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 57 | 2026-11-21 | [Muestras finitas en `closure` (#104) y L-13](#ronda-57) | #104 rechaza muestras no finitas; nuevo L-13: una constante de Lipschitz negativa certifica el predicado |
 | 58 | 2026-11-21 | [Recuentos de evidencia (#105)](#ronda-58) | Un recuento infinito ya no autoriza un cambio de misión; `True` deja de valer como entero en `kl`; L-13 sigue abierto |
 | 59 | 2026-11-21 | [L-13 respondido en #106](#ronda-59) | `closure` exige L ≥ 0, como el contrato canónico `Frame`; L-13 pasa a respondido |
+| 60 | 2026-11-21 | [Viabilidad conjunta y umbrales exactos en `closure` (#107)](#ronda-60) | El fixture repetía I-01 y M28-01; ahora coincide con un oráculo exacto en 3 200 casos; sin registros nuevos |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -2031,3 +2032,32 @@ Con −5·10⁻³²⁴ el resultado de #105 coincidía con el de L = 0, así que
 **Script de la ronda 57.** `closure_samples_check.py`, ejecutado sobre #105 frente a #106, daría «BAD» en el apartado L-13, porque el defecto ya no se reproduce en #106. Es el comportamiento previsto.
 
 **Estado:** L-13 pasa de `ABIERTO` a `RESPONDIDO`. Se cerrará cuando #106 y su cadena (#105 → #99) y #54 estén en `main`. Se añade #106 al mapa del lote. Totales: 92 registros. 31 abiertos, 35 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-60"></a>
+
+## Ronda 60 — viabilidad conjunta y umbrales exactos en `closure` (PR #107) (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #107 (`454f9e6e`) es un único commit sobre #106 en `132ee669`. Toca la rama `closure` de `campaign.py` y añade una prueba.
+
+**Una conexión que conviene ver.** La rama `closure` del fixture de casos adicionales repetía dos defectos que esta auditoría ya había encontrado, y que se habían cerrado, en el modelo canónico de cierre local (`metacognition.py`):
+- **I-01**: no comprobaba que las muestras fueran *compatibles entre sí* antes de usar su envolvente.
+- **M28-01**: decidía con aritmética de coma flotante, de modo que un redondeo por debajo de la última cifra podía cruzar el umbral.
+
+El modelo canónico ya resolvía las dos cosas en `main` (`_joint_evidence_status` y aritmética exacta con `Fraction`, con la nota explícita «M28-01» en el código). #107 aplica esos mismos contratos al fixture. También publica las cotas redondeadas hacia fuera, como hace `_outward_float`.
+
+**Comprobación con un oráculo independiente** (`verification/closure_exact_check.py`). El oráculo lo escribió esta auditoría y no sale de ninguno de los dos PR. Comprueba la compatibilidad de forma *constructiva*: construye la extensión de McShane F(y) = minᵢ(uᵢ + L·|y − posᵢ|) y verifica que F(posⱼ) ≥ lⱼ para toda muestra. Si se cumple, el rango posible de f(x) es exactamente [maxᵢ(lᵢ − L·|x − posᵢ|), F(x)]. Todo el cálculo es en `Fraction`.
+
+| Prueba | #106 | #107 |
+|---|---|---|
+| Dos intervalos incompatibles en la misma posición ([9; 9,5] y [10; 10,5], L = 1, consulta a distancia 1) | `SUPPORTED_IN_FRAME` | `INCONSISTENT_ASSUMPTIONS`, igual que el oráculo |
+| Intervalo invertido [10; 9] consultado a distancia 2 | `SUPPORTED_IN_FRAME` | `INCONSISTENT_ASSUMPTIONS`, igual que el oráculo |
+| 200 casos con el umbral situado exactamente en la proyección en coma flotante | 91 difieren del oráculo exacto | 0 |
+| 3 000 casos aleatorios (1 a 3 muestras, L ∈ {0; 0,5; 1; 2}; 953 incompatibles) | 168 estados distintos del oráculo | 0; las cotas publicadas siempre contienen las exactas |
+| Campaña completa (46) y barrido de sensibilidad | — | idénticos |
+
+Pasan las 104 pruebas y la CI está en verde.
+
+**Lectura.** En #106, aproximadamente uno de cada dieciocho casos aleatorios recibía un estado distinto del que corresponde a sus datos. Casi siempre se debía a muestras incompatibles a las que se seguía extrayendo una conclusión. Con las entradas publicadas no ocurría, pero la familia `closure` es la única que hace inferencia en el fixture (F-06). Por eso importa que ahora se comporte igual que el modelo canónico.
+
+**Estado:** sin registros nuevos ni cambios de estado. Es un defecto encontrado y corregido en rama por la implementación de Codex, asistencia de IA (criterio de las rondas 38–55). I-01 y M28-01 siguen cerrados: se referían al modelo canónico, que no cambia. Se añade #107 al mapa del lote. Totales: 92 registros. 31 abiertos, 35 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
