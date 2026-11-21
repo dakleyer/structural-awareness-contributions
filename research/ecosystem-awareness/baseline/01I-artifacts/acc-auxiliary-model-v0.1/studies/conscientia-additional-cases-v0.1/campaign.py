@@ -5,6 +5,7 @@ All parameters are predeclared in CASES.json; no closed-world claim about C/D.
 """
 from __future__ import annotations
 import json, math, hashlib
+from fractions import Fraction
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -21,6 +22,18 @@ def rnd(x):
 
 def shannon(p):
     return -sum(x*math.log2(x) for x in p if x>0)
+
+def _closure_bound(value, *, lower):
+    """Finite outward float for display; closure decisions use exact values."""
+    label='projected_lower' if lower else 'projected_upper'
+    try:approximate=float(value)
+    except OverflowError:raise ValueError(f'{label}: finite numeric required') from None
+    finite(approximate,label)
+    represented=Fraction(approximate)
+    if lower and represented>value:approximate=math.nextafter(approximate,-math.inf)
+    elif not lower and represented<value:approximate=math.nextafter(approximate,math.inf)
+    finite(approximate,label)
+    return approximate
 
 def result(case):
     t=case['kind']; cid=case['id']
@@ -111,13 +124,20 @@ def result(case):
         if L<0:raise ValueError('L: nonnegative Lipschitz constant required')
         for pos,l,u in case['samples']:
             finite(pos,'sample_position');finite(l,'sample_lower');finite(u,'sample_upper')
-        lower=max(finite(l-L*abs(x-pos),'projected_lower') for pos,l,u in case['samples'])
-        upper=min(finite(u+L*abs(x-pos),'projected_upper') for pos,l,u in case['samples'])
-        if lower>upper:status='INCONSISTENT_ASSUMPTIONS'
+        L,x,threshold=map(Fraction,(case['L'],case['x'],case['threshold']))
+        samples=[tuple(map(Fraction,sample)) for sample in case['samples']]
+        projections=[(l-L*abs(x-pos),u+L*abs(x-pos)) for pos,l,u in samples]
+        for lo,hi in projections:
+            _closure_bound(lo,lower=True);_closure_bound(hi,lower=False)
+        lower=max(lo for lo,hi in projections);upper=min(hi for lo,hi in projections)
+        # Ordered pairs include each interval's own lower <= upper obligation.
+        joint_consistent=all(l-u2<=L*abs(pos-pos2)
+                             for pos,l,u in samples for pos2,l2,u2 in samples)
+        if not joint_consistent or lower>upper:status='INCONSISTENT_ASSUMPTIONS'
         elif lower>=threshold:status='PREDICATE_SUPPORTED_IN_FRAME'
         elif upper<threshold:status='PREDICATE_REFUTED_IN_FRAME'
         else:status='PREDICATE_UNDETERMINED'
-        return res(status,bounds=[rnd(lower),rnd(upper)],global_D_open=True)
+        return res(status,bounds=[_closure_bound(lower,lower=True),_closure_bound(upper,lower=False)],global_D_open=True)
     if t=='knowledge':
         return res('EVIDENCE_INSUFFICIENT_FOR_CLAIM' if case['independent_evidence'] is not True else 'REQUIRES_INDEPENDENT_VALIDATION',assertion=case['assertion'],social_fact_established=False)
     if t=='network':
