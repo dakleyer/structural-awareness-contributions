@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "name": "Atlas phase 2 — v0.2 tag language and positioned walks",
+    "version": "0.2-experimental",
+    "dictionary_version": "0.1.1",
+    "as_of": "2026-11-04",
+    "scope": "public JUBAP–Nestlé references plus clearly marked synthetic route extensions; no private Atlas replication",
+    "classification_order": ["ABCD", "JF"],
+    "warning": "A/B/C/D and JF mappings are an illustrative contextual assessment, not a globally verified edge status or causal validation."
+  },
+  "items": [
+    {
+      "id": "ITEM-JUBAP-FRAMEWORK", "kind": "public_web_page",
+      "description": "Referencia pública sobre el framework JUBAP y sus instrumentos.",
+      "hook": {"uri": "https://jubap.eu/the-jubap-framework/", "locator": "framework y herramienta Focus ON", "revision": null, "observed_at": "2026-11-04"},
+      "evidence_status": "source_documented", "version": "0.2",
+      "etiquetas": []
+    },
+    {
+      "id": "ITEM-NESTLE-CASE", "kind": "public_web_page",
+      "description": "Relato de campo público de la articulación JUBAP, Kotter y Nestlé Continuous Excellence; no validación causal externa.",
+      "hook": {"uri": "https://jubap.eu/nestle-case-study-where-jubap-was-first-named/", "locator": "The mandate & the setup / eight Kotter steps", "revision": null, "observed_at": "2026-11-04"},
+      "evidence_status": "source_documented", "version": "0.2",
+      "etiquetas": [
+        {"key": "proposed:case_context", "value": "Nestlé North America", "basis": "source", "item_refs": ["ITEM-NESTLE-CASE"], "proposal_status": "local_only", "reason_not_reuse": "El diccionario inicial todavía no incluye el identificador del contexto de un caso de campo."}
+      ]
+    },
+    {
+      "id": "ITEM-TRANSFER-HYPOTHESIS", "kind": "synthetic_example",
+      "description": "Escenario inventado para probar C→C→D al explorar transferibilidad fuera del caso Nestlé; no ocurrió como extensión histórica documentada.",
+      "hook": {"uri": "examples/language-v02-pilot.json", "locator": "/scenarios/transfer", "revision": "0.2-experimental", "observed_at": "2026-11-04"},
+      "evidence_status": "synthetic_hypothesis", "version": "0.2", "etiquetas": []
+    },
+    {
+      "id": "ITEM-ROLEPLAY-HYPOTHESIS", "kind": "synthetic_example",
+      "description": "Cadena didáctica roleplay→efecto emocional para demostrar que un efecto JF.F4 puede ser C.",
+      "hook": {"uri": "examples/language-v02-pilot.json", "locator": "/scenarios/collateral", "revision": "0.2-experimental", "observed_at": "2026-11-04"},
+      "evidence_status": "synthetic_hypothesis", "version": "0.2", "etiquetas": []
+    }
+  ],
+  "scenarios": {
+    "transfer": "Hipótesis de extrapolación: Kotter en otro contexto → generalización multisitio → condiciones externas potencialmente materiales fuera de la capacidad de evaluación declarada.",
+    "collateral": "Hipótesis didáctica: una dinámica de rol puede tener un posible efecto de liberación emocional sin demostrar transformación humana general."
+  },
+  "nodes": [
+    {
+      "id": "JFW", "label": "JUBAP · framework",
+      "description": "Marco de intervención y transformación. En el caso Nestlé se articuló con Kotter y NCE; la existencia de esa articulación no demuestra universalidad de aplicación.",
+      "item_refs": [{"item_id": "ITEM-JUBAP-FRAMEWORK", "role": "framework_description"}, {"item_id": "ITEM-NESTLE-CASE", "role": "historical_application"}],
+      "evidence_status": "source_documented", "version": "0.2",
+      "etiquetas": [{"key": "node:role", "value": "framework de transformación", "basis": "source", "item_refs": ["ITEM-JUBAP-FRAMEWORK"]}]
+    },
+    {
+      "id": "FON", "label": "Focus ON",
+      "description": "Herramienta diagnóstica de JUBAP basada en seis perspectivas; no equivale al framework completo ni a su articulación histórica entera con Kotter.",
+      "item_refs": [{"item_id": "ITEM-JUBAP-FRAMEWORK", "role": "tool_membership"}],
+      "evidence_status": "source_documented", "version": "0.2",
+      "etiquetas": [
+        {"key": "node:role", "value": "herramienta de diagnóstico", "basis": "source", "item_refs": ["ITEM-JUBAP-FRAMEWORK"]},
+        {"key": "node:mechanism", "value": "lectura mediante seis perspectivas", "basis": "source", "item_refs": ["ITEM-JUBAP-FRAMEWORK"]},
+        {"key": "node:distinction", "value": "no es el framework completo", "basis": "interpretation", "item_refs": ["ITEM-JUBAP-FRAMEWORK"]}
+      ]
+    },
+    {
+      "id": "KOT", "label": "Kotter · ocho pasos",
+      "description": "Marco de gestión del cambio con el cual se articuló JUBAP en el caso Nestlé; la conexión no establece identidad metodológica.",
+      "item_refs": [{"item_id": "ITEM-NESTLE-CASE", "role": "documented_alignment"}],
+      "evidence_status": "source_documented", "version": "0.2",
+      "etiquetas": [{"key": "node:distinction", "value": "articulación con JUBAP, no identidad", "basis": "source", "item_refs": ["ITEM-NESTLE-CASE"]}]
+    },
+    {
+      "id": "RPL", "label": "Roleplay — dinámica ilustrativa",
+      "description": "Dinámica de juego de rol empleada en este ejemplo para preguntar por efectos secundarios; el nodo didáctico no atribuye hechos históricos no verificados.",
+      "item_refs": [{"item_id": "ITEM-ROLEPLAY-HYPOTHESIS", "role": "teaching_construct"}],
+      "evidence_status": "synthetic_hypothesis", "version": "0.2",
+      "etiquetas": [{"key": "node:mechanism", "value": "interpretación de situaciones mediante roles", "basis": "synthetic_example", "item_refs": ["ITEM-ROLEPLAY-HYPOTHESIS"]}]
+    },
+    {
+      "id": "EMO", "label": "Liberación emocional — posibilidad",
+      "description": "Efecto humano posible de la dinámica anterior; no se dispone de caracterización ni prueba de resultado general en este ejercicio.",
+      "item_refs": [{"item_id": "ITEM-ROLEPLAY-HYPOTHESIS", "role": "boundary_hypothesis"}],
+      "evidence_status": "synthetic_hypothesis", "version": "0.2", "etiquetas": []
+    },
+    {
+      "id": "OUTSIDE", "label": "Transferencia a otro contexto",
+      "description": "Posible aplicación fuera del contexto documentado; no se caracteriza como resultado observado.",
+      "item_refs": [{"item_id": "ITEM-TRANSFER-HYPOTHESIS", "role": "boundary_hypothesis"}],
+      "evidence_status": "synthetic_hypothesis", "version": "0.2", "etiquetas": []
+    },
+    {
+      "id": "MULTI", "label": "Generalización multisitio",
+      "description": "Hipótesis de extensión a múltiples sitios que necesitaría caracterizar condiciones y mecanismos.",
+      "item_refs": [{"item_id": "ITEM-TRANSFER-HYPOTHESIS", "role": "boundary_hypothesis"}],
+      "evidence_status": "synthetic_hypothesis", "version": "0.2", "etiquetas": []
+    },
+    {
+      "id": "EXT", "label": "Condiciones externas no evaluables",
+      "description": "Influencias externas hipotéticas potencialmente materiales, fuera de la capacidad documental de este recorrido.",
+      "item_refs": [{"item_id": "ITEM-TRANSFER-HYPOTHESIS", "role": "boundary_hypothesis"}],
+      "evidence_status": "synthetic_hypothesis", "version": "0.2", "etiquetas": []
+    }
+  ],
+  "edges": [
+    {
+      "id": "E-J01", "source": "JFW", "target": "FON", "predicate": "incluye como herramienta", "semantic_direction": "inverse_available", "inverse_predicate": "pertenece al framework", "reason": "Vínculo entre herramienta y framework publicado.",
+      "item_refs": ["ITEM-JUBAP-FRAMEWORK"], "evidence_status": "source_documented", "version": "0.2",
+      "etiquetas": [{"key": "edge:relation_type", "value": "membership", "basis": "source", "item_refs": ["ITEM-JUBAP-FRAMEWORK"]}]
+    },
+    {
+      "id": "E-J02", "source": "JFW", "target": "KOT", "predicate": "se articuló con", "semantic_direction": "symmetric", "reason": "El caso público Nestlé registra el uso articulado.",
+      "item_refs": ["ITEM-NESTLE-CASE"], "evidence_status": "source_documented", "version": "0.2", "etiquetas": []
+    },
+    {
+      "id": "E-J03", "source": "KOT", "target": "OUTSIDE", "predicate": "sugiere estudiar transferencia", "semantic_direction": "directed", "reason": "Extensión hipotética del ejemplo, no uso histórico comprobado.",
+      "item_refs": ["ITEM-TRANSFER-HYPOTHESIS"], "evidence_status": "synthetic_hypothesis", "version": "0.2", "etiquetas": []
+    },
+    {
+      "id": "E-J04", "source": "OUTSIDE", "target": "MULTI", "predicate": "abre hipótesis multisitio", "semantic_direction": "directed", "reason": "Posibilidad de ampliación no caracterizada.",
+      "item_refs": ["ITEM-TRANSFER-HYPOTHESIS"], "evidence_status": "synthetic_hypothesis", "version": "0.2", "etiquetas": []
+    },
+    {
+      "id": "E-J05", "source": "MULTI", "target": "EXT", "predicate": "podría verse alterada por", "semantic_direction": "directed", "reason": "Influencia potencialmente material fuera del alcance documental.",
+      "item_refs": ["ITEM-TRANSFER-HYPOTHESIS"], "evidence_status": "synthetic_hypothesis", "version": "0.2", "etiquetas": []
+    },
+    {
+      "id": "E-J06", "source": "JFW", "target": "RPL", "predicate": "incluye en el ejemplo como dinámica", "semantic_direction": "inverse_available", "inverse_predicate": "se considera dinámica del framework en el ejemplo", "reason": "Relación de enseñanza que no afirma uso histórico particular.",
+      "item_refs": ["ITEM-ROLEPLAY-HYPOTHESIS"], "evidence_status": "synthetic_hypothesis", "version": "0.2", "etiquetas": []
+    },
+    {
+      "id": "E-J07", "source": "RPL", "target": "EMO", "predicate": "podría contribuir a", "semantic_direction": "directed", "reason": "Exploración de posible efecto colateral sin mecanismo probado.",
+      "item_refs": ["ITEM-ROLEPLAY-HYPOTHESIS"], "evidence_status": "synthetic_hypothesis", "version": "0.2", "etiquetas": []
+    }
+  ],
+  "walks": [
+    {
+      "id": "W-JFW", "version": "0.2", "dictionary_version": "0.1.1", "classification_order": ["ABCD", "JF"],
+      "position": {"origin": "JFW", "activity": "articulación de cambio organizativo", "question": "¿Hasta dónde permite inferir la articulación histórica JUBAP–Kotter?", "scope": "caso publicado + hipótesis explícitas de transferencia", "capability": "lectura pública; sin evaluación de despliegue multisitio", "as_of": "2026-11-04"},
+      "steps": [
+        {"edge_id": "E-J02", "from": "JFW", "to": "KOT", "direction": "forward", "abcd": "A", "abcd_reason": "La articulación histórica se encuentra documentada.", "jf_roles": ["JF.F2"], "jf_applicability": "assessed", "jf_reason": "Marco operativo de transformación; factor de procesamiento.", "item_refs": ["ITEM-NESTLE-CASE"]},
+        {"edge_id": "E-J03", "from": "KOT", "to": "OUTSIDE", "direction": "forward", "abcd": "C", "abcd_reason": "La transferencia es una exploración fundada pero no caracterizada en este ejercicio.", "jf_roles": ["JF.F2"], "jf_applicability": "assessed", "jf_reason": "Mecanismos de procesamiento a adaptar aún no conocidos.", "item_refs": ["ITEM-TRANSFER-HYPOTHESIS"]},
+        {"edge_id": "E-J04", "from": "OUTSIDE", "to": "MULTI", "direction": "forward", "abcd": "C", "abcd_reason": "La extensión multisitio no está caracterizada.", "jf_roles": ["JF.F3"], "jf_applicability": "assessed", "jf_reason": "Objetivo hipotético de salida, no resultado realizado.", "item_refs": ["ITEM-TRANSFER-HYPOTHESIS"]},
+        {"edge_id": "E-J05", "from": "MULTI", "to": "EXT", "direction": "forward", "abcd": "D", "abcd_reason": "Hay posibles condiciones externas materiales que este método documental no puede evaluar.", "jf_roles": ["JF.F4"], "jf_applicability": "assessed", "jf_reason": "Influencia externa a la cadena primaria; F4 no causa por sí solo el D.", "item_refs": ["ITEM-TRANSFER-HYPOTHESIS"]}
+      ],
+      "terminal_kind": "D", "complete_to_D": true, "review_status": "illustrative_mixed_evidence"
+    },
+    {
+      "id": "W-FON", "version": "0.2", "dictionary_version": "0.1.1", "classification_order": ["ABCD", "JF"],
+      "position": {"origin": "FON", "activity": "diagnóstico Focus ON", "question": "¿Qué admite este instrumento sin confundirlo con todo JUBAP?", "scope": "herramienta diagnóstica", "capability": "descripción pública de función; sin caracterización de integración Kotter desde Focus ON", "as_of": "2026-11-04"},
+      "steps": [
+        {"edge_id": "E-J01", "from": "FON", "to": "JFW", "direction": "reverse", "abcd": "A", "abcd_reason": "Focus ON pertenece al framework JUBAP bajo su función descrita.", "jf_roles": ["JF.F1"], "jf_applicability": "assessed", "jf_reason": "Entrada diagnóstica desde este posicionamiento.", "item_refs": ["ITEM-JUBAP-FRAMEWORK"]},
+        {"edge_id": "E-J02", "from": "JFW", "to": "KOT", "direction": "forward", "abcd": "C", "abcd_reason": "La arista existe, pero su relación funcional con el diagnóstico Focus ON no está caracterizada para esta pregunta.", "jf_roles": ["JF.F2"], "jf_applicability": "assessed", "jf_reason": "Candidato de procesamiento más allá del instrumento; no ejecución atribuida a Focus ON.", "item_refs": ["ITEM-NESTLE-CASE"]}
+      ],
+      "terminal_kind": "END_OF_GRAPH", "complete_to_D": false, "review_status": "illustrative_contextual_assessment"
+    },
+    {
+      "id": "W-COLLATERAL", "version": "0.2", "dictionary_version": "0.1.1", "classification_order": ["ABCD", "JF"],
+      "position": {"origin": "JFW", "activity": "dinámica de cambio del ejemplo", "question": "¿Puede un ejercicio de rol abrir un efecto humano no caracterizado?", "scope": "escenario sintético", "capability": "ensayo metodológico sin prueba sobre transformación humana", "as_of": "2026-11-04"},
+      "steps": [
+        {"edge_id": "E-J06", "from": "JFW", "to": "RPL", "direction": "forward", "abcd": "A", "abcd_reason": "La premisa sintética declara una dinámica de rol activa.", "jf_roles": ["JF.F2"], "jf_applicability": "assessed", "jf_reason": "Dinámica de procesamiento del caso didáctico.", "item_refs": ["ITEM-ROLEPLAY-HYPOTHESIS"]},
+        {"edge_id": "E-J07", "from": "RPL", "to": "EMO", "direction": "forward", "abcd": "C", "abcd_reason": "Posible efecto humano no caracterizado; no hay aún barrera D demostrada en el modelo.", "jf_roles": ["JF.F4"], "jf_applicability": "assessed", "jf_reason": "Efecto colateral potencial y no probado; demuestra F4 con C.", "item_refs": ["ITEM-ROLEPLAY-HYPOTHESIS"]}
+      ],
+      "terminal_kind": "END_OF_GRAPH", "complete_to_D": false, "review_status": "synthetic_teaching_case"
+    }
+  ],
+  "rejected_candidates": [{"source": "FON", "target": "EXT", "reason": "No hay un predicado directo defendible en nivel 1; no se etiqueta D por mera distancia léxica."}],
+  "conceptual_clusters": [
+    {"id": "CL-JUBAP", "version": "0.2", "core_node_ids": ["JFW"], "position_refs": ["W-JFW", "W-COLLATERAL"], "a_reach": ["JFW", "KOT", "RPL"], "boundary_walk_refs": ["W-JFW", "W-COLLATERAL"], "description": "Candidato de núcleo de transformación ilustrado por dos rutas; no se demuestra centralidad general del corpus.", "item_refs": ["ITEM-JUBAP-FRAMEWORK", "ITEM-NESTLE-CASE"], "review_status": "candidate", "etiquetas": [{"key": "cluster:a_reach", "value": ["JFW", "KOT", "RPL"], "basis": "walk_analysis", "item_refs": ["ITEM-NESTLE-CASE", "ITEM-ROLEPLAY-HYPOTHESIS"]}]}
+  ],
+  "themes": [
+    {"id": "TH-TRANSFORMATION", "version": "0.2", "title": "Transformación organizativa", "description": "Cambios deliberados en las prácticas, estructuras o procesos de una organización, desde su preparación hasta su realización.", "scope": "cambio organizativo", "review_status": "illustrative_definition", "etiquetas": []},
+    {"id": "TH-DIAGNOSTIC", "version": "0.2", "title": "Diagnóstico organizativo", "description": "Actividad de examinar y caracterizar la situación de una organización para identificar condiciones, necesidades o problemas.", "scope": "observación y caracterización organizativa", "review_status": "illustrative_definition", "etiquetas": []}
+  ],
+  "theme_projection": {
+    "scope": "illustrative_subset_only",
+    "classified_node_ids": ["JFW", "FON"],
+    "version": "0.1-example",
+    "graph_snapshot": "language-v02-pilot.json:0.2-experimental",
+    "review_status": "illustrative_not_adjudicated"
+  },
+  "theme_assignments": [
+    {"node_id": "JFW", "theme_id": "TH-TRANSFORMATION", "weight": 1},
+    {"node_id": "FON", "theme_id": "TH-TRANSFORMATION", "weight": 0.4},
+    {"node_id": "FON", "theme_id": "TH-DIAGNOSTIC", "weight": 0.6}
+  ],
+  "proposed_dictionary_changes": [
+    {"proposed_key": "proposed:case_context", "definition": "Identificador del caso de campo que contextualiza una fuente.", "applies_to": ["item"], "value_type": "string", "nearest_existing_keys": ["node:scope", "item:kind"], "reason_not_reuse": "Se refiere al contexto externo del caso fuente, no al alcance de un nodo ni al tipo de ítem.", "source_item_refs": ["ITEM-NESTLE-CASE"], "author": "phase2_pilot", "status": "local_only_pending_dictionary_review", "decision": null}
+  ]
+}
