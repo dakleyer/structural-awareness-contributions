@@ -90,6 +90,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 58 | 2026-11-21 | [Recuentos de evidencia (#105)](#ronda-58) | Un recuento infinito ya no autoriza un cambio de misión; `True` deja de valer como entero en `kl`; L-13 sigue abierto |
 | 59 | 2026-11-21 | [L-13 respondido en #106](#ronda-59) | `closure` exige L ≥ 0, como el contrato canónico `Frame`; L-13 pasa a respondido |
 | 60 | 2026-11-21 | [Viabilidad conjunta y umbrales exactos en `closure` (#107)](#ronda-60) | El fixture repetía I-01 y M28-01; ahora coincide con un oráculo exacto en 3 200 casos; sin registros nuevos |
+| 61 | 2026-11-21 | [Inventario #81–#107 contrastado](#ronda-61) | 27 borradores abiertos con las cabeceras declaradas; ninguna corrección cambia una cifra publicada; sin registros nuevos |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -2061,3 +2062,16 @@ Pasan las 104 pruebas y la CI está en verde.
 **Lectura.** En #106, aproximadamente uno de cada dieciocho casos aleatorios recibía un estado distinto del que corresponde a sus datos. Casi siempre se debía a muestras incompatibles a las que se seguía extrayendo una conclusión. Con las entradas publicadas no ocurría, pero la familia `closure` es la única que hace inferencia en el fixture (F-06). Por eso importa que ahora se comporte igual que el modelo canónico.
 
 **Estado:** sin registros nuevos ni cambios de estado. Es un defecto encontrado y corregido en rama por la implementación de Codex, asistencia de IA (criterio de las rondas 38–55). I-01 y M28-01 siguen cerrados: se referían al modelo canónico, que no cambia. Se añade #107 al mapa del lote. Totales: 92 registros. 31 abiertos, 35 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-61"></a>
+
+## Ronda 61 — inventario #81–#107 contrastado (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. Actualiza el inventario de la ronda 54, que pasa de 22 a 27 borradores.
+
+**Contraste.** La API de GitHub confirma los 27 PR, de #81 a #107: todos abiertos, en borrador y sin fusionar, con las cabeceras que da el inventario. Los cinco nuevos (#103 → #107) forman una cadena lineal sobre #102 y coinciden con las bases verificadas en las rondas 56 a 60 y con el mapa de la guía, que ya los recoge. El orden de retirada no se ha ejecutado.
+
+**Lectura de conjunto.** De las 27 correcciones, ninguna cambia una cifra publicada. Siete responden registros de la auditoría: L-01, M28-07, L-11, F-07, L-12 y L-13 pasan a respondidos, y M28-05 queda atendido en su parte técnica. Tres dieron lugar a registros nuevos (L-11, L-12 y L-13), dos a fe de erratas del auditor (rondas 40 y 47) y una a una precisión de autoría (ronda 55). La cadena #99 → #107 ha llevado el fixture de casos adicionales de #54 al nivel de rigor que el modelo canónico ya tenía: premisas explícitas, operandos finitos y aritmética exacta.
+
+**Estado:** sin registros nuevos ni cambios de estado. Totales: 92 registros. 31 abiertos, 35 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.

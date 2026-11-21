@@ -306,6 +306,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 58 | 21 nov | Claude | #105: un número infinito o NaN de fuentes ya no autoriza ni deniega un cambio de misión; `kl` rechaza booleanos como enteros. L-13 sigue abierto | [ronda 58](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-58) |
 | 59 | 21 nov | Claude | #106: `closure` rechaza constantes de Lipschitz negativas, igual que el contrato canónico `Frame`; L = 0 y `None` sin cambios. L-13 pasa a respondido | [ronda 59](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-59) |
 | 60 | 21 nov | Claude | #107: `closure` comprueba que las muestras sean compatibles y decide con aritmética exacta, como el modelo canónico (I-01, M28-01). Coincide con un oráculo independiente en 3 200 casos | [ronda 60](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-60) |
+| 61 | 21 nov | Claude | Inventario de Codex de los 27 borradores #81–#107 contrastado con GitHub; coincide con el [mapa del lote](#el-lote-de-correcciones-8197-añadido-en-la-ronda-48) | [ronda 61](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-61) |
 
 <a id="el-lote-de-correcciones-8197-añadido-en-la-ronda-48"></a>
 

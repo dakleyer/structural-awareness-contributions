@@ -10,7 +10,7 @@
   }
 </style>
 <rect class="bg" width="850" height="620" rx="8"/>
-<text class="ink" x="16" y="28" font-size="16" font-weight="600">¿Cómo está cada familia de hallazgos? (tras la ronda 60, 92 registros)</text>
+<text class="ink" x="16" y="28" font-size="16" font-weight="600">¿Cómo está cada familia de hallazgos? (tras la ronda 61, 92 registros)</text>
 <text class="ink2" x="16" y="50" font-size="12">Cada barra es una familia de hallazgos. El número de cada tramo dice cuántos registros están en ese estado.</text>
 <text class="ink2" x="16" y="68" font-size="12">Estado vigente según la última ronda que lo decidió, no según el encabezado histórico.</text>
 <text class="ink" x="280" y="109" font-size="12" text-anchor="end">N · Nota al revisor externo</text>
