@@ -47,6 +47,7 @@ El script de reconfirmación de I-01 ya estaba en el PR: [`../reconfirm_I01_2026
 | [`finite_operands_check.py`](finite_operands_check.py) | #103 (observación de la ronda 53) | [56](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-56) | Árboles de #102 y #103 | Cuatro operandos no finitos clasificados en #102 y rechazados en #103; coste de Q no válida sin efecto; negativos y cero idénticos; campaña y sensibilidad idénticas. Termina con 1 si algo falla |
 | [`closure_samples_check.py`](closure_samples_check.py) | L-13; #104 | [57](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-57) | Árboles de #103 y #104 | Cuatro muestras no finitas clasificadas en #103 y rechazadas en #104; casos publicados idénticos; L-13 (L = −0,4 certifica) se reproduce en ambos. Termina con 1 si algo falla |
 | [`evidence_counts_check.py`](evidence_counts_check.py) | #105 | [58](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-58) | Árboles de #104 y #105 | Recuentos infinitos o NaN y soportes booleanos clasificados en #104 y rechazados en #105; recuento no usado, base desconocida y casos publicados idénticos; informa de L-13. Termina con 1 si algo falla |
+| [`l13_lipschitz_check.py`](l13_lipschitz_check.py) | L-13 | [59](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-59) | Árboles de #105 y #106 | L negativa certifica en #105 y se rechaza en #106; L = 0,4, 0, −0,0, `None` y casos publicados idénticos; campaña y sensibilidad idénticas. Termina con 1 si algo falla |
 | [`anchor_check.py`](anchor_check.py) | Herramienta | 14, 20, 21 | Cualquier `.md` | Enlaces `archivo.md#ancla` que no encuentran título ni `<a id>`. Termina con 1 si hay alguno roto |
 
 ## Cómo ejecutarlos
@@ -96,6 +97,7 @@ python3 -B $V/l12_premises_check.py           $PR100 $PR102
 python3 -B $V/finite_operands_check.py        $PR102 $PR103
 python3 -B $V/closure_samples_check.py        $PR103 $PR104
 python3 -B $V/evidence_counts_check.py        $PR104 $PR105
+python3 -B $V/l13_lipschitz_check.py          $PR105 $PR106
 python3 -B $V/anchor_check.py                 $V/../GUIA_DE_LECTURA.md $V/../premium/*.md
 ```
 
@@ -151,6 +153,7 @@ explicit_premises_check.py      on #100 vs #102: B reports BAD by design (L-12 n
 finite_operands_check.py        4/4 non-finite rejected | inactive Q kept | negatives/zero identical | campaign + sensitivity identical | RESULT: PASS (PR #103, 215dbd12)
 closure_samples_check.py        4/4 non-finite rejected | published identical | L-13 L=-0.4 SUPPORTED on both | RESULT: PASS (PR #104, c0043e6e)
 evidence_counts_check.py        4/4 rejected | unused count/None/published identical | L-13 still SUPPORTED | RESULT: PASS (PR #105, 9b4d958b)
+l13_lipschitz_check.py          L<0 rejected | 0, -0.0, None, positive, published identical | RESULT: PASS (PR #106, 132ee669)
 m28_07_storage_check.py         5/5 storage controls kept on #97 | summary-only INFO exit 1 (label corrected, ronda 47) | RESULT: PASS (PR #97)
 anchor_check.py                 0 anclas rotas en la auditoría, la guía, el anexo y el kit premium
 ```

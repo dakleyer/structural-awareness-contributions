@@ -88,6 +88,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 56 | 2026-11-21 | [Operandos finitos (#103)](#ronda-56) | Un NaN en un coste ya no cambia la opción ganadora; utilidades infinitas y desbordamientos se rechazan; sin registros nuevos |
 | 57 | 2026-11-21 | [Muestras finitas en `closure` (#104) y L-13](#ronda-57) | #104 rechaza muestras no finitas; nuevo L-13: una constante de Lipschitz negativa certifica el predicado |
 | 58 | 2026-11-21 | [Recuentos de evidencia (#105)](#ronda-58) | Un recuento infinito ya no autoriza un cambio de misión; `True` deja de valer como entero en `kl`; L-13 sigue abierto |
+| 59 | 2026-11-21 | [L-13 respondido en #106](#ronda-59) | `closure` exige L ≥ 0, como el contrato canónico `Frame`; L-13 pasa a respondido |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -2004,3 +2005,29 @@ La campaña completa y el barrido de sensibilidad son idénticos. Pasan las 93 p
 - **#105 no atiende L-13.** En #105, `closure` con L = −0,4 sigue dando `PREDICATE_SUPPORTED_IN_FRAME`. L-13 sigue `ABIERTO`.
 
 **Estado:** sin registros nuevos ni cambios de estado. Se añade #105 al mapa del lote. Totales: 92 registros. 32 abiertos, 34 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-59"></a>
+
+## Ronda 59 — L-13 respondido en PR #106: constante de Lipschitz no negativa (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #106 (`132ee669`) es un único commit sobre #105 en `9b4d958b`. Añade una línea en la rama `closure` de `campaign.py` (`if L<0: raise ValueError`) y una prueba.
+
+**Fundamento.** La restricción no es nueva en el corpus. El contrato canónico `Frame` de `scoped-closure-metacognition-v0.1/metacognition.py` ya exige `lipschitz >= 0` (línea 119 en `bd5c5bf3`, que está en `main`; comprobado). #106 aplica al fixture de casos adicionales la misma premisa que ya declara el modelo canónico.
+
+**Comprobación** (`verification/l13_lipschitz_check.py`, CLOSURE-02 con L sustituida):
+
+| L | #105 | #106 |
+|---|---|---|
+| −0,4 | `SUPPORTED_IN_FRAME`, cotas [9,4; 9,6] | `ValueError` |
+| −5·10⁻³²⁴ | `SUPPORTED_IN_FRAME`, cotas [9; 10] | `ValueError` |
+| 0,4 | `UNDETERMINED`, [8,6; 10,4] | igual |
+| 0 y −0,0 | `SUPPORTED_IN_FRAME`, [9; 10] | igual: L = 0 (función constante) sigue siendo válida |
+| `None` | `REGULARITY_NOT_ESTABLISHED` | igual |
+| Tres casos publicados | — | idénticos |
+
+Con −5·10⁻³²⁴ el resultado de #105 coincidía con el de L = 0, así que no era una certificación errónea. #106 lo rechaza por contrato, no por su efecto, y eso es coherente con `Frame`. La campaña completa y el barrido de sensibilidad son idénticos. Pasan las 96 pruebas y la CI está en verde.
+
+**Script de la ronda 57.** `closure_samples_check.py`, ejecutado sobre #105 frente a #106, daría «BAD» en el apartado L-13, porque el defecto ya no se reproduce en #106. Es el comportamiento previsto.
+
+**Estado:** L-13 pasa de `ABIERTO` a `RESPONDIDO`. Se cerrará cuando #106 y su cadena (#105 → #99) y #54 estén en `main`. Se añade #106 al mapa del lote. Totales: 92 registros. 31 abiertos, 35 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.

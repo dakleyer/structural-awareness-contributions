@@ -37,7 +37,7 @@
   > - Las pruebas finitas revisadas establecen resultados concretos bajo sus hipótesis: una representación puede conservar una distinción necesaria para decidir; información compatible puede sostener una conclusión local útil; una guarda probada puede ahorrar comprobaciones en su dominio y balance de costes.
   > - Los fixtures también comprueban reproducción y sensibilidad bajo entradas o procedimientos suministrados. Esos resultados conservan su valor; para estudiar adquisición, selección o adaptación se necesita el proceso correspondiente y su evidencia.
   > - El fallo numérico I-01 y sus ampliaciones están corregidos y reconfirmados. La guarda de dominio M28-02 ya se corrigió y reconfirmó en la rama de #60; su incorporación sigue pendiente.
-- **Dónde estamos.** La auditoría tiene 84 registros sobre el contenido y 8 sobre la forma del propio expediente: 92 en total. De ellos, 32 siguen abiertos, 34 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 14 son propuestas de mejora, aclaraciones o puntos retirados.
+- **Dónde estamos.** La auditoría tiene 84 registros sobre el contenido y 8 sobre la forma del propio expediente: 92 en total. De ellos, 31 siguen abiertos, 35 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 14 son propuestas de mejora, aclaraciones o puntos retirados.
 - **Qué no es.** No es una revisión científica humana independiente. Todas las rondas las han escrito asistentes de IA (Claude y Codex), en parte a partir de observaciones de Iván.
 
 ## 2. Quién ha escrito qué
@@ -70,8 +70,8 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 | M27-O y M28-O · Líneas de desarrollo | 0 | 0 | 0 | 7 | 0 | 7 |
 | J · Forma del expediente | 1 | 6 | 1 | 0 | 0 | 8 |
 | K · Modelo social #44–#46 | 1 | 3 | 3 | 1 | 0 | 8 |
-| L · Recepciones (rondas 23–57) | 2 | 8 | 3 | 0 | 0 | 13 |
-| **Total** | **32** | **34** | **12** | **9** | **5** | **92** |
+| L · Recepciones (rondas 23–57) | 1 | 9 | 3 | 0 | 0 | 13 |
+| **Total** | **31** | **35** | **12** | **9** | **5** | **92** |
 
 **Qué significa cada estado:**
 
@@ -304,6 +304,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 56 | 21 nov | Claude | #103: costes, utilidades y demandas de crédito deben ser finitos; un NaN ya no hace ganar a la fuente B; un coste de Q no válida no bloquea nada | [ronda 56](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-56) |
 | 57 | 21 nov | Claude | #104: las muestras de `closure` deben ser finitas. Nuevo L-13: una constante de regularidad negativa estrecha las cotas por debajo de las muestras y certifica el predicado | [ronda 57](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-57) |
 | 58 | 21 nov | Claude | #105: un número infinito o NaN de fuentes ya no autoriza ni deniega un cambio de misión; `kl` rechaza booleanos como enteros. L-13 sigue abierto | [ronda 58](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-58) |
+| 59 | 21 nov | Claude | #106: `closure` rechaza constantes de Lipschitz negativas, igual que el contrato canónico `Frame`; L = 0 y `None` sin cambios. L-13 pasa a respondido | [ronda 59](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-59) |
 
 <a id="el-lote-de-correcciones-8197-añadido-en-la-ronda-48"></a>
 
@@ -311,7 +312,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 
 Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores, cada uno con una corrección acotada sobre un PR de investigación o sobre esta auditoría. Ninguno está fusionado. El mapa muestra de qué PR depende cada uno y en qué ronda se verificó; el inventario de Codex del 21-11 coincide con las cabeceras reales de los 17 PR, comprobadas en la ronda 48.
 
-![Mapa de las correcciones #81 a #105, su PR de base y la ronda que las recibió](figures/BATCH_81_97_map.svg)
+![Mapa de las correcciones #81 a #106, su PR de base y la ronda que las recibió](figures/BATCH_81_97_map.svg)
 
 | PR | Qué corrige, en una línea | Base | Ronda | Efecto en el registro | Efecto en las cifras publicadas |
 |---|---|---|---|---|---|
@@ -340,6 +341,7 @@ Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores,
 | #103 | Costes, utilidades y demandas de crédito finitos (añadido en la ronda 56) | #102 | [56](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-56) | — (observación de la ronda 53) | Ninguno |
 | #104 | Muestras finitas en `closure` (añadido en la ronda 57) | #103 | [57](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-57) | Origen de L-13 | Ninguno |
 | #105 | Recuentos de evidencia finitos en `mission`; `kl` sin booleanos (añadido en la ronda 58) | #104 | [58](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-58) | — | Ninguno |
+| #106 | Constante de Lipschitz no negativa en `closure` (añadido en la ronda 59) | #105 | [59](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-59) | L-13 → respondido | Ninguno |
 
 **Cómo leerlo.** El lote no cambia ninguna conclusión numérica; corrige cómo se validan las entradas, cómo se nombran las cosas y cómo se guardan los resultados. Tres correcciones responden registros de la auditoría (L-01, M28-07 y L-11). Dos rondas (40 y 47) corrigen errores del propio auditor en las rondas 36 y 42, y la 43 precisa su terminología. Nada de esto es revisión humana independiente.
 
@@ -517,7 +519,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 
 </details>
 
-<details><summary><b>L · Recepciones (rondas 23–57)</b> — 13 registros, 2 abiertos</summary>
+<details><summary><b>L · Recepciones (rondas 23–57)</b> — 13 registros, 1 abiertos</summary>
 
 | ID | Estado | Gravedad | En pocas palabras | Ronda que fijó el estado |
 |---|---|---|---|---|
@@ -532,7 +534,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 | [L-10](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-10) | 🔵 Abierto | Media | #76: en el juego base, quedarse o moverse empatan en dominancia por riesgo (umbral 1/2), y en 30 de 39 trampas la selección de equilibrios favorece salir. | 33 |
 | [L-11](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-11) | 🟠 Respondido | Media | #57 y #94: un evento con hora de llegada NaN o infinita pasaba la puerta de llegada posterior al intercambio y habilitaba la transferencia (11,5). #96 exige horas enteras y nombres de texto; falta incorporarlo a main. | 46 |
 | [L-12](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-12) | 🟠 Respondido | Media | #54 y #100: «UNKNOWN» contaba como «sí» en mission, q_cost y knowledge. #102 exige premisas explícitas en esas ramas y en attribution; falta incorporarlo a main. | 53 |
-| [L-13](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-13) | 🔵 Abierto | Baja | #54 (también en #104): una constante de Lipschitz negativa en closure estrecha las cotas por debajo de las muestras y certifica el predicado. | 57 |
+| [L-13](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-13) | 🟠 Respondido | Baja | #54 y #104: una constante de Lipschitz negativa en closure certificaba el predicado. #106 exige L ≥ 0, como el contrato canónico Frame; falta incorporarlo a main. | 59 |
 | [L-03](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-03) | 🟢 Verificado | Informativo | #60: los testigos F1/D1 (10 frente a 8; 11,5 frente a 8,875 con el mismo A) se reproducen desde el código de origen. | 23 |
 
 </details>
