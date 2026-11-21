@@ -530,35 +530,35 @@ def run_game(g:Mapping[str,Any])->dict:
 
 
 def sensitivity_grid(base:Mapping[str,Any],plan:Mapping[str,Any])->dict:
-    """Independent physical/incentive/coordination sweeps, not labels in inputs.
+    """Payoff coefficient and coordination burden sweeps; K remains open.
 
     This grid is predeclared in the JSON; success, Nash traps and failure are
     computed solely from the payoff/feasibility/authorization mechanisms.
     It changes neither original source fixtures nor available rights.
     """
-    dimensions=(
+    grid_keys=(
         "standalone_returns","investment_costs","pairwise_synergies",
         "individual_joint_burdens",
     )
-    if not isinstance(plan,dict) or set(plan)!=set(dimensions):
-        raise ValueError("sensitivity requires four separate economic dimensions")
+    if not isinstance(plan,dict) or set(plan)!=set(grid_keys):
+        raise ValueError("sensitivity requires four separate declared grids")
     if len(base["actors"])!=2:
         raise ValueError("two-player sensitivity is an explicit subexperiment")
-    for key in dimensions:
+    for key in grid_keys:
         v=plan[key]
         if not isinstance(v,list) or not 2<=len(v)<=12 or len(set(v))!=len(v):
             raise ValueError("sensitivity requires bounded distinct declared values")
         for x in v:
             q(x,signed=key not in ("investment_costs","individual_joint_burdens"))
     total=1
-    for key in dimensions:
+    for key in grid_keys:
         total*=len(plan[key])
     if total>2048:
         raise ValueError("finite sensitivity grid is too large")
     rows=[]
     counts={}
     admissibility={}
-    for ret,cost,gain,burden in product(*(plan[k] for k in dimensions)):
+    for ret,cost,gain,burden in product(*(plan[k] for k in grid_keys)):
         g=deepcopy(base)
         for a in g["actors"]:
             a["standalone_return"]=ret
