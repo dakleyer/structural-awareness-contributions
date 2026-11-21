@@ -292,6 +292,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 44 | 21 nov | Claude | #94: la cartografía de #57 deja de tratar «UNKNOWN» como captura o enlace válidos; 120 informes válidos idénticos. Nuevo L-11: una hora de llegada NaN o infinita pasa la puerta y habilita la transferencia | [ronda 44](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-44) |
 | 45 | 21 nov | Claude | #95: las cuatro rejillas del barrido de H-01 dejan de llamarse «dimensiones económicas»; K sigue abierto. Mismo árbol sintáctico salvo un mensaje e informe idéntico | [ronda 45](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-45) |
 | 46 | 21 nov | Claude | #96: una hora NaN, infinita o no entera, o un identificador en blanco, se rechaza antes de ordenar la llegada; 120 informes idénticos; L-11 pasa a respondido | [ronda 46](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-46) |
+| 47 | 21 nov | Claude | Fe de erratas: en la ronda 42, una comprobación que falla ya terminaba con código 1; lo que salía con 0 era un resumen que no cuadraba con sus comprobaciones. #97 lo corrige | [ronda 47](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-47) |
 
 <a id="11-los-79-registros-uno-por-uno"></a>
 <a id="11-los-82-registros-uno-por-uno"></a>

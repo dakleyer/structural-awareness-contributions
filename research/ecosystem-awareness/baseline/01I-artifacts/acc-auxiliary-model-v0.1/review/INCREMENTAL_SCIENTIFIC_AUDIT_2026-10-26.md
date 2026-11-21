@@ -76,6 +76,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 44 | 2026-11-21 | [Indicadores explícitos en la cartografía (#94) y L-11](#ronda-44) | #94 exige `True` explícito en captura y enlace; nuevo L-11: un tiempo de llegada NaN o infinito pasa la puerta de llegada |
 | 45 | 2026-11-21 | [Rejillas de sensibilidad, no dimensiones de K (#95)](#ronda-45) | Cambio de nombres en `sensitivity_grid`; AST idéntico salvo un mensaje; informe H-01 idéntico; sin registros nuevos |
 | 46 | 2026-11-21 | [L-11 respondido en #96](#ronda-46) | Horas de llegada enteras y nombres de evento de texto obligatorios; L-11 pasa a respondido |
+| 47 | 2026-11-21 | [Fe de erratas de la ronda 42; código de salida en #97](#ronda-47) | Un fallo real ya salía con código 1; lo que salía con 0 era un resumen incoherente, y #97 lo corrige; sin registros nuevos |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1676,3 +1677,41 @@ La información atemporal se conserva. `qualified_event` sigue reconociendo como
 - Un solo evento sin hora válida invalida todo el historial, incluidos los eventos válidos que lo acompañan. Es la opción conservadora: no se puede afirmar «ninguna llegada antes del intercambio» si una llegada es desconocida. La alternativa sería descartar solo ese evento con un diagnóstico, pero entonces el control de aciertos previos debería declararse incompleto.
 
 **Estado:** L-11 pasa de `ABIERTO` a `RESPONDIDO`. Se cerrará cuando #96, #94 y #57 estén en `main`. Totales: 90 registros. 32 abiertos, 32 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-47"></a>
+
+## Ronda 47 — fe de erratas de la ronda 42 y código de salida del acompañante en PR #97 (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #97 (`e7425fa8`) es un único commit sobre #93 en `59f2bf03`. Toca el acompañante matemático, una prueba nueva y su workflow.
+
+### Fe de erratas de la ronda 42
+
+La ronda 42 escribió: «Si alguna comprobación fallara, el acompañante seguiría terminando con código 0: se probó forzando un resultado de 31/32». **La primera mitad es incorrecta.** Cada comprobación pasa por `require`, que añade su resultado a la lista y lanza `AssertionError` si la condición es falsa (línea 51 de `math_audit_companion_2026-10-27.py`). Un fallo real interrumpe la ejecución y el proceso termina con código 1, sin emitir informe. Se ha comprobado en #93 y en #97 forzando que falle la comprobación M27-12; en los dos árboles, `AssertionError` y código 1.
+
+El sondeo de la ronda 42 hacía otra cosa: cambiaba solo el resumen `passed` a 31 y dejaba las 32 comprobaciones de la lista en verde. Lo que demostraba es más estrecho: **un informe devuelto que no cuadra con sus propias comprobaciones sale con código 0.** El defecto descrito era real, pero estaba mal etiquetado. El texto de la ronda 42 se conserva tal como se escribió y esta nota lo corrige. También se ha corregido la etiqueta del sondeo informativo en `verification/m28_07_storage_check.py`, que repetía la misma lectura.
+
+### Recepción de #97
+
+#97 solo devuelve 0 si se cumplen todas estas condiciones:
+- la lista de comprobaciones no está vacía y todas tienen `passed` igual a `True` explícito;
+- `total` y `passed` son enteros;
+- `total` coincide con la longitud de la lista;
+- `passed == total`.
+
+En cualquier otro caso devuelve 1. El informe completo se sigue emitiendo tal cual, por pantalla o en el archivo nuevo de `--output`. `run_checks` es idéntico a #93.
+
+**Comprobación** (`verification/m28_07_exit_status_check.py`, en carpetas temporales):
+
+| Situación | #93 | #97 |
+|---|---|---|
+| Ejecución normal | código 0; informe igual a la referencia (32/32) | igual |
+| Comprobación real que falla (M27-12) | `AssertionError`, código 1, sin informe | igual |
+| Resumen incoherente (`passed`=31, las 32 en verde) | código 0 | código 1; informe completo emitido |
+| Lo mismo con `--output` | código 0; archivo creado | código 1; archivo creado con el informe |
+
+Las protecciones de #93 se mantienen en #97: `m28_07_storage_check.py` sobre la base de la auditoría y #97 da los cinco controles en verde. Pasan las 11 pruebas (6 heredadas y 5 nuevas) y la CI está en verde.
+
+**Lectura.** Es una mejora de coherencia de la herramienta, no un cambio científico: ninguna cifra, fuente ni hallazgo cambia. Cierra el hueco estrecho que la ronda 42 detectó, y no el amplio que dijo haber detectado.
+
+**Estado:** sin registros nuevos ni cambios de estado. M28-07 sigue `RESPONDIDO` con #93, y #97 depende de #93. Totales: 90 registros. 32 abiertos, 32 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.

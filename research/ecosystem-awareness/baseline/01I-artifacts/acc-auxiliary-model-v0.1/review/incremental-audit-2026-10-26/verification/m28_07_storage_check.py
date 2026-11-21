@@ -19,8 +19,10 @@ content, different bytes) and leave a source cache with bytecode next to it.
   4. --source-archive (the parent's cache): same result, archive unchanged,
      no bytecode written into it.
   5. --source-archive on an empty folder: fails, creates nothing.
-  6. informative: a run whose checks do not all pass still exits 0
-     (the exit-code signal is a separate proposal, not part of #93).
+  6. informative: a returned report whose summary says 31/32 while all 32
+     checks still pass exits 0 on #93 (1 on #97). This is NOT a real failing
+     check: a failing `require` raises and exits non-zero on every version.
+     Round 42 described it wrongly; see round 47 and m28_07_exit_status_check.py.
 
 Exit code 1 on a mismatch in 1-5.
 """
@@ -123,8 +125,8 @@ with tempfile.TemporaryDirectory() as work:
              "sys.exit(m.main([]))") % str(c / SCRIPT)
     r = subprocess.run([sys.executable, "-B", "-c", probe], cwd=c, capture_output=True, text=True,
                        env=dict(os.environ, TMPDIR=str(tmp)))
-    print(f"INFO #93 with a failing check (31/32): exit code {r.returncode} "
-          "(exit-code signal remains a separate proposal)")
+    print(f"INFO summary-only inconsistency (passed=31, all 32 checks pass): exit code {r.returncode} "
+          "(a real failing check raises and exits non-zero; see round 47)")
 
 print("RESULT:", "PASS" if ok else "FAIL")
 sys.exit(0 if ok else 1)
