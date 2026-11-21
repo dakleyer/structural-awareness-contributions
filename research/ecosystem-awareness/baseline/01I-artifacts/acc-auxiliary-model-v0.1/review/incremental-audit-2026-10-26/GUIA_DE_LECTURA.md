@@ -301,6 +301,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 53 | 21 nov | Claude | #102: «UNKNOWN» deja de autorizar un cambio de misión, de elegir la fuente B y de abrir la vía de validación; Codex (asistencia de IA) halla y corrige además `attribution`. L-12 pasa a respondido | [ronda 53](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-53) |
 | 54 | 21 nov | Claude | Inventario de Codex de los 22 borradores #81–#102 contrastado con GitHub: cabeceras y dependencias coinciden con el [mapa del lote](#el-lote-de-correcciones-8197-añadido-en-la-ronda-48) | [ronda 54](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-54) |
 | 55 | 21 nov | Claude | Precisión de autoría: cuando las rondas 38–53 dicen «el autor» de los PR #84–#102, se refieren a Codex (asistencia de IA), no a una revisión manual de Iván | [ronda 55](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-55) |
+| 56 | 21 nov | Claude | #103: costes, utilidades y demandas de crédito deben ser finitos; un NaN ya no hace ganar a la fuente B; un coste de Q no válida no bloquea nada | [ronda 56](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-56) |
 
 <a id="el-lote-de-correcciones-8197-añadido-en-la-ronda-48"></a>
 
@@ -308,7 +309,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 
 Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores, cada uno con una corrección acotada sobre un PR de investigación o sobre esta auditoría. Ninguno está fusionado. El mapa muestra de qué PR depende cada uno y en qué ronda se verificó; el inventario de Codex del 21-11 coincide con las cabeceras reales de los 17 PR, comprobadas en la ronda 48.
 
-![Mapa de las correcciones #81 a #102, su PR de base y la ronda que las recibió](figures/BATCH_81_97_map.svg)
+![Mapa de las correcciones #81 a #103, su PR de base y la ronda que las recibió](figures/BATCH_81_97_map.svg)
 
 | PR | Qué corrige, en una línea | Base | Ronda | Efecto en el registro | Efecto en las cifras publicadas |
 |---|---|---|---|---|---|
@@ -334,6 +335,7 @@ Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores,
 | #100 | Autorización, viabilidad y mismo servicio exigen `True` en los casos adicionales (añadido en la ronda 51) | #99 | [51](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-51) | Origen de L-12 | Ninguno |
 | #101 | Nombres de dos pruebas: reproducción, no comparación con un «peer» (añadido en la ronda 52) | #85 | [52](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-52) | M28-05, parte técnica | Ninguno |
 | #102 | Premisas explícitas en `mission`, `q_cost`, `knowledge` y `attribution` (añadido en la ronda 53) | #100 | [53](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-53) | L-12 → respondido | Ninguno |
+| #103 | Costes, utilidades y demandas de crédito finitos (añadido en la ronda 56) | #102 | [56](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-56) | — (observación de la ronda 53) | Ninguno |
 
 **Cómo leerlo.** El lote no cambia ninguna conclusión numérica; corrige cómo se validan las entradas, cómo se nombran las cosas y cómo se guardan los resultados. Tres correcciones responden registros de la auditoría (L-01, M28-07 y L-11). Dos rondas (40 y 47) corrigen errores del propio auditor en las rondas 36 y 42, y la 43 precisa su terminología. Nada de esto es revisión humana independiente.
 

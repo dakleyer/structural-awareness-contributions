@@ -85,6 +85,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 53 | 2026-11-21 | [L-12 respondido en #102](#ronda-53) | `mission`, `q_cost`, `knowledge` y también `attribution` exigen premisas explícitas; L-12 pasa a respondido |
 | 54 | 2026-11-21 | [Inventario #81–#102 contrastado](#ronda-54) | 22 borradores abiertos con las cabeceras declaradas; ninguna corrección cambia una cifra publicada; sin registros nuevos |
 | 55 | 2026-11-21 | [Precisión de autoría](#ronda-55) | «El autor» de las rondas 38–53 es Codex, asistencia de IA, no una revisión manual de Iván; sin cambios de estado |
+| 56 | 2026-11-21 | [Operandos finitos (#103)](#ronda-56) | Un NaN en un coste ya no cambia la opción ganadora; utilidades infinitas y desbordamientos se rechazan; sin registros nuevos |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1906,3 +1907,34 @@ El texto de esas rondas se conserva; esta nota lo corrige. En la guía se ha aju
 **Lo que no cambia.** Las comprobaciones, cifras y estados de esas rondas no varían: se verificaron sobre el código, con independencia de quién lo escribiera. El criterio de estado de las rondas 38 a 53 queda así: «defecto encontrado y corregido en una rama abierta por la implementación asistida por IA, pendiente de incorporarse a `main`».
 
 **Estado:** sin registros nuevos ni cambios de estado. Totales: 91 registros. 31 abiertos, 34 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-56"></a>
+
+## Ronda 56 — operandos finitos en `q_cost` y `distribution` (PR #103) (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #103 (`215dbd12`) es un único commit sobre #102 en `e6bd3a7c`. Toca `campaign.py` y añade una prueba. Responde a la observación sin registro que hizo la ronda 53: varios costes y utilidades no pasaban por `finite`.
+
+**Qué cambia.**
+- En `q_cost` se validan con `finite` los costes que de verdad se usan: `targeted_cost`, `full_cost` y, solo si Q es válida, `qualified_cost`. También se validan los valores netos de cada modo, lo que detecta desbordamientos.
+- En `distribution` se validan las variaciones de utilidad y la demanda total de crédito.
+- No se añade ningún límite de signo ni de escala.
+
+**Comprobación** (`verification/finite_operands_check.py`, con casos reales):
+
+| Caso modificado | #102 | #103 |
+|---|---|---|
+| QUAL-02, `targeted_cost` = NaN | mejor modo `SOURCE_B` (antes era `TARGETED_CONVENTIONAL`) | `ValueError` |
+| ROBIN-01, `delta_utils` = [1, ∞] | `absolute_pareto=True` | `ValueError` |
+| QUAL-01, valor 10³⁰⁸ y `full_cost` −10³⁰⁸ (desbordamiento) | mejor modo `FULL_A_EXPANSION` con valor infinito | `ValueError` |
+| ROBIN-03, mínimos [10³⁰⁸, 10³⁰⁸] (demanda infinita) | `RELATIVE_CREDIT_IMPOSSIBLE` | `ValueError` |
+| QUAL-03 (Q no válida), `qualified_cost` = NaN | compara los modos conocidos | igual: ese coste no se usa y no bloquea nada |
+| QUAL-02 con coste −3 o 0; ROBIN-01 con [−1, 0] | — | idénticos a #102 |
+
+La campaña completa (46 casos) y el barrido de sensibilidad son idénticos. Pasan las 84 pruebas y la CI está en verde.
+
+**Por qué importa.** Un NaN en un coste no debería poder cambiar qué opción gana. En #102, `max` comparaba con NaN y el resultado dependía del orden de los modos, así que la fuente B salía ganadora sin motivo. Ahora el valor se rechaza antes de compararlo.
+
+**Alcance.** #103 cubre estas dos ramas. Codex, asistencia de IA, advierte de que no ha revisado todos los contratos numéricos del archivo. Por ejemplo, `network` y `entropy` usan sus propias comprobaciones.
+
+**Estado:** sin registros nuevos ni cambios de estado. La observación de la ronda 53 no tenía registro y queda atendida en rama. Se añade #103 al mapa del lote. Totales: 91 registros. 31 abiertos, 34 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.

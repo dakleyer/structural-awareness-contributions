@@ -281,7 +281,7 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"), (37, 0, "L-01 (#83)"), (38, 0, "#69: óptimos repetidos (#84)"), (39, 0, "#60: indicadores booleanos (#85)"), (40, 0, "Fe de erratas; #86–#91"), (41, 0, "Identidad dimensional (#92)"), (42, 0, "M28-07 (#93)"), (43, 0, "Intercambio, no compensación"), (44, 0, "#94 y L-11"), (45, 0, "Rejillas, no dimensiones (#95)"), (46, 0, "L-11 (#96)"), (47, 0, "Fe de erratas; salida (#97)"), (48, 0, "Mapa del lote #81–#97"), (49, 0, "Ámbitos con nombre (#98)"), (50, 0, "F-07 (#99)"), (51, 0, "#100 y L-12"), (52, 0, "M28-05 técnico (#101)"), (53, 0, "L-12 (#102)"), (54, 0, "Inventario #81–#102"), (55, 0, "Precisión de autoría"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"), (37, 0, "L-01 (#83)"), (38, 0, "#69: óptimos repetidos (#84)"), (39, 0, "#60: indicadores booleanos (#85)"), (40, 0, "Fe de erratas; #86–#91"), (41, 0, "Identidad dimensional (#92)"), (42, 0, "M28-07 (#93)"), (43, 0, "Intercambio, no compensación"), (44, 0, "#94 y L-11"), (45, 0, "Rejillas, no dimensiones (#95)"), (46, 0, "L-11 (#96)"), (47, 0, "Fe de erratas; salida (#97)"), (48, 0, "Mapa del lote #81–#97"), (49, 0, "Ámbitos con nombre (#98)"), (50, 0, "F-07 (#99)"), (51, 0, "#100 y L-12"), (52, 0, "M28-05 técnico (#101)"), (53, 0, "L-12 (#102)"), (54, 0, "Inventario #81–#102"), (55, 0, "Precisión de autoría"), (56, 0, "Operandos finitos (#103)"),
 ]
 
 
@@ -342,12 +342,13 @@ BATCH = [
     (100, 10, 2, "Premisas explícitas", 51, 0, 99),
     (101, 2, 3, "Pruebas bien nombradas", 52, 0, 85),
     (102, 10, 3, "Premisas restantes", 53, 2, 100),
+    (103, 10, 4, "Operandos finitos", 56, 0, 102),
 ]
 
 
 def fig_batch() -> str:
     left, top, col, row_h, bw, bh = 16, 92, 262, 50, 240, 38
-    w = left + 4 * col
+    w = left + (max(n[2] for n in BATCH) + 1) * col
     h = top + (max(n[1] for n in BATCH) + 1) * row_h + 64
     pos = {n[0]: (left + n[2] * col, top + n[1] * row_h) for n in BATCH}
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
