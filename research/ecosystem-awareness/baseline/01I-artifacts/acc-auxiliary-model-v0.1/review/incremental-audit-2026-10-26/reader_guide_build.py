@@ -280,7 +280,7 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"), (37, 0, "L-01 (#83)"), (38, 0, "#69: óptimos repetidos (#84)"), (39, 0, "#60: indicadores booleanos (#85)"), (40, 0, "Fe de erratas; #86–#91"), (41, 0, "Identidad dimensional (#92)"), (42, 0, "M28-07 (#93)"), (43, 0, "Intercambio, no compensación"), (44, 0, "#94 y L-11"), (45, 0, "Rejillas, no dimensiones (#95)"), (46, 0, "L-11 (#96)"), (47, 0, "Fe de erratas; salida (#97)"), (48, 0, "Mapa del lote #81–#97"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"), (37, 0, "L-01 (#83)"), (38, 0, "#69: óptimos repetidos (#84)"), (39, 0, "#60: indicadores booleanos (#85)"), (40, 0, "Fe de erratas; #86–#91"), (41, 0, "Identidad dimensional (#92)"), (42, 0, "M28-07 (#93)"), (43, 0, "Intercambio, no compensación"), (44, 0, "#94 y L-11"), (45, 0, "Rejillas, no dimensiones (#95)"), (46, 0, "L-11 (#96)"), (47, 0, "Fe de erratas; salida (#97)"), (48, 0, "Mapa del lote #81–#97"), (49, 0, "Ámbitos con nombre (#98)"),
 ]
 
 
@@ -335,6 +335,7 @@ BATCH = [
     (92, 7, 1, "Identidad de dimensiones", 41, 0, 76), (95, 7, 2, "Rejillas, no dimensiones K", 45, 0, 92),
     (93, 8, 1, "Referencia protegida", 42, 2, 58), (97, 8, 2, "Código de salida coherente", 47, 0, 93),
     (94, 9, 1, "Captura y enlace explícitos", 44, 0, 57), (96, 9, 2, "Hora e identidad de llegada", 46, 2, 94),
+    (98, 9, 3, "Ámbitos con nombre", 49, 0, 96),
 ]
 
 
@@ -344,10 +345,10 @@ def fig_batch() -> str:
     h = top + 10 * row_h + 64
     pos = {n[0]: (left + n[2] * col, top + n[1] * row_h) for n in BATCH}
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
-         f'aria-label="Mapa de las {sum(n[4] is not None for n in BATCH)} correcciones acotadas #81 a #97, '
+         f'aria-label="Mapa de las {sum(n[4] is not None for n in BATCH)} correcciones acotadas #81 a #{max(n[0] for n in BATCH)}, '
          f'su PR de base y la ronda de la auditoría que las recibió">{STYLE}',
          f'<rect class="bg" width="{w}" height="{h}" rx="8"/>',
-         '<text class="ink" x="16" y="28" font-size="16" font-weight="600">Las correcciones #81–#97: de qué PR cuelga cada una y qué ronda la recibió</text>',
+         f'<text class="ink" x="16" y="28" font-size="16" font-weight="600">Las correcciones #81–#{max(n[0] for n in BATCH)}: de qué PR cuelga cada una y qué ronda la recibió</text>',
          '<text class="ink2" x="16" y="50" font-size="12">Borradores de Codex (IA), ninguno fusionado. Cada flecha va de la base al PR que la corrige; «r41» es la ronda de esta auditoría que lo verificó.</text>',
          '<text class="ink2" x="16" y="68" font-size="12">Para retirar el lote, primero los hijos: una corrección no se revierte antes que las que dependen de ella.</text>']
     for pr, row, depth, label, rnd, kind, parent in BATCH:

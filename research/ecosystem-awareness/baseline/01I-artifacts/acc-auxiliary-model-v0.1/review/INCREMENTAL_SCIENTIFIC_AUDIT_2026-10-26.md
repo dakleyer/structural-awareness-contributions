@@ -78,6 +78,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 46 | 2026-11-21 | [L-11 respondido en #96](#ronda-46) | Horas de llegada enteras y nombres de evento de texto obligatorios; L-11 pasa a respondido |
 | 47 | 2026-11-21 | [Fe de erratas de la ronda 42; código de salida en #97](#ronda-47) | Un fallo real ya salía con código 1; lo que salía con 0 era un resumen incoherente, y #97 lo corrige; sin registros nuevos |
 | 48 | 2026-11-21 | [Inventario #81–#97 contrastado; mapa visual](#ronda-48) | 17 borradores abiertos, cabeceras y dependencias coinciden; nuevo mapa del lote en la guía; sin registros nuevos |
+| 49 | 2026-11-21 | [Ámbitos de fuente con nombre (#98)](#ronda-49) | Ámbitos sin nombre ya no califican una región conjunta; información local conservada; sin registros nuevos |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1731,3 +1732,27 @@ Las protecciones de #93 se mantienen en #97: `m28_07_storage_check.py` sobre la 
 **Ayuda visual nueva.** Se añade a la guía (§10) el mapa `figures/BATCH_81_97_map.svg`, generado por `reader_guide_build.py`, y una tabla que indica para cada PR qué corrige, de qué base cuelga, qué ronda lo recibió, qué efecto tuvo en el registro y cuál en las cifras publicadas. El mapa resume en una imagen lo que hasta ahora estaba repartido en doce rondas: ninguna de las 17 correcciones cambia una conclusión numérica, tres responden registros (L-01, M28-07 y L-11) y dos dieron lugar a fe de erratas del auditor (rondas 40 y 47).
 
 **Estado:** sin registros nuevos ni cambios de estado. Totales: 90 registros. 32 abiertos, 32 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-49"></a>
+
+## Ronda 49 — ámbitos de fuente con nombre en PR #98 (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #98 (`d44017ad`) es un único commit sobre #96 en `e5b16bb6` y toca dos archivos: `residual_cartography_stage.py` y una prueba nueva.
+
+**Qué corrige.** Para calificar una región conjunta, la capa cartográfica exige que las cuatro observaciones procedan del ámbito de fuente requerido. En #96 bastaba con que los dos valores fueran *iguales*: si el ámbito del evento y el requerido eran los dos `None`, los dos estaban en blanco o los dos valían `True` o 1, la región se calificaba igual que con un ámbito real. Dos ausencias iguales no identifican un contexto. #98 aplica a los ámbitos el mismo predicado de texto no vacío que #96 ya aplicaba a los identificadores de evento. Si falta, la unión devuelve `INVALID_SOURCE_SCOPE`, y `three_stages` rechaza el evento antes de construir el historial.
+
+**Comprobación** (`verification/scope_identity_check.py`, cada árbol en su propio proceso):
+
+| Ámbito del evento = ámbito requerido | #96 | #98 |
+|---|---|---|
+| `None`, `""`, `"  "`, `True`, `1` | región conjunta calificada | `INVALID_SOURCE_SCOPE` |
+| `[]` (no hashable) | `TypeError` | `INVALID_SOURCE_SCOPE` |
+| Mismo nombre Unicode | calificada | calificada |
+| Nombres distintos | `SOURCE_OR_EVENT_MISMATCH` | igual |
+
+La información local se conserva. Con ámbito `None`, las cuatro observaciones siguen dando `CERTIFIED_OUTSIDE_LOCAL_A` y la geometría sigue valiendo 0,98125. Lo que queda sin resolver es la calificación conjunta, que necesita un contexto con nombre. Los 120 informes válidos y `main()` son idénticos a #96. Pasan las 104 pruebas (98 heredadas y 6 nuevas) y la CI está en verde.
+
+**Alcance real del defecto.** Por la vía principal, `three_stages`, no era explotable en #96: el ámbito requerido sale de `CASES.json`, que siempre tiene nombre, así que un evento sin ámbito no casaba y no producía candidato (producción 10). El defecto afectaba a quien llamara directamente a `qualified_event` o a `common_cartographic_label`. Por eso no se abre registro.
+
+**Estado:** sin registros nuevos ni cambios de estado, por el criterio de las rondas 38 a 41. Se añade #98 al mapa del lote de la guía. Totales: 90 registros. 32 abiertos, 32 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.

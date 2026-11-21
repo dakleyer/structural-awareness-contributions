@@ -294,6 +294,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 46 | 21 nov | Claude | #96: una hora NaN, infinita o no entera, o un identificador en blanco, se rechaza antes de ordenar la llegada; 120 informes idénticos; L-11 pasa a respondido | [ronda 46](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-46) |
 | 47 | 21 nov | Claude | Fe de erratas: en la ronda 42, una comprobación que falla ya terminaba con código 1; lo que salía con 0 era un resumen que no cuadraba con sus comprobaciones. #97 lo corrige | [ronda 47](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-47) |
 | 48 | 21 nov | Claude | Inventario de Codex sobre #81–#97 contrastado con GitHub; nuevo mapa del lote y tabla de efectos ([abajo](#el-lote-de-correcciones-8197-añadido-en-la-ronda-48)) | [ronda 48](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-48) |
+| 49 | 21 nov | Claude | #98: dos ámbitos «vacíos» iguales (None, en blanco, `True`, 1) ya no califican una región conjunta; la información local se conserva | [ronda 49](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-49) |
 
 <a id="el-lote-de-correcciones-8197-añadido-en-la-ronda-48"></a>
 
@@ -301,7 +302,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 
 Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores, cada uno con una corrección acotada sobre un PR de investigación o sobre esta auditoría. Ninguno está fusionado. El mapa muestra de qué PR depende cada uno y en qué ronda se verificó; el inventario de Codex del 21-11 coincide con las cabeceras reales de los 17 PR, comprobadas en la ronda 48.
 
-![Mapa de las 17 correcciones #81 a #97, su PR de base y la ronda que las recibió](figures/BATCH_81_97_map.svg)
+![Mapa de las correcciones #81 a #98, su PR de base y la ronda que las recibió](figures/BATCH_81_97_map.svg)
 
 | PR | Qué corrige, en una línea | Base | Ronda | Efecto en el registro | Efecto en las cifras publicadas |
 |---|---|---|---|---|---|
@@ -322,6 +323,7 @@ Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores,
 | #95 | Las rejillas del barrido no se llaman dimensiones de K | #92 | [45](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-45) | — | Ninguno |
 | #96 | Hora de llegada entera e identificador de texto | #94 | [46](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-46) | L-11 → respondido | Ninguno |
 | #97 | Código de salida coherente con el informe | #93 | [47](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-47) | Fe de erratas de la ronda 42 | Ninguno |
+| #98 | Ámbitos de fuente con nombre antes de calificar una región conjunta (añadido en la ronda 49) | #96 | [49](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-49) | — | Ninguno |
 
 **Cómo leerlo.** El lote no cambia ninguna conclusión numérica; corrige cómo se validan las entradas, cómo se nombran las cosas y cómo se guardan los resultados. Tres correcciones responden registros de la auditoría (L-01, M28-07 y L-11). Dos rondas (40 y 47) corrigen errores del propio auditor en las rondas 36 y 42, y la 43 precisa su terminología. Nada de esto es revisión humana independiente.
 

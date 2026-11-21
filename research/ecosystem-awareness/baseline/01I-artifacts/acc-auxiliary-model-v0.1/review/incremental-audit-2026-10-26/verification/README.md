@@ -39,6 +39,7 @@ El script de reconfirmación de I-01 ya estaba en el PR: [`../reconfirm_I01_2026
 | [`sensitivity_grid_labels_check.py`](sensitivity_grid_labels_check.py) | #95 (K, nombres del barrido de H-01) | [45](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-45) | Árboles de #92 y #95 | AST idéntico salvo el texto de un mensaje; informe H-01 idéntico byte a byte; un plan incompleto se rechaza en ambos. Termina con 1 si algo falla |
 | [`l11_arrival_check.py`](l11_arrival_check.py) | L-11 | [46](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-46) | Árboles de #94 y #96 | Siete entradas de L-11 transfieren en #94 y se rechazan en #96; horas enteras idénticas; clasificación atemporal conservada; 120 informes y `main()` idénticos. Termina con 1 si algo falla |
 | [`m28_07_exit_status_check.py`](m28_07_exit_status_check.py) | M28-07, herramienta 13; fe de erratas de la ronda 42 | [47](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-47) | Árboles de #93 y #97; necesita red | Un fallo real sale con 1 en ambos; un resumen incoherente sale con 0 en #93 y con 1 en #97, con el informe completo. Termina con 1 si algo falla |
+| [`scope_identity_check.py`](scope_identity_check.py) | #98 (cartografía, ámbitos) | [49](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-49) | Árboles de #96 y #98 | Ámbitos sin nombre iguales califican en #96 y se rechazan en #98; nombres válidos sin cambios; información local conservada; 120 informes y `main()` idénticos. Termina con 1 si algo falla |
 | [`anchor_check.py`](anchor_check.py) | Herramienta | 14, 20, 21 | Cualquier `.md` | Enlaces `archivo.md#ancla` que no encuentran título ni `<a id>`. Termina con 1 si hay alguno roto |
 
 ## Cómo ejecutarlos
@@ -80,6 +81,7 @@ python3 -B $V/cartographic_evidence_check.py  $PR57 $PR94
 python3 -B $V/sensitivity_grid_labels_check.py $PR92 $PR95
 python3 -B $V/l11_arrival_check.py            $PR94 $PR96
 python3 -B $V/m28_07_exit_status_check.py     $PR93 $PR97
+python3 -B $V/scope_identity_check.py         $PR96 $PR98
 python3 -B $V/anchor_check.py                 $V/../GUIA_DE_LECTURA.md $V/../premium/*.md
 ```
 
@@ -126,6 +128,7 @@ sensitivity_grid_labels_check.py 1 AST difference (error text) | H-01 report ide
 h01_k_dimension_recount.py      46/92/38/4 | traps 13/26 | RESULT: PASS (PR #95, 7548c8c6)
 l11_arrival_check.py            7/7 L-11 inputs rejected | integer ticks identical | 120 reports + main() identical | RESULT: PASS (PR #96, e5b16bb6)
 m28_07_exit_status_check.py     real failure exit 1 on both | summary-only 31/32: #93 exit 0, #97 exit 1 | RESULT: PASS (PR #97, e7425fa8)
+scope_identity_check.py         5/5 unnamed scopes JOINT on #96 -> INVALID_SOURCE_SCOPE | named unchanged | 120 + main() identical | RESULT: PASS (PR #98, d44017ad)
 m28_07_storage_check.py         5/5 storage controls kept on #97 | summary-only INFO exit 1 (label corrected, ronda 47) | RESULT: PASS (PR #97)
 anchor_check.py                 0 anclas rotas en la auditoría, la guía, el anexo y el kit premium
 ```
