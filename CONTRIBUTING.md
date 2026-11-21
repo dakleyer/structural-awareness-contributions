@@ -32,3 +32,7 @@ A merged contribution records inclusion in this public working corpus. It does n
 ## Licence
 
 By contributing material that you have authority to license, you agree that it may be distributed under the repository's [CC BY-SA 4.0 licence](./LICENSE.md), with attribution and ShareAlike obligations. Do not submit confidential, personal or third-party material without the necessary rights and permissions.
+
+## Taxonomy observations and open meanings
+
+Use the [cross-corpus taxonomy review register](./research/taxonomy/TAXONOMY_REVIEW.md) to report ambiguous labels, source-specific meanings, awkward cases and strategic ideas in focused PRs. It is optional/contextual review material, not a canonical glossary or a second VNext. Source corrections remain in the affected document's existing owning VNext under [DC-GH-01](./DOCUMENT_CONTROL.md).
