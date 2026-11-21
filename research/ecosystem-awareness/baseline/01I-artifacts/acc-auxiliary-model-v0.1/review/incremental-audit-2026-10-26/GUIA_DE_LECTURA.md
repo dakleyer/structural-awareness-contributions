@@ -37,7 +37,7 @@
   > - Las pruebas finitas revisadas establecen resultados concretos bajo sus hipótesis: una representación puede conservar una distinción necesaria para decidir; información compatible puede sostener una conclusión local útil; una guarda probada puede ahorrar comprobaciones en su dominio y balance de costes.
   > - Los fixtures también comprueban reproducción y sensibilidad bajo entradas o procedimientos suministrados. Esos resultados conservan su valor; para estudiar adquisición, selección o adaptación se necesita el proceso correspondiente y su evidencia.
   > - El fallo numérico I-01 y sus ampliaciones están corregidos y reconfirmados. La guarda de dominio M28-02 ya se corrigió y reconfirmó en la rama de #60; su incorporación sigue pendiente.
-- **Dónde estamos.** La auditoría tiene 83 registros sobre el contenido y 8 sobre la forma del propio expediente: 91 en total. De ellos, 32 siguen abiertos, 33 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 14 son propuestas de mejora, aclaraciones o puntos retirados.
+- **Dónde estamos.** La auditoría tiene 83 registros sobre el contenido y 8 sobre la forma del propio expediente: 91 en total. De ellos, 31 siguen abiertos, 34 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 14 son propuestas de mejora, aclaraciones o puntos retirados.
 - **Qué no es.** No es una revisión científica humana independiente. Todas las rondas las han escrito asistentes de IA (Claude y Codex), en parte a partir de observaciones de Iván.
 
 ## 2. Quién ha escrito qué
@@ -70,8 +70,8 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 | M27-O y M28-O · Líneas de desarrollo | 0 | 0 | 0 | 7 | 0 | 7 |
 | J · Forma del expediente | 1 | 6 | 1 | 0 | 0 | 8 |
 | K · Modelo social #44–#46 | 1 | 3 | 3 | 1 | 0 | 8 |
-| L · Recepciones (rondas 23–51) | 2 | 7 | 3 | 0 | 0 | 12 |
-| **Total** | **32** | **33** | **12** | **9** | **5** | **91** |
+| L · Recepciones (rondas 23–51) | 1 | 8 | 3 | 0 | 0 | 12 |
+| **Total** | **31** | **34** | **12** | **9** | **5** | **91** |
 
 **Qué significa cada estado:**
 
@@ -298,6 +298,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 50 | 21 nov | Claude | #99: se elimina el cálculo muerto de F-07 en #54; resultados idénticos en 26 324 tablas y en la campaña completa; F-07 pasa a respondido | [ronda 50](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-50) |
 | 51 | 21 nov | Claude | #100: autorización, viabilidad y mismo servicio exigen `True`; las brechas, datos calculados. Nuevo L-12: «UNKNOWN» aún autoriza un cambio de misión y elige la fuente B en otras tres ramas | [ronda 51](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-51) |
 | 52 | 21 nov | Claude | #101: dos pruebas que repetían la misma función dejan de presentarse como comparación con un «peer»; M28-05 sigue abierto por su parte documental | [ronda 52](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-52) |
+| 53 | 21 nov | Claude | #102: «UNKNOWN» deja de autorizar un cambio de misión, de elegir la fuente B y de abrir la vía de validación; el autor halla y corrige además `attribution`. L-12 pasa a respondido | [ronda 53](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-53) |
 
 <a id="el-lote-de-correcciones-8197-añadido-en-la-ronda-48"></a>
 
@@ -305,7 +306,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 
 Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores, cada uno con una corrección acotada sobre un PR de investigación o sobre esta auditoría. Ninguno está fusionado. El mapa muestra de qué PR depende cada uno y en qué ronda se verificó; el inventario de Codex del 21-11 coincide con las cabeceras reales de los 17 PR, comprobadas en la ronda 48.
 
-![Mapa de las correcciones #81 a #101, su PR de base y la ronda que las recibió](figures/BATCH_81_97_map.svg)
+![Mapa de las correcciones #81 a #102, su PR de base y la ronda que las recibió](figures/BATCH_81_97_map.svg)
 
 | PR | Qué corrige, en una línea | Base | Ronda | Efecto en el registro | Efecto en las cifras publicadas |
 |---|---|---|---|---|---|
@@ -330,6 +331,7 @@ Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores,
 | #99 | Elimina el cálculo muerto `loc` en `nonmonotone` (añadido en la ronda 50) | #54 | [50](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-50) | F-07 → respondido | Ninguno |
 | #100 | Autorización, viabilidad y mismo servicio exigen `True` en los casos adicionales (añadido en la ronda 51) | #99 | [51](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-51) | Origen de L-12 | Ninguno |
 | #101 | Nombres de dos pruebas: reproducción, no comparación con un «peer» (añadido en la ronda 52) | #85 | [52](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-52) | M28-05, parte técnica | Ninguno |
+| #102 | Premisas explícitas en `mission`, `q_cost`, `knowledge` y `attribution` (añadido en la ronda 53) | #100 | [53](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-53) | L-12 → respondido | Ninguno |
 
 **Cómo leerlo.** El lote no cambia ninguna conclusión numérica; corrige cómo se validan las entradas, cómo se nombran las cosas y cómo se guardan los resultados. Tres correcciones responden registros de la auditoría (L-01, M28-07 y L-11). Dos rondas (40 y 47) corrigen errores del propio auditor en las rondas 36 y 42, y la 43 precisa su terminología. Nada de esto es revisión humana independiente.
 
@@ -506,7 +508,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 
 </details>
 
-<details><summary><b>L · Recepciones (rondas 23–51)</b> — 12 registros, 2 abiertos</summary>
+<details><summary><b>L · Recepciones (rondas 23–51)</b> — 12 registros, 1 abiertos</summary>
 
 | ID | Estado | Gravedad | En pocas palabras | Ronda que fijó el estado |
 |---|---|---|---|---|
@@ -520,7 +522,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 | [L-09](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-09) | 🟠 Respondido | Baja | En los 60 casos congelados, 6 de las 12 Q falsas se reconocían desde la vista pública. #75 añade gemelos con la misma vista pública (0 bits antes de medir); falta incorporarlo a main. | 32 |
 | [L-10](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-10) | 🔵 Abierto | Media | #76: en el juego base, quedarse o moverse empatan en dominancia por riesgo (umbral 1/2), y en 30 de 39 trampas la selección de equilibrios favorece salir. | 33 |
 | [L-11](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-11) | 🟠 Respondido | Media | #57 y #94: un evento con hora de llegada NaN o infinita pasaba la puerta de llegada posterior al intercambio y habilitaba la transferencia (11,5). #96 exige horas enteras y nombres de texto; falta incorporarlo a main. | 46 |
-| [L-12](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-12) | 🔵 Abierto | Media | #54 (también en #100): «UNKNOWN» sigue contando como «sí» en mission (autoriza un cambio de misión), q_cost (elige la fuente B) y knowledge. | 51 |
+| [L-12](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-12) | 🟠 Respondido | Media | #54 y #100: «UNKNOWN» contaba como «sí» en mission, q_cost y knowledge. #102 exige premisas explícitas en esas ramas y en attribution; falta incorporarlo a main. | 53 |
 | [L-03](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-03) | 🟢 Verificado | Informativo | #60: los testigos F1/D1 (10 frente a 8; 11,5 frente a 8,875 con el mismo A) se reproducen desde el código de origen. | 23 |
 
 </details>
