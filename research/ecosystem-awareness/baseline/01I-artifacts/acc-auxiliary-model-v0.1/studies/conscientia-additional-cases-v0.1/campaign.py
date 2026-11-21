@@ -83,15 +83,18 @@ def result(case):
     if t=='attribution':
         if case.get('requested_metric')=='E_UNRESOLVED':return res('MEASUREMENT_EDITION_CONFLICT_BLOCKED',value=None)
         listed=case['reported_dependency'];actual=case['verified_dependency'];credit=case['assigned_credit']
+        if any(type(value) is not bool for value in (listed,actual,credit)):
+            return res('ATTRIBUTION_NOT_ESTABLISHED',listed=listed,verified=actual,credited=credit)
         return res('DEPENDENCY_ATTRIBUTION_DIVERGENCE' if listed!=actual or credit!=actual else 'CONSISTENT_IN_TOY',listed=listed,verified=actual,credited=credit)
     if t=='mission':
-        if any(case.get(key) is None for key in ('actual_independent','authorized_change','source_basis_valid')):
+        if (any(case.get(key) is None for key in ('actual_independent','authorized_change','source_basis_valid'))
+                or any(type(case.get(key)) is not bool for key in ('authorized_change','source_basis_valid'))):
             return res('MISSION_BASIS_NOT_ESTABLISHED',mission_change=None)
-        if case['authorized_change'] and case['source_basis_valid'] and case['actual_independent']>=2:
+        if case['authorized_change'] is True and case['source_basis_valid'] is True and case['actual_independent']>=2:
             return res('SUPPORTED_AND_AUTHORIZED_CHANGE',mission_change=True)
         return res('UNSUPPORTED_MISSION_CHANGE',mission_change=False,nominal_sources=case['reported_independent'],source_independent=case['actual_independent'])
     if t=='q_cost':
-        v=finite(case['decision_value'],'value');modes={'A_ONLY':0.0,'SOURCE_B':v-case['qualified_cost'] if case['valid_Q'] else None,'TARGETED_CONVENTIONAL':v-case['targeted_cost'],'FULL_A_EXPANSION':v-case['full_cost']}
+        v=finite(case['decision_value'],'value');modes={'A_ONLY':0.0,'SOURCE_B':v-case['qualified_cost'] if case['valid_Q'] is True else None,'TARGETED_CONVENTIONAL':v-case['targeted_cost'],'FULL_A_EXPANSION':v-case['full_cost']}
         # A valid Q does not mean full new throughput is available in all worlds:
         # this is a stipulated maximal value conditional on a truly enabling world.
         win=max((name for name in modes if modes[name] is not None), key=lambda key:modes[key]);return res('COST_COMPARISON_IF_BENEFIT_REALIZED',net_values={k:rnd(x) if x is not None else None for k,x in modes.items()},best_mode=win,certificate_qualified=case['valid_Q'])
@@ -105,7 +108,7 @@ def result(case):
         else:status='PREDICATE_UNDETERMINED'
         return res(status,bounds=[rnd(lower),rnd(upper)],global_D_open=True)
     if t=='knowledge':
-        return res('EVIDENCE_INSUFFICIENT_FOR_CLAIM' if not case['independent_evidence'] else 'REQUIRES_INDEPENDENT_VALIDATION',assertion=case['assertion'],social_fact_established=False)
+        return res('EVIDENCE_INSUFFICIENT_FOR_CLAIM' if case['independent_evidence'] is not True else 'REQUIRES_INDEPENDENT_VALIDATION',assertion=case['assertion'],social_fact_established=False)
     if t=='network':
         n=case['n']; E=n*(n-1)//2 if case['topology']=='dense' else n-1
         P=case['b']*n+case['alpha']*E;G=case['g']*E
