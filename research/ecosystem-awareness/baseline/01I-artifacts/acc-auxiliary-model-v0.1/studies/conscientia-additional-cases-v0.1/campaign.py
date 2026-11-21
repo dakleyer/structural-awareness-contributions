@@ -79,7 +79,7 @@ def result(case):
         return res('FINITE_SHANNON_ONLY',conditional_answer_bits=rnd(H),conditional_origin_bits=rnd(HX),strict_decision_ambiguity=H>1e-9,open_exterior_entropy=None)
     if t=='kl':
         m,n=case['m'],case['n'];
-        if not(isinstance(m,int) and isinstance(n,int) and 0<n<=m):raise ValueError('kl finite support')
+        if isinstance(m,bool) or isinstance(n,bool) or not(isinstance(m,int) and isinstance(n,int) and 0<n<=m):raise ValueError('kl finite support')
         return res('FINITE_SUPPORT_DIRECTION_CORRECTED',coverage_delta_bits=rnd(math.log2(m/n)),kl_P_theory_to_Q_constructible='INFINITY' if m>n else 0,kl_Q_constructible_to_P_theory=rnd(math.log2(m/n)))
     if t=='attribution':
         if case.get('requested_metric')=='E_UNRESOLVED':return res('MEASUREMENT_EDITION_CONFLICT_BLOCKED',value=None)
@@ -91,6 +91,8 @@ def result(case):
         if (any(case.get(key) is None for key in ('actual_independent','authorized_change','source_basis_valid'))
                 or any(type(case.get(key)) is not bool for key in ('authorized_change','source_basis_valid'))):
             return res('MISSION_BASIS_NOT_ESTABLISHED',mission_change=None)
+        if case['authorized_change'] is True and case['source_basis_valid'] is True:
+            finite(case['actual_independent'],'actual_independent')
         if case['authorized_change'] is True and case['source_basis_valid'] is True and case['actual_independent']>=2:
             return res('SUPPORTED_AND_AUTHORIZED_CHANGE',mission_change=True)
         return res('UNSUPPORTED_MISSION_CHANGE',mission_change=False,nominal_sources=case['reported_independent'],source_independent=case['actual_independent'])
