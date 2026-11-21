@@ -80,6 +80,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 48 | 2026-11-21 | [Inventario #81–#97 contrastado; mapa visual](#ronda-48) | 17 borradores abiertos, cabeceras y dependencias coinciden; nuevo mapa del lote en la guía; sin registros nuevos |
 | 49 | 2026-11-21 | [Ámbitos de fuente con nombre (#98)](#ronda-49) | Ámbitos sin nombre ya no califican una región conjunta; información local conservada; sin registros nuevos |
 | 50 | 2026-11-21 | [F-07 respondido en #99](#ronda-50) | Se elimina la variable `loc` que nunca se leía; 26 324 casos y la campaña completa idénticos; F-07 pasa a respondido |
+| 51 | 2026-11-21 | [Premisas explícitas en los casos adicionales (#100) y L-12](#ronda-51) | #100 deja de aceptar «UNKNOWN» en cuatro premisas; nuevo L-12: el mismo patrón sigue en `mission`, `q_cost` y `knowledge` |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1776,3 +1777,34 @@ La información local se conserva. Con ámbito `None`, las cuatro observaciones 
 ¿Podía `loc` lanzar alguna excepción que hubiera dejado de saltar al borrarla? Solo si la tabla mezcla valores que no se pueden comparar entre sí. En ese caso `opt = max(...)` también los compara todos y falla igual, así que el comportamiento observable no cambia.
 
 **Estado:** F-07 pasa de `ABIERTO` a `RESPONDIDO`. Se cerrará cuando #99 y #54 estén en `main`. Se añade #99 al mapa del lote. Totales: 90 registros. 31 abiertos, 33 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-51"></a>
+
+## Ronda 51 — premisas explícitas en los casos adicionales (PR #100) y un hallazgo nuevo en el mismo archivo (L-12) (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #100 (`4070dd2d`) es un único commit sobre #99 en `a5a2621a`. Toca `conscientia-additional-cases-v0.1/campaign.py` (cuatro condiciones) y añade una prueba.
+
+**Qué corrige.** En la campaña de casos adicionales de #54, varias premisas se leían por su valor de verdad. Un `"UNKNOWN"` contaba, por tanto, como «sí». #100 exige `True` literal en cuatro de ellas y, para declarar las brechas establecidas, exige además que haya periodos y que cada brecha esté calculada.
+
+**Comprobación** (`verification/explicit_premises_check.py`). Se parte de casos reales de `CASES.json` y se cambia una premisa cada vez:
+
+| Caso modificado | #99 | #100 |
+|---|---|---|
+| BAN-03, `authorized="UNKNOWN"` en la alternativa | `WEAK_PARETO_RESOURCE_SERVICE_GAIN` | `RIGHTS_BLOCKED` |
+| EFF-02, `feasible="UNKNOWN"` | `GAPS_ESTABLISHED_IN_TOY` | `OPTIMUM_NOT_ESTABLISHED` |
+| EFF-02 sin periodos | `GAPS_ESTABLISHED_IN_TOY` | `OPTIMUM_NOT_ESTABLISHED` |
+| EFF-02 factible, pero con el coste ideal por encima del real (brecha `None`) | `GAPS_ESTABLISHED_IN_TOY` | `OPTIMUM_NOT_ESTABLISHED` |
+| HID-02, `same_service="UNKNOWN"` | `HUMAN_INPUT_DIFF_NOT_OBSERVED_HID` | `MATCHED_REFERENCE_MISSING` |
+
+La campaña completa (46 casos) y el barrido de sensibilidad son idénticos en #99 y #100. Pasan las 71 pruebas (65 originales y 6 nuevas) y la CI está en verde.
+
+### Hallazgo nuevo: el mismo patrón sigue en otras tres ramas del archivo
+
+| ID | Estado | Hallazgo | Propuesta |
+|---|---|---|---|
+| <a id="l-12"></a>**L-12** | Media · `ABIERTO` | **En la campaña de casos adicionales, «UNKNOWN» sigue valiendo como «sí» en tres ramas que #100 no toca.** (1) `mission`: la guarda previa solo rechaza `None`. Con `authorized_change="UNKNOWN"`, `source_basis_valid="UNKNOWN"` y tres fuentes independientes, el caso MISSION-01 pasa a `SUPPORTED_AND_AUTHORIZED_CHANGE` con `mission_change=True`: un cambio de misión autorizado sin autorización establecida. (2) `q_cost`: con `valid_Q="UNKNOWN"`, QUAL-03 calcula el modo `SOURCE_B` y lo elige como el mejor, aunque el propio informe muestra `certificate_qualified="UNKNOWN"`. (3) `knowledge`: con `independent_evidence="UNKNOWN"`, CAPACITY-01 pasa de `EVIDENCE_INSUFFICIENT_FOR_CLAIM` a `REQUIRES_INDEPENDENT_VALIDATION`, como si hubiera evidencia independiente que validar. Se reproduce igual en #99 y en #100. Con las entradas reales no cambia nada, porque todas son booleanas. | Aplicar la misma pauta que #85, #94 y #100: exigir `is True` en `authorized_change`, `source_basis_valid`, `valid_Q` e `independent_evidence`, y rechazar o marcar como no establecido todo valor que no sea booleano. Añadir los tres casos a las pruebas. Conviene además revisar el archivo entero de una vez, en lugar de rama a rama: es la tercera corrección parcial del mismo patrón. |
+
+**Para quien no programa.** Es un formulario en el que la casilla «¿autorizado?» admite «no sé», y el programa lo lee como «sí». #100 arregló cuatro casillas de ese formulario; quedan otras tres con el mismo problema.
+
+**Estado:** #100 queda reconocido sin cambio de estado para sus cuatro condiciones, con el criterio de las rondas 38 a 41. Se abre **L-12** (Media, `ABIERTO`). Totales: 91 registros. 32 abiertos, 33 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.

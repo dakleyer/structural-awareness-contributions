@@ -130,6 +130,7 @@ LEDGER = [
     ("L-09", "L", "Baja", "RESPONDIDO", 32, "En los 60 casos congelados, 6 de las 12 Q falsas se reconocían desde la vista pública. #75 añade gemelos con la misma vista pública (0 bits antes de medir); falta incorporarlo a main."),
     ("L-10", "L", "Media", "ABIERTO", 33, "#76: en el juego base, quedarse o moverse empatan en dominancia por riesgo (umbral 1/2), y en 30 de 39 trampas la selección de equilibrios favorece salir."),
     ("L-11", "L", "Media", "RESPONDIDO", 46, "#57 y #94: un evento con hora de llegada NaN o infinita pasaba la puerta de llegada posterior al intercambio y habilitaba la transferencia (11,5). #96 exige horas enteras y nombres de texto; falta incorporarlo a main."),
+    ("L-12", "L", "Media", "ABIERTO", 51, "#54 (también en #100): «UNKNOWN» sigue contando como «sí» en mission (autoriza un cambio de misión), q_cost (elige la fuente B) y knowledge."),
     ("L-03", "L", "Informativo", "VERIFICADO", 23, "#60: los testigos F1/D1 (10 frente a 8; 11,5 frente a 8,875 con el mismo A) se reproducen desde el código de origen."),
 ]
 
@@ -145,7 +146,7 @@ FAMILIES = (
     ("M28-O", "Líneas de desarrollo (28 oct)"),
     ("J", "Forma del expediente (ronda 14)"),
     ("K", "Modelo social #44–#46 (ronda 17)"),
-    ("L", "Recepciones (rondas 23–44)"),
+    ("L", "Recepciones (rondas 23–51)"),
 )
 
 # Same defect under several names (aliases across audits)
@@ -280,7 +281,7 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"), (37, 0, "L-01 (#83)"), (38, 0, "#69: óptimos repetidos (#84)"), (39, 0, "#60: indicadores booleanos (#85)"), (40, 0, "Fe de erratas; #86–#91"), (41, 0, "Identidad dimensional (#92)"), (42, 0, "M28-07 (#93)"), (43, 0, "Intercambio, no compensación"), (44, 0, "#94 y L-11"), (45, 0, "Rejillas, no dimensiones (#95)"), (46, 0, "L-11 (#96)"), (47, 0, "Fe de erratas; salida (#97)"), (48, 0, "Mapa del lote #81–#97"), (49, 0, "Ámbitos con nombre (#98)"), (50, 0, "F-07 (#99)"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"), (37, 0, "L-01 (#83)"), (38, 0, "#69: óptimos repetidos (#84)"), (39, 0, "#60: indicadores booleanos (#85)"), (40, 0, "Fe de erratas; #86–#91"), (41, 0, "Identidad dimensional (#92)"), (42, 0, "M28-07 (#93)"), (43, 0, "Intercambio, no compensación"), (44, 0, "#94 y L-11"), (45, 0, "Rejillas, no dimensiones (#95)"), (46, 0, "L-11 (#96)"), (47, 0, "Fe de erratas; salida (#97)"), (48, 0, "Mapa del lote #81–#97"), (49, 0, "Ámbitos con nombre (#98)"), (50, 0, "F-07 (#99)"), (51, 0, "#100 y L-12"),
 ]
 
 
@@ -337,6 +338,7 @@ BATCH = [
     (94, 9, 1, "Captura y enlace explícitos", 44, 0, 57), (96, 9, 2, "Hora e identidad de llegada", 46, 2, 94),
     (98, 9, 3, "Ámbitos con nombre", 49, 0, 96),
     (99, 10, 1, "Sin cálculo muerto", 50, 2, 54),
+    (100, 10, 2, "Premisas explícitas", 51, 0, 99),
 ]
 
 
@@ -372,7 +374,7 @@ def fig_batch() -> str:
         xl = 16 + k * 300
         s.append(f'<rect class="{cls}" x="{xl}" y="{h - 38}" width="14" height="14" rx="3"/>')
         s.append(f'<text class="ink" x="{xl + 22}" y="{h - 26}" font-size="12">{label}</text>')
-    s.append(f'<text class="ink2" x="{w - 16}" y="{h - 26}" font-size="11" text-anchor="end">#94 es además el origen de L-11 (ronda 44).</text>')
+    s.append(f'<text class="ink2" x="{w - 16}" y="{h - 26}" font-size="11" text-anchor="end">#94 y #100 son además el origen de L-11 y L-12.</text>')
     s.append("</svg>")
     return "\n".join(s)
 

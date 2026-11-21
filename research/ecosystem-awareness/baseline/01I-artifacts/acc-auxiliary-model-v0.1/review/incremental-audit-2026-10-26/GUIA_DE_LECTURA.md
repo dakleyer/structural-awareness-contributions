@@ -17,7 +17,7 @@
 8. [Qué falta para cerrar lo que está cerca](#8-qué-falta-para-cerrar-lo-que-está-cerca)
 9. [Por dónde empezar según quién seas](#9-por-dónde-empezar-según-quién-seas)
 10. [Mapa del expediente: dónde está cada ronda](#10-mapa-del-expediente-dónde-está-cada-ronda)
-11. [Los 90 registros, uno por uno](#11-los-90-registros-uno-por-uno)
+11. [Los 91 registros, uno por uno](#11-los-91-registros-uno-por-uno)
 12. [Glosario en lenguaje llano](#12-glosario-en-lenguaje-llano)
 13. [Cómo se ha hecho esta guía](#13-cómo-se-ha-hecho-esta-guía)
 14. [Oportunidades de mejora](#14-oportunidades-de-mejora)
@@ -37,7 +37,7 @@
   > - Las pruebas finitas revisadas establecen resultados concretos bajo sus hipótesis: una representación puede conservar una distinción necesaria para decidir; información compatible puede sostener una conclusión local útil; una guarda probada puede ahorrar comprobaciones en su dominio y balance de costes.
   > - Los fixtures también comprueban reproducción y sensibilidad bajo entradas o procedimientos suministrados. Esos resultados conservan su valor; para estudiar adquisición, selección o adaptación se necesita el proceso correspondiente y su evidencia.
   > - El fallo numérico I-01 y sus ampliaciones están corregidos y reconfirmados. La guarda de dominio M28-02 ya se corrigió y reconfirmó en la rama de #60; su incorporación sigue pendiente.
-- **Dónde estamos.** La auditoría tiene 82 registros sobre el contenido y 8 sobre la forma del propio expediente: 90 en total. De ellos, 31 siguen abiertos, 33 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 14 son propuestas de mejora, aclaraciones o puntos retirados.
+- **Dónde estamos.** La auditoría tiene 83 registros sobre el contenido y 8 sobre la forma del propio expediente: 91 en total. De ellos, 32 siguen abiertos, 33 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 14 son propuestas de mejora, aclaraciones o puntos retirados.
 - **Qué no es.** No es una revisión científica humana independiente. Todas las rondas las han escrito asistentes de IA (Claude y Codex), en parte a partir de observaciones de Iván.
 
 ## 2. Quién ha escrito qué
@@ -54,7 +54,7 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 
 ## 3. Cómo está todo ahora
 
-![Estado de los 90 registros de la auditoría por familia](figures/STATUS_by_family.svg)
+![Estado de los 91 registros de la auditoría por familia](figures/STATUS_by_family.svg)
 
 **Vista en tabla** (los mismos datos que la figura):
 
@@ -70,8 +70,8 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 | M27-O y M28-O · Líneas de desarrollo | 0 | 0 | 0 | 7 | 0 | 7 |
 | J · Forma del expediente | 1 | 6 | 1 | 0 | 0 | 8 |
 | K · Modelo social #44–#46 | 1 | 3 | 3 | 1 | 0 | 8 |
-| L · Recepciones (rondas 23–44) | 1 | 7 | 3 | 0 | 0 | 11 |
-| **Total** | **31** | **33** | **12** | **9** | **5** | **90** |
+| L · Recepciones (rondas 23–51) | 2 | 7 | 3 | 0 | 0 | 12 |
+| **Total** | **32** | **33** | **12** | **9** | **5** | **91** |
 
 **Qué significa cada estado:**
 
@@ -296,6 +296,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 48 | 21 nov | Claude | Inventario de Codex sobre #81–#97 contrastado con GitHub; nuevo mapa del lote y tabla de efectos ([abajo](#el-lote-de-correcciones-8197-añadido-en-la-ronda-48)) | [ronda 48](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-48) |
 | 49 | 21 nov | Claude | #98: dos ámbitos «vacíos» iguales (None, en blanco, `True`, 1) ya no califican una región conjunta; la información local se conserva | [ronda 49](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-49) |
 | 50 | 21 nov | Claude | #99: se elimina el cálculo muerto de F-07 en #54; resultados idénticos en 26 324 tablas y en la campaña completa; F-07 pasa a respondido | [ronda 50](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-50) |
+| 51 | 21 nov | Claude | #100: autorización, viabilidad y mismo servicio exigen `True`; las brechas, datos calculados. Nuevo L-12: «UNKNOWN» aún autoriza un cambio de misión y elige la fuente B en otras tres ramas | [ronda 51](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-51) |
 
 <a id="el-lote-de-correcciones-8197-añadido-en-la-ronda-48"></a>
 
@@ -303,7 +304,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 
 Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores, cada uno con una corrección acotada sobre un PR de investigación o sobre esta auditoría. Ninguno está fusionado. El mapa muestra de qué PR depende cada uno y en qué ronda se verificó; el inventario de Codex del 21-11 coincide con las cabeceras reales de los 17 PR, comprobadas en la ronda 48.
 
-![Mapa de las correcciones #81 a #99, su PR de base y la ronda que las recibió](figures/BATCH_81_97_map.svg)
+![Mapa de las correcciones #81 a #100, su PR de base y la ronda que las recibió](figures/BATCH_81_97_map.svg)
 
 | PR | Qué corrige, en una línea | Base | Ronda | Efecto en el registro | Efecto en las cifras publicadas |
 |---|---|---|---|---|---|
@@ -326,6 +327,7 @@ Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores,
 | #97 | Código de salida coherente con el informe | #93 | [47](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-47) | Fe de erratas de la ronda 42 | Ninguno |
 | #98 | Ámbitos de fuente con nombre antes de calificar una región conjunta (añadido en la ronda 49) | #96 | [49](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-49) | — | Ninguno |
 | #99 | Elimina el cálculo muerto `loc` en `nonmonotone` (añadido en la ronda 50) | #54 | [50](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-50) | F-07 → respondido | Ninguno |
+| #100 | Autorización, viabilidad y mismo servicio exigen `True` en los casos adicionales (añadido en la ronda 51) | #99 | [51](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-51) | Origen de L-12 | Ninguno |
 
 **Cómo leerlo.** El lote no cambia ninguna conclusión numérica; corrige cómo se validan las entradas, cómo se nombran las cosas y cómo se guardan los resultados. Tres correcciones responden registros de la auditoría (L-01, M28-07 y L-11). Dos rondas (40 y 47) corrigen errores del propio auditor en las rondas 36 y 42, y la 43 precisa su terminología. Nada de esto es revisión humana independiente.
 
@@ -338,8 +340,9 @@ Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores,
 <a id="11-los-87-registros-uno-por-uno"></a>
 <a id="11-los-88-registros-uno-por-uno"></a>
 <a id="11-los-89-registros-uno-por-uno"></a>
+<a id="11-los-90-registros-uno-por-uno"></a>
 
-## 11. Los 90 registros, uno por uno
+## 11. Los 91 registros, uno por uno
 
 Haz clic en cada familia para desplegarla. Cada identificador enlaza con su texto completo en la auditoría. Esta sección la genera [`reader_guide_build.py`](reader_guide_build.py) a partir de [`STATUS_LEDGER_2026-10-28.json`](STATUS_LEDGER_2026-10-28.json), para que no se desajuste con el expediente.
 
@@ -501,7 +504,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 
 </details>
 
-<details><summary><b>L · Recepciones (rondas 23–44)</b> — 11 registros, 1 abiertos</summary>
+<details><summary><b>L · Recepciones (rondas 23–51)</b> — 12 registros, 2 abiertos</summary>
 
 | ID | Estado | Gravedad | En pocas palabras | Ronda que fijó el estado |
 |---|---|---|---|---|
@@ -515,6 +518,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 | [L-09](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-09) | 🟠 Respondido | Baja | En los 60 casos congelados, 6 de las 12 Q falsas se reconocían desde la vista pública. #75 añade gemelos con la misma vista pública (0 bits antes de medir); falta incorporarlo a main. | 32 |
 | [L-10](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-10) | 🔵 Abierto | Media | #76: en el juego base, quedarse o moverse empatan en dominancia por riesgo (umbral 1/2), y en 30 de 39 trampas la selección de equilibrios favorece salir. | 33 |
 | [L-11](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-11) | 🟠 Respondido | Media | #57 y #94: un evento con hora de llegada NaN o infinita pasaba la puerta de llegada posterior al intercambio y habilitaba la transferencia (11,5). #96 exige horas enteras y nombres de texto; falta incorporarlo a main. | 46 |
+| [L-12](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-12) | 🔵 Abierto | Media | #54 (también en #100): «UNKNOWN» sigue contando como «sí» en mission (autoriza un cambio de misión), q_cost (elige la fuente B) y knowledge. | 51 |
 | [L-03](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-03) | 🟢 Verificado | Informativo | #60: los testigos F1/D1 (10 frente a 8; 11,5 frente a 8,875 con el mismo A) se reproducen desde el código de origen. | 23 |
 
 </details>
@@ -545,7 +549,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 ## 13. Cómo se ha hecho esta guía
 
 - Los estados vigentes se han tomado de la última ronda que los decidió, citada en la columna «Ronda que fijó el estado». Están en [`STATUS_LEDGER_2026-10-28.json`](STATUS_LEDGER_2026-10-28.json).
-- [`reader_guide_build.py`](reader_guide_build.py) regenera las dos figuras nuevas, la tabla de la sección 11 y el registro de estados. También comprueba que los 90 identificadores existen en la auditoría, que la fila de totales de la sección 3 coincide con el registro, que todos los hallazgos de la auditoría están en el registro y que todos los enlaces internos llevan a su destino.
+- [`reader_guide_build.py`](reader_guide_build.py) regenera las dos figuras nuevas, la tabla de la sección 11 y el registro de estados. También comprueba que los 91 identificadores existen en la auditoría, que la fila de totales de la sección 3 coincide con el registro, que todos los hallazgos de la auditoría están en el registro y que todos los enlaces internos llevan a su destino.
 - Las comparaciones cotidianas de la sección 5 simplifican a propósito. Cuando haya duda, manda el texto completo del hallazgo enlazado.
 - Colores: paleta categórica validada para visión de color atípica y para modo oscuro. Como algunos colores tienen poco contraste con el fondo claro, cada tramo lleva su número escrito y hay una vista en tabla.
 
