@@ -129,6 +129,7 @@ LEDGER = [
     ("L-08", "L", "Baja", "RESPONDIDO", 30, "#70: el ganador lo decidían las precisiones supuestas y el frente, el precio. #72 publica el mapa con acceso igualado y el frente sin precio; falta incorporarlo a main."),
     ("L-09", "L", "Baja", "RESPONDIDO", 32, "En los 60 casos congelados, 6 de las 12 Q falsas se reconocían desde la vista pública. #75 añade gemelos con la misma vista pública (0 bits antes de medir); falta incorporarlo a main."),
     ("L-10", "L", "Media", "ABIERTO", 33, "#76: en el juego base, quedarse o moverse empatan en dominancia por riesgo (umbral 1/2), y en 30 de 39 trampas la selección de equilibrios favorece salir."),
+    ("L-11", "L", "Media", "ABIERTO", 44, "#57 y #94: un evento con hora de llegada NaN o infinita pasa la puerta de llegada posterior al intercambio, habilita la transferencia (11,5) y no figura entre los aciertos previos."),
     ("L-03", "L", "Informativo", "VERIFICADO", 23, "#60: los testigos F1/D1 (10 frente a 8; 11,5 frente a 8,875 con el mismo A) se reproducen desde el código de origen."),
 ]
 
@@ -144,7 +145,7 @@ FAMILIES = (
     ("M28-O", "Líneas de desarrollo (28 oct)"),
     ("J", "Forma del expediente (ronda 14)"),
     ("K", "Modelo social #44–#46 (ronda 17)"),
-    ("L", "Recepciones (rondas 23–37)"),
+    ("L", "Recepciones (rondas 23–44)"),
 )
 
 # Same defect under several names (aliases across audits)
@@ -247,7 +248,7 @@ def fig_status() -> str:
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
          f'aria-label="Estado de los 79 registros de la auditoría por familia">{STYLE}',
          f'<rect class="bg" width="{w}" height="{h}" rx="8"/>',
-         '<text class="ink" x="16" y="28" font-size="16" font-weight="600">¿Cómo está cada familia de hallazgos? (28 oct 2026)</text>',
+         f'<text class="ink" x="16" y="28" font-size="16" font-weight="600">¿Cómo está cada familia de hallazgos? (tras la ronda {ROUNDS[-1][0]}, {len(LEDGER)} registros)</text>',
          '<text class="ink2" x="16" y="50" font-size="12">Cada barra es una familia de hallazgos. El número de cada tramo dice cuántos registros están en ese estado.</text>',
          '<text class="ink2" x="16" y="68" font-size="12">Estado vigente según la última ronda que lo decidió, no según el encabezado histórico.</text>']
     for i, (fam, name) in enumerate(FAMILIES):
@@ -279,7 +280,7 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"), (37, 0, "L-01 (#83)"), (38, 0, "#69: óptimos repetidos (#84)"), (39, 0, "#60: indicadores booleanos (#85)"), (40, 0, "Fe de erratas; #86–#91"), (41, 0, "Identidad dimensional (#92)"), (42, 0, "M28-07 (#93)"), (43, 0, "Intercambio, no compensación"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"), (37, 0, "L-01 (#83)"), (38, 0, "#69: óptimos repetidos (#84)"), (39, 0, "#60: indicadores booleanos (#85)"), (40, 0, "Fe de erratas; #86–#91"), (41, 0, "Identidad dimensional (#92)"), (42, 0, "M28-07 (#93)"), (43, 0, "Intercambio, no compensación"), (44, 0, "#94 y L-11"),
 ]
 
 

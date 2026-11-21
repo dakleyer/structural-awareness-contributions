@@ -73,6 +73,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 41 | 2026-11-21 | [Identidad de las dimensiones en #92](#ronda-41) | Nombres ambiguos o en blanco ahora se rechazan; informe H-01 idéntico; sin registros nuevos |
 | 42 | 2026-11-21 | [M28-07 en #93](#ronda-42) | El acompañante matemático ya no reescribe su JSON de referencia ni deja caché; M28-07 pasa a respondido |
 | 43 | 2026-11-21 | [Precisión de la ronda 41: intercambio, no compensación](#ronda-43) | Las 92 celdas son intercambios incomparables sin compensación inferida; sin cambios de cifras ni estados |
+| 44 | 2026-11-21 | [Indicadores explícitos en la cartografía (#94) y L-11](#ronda-44) | #94 exige `True` explícito en captura y enlace; nuevo L-11: un tiempo de llegada NaN o infinito pasa la puerta de llegada |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1584,3 +1585,40 @@ La lectura correcta de la ronda 41 es: **46 monótonas, 92 intercambios incompar
 La distinción importa porque la arquitectura de EA es abierta y no fungible: decir «compensación» sugiere que una dimensión se ha cambiado por otra en una misma escala, que es precisamente lo que el contrato prohíbe. Comprobado en el código de #92, citado arriba. No cambia ninguna cifra, estado ni conclusión; el texto de la ronda 41 se conserva y esta nota lo corrige.
 
 **Estado:** sin registros nuevos ni cambios de estado. Totales: 89 registros. 32 abiertos, 31 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-44"></a>
+
+## Ronda 44 — indicadores explícitos en la cartografía de PR #94 y un hallazgo nuevo en la puerta de llegada (L-11) (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #94 (`9a1fca40`) es un único commit sobre #57 en `a9894049`. Toca la capa cartográfica `residual_cartography_stage.py` (dos condiciones), añade pruebas y un workflow.
+
+**Qué corrige.** La capa cartográfica de #57 añade cuatro observadores que, juntos, pueden calificar un evento como «candidato residual común». Si además se acepta que la clase de ese evento enlaza con la fuente Q, se autoriza la transferencia y la producción de la etapa 3 sube de 10 a 11,5. Dos indicadores se leían por su valor de verdad y no exigían un `True` explícito:
+- `captured_before_admission="UNKNOWN"` contaba como captura válida, así que los cuatro observadores emitían evidencia negativa local sobre un evento que nadie había confirmado capturar;
+- `assumed_class_to_q_source_valid="UNKNOWN"` contaba como enlace válido y habilitaba la transferencia.
+
+#94 exige `is True` en esas dos condiciones y no añade nada más. Es la misma pauta que #85 aplicó a #60 en la ronda 39.
+
+**Comprobación** (`verification/cartographic_evidence_check.py`, cada árbol en su propio proceso). Evento de referencia en AG01: llegada en el instante 7, rasgos (0,9; 0,85; 0,8; 0,95).
+
+| Sondeo | #57 | #94 |
+|---|---|---|
+| Evento válido | candidato, transferencia 2, producción 11,5 | igual |
+| Captura `"UNKNOWN"` | candidato, transferencia 2, producción 11,5 | sin candidato, sin transferencia, 10 |
+| Enlace `"UNKNOWN"` | candidato, transferencia 2, producción 11,5 | candidato conservado, sin transferencia, 10 |
+| 30 casos × 4 combinaciones booleanas válidas (120 informes completos) | — | idénticos a #57, comparados directamente |
+| Informe completo de `main()` | — | idéntico |
+
+Con el enlace desconocido, #94 conserva el candidato, su etiqueta y el valor crudo del indicador, y solo bloquea la acción. La información descubierta sigue registrada aunque no se transfiera nada. Tampoco convierte en obligatoria la identidad del primer captor (M27-07 sigue aparte): con `first_capture_observer_id=None` el evento se admite y la producción sigue siendo 11,5. Pasan las 92 pruebas del directorio (87 originales y 5 nuevas) y la CI está en verde.
+
+### Hallazgo nuevo: la puerta de llegada admite tiempos desconocidos
+
+La capa declara una puerta nueva: no se transfiere hasta que el evento se haya recibido *después* del intercambio meta (instante 3). La puerta compara `event.time <= META_EXCHANGE_TIME`, y esa comparación es falsa para NaN. Por tanto, un evento con tiempo de llegada desconocido pasa como llegado después del intercambio. Lo mismo ocurre con un tiempo infinito, que en rigor significa que nunca llegó.
+
+| ID | Estado | Hallazgo | Propuesta |
+|---|---|---|---|
+| <a id="l-11"></a>**L-11** | Media · `ABIERTO` | **Un evento sin hora de llegada conocida pasa la puerta de llegada y habilita la transferencia.** En #57 y en #94, un evento por lo demás válido con `time=float("nan")` o `float("inf")` queda calificado como candidato y habilita la transferencia (2), con producción 11,5, igual que el evento con hora 7. Además, como `nan <= 3` también es falso, el evento no figura entre los aciertos previos y el informe declara `no_matched_event_as_of_meta_exchange = True`: la misma hora desconocida cuenta como «después» para habilitar y como «no antes» para el control. Es el patrón de L-02 (caducidad NaN en #60) trasladado a la puerta nueva. Dato secundario: también se admiten identificadores de evento que no son texto o están en blanco (`1`, `"  "`), porque la comprobación es `bool(event.event_id)`. | Exigir un tiempo entero o racional finito (rechazar `bool`, NaN e infinito) antes de la puerta y en el control de aciertos previos, o tratarlo como llegada desconocida: sin candidato y con un diagnóstico explícito. Exigir también un identificador de texto no vacío, como #92 hizo con las dimensiones. Añadir los dos casos a las pruebas. Con las entradas reales no cambia ningún resultado, porque todas las horas son enteras. |
+
+**Para quien no programa.** Es como un control de acceso que deja pasar a quien entra «después de las 3». Si la hora de la tarjeta está en blanco, el sistema no puede decir que fuera antes de las 3 y lo deja pasar como si hubiera llegado después. Además, en el registro de quién entró antes de las 3 tampoco aparece. La corrección es simple: sin hora válida, no se entra y se anota el motivo.
+
+**Estado:** #94 queda reconocido sin cambio de estado para los dos indicadores (criterio de las rondas 38 a 40: defecto encontrado y corregido por el autor en una rama abierta). Se abre **L-11** (Media, `ABIERTO`). Totales: 90 registros. 33 abiertos, 31 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
