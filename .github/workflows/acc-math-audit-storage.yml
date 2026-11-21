@@ -4,7 +4,7 @@ on:
   pull_request:
     paths:
       - 'research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/math_audit_companion_2026-10-27.py'
-      - 'research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/test_math_audit_storage.py'
+      - 'research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/test_math_audit_*.py'
       - 'research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/MATH_AUDIT_RESULTS_2026-10-27.json'
       - '.github/workflows/acc-math-audit-storage.yml'
   workflow_dispatch:
@@ -20,10 +20,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Test stdout, exclusive output, archive and temporary-file controls
+      - name: Test storage controls and audit result status
         run: |
           S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26"
-          python -B -m unittest discover -s "$S" -p test_math_audit_storage.py -v
+          python -B -m unittest discover -s "$S" -p 'test_math_audit_*.py' -v
       - name: Replay original pinned mathematics without changing reference files
         run: |
           S="research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26"
@@ -32,3 +32,12 @@ jobs:
           test ! -e "$S/.pinned-math-audit-sources"
           test ! -e "$S/__pycache__"
           git diff --exit-code -- "$S/MATH_AUDIT_RESULTS_2026-10-27.json"
+      - name: Verify a fault-injected summary exits with failure and keeps its evidence
+        run: |
+          if python -B -c "import importlib.util,json,os,sys; from pathlib import Path; spec=importlib.util.spec_from_file_location('_acc_exit_fault',Path('research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26')/'math_audit_companion_2026-10-27.py'); tool=importlib.util.module_from_spec(spec); spec.loader.exec_module(tool); original=json.loads((Path(os.environ['RUNNER_TEMP'])/'acc_math_audit_storage_result.json').read_text(encoding='utf-8')); tool.run_checks=lambda *args, **kwargs: dict(original,passed=original['total']-1); sys.exit(tool.main([]))" > "$RUNNER_TEMP/acc_math_audit_status_fault.json"; then
+            echo "Inconsistent returned summary incorrectly reported success"
+            exit 1
+          else
+            test "$?" -eq 1
+          fi
+          python -B -c "import json,os; from pathlib import Path; root=Path(os.environ['RUNNER_TEMP']); original=json.loads((root/'acc_math_audit_storage_result.json').read_text(encoding='utf-8')); fault=json.loads((root/'acc_math_audit_status_fault.json').read_text(encoding='utf-8')); assert fault==dict(original,passed=original['total']-1); print('Fault-injected summary exits 1; complete diagnostic evidence preserved')"
