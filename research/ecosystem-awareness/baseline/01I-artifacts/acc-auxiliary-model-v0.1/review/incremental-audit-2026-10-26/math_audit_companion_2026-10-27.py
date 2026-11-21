@@ -3,6 +3,7 @@ Run: python math_audit_companion_2026-10-27.py
 Optional: --source-archive PATH to the 27-Oct archived source layout.
 Default: full JSON on stdout; downloads use an automatically removed temporary directory.
 --output PATH creates a new file and refuses to overwrite an existing one.
+Exit 0 requires a nonempty all-passing check list and consistent integer counts.
 Downloads are public, immutable source blobs; archives remain read-only.
 """
 from __future__ import annotations
@@ -143,6 +144,17 @@ def run_checks(root:Path, *, allow_download:bool)->dict:
     return result
 
 
+def _checks_passed(result:dict)->bool:
+    checks=result.get("checks")
+    return (isinstance(checks,list)
+            and type(result.get("passed")) is int
+            and type(result.get("total")) is int
+            and 0 < result["total"] == len(checks)
+            and result["passed"] == result["total"]
+            and all(isinstance(check,dict) and check.get("passed") is True
+                    for check in checks))
+
+
 def main(argv=None)->int:
     parser=argparse.ArgumentParser()
     parser.add_argument("--source-archive",type=Path)
@@ -168,7 +180,7 @@ def main(argv=None)->int:
         print(json.dumps({"passed":result["passed"],"total":result["total"],
                           "verified_source_blobs":len(result["sources_verified"])},
                          ensure_ascii=False))
-    return 0
+    return 0 if _checks_passed(result) else 1
 
 
 if __name__=="__main__":sys.exit(main())
