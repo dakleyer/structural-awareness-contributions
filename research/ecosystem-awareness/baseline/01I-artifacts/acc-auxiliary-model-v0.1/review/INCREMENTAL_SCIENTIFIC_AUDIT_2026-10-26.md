@@ -83,6 +83,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 51 | 2026-11-21 | [Premisas explícitas en los casos adicionales (#100) y L-12](#ronda-51) | #100 deja de aceptar «UNKNOWN» en cuatro premisas; nuevo L-12: el mismo patrón sigue en `mission`, `q_cost` y `knowledge` |
 | 52 | 2026-11-21 | [M28-05, parte técnica, en #101](#ronda-52) | Dos pruebas dejan de llamarse «peer»: reproducen la misma función; parte documental pendiente; sin cambio de estado |
 | 53 | 2026-11-21 | [L-12 respondido en #102](#ronda-53) | `mission`, `q_cost`, `knowledge` y también `attribution` exigen premisas explícitas; L-12 pasa a respondido |
+| 54 | 2026-11-21 | [Inventario #81–#102 contrastado](#ronda-54) | 22 borradores abiertos con las cabeceras declaradas; ninguna corrección cambia una cifra publicada; sin registros nuevos |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1864,3 +1865,18 @@ La campaña completa (46 casos) y el barrido de sensibilidad son idénticos. Pas
 **Alcance.** #102 cubre las premisas booleanas del archivo. El autor advierte de que no ha auditado todos los contratos numéricos posibles: por ejemplo, `qualified_cost`, `targeted_cost` o `delta_utils` no pasan por `finite`. Queda como observación, sin registro, porque los valores publicados son números finitos.
 
 **Estado:** L-12 pasa de `ABIERTO` a `RESPONDIDO`. Se cerrará cuando #102, #100, #99 y #54 estén en `main`. Se añade #102 al mapa del lote. Totales: 91 registros. 31 abiertos, 34 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-54"></a>
+
+## Ronda 54 — inventario #81–#102 contrastado (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. Es una actualización del inventario de la ronda 48, que pasa de 17 a 22 borradores.
+
+**Contraste.** La API de GitHub confirma los 22 PR, de #81 a #102: abiertos, en borrador y sin fusionar, con las cabeceras exactas que da el inventario. Las dependencias de código que declara (81→82/89; 83→85→101; 86→87→91; 92→95; 93→97; 94→96→98; 99→100→102) coinciden con las bases verificadas en las rondas 36–53 y con el mapa de la guía (`figures/BATCH_81_97_map.svg`), que ya recoge los 22. También se confirma la deriva que menciona: solo #93 tiene una base que avanzó después de abrirse, porque esta auditoría ha seguido recibiendo rondas, y ningún cambio del auditor toca las tres rutas propias de #93.
+
+**Lo que no se verifica aquí.** El orden de retirada y las referencias cruzadas de CI son instrucciones operativas para quien decida. No se han ejecutado.
+
+**Lectura de conjunto.** Las 22 correcciones son de validación de entradas, nombres y almacenamiento. Ninguna cambia una conclusión numérica publicada. Cinco responden registros de la auditoría (L-01, M28-07, L-11, F-07 y L-12), una atiende la parte técnica de M28-05 y dos dieron lugar a fe de erratas del auditor (rondas 40 y 47).
+
+**Estado:** sin registros nuevos ni cambios de estado. Totales: 91 registros. 31 abiertos, 34 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
