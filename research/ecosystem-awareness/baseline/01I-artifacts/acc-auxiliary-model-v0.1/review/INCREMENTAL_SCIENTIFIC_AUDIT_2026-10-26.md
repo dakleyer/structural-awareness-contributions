@@ -87,6 +87,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 55 | 2026-11-21 | [Precisión de autoría](#ronda-55) | «El autor» de las rondas 38–53 es Codex, asistencia de IA, no una revisión manual de Iván; sin cambios de estado |
 | 56 | 2026-11-21 | [Operandos finitos (#103)](#ronda-56) | Un NaN en un coste ya no cambia la opción ganadora; utilidades infinitas y desbordamientos se rechazan; sin registros nuevos |
 | 57 | 2026-11-21 | [Muestras finitas en `closure` (#104) y L-13](#ronda-57) | #104 rechaza muestras no finitas; nuevo L-13: una constante de Lipschitz negativa certifica el predicado |
+| 58 | 2026-11-21 | [Recuentos de evidencia (#105)](#ronda-58) | Un recuento infinito ya no autoriza un cambio de misión; `True` deja de valer como entero en `kl`; L-13 sigue abierto |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1972,3 +1973,34 @@ La campaña completa y el barrido de sensibilidad son idénticos. Pasan las 88 p
 **Para quien no programa.** Es como estimar la temperatura de mañana a partir de la de hoy sabiendo que «como mucho cambia 2 grados». Si alguien escribe «como mucho cambia −2 grados», el cálculo concluye que mañana se sabe la temperatura con más precisión que hoy, lo cual no tiene sentido. El programa debería rechazar ese «−2».
 
 **Estado:** #104 queda reconocido sin cambio de estado (observación de la ronda 53 atendida en rama). Se abre **L-13** (Baja, `ABIERTO`). Totales: 92 registros. 32 abiertos, 34 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-58"></a>
+
+## Ronda 58 — recuentos de evidencia en `mission` y `kl` (PR #105) (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #105 (`9b4d958b`) es un único commit sobre #104 en `c0043e6e`. Toca `campaign.py` y añade una prueba.
+
+**Qué corrige.**
+- En `mission`, el número de fuentes independientes (`actual_independent`) se valida con `finite` cuando se usa de verdad, es decir, cuando los dos controles son `True`.
+- En `kl`, el contrato de enteros ya existente excluye ahora los booleanos. Antes, `True` pasaba por el entero 1.
+
+**Comprobación** (`verification/evidence_counts_check.py`, con casos reales):
+
+| Caso modificado | #104 | #105 |
+|---|---|---|
+| MISSION-02 (controles `True`), `actual_independent` = ∞ | `SUPPORTED_AND_AUTHORIZED_CHANGE` | `ValueError` |
+| MISSION-02, `actual_independent` = NaN | `UNSUPPORTED_MISSION_CHANGE` (`False`) | `ValueError` |
+| KL-01 con m = n = `True` | 0 bits | `ValueError` |
+| KL-01 con m = 2, n = `True` | 1 bit | `ValueError` |
+| MISSION-01 (controles `False`) con recuento ∞ | `UNSUPPORTED` (el recuento no se usa) | igual |
+| MISSION-03 (`None`), MISSION-02, KL-01 y KL-02 publicados | — | idénticos |
+
+La campaña completa y el barrido de sensibilidad son idénticos. Pasan las 93 pruebas y la CI está en verde.
+
+**Observaciones.**
+- Un NaN no debería producir una negativa conocida (`False`), igual que un infinito no debería producir una autorización. #105 separa bien los dos casos de un «no» real.
+- Codex, asistencia de IA, decide a propósito no exigir que el recuento sea entero ni no negativo. Un recuento de 2,5 fuentes autoriza, igual que 3, y uno de −1 no autoriza. Ninguno de los dos certifica algo que una entrada válida no certificaría, así que queda como observación sin registro.
+- **#105 no atiende L-13.** En #105, `closure` con L = −0,4 sigue dando `PREDICATE_SUPPORTED_IN_FRAME`. L-13 sigue `ABIERTO`.
+
+**Estado:** sin registros nuevos ni cambios de estado. Se añade #105 al mapa del lote. Totales: 92 registros. 32 abiertos, 34 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
