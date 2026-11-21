@@ -42,7 +42,6 @@ def result(case):
         return res('RELATIVE_CREDIT_FEASIBLE' if req<=total else 'RELATIVE_CREDIT_IMPOSSIBLE',absolute_pareto=fine and any(v>0 for v in u),credit_demand=req,credit_available=total,credit_shortfall=max(0,req-total))
     if t=='nonmonotone':
         vals=case['table']; start=case['start'];assert 0<=start<len(vals)
-        loc=max([k for k in range(start,len(vals)) if all(vals[j]>=vals[start] for j in range(start,k+1))],default=start)
         # Local one-step monotone rule halts at first decrease.
         k=start
         while k+1<len(vals) and vals[k+1]>=vals[k]: k+=1
