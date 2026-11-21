@@ -297,6 +297,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 49 | 21 nov | Claude | #98: dos ámbitos «vacíos» iguales (None, en blanco, `True`, 1) ya no califican una región conjunta; la información local se conserva | [ronda 49](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-49) |
 | 50 | 21 nov | Claude | #99: se elimina el cálculo muerto de F-07 en #54; resultados idénticos en 26 324 tablas y en la campaña completa; F-07 pasa a respondido | [ronda 50](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-50) |
 | 51 | 21 nov | Claude | #100: autorización, viabilidad y mismo servicio exigen `True`; las brechas, datos calculados. Nuevo L-12: «UNKNOWN» aún autoriza un cambio de misión y elige la fuente B en otras tres ramas | [ronda 51](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-51) |
+| 52 | 21 nov | Claude | #101: dos pruebas que repetían la misma función dejan de presentarse como comparación con un «peer»; M28-05 sigue abierto por su parte documental | [ronda 52](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-52) |
 
 <a id="el-lote-de-correcciones-8197-añadido-en-la-ronda-48"></a>
 
@@ -304,7 +305,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 
 Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores, cada uno con una corrección acotada sobre un PR de investigación o sobre esta auditoría. Ninguno está fusionado. El mapa muestra de qué PR depende cada uno y en qué ronda se verificó; el inventario de Codex del 21-11 coincide con las cabeceras reales de los 17 PR, comprobadas en la ronda 48.
 
-![Mapa de las correcciones #81 a #100, su PR de base y la ronda que las recibió](figures/BATCH_81_97_map.svg)
+![Mapa de las correcciones #81 a #101, su PR de base y la ronda que las recibió](figures/BATCH_81_97_map.svg)
 
 | PR | Qué corrige, en una línea | Base | Ronda | Efecto en el registro | Efecto en las cifras publicadas |
 |---|---|---|---|---|---|
@@ -328,6 +329,7 @@ Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores,
 | #98 | Ámbitos de fuente con nombre antes de calificar una región conjunta (añadido en la ronda 49) | #96 | [49](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-49) | — | Ninguno |
 | #99 | Elimina el cálculo muerto `loc` en `nonmonotone` (añadido en la ronda 50) | #54 | [50](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-50) | F-07 → respondido | Ninguno |
 | #100 | Autorización, viabilidad y mismo servicio exigen `True` en los casos adicionales (añadido en la ronda 51) | #99 | [51](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-51) | Origen de L-12 | Ninguno |
+| #101 | Nombres de dos pruebas: reproducción, no comparación con un «peer» (añadido en la ronda 52) | #85 | [52](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-52) | M28-05, parte técnica | Ninguno |
 
 **Cómo leerlo.** El lote no cambia ninguna conclusión numérica; corrige cómo se validan las entradas, cómo se nombran las cosas y cómo se guardan los resultados. Tres correcciones responden registros de la auditoría (L-01, M28-07 y L-11). Dos rondas (40 y 47) corrigen errores del propio auditor en las rondas 36 y 42, y la 43 precisa su terminología. Nada de esto es revisión humana independiente.
 
@@ -447,7 +449,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 | [M28-02](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-02) | 🟠 Respondido | Media | #60: la guarda no comprobaba que el punto pertenezca al dominio. Corregido en la rama de #60 y reconfirmado; falta incorporarlo a main. | 15 |
 | [M28-03](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-03) | 🟠 Respondido | Media | #60: se aceptaban NaN o infinito como cota de utilidad. Corregido en la rama de #60 y reconfirmado con 32 valores; falta incorporarlo a main. | 23 |
 | [M28-04](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-04) | 🟠 Respondido | Media | #60: la caducidad se medía en la fecha del evento. Sustituida por un contrato con dos tiempos y ventana [inicio, fin), reconfirmado; falta incorporarlo a main. | 24 |
-| [M28-05](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-05) | 🔵 Abierto | — | Nombres de pruebas que sugieren una comparación que no existe. | 12 |
+| [M28-05](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-05) | 🔵 Abierto | — | Nombres de pruebas que sugieren una comparación que no existe. #101 corrige los dos nombres en rama; sigue pendiente la parte documental (PR60 §11, PR62 §13.3). | 12 |
 | [M28-06](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-06) | ⚪ Informativo | — | Panel y navegación de la auditoría actualizados. | 12 |
 | [M28-07](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#m28-07) | 🟠 Respondido | Baja | Un script de la ronda 8 sobrescribía su JSON si se ejecutaba sin --output. #93: salida por pantalla, destino nuevo sin sobrescribir y fuentes temporales; falta incorporarlo a main. | 42 |
 

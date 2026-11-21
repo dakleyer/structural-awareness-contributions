@@ -1,7 +1,7 @@
 {
   "schema": "ACC-AUDIT-STATUS-LEDGER-v0.1",
   "as_of": "2026-10-28",
-  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-51",
+  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-52",
   "state_vocabulary": [
     "ABIERTO",
     "RESPONDIDO",
@@ -586,7 +586,7 @@
       "severity": "—",
       "state": "ABIERTO",
       "set_in_round": 12,
-      "summary": "Nombres de pruebas que sugieren una comparación que no existe."
+      "summary": "Nombres de pruebas que sugieren una comparación que no existe. #101 corrige los dos nombres en rama; sigue pendiente la parte documental (PR60 §11, PR62 §13.3)."
     },
     {
       "id": "M28-06",

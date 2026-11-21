@@ -81,6 +81,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 49 | 2026-11-21 | [Ámbitos de fuente con nombre (#98)](#ronda-49) | Ámbitos sin nombre ya no califican una región conjunta; información local conservada; sin registros nuevos |
 | 50 | 2026-11-21 | [F-07 respondido en #99](#ronda-50) | Se elimina la variable `loc` que nunca se leía; 26 324 casos y la campaña completa idénticos; F-07 pasa a respondido |
 | 51 | 2026-11-21 | [Premisas explícitas en los casos adicionales (#100) y L-12](#ronda-51) | #100 deja de aceptar «UNKNOWN» en cuatro premisas; nuevo L-12: el mismo patrón sigue en `mission`, `q_cost` y `knowledge` |
+| 52 | 2026-11-21 | [M28-05, parte técnica, en #101](#ronda-52) | Dos pruebas dejan de llamarse «peer»: reproducen la misma función; parte documental pendiente; sin cambio de estado |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1808,3 +1809,27 @@ La campaña completa (46 casos) y el barrido de sensibilidad son idénticos en #
 **Para quien no programa.** Es un formulario en el que la casilla «¿autorizado?» admite «no sé», y el programa lo lee como «sí». #100 arregló cuatro casillas de ese formulario; quedan otras tres con el mismo problema.
 
 **Estado:** #100 queda reconocido sin cambio de estado para sus cuatro condiciones, con el criterio de las rondas 38 a 41. Se abre **L-12** (Media, `ABIERTO`). Totales: 91 registros. 32 abiertos, 33 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-52"></a>
+
+## Ronda 52 — M28-05, parte técnica: nombres de pruebas en PR #101 (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #101 (`1b10f7d4`) es un único commit sobre #85 en `7751da21`. Cambia dos módulos de prueba de Theme 18 en `mathematical-lineage-social-agentic-v0.1`.
+
+**Qué era M28-05.** La ronda 12 señaló dos pruebas cuyos nombres hablaban de un «peer fuerte» o de un «peer convencional competente» que empata. En realidad, cada una llama dos veces a la misma función con los mismos argumentos. Lo que comprueban es reproducción determinista, no una comparación con otra implementación. El hallazgo tiene dos partes: estos nombres (fichas IP-39 e IP-40 del anexo) y la misma abreviatura en el texto de PR60 §11 y PR62 §13.3 (fichas IP-37, IP-38, IP-41 e IP-42).
+
+**Qué hace #101.** Aplica IP-39 e IP-40 casi literalmente:
+- `test_strong_peer_with_same_evidence_ties` pasa a llamarse `test_supplied_candidate_procedure_reproduces_fixture`.
+- `test_competent_same_guard_conventional_peer_ties` pasa a llamarse `test_reusing_supplied_guard_reproduces_cost_ledger`.
+- En la segunda, las variables locales `our` y `peer` pasan a ser `first` y `repeated`.
+- Los comentarios dicen ahora que no se ejecuta ninguna adquisición, selección ni adaptación independiente.
+
+**Comprobación** (`verification/m28_05_test_labels_check.py`):
+- Tras devolver a los nombres nuevos su forma antigua, los árboles sintácticos de los dos módulos son idénticos. Se conservan las mismas llamadas, entradas y aserciones.
+- En las dos pruebas renombradas, la función comprobada (`assess_candidate` o `ledger`) se llama exactamente dos veces con argumentos idénticos. Por eso el nombre antiguo sobreafirmaba.
+- La suite de Theme 18 pasa en los dos árboles con 109 pruebas. La CI está en verde.
+
+**Lo que queda.** `test_agentic_actual_prior_and_strong_peer_are_distinct`, en `test_theme18_qualified_gain.py`, sí compara con un brazo distinto del fixture (`CONVENTIONAL_EQUIVALENT_Q`), así que su nombre no tiene el mismo problema. La parte documental de M28-05 sigue pendiente: PR60 §11 y PR62 §13.3 vuelven a abreviar «reproducción» como «igualdad». Son textos de autor, y la auditoría no los toca.
+
+**Estado:** M28-05 sigue `ABIERTO`. Su parte técnica queda atendida en una rama abierta (#101) y la documental sigue pendiente, por el mismo criterio que F-05 en la ronda 36. Se añade #101 al mapa del lote. Totales sin cambios: 91 registros. 32 abiertos, 33 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
