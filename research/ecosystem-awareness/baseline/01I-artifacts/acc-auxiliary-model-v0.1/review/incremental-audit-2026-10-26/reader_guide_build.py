@@ -280,7 +280,7 @@ ROUNDS = [  # round, author group (0 Claude, 1 Codex/autor), short label
     (4, 0, "Modelo social"), (5, 0, "Figuras y referencias"), (6, 0, "Contraste #59; I-01"),
     (7, 1, "Promoción TAX26"), (8, 1, "Corpus matemático"), (9, 1, "Lectura de comparaciones"),
     (10, 1, "Alcance H-01/H-03"), (11, 1, "Arreglo #64, F-06"), (12, 1, "Relectura y cola"),
-    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"), (37, 0, "L-01 (#83)"), (38, 0, "#69: óptimos repetidos (#84)"), (39, 0, "#60: indicadores booleanos (#85)"), (40, 0, "Fe de erratas; #86–#91"), (41, 0, "Identidad dimensional (#92)"), (42, 0, "M28-07 (#93)"), (43, 0, "Intercambio, no compensación"), (44, 0, "#94 y L-11"), (45, 0, "Rejillas, no dimensiones (#95)"), (46, 0, "L-11 (#96)"), (47, 0, "Fe de erratas; salida (#97)"),
+    (13, 0, "I-01 cerrado"), (14, 0, "Revisión formal y guía"), (15, 0, "M28-02 reconfirmado"), (16, 1, "Cinco mecanismos"), (17, 0, "Modelo social #44–#46"), (18, 0, "Alias precisados"), (19, 0, "Oportunidades de mejora"), (20, 0, "Kit premium 01 README"), (21, 0, "Kit premium 02 MODEL"), (22, 0, "Scripts de verificación"), (23, 0, "PR #60: M28-03 y F1/D1"), (24, 0, "M28-04, K-01, K-02, DG"), (25, 0, "K-03 (#67)"), (26, 0, "G-03 (#68)"), (27, 0, "L-04 y L-07"), (28, 0, "G-04 (#70)"), (29, 0, "G-06 (#71)"), (30, 0, "L-08 (#72)"), (31, 0, "G-02 (#73)"), (32, 0, "L-09 (#75)"), (33, 0, "H-01 (#76)"), (34, 0, "H-01: diagnóstico"), (35, 0, "Fidelidad dimensional K"), (36, 0, "Unidades: #81 y #82"), (37, 0, "L-01 (#83)"), (38, 0, "#69: óptimos repetidos (#84)"), (39, 0, "#60: indicadores booleanos (#85)"), (40, 0, "Fe de erratas; #86–#91"), (41, 0, "Identidad dimensional (#92)"), (42, 0, "M28-07 (#93)"), (43, 0, "Intercambio, no compensación"), (44, 0, "#94 y L-11"), (45, 0, "Rejillas, no dimensiones (#95)"), (46, 0, "L-11 (#96)"), (47, 0, "Fe de erratas; salida (#97)"), (48, 0, "Mapa del lote #81–#97"),
 ]
 
 
@@ -318,6 +318,63 @@ def fig_rounds() -> str:
     s.append(f'<text class="ink2" x="{w - 16}" y="{h - 26}" font-size="11" text-anchor="end">Ninguna ronda es una revisión humana independiente.</text>')
     s.append("</svg>")
     return "\n".join(s)
+# Batch of bounded corrections #81-#97 (drafts by Codex, AI) and the audit round that received each one.
+# (pr, row, depth, short label, reception round, kind, parent); kind 0 = no state change, 2 = answers a record.
+BATCH = [
+    (66, 0, 0, "Envolvente económica", None, None, None), (60, 2, 0, "Linaje matemático", None, None, None),
+    (69, 3, 0, "Aceptación narrativa", None, None, None), (72, 4, 0, "Sensibilidad L-08", None, None, None),
+    (76, 7, 0, "Elección estratégica H-01", None, None, None), (58, 8, 0, "Esta auditoría", None, None, None),
+    (57, 9, 0, "Reducción agéntica", None, None, None),
+    (81, 0, 1, "Medidas y precios aparte", 36, 0, 66), (82, 0, 2, "Evidencia agéntica aparte", 36, 0, 81),
+    (89, 1, 2, "Unidad de valor sintético", 40, 0, 81),
+    (83, 2, 1, "Codominio de la cota", 37, 2, 60), (85, 2, 2, "Indicadores booleanos", 39, 0, 83),
+    (84, 3, 1, "Óptimos sin duplicados", 38, 0, 69),
+    (86, 4, 1, "Pareto finito y exacto", 40, 0, 72), (87, 4, 2, "Probabilidades sin alias", 40, 0, 86),
+    (91, 4, 3, "Comparación exacta", 40, 0, 87), (88, 5, 1, "Conservación por partes", 40, 0, 72),
+    (90, 6, 1, "Orden racional del resumen", 40, 0, 72),
+    (92, 7, 1, "Identidad de dimensiones", 41, 0, 76), (95, 7, 2, "Rejillas, no dimensiones K", 45, 0, 92),
+    (93, 8, 1, "Referencia protegida", 42, 2, 58), (97, 8, 2, "Código de salida coherente", 47, 0, 93),
+    (94, 9, 1, "Captura y enlace explícitos", 44, 0, 57), (96, 9, 2, "Hora e identidad de llegada", 46, 2, 94),
+]
+
+
+def fig_batch() -> str:
+    left, top, col, row_h, bw, bh = 16, 92, 262, 50, 240, 38
+    w = left + 4 * col
+    h = top + 10 * row_h + 64
+    pos = {n[0]: (left + n[2] * col, top + n[1] * row_h) for n in BATCH}
+    s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
+         f'aria-label="Mapa de las {sum(n[4] is not None for n in BATCH)} correcciones acotadas #81 a #97, '
+         f'su PR de base y la ronda de la auditoría que las recibió">{STYLE}',
+         f'<rect class="bg" width="{w}" height="{h}" rx="8"/>',
+         '<text class="ink" x="16" y="28" font-size="16" font-weight="600">Las correcciones #81–#97: de qué PR cuelga cada una y qué ronda la recibió</text>',
+         '<text class="ink2" x="16" y="50" font-size="12">Borradores de Codex (IA), ninguno fusionado. Cada flecha va de la base al PR que la corrige; «r41» es la ronda de esta auditoría que lo verificó.</text>',
+         '<text class="ink2" x="16" y="68" font-size="12">Para retirar el lote, primero los hijos: una corrección no se revierte antes que las que dependen de ella.</text>']
+    for pr, row, depth, label, rnd, kind, parent in BATCH:
+        if parent is not None:
+            px, py = pos[parent]
+            x, y = pos[pr]
+            s.append(f'<path class="grid" d="M{px + bw} {py + bh / 2} C{px + bw + 12} {py + bh / 2} {x - 12} {y + bh / 2} {x} {y + bh / 2}" '
+                     'fill="none" stroke-width="2"/>')
+    for pr, row, depth, label, rnd, kind, parent in BATCH:
+        x, y = pos[pr]
+        if rnd is None:
+            s.append(f'<rect x="{x}" y="{y}" width="{bw}" height="{bh}" rx="6" fill="none" class="grid" stroke-width="1.5"/>')
+            s.append(f'<text class="ink" x="{x + 10}" y="{y + 24}" font-size="12"><tspan font-weight="700">#{pr}</tspan> {label}</text>')
+        else:
+            s.append(f'<rect class="s{kind}" x="{x}" y="{y}" width="{bw}" height="{bh}" rx="6"><title>#{pr}: {label} (ronda {rnd})</title></rect>')
+            s.append(f'<text x="{x + 10}" y="{y + 24}" font-size="12" fill="#fff"><tspan font-weight="700">#{pr}</tspan> {label}</text>')
+            s.append(f'<text x="{x + bw - 8}" y="{y + 24}" font-size="11" fill="#fff" text-anchor="end">r{rnd}</text>')
+    for k, (cls, label) in enumerate((("s0", "Corrección sin cambio de estado"),
+                                      ("s2", "Responde un registro (L-01, M28-07, L-11)"))):
+        xl = 16 + k * 300
+        s.append(f'<rect class="{cls}" x="{xl}" y="{h - 38}" width="14" height="14" rx="3"/>')
+        s.append(f'<text class="ink" x="{xl + 22}" y="{h - 26}" font-size="12">{label}</text>')
+    s.append(f'<text class="ink2" x="{w - 16}" y="{h - 26}" font-size="11" text-anchor="end">#94 es además el origen de L-11 (ronda 44).</text>')
+    s.append("</svg>")
+    return "\n".join(s)
+
+
 
 M27_20_URL = "https://github.com/dakleyer/structural-awareness-contributions/pull/58#issuecomment-6446350643"
 STATE_LABEL = {"ABIERTO": "🔵 Abierto", "RESPONDIDO": "🟠 Respondido", "CERRADO": "🟢 Cerrado",
@@ -477,6 +534,7 @@ def main(argv=None) -> int:
         (HERE / "figures" / "ROUNDS_timeline.svg").write_text(fig_rounds(), encoding="utf-8")
         (HERE / "figures" / "K01_B_vs_targeted_by_size.svg").write_text(fig_k01(), encoding="utf-8")
         (HERE / "figures" / "OPPORTUNITIES_impact_effort.svg").write_text(fig_opportunities(), encoding="utf-8")
+        (HERE / "figures" / "BATCH_81_97_map.svg").write_text(fig_batch(), encoding="utf-8")
     print(json.dumps({"totals": result["totals"], "checks": result["checks"]}, ensure_ascii=False, indent=2))
     c = result["checks"]  # R16-P07 (Codex, ronda 16): fail on any structural inconsistency
     if (c["duplicate_ids"] or c["ledger_ids_absent_from_audit"] or c["audit_ids_absent_from_ledger"]

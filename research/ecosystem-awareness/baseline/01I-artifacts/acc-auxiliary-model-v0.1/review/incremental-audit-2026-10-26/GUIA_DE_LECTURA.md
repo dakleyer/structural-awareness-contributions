@@ -293,6 +293,37 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 45 | 21 nov | Claude | #95: las cuatro rejillas del barrido de H-01 dejan de llamarse «dimensiones económicas»; K sigue abierto. Mismo árbol sintáctico salvo un mensaje e informe idéntico | [ronda 45](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-45) |
 | 46 | 21 nov | Claude | #96: una hora NaN, infinita o no entera, o un identificador en blanco, se rechaza antes de ordenar la llegada; 120 informes idénticos; L-11 pasa a respondido | [ronda 46](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-46) |
 | 47 | 21 nov | Claude | Fe de erratas: en la ronda 42, una comprobación que falla ya terminaba con código 1; lo que salía con 0 era un resumen que no cuadraba con sus comprobaciones. #97 lo corrige | [ronda 47](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-47) |
+| 48 | 21 nov | Claude | Inventario de Codex sobre #81–#97 contrastado con GitHub; nuevo mapa del lote y tabla de efectos ([abajo](#el-lote-de-correcciones-8197-añadido-en-la-ronda-48)) | [ronda 48](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-48) |
+
+<a id="el-lote-de-correcciones-8197-añadido-en-la-ronda-48"></a>
+
+### El lote de correcciones #81–#97 (añadido en la ronda 48)
+
+Entre el 20 y el 21 de noviembre, Codex (asistencia de IA) abrió 17 borradores, cada uno con una corrección acotada sobre un PR de investigación o sobre esta auditoría. Ninguno está fusionado. El mapa muestra de qué PR depende cada uno y en qué ronda se verificó; el inventario de Codex del 21-11 coincide con las cabeceras reales de los 17 PR, comprobadas en la ronda 48.
+
+![Mapa de las 17 correcciones #81 a #97, su PR de base y la ronda que las recibió](figures/BATCH_81_97_map.svg)
+
+| PR | Qué corrige, en una línea | Base | Ronda | Efecto en el registro | Efecto en las cifras publicadas |
+|---|---|---|---|---|---|
+| #81 | Medidas físicas, valor sintético y precios en campos separados | #66 | [36](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-36) | F-05 (b) atendido en rama | Ninguno |
+| #82 | Lo mismo en la evidencia agéntica | #81 | [36](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-36) | F-05 (b) | Ninguno |
+| #83 | Cota geométrica limitada a su codominio [0, 1] | #60 | [37](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-37) | L-01 → respondido | Ninguno |
+| #84 | Asignaciones óptimas sin repeticiones | #69 | [38](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-38) | — | Mismo conjunto de óptimos; los 878 casos con óptimos repetidos pasan a 0 |
+| #85 | Indicadores booleanos explícitos en el fixture | #83 | [39](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-39) | — | Ninguno |
+| #86 | Frontera de Pareto con medidas finitas y exactas | #72 | [40](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-40) | — | Ninguno |
+| #87 | Rejilla de probabilidades sin alias | #86 | [40](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-40) | — | Ninguno |
+| #88 | Conservación de recursos comprobada componente a componente | #72 | [40](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-40) | — | Ninguno |
+| #89 | Unidad correcta del valor social sintético | #81 | [40](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-40) | Fe de erratas de la ronda 36 | Ninguno |
+| #90 | Orden racional exacto en el resumen | #72 | [40](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-40) | — | Ninguno |
+| #91 | Comparación exacta entre brazos | #87 | [40](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-40) | — | Ninguno |
+| #92 | Nombres de dimensiones que no se funden al guardar | #76 | [41](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-41) | — (precisión en la ronda 43) | Ninguno |
+| #93 | El acompañante matemático no reescribe su referencia | #58 | [42](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-42) | M28-07 → respondido | Ninguno |
+| #94 | Captura y enlace con Q exigen `True` explícito | #57 | [44](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-44) | Origen de L-11 | Ninguno |
+| #95 | Las rejillas del barrido no se llaman dimensiones de K | #92 | [45](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-45) | — | Ninguno |
+| #96 | Hora de llegada entera e identificador de texto | #94 | [46](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-46) | L-11 → respondido | Ninguno |
+| #97 | Código de salida coherente con el informe | #93 | [47](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-47) | Fe de erratas de la ronda 42 | Ninguno |
+
+**Cómo leerlo.** El lote no cambia ninguna conclusión numérica; corrige cómo se validan las entradas, cómo se nombran las cosas y cómo se guardan los resultados. Tres correcciones responden registros de la auditoría (L-01, M28-07 y L-11). Dos rondas (40 y 47) corrigen errores del propio auditor en las rondas 36 y 42, y la 43 precisa su terminología. Nada de esto es revisión humana independiente.
 
 <a id="11-los-79-registros-uno-por-uno"></a>
 <a id="11-los-82-registros-uno-por-uno"></a>

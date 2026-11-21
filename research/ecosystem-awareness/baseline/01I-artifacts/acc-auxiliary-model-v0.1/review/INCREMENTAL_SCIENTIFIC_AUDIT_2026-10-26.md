@@ -77,6 +77,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 45 | 2026-11-21 | [Rejillas de sensibilidad, no dimensiones de K (#95)](#ronda-45) | Cambio de nombres en `sensitivity_grid`; AST idéntico salvo un mensaje; informe H-01 idéntico; sin registros nuevos |
 | 46 | 2026-11-21 | [L-11 respondido en #96](#ronda-46) | Horas de llegada enteras y nombres de evento de texto obligatorios; L-11 pasa a respondido |
 | 47 | 2026-11-21 | [Fe de erratas de la ronda 42; código de salida en #97](#ronda-47) | Un fallo real ya salía con código 1; lo que salía con 0 era un resumen incoherente, y #97 lo corrige; sin registros nuevos |
+| 48 | 2026-11-21 | [Inventario #81–#97 contrastado; mapa visual](#ronda-48) | 17 borradores abiertos, cabeceras y dependencias coinciden; nuevo mapa del lote en la guía; sin registros nuevos |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1715,3 +1716,18 @@ Las protecciones de #93 se mantienen en #97: `m28_07_storage_check.py` sobre la 
 **Lectura.** Es una mejora de coherencia de la herramienta, no un cambio científico: ninguna cifra, fuente ni hallazgo cambia. Cierra el hueco estrecho que la ronda 42 detectó, y no el amplio que dijo haber detectado.
 
 **Estado:** sin registros nuevos ni cambios de estado. M28-07 sigue `RESPONDIDO` con #93, y #97 depende de #93. Totales: 90 registros. 32 abiertos, 32 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-48"></a>
+
+## Ronda 48 — inventario del lote #81–#97 contrastado y mapa visual (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. Es un inventario consolidado de los 17 borradores #81–#97 con su base, su cabecera, sus controles y su orden de reversión.
+
+**Contraste.** Consultados los 17 PR por la API de GitHub el 21-11: todos están abiertos, en borrador y sin fusionar, y sus cabeceras coinciden con las que da el inventario (de `0812636` en #81 a `e7425fa` en #97). Las dependencias de código que declara (#81→#82/#89, #83→#85, #86→#87→#91, #92→#95, #93→#97, #94→#96) coinciden con las bases verificadas en las rondas 36–47. También coincide su resumen de la recepción: 90 registros, 32 abiertos y 32 respondidos, y los 92 casos R/C descritos como intercambios incomparables sin compensación inferida, como precisó la ronda 43.
+
+**Lo que esta ronda no comprueba.** El orden de retirada propuesto para el lote completo y las notas sobre el caso #82 son instrucciones operativas para quien decida. No se han ejecutado ni simulado aquí. La auditoría no fusiona, revierte ni cierra nada.
+
+**Ayuda visual nueva.** Se añade a la guía (§10) el mapa `figures/BATCH_81_97_map.svg`, generado por `reader_guide_build.py`, y una tabla que indica para cada PR qué corrige, de qué base cuelga, qué ronda lo recibió, qué efecto tuvo en el registro y cuál en las cifras publicadas. El mapa resume en una imagen lo que hasta ahora estaba repartido en doce rondas: ninguna de las 17 correcciones cambia una conclusión numérica, tres responden registros (L-01, M28-07 y L-11) y dos dieron lugar a fe de erratas del auditor (rondas 40 y 47).
+
+**Estado:** sin registros nuevos ni cambios de estado. Totales: 90 registros. 32 abiertos, 32 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
