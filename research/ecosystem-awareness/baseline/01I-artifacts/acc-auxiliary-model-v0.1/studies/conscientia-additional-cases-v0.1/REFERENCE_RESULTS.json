@@ -1,0 +1,498 @@
+{
+  "case_count": 46,
+  "evidence": "SYNTHETIC_NOT_EMPIRICAL",
+  "excluded_external_validation": [
+    "human lived suffering",
+    "real estate/education/employment causality",
+    "real company attribution",
+    "physical entropy/open-D probability",
+    "UC21 native product outcomes"
+  ],
+  "groups": {
+    "attribution": 3,
+    "credit": 3,
+    "efficiency": 2,
+    "food": 5,
+    "human": 6,
+    "information": 6,
+    "institutions": 3,
+    "mission": 3,
+    "network": 4,
+    "qualification": 7,
+    "unawareness": 3,
+    "utility": 1
+  },
+  "input_sha256": "fbf6d37560da5444a18a9616cb4fedbe98fc56d6457830524e248d96943ade30",
+  "results": [
+    {
+      "authorized": true,
+      "coordination_margin": 1.0,
+      "delta_resources": -3,
+      "delta_service": 1,
+      "group": "food",
+      "id": "BAN-01-LOCAL-VS-WASTE",
+      "source": "CE1",
+      "status": "WEAK_PARETO_RESOURCE_SERVICE_GAIN"
+    },
+    {
+      "authorized": true,
+      "coordination_margin": 1.0,
+      "delta_resources": 3,
+      "delta_service": 1,
+      "group": "food",
+      "id": "BAN-02-TRANSPORT-NO-FREE-LUNCH",
+      "source": "CE1",
+      "status": "TRADEOFF_NOT_PARETO_CERTIFIED"
+    },
+    {
+      "authorized": true,
+      "coordination_margin": 1.0,
+      "delta_resources": 0,
+      "delta_service": 1,
+      "group": "food",
+      "id": "BAN-03-LEGITIMATE-DONATION",
+      "source": "CE1",
+      "status": "WEAK_PARETO_RESOURCE_SERVICE_GAIN"
+    },
+    {
+      "authorized": false,
+      "coordination_margin": 1.0,
+      "delta_resources": 0,
+      "delta_service": 1,
+      "group": "food",
+      "id": "BAN-04-WITHHELD-CONSENT",
+      "source": "CE1",
+      "status": "RIGHTS_BLOCKED"
+    },
+    {
+      "authorized": true,
+      "coordination_margin": -1.0,
+      "delta_resources": -1,
+      "delta_service": 1,
+      "group": "food",
+      "id": "BAN-05-NO-COORDINATION-CAPACITY",
+      "source": "CE1",
+      "status": "COORDINATION_BLOCKED"
+    },
+    {
+      "absolute_pareto": true,
+      "credit_available": 1000.0,
+      "credit_demand": 0.0,
+      "credit_shortfall": 0,
+      "group": "credit",
+      "id": "ROBIN-01-SMALL-GAIN-LARGE-SHARE",
+      "source": "CE1",
+      "status": "RELATIVE_CREDIT_FEASIBLE"
+    },
+    {
+      "absolute_pareto": true,
+      "credit_available": 10.0,
+      "credit_demand": 11.0,
+      "credit_shortfall": 1.0,
+      "group": "credit",
+      "id": "ROBIN-02-RELATIVE-CREDIT-HARD-CONSTRAINT",
+      "source": "CE1",
+      "status": "RELATIVE_CREDIT_IMPOSSIBLE"
+    },
+    {
+      "absolute_pareto": true,
+      "credit_available": 10.0,
+      "credit_demand": 10.0,
+      "credit_shortfall": 0,
+      "group": "credit",
+      "id": "ROBIN-03-CREDIT-FEASIBLE",
+      "source": "CE1",
+      "status": "RELATIVE_CREDIT_FEASIBLE"
+    },
+    {
+      "authorized": true,
+      "coordination_margin": 2.0,
+      "delta_resources": -24,
+      "delta_service": 0,
+      "group": "institutions",
+      "id": "MIN-01-COORDINATION-REORG",
+      "source": "CE1",
+      "status": "WEAK_PARETO_RESOURCE_SERVICE_GAIN"
+    },
+    {
+      "authorized": true,
+      "coordination_margin": -2.0,
+      "delta_resources": -24,
+      "delta_service": 0,
+      "group": "institutions",
+      "id": "MIN-02-SAME-REORG-OVER-CAPACITY",
+      "source": "CE1",
+      "status": "COORDINATION_BLOCKED"
+    },
+    {
+      "authorized": false,
+      "coordination_margin": 2.0,
+      "delta_resources": -24,
+      "delta_service": 0,
+      "group": "institutions",
+      "id": "MIN-03-RIGHTS-BLOCK-REORG",
+      "source": "CE4",
+      "status": "RIGHTS_BLOCKED"
+    },
+    {
+      "best_value": 10,
+      "global_best": 8,
+      "group": "utility",
+      "id": "UTIL-01-APPLES-MARKET-THRESHOLD",
+      "local_stop": 3,
+      "local_value": 8,
+      "source": "CE11",
+      "status": "LOCAL_MONOTONE_STOP_BELOW_BETTER_STATE"
+    },
+    {
+      "gap_increases": true,
+      "group": "efficiency",
+      "id": "EFF-01-TWO-HORIZONS-OPTIMUM",
+      "periods": [
+        {
+          "certified_feasible": true,
+          "gap": 20.0,
+          "output": 100,
+          "time": 0
+        },
+        {
+          "certified_feasible": true,
+          "gap": 45.0,
+          "output": 140,
+          "time": 1
+        }
+      ],
+      "source": "CE1",
+      "status": "GAPS_ESTABLISHED_IN_TOY"
+    },
+    {
+      "gap_increases": false,
+      "group": "efficiency",
+      "id": "EFF-02-UNATTAINABLE-IDEAL",
+      "periods": [
+        {
+          "certified_feasible": false,
+          "gap": null,
+          "output": 140,
+          "time": 0
+        }
+      ],
+      "source": "CE4",
+      "status": "OPTIMUM_NOT_ESTABLISHED"
+    },
+    {
+      "group": "human",
+      "id": "WELFARE-01-DOUBLE-BANANA",
+      "net_welfare_toy": -2.0,
+      "source": "CE1",
+      "status": "HYPOTHETICAL_NET_NEGATIVE",
+      "subjective_measured": false
+    },
+    {
+      "group": "human",
+      "id": "WELFARE-02-LESS-DISCOMFORT",
+      "net_welfare_toy": 2.0,
+      "source": "CE1",
+      "status": "HYPOTHETICAL_NET_NONNEGATIVE",
+      "subjective_measured": false
+    },
+    {
+      "group": "human",
+      "id": "WELFARE-03-DONT-EQUATE-TO-SUFFERING",
+      "net_welfare_toy": null,
+      "source": "CE2",
+      "status": "SUBJECTIVE_NOT_MEASURED",
+      "subjective_measured": false
+    },
+    {
+      "ACW_delta": 20,
+      "ACW_share": 0.4,
+      "GIC_delta": 17,
+      "NEO_is_debt": false,
+      "actual_total": 100.0,
+      "group": "human",
+      "human_observation": "SYNTHETIC",
+      "id": "HID-01-HUMAN-ROLE-TRANSITION",
+      "source": "CE10",
+      "status": "HUMAN_INPUT_DIFF_NOT_OBSERVED_HID"
+    },
+    {
+      "group": "human",
+      "human_observation": "NOT_MEASURED",
+      "id": "HID-02-NO-SAME-SERVICE",
+      "source": "CE10",
+      "status": "MATCHED_REFERENCE_MISSING"
+    },
+    {
+      "ACW_delta": 0,
+      "ACW_share": 0.1,
+      "GIC_delta": 0,
+      "NEO_is_debt": false,
+      "actual_total": 100.0,
+      "group": "human",
+      "human_observation": "SYNTHETIC",
+      "id": "HID-03-NEO-NOT-DEBT",
+      "source": "CE10",
+      "status": "HUMAN_INPUT_DIFF_NOT_OBSERVED_HID"
+    },
+    {
+      "conditional_answer_bits": 1.0,
+      "conditional_origin_bits": 2.0,
+      "group": "information",
+      "id": "ENTROPY-01-MULTI-PREIMAGE",
+      "open_exterior_entropy": null,
+      "source": "CE6",
+      "status": "FINITE_SHANNON_ONLY",
+      "strict_decision_ambiguity": true
+    },
+    {
+      "conditional_answer_bits": 0.0,
+      "conditional_origin_bits": 2.0,
+      "group": "information",
+      "id": "ENTROPY-02-QUESTION-SUFFICES",
+      "open_exterior_entropy": null,
+      "source": "CE11",
+      "status": "FINITE_SHANNON_ONLY",
+      "strict_decision_ambiguity": false
+    },
+    {
+      "conditional_answer_bits": 0.19439186,
+      "conditional_origin_bits": 0.24194073,
+      "group": "information",
+      "id": "ENTROPY-03-SKEWED-PRIOR",
+      "open_exterior_entropy": null,
+      "source": "CE6",
+      "status": "FINITE_SHANNON_ONLY",
+      "strict_decision_ambiguity": true
+    },
+    {
+      "group": "information",
+      "id": "ENTROPY-04-OPEN-D-NO-PRIOR",
+      "open_exterior_entropy": null,
+      "source": "CE7",
+      "status": "PRIOR_NOT_IDENTIFIED",
+      "target_entropy": null
+    },
+    {
+      "coverage_delta_bits": 1.0,
+      "group": "information",
+      "id": "KL-01-CORRECT-REVERSE",
+      "kl_P_theory_to_Q_constructible": "INFINITY",
+      "kl_Q_constructible_to_P_theory": 1.0,
+      "source": "CE7",
+      "status": "FINITE_SUPPORT_DIRECTION_CORRECTED"
+    },
+    {
+      "coverage_delta_bits": 0.0,
+      "group": "information",
+      "id": "KL-02-NO-SUPPORT-MISMATCH",
+      "kl_P_theory_to_Q_constructible": 0,
+      "kl_Q_constructible_to_P_theory": 0.0,
+      "source": "CE7",
+      "status": "FINITE_SUPPORT_DIRECTION_CORRECTED"
+    },
+    {
+      "credited": true,
+      "group": "attribution",
+      "id": "ATTR-01-LISTED-BUT-NO-DEPENDENCY",
+      "listed": true,
+      "source": "CE8",
+      "status": "DEPENDENCY_ATTRIBUTION_DIVERGENCE",
+      "verified": false
+    },
+    {
+      "credited": false,
+      "group": "attribution",
+      "id": "ATTR-02-UNLISTED-REAL-DEPENDENCY",
+      "listed": false,
+      "source": "CE8",
+      "status": "DEPENDENCY_ATTRIBUTION_DIVERGENCE",
+      "verified": true
+    },
+    {
+      "group": "attribution",
+      "id": "ATTR-03-METRIC-ERRATUM-BLOCKED",
+      "source": "CE8",
+      "status": "MEASUREMENT_EDITION_CONFLICT_BLOCKED",
+      "value": null
+    },
+    {
+      "group": "mission",
+      "id": "MISSION-01-ONE-SOURCE-REPLICATED",
+      "mission_change": false,
+      "nominal_sources": 5,
+      "source": "CE3",
+      "source_independent": 1,
+      "status": "UNSUPPORTED_MISSION_CHANGE"
+    },
+    {
+      "group": "mission",
+      "id": "MISSION-02-AUTHORIZED-NEW-MISSION",
+      "mission_change": true,
+      "source": "CE3",
+      "status": "SUPPORTED_AND_AUTHORIZED_CHANGE"
+    },
+    {
+      "group": "mission",
+      "id": "MISSION-03-UNQUALIFIED-UNKNOWN",
+      "mission_change": null,
+      "source": "CE3",
+      "status": "MISSION_BASIS_NOT_ESTABLISHED"
+    },
+    {
+      "best_mode": "SOURCE_B",
+      "certificate_qualified": true,
+      "group": "qualification",
+      "id": "QUAL-01-B-SOURCE-BEATS-FULL",
+      "net_values": {
+        "A_ONLY": 0.0,
+        "FULL_A_EXPANSION": -22.0,
+        "SOURCE_B": 7.75,
+        "TARGETED_CONVENTIONAL": 7.0
+      },
+      "source": "CE11",
+      "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+    },
+    {
+      "best_mode": "TARGETED_CONVENTIONAL",
+      "certificate_qualified": true,
+      "group": "qualification",
+      "id": "QUAL-02-CONVENTIONAL-BEATS-B",
+      "net_values": {
+        "A_ONLY": 0.0,
+        "FULL_A_EXPANSION": -22.0,
+        "SOURCE_B": 2.0,
+        "TARGETED_CONVENTIONAL": 9.0
+      },
+      "source": "CE11",
+      "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+    },
+    {
+      "best_mode": "TARGETED_CONVENTIONAL",
+      "certificate_qualified": false,
+      "group": "qualification",
+      "id": "QUAL-03-Q-NOT-VALID",
+      "net_values": {
+        "A_ONLY": 0.0,
+        "FULL_A_EXPANSION": -22.0,
+        "SOURCE_B": null,
+        "TARGETED_CONVENTIONAL": 7.0
+      },
+      "source": "CE11",
+      "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+    },
+    {
+      "best_mode": "A_ONLY",
+      "certificate_qualified": true,
+      "group": "qualification",
+      "id": "QUAL-04-NO-GAIN-NEEDED",
+      "net_values": {
+        "A_ONLY": 0.0,
+        "FULL_A_EXPANSION": -32.0,
+        "SOURCE_B": -2.25,
+        "TARGETED_CONVENTIONAL": -3.0
+      },
+      "source": "CE11",
+      "status": "COST_COMPARISON_IF_BENEFIT_REALIZED"
+    },
+    {
+      "bounds": [
+        8.0,
+        11.0
+      ],
+      "global_D_open": true,
+      "group": "qualification",
+      "id": "CLOSURE-01-LOWER-BOUND-SUFFICES",
+      "source": "CE11",
+      "status": "PREDICATE_SUPPORTED_IN_FRAME"
+    },
+    {
+      "bounds": [
+        8.0,
+        11.0
+      ],
+      "global_D_open": true,
+      "group": "qualification",
+      "id": "CLOSURE-02-CROSSES-THRESHOLD",
+      "source": "CE11",
+      "status": "PREDICATE_UNDETERMINED"
+    },
+    {
+      "bounds": null,
+      "group": "qualification",
+      "id": "CLOSURE-03-NO-REGULARITY",
+      "source": "CE11",
+      "status": "REGULARITY_NOT_ESTABLISHED"
+    },
+    {
+      "assertion": "collusion",
+      "group": "unawareness",
+      "id": "CAPACITY-01-ORANGE-COLLUSION-NOT-INFERRED",
+      "social_fact_established": false,
+      "source": "CE1",
+      "status": "EVIDENCE_INSUFFICIENT_FOR_CLAIM"
+    },
+    {
+      "assertion": "observed_subjective_distress",
+      "group": "unawareness",
+      "id": "CAPACITY-02-EDU-STRUCTURAL-OPPORTUNITY",
+      "social_fact_established": false,
+      "source": "CE4",
+      "status": "EVIDENCE_INSUFFICIENT_FOR_CLAIM"
+    },
+    {
+      "assertion": "universal_loss",
+      "group": "unawareness",
+      "id": "CAPACITY-03-CAPABILITY-RETAINED",
+      "social_fact_established": false,
+      "source": "CE4",
+      "status": "EVIDENCE_INSUFFICIENT_FOR_CLAIM"
+    },
+    {
+      "actual_production": 400,
+      "group": "network",
+      "hypothetical_gap": 156.0,
+      "id": "ACC-01-DENSE-GAP-40",
+      "joint_optimum_empirically_eligible": false,
+      "links": 780,
+      "ratio_percent": 39.0,
+      "source": "CE1",
+      "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+    },
+    {
+      "actual_production": 400,
+      "group": "network",
+      "hypothetical_gap": 7.8,
+      "id": "ACC-02-SPARSE-GAP-40",
+      "joint_optimum_empirically_eligible": false,
+      "links": 39,
+      "ratio_percent": 1.95,
+      "source": "CE1",
+      "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+    },
+    {
+      "actual_production": 400,
+      "group": "network",
+      "hypothetical_gap": 0,
+      "id": "ACC-03-NO-GAP",
+      "joint_optimum_empirically_eligible": false,
+      "links": 780,
+      "ratio_percent": 0.0,
+      "source": "CE1",
+      "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+    },
+    {
+      "actual_production": 478.0,
+      "group": "network",
+      "hypothetical_gap": 156.0,
+      "id": "ACC-04-RECOVERED-SYNERGY",
+      "joint_optimum_empirically_eligible": false,
+      "links": 780,
+      "ratio_percent": 32.63598326,
+      "source": "CE1",
+      "status": "CONDITIONAL_COUNTERFACTUAL_GAP_NOT_HID"
+    }
+  ],
+  "schema": "CONSCIENTIA-DOC-EXPERIMENTS-v0.1",
+  "source_document_count": 12
+}
