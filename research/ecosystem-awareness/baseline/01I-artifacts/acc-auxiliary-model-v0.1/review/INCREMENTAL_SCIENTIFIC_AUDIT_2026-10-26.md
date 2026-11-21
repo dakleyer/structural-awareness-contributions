@@ -75,6 +75,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 43 | 2026-11-21 | [Precisión de la ronda 41: intercambio, no compensación](#ronda-43) | Las 92 celdas son intercambios incomparables sin compensación inferida; sin cambios de cifras ni estados |
 | 44 | 2026-11-21 | [Indicadores explícitos en la cartografía (#94) y L-11](#ronda-44) | #94 exige `True` explícito en captura y enlace; nuevo L-11: un tiempo de llegada NaN o infinito pasa la puerta de llegada |
 | 45 | 2026-11-21 | [Rejillas de sensibilidad, no dimensiones de K (#95)](#ronda-45) | Cambio de nombres en `sensitivity_grid`; AST idéntico salvo un mensaje; informe H-01 idéntico; sin registros nuevos |
+| 46 | 2026-11-21 | [L-11 respondido en #96](#ronda-46) | Horas de llegada enteras y nombres de evento de texto obligatorios; L-11 pasa a respondido |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1645,3 +1646,33 @@ La capa declara una puerta nueva: no se transfiere hasta que el evento se haya r
 **Coherencia del propio material de verificación.** El script de la ronda 35 (`h01_k_dimension_recount.py`) también llamaba `dims` a esas cuatro rejillas. Se ha renombrado a `grid_keys`, en el mismo sentido. El cálculo y la salida no cambian.
 
 **Estado:** sin registros nuevos ni cambios de estado. #95 depende de #92 y este de #76; se cerrarán juntos cuando estén en `main`. Totales: 90 registros. 33 abiertos, 31 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-46"></a>
+
+## Ronda 46 — L-11 respondido en PR #96: horas de llegada y nombres de evento explícitos (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #96 (`e5b16bb6`) es un único commit sobre #94 en `9a1fca40` y toca dos archivos: `residual_cartography_stage.py` y una prueba nueva.
+
+**Qué cambia.** Antes de ordenar los eventos o reconstruir el historial, `three_stages` exige que cada hora de llegada sea un entero (`type(time) is int`). Ese es el contrato que ya declaraba `Observation.time: int`. También exige que cada identificador sea texto no vacío. Si no se cumple, lanza `ValueError`. Además, la unión de las cuatro observaciones locales rechaza identificadores sin nombre (`INVALID_EVENT_ID`) antes de agruparlos. No se añade ningún reloj, límite ni modelo temporal nuevo.
+
+**Comprobación** (`verification/l11_arrival_check.py`, cada árbol en su propio proceso):
+
+| Entrada | #94 | #96 |
+|---|---|---|
+| Hora NaN | candidato, transferencia 2, 11,5 | `ValueError` |
+| Hora infinita | candidato, transferencia 2, 11,5 | `ValueError` |
+| Hora `True` | se lee como 1: anterior al intercambio, sin candidato | `ValueError` |
+| Hora `7.0` (no entera) | candidato, transferencia 2, 11,5 | `ValueError` |
+| Identificador `1` | candidato, transferencia 2, 11,5 | `ValueError` |
+| Identificador `"  "` | candidato, transferencia 2, 11,5 | `ValueError` |
+| Historial mixto: evento válido en 7 y otro con hora NaN | transferencia con el válido; el NaN no figura entre los previos | `ValueError` para todo el historial |
+| Horas enteras 3, 4, 7, −5 y 10¹² | 3 y −5: sin candidato; 4, 7 y 10¹²: transferencia | idéntico |
+
+La información atemporal se conserva. `qualified_event` sigue reconociendo como región conjunta un evento con hora NaN, porque la geometría calificada no depende de la llegada; lo que se rechaza es usarlo para afirmar un orden temporal. Los 120 informes válidos y el informe completo de `main()` son idénticos a #94. Pasan las 98 pruebas (92 heredadas y 6 nuevas) y la CI está en verde.
+
+**Dos observaciones para quien decida su incorporación.** No son defectos:
+- Una hora `7.0` se rechaza aunque su valor sea entero. Es coherente con la anotación `int` de la fuente, pero conviene que la documentación lo diga si algún generador produce flotantes.
+- Un solo evento sin hora válida invalida todo el historial, incluidos los eventos válidos que lo acompañan. Es la opción conservadora: no se puede afirmar «ninguna llegada antes del intercambio» si una llegada es desconocida. La alternativa sería descartar solo ese evento con un diagnóstico, pero entonces el control de aciertos previos debería declararse incompleto.
+
+**Estado:** L-11 pasa de `ABIERTO` a `RESPONDIDO`. Se cerrará cuando #96, #94 y #57 estén en `main`. Totales: 90 registros. 32 abiertos, 32 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.

@@ -37,7 +37,7 @@
   > - Las pruebas finitas revisadas establecen resultados concretos bajo sus hipótesis: una representación puede conservar una distinción necesaria para decidir; información compatible puede sostener una conclusión local útil; una guarda probada puede ahorrar comprobaciones en su dominio y balance de costes.
   > - Los fixtures también comprueban reproducción y sensibilidad bajo entradas o procedimientos suministrados. Esos resultados conservan su valor; para estudiar adquisición, selección o adaptación se necesita el proceso correspondiente y su evidencia.
   > - El fallo numérico I-01 y sus ampliaciones están corregidos y reconfirmados. La guarda de dominio M28-02 ya se corrigió y reconfirmó en la rama de #60; su incorporación sigue pendiente.
-- **Dónde estamos.** La auditoría tiene 82 registros sobre el contenido y 8 sobre la forma del propio expediente: 90 en total. De ellos, 33 siguen abiertos, 31 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 14 son propuestas de mejora, aclaraciones o puntos retirados.
+- **Dónde estamos.** La auditoría tiene 82 registros sobre el contenido y 8 sobre la forma del propio expediente: 90 en total. De ellos, 32 siguen abiertos, 32 tienen respuesta pendiente de incorporarse o de confirmar, 12 están cerrados o verificados y 14 son propuestas de mejora, aclaraciones o puntos retirados.
 - **Qué no es.** No es una revisión científica humana independiente. Todas las rondas las han escrito asistentes de IA (Claude y Codex), en parte a partir de observaciones de Iván.
 
 ## 2. Quién ha escrito qué
@@ -70,8 +70,8 @@ Cuando dos revisores de IA coinciden, la auditoría lo llama «confirmado», per
 | M27-O y M28-O · Líneas de desarrollo | 0 | 0 | 0 | 7 | 0 | 7 |
 | J · Forma del expediente | 1 | 6 | 1 | 0 | 0 | 8 |
 | K · Modelo social #44–#46 | 1 | 3 | 3 | 1 | 0 | 8 |
-| L · Recepciones (rondas 23–44) | 2 | 6 | 3 | 0 | 0 | 11 |
-| **Total** | **33** | **31** | **12** | **9** | **5** | **90** |
+| L · Recepciones (rondas 23–44) | 1 | 7 | 3 | 0 | 0 | 11 |
+| **Total** | **32** | **32** | **12** | **9** | **5** | **90** |
 
 **Qué significa cada estado:**
 
@@ -291,6 +291,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 43 | 21 nov | Claude | Precisión: las 92 celdas de la ronda 41 son intercambios incomparables (`INCOMPARABLE_K_TRADEOFF`, compensación `NOT_INFERRED`), no «compensaciones» | [ronda 43](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-43) |
 | 44 | 21 nov | Claude | #94: la cartografía de #57 deja de tratar «UNKNOWN» como captura o enlace válidos; 120 informes válidos idénticos. Nuevo L-11: una hora de llegada NaN o infinita pasa la puerta y habilita la transferencia | [ronda 44](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-44) |
 | 45 | 21 nov | Claude | #95: las cuatro rejillas del barrido de H-01 dejan de llamarse «dimensiones económicas»; K sigue abierto. Mismo árbol sintáctico salvo un mensaje e informe idéntico | [ronda 45](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-45) |
+| 46 | 21 nov | Claude | #96: una hora NaN, infinita o no entera, o un identificador en blanco, se rechaza antes de ordenar la llegada; 120 informes idénticos; L-11 pasa a respondido | [ronda 46](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-46) |
 
 <a id="11-los-79-registros-uno-por-uno"></a>
 <a id="11-los-82-registros-uno-por-uno"></a>
@@ -462,7 +463,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 
 </details>
 
-<details><summary><b>L · Recepciones (rondas 23–44)</b> — 11 registros, 2 abiertos</summary>
+<details><summary><b>L · Recepciones (rondas 23–44)</b> — 11 registros, 1 abiertos</summary>
 
 | ID | Estado | Gravedad | En pocas palabras | Ronda que fijó el estado |
 |---|---|---|---|---|
@@ -475,7 +476,7 @@ Haz clic en cada familia para desplegarla. Cada identificador enlaza con su text
 | [L-08](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-08) | 🟠 Respondido | Baja | #70: el ganador lo decidían las precisiones supuestas y el frente, el precio. #72 publica el mapa con acceso igualado y el frente sin precio; falta incorporarlo a main. | 30 |
 | [L-09](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-09) | 🟠 Respondido | Baja | En los 60 casos congelados, 6 de las 12 Q falsas se reconocían desde la vista pública. #75 añade gemelos con la misma vista pública (0 bits antes de medir); falta incorporarlo a main. | 32 |
 | [L-10](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-10) | 🔵 Abierto | Media | #76: en el juego base, quedarse o moverse empatan en dominancia por riesgo (umbral 1/2), y en 30 de 39 trampas la selección de equilibrios favorece salir. | 33 |
-| [L-11](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-11) | 🔵 Abierto | Media | #57 y #94: un evento con hora de llegada NaN o infinita pasa la puerta de llegada posterior al intercambio, habilita la transferencia (11,5) y no figura entre los aciertos previos. | 44 |
+| [L-11](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-11) | 🟠 Respondido | Media | #57 y #94: un evento con hora de llegada NaN o infinita pasaba la puerta de llegada posterior al intercambio y habilitaba la transferencia (11,5). #96 exige horas enteras y nombres de texto; falta incorporarlo a main. | 46 |
 | [L-03](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#l-03) | 🟢 Verificado | Informativo | #60: los testigos F1/D1 (10 frente a 8; 11,5 frente a 8,875 con el mismo A) se reproducen desde el código de origen. | 23 |
 
 </details>

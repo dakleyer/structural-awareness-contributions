@@ -1,7 +1,7 @@
 {
   "schema": "ACC-AUDIT-STATUS-LEDGER-v0.1",
   "as_of": "2026-10-28",
-  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-45",
+  "source": "INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md rounds 1-46",
   "state_vocabulary": [
     "ABIERTO",
     "RESPONDIDO",
@@ -12,8 +12,8 @@
     "INFORMATIVO"
   ],
   "totals": {
-    "ABIERTO": 33,
-    "RESPONDIDO": 31,
+    "ABIERTO": 32,
+    "RESPONDIDO": 32,
     "CERRADO": 4,
     "VERIFICADO": 8,
     "PROPUESTA": 9,
@@ -107,8 +107,8 @@
         0
       ],
       "L": [
-        2,
-        6,
+        1,
+        7,
         3,
         0,
         0
@@ -824,9 +824,9 @@
       "id": "L-11",
       "family": "L",
       "severity": "Media",
-      "state": "ABIERTO",
-      "set_in_round": 44,
-      "summary": "#57 y #94: un evento con hora de llegada NaN o infinita pasa la puerta de llegada posterior al intercambio, habilita la transferencia (11,5) y no figura entre los aciertos previos."
+      "state": "RESPONDIDO",
+      "set_in_round": 46,
+      "summary": "#57 y #94: un evento con hora de llegada NaN o infinita pasaba la puerta de llegada posterior al intercambio y habilitaba la transferencia (11,5). #96 exige horas enteras y nombres de texto; falta incorporarlo a main."
     },
     {
       "id": "L-03",
@@ -894,16 +894,16 @@
     "ledger_ids_without_stable_anchor": [],
     "guide_totals_row": {
       "guide": [
-        33,
-        31,
+        32,
+        32,
         12,
         9,
         5,
         90
       ],
       "ledger": [
-        33,
-        31,
+        32,
+        32,
         12,
         9,
         5,

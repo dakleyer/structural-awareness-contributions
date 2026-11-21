@@ -37,6 +37,7 @@ El script de reconfirmación de I-01 ya estaba en el PR: [`../reconfirm_I01_2026
 | [`m28_07_storage_check.py`](m28_07_storage_check.py) | M28-07 | [42](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-42) | Árboles de #58 (padre) y #93; necesita red hacia raw.githubusercontent.com | El padre reescribe su JSON y deja caché; #93 escribe por pantalla, no sobrescribe, limpia lo temporal y respeta el archivo de fuentes. Termina con 1 si algo falla |
 | [`cartographic_evidence_check.py`](cartographic_evidence_check.py) | L-11; #94 | [44](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-44) | Árboles de #57 y #94 | «UNKNOWN» en captura o enlace transfiere en #57 y no en #94; 120 informes válidos y `main()` idénticos; L-11 (hora NaN o infinita habilita la transferencia) se reproduce en los dos. Termina con 1 si algo falla |
 | [`sensitivity_grid_labels_check.py`](sensitivity_grid_labels_check.py) | #95 (K, nombres del barrido de H-01) | [45](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-45) | Árboles de #92 y #95 | AST idéntico salvo el texto de un mensaje; informe H-01 idéntico byte a byte; un plan incompleto se rechaza en ambos. Termina con 1 si algo falla |
+| [`l11_arrival_check.py`](l11_arrival_check.py) | L-11 | [46](../../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-46) | Árboles de #94 y #96 | Siete entradas de L-11 transfieren en #94 y se rechazan en #96; horas enteras idénticas; clasificación atemporal conservada; 120 informes y `main()` idénticos. Termina con 1 si algo falla |
 | [`anchor_check.py`](anchor_check.py) | Herramienta | 14, 20, 21 | Cualquier `.md` | Enlaces `archivo.md#ancla` que no encuentran título ni `<a id>`. Termina con 1 si hay alguno roto |
 
 ## Cómo ejecutarlos
@@ -76,6 +77,7 @@ python3 -B $V/dimensional_identity_check.py  $PR76 $PR92
 python3 -B $V/m28_07_storage_check.py         $PR58 $PR93
 python3 -B $V/cartographic_evidence_check.py  $PR57 $PR94
 python3 -B $V/sensitivity_grid_labels_check.py $PR92 $PR95
+python3 -B $V/l11_arrival_check.py            $PR94 $PR96
 python3 -B $V/anchor_check.py                 $V/../GUIA_DE_LECTURA.md $V/../premium/*.md
 ```
 
@@ -120,6 +122,7 @@ m28_07_storage_check.py         parent rewrites JSON (CRLF->LF) + 3 .pyc | #93 5
 cartographic_evidence_check.py  UNKNOWN capture/link 11.5 -> 10 | 120 reports + main() identical | L-11 NaN/inf arrival -> 11.5 on both | RESULT: PASS (PR #94, 9a1fca40)
 sensitivity_grid_labels_check.py 1 AST difference (error text) | H-01 report identical | RESULT: PASS (PR #95, 7548c8c6)
 h01_k_dimension_recount.py      46/92/38/4 | traps 13/26 | RESULT: PASS (PR #95, 7548c8c6)
+l11_arrival_check.py            7/7 L-11 inputs rejected | integer ticks identical | 120 reports + main() identical | RESULT: PASS (PR #96, e5b16bb6)
 anchor_check.py                 0 anclas rotas en la auditoría, la guía, el anexo y el kit premium
 ```
 
