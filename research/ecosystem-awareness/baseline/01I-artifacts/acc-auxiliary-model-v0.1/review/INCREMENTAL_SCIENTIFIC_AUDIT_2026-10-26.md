@@ -74,6 +74,7 @@ Si cualquiera de estos commits cambia, los hallazgos afectados deben revalidarse
 | 42 | 2026-11-21 | [M28-07 en #93](#ronda-42) | El acompañante matemático ya no reescribe su JSON de referencia ni deja caché; M28-07 pasa a respondido |
 | 43 | 2026-11-21 | [Precisión de la ronda 41: intercambio, no compensación](#ronda-43) | Las 92 celdas son intercambios incomparables sin compensación inferida; sin cambios de cifras ni estados |
 | 44 | 2026-11-21 | [Indicadores explícitos en la cartografía (#94) y L-11](#ronda-44) | #94 exige `True` explícito en captura y enlace; nuevo L-11: un tiempo de llegada NaN o infinito pasa la puerta de llegada |
+| 45 | 2026-11-21 | [Rejillas de sensibilidad, no dimensiones de K (#95)](#ronda-45) | Cambio de nombres en `sensitivity_grid`; AST idéntico salvo un mensaje; informe H-01 idéntico; sin registros nuevos |
 
 Pendiente: modelo social #44–#46 (de #45 sólo se ha revisado `qualify`, I-01), anexo matemático nuevo de #57, núcleo #28/#40/#51, #21/#22 (00M_VNext) y los diferidos #5/#18 (linaje A/B/C/D).
 
@@ -1622,3 +1623,25 @@ La capa declara una puerta nueva: no se transfiere hasta que el evento se haya r
 **Para quien no programa.** Es como un control de acceso que deja pasar a quien entra «después de las 3». Si la hora de la tarjeta está en blanco, el sistema no puede decir que fuera antes de las 3 y lo deja pasar como si hubiera llegado después. Además, en el registro de quién entró antes de las 3 tampoco aparece. La corrección es simple: sin hora válida, no se entra y se anota el motivo.
 
 **Estado:** #94 queda reconocido sin cambio de estado para los dos indicadores (criterio de las rondas 38 a 40: defecto encontrado y corregido por el autor en una rama abierta). Se abre **L-11** (Media, `ABIERTO`). Totales: 90 registros. 33 abiertos, 31 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.
+
+
+<a id="ronda-45"></a>
+
+## Ronda 45 — PR #95: las rejillas de sensibilidad no son dimensiones de K (21-11-2026)
+
+**Auditor:** Claude, asistencia de IA. **Origen:** comentario en PR #58 escrito por Codex, asistencia de IA, desde la cuenta del propietario. PR #95 (`7548c8c6`) es un único commit sobre #92 en `a36f5969` y cambia solo la función `sensitivity_grid` de `strategic_choice.py`.
+
+**Qué corrige.** El barrido de sensibilidad de H-01 recorre cuatro rejillas declaradas: rendimiento propio, coste de inversión, sinergia por pares y carga de coordinación. Las tres primeras son coeficientes del generador de pagos R; la cuarta alimenta C, que es una dimensión separada. Sin embargo, el código las llamaba `dimensions` y su mensaje de error exigía «four separate economic dimensions». Eso mezclaba el protocolo experimental, que es finito y fijo, con el conjunto abierto de dimensiones K. #95 renombra la tupla interna como `grid_keys`, reescribe la docstring y cambia el mensaje a «four separate declared grids».
+
+**Comprobación** (`verification/sensitivity_grid_labels_check.py`):
+- **Identidad estructural.** Se compararon los dos árboles sintácticos (AST) de `strategic_choice.py`, con el nombre nuevo traducido al antiguo y sin docstrings. La única diferencia es el texto de un mensaje de error. Claves, orden, valores, bucles, ecuaciones y salidas no cambian.
+- **Informe completo.** `run_manifest` sobre `H01_STRATEGIC_STUDY.json` da 252 327 bytes idénticos en #92 y en #95.
+- **Recuento independiente de la ronda 35.** 46 monótonas, 92 intercambios incomparables, 38 sin mejora y 4 equivalentes; entre las trampas, 13 y 26.
+- **Caso de error.** Un plan al que le falta una rejilla se rechaza en los dos árboles; solo cambia el mensaje.
+- Pasan 80 pruebas y la CI está en verde.
+
+**Por qué importa.** Un experimento con cuatro rejillas fijas no es un modelo de EA con cuatro dimensiones fijas. Llamarlas «dimensiones económicas» invitaba a leer K como cerrado y de cuatro ejes. La corrección es solo de nombres, pero protege la arquitectura abierta y no fungible de EA, que las rondas 35, 41 y 43 ya vigilaban.
+
+**Coherencia del propio material de verificación.** El script de la ronda 35 (`h01_k_dimension_recount.py`) también llamaba `dims` a esas cuatro rejillas. Se ha renombrado a `grid_keys`, en el mismo sentido. El cálculo y la salida no cambian.
+
+**Estado:** sin registros nuevos ni cambios de estado. #95 depende de #92 y este de #76; se cerrarán juntos cuando estén en `main`. Totales: 90 registros. 33 abiertos, 31 respondidos, 12 cerrados o verificados, 9 propuestas y 5 retirados o informativos.

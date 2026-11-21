@@ -290,6 +290,7 @@ En el archivo de la auditoría, las rondas no aparecen en orden: 6, 4, 3, 2, 1 y
 | 42 | 21 nov | Claude | #93: el acompañante de la ronda 8 escribe por pantalla, crea destinos nuevos sin sobrescribir y limpia sus fuentes temporales; M28-07 pasa a respondido | [ronda 42](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-42) |
 | 43 | 21 nov | Claude | Precisión: las 92 celdas de la ronda 41 son intercambios incomparables (`INCOMPARABLE_K_TRADEOFF`, compensación `NOT_INFERRED`), no «compensaciones» | [ronda 43](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-43) |
 | 44 | 21 nov | Claude | #94: la cartografía de #57 deja de tratar «UNKNOWN» como captura o enlace válidos; 120 informes válidos idénticos. Nuevo L-11: una hora de llegada NaN o infinita pasa la puerta y habilita la transferencia | [ronda 44](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-44) |
+| 45 | 21 nov | Claude | #95: las cuatro rejillas del barrido de H-01 dejan de llamarse «dimensiones económicas»; K sigue abierto. Mismo árbol sintáctico salvo un mensaje e informe idéntico | [ronda 45](../INCREMENTAL_SCIENTIFIC_AUDIT_2026-10-26.md#ronda-45) |
 
 <a id="11-los-79-registros-uno-por-uno"></a>
 <a id="11-los-82-registros-uno-por-uno"></a>

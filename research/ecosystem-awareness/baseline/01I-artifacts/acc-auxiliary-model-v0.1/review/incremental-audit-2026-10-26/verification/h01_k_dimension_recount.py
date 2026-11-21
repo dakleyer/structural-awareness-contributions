@@ -27,10 +27,10 @@ import strategic_choice as sc  # noqa: E402
 
 study = json.load(open("H01_STRATEGIC_STUDY.json"))
 plan = study["sensitivity"]
-dims = ("standalone_returns", "investment_costs", "pairwise_synergies", "individual_joint_burdens")
+grid_keys = ("standalone_returns", "investment_costs", "pairwise_synergies", "individual_joint_burdens")
 S = ((0, 0), (0, 1), (1, 0), (1, 1))
 cells, traps = collections.Counter(), collections.Counter()
-for ret, cost, gain, burden in product(*(plan[k] for k in dims)):
+for ret, cost, gain, burden in product(*(plan[k] for k in grid_keys)):
     g = deepcopy(study["base_game"])
     for a in g["actors"]:
         a["standalone_return"], a["investment_cost"] = ret, cost
