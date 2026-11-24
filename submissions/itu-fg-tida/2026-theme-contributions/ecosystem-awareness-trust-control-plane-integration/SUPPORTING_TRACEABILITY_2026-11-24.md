@@ -1,5 +1,16 @@
 # P3 - Ecosystem Awareness Integration with the Proposed Trust Control Plane: supporting traceability
 
+## Current source reconciliation - 24 November 2026
+
+This repair checkpoint updates documentary support only. It preserves the historical retrieval record and the status of every source proposal.
+
+- Lei Gao's 18 November reply confirms the intended Phase 2 carry-forward of the two-way Theme 13/Theme 16 interface and the four-part human-review handoff. It is an intended drafting direction, not a completed or approved charter. Source: https://github.com/FG-TIDA/themes/issues/16#issuecomment-6972857772
+- Laurent Beaumois incorporated the receiving-party F2 interface into D1 and Related Themes on 16 November. PR61 remains an open proposal, not adopted text. Source: https://github.com/FG-TIDA/themes/pull/61#issuecomment-6920321106 Reviewed head: c672fd91fa3237a625a8904cc1d9e5c4d7917ff4 in lbeaumois/themes, AGENTIC-AI-TRUST-CONTROL-PLANE-CHARTER.md.
+- The issue 60 v3 update of 16 November records an execution-instance association as a proposed resolution to the retry-identification question. This supersedes the earlier no-response note; confirmation by the responsible WG2 editors/co-chairs remains pending. The source-composition comparison remains a separate open question. Source: https://github.com/FG-TIDA/themes/issues/60#issuecomment-6920318845
+
+The DataTracker record for FG-TIDA-INCUBATION-005 v0.4 was directly inspected on 24 November: recorded 19 November 2026, workflow state Submitted, NWI for Incubation. Archive date and workflow state do not establish adoption. https://tida-datatracker.org/doc/fg-tida-contribution-58/revision/0.4/
+
+
 **Record date:** 24 November 2026  
 **Status:** public contributor-level supporting record  
 **Related proposed contribution:** P3 - Ecosystem Awareness Integration with the Proposed Trust Control Plane
@@ -443,7 +454,7 @@ Source records
 | 2026-11-08 / leigao-research | Lei closes the D1 review on 8 November, retains candidate v0.1 and carries institutional questions forward. He proposes preparing a Phase 2 charter under A.2.4 with Theme #5, WG2 and Theme #59 interfaces; no charter text is attached. The missing source case blocks operational assessment, not scope drafting. | Proposal/input; [6722215585](https://github.com/FG-TIDA/themes/issues/16#issuecomment-6722215585) |
 | 2026-11-09 / dianabaker-design-research | Diana reports an independent Paris input on conditions for meaningful oversight and the expertise needed to design operator assessment. Her comment reports submission; the specific DataTracker record is outside the cited evidence set. | Published source input; [6737724360](https://github.com/FG-TIDA/themes/issues/16#issuecomment-6737724360) |
 | 2026-11-10 / Annskorobog | Anna supports Phase 2 charter preparation with a distinct, connected human-factors area, retained Matrix v0.2/D1 and existing attribution. She offers an operability contribution; no charter text or formal assignment is recorded. | Published source input; [6771261180](https://github.com/FG-TIDA/themes/issues/16#issuecomment-6771261180) |
-| 2026-11-13 / dakleyer | Iván asks Lei on 13 November to confirm that Phase 2 carries forward the EA/Theme #13↔Theme #16 capacity/assessment interface, 21 September capacity requalification, the four-part human handoff and the retained matrix/D1 basis, and to identify sections. No later response is in the retrieved thread. | Pending proposal; [6862099268](https://github.com/FG-TIDA/themes/issues/16#issuecomment-6862099268) |
+| 2026-11-13 / dakleyer | Iván asks Lei on 13 November to confirm that Phase 2 carries forward the EA/Theme #13↔Theme #16 capacity/assessment interface, 21 September capacity requalification, the four-part human handoff and the retained matrix/D1 basis, and to identify sections. No later response is in the retrieved thread. **Historical retrieval note, superseded by the 24 November reconciliation above.** | Pending proposal; [6862099268](https://github.com/FG-TIDA/themes/issues/16#issuecomment-6862099268) |
 
 ### FG-TIDA/themes#18
 
@@ -769,7 +780,7 @@ Source records
 | 2026-11-13 / tyche-dev | Anton proposes WG2 ownership of decision content and Theme #1 ownership of record-side requirements R1–R8, following Oleh on Theme46. He locates content binding on the WG2 side. | Review/correction; [6848352526](https://github.com/FG-TIDA/themes/issues/60#issuecomment-6848352526) |
 | 2026-11-13 / lbeaumois | Laurent confirms v2 applies the three-part organization, Pam's corrections, operation-contract row and record ownership. Operation-boundary/segment readings, act identity and Iván's composition question are recorded as points to settle, not settled requirements. | Published source input; [6856369869](https://github.com/FG-TIDA/themes/issues/60#issuecomment-6856369869) |
 | 2026-11-14 / mohamedelbendary | Mohamed proposes reconciling operation boundaries with pre/post consulted versions written by the enforcement point. He proposes contract hash, process instance, content-derived act identifier and consulted version as complete. This explicitly awaits Xinghua/WG2 review; mid-operation behavior remains with E. | Review/correction; [6868367873](https://github.com/FG-TIDA/themes/issues/60#issuecomment-6868367873) |
-| 2026-11-15 / dakleyer | Iván proposes three composition branches with fixed authority, contract and claim, equal authorized evidence and existing objects first. He asks that LA-2.3 execution/attempt association be retained because identical-content retries in one process may share all four identifiers. No later reply is recorded. | Pending proposal; [6893314577](https://github.com/FG-TIDA/themes/issues/60#issuecomment-6893314577) |
+| 2026-11-15 / dakleyer | Iván proposes three composition branches with fixed authority, contract and claim, equal authorized evidence and existing objects first. He asks that LA-2.3 execution/attempt association be retained because identical-content retries in one process may share all four identifiers. No later reply is recorded. **Historical retrieval note, superseded by the 24 November reconciliation above.** | Pending proposal; [6893314577](https://github.com/FG-TIDA/themes/issues/60#issuecomment-6893314577) |
 
 ### FG-TIDA/themes#61
 
@@ -1280,3 +1291,4 @@ T7: Mohamed ElBendary, LA-1.4/LA-2.7 distinction and LA-2.3 execution associatio
 T8: 00G failure-mode scenario v0.4 and the separate authority-confound falsifier/isolation note, corpus commit 51fc686f45b6ef10c53b69f4c26d0e381b007ff8. https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/ecosystem-awareness/baseline/00G_FAILURE_MODE_COLLECTIVE_FALSE_CONTEXT_CONVERGENCE_v0.4.md https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/ecosystem-awareness/baseline/00K_A06_P6_CONFOUND_FALSIFIER_AND_ISOLATION_NOTE_v0.1.md
 
 T9: 00I/S5 bounded stateful evidence, at the same corpus commit. https://github.com/dakleyer/structural-awareness-contributions/blob/51fc686f45b6ef10c53b69f4c26d0e381b007ff8/research/ecosystem-awareness/baseline/fixtures/00I-STATEFUL/README.md
+
