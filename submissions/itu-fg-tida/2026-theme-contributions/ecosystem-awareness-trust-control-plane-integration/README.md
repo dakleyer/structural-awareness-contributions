@@ -2,6 +2,14 @@
 
 This package supports the proposed P3 contribution on receiving-party qualification of composed results and material changes across source-owned trust records, the proposed Trust Control Plane and WG2 operation decisions.
 
+## Current repaired review copy r1 - 24 November 2026
+
+- Native Google Doc: https://docs.google.com/document/d/1TCoaxm3Lj07KED-Vu5XH1VXOw1raIKzQ0PjFaqddrE4/edit
+- The contribution version is preserved; this is repair revision 1.
+- Text, reference and primary-source repairs are applied. The supporting record below has been reconciled with verified replies and exact archived baselines.
+- Final visual close and frozen DOCX/PDF replacement are pending after the local editing environment disconnected. Earlier file links below identify historical predecessors, not repaired derivatives. No filing or adoption is claimed.
+
+
 ## Package contents
 
 - [Supporting traceability record](./SUPPORTING_TRACEABILITY_2026-11-24.md) - documentary history, public review and comment traceability, recovered evidence chains, earlier coverage matrix and versioned-artifact provenance.
