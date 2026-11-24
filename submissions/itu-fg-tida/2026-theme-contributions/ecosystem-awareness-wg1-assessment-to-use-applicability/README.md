@@ -5,11 +5,21 @@ This package supports the proposed P4 contribution on a bounded WG1 assessment-t
 ## Package contents
 
 - [Supporting traceability record](./SUPPORTING_TRACEABILITY_2026-11-24.md) - documentary history, recovered evidence chains, coverage matrix, comment/review/decision traceability and versioned-artifact provenance.
-- The concise submission remains a separately controlled document until filing. It retains the four applicability conditions, native attestation baseline, candidate interface, ownership boundaries, evaluation record, attribution and requested decisions.
+- The concise submission retains the four applicability conditions, native attestation baseline, candidate interface, ownership boundaries, evaluation record, attribution and requested decisions.
 
 ## Scope
 
 The proposed contribution asks WG1 to recognize that open Chapter 04 PR2 now includes the four assessment-to-use conditions, select a representative native attestation profile and Relying Party policy for a matched comparison, and record a gap only if that comparison exposes one. It does not request the incorporated paragraph again, replace the native Attestation Result, create a new authorization mechanism or assume that existing RATS mechanisms are deficient.
+
+## Final public draft
+
+- [Native Google Doc](https://docs.google.com/document/d/18VeVtq4TDqp3Sjr4R54hFDQWaFWvoiwdbtemYB5rgm0/edit)
+- [Exact DOCX](https://docs.google.com/document/d/1n2cVpyywQX3U7Aur3oRLiSg96D2TRoir/edit)
+- [Verified PDF](https://drive.google.com/file/d/1d7_tgZGQGEgGRSmbbsi85iYptN857IwT/view)
+- DOCX SHA-256: `E74466A308FBB40FD677E89116D9D61FFEBA1C60189C05B193F2EDD243C269C4`
+- PDF SHA-256: `95A22B836886E8D8862E7A06C070509AC04B5B0B596B4B9509931ED06EB46A09`
+
+These files complete the five-pass public editing sequence. They remain a proposed contributor draft and are not a DataTracker filing.
 
 ## Status and claim boundary
 
