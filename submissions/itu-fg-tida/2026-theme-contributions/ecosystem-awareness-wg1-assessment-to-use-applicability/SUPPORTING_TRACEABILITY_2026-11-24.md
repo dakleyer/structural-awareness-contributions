@@ -1,5 +1,12 @@
 # Supporting traceability — P4 assessment-to-use applicability
 
+## Current source reconciliation - 24 November 2026
+
+This repair checkpoint updates documentary support only. It preserves the historical retrieval record and the status of every source proposal.
+
+- Xinghua Zhao's 18 November update adds the four assessment-to-use applicability conditions to open WG1 Chapter 04 PR2. The native representative profile and Relying Party appraisal policy still require selection. Source: https://github.com/fg-tida-wg1/wg1-cdra-ra-aai/pull/2#issuecomment-6970268782 Incorporation commit: ecef6ab34aefe2976e37add13213af116b98eaf3; reviewed open PR head: 9312043f99e0e8460b26c6ffdcdc5fe0077bee56.
+
+
 This record preserves the extended documentary history, recovered evidence chains, coverage matrix, comment/review/decision traceability and versioned-artifact provenance supporting the proposed P4 contribution.
 
 ## Status and claim boundary
@@ -707,4 +714,5 @@ File blob: 8e97e2ea48f85555f8ea3d04e1acdbc5967afe45.
 [Exact source](https://github.com/Himalogic/FG-TIDA-analysis/blob/dfd13f1716cc4a995e95e59963d36e1d46ef1586/planted-judge/README.md).
 
 Corpus navigation discrepancy. At the pinned corpus commit, manifest section A.7 still labels 00I v0.2 as the latest working scenario, while current README/VISUAL_GUIDE navigation selects v0.5 and its 24 September Freeze Edition. This contribution preserves the discrepancy and uses the exact v0.5 source/release for current scenario claims. It does not merge versions, change frozen sources or assert byte parity with separately controlled documents.
+
 
