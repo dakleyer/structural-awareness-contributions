@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1326 906" width="1326" height="906" role="img" aria-label="Mapa de las 27 correcciones acotadas #81 a #107, su PR de base y la ronda de la auditoría que las recibió"><style>
+  .ink{fill:#0b0b0b}.ink2{fill:#52514e}.bg{fill:#fcfcfb}.grid{stroke:#e4e3df}
+  .s0{fill:#2a78d6}.s1{fill:#eb6834}.s2{fill:#1baf7a}.s3{fill:#eda100}.s4{fill:#e87ba4}
+  .a0{fill:#2a78d6}.a1{fill:#eb6834}.a0s{stroke:#2a78d6}.a1s{stroke:#eb6834}
+  text{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .ink{fill:#f0efec}.ink2{fill:#c3c2b7}.bg{fill:#1a1a19}.grid{stroke:#383835}
+    .s0{fill:#3987e5}.s1{fill:#d95926}.s2{fill:#199e70}.s3{fill:#c98500}.s4{fill:#d55181}
+    .a0{fill:#3987e5}.a1{fill:#d95926}.a0s{stroke:#3987e5}.a1s{stroke:#d95926}
+  }
+</style>
+<rect class="bg" width="1326" height="906" rx="8"/>
+<text class="ink" x="16" y="28" font-size="16" font-weight="600">Las correcciones #81–#107: de qué PR cuelga cada una y qué ronda la recibió</text>
+<text class="ink2" x="16" y="50" font-size="12">Borradores de Codex (IA), ninguno fusionado. Cada flecha va de la base al PR que la corrige; «r41» es la ronda de esta auditoría que lo verificó.</text>
+<text class="ink2" x="16" y="68" font-size="12">Para retirar el lote, primero los hijos: una corrección no se revierte antes que las que dependen de ella.</text>
+<path class="grid" d="M256 111.0 C268 111.0 266 111.0 278 111.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M518 111.0 C530 111.0 528 111.0 540 111.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M518 111.0 C530 111.0 528 161.0 540 161.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M256 211.0 C268 211.0 266 211.0 278 211.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M518 211.0 C530 211.0 528 211.0 540 211.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M256 261.0 C268 261.0 266 261.0 278 261.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M256 311.0 C268 311.0 266 311.0 278 311.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M518 311.0 C530 311.0 528 311.0 540 311.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M780 311.0 C792 311.0 790 311.0 802 311.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M256 311.0 C268 311.0 266 361.0 278 361.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M256 311.0 C268 311.0 266 411.0 278 411.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M256 461.0 C268 461.0 266 461.0 278 461.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M518 461.0 C530 461.0 528 461.0 540 461.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M256 511.0 C268 511.0 266 511.0 278 511.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M518 511.0 C530 511.0 528 511.0 540 511.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M256 561.0 C268 561.0 266 561.0 278 561.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M518 561.0 C530 561.0 528 561.0 540 561.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M780 561.0 C792 561.0 790 561.0 802 561.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M256 611.0 C268 611.0 266 611.0 278 611.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M518 611.0 C530 611.0 528 611.0 540 611.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M780 211.0 C792 211.0 790 211.0 802 211.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M780 611.0 C792 611.0 790 611.0 802 611.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M1042 611.0 C1054 611.0 1052 611.0 1064 611.0" fill="none" stroke-width="2"/>
+<path class="grid" d="M1088 630 L1088 642" fill="none" stroke-width="2"/>
+<path class="grid" d="M1088 680 L1088 692" fill="none" stroke-width="2"/>
+<path class="grid" d="M1088 730 L1088 742" fill="none" stroke-width="2"/>
+<path class="grid" d="M1088 780 L1088 792" fill="none" stroke-width="2"/>
+<rect x="16" y="92" width="240" height="38" rx="6" fill="none" class="grid" stroke-width="1.5"/>
+<text class="ink" x="26" y="116" font-size="12"><tspan font-weight="700">#66</tspan> Envolvente económica</text>
+<rect x="16" y="192" width="240" height="38" rx="6" fill="none" class="grid" stroke-width="1.5"/>
+<text class="ink" x="26" y="216" font-size="12"><tspan font-weight="700">#60</tspan> Linaje matemático</text>
+<rect x="16" y="242" width="240" height="38" rx="6" fill="none" class="grid" stroke-width="1.5"/>
+<text class="ink" x="26" y="266" font-size="12"><tspan font-weight="700">#69</tspan> Aceptación narrativa</text>
+<rect x="16" y="292" width="240" height="38" rx="6" fill="none" class="grid" stroke-width="1.5"/>
+<text class="ink" x="26" y="316" font-size="12"><tspan font-weight="700">#72</tspan> Sensibilidad L-08</text>
+<rect x="16" y="442" width="240" height="38" rx="6" fill="none" class="grid" stroke-width="1.5"/>
+<text class="ink" x="26" y="466" font-size="12"><tspan font-weight="700">#76</tspan> Elección estratégica H-01</text>
+<rect x="16" y="492" width="240" height="38" rx="6" fill="none" class="grid" stroke-width="1.5"/>
+<text class="ink" x="26" y="516" font-size="12"><tspan font-weight="700">#58</tspan> Esta auditoría</text>
+<rect x="16" y="542" width="240" height="38" rx="6" fill="none" class="grid" stroke-width="1.5"/>
+<text class="ink" x="26" y="566" font-size="12"><tspan font-weight="700">#57</tspan> Reducción agéntica</text>
+<rect x="16" y="592" width="240" height="38" rx="6" fill="none" class="grid" stroke-width="1.5"/>
+<text class="ink" x="26" y="616" font-size="12"><tspan font-weight="700">#54</tspan> Casos adicionales</text>
+<rect class="s0" x="278" y="92" width="240" height="38" rx="6"><title>#81: Medidas y precios aparte (ronda 36)</title></rect>
+<text x="288" y="116" font-size="12" fill="#fff"><tspan font-weight="700">#81</tspan> Medidas y precios aparte</text>
+<text x="510" y="116" font-size="11" fill="#fff" text-anchor="end">r36</text>
+<rect class="s0" x="540" y="92" width="240" height="38" rx="6"><title>#82: Evidencia agéntica aparte (ronda 36)</title></rect>
+<text x="550" y="116" font-size="12" fill="#fff"><tspan font-weight="700">#82</tspan> Evidencia agéntica aparte</text>
+<text x="772" y="116" font-size="11" fill="#fff" text-anchor="end">r36</text>
+<rect class="s0" x="540" y="142" width="240" height="38" rx="6"><title>#89: Unidad de valor sintético (ronda 40)</title></rect>
+<text x="550" y="166" font-size="12" fill="#fff"><tspan font-weight="700">#89</tspan> Unidad de valor sintético</text>
+<text x="772" y="166" font-size="11" fill="#fff" text-anchor="end">r40</text>
+<rect class="s2" x="278" y="192" width="240" height="38" rx="6"><title>#83: Codominio de la cota (ronda 37)</title></rect>
+<text x="288" y="216" font-size="12" fill="#fff"><tspan font-weight="700">#83</tspan> Codominio de la cota</text>
+<text x="510" y="216" font-size="11" fill="#fff" text-anchor="end">r37</text>
+<rect class="s0" x="540" y="192" width="240" height="38" rx="6"><title>#85: Indicadores booleanos (ronda 39)</title></rect>
+<text x="550" y="216" font-size="12" fill="#fff"><tspan font-weight="700">#85</tspan> Indicadores booleanos</text>
+<text x="772" y="216" font-size="11" fill="#fff" text-anchor="end">r39</text>
+<rect class="s0" x="278" y="242" width="240" height="38" rx="6"><title>#84: Óptimos sin duplicados (ronda 38)</title></rect>
+<text x="288" y="266" font-size="12" fill="#fff"><tspan font-weight="700">#84</tspan> Óptimos sin duplicados</text>
+<text x="510" y="266" font-size="11" fill="#fff" text-anchor="end">r38</text>
+<rect class="s0" x="278" y="292" width="240" height="38" rx="6"><title>#86: Pareto finito y exacto (ronda 40)</title></rect>
+<text x="288" y="316" font-size="12" fill="#fff"><tspan font-weight="700">#86</tspan> Pareto finito y exacto</text>
+<text x="510" y="316" font-size="11" fill="#fff" text-anchor="end">r40</text>
+<rect class="s0" x="540" y="292" width="240" height="38" rx="6"><title>#87: Probabilidades sin alias (ronda 40)</title></rect>
+<text x="550" y="316" font-size="12" fill="#fff"><tspan font-weight="700">#87</tspan> Probabilidades sin alias</text>
+<text x="772" y="316" font-size="11" fill="#fff" text-anchor="end">r40</text>
+<rect class="s0" x="802" y="292" width="240" height="38" rx="6"><title>#91: Comparación exacta (ronda 40)</title></rect>
+<text x="812" y="316" font-size="12" fill="#fff"><tspan font-weight="700">#91</tspan> Comparación exacta</text>
+<text x="1034" y="316" font-size="11" fill="#fff" text-anchor="end">r40</text>
+<rect class="s0" x="278" y="342" width="240" height="38" rx="6"><title>#88: Conservación por partes (ronda 40)</title></rect>
+<text x="288" y="366" font-size="12" fill="#fff"><tspan font-weight="700">#88</tspan> Conservación por partes</text>
+<text x="510" y="366" font-size="11" fill="#fff" text-anchor="end">r40</text>
+<rect class="s0" x="278" y="392" width="240" height="38" rx="6"><title>#90: Orden racional del resumen (ronda 40)</title></rect>
+<text x="288" y="416" font-size="12" fill="#fff"><tspan font-weight="700">#90</tspan> Orden racional del resumen</text>
+<text x="510" y="416" font-size="11" fill="#fff" text-anchor="end">r40</text>
+<rect class="s0" x="278" y="442" width="240" height="38" rx="6"><title>#92: Identidad de dimensiones (ronda 41)</title></rect>
+<text x="288" y="466" font-size="12" fill="#fff"><tspan font-weight="700">#92</tspan> Identidad de dimensiones</text>
+<text x="510" y="466" font-size="11" fill="#fff" text-anchor="end">r41</text>
+<rect class="s0" x="540" y="442" width="240" height="38" rx="6"><title>#95: Rejillas, no dimensiones K (ronda 45)</title></rect>
+<text x="550" y="466" font-size="12" fill="#fff"><tspan font-weight="700">#95</tspan> Rejillas, no dimensiones K</text>
+<text x="772" y="466" font-size="11" fill="#fff" text-anchor="end">r45</text>
+<rect class="s2" x="278" y="492" width="240" height="38" rx="6"><title>#93: Referencia protegida (ronda 42)</title></rect>
+<text x="288" y="516" font-size="12" fill="#fff"><tspan font-weight="700">#93</tspan> Referencia protegida</text>
+<text x="510" y="516" font-size="11" fill="#fff" text-anchor="end">r42</text>
+<rect class="s0" x="540" y="492" width="240" height="38" rx="6"><title>#97: Código de salida coherente (ronda 47)</title></rect>
+<text x="550" y="516" font-size="12" fill="#fff"><tspan font-weight="700">#97</tspan> Código de salida coherente</text>
+<text x="772" y="516" font-size="11" fill="#fff" text-anchor="end">r47</text>
+<rect class="s0" x="278" y="542" width="240" height="38" rx="6"><title>#94: Captura y enlace explícitos (ronda 44)</title></rect>
+<text x="288" y="566" font-size="12" fill="#fff"><tspan font-weight="700">#94</tspan> Captura y enlace explícitos</text>
+<text x="510" y="566" font-size="11" fill="#fff" text-anchor="end">r44</text>
+<rect class="s2" x="540" y="542" width="240" height="38" rx="6"><title>#96: Hora e identidad de llegada (ronda 46)</title></rect>
+<text x="550" y="566" font-size="12" fill="#fff"><tspan font-weight="700">#96</tspan> Hora e identidad de llegada</text>
+<text x="772" y="566" font-size="11" fill="#fff" text-anchor="end">r46</text>
+<rect class="s0" x="802" y="542" width="240" height="38" rx="6"><title>#98: Ámbitos con nombre (ronda 49)</title></rect>
+<text x="812" y="566" font-size="12" fill="#fff"><tspan font-weight="700">#98</tspan> Ámbitos con nombre</text>
+<text x="1034" y="566" font-size="11" fill="#fff" text-anchor="end">r49</text>
+<rect class="s2" x="278" y="592" width="240" height="38" rx="6"><title>#99: Sin cálculo muerto (ronda 50)</title></rect>
+<text x="288" y="616" font-size="12" fill="#fff"><tspan font-weight="700">#99</tspan> Sin cálculo muerto</text>
+<text x="510" y="616" font-size="11" fill="#fff" text-anchor="end">r50</text>
+<rect class="s0" x="540" y="592" width="240" height="38" rx="6"><title>#100: Premisas explícitas (ronda 51)</title></rect>
+<text x="550" y="616" font-size="12" fill="#fff"><tspan font-weight="700">#100</tspan> Premisas explícitas</text>
+<text x="772" y="616" font-size="11" fill="#fff" text-anchor="end">r51</text>
+<rect class="s0" x="802" y="192" width="240" height="38" rx="6"><title>#101: Pruebas bien nombradas (ronda 52)</title></rect>
+<text x="812" y="216" font-size="12" fill="#fff"><tspan font-weight="700">#101</tspan> Pruebas bien nombradas</text>
+<text x="1034" y="216" font-size="11" fill="#fff" text-anchor="end">r52</text>
+<rect class="s2" x="802" y="592" width="240" height="38" rx="6"><title>#102: Premisas restantes (ronda 53)</title></rect>
+<text x="812" y="616" font-size="12" fill="#fff"><tspan font-weight="700">#102</tspan> Premisas restantes</text>
+<text x="1034" y="616" font-size="11" fill="#fff" text-anchor="end">r53</text>
+<rect class="s0" x="1064" y="592" width="240" height="38" rx="6"><title>#103: Operandos finitos (ronda 56)</title></rect>
+<text x="1074" y="616" font-size="12" fill="#fff"><tspan font-weight="700">#103</tspan> Operandos finitos</text>
+<text x="1296" y="616" font-size="11" fill="#fff" text-anchor="end">r56</text>
+<rect class="s0" x="1064" y="642" width="240" height="38" rx="6"><title>#104: Muestras finitas (ronda 57)</title></rect>
+<text x="1074" y="666" font-size="12" fill="#fff"><tspan font-weight="700">#104</tspan> Muestras finitas</text>
+<text x="1296" y="666" font-size="11" fill="#fff" text-anchor="end">r57</text>
+<rect class="s0" x="1064" y="692" width="240" height="38" rx="6"><title>#105: Recuentos de evidencia (ronda 58)</title></rect>
+<text x="1074" y="716" font-size="12" fill="#fff"><tspan font-weight="700">#105</tspan> Recuentos de evidencia</text>
+<text x="1296" y="716" font-size="11" fill="#fff" text-anchor="end">r58</text>
+<rect class="s2" x="1064" y="742" width="240" height="38" rx="6"><title>#106: Lipschitz no negativa (ronda 59)</title></rect>
+<text x="1074" y="766" font-size="12" fill="#fff"><tspan font-weight="700">#106</tspan> Lipschitz no negativa</text>
+<text x="1296" y="766" font-size="11" fill="#fff" text-anchor="end">r59</text>
+<rect class="s0" x="1064" y="792" width="240" height="38" rx="6"><title>#107: Viabilidad y exactitud (ronda 60)</title></rect>
+<text x="1074" y="816" font-size="12" fill="#fff"><tspan font-weight="700">#107</tspan> Viabilidad y exactitud</text>
+<text x="1296" y="816" font-size="11" fill="#fff" text-anchor="end">r60</text>
+<rect class="s0" x="16" y="868" width="14" height="14" rx="3"/>
+<text class="ink" x="38" y="880" font-size="12">Corrección sin cambio de estado</text>
+<rect class="s2" x="316" y="868" width="14" height="14" rx="3"/>
+<text class="ink" x="338" y="880" font-size="12">Responde un registro (L-01, M28-07, L-11, F-07, L-12, L-13)</text>
+<text class="ink2" x="1310" y="880" font-size="11" text-anchor="end">#94, #100 y #104 son además el origen de L-11, L-12 y L-13.</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" width="700" height="380" role="img" aria-label="Valor neto de B y de la inspección dirigida frente al número de hojas"><style>
+  .ink{fill:#0b0b0b}.ink2{fill:#52514e}.bg{fill:#fcfcfb}.grid{stroke:#e4e3df}
+  .s0{fill:#2a78d6}.s1{fill:#eb6834}.s2{fill:#1baf7a}.s3{fill:#eda100}.s4{fill:#e87ba4}
+  .a0{fill:#2a78d6}.a1{fill:#eb6834}.a0s{stroke:#2a78d6}.a1s{stroke:#eb6834}
+  text{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .ink{fill:#f0efec}.ink2{fill:#c3c2b7}.bg{fill:#1a1a19}.grid{stroke:#383835}
+    .s0{fill:#3987e5}.s1{fill:#d95926}.s2{fill:#199e70}.s3{fill:#c98500}.s4{fill:#d55181}
+    .a0{fill:#3987e5}.a1{fill:#d95926}.a0s{stroke:#3987e5}.a1s{stroke:#d95926}
+  }
+</style>
+<rect class="bg" width="700" height="380" rx="8"/>
+<text class="ink" x="16" y="28" font-size="16" font-weight="600">K-01 · ¿Hasta qué tamaño gana la cualificación B?</text>
+<text class="ink2" x="16" y="50" font-size="12">Valor neto para una pregunta (#44, costes por defecto). B paga 0,25 por nodo del trayecto + 0,75;</text>
+<text class="ink2" x="16" y="66" font-size="12">la inspección dirigida paga 3 fijo. La ampliación completa (−22 con 16 hojas) queda fuera del gráfico.</text>
+<line class="grid" x1="64" x2="530" y1="284.0" y2="284.0" stroke-width="1"/>
+<text class="ink2" x="56" y="288.0" font-size="11" text-anchor="end">6</text>
+<line class="grid" x1="64" x2="530" y1="244.0" y2="244.0" stroke-width="1"/>
+<text class="ink2" x="56" y="248.0" font-size="11" text-anchor="end">6,5</text>
+<line class="grid" x1="64" x2="530" y1="204.0" y2="204.0" stroke-width="1"/>
+<text class="ink2" x="56" y="208.0" font-size="11" text-anchor="end">7</text>
+<line class="grid" x1="64" x2="530" y1="164.0" y2="164.0" stroke-width="1"/>
+<text class="ink2" x="56" y="168.0" font-size="11" text-anchor="end">7,5</text>
+<line class="grid" x1="64" x2="530" y1="124.0" y2="124.0" stroke-width="1"/>
+<text class="ink2" x="56" y="128.0" font-size="11" text-anchor="end">8</text>
+<line class="grid" x1="64" x2="530" y1="84.0" y2="84.0" stroke-width="1"/>
+<text class="ink2" x="56" y="88.0" font-size="11" text-anchor="end">8,5</text>
+<text class="ink2" x="64.0" y="342" font-size="11" text-anchor="middle">4</text>
+<text class="ink2" x="122.2" y="342" font-size="11" text-anchor="middle">8</text>
+<text class="ink2" x="180.5" y="342" font-size="11" text-anchor="middle">16</text>
+<text class="ink2" x="238.8" y="342" font-size="11" text-anchor="middle">32</text>
+<text class="ink2" x="297.0" y="342" font-size="11" text-anchor="middle">64</text>
+<text class="ink2" x="355.2" y="342" font-size="11" text-anchor="middle">128</text>
+<text class="ink2" x="413.5" y="342" font-size="11" text-anchor="middle">256</text>
+<text class="ink2" x="471.8" y="342" font-size="11" text-anchor="middle">512</text>
+<text class="ink2" x="530.0" y="342" font-size="11" text-anchor="middle">1024</text>
+<text class="ink2" x="297.0" y="366" font-size="12" text-anchor="middle">número de hojas (escala logarítmica)</text>
+<line class="a1s" x1="64.0" x2="530.0" y1="204.0" y2="204.0" stroke-width="2"/>
+<polyline class="a0s" fill="none" stroke-width="2" points="64.0,104.0 122.2,124.0 180.5,144.0 238.8,164.0 297.0,184.0 355.2,204.0 413.5,224.0 471.8,244.0 530.0,264.0"/>
+<circle class="a0" cx="64.0" cy="104.0" r="4"><title>4 hojas: B 8.25 · dirigida 7,00</title></circle>
+<circle class="a0" cx="122.2" cy="124.0" r="4"><title>8 hojas: B 8.00 · dirigida 7,00</title></circle>
+<circle class="a0" cx="180.5" cy="144.0" r="4"><title>16 hojas: B 7.75 · dirigida 7,00</title></circle>
+<circle class="a0" cx="238.8" cy="164.0" r="4"><title>32 hojas: B 7.50 · dirigida 7,00</title></circle>
+<circle class="a0" cx="297.0" cy="184.0" r="4"><title>64 hojas: B 7.25 · dirigida 7,00</title></circle>
+<circle class="a0" cx="355.2" cy="204.0" r="4"><title>128 hojas: B 7.00 · dirigida 7,00</title></circle>
+<circle class="a0" cx="413.5" cy="224.0" r="4"><title>256 hojas: B 6.75 · dirigida 7,00</title></circle>
+<circle class="a0" cx="471.8" cy="244.0" r="4"><title>512 hojas: B 6.50 · dirigida 7,00</title></circle>
+<circle class="a0" cx="530.0" cy="264.0" r="4"><title>1024 hojas: B 6.25 · dirigida 7,00</title></circle>
+<text class="ink" x="538" y="268.0" font-size="12">B situado</text>
+<text class="ink" x="538" y="198.0" font-size="12">Inspección dirigida</text>
+<line class="grid" x1="355.2" x2="355.2" y1="84" y2="324" stroke-width="1" stroke-dasharray="4 4"/>
+<text class="ink" x="361.2" y="98" font-size="11">empate en 128 hojas</text>
+<text class="ink2" x="186.5" y="134.0" font-size="11">caso del README (16)</text>
+</svg>

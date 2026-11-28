@@ -1,0 +1,119 @@
+{
+  "cut": {
+    "main": "51fc686f45b6ef10c53b69f4c26d0e381b007ff8",
+    "audit_parent": "a02f2d3180cd4ceb00cdc38e1224ba3cdd5f7872",
+    "PR59": "a3326843aa9822b1d7a4c774531fc51818300125",
+    "PR62": "4421ff535f9b6c3d70f34882e505af35924f234c",
+    "PR60": "cb72bb65ab148de1c7396d9cb8f9c1b7af6edc25"
+  },
+  "scope": "focal incremental review; AI-assisted, not four complete corpus passes",
+  "existing_tests_reexecuted": {
+    "main": 72,
+    "PR60": 33
+  },
+  "r13_replay": {
+    "cases": 20000,
+    "unsound": 0,
+    "exactly_decidable": 6523,
+    "missed_decisive": 0
+  },
+  "cards": [
+    {
+      "id": "R16-P01",
+      "ref": "a02f2d3180cd4ceb00cdc38e1224ba3cdd5f7872",
+      "label": "latest_audit",
+      "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/reconfirm_I01_2026-10-28.py",
+      "blob": "b9822e80132ca8e58901630bec0d68c8d390901f",
+      "line": 55,
+      "before": "print(\"exactly decidable cases:\",dec,\"| code abstained or differed:\",lost)",
+      "after": "print(\"exactly decidable cases:\",dec,\"| code abstained or differed:\",lost)\nif bad or lost:\n    raise SystemExit(1)",
+      "reason": "El script imprime discrepancias pero termina con éxito incluso si bad/lost son positivos. Hacer útil su código de salida si se incorpora a verificación automática. No afecta la corrección del runner ni invalida los cero errores realmente observados.",
+      "impact": "Medium",
+      "risk": "Low",
+      "effort": "Low",
+      "receiver": "Herramienta de reconfirmación del propio PR58; complemento de J08, no reabrir I01",
+      "status": "proposed; no source incorporation"
+    },
+    {
+      "id": "R16-P02",
+      "ref": "4421ff535f9b6c3d70f34882e505af35924f234c",
+      "label": "PR62",
+      "path": "research/structural-awareness/SA_POSITIONED_RESIDUAL_REUSE_AND_LOCAL_ADAPTATION_v0.1.md",
+      "blob": "6b5d3e6871e87627c958168b073bc503e06afe3e",
+      "line": 795,
+      "before": "The expected advantage is **conditional**:\r\n\r\n\\[\r\n\\mathbb{E}[C_{\\rm five}\\mid \\text{validated, authorized gain}\\geq g]\r\n<\r\n\\mathbb{E}[C_{\\rm comparator}\\mid \\text{same evidence, gain}\\geq g],\r\n\\tag{FA-4}\r\n\\]",
+      "after": "For each policy j on the same paired tasks and a predeclared horizon tau, let S_j indicate a certified authorized gain at least g, T_j the time to its first such certificate (infinity if absent), and C_j the actual cost of every attempt, including failures. Report\n\n\\[\np_j=\\Pr(S_j=1),\\qquad\n\\overline C_j=\\mathbb E[C_j],\\qquad\n\\overline T_j=\\mathbb E[\\min(T_j,\\tau)].\n\\tag{FA-4}\n\\]\n\nCost conditional on S_j=1 is a secondary description of successful runs. At matched valid-witness recall, compare complete costs on all tasks; any time/cost trade-off needs its declared decision profile. A lower success-conditioned mean alone does not establish lower total cost. The existing requirement below to report misses and unconditional work remains operative.",
+      "reason": "Formalizar la cautela que §15.4 ya expresa: condicionar cada brazo a su propio éxito selecciona muestras distintas. La ilustración de la ronda conserva el mismo50% de éxito y aun así invierte el orden de costes. Es una concreción de M28-O1, no un fallo nuevo de CA-4.",
+      "impact": "High",
+      "risk": "Medium",
+      "effort": "Medium",
+      "receiver": "Nota de investigación62 §15.4; propietario actual; mantener FA-4 y métricas no fungibles",
+      "status": "proposed; no source incorporation"
+    },
+    {
+      "id": "R16-P03",
+      "ref": "4421ff535f9b6c3d70f34882e505af35924f234c",
+      "label": "PR62",
+      "path": "research/structural-awareness/SA_POSITIONED_RESIDUAL_REUSE_AND_LOCAL_ADAPTATION_v0.1.md",
+      "blob": "6b5d3e6871e87627c958168b073bc503e06afe3e",
+      "line": 764,
+      "before": "A source may withhold, aggregate or mark a field UNKNOWN under its confidentiality/ACC rules; the receiver must not infer missing detail. These are **functional requirements on interoperability**, not the proprietary by-leaves composition algorithm or a new canonical MSCA schema. The receiving EA/EHD/Cartography route preserves reference identity and anti-correlation checks. Independent sources can improve spatial/architectural localization, like complementary sensors with different blind spots; a composed residual hotspot is an **exploration hint**, not a truth oracle. There remains an unobserved remainder at every level.",
+      "after": "A source may withhold, aggregate or mark a field UNKNOWN under its confidentiality/ACC rules; the receiver must not infer missing detail. These are **functional requirements on interoperability**, not the proprietary by-leaves composition algorithm or a new canonical MSCA schema. The receiving EA/EHD/Cartography route preserves reference identity and anti-correlation checks. Independent sources can improve spatial/architectural localization, like complementary sensors with different blind spots; a composed residual hotspot is an **exploration hint**, not a truth oracle. There remains an unobserved remainder at every level.\n\n**Classical finite composition control.** Let X0 and X1 be independent fair bits and Y=X0 XOR X1. Each single source leaves H(Y|Xi)=1 bit and is unresolved about Y on every exposure. Repeating X0 still leaves one bit; receiving the complementary X1 gives H(Y|X0,X1)=0. The local UNKNOWN rates are identical, yet duplicate and complementary composition have different target discrimination. Use this as a bounded control for mechanism3, with the same object/question/version and legitimate disclosure; add separate incompatible-scope, correlated-clone and permission-denied cases. This is a standard four-world example, not a new Shannon/PID theorem, an implementation of proprietary MSCA internals or a measured ecosystem benefit.",
+      "reason": "Dar un control positivo y negativo ejecutable a la composición no fungible: la tasa UNKNOWN no identifica por sí sola la información conjunta. Se preservan procedencia, alcance y autorización.",
+      "impact": "High",
+      "risk": "Low",
+      "effort": "Medium",
+      "receiver": "Nota62 §15.3; desarrollo finito de H06/contraste PID; sin divulgar MSCA privado",
+      "status": "proposed; no source incorporation"
+    },
+    {
+      "id": "R16-P04",
+      "ref": "4421ff535f9b6c3d70f34882e505af35924f234c",
+      "label": "PR62",
+      "path": "research/structural-awareness/SA_POSITIONED_RESIDUAL_REUSE_AND_LOCAL_ADAPTATION_v0.1.md",
+      "blob": "6b5d3e6871e87627c958168b073bc503e06afe3e",
+      "line": 830,
+      "before": "- **Primary endpoints:** proportion of **independently certified, ACC-authorized ecosystem architectural gains** at fixed evaluation budget; full time/resources to **first** certified transition meeting declared shortfall improvement \\(g\\); ability to identify a valid gate and correctly reject hard constraints; missed high-value opportunities against an auditable bounded ground-truth fixture.",
+      "after": "- **Information and query contract for each comparator:** fix the supplied examples, allowed queries and answer provider, label/oracle cost, initial feasible seed and regularity/model assumptions, permitted architecture mutations, disclosure rights and human approval time. Distinguish passive labelled-example acquisition from active partial-query learning and safe sequential optimization. Missing a legitimate oracle or adapter is a declared applicability limit; it is not a scored failure of that technology.\n- **Primary endpoints:** proportion of **independently certified, ACC-authorized ecosystem architectural gains** at fixed evaluation budget; full time/resources to **first** certified transition meeting declared shortfall improvement \\(g\\); ability to identify a valid gate and correctly reject hard constraints; missed high-value opportunities against an auditable bounded ground-truth fixture.",
+      "reason": "Convertir los antecedentes en comparadores implementables. QuAcq2013 pide etiquetas de asignaciones parciales; el trabajo de lenguaje desconocido2023 parte de ejemplos; SafeOpt supone regularidad. Los recursos de esos contratos deben ser explícitos y pagados.",
+      "impact": "High",
+      "risk": "Low",
+      "effort": "Medium",
+      "receiver": "Nota62 §15.6; complemento del protocolo G01/F01; revisión sólo funcional, sin cambiar dueños",
+      "status": "proposed; no source incorporation"
+    },
+    {
+      "id": "R16-P05",
+      "ref": "a3326843aa9822b1d7a4c774531fc51818300125",
+      "label": "PR59_latest",
+      "path": "research/ecosystem-awareness/baseline/01I_VNext.md",
+      "blob": "30b53ffc34c030f19317b1ca7214900e80382c94",
+      "line": 243,
+      "before": "## Current-source reconciliation and promotion queue — 28 October 2026",
+      "after": "## Current-source reconciliation and promotion queue — 28 October 2026\n\n**Current reading after incorporation51fc686:** D26-C01/I01/M27-01/02/M28-01 are repaired in main and technically reconfirmed. The66/68-test statements and candidate-only status below describe earlier cuts preserved as history; use the applied receipt above for the current disposition. D26-C04–07 remain implemented in branch60; M28-02 subsequently advanced there atcb72bb65, pending incorporation. Other source selections retain their own status.",
+      "reason": "La recepción final ya cierra C01 y retira M28-02 de implementación, pero las tablas «Current» del comienzo conservan el estado candidato anterior. Un puntero vigente evita volver a aplicar o auditar como pendiente la reparación recibida.",
+      "impact": "High",
+      "risk": "Low",
+      "effort": "Low",
+      "receiver": "Única01I VNext de PR59; concreción de M28-06, no nueva cola",
+      "status": "proposed; no source incorporation"
+    },
+    {
+      "id": "IP-43",
+      "ref": "a02f2d3180cd4ceb00cdc38e1224ba3cdd5f7872",
+      "label": "latest_audit",
+      "path": "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/review/incremental-audit-2026-10-26/GUIA_DE_LECTURA.md",
+      "blob": "89f7fb5d891cde39786fd9dfa9f9b192fd96dc4f",
+      "line": 30,
+      "before": "- **Qué ha encontrado, en grande.**\n  - Las matemáticas finitas que se han comprobado son correctas bajo sus supuestos.\n  - Varias comparaciones y «experimentos» dan el resultado que ya estaba escrito en sus datos o en su código. Sirven como comprobaciones, pero no prueban una ventaja.\n  - Hubo un fallo real de cálculo (I-01), que ya está corregido en la rama principal y reconfirmado.\n",
+      "after": "- **Qué ha encontrado, en grande.**\n  - Las pruebas finitas revisadas establecen resultados concretos bajo sus hipótesis: una representación puede conservar una distinción necesaria para decidir; información compatible puede sostener una conclusión local útil; una guarda probada puede ahorrar comprobaciones en su dominio y balance de costes.\n  - Los fixtures también comprueban reproducción y sensibilidad bajo entradas o procedimientos suministrados. Esos resultados conservan su valor; para estudiar adquisición, selección o adaptación se necesita el proceso correspondiente y su evidencia.\n  - El fallo numérico I-01 y sus ampliaciones están corregidos y reconfirmados. La guarda de dominio M28-02 ya se corrigió y reconfirmó en la rama60; su incorporación sigue pendiente.\n",
+      "reason": "Transportar la pauta afirmativa de IP01–42 al nuevo resumen para lectores: decir primero qué se ha demostrado y después qué pregunta compara cada control. Preservar críticas locales y estados, evitando una conclusión global abreviada.",
+      "impact": "High",
+      "risk": "Low",
+      "effort": "Low",
+      "receiver": "Guía de lectura de PR58; misma política interpretativa, sin cambiar estados ni autoría",
+      "status": "proposed; no source incorporation"
+    }
+  ],
+  "source_edits_applied": 0
+}

@@ -1,0 +1,12 @@
+{
+  "source_blobs": {
+    "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/intrinsic-abcd-economics-v0.1/intrinsic_abcd.py": "a8540fc02e713dad7e181b7522b334dbd9f95e90",
+    "research/ecosystem-awareness/baseline/01I-artifacts/acc-auxiliary-model-v0.1/studies/risk-aversion-persistence-v0.1/risk_model.py": "0c6e2a0c9d7ce30acad7d07f3130c396b182fdec"
+  },
+  "source_worlds": 240,
+  "existing_individual_scope_checks": 480,
+  "source_feasible_action_sets_exact_gain": 904,
+  "old_sum_overcommitments": 56,
+  "source_risk_equivalent_cases": 48,
+  "status": "PASS"
+}
